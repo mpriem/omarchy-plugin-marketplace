@@ -150175,8 +150175,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T11:07:06.495Z",
-      "listingValidatedCommit": "60c4466daddfe7bd0de8f54cd07766c7842519a7",
-      "listingValidatedAt": "2026-09-08T11:07:06.495Z",
+      "listingValidatedCommit": "cacceba6585933bb957f8c691cda9d5379cb0ffa",
+      "listingValidatedAt": "2026-09-30T18:11:05.031Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -150185,8 +150185,8 @@
         "pluginIds": [
           "io.github.austindixson.touchbar"
         ],
-        "commit": "60c4466daddfe7bd0de8f54cd07766c7842519a7",
-        "checkedAt": "2026-09-08T11:07:06.424Z",
+        "commit": "cacceba6585933bb957f8c691cda9d5379cb0ffa",
+        "checkedAt": "2026-09-30T18:11:05.031Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -150194,28 +150194,6 @@
           "privilege",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "austindixson/omarchy-touchbar",
-        "pluginIds": [
-          "io.github.austindixson.touchbar"
-        ],
-        "commit": "60c4466daddfe7bd0de8f54cd07766c7842519a7",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-08T11:07:06.424Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-07T06:41:08.426Z",
-        "requestEventId": 30749049985,
-        "requestedAt": "2026-09-08T10:54:31Z",
-        "reviewedAt": "2026-09-08T11:07:06.424Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.austindixson.touchbar": {
@@ -150227,7 +150205,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "austindixson/omarchy-touchbar",
+        "pluginIds": [
+          "io.github.austindixson.touchbar"
+        ],
+        "commit": "cacceba6585933bb957f8c691cda9d5379cb0ffa",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T18:11:05.031Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T05:19:47.153Z",
+        "requestEventId": 32189231580,
+        "requestedAt": "2026-09-30T18:04:34Z",
+        "reviewedAt": "2026-09-30T18:11:05.031Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "60c4466daddfe7bd0de8f54cd07766c7842519a7",
+          "validatedAt": "2026-09-08T11:07:06.495Z",
+          "branch": "main",
+          "supersededAt": "2026-09-30T18:11:05.031Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "austindixson/omarchy-touchbar",
+            "pluginIds": [
+              "io.github.austindixson.touchbar"
+            ],
+            "commit": "60c4466daddfe7bd0de8f54cd07766c7842519a7",
+            "checkedAt": "2026-09-08T11:07:06.424Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "austindixson/omarchy-touchbar",
+            "pluginIds": [
+              "io.github.austindixson.touchbar"
+            ],
+            "commit": "60c4466daddfe7bd0de8f54cd07766c7842519a7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-08T11:07:06.424Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-07T06:41:08.426Z",
+            "requestEventId": 30749049985,
+            "requestedAt": "2026-09-08T10:54:31Z",
+            "reviewedAt": "2026-09-08T11:07:06.424Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/itchyfeetleech/OP1we-Control",
