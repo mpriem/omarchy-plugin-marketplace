@@ -246749,6 +246749,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/prostratepossum/omarchy-starwatch-background",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T18:17:18.296Z",
+      "listingValidatedCommit": "f27bc78997b826f3124016b9c342a2ac74f5fcb7",
+      "listingValidatedAt": "2026-09-30T18:17:18.296Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "prostratepossum/omarchy-starwatch-background",
+        "pluginIds": [
+          "io.github.prostratepossum.starwatch-background"
+        ],
+        "commit": "f27bc78997b826f3124016b9c342a2ac74f5fcb7",
+        "checkedAt": "2026-09-30T18:17:18.179Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.prostratepossum.starwatch-background": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
