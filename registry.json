@@ -149372,8 +149372,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T10:15:31.350Z",
-      "listingValidatedCommit": "ce0a8456b614cf7a8abd0d0e134ef8862d001d6b",
-      "listingValidatedAt": "2026-09-08T10:15:31.350Z",
+      "listingValidatedCommit": "6fd4e342eb3bd106f3a079b3e2db9f3d331dc9b2",
+      "listingValidatedAt": "2026-09-30T20:25:11.108Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -149382,12 +149382,14 @@
         "pluginIds": [
           "ignibyte.kids-clock"
         ],
-        "commit": "ce0a8456b614cf7a8abd0d0e134ef8862d001d6b",
-        "checkedAt": "2026-09-08T10:15:31.297Z",
-        "outcome": "passed",
+        "commit": "6fd4e342eb3bd106f3a079b3e2db9f3d331dc9b2",
+        "checkedAt": "2026-09-30T20:25:11.108Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "privilege"
+        ]
       },
       "plugins": {
         "ignibyte.kids-clock": {
@@ -149399,7 +149401,50 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ignibyte/omarchy-kids-clock",
+        "pluginIds": [
+          "ignibyte.kids-clock"
+        ],
+        "commit": "6fd4e342eb3bd106f3a079b3e2db9f3d331dc9b2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T20:25:11.108Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T18:45:51.930Z",
+        "requestEventId": 32198538165,
+        "requestedAt": "2026-09-30T20:23:39Z",
+        "reviewedAt": "2026-09-30T20:25:11.108Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ce0a8456b614cf7a8abd0d0e134ef8862d001d6b",
+          "validatedAt": "2026-09-08T10:15:31.350Z",
+          "branch": "main",
+          "supersededAt": "2026-09-30T20:25:11.108Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ignibyte/omarchy-kids-clock",
+            "pluginIds": [
+              "ignibyte.kids-clock"
+            ],
+            "commit": "ce0a8456b614cf7a8abd0d0e134ef8862d001d6b",
+            "checkedAt": "2026-09-08T10:15:31.297Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/LFDM-85/omarchy-vox-portrait",
