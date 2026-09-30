@@ -216876,8 +216876,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T17:30:02.175Z",
-      "listingValidatedCommit": "05c7cf99918f59c1647d937c613690f2ea51e555",
-      "listingValidatedAt": "2026-09-22T17:30:02.175Z",
+      "listingValidatedCommit": "d1ca171bdecff500c296307ad23638b0338c04ca",
+      "listingValidatedAt": "2026-09-30T18:41:51.002Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -216886,8 +216886,8 @@
         "pluginIds": [
           "io.github.07dcolem.target-boot"
         ],
-        "commit": "05c7cf99918f59c1647d937c613690f2ea51e555",
-        "checkedAt": "2026-09-22T17:30:02.087Z",
+        "commit": "d1ca171bdecff500c296307ad23638b0338c04ca",
+        "checkedAt": "2026-09-30T18:41:51.002Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -216895,28 +216895,6 @@
           "privilege",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "07dcolem/omarchy-target-boot",
-        "pluginIds": [
-          "io.github.07dcolem.target-boot"
-        ],
-        "commit": "05c7cf99918f59c1647d937c613690f2ea51e555",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-22T17:30:02.087Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-22T16:57:59.735Z",
-        "requestEventId": 31618349389,
-        "requestedAt": "2026-09-22T17:23:08Z",
-        "reviewedAt": "2026-09-22T17:30:02.087Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.07dcolem.target-boot": {
@@ -216928,7 +216906,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "07dcolem/omarchy-target-boot",
+        "pluginIds": [
+          "io.github.07dcolem.target-boot"
+        ],
+        "commit": "d1ca171bdecff500c296307ad23638b0338c04ca",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T18:41:51.002Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-27T03:27:39.442Z",
+        "requestEventId": 32191592562,
+        "requestedAt": "2026-09-30T18:40:44Z",
+        "reviewedAt": "2026-09-30T18:41:51.002Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "05c7cf99918f59c1647d937c613690f2ea51e555",
+          "validatedAt": "2026-09-22T17:30:02.175Z",
+          "branch": "main",
+          "supersededAt": "2026-09-30T18:41:51.002Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "07dcolem/omarchy-target-boot",
+            "pluginIds": [
+              "io.github.07dcolem.target-boot"
+            ],
+            "commit": "05c7cf99918f59c1647d937c613690f2ea51e555",
+            "checkedAt": "2026-09-22T17:30:02.087Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "07dcolem/omarchy-target-boot",
+            "pluginIds": [
+              "io.github.07dcolem.target-boot"
+            ],
+            "commit": "05c7cf99918f59c1647d937c613690f2ea51e555",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-22T17:30:02.087Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-22T16:57:59.735Z",
+            "requestEventId": 31618349389,
+            "requestedAt": "2026-09-22T17:23:08Z",
+            "reviewedAt": "2026-09-22T17:30:02.087Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dragosol/omarchy-pear-passwords",
