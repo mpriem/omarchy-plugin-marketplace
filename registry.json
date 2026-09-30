@@ -183531,8 +183531,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T06:37:06.090Z",
-      "listingValidatedCommit": "944d5237564f453477d25c8db17ade76134c2ae6",
-      "listingValidatedAt": "2026-09-16T06:37:06.090Z",
+      "listingValidatedCommit": "15853b0e8a0aa953face324e69b3b822cb91a398",
+      "listingValidatedAt": "2026-09-30T21:41:12.724Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -183541,8 +183541,8 @@
         "pluginIds": [
           "omarctalia.launcher"
         ],
-        "commit": "944d5237564f453477d25c8db17ade76134c2ae6",
-        "checkedAt": "2026-09-16T06:37:06.006Z",
+        "commit": "15853b0e8a0aa953face324e69b3b822cb91a398",
+        "checkedAt": "2026-09-30T21:41:12.724Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -183551,29 +183551,6 @@
           "privilege",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "daphnisduck/omarctalia-launcher",
-        "pluginIds": [
-          "omarctalia.launcher"
-        ],
-        "commit": "944d5237564f453477d25c8db17ade76134c2ae6",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T06:37:06.006Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-16T02:28:27.095Z",
-        "requestEventId": 31224848226,
-        "requestedAt": "2026-09-16T06:31:57Z",
-        "reviewedAt": "2026-09-16T06:37:06.006Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "omarctalia.launcher": {
@@ -183584,7 +183561,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "daphnisduck/omarctalia-launcher",
+        "pluginIds": [
+          "omarctalia.launcher"
+        ],
+        "commit": "15853b0e8a0aa953face324e69b3b822cb91a398",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T21:41:12.724Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-18T04:11:58.731Z",
+        "requestEventId": 32203209752,
+        "requestedAt": "2026-09-30T21:40:26Z",
+        "reviewedAt": "2026-09-30T21:41:12.724Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "944d5237564f453477d25c8db17ade76134c2ae6",
+          "validatedAt": "2026-09-16T06:37:06.090Z",
+          "branch": "main",
+          "supersededAt": "2026-09-30T21:41:12.724Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "daphnisduck/omarctalia-launcher",
+            "pluginIds": [
+              "omarctalia.launcher"
+            ],
+            "commit": "944d5237564f453477d25c8db17ade76134c2ae6",
+            "checkedAt": "2026-09-16T06:37:06.006Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "daphnisduck/omarctalia-launcher",
+            "pluginIds": [
+              "omarctalia.launcher"
+            ],
+            "commit": "944d5237564f453477d25c8db17ade76134c2ae6",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T06:37:06.006Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-16T02:28:27.095Z",
+            "requestEventId": 31224848226,
+            "requestedAt": "2026-09-16T06:31:57Z",
+            "reviewedAt": "2026-09-16T06:37:06.006Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ninepointlabs/omarchy-spotify",
