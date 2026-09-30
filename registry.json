@@ -246526,6 +246526,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/juan-LARRAYA/omarchy-voxtype",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T17:55:05.413Z",
+      "listingValidatedCommit": "40029b5ece66060eb73396bb10a266970db89429",
+      "listingValidatedAt": "2026-09-30T17:55:05.413Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "juan-larraya/omarchy-voxtype",
+        "pluginIds": [
+          "juan.voxtype"
+        ],
+        "commit": "40029b5ece66060eb73396bb10a266970db89429",
+        "checkedAt": "2026-09-30T17:55:05.319Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "juan.voxtype": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
