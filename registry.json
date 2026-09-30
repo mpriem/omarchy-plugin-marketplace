@@ -247896,6 +247896,66 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/sharpmonk/omarchy-wow-character-card",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T20:45:50.220Z",
+      "listingValidatedCommit": "203e5e31a0d40853a64e363ab6dd216885a63260",
+      "listingValidatedAt": "2026-09-30T20:45:50.220Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sharpmonk/omarchy-wow-character-card",
+        "pluginIds": [
+          "sharpmonk.wow-character-card"
+        ],
+        "commit": "203e5e31a0d40853a64e363ab6dd216885a63260",
+        "checkedAt": "2026-09-30T20:45:50.107Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "sharpmonk/omarchy-wow-character-card",
+        "pluginIds": [
+          "sharpmonk.wow-character-card"
+        ],
+        "commit": "203e5e31a0d40853a64e363ab6dd216885a63260",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T20:45:50.107Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-29T23:19:21.679Z",
+        "requestEventId": 32199843269,
+        "requestedAt": "2026-09-30T20:44:28Z",
+        "reviewedAt": "2026-09-30T20:45:50.108Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "sharpmonk.wow-character-card": {
+          "category": "Widgets",
+          "tags": [
+            "games",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
