@@ -98600,8 +98600,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-29",
       "listedAt": "2026-08-29T19:48:29.166Z",
-      "listingValidatedCommit": "df6f89ba2046d786210e6d81e15d90c9dce77f9b",
-      "listingValidatedAt": "2026-09-02T02:00:01.869Z",
+      "listingValidatedCommit": "4e503408e5929a76e1f7346c0b11f369a9db3177",
+      "listingValidatedAt": "2026-09-30T23:10:17.216Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -98610,8 +98610,8 @@
         "pluginIds": [
           "io.github.guiestrela.wallpaperomarchymanager"
         ],
-        "commit": "df6f89ba2046d786210e6d81e15d90c9dce77f9b",
-        "checkedAt": "2026-09-02T02:00:01.869Z",
+        "commit": "4e503408e5929a76e1f7346c0b11f369a9db3177",
+        "checkedAt": "2026-09-30T23:10:17.216Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -98643,6 +98643,26 @@
             ],
             "commit": "23afccab28c903c277498239baaf2275f5fd2d05",
             "checkedAt": "2026-08-29T19:48:29.121Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "df6f89ba2046d786210e6d81e15d90c9dce77f9b",
+          "validatedAt": "2026-09-02T02:00:01.869Z",
+          "branch": "main",
+          "supersededAt": "2026-09-30T23:10:17.216Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "guiestrela/wallpaper-omarchy-manager",
+            "pluginIds": [
+              "io.github.guiestrela.wallpaperomarchymanager"
+            ],
+            "commit": "df6f89ba2046d786210e6d81e15d90c9dce77f9b",
+            "checkedAt": "2026-09-02T02:00:01.869Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
