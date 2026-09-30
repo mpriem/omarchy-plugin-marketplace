@@ -247115,6 +247115,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/unrealandychan/omarchy-backup-manager",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T19:10:05.561Z",
+      "listingValidatedCommit": "1d957df4a57834516ffb1748dbb1ea66f98d9b06",
+      "listingValidatedAt": "2026-09-30T19:10:05.561Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "unrealandychan/omarchy-backup-manager",
+        "pluginIds": [
+          "arch.backup-manager"
+        ],
+        "commit": "1d957df4a57834516ffb1748dbb1ea66f98d9b06",
+        "checkedAt": "2026-09-30T19:10:05.464Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "unrealandychan/omarchy-backup-manager",
+        "pluginIds": [
+          "arch.backup-manager"
+        ],
+        "commit": "1d957df4a57834516ffb1748dbb1ea66f98d9b06",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T19:10:05.464Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-29T16:45:05.578Z",
+        "requestEventId": 32193607760,
+        "requestedAt": "2026-09-30T19:09:35Z",
+        "reviewedAt": "2026-09-30T19:10:05.464Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "arch.backup-manager": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
