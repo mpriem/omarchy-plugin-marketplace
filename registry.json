@@ -247765,6 +247765,43 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/anderskeis/keisVibe",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T20:35:25.538Z",
+      "listingValidatedCommit": "9cdb211a51920eb4d0f47c380d5af80377644e48",
+      "listingValidatedAt": "2026-09-30T20:35:25.538Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "anderskeis/keisvibe",
+        "pluginIds": [
+          "keis.vibe"
+        ],
+        "commit": "9cdb211a51920eb4d0f47c380d5af80377644e48",
+        "checkedAt": "2026-09-30T20:35:25.423Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "keis.vibe": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
