@@ -248060,6 +248060,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/FerC10110/omarchy-recognition",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T21:13:53.877Z",
+      "listingValidatedCommit": "0b211998810235b2275d49068a698073e3fe6289",
+      "listingValidatedAt": "2026-09-30T21:13:53.877Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ferc10110/omarchy-recognition",
+        "pluginIds": [
+          "io.github.ferc10110.recognition"
+        ],
+        "commit": "0b211998810235b2275d49068a698073e3fe6289",
+        "checkedAt": "2026-09-30T21:13:53.767Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ferc10110/omarchy-recognition",
+        "pluginIds": [
+          "io.github.ferc10110.recognition"
+        ],
+        "commit": "0b211998810235b2275d49068a698073e3fe6289",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T21:13:53.767Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T01:29:11.956Z",
+        "requestEventId": 32201650832,
+        "requestedAt": "2026-09-30T21:13:20Z",
+        "reviewedAt": "2026-09-30T21:13:53.767Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.ferc10110.recognition": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "security"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
