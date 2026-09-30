@@ -248821,6 +248821,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jburchel/omarchy-alt-tab",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T23:30:04.259Z",
+      "listingValidatedCommit": "c01d2b5aff7fb364e85d248bb44c7bedda092613",
+      "listingValidatedAt": "2026-09-30T23:30:04.259Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jburchel/omarchy-alt-tab",
+        "pluginIds": [
+          "io.github.jburchel.omarchy-alt-tab"
+        ],
+        "commit": "c01d2b5aff7fb364e85d248bb44c7bedda092613",
+        "checkedAt": "2026-09-30T23:30:04.147Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.jburchel.omarchy-alt-tab": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
