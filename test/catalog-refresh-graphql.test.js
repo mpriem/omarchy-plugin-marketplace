@@ -525,6 +525,47 @@ test("REST tree budget is explicit, bounded, and fail-closed", async () => {
   }
 });
 
+test("REST tree budget retries transient failures and reports the final cause", async () => {
+  const originalFetch = globalThis.fetch;
+  try {
+    resetCatalogApiUsage();
+    let calls = 0;
+    globalThis.fetch = async (input) => {
+      assert.equal(String(input), "https://api.github.com/rate_limit");
+      calls += 1;
+      if (calls === 1) return new Response("unavailable", { status: 502 });
+      if (calls === 2) throw new TypeError("fetch failed");
+      return jsonResponse({
+        resources: { core: { limit: 5000, remaining: 4000, reset: 1787997600 } },
+      });
+    };
+    const accepted = await assertFullRefreshRestBudget(250);
+    assert.equal(accepted.remaining, 4000);
+    assert.equal(currentCatalogApiUsage().restRateLimitRequests, 3);
+
+    globalThis.fetch = async () => new Response("unavailable", { status: 503 });
+    await assert.rejects(
+      assertFullRefreshRestBudget(250),
+      (error) => error instanceof CatalogBuildError
+        && error.code === "api-budget-insufficient"
+        && error.publicMessage === "GitHub REST core budget request failed: GitHub API 503",
+    );
+
+    globalThis.fetch = async () => {
+      throw new TypeError("fetch failed", {
+        cause: Object.assign(new Error("read ECONNRESET"), { code: "ECONNRESET" }),
+      });
+    };
+    await assert.rejects(
+      assertFullRefreshRestBudget(250),
+      (error) => error instanceof CatalogBuildError
+        && error.publicMessage === "GitHub REST core budget request failed: Network request failed for api.github.com: TypeError: fetch failed (ECONNRESET)",
+    );
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
 test("tree and raw failures preserve a GraphQL-observed newer commit", async () => {
   for (const failurePoint of ["tree", "raw"]) {
     const directory = await mkdtemp(join(tmpdir(), `marketplace-observed-${failurePoint}-`));

@@ -43,6 +43,7 @@ export const catalogRefreshGraphqlBatchSize = 50;
 export const catalogRefreshGraphqlBudgetReserve = 50;
 export const catalogRefreshGraphqlPointsPerBatchReserve = 10;
 const catalogRefreshGraphqlAttempts = 3;
+const catalogRefreshRestBudgetAttempts = 3;
 export const catalogRefreshRestBudgetReserve = 500;
 export const catalogSourceValidationVersion = 1;
 const accents = ["lime", "amber", "coral", "cyan", "violet", "rose"];
@@ -170,9 +171,10 @@ async function fetchWithTimeout(url, options = {}) {
       signal: AbortSignal.timeout(requestTimeout),
     });
   } catch (error) {
+    const cause = error?.cause?.code || error?.cause?.name || "";
     throw new CatalogCheckError(
       "repository-unreachable",
-      `Network request failed for ${new URL(url).hostname}: ${error.message}`,
+      `Network request failed for ${new URL(url).hostname}: ${error?.name || "Error"}: ${error?.message}${cause ? ` (${cause})` : ""}`,
     );
   }
 }
@@ -1923,6 +1925,25 @@ export function assertRepositoryMigrationPreviousState(sourcePlan, previous) {
   return byCurrentRepository;
 }
 
+async function githubRateLimit() {
+  let lastError;
+  for (let attempt = 1; attempt <= catalogRefreshRestBudgetAttempts; attempt += 1) {
+    try {
+      return await githubApi("/rate_limit");
+    } catch (error) {
+      if (!(error instanceof CatalogCheckError)) throw error;
+      lastError = error;
+      if (attempt < catalogRefreshRestBudgetAttempts) {
+        await new Promise((resolveDelay) => setTimeout(resolveDelay, attempt * 250));
+      }
+    }
+  }
+  throw new CatalogBuildError(
+    "api-budget-insufficient",
+    `GitHub REST core budget request failed: ${lastError.message}`,
+  );
+}
+
 export async function assertFullRefreshRestBudget(requiredTreeRequests, options = {}) {
   const reserve = options.reserve ?? catalogRefreshRestBudgetReserve;
   if (
@@ -1934,7 +1955,7 @@ export async function assertFullRefreshRestBudget(requiredTreeRequests, options 
     throw new CatalogBuildError("internal-error", "Catalog refresh REST budget requirement is invalid");
   }
   if (!requiredTreeRequests) return Object.freeze({ limit: 0, remaining: 0, resetAt: "" });
-  const rateLimit = await githubApi("/rate_limit");
+  const rateLimit = await githubRateLimit();
   const core = rateLimit?.resources?.core;
   const limit = Number(core?.limit);
   const remaining = Number(core?.remaining);
