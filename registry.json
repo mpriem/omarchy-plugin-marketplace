@@ -190486,8 +190486,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-17",
       "listedAt": "2026-09-17T07:35:20.907Z",
-      "listingValidatedCommit": "a482609ecc4a0e9a2d93c456507ce56774739bf1",
-      "listingValidatedAt": "2026-09-17T07:35:20.907Z",
+      "listingValidatedCommit": "6859eb786bb44f2775046fca4d29d685fab111ed",
+      "listingValidatedAt": "2026-09-30T21:50:58.665Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -190496,35 +190496,12 @@
         "pluginIds": [
           "shienze.muster"
         ],
-        "commit": "a482609ecc4a0e9a2d93c456507ce56774739bf1",
-        "checkedAt": "2026-09-17T07:35:20.815Z",
-        "outcome": "review-required",
+        "commit": "6859eb786bb44f2775046fca4d29d685fab111ed",
+        "checkedAt": "2026-09-30T21:50:58.665Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": [
-          "remote-build"
-        ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "77-223255/omarchy-muster",
-        "pluginIds": [
-          "shienze.muster"
-        ],
-        "commit": "a482609ecc4a0e9a2d93c456507ce56774739bf1",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-17T07:35:20.815Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-17T01:20:16.529Z",
-        "requestEventId": 31300324897,
-        "requestedAt": "2026-09-17T07:06:28Z",
-        "reviewedAt": "2026-09-17T07:35:20.815Z",
-        "reviewer": "HANCORE-linux"
+        "capabilities": []
       },
       "plugins": {
         "shienze.muster": {
@@ -190536,7 +190513,52 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a482609ecc4a0e9a2d93c456507ce56774739bf1",
+          "validatedAt": "2026-09-17T07:35:20.907Z",
+          "branch": "main",
+          "supersededAt": "2026-09-30T21:50:58.665Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "77-223255/omarchy-muster",
+            "pluginIds": [
+              "shienze.muster"
+            ],
+            "commit": "a482609ecc4a0e9a2d93c456507ce56774739bf1",
+            "checkedAt": "2026-09-17T07:35:20.815Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "77-223255/omarchy-muster",
+            "pluginIds": [
+              "shienze.muster"
+            ],
+            "commit": "a482609ecc4a0e9a2d93c456507ce56774739bf1",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-17T07:35:20.815Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-17T01:20:16.529Z",
+            "requestEventId": 31300324897,
+            "requestedAt": "2026-09-17T07:06:28Z",
+            "reviewedAt": "2026-09-17T07:35:20.815Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jwkicklighter/jwkicklighter.input-layout",
