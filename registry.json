@@ -163710,8 +163710,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-10",
       "listedAt": "2026-09-10T15:18:15.753Z",
-      "listingValidatedCommit": "828e6395010860519a570de8808c5a5eb844dd9c",
-      "listingValidatedAt": "2026-09-10T15:18:15.753Z",
+      "listingValidatedCommit": "daf19ddd87cb610b1ae82c4c0827649f2060fde2",
+      "listingValidatedAt": "2026-09-30T18:04:33.935Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -163720,8 +163720,8 @@
         "pluginIds": [
           "io.github.saikomantisu.playerwidget"
         ],
-        "commit": "828e6395010860519a570de8808c5a5eb844dd9c",
-        "checkedAt": "2026-09-10T15:18:15.674Z",
+        "commit": "daf19ddd87cb610b1ae82c4c0827649f2060fde2",
+        "checkedAt": "2026-09-30T18:04:33.935Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -163737,7 +163737,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "828e6395010860519a570de8808c5a5eb844dd9c",
+          "validatedAt": "2026-09-10T15:18:15.753Z",
+          "branch": "master",
+          "supersededAt": "2026-09-30T18:04:33.935Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "saikomantisu/omarchy-playerwidget",
+            "pluginIds": [
+              "io.github.saikomantisu.playerwidget"
+            ],
+            "commit": "828e6395010860519a570de8808c5a5eb844dd9c",
+            "checkedAt": "2026-09-10T15:18:15.674Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/mamal72/omarchy-arzdoon",
