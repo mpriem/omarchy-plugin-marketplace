@@ -228459,8 +228459,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-25",
       "listedAt": "2026-09-25T21:15:36.356Z",
-      "listingValidatedCommit": "62e0147cc5ae2b9b2eec4af0af19112f4481d501",
-      "listingValidatedAt": "2026-09-25T21:15:36.356Z",
+      "listingValidatedCommit": "32e30609b8fe3a030a788583e87690ed477a3536",
+      "listingValidatedAt": "2026-09-30T18:14:08.390Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -228469,8 +228469,8 @@
         "pluginIds": [
           "io.github.simonfrom.betterworkspaces"
         ],
-        "commit": "62e0147cc5ae2b9b2eec4af0af19112f4481d501",
-        "checkedAt": "2026-09-25T21:15:36.252Z",
+        "commit": "32e30609b8fe3a030a788583e87690ed477a3536",
+        "checkedAt": "2026-09-30T18:14:08.390Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -228486,7 +228486,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "62e0147cc5ae2b9b2eec4af0af19112f4481d501",
+          "validatedAt": "2026-09-25T21:15:36.356Z",
+          "branch": "main",
+          "supersededAt": "2026-09-30T18:14:08.390Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "simonfrom/betterworkspaces",
+            "pluginIds": [
+              "io.github.simonfrom.betterworkspaces"
+            ],
+            "commit": "62e0147cc5ae2b9b2eec4af0af19112f4481d501",
+            "checkedAt": "2026-09-25T21:15:36.252Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/R1T1KKUMAR/omarchy-portkiller",
