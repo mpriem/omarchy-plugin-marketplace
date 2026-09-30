@@ -213083,8 +213083,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T09:11:16.178Z",
-      "listingValidatedCommit": "6f26cc7fa87020f8db8122f93f546d43fc9085e1",
-      "listingValidatedAt": "2026-09-22T09:11:16.178Z",
+      "listingValidatedCommit": "03836f785ea9939e12377dcd5086a9503a429b53",
+      "listingValidatedAt": "2026-09-30T23:57:56.553Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -213093,8 +213093,8 @@
         "pluginIds": [
           "com.b150.walkie"
         ],
-        "commit": "6f26cc7fa87020f8db8122f93f546d43fc9085e1",
-        "checkedAt": "2026-09-22T09:11:16.073Z",
+        "commit": "03836f785ea9939e12377dcd5086a9503a429b53",
+        "checkedAt": "2026-09-30T23:57:56.553Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -213102,28 +213102,6 @@
           "privilege",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "adamperlis/omarchy-walkie",
-        "pluginIds": [
-          "com.b150.walkie"
-        ],
-        "commit": "6f26cc7fa87020f8db8122f93f546d43fc9085e1",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-22T09:11:16.073Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-22T09:07:24.465Z",
-        "requestEventId": 31587666441,
-        "requestedAt": "2026-09-22T09:09:30Z",
-        "reviewedAt": "2026-09-22T09:11:16.073Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "com.b150.walkie": {
@@ -213134,7 +213112,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "adamperlis/omarchy-walkie",
+        "pluginIds": [
+          "com.b150.walkie"
+        ],
+        "commit": "03836f785ea9939e12377dcd5086a9503a429b53",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T23:57:56.553Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T18:07:43.353Z",
+        "requestEventId": 32209722334,
+        "requestedAt": "2026-09-30T23:57:30Z",
+        "reviewedAt": "2026-09-30T23:57:56.553Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "6f26cc7fa87020f8db8122f93f546d43fc9085e1",
+          "validatedAt": "2026-09-22T09:11:16.178Z",
+          "branch": "main",
+          "supersededAt": "2026-09-30T23:57:56.553Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "adamperlis/omarchy-walkie",
+            "pluginIds": [
+              "com.b150.walkie"
+            ],
+            "commit": "6f26cc7fa87020f8db8122f93f546d43fc9085e1",
+            "checkedAt": "2026-09-22T09:11:16.073Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "adamperlis/omarchy-walkie",
+            "pluginIds": [
+              "com.b150.walkie"
+            ],
+            "commit": "6f26cc7fa87020f8db8122f93f546d43fc9085e1",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-22T09:11:16.073Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-22T09:07:24.465Z",
+            "requestEventId": 31587666441,
+            "requestedAt": "2026-09-22T09:09:30Z",
+            "reviewedAt": "2026-09-22T09:11:16.073Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/denialbb/relay",
