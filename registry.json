@@ -248186,6 +248186,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/polidog/omarchy-abematv",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T21:30:18.741Z",
+      "listingValidatedCommit": "a2ccaa8d784abfe3ec6405f1ffc51ab3ab54bcbf",
+      "listingValidatedAt": "2026-09-30T21:30:18.741Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "polidog/omarchy-abematv",
+        "pluginIds": [
+          "io.github.polidog.abematv"
+        ],
+        "commit": "a2ccaa8d784abfe3ec6405f1ffc51ab3ab54bcbf",
+        "checkedAt": "2026-09-30T21:30:18.650Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "polidog/omarchy-abematv",
+        "pluginIds": [
+          "io.github.polidog.abematv"
+        ],
+        "commit": "a2ccaa8d784abfe3ec6405f1ffc51ab3ab54bcbf",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T21:30:18.650Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T02:11:35.845Z",
+        "requestEventId": 32202597593,
+        "requestedAt": "2026-09-30T21:29:40Z",
+        "reviewedAt": "2026-09-30T21:30:18.650Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.polidog.abematv": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
