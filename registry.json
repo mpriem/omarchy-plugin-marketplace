@@ -248552,6 +248552,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/TitanicRuby/omarchy-snake",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T22:15:14.298Z",
+      "listingValidatedCommit": "fdd3c98bbf88278f68574199b6ed5d2f9340ec3d",
+      "listingValidatedAt": "2026-09-30T22:15:14.298Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "titanicruby/omarchy-snake",
+        "pluginIds": [
+          "io.github.titanicruby.snake"
+        ],
+        "commit": "fdd3c98bbf88278f68574199b6ed5d2f9340ec3d",
+        "checkedAt": "2026-09-30T22:15:14.187Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.titanicruby.snake": {
+          "category": "Widgets",
+          "tags": [
+            "games",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
