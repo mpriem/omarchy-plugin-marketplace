@@ -227636,8 +227636,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-25",
       "listedAt": "2026-09-25T17:12:14.192Z",
-      "listingValidatedCommit": "ceec5cc7d2fbbdd72cd3a11a3d72008c49aa8b1d",
-      "listingValidatedAt": "2026-09-27T22:41:11.841Z",
+      "listingValidatedCommit": "ad204932e2fadcae6b09fae02f630b717e5dccb4",
+      "listingValidatedAt": "2026-09-30T18:29:28.907Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -227646,8 +227646,8 @@
         "pluginIds": [
           "oriolus.audio-visualizer"
         ],
-        "commit": "ceec5cc7d2fbbdd72cd3a11a3d72008c49aa8b1d",
-        "checkedAt": "2026-09-27T22:41:11.841Z",
+        "commit": "ad204932e2fadcae6b09fae02f630b717e5dccb4",
+        "checkedAt": "2026-09-30T18:29:28.907Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -227669,27 +227669,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "oriolescserr/omarchy-audio-visualizer",
-        "pluginIds": [
-          "oriolus.audio-visualizer"
-        ],
-        "commit": "ceec5cc7d2fbbdd72cd3a11a3d72008c49aa8b1d",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T22:41:11.841Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-27T13:22:53.860Z",
-        "requestEventId": 31950586159,
-        "requestedAt": "2026-09-27T22:39:05Z",
-        "reviewedAt": "2026-09-27T22:41:11.841Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -227734,8 +227713,72 @@
             "reviewedAt": "2026-09-25T17:12:14.132Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "ceec5cc7d2fbbdd72cd3a11a3d72008c49aa8b1d",
+          "validatedAt": "2026-09-27T22:41:11.841Z",
+          "branch": "main",
+          "supersededAt": "2026-09-30T18:29:28.907Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "oriolescserr/omarchy-audio-visualizer",
+            "pluginIds": [
+              "oriolus.audio-visualizer"
+            ],
+            "commit": "ceec5cc7d2fbbdd72cd3a11a3d72008c49aa8b1d",
+            "checkedAt": "2026-09-27T22:41:11.841Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "oriolescserr/omarchy-audio-visualizer",
+            "pluginIds": [
+              "oriolus.audio-visualizer"
+            ],
+            "commit": "ceec5cc7d2fbbdd72cd3a11a3d72008c49aa8b1d",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T22:41:11.841Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-27T13:22:53.860Z",
+            "requestEventId": 31950586159,
+            "requestedAt": "2026-09-27T22:39:05Z",
+            "reviewedAt": "2026-09-27T22:41:11.841Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "oriolescserr/omarchy-audio-visualizer",
+        "pluginIds": [
+          "oriolus.audio-visualizer"
+        ],
+        "commit": "ad204932e2fadcae6b09fae02f630b717e5dccb4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T18:29:28.907Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T16:03:15.440Z",
+        "requestEventId": 32190217005,
+        "requestedAt": "2026-09-30T18:19:35Z",
+        "reviewedAt": "2026-09-30T18:29:28.907Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/shiftynick/omarchy-agent-quota-bar",
