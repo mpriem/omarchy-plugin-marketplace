@@ -248666,6 +248666,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Telep-IO/odotsy",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T22:42:17.855Z",
+      "listingValidatedCommit": "79ba0951770c6040e3a10d50a2412f580d22fdc7",
+      "listingValidatedAt": "2026-09-30T22:42:17.855Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "telep-io/odotsy",
+        "pluginIds": [
+          "telep.dots"
+        ],
+        "commit": "79ba0951770c6040e3a10d50a2412f580d22fdc7",
+        "checkedAt": "2026-09-30T22:42:17.745Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "telep.dots": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
