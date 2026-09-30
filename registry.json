@@ -247451,6 +247451,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/mcwehner/omarchy-pcalc",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T20:06:28.868Z",
+      "listingValidatedCommit": "838521892b286a2992abad5470e75ea90eb4d562",
+      "listingValidatedAt": "2026-09-30T20:06:28.868Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mcwehner/omarchy-pcalc",
+        "pluginIds": [
+          "mcwehner.pcalc"
+        ],
+        "commit": "838521892b286a2992abad5470e75ea90eb4d562",
+        "checkedAt": "2026-09-30T20:06:28.752Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "mcwehner.pcalc": {
+          "category": "Developer Tools",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
