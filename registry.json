@@ -248003,6 +248003,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/FerC10110/omarchy-sysoscope",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T21:03:06.464Z",
+      "listingValidatedCommit": "1d9fc9169bf90fa1f6833c147593041bf98e6f3f",
+      "listingValidatedAt": "2026-09-30T21:03:06.464Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ferc10110/omarchy-sysoscope",
+        "pluginIds": [
+          "io.github.ferc10110.sysoscope"
+        ],
+        "commit": "1d9fc9169bf90fa1f6833c147593041bf98e6f3f",
+        "checkedAt": "2026-09-30T21:03:06.354Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ferc10110/omarchy-sysoscope",
+        "pluginIds": [
+          "io.github.ferc10110.sysoscope"
+        ],
+        "commit": "1d9fc9169bf90fa1f6833c147593041bf98e6f3f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T21:03:06.354Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T00:03:28.191Z",
+        "requestEventId": 32200964981,
+        "requestedAt": "2026-09-30T21:02:36Z",
+        "reviewedAt": "2026-09-30T21:03:06.354Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.ferc10110.sysoscope": {
+          "category": "Hardware",
+          "tags": [
+            "system",
+            "bar",
+            "security"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
