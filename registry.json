@@ -248121,6 +248121,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/supercleanse/omarchy-expressvpn",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T21:18:11.869Z",
+      "listingValidatedCommit": "e4e5ed96d461ddef78bbadeec12d73a026868a5c",
+      "listingValidatedAt": "2026-09-30T21:18:11.869Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "supercleanse/omarchy-expressvpn",
+        "pluginIds": [
+          "supercleanse.expressvpn"
+        ],
+        "commit": "e4e5ed96d461ddef78bbadeec12d73a026868a5c",
+        "checkedAt": "2026-09-30T21:18:11.746Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "supercleanse/omarchy-expressvpn",
+        "pluginIds": [
+          "supercleanse.expressvpn"
+        ],
+        "commit": "e4e5ed96d461ddef78bbadeec12d73a026868a5c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T21:18:11.746Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T01:40:08.962Z",
+        "requestEventId": 32201917787,
+        "requestedAt": "2026-09-30T21:17:45Z",
+        "reviewedAt": "2026-09-30T21:18:11.746Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "supercleanse.expressvpn": {
+          "category": "System",
+          "tags": [
+            "vpn",
+            "bar",
+            "security"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
