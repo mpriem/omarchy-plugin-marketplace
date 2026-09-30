@@ -247056,6 +247056,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/mahan2079/omarchy-troubleshooter",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T18:56:57.771Z",
+      "listingValidatedCommit": "9effaeeecf86c34c214824e2d5251921f2df4423",
+      "listingValidatedAt": "2026-09-30T18:56:57.771Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mahan2079/omarchy-troubleshooter",
+        "pluginIds": [
+          "mahan.troubleshooter"
+        ],
+        "commit": "9effaeeecf86c34c214824e2d5251921f2df4423",
+        "checkedAt": "2026-09-30T18:56:57.659Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mahan2079/omarchy-troubleshooter",
+        "pluginIds": [
+          "mahan.troubleshooter"
+        ],
+        "commit": "9effaeeecf86c34c214824e2d5251921f2df4423",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-30T18:56:57.659Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T10:57:10.792Z",
+        "requestEventId": 32192671413,
+        "requestedAt": "2026-09-30T18:56:26Z",
+        "reviewedAt": "2026-09-30T18:56:57.659Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "mahan.troubleshooter": {
+          "category": "System",
+          "tags": [
+            "ai",
+            "system",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
