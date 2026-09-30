@@ -145,6 +145,11 @@ export function catalogRefreshFailureMessage(repoUrl, error, options = {}) {
   const safeSegment = (value) => String(value).replace(/[^A-Za-z0-9_.-]/g, "-").slice(0, 100);
   const slug = `${safeSegment(repository.owner)}/${safeSegment(repository.repository)}`;
   const source = options.builtIn ? "Built-in catalog" : "Catalog source";
+  if (options.fatal) {
+    const unclassified = !(error instanceof CatalogBuildError) && !(error instanceof CatalogCheckError);
+    const kind = unclassified ? `: ${safeSegment(error?.name || "Error")}` : "";
+    return `${source} refresh aborted for ${slug} [${catalogErrorCode(error, "internal-error")}${kind}].`;
+  }
   return `${source} refresh failed for ${slug} [${catalogErrorCode(error)}].`;
 }
 
@@ -1327,8 +1332,7 @@ export function communityInstall(source, manifestPath, overrides = {}) {
   const installation = overrides.installation;
   if (installation !== undefined) {
     if (
-      manifestPath !== "manifest.json"
-      || !installation
+      !installation
       || typeof installation !== "object"
       || Array.isArray(installation)
       || installation.mode !== "manual"
@@ -1337,6 +1341,12 @@ export function communityInstall(source, manifestPath, overrides = {}) {
       || Object.keys(installation).some((field) => !["mode", "note"].includes(field))
     ) {
       throw new Error(`${source.repo}: invalid manual installation override`);
+    }
+    if (manifestPath !== "manifest.json") {
+      checkError(
+        "unsupported-repository-layout",
+        `${source.repo}: manual installation requires a root plugin manifest`,
+      );
     }
     return {
       repositoryLayout: "root-plugin",
@@ -1442,6 +1452,7 @@ export async function discoveredPlugins(source, context, preview) {
   );
   const plugins = [];
   const seenIds = new Set();
+  const listedManifests = [];
   for (const manifestPath of manifestPaths) {
     let manifest;
     try {
@@ -1455,11 +1466,14 @@ export async function discoveredPlugins(source, context, preview) {
     if (!looksLikePluginManifest(manifest)) continue;
     const candidateId = typeof manifest.id === "string" ? manifest.id.trim() : manifest.id;
     if (!isListedPlugin(source, candidateId)) continue;
-    validateManifestFiles(manifest, manifestPath, context, { community: true });
     if (seenIds.has(manifest.id)) {
       checkError("manifest-invalid", `${context.repository.slug}: duplicate plugin id`);
     }
     seenIds.add(manifest.id);
+    listedManifests.push({ manifestPath, manifest });
+  }
+  for (const { manifestPath, manifest } of listedManifests) {
+    validateManifestFiles(manifest, manifestPath, context, { community: true });
     const kinds = manifest.kinds.map(String);
     const overrides = source.plugins?.[manifest.id] || {};
     const addedAt = listingDate(
@@ -2161,9 +2175,18 @@ async function buildCatalogInternal(options = {}) {
           migrationSourcesUsed.add(parseGitHubRepository(source.repo).slug.toLowerCase());
         }
       } catch (error) {
+        if (pinThisSource || migrateThisSource || !(error instanceof CatalogCheckError)) {
+          console.error(catalogRefreshFailureMessage(source.repo, error, { fatal: true }));
+        }
         if (pinThisSource || migrateThisSource) throw error;
         assertRecoverableCatalogError(error);
-        const preserved = failedSourcePlugins(source, previousPlugins, context, checkedAt, error);
+        let preserved;
+        try {
+          preserved = failedSourcePlugins(source, previousPlugins, context, checkedAt, error);
+        } catch (recoveryError) {
+          console.error(catalogRefreshFailureMessage(source.repo, recoveryError, { fatal: true }));
+          throw recoveryError;
+        }
         plugins.push(...preserved);
         const code = catalogErrorCode(error);
         warnings.push(`${source.repo}: ${code}`);
@@ -2199,11 +2222,17 @@ async function buildCatalogInternal(options = {}) {
           const context = await resolveSnapshotTree(identity.context);
           plugins.push(...await discoveredBuiltIns(source, context));
         } catch (error) {
+          if (!(error instanceof CatalogCheckError)) {
+            console.error(catalogRefreshFailureMessage(source.repo, error, { builtIn: true, fatal: true }));
+          }
           assertRecoverableCatalogError(error);
           const preserved = previousPlugins.filter(
             (plugin) => plugin.builtIn && plugin.repo === source.repo,
           );
-          if (!preserved.length) throw error;
+          if (!preserved.length) {
+            console.error(catalogRefreshFailureMessage(source.repo, error, { builtIn: true, fatal: true }));
+            throw error;
+          }
           plugins.push(...preserved);
           warnings.push(`${source.repo}: built-in catalog refresh unavailable`);
           console.error(catalogRefreshFailureMessage(source.repo, error, { builtIn: true }));

@@ -328,13 +328,15 @@ test("manual installation overrides are explicit and restricted to root plugins"
     () => communityInstall(source, "manifest.json", {
       installation: { mode: "script", note },
     }),
-    /invalid manual installation override/,
+    (error) => !(error instanceof CatalogCheckError)
+      && /invalid manual installation override/.test(error.message),
   );
   assert.throws(
     () => communityInstall(source, "nested/manifest.json", {
       installation: { mode: "manual", note },
     }),
-    /invalid manual installation override/,
+    (error) => error instanceof CatalogCheckError
+      && error.code === "unsupported-repository-layout",
   );
 });
 
@@ -594,6 +596,32 @@ test("catalog refresh failures identify the safe repository slug and error code"
       { builtIn: true },
     ),
     "Built-in catalog refresh failed for omacom-io/omarchy [manifest-invalid].",
+  );
+  assert.equal(
+    catalogRefreshFailureMessage(
+      "https://github.com/example/weather",
+      new Error("token and upstream detail stay private"),
+      { fatal: true },
+    ),
+    "Catalog source refresh aborted for example/weather [internal-error: Error].",
+  );
+  assert.equal(
+    catalogRefreshFailureMessage(
+      "https://github.com/example/weather",
+      new CatalogBuildError("rate-limit-exhausted", "private detail"),
+      { fatal: true },
+    ),
+    "Catalog source refresh aborted for example/weather [rate-limit-exhausted].",
+  );
+  const disguised = new TypeError("private detail");
+  disguised.name = "Type\n::warning::Error";
+  assert.equal(
+    catalogRefreshFailureMessage(
+      "https://github.com/omacom-io/omarchy",
+      disguised,
+      { builtIn: true, fatal: true },
+    ),
+    "Built-in catalog refresh aborted for omacom-io/omarchy [internal-error: Type---warning--Error].",
   );
 });
 

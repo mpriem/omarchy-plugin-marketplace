@@ -616,6 +616,225 @@ test("tree and raw failures preserve a GraphQL-observed newer commit", async () 
   }
 });
 
+async function refreshManualSetupSource({ manifestDirectories, installation }) {
+  const directory = await mkdtemp(join(tmpdir(), "marketplace-manual-setup-"));
+  const registryPath = join(directory, "registry.json");
+  const catalogPath = join(directory, "site/catalog.json");
+  const previewDirectory = join(directory, "site/assets/img/plugins");
+  const note = "This plugin requires a matching native helper.";
+  const activeSource = source({
+    plugins: {
+      "example.plugin": {
+        category: "Desktop",
+        tags: ["overlay"],
+        installation: installation || { mode: "manual", note },
+      },
+    },
+  });
+  const oldCommit = activeSource.listingValidatedCommit;
+  const previousPlugin = priorPlugin(activeSource, {
+    addedAt: activeSource.addedAt,
+    listedAt: activeSource.listedAt,
+    manifestPath: "manifest.json",
+    repositoryLayout: "root-plugin",
+    installAvailable: false,
+    installCommand: "",
+    installNote: note,
+    status: "Manual setup",
+    upstreamObservedCommit: oldCommit,
+    upstreamValidatedCommit: oldCommit,
+  });
+  const manifest = JSON.stringify({
+    schemaVersion: 1,
+    id: "example.plugin",
+    name: "Example",
+    version: "1.0.0",
+    author: "Example",
+    description: "Example plugin",
+    license: "MIT",
+    kinds: ["overlay"],
+    entryPoints: { overlay: "Main.qml" },
+  });
+  const prefixes = manifestDirectories.map((name) => (name ? `${name}/` : ""));
+  const originalFetch = globalThis.fetch;
+  const originalError = console.error;
+  const errors = [];
+  await mkdir(previewDirectory, { recursive: true });
+  await writeFile(registryPath, `${JSON.stringify({
+    sources: [activeSource],
+    builtInSources: [],
+    placeholders: [],
+  }, null, 2)}\n`);
+  await writeFile(catalogPath, `${JSON.stringify({
+    generatedAt: validatedAt,
+    stateSchemaVersion: 2,
+    mode: "production",
+    plugins: [previousPlugin],
+    warnings: [],
+  }, null, 2)}\n`);
+
+  globalThis.fetch = async (input, init = {}) => {
+    const url = String(input);
+    if (url === "https://api.github.com/graphql") {
+      const request = JSON.parse(init.body);
+      if (request.query.includes("CatalogRefreshBudget")) {
+        return jsonResponse({ data: { rateLimit: graphqlRate(4999) } });
+      }
+      return jsonResponse({
+        data: { r0: graphqlRepository(), rateLimit: graphqlRate(4998) },
+      });
+    }
+    if (url === "https://api.github.com/rate_limit") {
+      return jsonResponse({
+        resources: { core: { limit: 5000, remaining: 4998, reset: 1787997600 } },
+      });
+    }
+    if (url === `https://api.github.com/repos/example/plugin/git/trees/${tree}?recursive=1`) {
+      return jsonResponse({
+        truncated: false,
+        tree: [
+          { path: "README.md", type: "blob", mode: "100644", size: 10 },
+          { path: "LICENSE", type: "blob", mode: "100644", size: 10 },
+          ...prefixes.flatMap((prefix) => [
+            { path: `${prefix}manifest.json`, type: "blob", mode: "100644", size: 200 },
+            { path: `${prefix}Main.qml`, type: "blob", mode: "100644", size: 10 },
+          ]),
+        ],
+      });
+    }
+    if (prefixes.some((prefix) => url === `https://raw.githubusercontent.com/example/plugin/${commit}/${prefix}manifest.json`)) {
+      return new Response(manifest, {
+        status: 200,
+        headers: { "content-length": String(Buffer.byteLength(manifest)) },
+      });
+    }
+    throw new Error(`Unexpected fixture request: ${url}`);
+  };
+  console.error = (...args) => errors.push(args.join(" "));
+
+  try {
+    await buildCatalog({
+      registryPath,
+      catalogPath,
+      previewDirectory,
+      graphqlBudgetReserve: 0,
+    });
+    const result = JSON.parse(await readFile(catalogPath, "utf8"));
+    return { result, errors, note, oldCommit, repo: activeSource.repo };
+  } catch (error) {
+    return { error, errors };
+  } finally {
+    console.error = originalError;
+    globalThis.fetch = originalFetch;
+    await rm(directory, { recursive: true, force: true });
+  }
+}
+
+test("a manual-setup source with a duplicate nested manifest fails alone with a precise reason", async () => {
+  const { result, errors, note, oldCommit, repo } = await refreshManualSetupSource({
+    manifestDirectories: ["", "companion"],
+  });
+  const plugin = result.plugins[0];
+  assert.equal(plugin.upstreamCheckStatus, "failed");
+  assert.equal(plugin.upstreamCheckError, "manifest-invalid");
+  assert.equal(plugin.upstreamObservedCommit, commit);
+  assert.equal(plugin.upstreamValidatedCommit, oldCommit);
+  assert.equal(plugin.installAvailable, false);
+  assert.equal(plugin.installCommand, "");
+  assert.equal(plugin.installNote, note);
+  assert.deepEqual(result.warnings, [`${repo}: manifest-invalid`]);
+  assert.ok(errors.includes("Catalog source refresh failed for example/plugin [manifest-invalid]."));
+  assert.ok(!errors.some((line) => line.includes("aborted")));
+});
+
+test("a manual-setup source whose only manifest moved below the root fails alone", async () => {
+  const { result, note, repo } = await refreshManualSetupSource({
+    manifestDirectories: ["companion"],
+  });
+  const plugin = result.plugins[0];
+  assert.equal(plugin.upstreamCheckStatus, "failed");
+  assert.equal(plugin.upstreamCheckError, "unsupported-repository-layout");
+  assert.equal(plugin.installAvailable, false);
+  assert.equal(plugin.installCommand, "");
+  assert.equal(plugin.installNote, note);
+  assert.deepEqual(result.warnings, [`${repo}: unsupported-repository-layout`]);
+});
+
+test("an invalid registry installation override still aborts the refresh and names the source", async () => {
+  for (const manifestDirectories of [[""], ["", "companion"]]) {
+    const { error, errors } = await refreshManualSetupSource({
+      manifestDirectories,
+      installation: { mode: "script", note: "Run the installer." },
+    });
+    assert.match(error?.message || "", /invalid manual installation override/, manifestDirectories.join(","));
+    assert.ok(
+      errors.includes("Catalog source refresh aborted for example/plugin [internal-error: Error]."),
+      manifestDirectories.join(","),
+    );
+  }
+});
+
+test("a built-in source without previous catalog state aborts the refresh and names the source", async () => {
+  const directory = await mkdtemp(join(tmpdir(), "marketplace-built-in-abort-"));
+  const registryPath = join(directory, "registry.json");
+  const catalogPath = join(directory, "site/catalog.json");
+  const previewDirectory = join(directory, "site/assets/img/plugins");
+  const originalFetch = globalThis.fetch;
+  const originalError = console.error;
+  const errors = [];
+  await mkdir(previewDirectory, { recursive: true });
+  await writeFile(registryPath, `${JSON.stringify({
+    sources: [],
+    builtInSources: [{
+      repo: "https://github.com/example/built-in",
+      branch: "main",
+      manifestRoot: "shell/plugins",
+      exclude: [],
+    }],
+    placeholders: [],
+  }, null, 2)}\n`);
+  await writeFile(catalogPath, `${JSON.stringify({
+    generatedAt: validatedAt,
+    stateSchemaVersion: 2,
+    mode: "production",
+    plugins: [],
+    warnings: [],
+  }, null, 2)}\n`);
+
+  globalThis.fetch = async (input, init = {}) => {
+    const url = String(input);
+    if (url === "https://api.github.com/rate_limit") {
+      return jsonResponse({
+        resources: { core: { limit: 5000, remaining: 4998, reset: 1787997600 } },
+      });
+    }
+    assert.equal(url, "https://api.github.com/graphql");
+    const request = JSON.parse(init.body);
+    if (request.query.includes("CatalogRefreshBudget")) {
+      return jsonResponse({ data: { rateLimit: graphqlRate(4999) } });
+    }
+    return jsonResponse({
+      data: { r0: null, rateLimit: graphqlRate(4998) },
+      errors: [{ type: "NOT_FOUND", path: ["r0"], message: "untrusted detail" }],
+    });
+  };
+  console.error = (...args) => errors.push(args.join(" "));
+
+  try {
+    await assert.rejects(buildCatalog({
+      registryPath,
+      catalogPath,
+      previewDirectory,
+      graphqlBudgetReserve: 0,
+    }));
+  } finally {
+    console.error = originalError;
+    globalThis.fetch = originalFetch;
+    await rm(directory, { recursive: true, force: true });
+  }
+  assert.ok(errors.includes("Built-in catalog refresh aborted for example/built-in [repository-unreachable]."), errors.join("\n"));
+});
+
 test("an unchanged full refresh skips REST trees and raw files without refreshing validation time", async () => {
   const directory = await mkdtemp(join(tmpdir(), "marketplace-graphql-fast-path-"));
   const registryPath = join(directory, "registry.json");
