@@ -246782,6 +246782,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/prostratepossum/omarchy-starwatch-intro",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T18:20:31.591Z",
+      "listingValidatedCommit": "12b0270d535fe870ca8c1b03da30c95ac2aff134",
+      "listingValidatedAt": "2026-09-30T18:20:31.591Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "prostratepossum/omarchy-starwatch-intro",
+        "pluginIds": [
+          "io.github.prostratepossum.starwatch-intro"
+        ],
+        "commit": "12b0270d535fe870ca8c1b03da30c95ac2aff134",
+        "checkedAt": "2026-09-30T18:20:31.500Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.prostratepossum.starwatch-intro": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
