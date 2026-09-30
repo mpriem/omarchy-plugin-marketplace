@@ -248245,6 +248245,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/dpaluy/omarchy-lookout",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T21:34:17.447Z",
+      "listingValidatedCommit": "6f8f9362b7f6b84458bc8176c3dee0769539462f",
+      "listingValidatedAt": "2026-09-30T21:34:17.447Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dpaluy/omarchy-lookout",
+        "pluginIds": [
+          "dpaluy.lookout"
+        ],
+        "commit": "6f8f9362b7f6b84458bc8176c3dee0769539462f",
+        "checkedAt": "2026-09-30T21:34:17.354Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "dpaluy.lookout": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
