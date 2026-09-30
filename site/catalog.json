@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T17:55:05.901Z",
+  "generatedAt": "2026-09-30T17:58:14.767Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -245101,6 +245101,55 @@
       "upstreamValidatedAt": "2026-09-30T17:55:05.901Z",
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "017309e656f8698df6622ad8703ad997593399639347e6c429cf2c379af3f6ce",
+      "status": "Available"
+    },
+    {
+      "id": "brooklynkray.grit",
+      "name": "Grit",
+      "description": "A no-nonsense motivation boost, one line at a time.",
+      "author": "Brooklyn Kray",
+      "version": "0.1.0",
+      "repo": "https://github.com/brooklynkray/grit",
+      "sourceType": "community",
+      "verificationStatus": "verified",
+      "verificationSnapshotStatus": "verified",
+      "verificationCoverage": "snapshot-verified",
+      "verificationBaselineVersion": "3",
+      "verificationCommit": "2605bf943a86c1adb741c8e6ffc8aa0d49d4f763",
+      "verificationCheckedAt": "2026-09-30T17:58:14.075Z",
+      "manifestPath": "manifest.json",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T17:58:14.190Z",
+      "repositoryLayout": "root-plugin",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/brooklynkray/grit.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
+      "category": "Productivity",
+      "tags": [
+        "bar"
+      ],
+      "license": "See repository",
+      "stars": 0,
+      "repositoryUpdatedAt": "2026-09-29T14:00:28Z",
+      "repositoryRelease": {
+        "tag": "v0.1.0",
+        "url": "https://github.com/brooklynkray/grit/releases/tag/v0.1.0",
+        "publishedAt": "2026-09-29T13:35:41Z"
+      },
+      "accent": "rose",
+      "initials": "G",
+      "kind": "Bar widget",
+      "listingValidatedCommit": "2605bf943a86c1adb741c8e6ffc8aa0d49d4f763",
+      "listingValidatedAt": "2026-09-30T17:58:14.190Z",
+      "listingValidatedBranch": "main",
+      "upstreamObservedCommit": "2605bf943a86c1adb741c8e6ffc8aa0d49d4f763",
+      "upstreamObservedBranch": "main",
+      "upstreamCheckedAt": "2026-09-30T17:58:14.767Z",
+      "upstreamCheckStatus": "passed",
+      "upstreamValidatedCommit": "2605bf943a86c1adb741c8e6ffc8aa0d49d4f763",
+      "upstreamValidatedAt": "2026-09-30T17:58:14.767Z",
+      "upstreamValidationVersion": 1,
+      "upstreamSourceFingerprint": "c7e60017c431204ea3b95e849557d4fc13b56b44dd57cb180d0d6d90979b8ca2",
       "status": "Available"
     },
     {

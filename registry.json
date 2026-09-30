@@ -246559,6 +246559,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/brooklynkray/grit",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T17:58:14.190Z",
+      "listingValidatedCommit": "2605bf943a86c1adb741c8e6ffc8aa0d49d4f763",
+      "listingValidatedAt": "2026-09-30T17:58:14.190Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "brooklynkray/grit",
+        "pluginIds": [
+          "brooklynkray.grit"
+        ],
+        "commit": "2605bf943a86c1adb741c8e6ffc8aa0d49d4f763",
+        "checkedAt": "2026-09-30T17:58:14.075Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "brooklynkray.grit": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
