@@ -247516,6 +247516,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/prostratepossum/omarchy-starwatch-lock",
+      "type": "plugin-source",
+      "addedAt": "2026-09-30",
+      "listedAt": "2026-09-30T20:13:19.330Z",
+      "listingValidatedCommit": "afbf13573da1604582e7ad51c45e56fb6c2c4112",
+      "listingValidatedAt": "2026-09-30T20:13:19.330Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "prostratepossum/omarchy-starwatch-lock",
+        "pluginIds": [
+          "io.github.prostratepossum.starwatch-lock"
+        ],
+        "commit": "afbf13573da1604582e7ad51c45e56fb6c2c4112",
+        "checkedAt": "2026-09-30T20:13:19.252Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.prostratepossum.starwatch-lock": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell",
+            "security"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
