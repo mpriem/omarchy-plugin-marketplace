@@ -248991,6 +248991,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/hpolthof/omarchy-appimages",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T00:26:35.494Z",
+      "listingValidatedCommit": "9517685734540c5148c6da2df66c2931f0d1f39c",
+      "listingValidatedAt": "2026-10-01T00:26:35.494Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hpolthof/omarchy-appimages",
+        "pluginIds": [
+          "io.github.hpolthof.appimages"
+        ],
+        "commit": "9517685734540c5148c6da2df66c2931f0d1f39c",
+        "checkedAt": "2026-10-01T00:26:35.384Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.hpolthof.appimages": {
+          "category": "System",
+          "tags": [
+            "launcher",
+            "system",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
