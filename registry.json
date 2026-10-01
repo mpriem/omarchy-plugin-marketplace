@@ -260227,6 +260227,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Tylefnx/omarchy-animated-wallpaper",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T23:16:03.364Z",
+      "listingValidatedCommit": "057cfe55f9c9eba48f35f97fbbd833f2812010dd",
+      "listingValidatedAt": "2026-10-01T23:16:03.364Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tylefnx/omarchy-animated-wallpaper",
+        "pluginIds": [
+          "r4venward.wallpaper-video"
+        ],
+        "commit": "057cfe55f9c9eba48f35f97fbbd833f2812010dd",
+        "checkedAt": "2026-10-01T23:16:03.246Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tylefnx/omarchy-animated-wallpaper",
+        "pluginIds": [
+          "r4venward.wallpaper-video"
+        ],
+        "commit": "057cfe55f9c9eba48f35f97fbbd833f2812010dd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T23:16:03.246Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T11:51:11.211Z",
+        "requestEventId": 32294823110,
+        "requestedAt": "2026-10-01T22:46:14Z",
+        "reviewedAt": "2026-10-01T23:16:03.246Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "r4venward.wallpaper-video": {
+          "category": "Appearance",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
