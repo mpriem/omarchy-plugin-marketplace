@@ -248957,6 +248957,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/aashbury/stelline",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T00:18:15.706Z",
+      "listingValidatedCommit": "4d352c7a6301e823594010822c6d680f55da3c0b",
+      "listingValidatedAt": "2026-10-01T00:18:15.706Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "aashbury/stelline",
+        "pluginIds": [
+          "io.github.aashbury.stelline"
+        ],
+        "commit": "4d352c7a6301e823594010822c6d680f55da3c0b",
+        "checkedAt": "2026-10-01T00:18:15.593Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.aashbury.stelline": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell",
+            "power-management",
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
