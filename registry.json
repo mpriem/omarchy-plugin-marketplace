@@ -256032,6 +256032,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nickpstone/omarchy-nbl-scores",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T15:30:08.857Z",
+      "listingValidatedCommit": "ee1f5851f0fddebf3444f1fdb379d844c13f21a3",
+      "listingValidatedAt": "2026-10-01T15:30:08.857Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nickpstone/omarchy-nbl-scores",
+        "pluginIds": [
+          "omarchy-nbl-scores"
+        ],
+        "commit": "ee1f5851f0fddebf3444f1fdb379d844c13f21a3",
+        "checkedAt": "2026-10-01T15:30:08.777Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "omarchy-nbl-scores": {
+          "category": "Other",
+          "tags": [
+            "quickshell",
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
