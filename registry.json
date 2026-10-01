@@ -238662,8 +238662,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T14:47:53.324Z",
-      "listingValidatedCommit": "3b3c52f8b47b895a745ef6d170671a67fa934fd0",
-      "listingValidatedAt": "2026-09-27T14:47:53.324Z",
+      "listingValidatedCommit": "32d8adfe5864a60ea6448dc70bfc2ddeb37e3849",
+      "listingValidatedAt": "2026-10-01T10:05:48.203Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -238672,8 +238672,8 @@
         "pluginIds": [
           "io.github.szlukabence.omarchy-dock"
         ],
-        "commit": "3b3c52f8b47b895a745ef6d170671a67fa934fd0",
-        "checkedAt": "2026-09-27T14:47:53.213Z",
+        "commit": "32d8adfe5864a60ea6448dc70bfc2ddeb37e3849",
+        "checkedAt": "2026-10-01T10:05:48.203Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -238682,29 +238682,6 @@
           "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "szlukabence/omarchy-dock",
-        "pluginIds": [
-          "io.github.szlukabence.omarchy-dock"
-        ],
-        "commit": "3b3c52f8b47b895a745ef6d170671a67fa934fd0",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T14:47:53.213Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-27T12:22:48.748Z",
-        "requestEventId": 31932643327,
-        "requestedAt": "2026-09-27T13:39:16Z",
-        "reviewedAt": "2026-09-27T14:47:53.213Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.szlukabence.omarchy-dock": {
@@ -238720,7 +238697,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "szlukabence/omarchy-dock",
+        "pluginIds": [
+          "io.github.szlukabence.omarchy-dock"
+        ],
+        "commit": "32d8adfe5864a60ea6448dc70bfc2ddeb37e3849",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T10:05:48.203Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-27T17:17:33.003Z",
+        "requestEventId": 32241204375,
+        "requestedAt": "2026-10-01T10:05:16Z",
+        "reviewedAt": "2026-10-01T10:05:48.203Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3b3c52f8b47b895a745ef6d170671a67fa934fd0",
+          "validatedAt": "2026-09-27T14:47:53.324Z",
+          "branch": "master",
+          "supersededAt": "2026-10-01T10:05:48.203Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "szlukabence/omarchy-dock",
+            "pluginIds": [
+              "io.github.szlukabence.omarchy-dock"
+            ],
+            "commit": "3b3c52f8b47b895a745ef6d170671a67fa934fd0",
+            "checkedAt": "2026-09-27T14:47:53.213Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "szlukabence/omarchy-dock",
+            "pluginIds": [
+              "io.github.szlukabence.omarchy-dock"
+            ],
+            "commit": "3b3c52f8b47b895a745ef6d170671a67fa934fd0",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T14:47:53.213Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-27T12:22:48.748Z",
+            "requestEventId": 31932643327,
+            "requestedAt": "2026-09-27T13:39:16Z",
+            "reviewedAt": "2026-09-27T14:47:53.213Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/thenitai/bsky",
