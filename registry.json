@@ -257040,6 +257040,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/iamanro/omarchy-omp-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T16:29:09.896Z",
+      "listingValidatedCommit": "d87b6c8a458a85e9f07ffa590562a745ba7f7771",
+      "listingValidatedAt": "2026-10-01T16:29:09.896Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "iamanro/omarchy-omp-usage",
+        "pluginIds": [
+          "iamanro.omp-usage"
+        ],
+        "commit": "d87b6c8a458a85e9f07ffa590562a745ba7f7771",
+        "checkedAt": "2026-10-01T16:29:09.787Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "iamanro.omp-usage": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
