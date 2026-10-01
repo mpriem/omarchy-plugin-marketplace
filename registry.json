@@ -208108,8 +208108,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T21:48:32.747Z",
-      "listingValidatedCommit": "76f694ca1b008f834594d2b0aca0a4872e5cad5f",
-      "listingValidatedAt": "2026-09-21T21:48:32.747Z",
+      "listingValidatedCommit": "6252477fceba406bb9106e44c185c6fd1b07ac6f",
+      "listingValidatedAt": "2026-10-01T01:00:05.753Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -208118,8 +208118,8 @@
         "pluginIds": [
           "xyzlab.alienware-battery"
         ],
-        "commit": "76f694ca1b008f834594d2b0aca0a4872e5cad5f",
-        "checkedAt": "2026-09-21T21:48:32.644Z",
+        "commit": "6252477fceba406bb9106e44c185c6fd1b07ac6f",
+        "checkedAt": "2026-10-01T01:00:05.753Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -208135,7 +208135,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "76f694ca1b008f834594d2b0aca0a4872e5cad5f",
+          "validatedAt": "2026-09-21T21:48:32.747Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T01:00:05.753Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "chr0nzz/omarchy-alienware-battery",
+            "pluginIds": [
+              "xyzlab.alienware-battery"
+            ],
+            "commit": "76f694ca1b008f834594d2b0aca0a4872e5cad5f",
+            "checkedAt": "2026-09-21T21:48:32.644Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/p145085/omarchy-terror-zone",
