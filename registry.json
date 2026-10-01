@@ -260474,6 +260474,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/albertojnk/omarchy-screen-time",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T23:31:49.241Z",
+      "listingValidatedCommit": "656e6609bbaceea4306e935236da5e4d56e923d7",
+      "listingValidatedAt": "2026-10-01T23:31:49.241Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "albertojnk/omarchy-screen-time",
+        "pluginIds": [
+          "io.github.albertojnk.screen-time"
+        ],
+        "commit": "656e6609bbaceea4306e935236da5e4d56e923d7",
+        "checkedAt": "2026-10-01T23:31:49.113Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.albertojnk.screen-time": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
