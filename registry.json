@@ -256975,6 +256975,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Siddid-Soni/omarchy-armoury",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T16:26:02.452Z",
+      "listingValidatedCommit": "26f0ac1148da14fcd6d9128899acbfcf1dec2ffd",
+      "listingValidatedAt": "2026-10-01T16:26:02.452Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "siddid-soni/omarchy-armoury",
+        "pluginIds": [
+          "io.github.siddid-soni.armoury"
+        ],
+        "commit": "26f0ac1148da14fcd6d9128899acbfcf1dec2ffd",
+        "checkedAt": "2026-10-01T16:26:02.328Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "siddid-soni/omarchy-armoury",
+        "pluginIds": [
+          "io.github.siddid-soni.armoury"
+        ],
+        "commit": "26f0ac1148da14fcd6d9128899acbfcf1dec2ffd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T16:26:02.328Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T04:19:59.305Z",
+        "requestEventId": 32267622460,
+        "requestedAt": "2026-10-01T16:01:36Z",
+        "reviewedAt": "2026-10-01T16:26:02.328Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.siddid-soni.armoury": {
+          "category": "System",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
