@@ -93764,8 +93764,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-28",
       "listedAt": "2026-08-28T15:39:55.994Z",
-      "listingValidatedCommit": "ee8939ef013a2cc974330f769164896f3ed2e92b",
-      "listingValidatedAt": "2026-08-28T15:39:55.994Z",
+      "listingValidatedCommit": "aa946c921f4e691c264ac1ca1888f89b7d9fd565",
+      "listingValidatedAt": "2026-10-01T06:45:43.713Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -93774,12 +93774,14 @@
         "pluginIds": [
           "takitani.sysmetrics"
         ],
-        "commit": "ee8939ef013a2cc974330f769164896f3ed2e92b",
-        "checkedAt": "2026-08-28T15:39:55.945Z",
-        "outcome": "passed",
+        "commit": "aa946c921f4e691c264ac1ca1888f89b7d9fd565",
+        "checkedAt": "2026-10-01T06:45:43.713Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "privilege"
+        ]
       },
       "plugins": {
         "takitani.sysmetrics": {
@@ -93791,7 +93793,50 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alextakitani/omarchy-sysmetrics",
+        "pluginIds": [
+          "takitani.sysmetrics"
+        ],
+        "commit": "aa946c921f4e691c264ac1ca1888f89b7d9fd565",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T06:45:43.713Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-24T20:36:48.624Z",
+        "requestEventId": 32228356354,
+        "requestedAt": "2026-10-01T06:45:03Z",
+        "reviewedAt": "2026-10-01T06:45:43.713Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ee8939ef013a2cc974330f769164896f3ed2e92b",
+          "validatedAt": "2026-08-28T15:39:55.994Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T06:45:43.713Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "alextakitani/omarchy-sysmetrics",
+            "pluginIds": [
+              "takitani.sysmetrics"
+            ],
+            "commit": "ee8939ef013a2cc974330f769164896f3ed2e92b",
+            "checkedAt": "2026-08-28T15:39:55.945Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/xadacka/omarchy-window-switcher",
