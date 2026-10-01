@@ -120970,8 +120970,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-02",
       "listedAt": "2026-09-02T05:15:44.434Z",
-      "listingValidatedCommit": "f7627e5af131fc1d3489c56f9eac8f3790b9e29e",
-      "listingValidatedAt": "2026-09-22T21:22:42.415Z",
+      "listingValidatedCommit": "3a62a7ffeeb5a320f1395ffcbed9d4303b118f46",
+      "listingValidatedAt": "2026-10-01T07:08:51.234Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -120980,12 +120980,14 @@
         "pluginIds": [
           "raiden-meixelysia.omarchy-pets"
         ],
-        "commit": "f7627e5af131fc1d3489c56f9eac8f3790b9e29e",
-        "checkedAt": "2026-09-22T21:22:42.415Z",
-        "outcome": "passed",
+        "commit": "3a62a7ffeeb5a320f1395ffcbed9d4303b118f46",
+        "checkedAt": "2026-10-01T07:08:51.234Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "installer"
+        ]
       },
       "plugins": {
         "raiden-meixelysia.omarchy-pets": {
@@ -121017,8 +121019,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "f7627e5af131fc1d3489c56f9eac8f3790b9e29e",
+          "validatedAt": "2026-09-22T21:22:42.415Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T07:08:51.234Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "zacharyzhang-ny/omarchy-pets",
+            "pluginIds": [
+              "raiden-meixelysia.omarchy-pets"
+            ],
+            "commit": "f7627e5af131fc1d3489c56f9eac8f3790b9e29e",
+            "checkedAt": "2026-09-22T21:22:42.415Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "zacharyzhang-ny/omarchy-pets",
+        "pluginIds": [
+          "raiden-meixelysia.omarchy-pets"
+        ],
+        "commit": "3a62a7ffeeb5a320f1395ffcbed9d4303b118f46",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T07:08:51.234Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-25T03:49:35.580Z",
+        "requestEventId": 32229392367,
+        "requestedAt": "2026-10-01T07:03:51Z",
+        "reviewedAt": "2026-10-01T07:08:51.234Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/AdamMusa/omarchy-portal-doctor",
