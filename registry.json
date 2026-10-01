@@ -148324,8 +148324,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-07",
       "listedAt": "2026-09-07T23:29:37.561Z",
-      "listingValidatedCommit": "85e61ff9cd4951ee7ab35d771d4ba4e5fa594626",
-      "listingValidatedAt": "2026-09-07T23:29:37.561Z",
+      "listingValidatedCommit": "8741796e062f98589d1727f50b5a6911172043bd",
+      "listingValidatedAt": "2026-10-01T02:01:12.717Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -148334,12 +148334,15 @@
         "pluginIds": [
           "mateus.omaplug"
         ],
-        "commit": "85e61ff9cd4951ee7ab35d771d4ba4e5fa594626",
-        "checkedAt": "2026-09-07T23:29:37.484Z",
-        "outcome": "passed",
+        "commit": "8741796e062f98589d1727f50b5a6911172043bd",
+        "checkedAt": "2026-10-01T02:01:12.717Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ]
       },
       "plugins": {
         "mateus.omaplug": {
@@ -148351,7 +148354,51 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pegorim/omaplug",
+        "pluginIds": [
+          "mateus.omaplug"
+        ],
+        "commit": "8741796e062f98589d1727f50b5a6911172043bd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T02:01:12.717Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-23T18:27:31.329Z",
+        "requestEventId": 32215064278,
+        "requestedAt": "2026-10-01T01:55:41Z",
+        "reviewedAt": "2026-10-01T02:01:12.717Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "85e61ff9cd4951ee7ab35d771d4ba4e5fa594626",
+          "validatedAt": "2026-09-07T23:29:37.561Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T02:01:12.717Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "pegorim/omaplug",
+            "pluginIds": [
+              "mateus.omaplug"
+            ],
+            "commit": "85e61ff9cd4951ee7ab35d771d4ba4e5fa594626",
+            "checkedAt": "2026-09-07T23:29:37.484Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/paulsp94/omakeychron",
