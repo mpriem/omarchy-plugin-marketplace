@@ -190282,8 +190282,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-17",
       "listedAt": "2026-09-17T07:16:42.684Z",
-      "listingValidatedCommit": "5b1567ee90b1ecf8e43602b3bb3cc2fcdc7332a1",
-      "listingValidatedAt": "2026-09-17T07:16:42.684Z",
+      "listingValidatedCommit": "42e0e5c68eadb2e7751dc6aa29e80e078a7b8919",
+      "listingValidatedAt": "2026-10-01T00:04:33.202Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -190292,8 +190292,8 @@
         "pluginIds": [
           "espadat.tagwerk"
         ],
-        "commit": "5b1567ee90b1ecf8e43602b3bb3cc2fcdc7332a1",
-        "checkedAt": "2026-09-17T07:16:42.590Z",
+        "commit": "42e0e5c68eadb2e7751dc6aa29e80e078a7b8919",
+        "checkedAt": "2026-10-01T00:04:33.202Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -190309,7 +190309,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5b1567ee90b1ecf8e43602b3bb3cc2fcdc7332a1",
+          "validatedAt": "2026-09-17T07:16:42.684Z",
+          "branch": "master",
+          "supersededAt": "2026-10-01T00:04:33.202Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "espadat-studio/omarchy-tagwerk",
+            "pluginIds": [
+              "espadat.tagwerk"
+            ],
+            "commit": "5b1567ee90b1ecf8e43602b3bb3cc2fcdc7332a1",
+            "checkedAt": "2026-09-17T07:16:42.590Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dzanaga/omarchy-multi-workspaces-indicator",
