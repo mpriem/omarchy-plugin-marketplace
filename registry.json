@@ -176287,8 +176287,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-13",
       "listedAt": "2026-09-13T15:25:37.204Z",
-      "listingValidatedCommit": "4711fdc6cf51f0183a61d8eafaa39562d9a4741b",
-      "listingValidatedAt": "2026-09-17T07:06:49.610Z",
+      "listingValidatedCommit": "888fb27505b500d9848ddb27b99c743c48fc864e",
+      "listingValidatedAt": "2026-10-01T22:36:47.985Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -176297,8 +176297,8 @@
         "pluginIds": [
           "scoop.uptime-kuma"
         ],
-        "commit": "4711fdc6cf51f0183a61d8eafaa39562d9a4741b",
-        "checkedAt": "2026-09-17T07:06:49.610Z",
+        "commit": "888fb27505b500d9848ddb27b99c743c48fc864e",
+        "checkedAt": "2026-10-01T22:36:47.985Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -176330,6 +176330,26 @@
             ],
             "commit": "0aa86b5acf7711531b17eff2b35fe544c5e2294b",
             "checkedAt": "2026-09-13T15:25:37.122Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "4711fdc6cf51f0183a61d8eafaa39562d9a4741b",
+          "validatedAt": "2026-09-17T07:06:49.610Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T22:36:47.985Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "scoop/omarchy-plugin-uptime-kuma",
+            "pluginIds": [
+              "scoop.uptime-kuma"
+            ],
+            "commit": "4711fdc6cf51f0183a61d8eafaa39562d9a4741b",
+            "checkedAt": "2026-09-17T07:06:49.610Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
