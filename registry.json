@@ -256319,6 +256319,70 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/gran-software-solutions/ohlala-omarchy-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T15:45:50.111Z",
+      "listingValidatedCommit": "e6a452d3ba41e80422ef94fdb91aaae25cdd77b3",
+      "listingValidatedAt": "2026-10-01T15:45:50.111Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gran-software-solutions/ohlala-omarchy-plugin",
+        "pluginIds": [
+          "de.gransoftware.ohlala"
+        ],
+        "commit": "e6a452d3ba41e80422ef94fdb91aaae25cdd77b3",
+        "checkedAt": "2026-10-01T15:45:49.996Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gran-software-solutions/ohlala-omarchy-plugin",
+        "pluginIds": [
+          "de.gransoftware.ohlala"
+        ],
+        "commit": "e6a452d3ba41e80422ef94fdb91aaae25cdd77b3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T15:45:49.996Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T04:36:07.321Z",
+        "requestEventId": 32264890736,
+        "requestedAt": "2026-10-01T15:26:58Z",
+        "reviewedAt": "2026-10-01T15:45:49.996Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "de.gransoftware.ohlala": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
