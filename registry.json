@@ -256134,6 +256134,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ninepointlabs/omasync",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T15:36:23.236Z",
+      "listingValidatedCommit": "9d2416eb4b11c2f35328b46ebe8e016710447c36",
+      "listingValidatedAt": "2026-10-01T15:36:23.236Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ninepointlabs/omasync",
+        "pluginIds": [
+          "ninepointlabs.omasync"
+        ],
+        "commit": "9d2416eb4b11c2f35328b46ebe8e016710447c36",
+        "checkedAt": "2026-10-01T15:36:23.126Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ninepointlabs/omasync",
+        "pluginIds": [
+          "ninepointlabs.omasync"
+        ],
+        "commit": "9d2416eb4b11c2f35328b46ebe8e016710447c36",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T15:36:23.126Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T04:02:18.955Z",
+        "requestEventId": 32264855429,
+        "requestedAt": "2026-10-01T15:26:33Z",
+        "reviewedAt": "2026-10-01T15:36:23.126Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ninepointlabs.omasync": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
