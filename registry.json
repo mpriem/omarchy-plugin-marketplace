@@ -249110,6 +249110,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/sjfortin/omarchy-crate",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T00:50:09.793Z",
+      "listingValidatedCommit": "23cab6692eaf5c00758bca4e9a6abbf61129dc4d",
+      "listingValidatedAt": "2026-10-01T00:50:09.793Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sjfortin/omarchy-crate",
+        "pluginIds": [
+          "sjfortin.crate"
+        ],
+        "commit": "23cab6692eaf5c00758bca4e9a6abbf61129dc4d",
+        "checkedAt": "2026-10-01T00:50:09.678Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "sjfortin/omarchy-crate",
+        "pluginIds": [
+          "sjfortin.crate"
+        ],
+        "commit": "23cab6692eaf5c00758bca4e9a6abbf61129dc4d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T00:50:09.678Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T00:44:14.910Z",
+        "requestEventId": 32212188196,
+        "requestedAt": "2026-10-01T00:49:32Z",
+        "reviewedAt": "2026-10-01T00:50:09.678Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "sjfortin.crate": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
