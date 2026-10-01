@@ -218891,8 +218891,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T14:27:39.031Z",
-      "listingValidatedCommit": "2e523434ea6a73bbd51419317d37052b2702e360",
-      "listingValidatedAt": "2026-09-22T14:27:39.031Z",
+      "listingValidatedCommit": "1c23a25d32db515c9dcdd7e5ac5c324ce77e2c99",
+      "listingValidatedAt": "2026-10-01T08:15:57.765Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -218901,8 +218901,8 @@
         "pluginIds": [
           "xvpn"
         ],
-        "commit": "2e523434ea6a73bbd51419317d37052b2702e360",
-        "checkedAt": "2026-09-22T14:27:38.921Z",
+        "commit": "1c23a25d32db515c9dcdd7e5ac5c324ce77e2c99",
+        "checkedAt": "2026-10-01T08:15:57.765Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -218918,7 +218918,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2e523434ea6a73bbd51419317d37052b2702e360",
+          "validatedAt": "2026-09-22T14:27:39.031Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T08:15:57.765Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mamal72/omarchy-xvpn",
+            "pluginIds": [
+              "xvpn"
+            ],
+            "commit": "2e523434ea6a73bbd51419317d37052b2702e360",
+            "checkedAt": "2026-09-22T14:27:38.921Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/iamcheyan/omarchy-launcher",
