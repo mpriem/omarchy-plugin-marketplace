@@ -249348,6 +249348,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/zednaked/omarchy-shanshui",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T01:08:34.930Z",
+      "listingValidatedCommit": "eb6ed3585fc53b340d867ad5716b2abd611213d7",
+      "listingValidatedAt": "2026-10-01T01:08:34.930Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zednaked/omarchy-shanshui",
+        "pluginIds": [
+          "zed.shanshui"
+        ],
+        "commit": "eb6ed3585fc53b340d867ad5716b2abd611213d7",
+        "checkedAt": "2026-10-01T01:08:34.856Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "zed.shanshui": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell",
+            "hyprland",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
