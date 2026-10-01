@@ -223463,8 +223463,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-23",
       "listedAt": "2026-09-23T10:10:20.553Z",
-      "listingValidatedCommit": "eb2f0d8d2f50d0757002988ec8cdae1ea6198dc6",
-      "listingValidatedAt": "2026-09-23T10:10:20.553Z",
+      "listingValidatedCommit": "e7d67501fe52ffdfee7bdf0f8bc9a1a4fb7f57ad",
+      "listingValidatedAt": "2026-10-01T04:32:00.414Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -223473,35 +223473,14 @@
         "pluginIds": [
           "kristofferr.groups"
         ],
-        "commit": "eb2f0d8d2f50d0757002988ec8cdae1ea6198dc6",
-        "checkedAt": "2026-09-23T10:10:20.454Z",
+        "commit": "e7d67501fe52ffdfee7bdf0f8bc9a1a4fb7f57ad",
+        "checkedAt": "2026-10-01T04:32:00.414Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "kristofferr/omarchy-groups",
-        "pluginIds": [
-          "kristofferr.groups"
-        ],
-        "commit": "eb2f0d8d2f50d0757002988ec8cdae1ea6198dc6",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-23T10:10:20.454Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-23T09:57:54.995Z",
-        "requestEventId": 31666536345,
-        "requestedAt": "2026-09-23T10:00:26Z",
-        "reviewedAt": "2026-09-23T10:10:20.454Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "kristofferr.groups": {
@@ -223512,7 +223491,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kristofferr/omarchy-groups",
+        "pluginIds": [
+          "kristofferr.groups"
+        ],
+        "commit": "e7d67501fe52ffdfee7bdf0f8bc9a1a4fb7f57ad",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T04:32:00.414Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-23T23:37:31.997Z",
+        "requestEventId": 32222134883,
+        "requestedAt": "2026-10-01T04:31:32Z",
+        "reviewedAt": "2026-10-01T04:32:00.414Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "eb2f0d8d2f50d0757002988ec8cdae1ea6198dc6",
+          "validatedAt": "2026-09-23T10:10:20.553Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T04:32:00.414Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "kristofferr/omarchy-groups",
+            "pluginIds": [
+              "kristofferr.groups"
+            ],
+            "commit": "eb2f0d8d2f50d0757002988ec8cdae1ea6198dc6",
+            "checkedAt": "2026-09-23T10:10:20.454Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "kristofferr/omarchy-groups",
+            "pluginIds": [
+              "kristofferr.groups"
+            ],
+            "commit": "eb2f0d8d2f50d0757002988ec8cdae1ea6198dc6",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-23T10:10:20.454Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-23T09:57:54.995Z",
+            "requestEventId": 31666536345,
+            "requestedAt": "2026-09-23T10:00:26Z",
+            "reviewedAt": "2026-09-23T10:10:20.454Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ricardoaponte/omarchy-processes",
