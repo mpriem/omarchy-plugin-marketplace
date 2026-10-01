@@ -258657,6 +258657,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nvandendries1984/omarchy-useless-facts",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T21:10:17.564Z",
+      "listingValidatedCommit": "27822602d39d37dd172579d6b26a86540b847939",
+      "listingValidatedAt": "2026-10-01T21:10:17.564Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nvandendries1984/omarchy-useless-facts",
+        "pluginIds": [
+          "io.github.nvandendries1984.useless-facts"
+        ],
+        "commit": "27822602d39d37dd172579d6b26a86540b847939",
+        "checkedAt": "2026-10-01T21:10:17.446Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.nvandendries1984.useless-facts": {
+          "category": "Desktop",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
