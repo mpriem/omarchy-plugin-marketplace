@@ -255574,6 +255574,68 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/SeBoOne/omarchy-devwatch",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T14:55:27.623Z",
+      "listingValidatedCommit": "b912853486ea009769b12bb1ed8bca53935e7a5e",
+      "listingValidatedAt": "2026-10-01T14:55:27.623Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "seboone/omarchy-devwatch",
+        "pluginIds": [
+          "sebo.devwatch"
+        ],
+        "commit": "b912853486ea009769b12bb1ed8bca53935e7a5e",
+        "checkedAt": "2026-10-01T14:55:27.494Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "sudoers-modification",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "seboone/omarchy-devwatch",
+        "pluginIds": [
+          "sebo.devwatch"
+        ],
+        "commit": "b912853486ea009769b12bb1ed8bca53935e7a5e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T14:55:27.494Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "sudoers-modification",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T12:41:29.314Z",
+        "requestEventId": 32261960641,
+        "requestedAt": "2026-10-01T14:51:50Z",
+        "reviewedAt": "2026-10-01T14:55:27.494Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "sebo.devwatch": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
