@@ -255780,6 +255780,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/gdeyoung/omarchy-powercore",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T15:08:12.649Z",
+      "listingValidatedCommit": "53ef566485a84082b1ae6a698d7e49e095f82a30",
+      "listingValidatedAt": "2026-10-01T15:08:12.649Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gdeyoung/omarchy-powercore",
+        "pluginIds": [
+          "gdeyoung.powercore"
+        ],
+        "commit": "53ef566485a84082b1ae6a698d7e49e095f82a30",
+        "checkedAt": "2026-10-01T15:08:12.530Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gdeyoung/omarchy-powercore",
+        "pluginIds": [
+          "gdeyoung.powercore"
+        ],
+        "commit": "53ef566485a84082b1ae6a698d7e49e095f82a30",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T15:08:12.530Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T09:27:07.497Z",
+        "requestEventId": 32262000862,
+        "requestedAt": "2026-10-01T14:52:18Z",
+        "reviewedAt": "2026-10-01T15:08:12.530Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "gdeyoung.powercore": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "power-management"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
