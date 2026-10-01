@@ -186761,8 +186761,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T10:19:58.367Z",
-      "listingValidatedCommit": "09ae2dd95b18e7c156cec83d36869a02c3d2df80",
-      "listingValidatedAt": "2026-09-16T10:19:58.367Z",
+      "listingValidatedCommit": "7048180b8c7261a6057d5218bd297f0d5ada24d0",
+      "listingValidatedAt": "2026-10-01T07:02:52.273Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -186771,8 +186771,8 @@
         "pluginIds": [
           "io.github.nobledoodle.omarchroma"
         ],
-        "commit": "09ae2dd95b18e7c156cec83d36869a02c3d2df80",
-        "checkedAt": "2026-09-16T10:19:58.314Z",
+        "commit": "7048180b8c7261a6057d5218bd297f0d5ada24d0",
+        "checkedAt": "2026-10-01T07:02:52.273Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -186784,16 +186784,25 @@
           "installer"
         ]
       },
+      "plugins": {
+        "io.github.nobledoodle.omarchroma": {
+          "category": "Appearance",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      },
       "maintainerVerificationReview": {
         "schemaVersion": 1,
         "repository": "nobledoodle/omarchroma",
         "pluginIds": [
           "io.github.nobledoodle.omarchroma"
         ],
-        "commit": "09ae2dd95b18e7c156cec83d36869a02c3d2df80",
+        "commit": "7048180b8c7261a6057d5218bd297f0d5ada24d0",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T10:19:58.314Z",
+        "baselineCheckedAt": "2026-10-01T07:02:52.273Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -186803,21 +186812,65 @@
           "package-manager",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-09-14T00:34:34.124Z",
-        "requestEventId": 31236989823,
-        "requestedAt": "2026-09-16T10:16:12Z",
-        "reviewedAt": "2026-09-16T10:19:58.314Z",
+        "reviewedBaselineCheckedAt": "2026-09-28T03:13:52.848Z",
+        "requestEventId": 32229213368,
+        "requestedAt": "2026-10-01T07:00:40Z",
+        "reviewedAt": "2026-10-01T07:02:52.273Z",
         "reviewer": "HANCORE-linux"
       },
-      "plugins": {
-        "io.github.nobledoodle.omarchroma": {
-          "category": "Appearance",
-          "tags": [
-            "system"
-          ],
-          "manifestPath": "manifest.json"
+      "listingValidationHistory": [
+        {
+          "commit": "09ae2dd95b18e7c156cec83d36869a02c3d2df80",
+          "validatedAt": "2026-09-16T10:19:58.367Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T07:02:52.273Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nobledoodle/omarchroma",
+            "pluginIds": [
+              "io.github.nobledoodle.omarchroma"
+            ],
+            "commit": "09ae2dd95b18e7c156cec83d36869a02c3d2df80",
+            "checkedAt": "2026-09-16T10:19:58.314Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "remote-build",
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "nobledoodle/omarchroma",
+            "pluginIds": [
+              "io.github.nobledoodle.omarchroma"
+            ],
+            "commit": "09ae2dd95b18e7c156cec83d36869a02c3d2df80",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T10:19:58.314Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "remote-build",
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-14T00:34:34.124Z",
+            "requestEventId": 31236989823,
+            "requestedAt": "2026-09-16T10:16:12Z",
+            "reviewedAt": "2026-09-16T10:19:58.314Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      }
+      ]
     },
     {
       "repo": "https://github.com/arashonfire/panorama",
