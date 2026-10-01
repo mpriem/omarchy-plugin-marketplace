@@ -49970,8 +49970,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-22",
       "listedAt": "2026-08-22T20:30:54.419Z",
-      "listingValidatedCommit": "16150b2dd2ae9da7549cb65b69a979e5856eadc7",
-      "listingValidatedAt": "2026-09-10T23:40:23.315Z",
+      "listingValidatedCommit": "47d6d77659af4bf675fc588959f301669d850831",
+      "listingValidatedAt": "2026-10-01T08:04:14.797Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -49980,12 +49980,13 @@
         "pluginIds": [
           "io.github.davidxap.omarchy-zen"
         ],
-        "commit": "16150b2dd2ae9da7549cb65b69a979e5856eadc7",
-        "checkedAt": "2026-09-10T23:40:23.315Z",
+        "commit": "47d6d77659af4bf675fc588959f301669d850831",
+        "checkedAt": "2026-10-01T08:04:14.797Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
+          "privilege",
           "remote-build",
           "installer"
         ]
@@ -50135,6 +50136,51 @@
             "reviewedAt": "2026-08-28T10:16:45.697Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "16150b2dd2ae9da7549cb65b69a979e5856eadc7",
+          "validatedAt": "2026-09-10T23:40:23.315Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T08:04:14.797Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "davidxap/omarchy-zen",
+            "pluginIds": [
+              "io.github.davidxap.omarchy-zen"
+            ],
+            "commit": "16150b2dd2ae9da7549cb65b69a979e5856eadc7",
+            "checkedAt": "2026-09-10T23:40:23.315Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "davidxap/omarchy-zen",
+            "pluginIds": [
+              "io.github.davidxap.omarchy-zen"
+            ],
+            "commit": "16150b2dd2ae9da7549cb65b69a979e5856eadc7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-10T23:40:23.315Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-07T04:45:31.557Z",
+            "requestEventId": 30937328694,
+            "requestedAt": "2026-09-10T23:22:16Z",
+            "reviewedAt": "2026-09-10T23:40:23.315Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -50143,20 +50189,21 @@
         "pluginIds": [
           "io.github.davidxap.omarchy-zen"
         ],
-        "commit": "16150b2dd2ae9da7549cb65b69a979e5856eadc7",
+        "commit": "47d6d77659af4bf675fc588959f301669d850831",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-10T23:40:23.315Z",
+        "baselineCheckedAt": "2026-10-01T08:04:14.797Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
+          "privilege",
           "remote-build",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-09-07T04:45:31.557Z",
-        "requestEventId": 30937328694,
-        "requestedAt": "2026-09-10T23:22:16Z",
-        "reviewedAt": "2026-09-10T23:40:23.315Z",
+        "reviewedBaselineCheckedAt": "2026-09-26T19:03:14.830Z",
+        "requestEventId": 32232441390,
+        "requestedAt": "2026-10-01T07:54:19Z",
+        "reviewedAt": "2026-10-01T08:04:14.797Z",
         "reviewer": "HANCORE-linux"
       }
     },
