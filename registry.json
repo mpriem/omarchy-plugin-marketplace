@@ -102854,8 +102854,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-30",
       "listedAt": "2026-08-30T08:10:55.555Z",
-      "listingValidatedCommit": "5109e3d8f8195455c9a33e8f031d734329ba0c85",
-      "listingValidatedAt": "2026-08-30T08:10:55.555Z",
+      "listingValidatedCommit": "1eb8db58be0f43d5541bf46cc02036b9950f6c79",
+      "listingValidatedAt": "2026-10-01T12:37:05.218Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -102864,35 +102864,14 @@
         "pluginIds": [
           "brenc.newgrounds-radio"
         ],
-        "commit": "5109e3d8f8195455c9a33e8f031d734329ba0c85",
-        "checkedAt": "2026-08-30T08:10:55.506Z",
+        "commit": "1eb8db58be0f43d5541bf46cc02036b9950f6c79",
+        "checkedAt": "2026-10-01T12:37:05.218Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "brenc/omarchy-newgrounds-radio",
-        "pluginIds": [
-          "brenc.newgrounds-radio"
-        ],
-        "commit": "5109e3d8f8195455c9a33e8f031d734329ba0c85",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-30T08:10:55.506Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-30T08:08:16.146Z",
-        "requestEventId": 30231138026,
-        "requestedAt": "2026-08-30T08:10:19Z",
-        "reviewedAt": "2026-08-30T08:10:55.506Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "brenc.newgrounds-radio": {
@@ -102904,7 +102883,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "brenc/omarchy-newgrounds-radio",
+        "pluginIds": [
+          "brenc.newgrounds-radio"
+        ],
+        "commit": "1eb8db58be0f43d5541bf46cc02036b9950f6c79",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T12:37:05.218Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-29T19:03:02.224Z",
+        "requestEventId": 32251120187,
+        "requestedAt": "2026-10-01T12:33:19Z",
+        "reviewedAt": "2026-10-01T12:37:05.218Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5109e3d8f8195455c9a33e8f031d734329ba0c85",
+          "validatedAt": "2026-08-30T08:10:55.555Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T12:37:05.218Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "brenc/omarchy-newgrounds-radio",
+            "pluginIds": [
+              "brenc.newgrounds-radio"
+            ],
+            "commit": "5109e3d8f8195455c9a33e8f031d734329ba0c85",
+            "checkedAt": "2026-08-30T08:10:55.506Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "brenc/omarchy-newgrounds-radio",
+            "pluginIds": [
+              "brenc.newgrounds-radio"
+            ],
+            "commit": "5109e3d8f8195455c9a33e8f031d734329ba0c85",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-30T08:10:55.506Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-30T08:08:16.146Z",
+            "requestEventId": 30231138026,
+            "requestedAt": "2026-08-30T08:10:19Z",
+            "reviewedAt": "2026-08-30T08:10:55.506Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/archer-clawbot/omarchy-hermes-harness",
