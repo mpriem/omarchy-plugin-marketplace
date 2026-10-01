@@ -255723,6 +255723,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/zachvandorp123/omarchy-idle-fade",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T15:05:11.968Z",
+      "listingValidatedCommit": "9c22cba3c82436d956fedaa277eed846a5c2e0b9",
+      "listingValidatedAt": "2026-10-01T15:05:11.968Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zachvandorp123/omarchy-idle-fade",
+        "pluginIds": [
+          "io.github.zachvandorp123.idle-fade"
+        ],
+        "commit": "9c22cba3c82436d956fedaa277eed846a5c2e0b9",
+        "checkedAt": "2026-10-01T15:05:11.854Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "zachvandorp123/omarchy-idle-fade",
+        "pluginIds": [
+          "io.github.zachvandorp123.idle-fade"
+        ],
+        "commit": "9c22cba3c82436d956fedaa277eed846a5c2e0b9",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T15:05:11.854Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T06:29:58.061Z",
+        "requestEventId": 32261990313,
+        "requestedAt": "2026-10-01T14:52:11Z",
+        "reviewedAt": "2026-10-01T15:05:11.854Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.zachvandorp123.idle-fade": {
+          "category": "Desktop",
+          "tags": [
+            "quickshell",
+            "power-management",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
