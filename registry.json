@@ -138205,8 +138205,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-05",
       "listedAt": "2026-09-05T16:50:43.262Z",
-      "listingValidatedCommit": "8e6b092bddc69b8f1071f6f3562664d03c303127",
-      "listingValidatedAt": "2026-09-11T20:09:50.640Z",
+      "listingValidatedCommit": "5faa1d291c1f8593cf220621b9bbabb739c8c754",
+      "listingValidatedAt": "2026-10-01T05:17:38.250Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -138215,8 +138215,8 @@
         "pluginIds": [
           "davedes.mouse-keybind-settings"
         ],
-        "commit": "8e6b092bddc69b8f1071f6f3562664d03c303127",
-        "checkedAt": "2026-09-11T20:09:50.640Z",
+        "commit": "5faa1d291c1f8593cf220621b9bbabb739c8c754",
+        "checkedAt": "2026-10-01T05:17:38.249Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -138236,30 +138236,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "davedes83/mouse-keybind-plugin",
-        "pluginIds": [
-          "davedes.mouse-keybind-settings"
-        ],
-        "commit": "8e6b092bddc69b8f1071f6f3562664d03c303127",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-11T20:09:50.640Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "privilege",
-          "package-manager",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-11T15:04:56.975Z",
-        "requestEventId": 30996423854,
-        "requestedAt": "2026-09-11T19:59:49Z",
-        "reviewedAt": "2026-09-11T20:09:50.640Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -138310,8 +138286,81 @@
             "reviewedAt": "2026-09-05T16:50:43.206Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "8e6b092bddc69b8f1071f6f3562664d03c303127",
+          "validatedAt": "2026-09-11T20:09:50.640Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T05:17:38.250Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "davedes83/mouse-keybind-plugin",
+            "pluginIds": [
+              "davedes.mouse-keybind-settings"
+            ],
+            "commit": "8e6b092bddc69b8f1071f6f3562664d03c303127",
+            "checkedAt": "2026-09-11T20:09:50.640Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "privilege",
+              "package-manager",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "davedes83/mouse-keybind-plugin",
+            "pluginIds": [
+              "davedes.mouse-keybind-settings"
+            ],
+            "commit": "8e6b092bddc69b8f1071f6f3562664d03c303127",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-11T20:09:50.640Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "privilege",
+              "package-manager",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-11T15:04:56.975Z",
+            "requestEventId": 30996423854,
+            "requestedAt": "2026-09-11T19:59:49Z",
+            "reviewedAt": "2026-09-11T20:09:50.640Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "davedes83/mouse-keybind-plugin",
+        "pluginIds": [
+          "davedes.mouse-keybind-settings"
+        ],
+        "commit": "5faa1d291c1f8593cf220621b9bbabb739c8c754",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T05:17:38.249Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-23T18:10:55.636Z",
+        "requestEventId": 32224073596,
+        "requestedAt": "2026-10-01T05:17:03Z",
+        "reviewedAt": "2026-10-01T05:17:38.250Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/netors/omcron",
