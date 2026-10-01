@@ -257269,6 +257269,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/swheel33/omarchy-notification-controls",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T16:48:42.538Z",
+      "listingValidatedCommit": "945648ad01f6cc707efef089fc4ed9d01afcdf02",
+      "listingValidatedAt": "2026-10-01T16:48:42.538Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "swheel33/omarchy-notification-controls",
+        "pluginIds": [
+          "hotwheels.notification-controls"
+        ],
+        "commit": "945648ad01f6cc707efef089fc4ed9d01afcdf02",
+        "checkedAt": "2026-10-01T16:48:42.419Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "hotwheels.notification-controls": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
