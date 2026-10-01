@@ -254766,6 +254766,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/derekross/omarchy-bitchat",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T13:56:48.992Z",
+      "listingValidatedCommit": "75ff492ed9c7b01acd89e290b46ca2bcbdd07053",
+      "listingValidatedAt": "2026-10-01T13:56:48.992Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "derekross/omarchy-bitchat",
+        "pluginIds": [
+          "derekross.bitchat"
+        ],
+        "commit": "75ff492ed9c7b01acd89e290b46ca2bcbdd07053",
+        "checkedAt": "2026-10-01T13:56:48.846Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "derekross/omarchy-bitchat",
+        "pluginIds": [
+          "derekross.bitchat"
+        ],
+        "commit": "75ff492ed9c7b01acd89e290b46ca2bcbdd07053",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T13:56:48.846Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T01:28:02.168Z",
+        "requestEventId": 32257309523,
+        "requestedAt": "2026-10-01T13:55:58Z",
+        "reviewedAt": "2026-10-01T13:56:48.847Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "derekross.bitchat": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
