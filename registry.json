@@ -219618,8 +219618,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T17:15:22.732Z",
-      "listingValidatedCommit": "70a9a5a77d5dda60e4952e0962a8ad72557e3c48",
-      "listingValidatedAt": "2026-09-22T17:15:22.732Z",
+      "listingValidatedCommit": "86f86f74f75c1ca7148bd34441deddd123867830",
+      "listingValidatedAt": "2026-10-01T08:51:47.566Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -219628,35 +219628,14 @@
         "pluginIds": [
           "fans.omarchy.zen-wallpaper"
         ],
-        "commit": "70a9a5a77d5dda60e4952e0962a8ad72557e3c48",
-        "checkedAt": "2026-09-22T17:15:22.632Z",
+        "commit": "86f86f74f75c1ca7148bd34441deddd123867830",
+        "checkedAt": "2026-10-01T08:51:47.566Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "omarchyfans/omarchy-fans-zen-wallpaper",
-        "pluginIds": [
-          "fans.omarchy.zen-wallpaper"
-        ],
-        "commit": "70a9a5a77d5dda60e4952e0962a8ad72557e3c48",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-22T17:15:22.632Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-22T16:00:46.878Z",
-        "requestEventId": 31617638127,
-        "requestedAt": "2026-09-22T17:11:08Z",
-        "reviewedAt": "2026-09-22T17:15:22.632Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "fans.omarchy.zen-wallpaper": {
@@ -219667,7 +219646,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "omarchyfans/omarchy-fans-zen-wallpaper",
+        "pluginIds": [
+          "fans.omarchy.zen-wallpaper"
+        ],
+        "commit": "86f86f74f75c1ca7148bd34441deddd123867830",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T08:51:47.566Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-26T21:06:02.703Z",
+        "requestEventId": 32236151742,
+        "requestedAt": "2026-10-01T08:50:37Z",
+        "reviewedAt": "2026-10-01T08:51:47.566Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "70a9a5a77d5dda60e4952e0962a8ad72557e3c48",
+          "validatedAt": "2026-09-22T17:15:22.732Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T08:51:47.566Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "omarchyfans/omarchy-fans-zen-wallpaper",
+            "pluginIds": [
+              "fans.omarchy.zen-wallpaper"
+            ],
+            "commit": "70a9a5a77d5dda60e4952e0962a8ad72557e3c48",
+            "checkedAt": "2026-09-22T17:15:22.632Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "omarchyfans/omarchy-fans-zen-wallpaper",
+            "pluginIds": [
+              "fans.omarchy.zen-wallpaper"
+            ],
+            "commit": "70a9a5a77d5dda60e4952e0962a8ad72557e3c48",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-22T17:15:22.632Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-22T16:00:46.878Z",
+            "requestEventId": 31617638127,
+            "requestedAt": "2026-09-22T17:11:08Z",
+            "reviewedAt": "2026-09-22T17:15:22.632Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Howard3/omarchy-tailnet-guard",
