@@ -256538,6 +256538,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/lwade/omarchy-overlord",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T16:01:52.302Z",
+      "listingValidatedCommit": "53ddb4784e9ac78e299bfcc7af3ff050f49095df",
+      "listingValidatedAt": "2026-10-01T16:01:52.302Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lwade/omarchy-overlord",
+        "pluginIds": [
+          "io.github.lwade.overlord"
+        ],
+        "commit": "53ddb4784e9ac78e299bfcc7af3ff050f49095df",
+        "checkedAt": "2026-10-01T16:01:52.205Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lwade/omarchy-overlord",
+        "pluginIds": [
+          "io.github.lwade.overlord"
+        ],
+        "commit": "53ddb4784e9ac78e299bfcc7af3ff050f49095df",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T16:01:52.205Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T09:05:15.751Z",
+        "requestEventId": 32267550611,
+        "requestedAt": "2026-10-01T16:00:42Z",
+        "reviewedAt": "2026-10-01T16:01:52.205Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.lwade.overlord": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
