@@ -248902,6 +248902,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/andersonmorillo/window-controls",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T00:01:45.156Z",
+      "listingValidatedCommit": "38f6d35abb0ccc36b238bccdd434790396a28a7b",
+      "listingValidatedAt": "2026-10-01T00:01:45.156Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "andersonmorillo/window-controls",
+        "pluginIds": [
+          "li.window-controls"
+        ],
+        "commit": "38f6d35abb0ccc36b238bccdd434790396a28a7b",
+        "checkedAt": "2026-10-01T00:01:45.063Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "li.window-controls": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
