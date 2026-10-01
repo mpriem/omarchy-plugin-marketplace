@@ -259858,6 +259858,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nameproof/nordic-weather",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T22:49:03.817Z",
+      "listingValidatedCommit": "7cd3fae8cfbdc37b4cd5464ab1e6ea6f15ccd76b",
+      "listingValidatedAt": "2026-10-01T22:49:03.817Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nameproof/nordic-weather",
+        "pluginIds": [
+          "io.github.nameproof.nordic-weather"
+        ],
+        "commit": "7cd3fae8cfbdc37b4cd5464ab1e6ea6f15ccd76b",
+        "checkedAt": "2026-10-01T22:49:03.704Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.nameproof.nordic-weather": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
