@@ -49206,8 +49206,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-22",
       "listedAt": "2026-08-22T20:10:54.729Z",
-      "listingValidatedCommit": "46250af8579d2ec905dc069d14db71d22a70cbdb",
-      "listingValidatedAt": "2026-09-03T23:23:43.909Z",
+      "listingValidatedCommit": "e16b8a3fb4cfa243fd1e9af669e47c3d3e094f9e",
+      "listingValidatedAt": "2026-10-01T05:24:59.705Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -49216,13 +49216,11 @@
         "pluginIds": [
           "io.github.rawritude.floating-mode"
         ],
-        "commit": "46250af8579d2ec905dc069d14db71d22a70cbdb",
-        "checkedAt": "2026-09-03T23:23:43.909Z",
-        "outcome": "needs-fixes",
+        "commit": "e16b8a3fb4cfa243fd1e9af669e47c3d3e094f9e",
+        "checkedAt": "2026-10-01T05:24:59.705Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
-        "findings": [
-          "remote-git-execution-unpinned"
-        ],
+        "findings": [],
         "capabilities": [
           "privilege",
           "package-manager",
@@ -49451,6 +49449,59 @@
             "reviewedAt": "2026-09-02T00:19:53.314Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "46250af8579d2ec905dc069d14db71d22a70cbdb",
+          "validatedAt": "2026-09-03T23:23:43.909Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T05:24:59.705Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jwm3000/omarchy-windows",
+            "pluginIds": [
+              "io.github.rawritude.floating-mode"
+            ],
+            "commit": "46250af8579d2ec905dc069d14db71d22a70cbdb",
+            "checkedAt": "2026-09-03T23:23:43.909Z",
+            "outcome": "needs-fixes",
+            "enforcementMode": "selective",
+            "findings": [
+              "remote-git-execution-unpinned"
+            ],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer",
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "jwm3000/omarchy-windows",
+            "pluginIds": [
+              "io.github.rawritude.floating-mode"
+            ],
+            "commit": "46250af8579d2ec905dc069d14db71d22a70cbdb",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-03T23:23:43.909Z",
+            "baselineOutcome": "needs-fixes",
+            "findings": [
+              "remote-git-execution-unpinned"
+            ],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer",
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-02T22:28:26.928Z",
+            "requestEventId": 30518175588,
+            "requestedAt": "2026-09-03T21:44:40Z",
+            "reviewedAt": "2026-09-03T23:23:43.909Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -49459,24 +49510,22 @@
         "pluginIds": [
           "io.github.rawritude.floating-mode"
         ],
-        "commit": "46250af8579d2ec905dc069d14db71d22a70cbdb",
+        "commit": "e16b8a3fb4cfa243fd1e9af669e47c3d3e094f9e",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-03T23:23:43.909Z",
-        "baselineOutcome": "needs-fixes",
-        "findings": [
-          "remote-git-execution-unpinned"
-        ],
+        "baselineCheckedAt": "2026-10-01T05:24:59.705Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
         "capabilities": [
           "privilege",
           "package-manager",
           "installer",
           "remote-build"
         ],
-        "reviewedBaselineCheckedAt": "2026-09-02T22:28:26.928Z",
-        "requestEventId": 30518175588,
-        "requestedAt": "2026-09-03T21:44:40Z",
-        "reviewedAt": "2026-09-03T23:23:43.909Z",
+        "reviewedBaselineCheckedAt": "2026-09-23T19:27:09.307Z",
+        "requestEventId": 32224418331,
+        "requestedAt": "2026-10-01T05:24:33Z",
+        "reviewedAt": "2026-10-01T05:24:59.705Z",
         "reviewer": "HANCORE-linux"
       }
     },
