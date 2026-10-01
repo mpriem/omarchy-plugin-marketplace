@@ -220158,8 +220158,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T20:09:28.661Z",
-      "listingValidatedCommit": "fdec12de856a7f27f660998ce8266f3cf82cbf90",
-      "listingValidatedAt": "2026-09-23T18:57:29.265Z",
+      "listingValidatedCommit": "f153e6d4666ca828903ee8bec63dfecfd2a46c5d",
+      "listingValidatedAt": "2026-10-01T06:26:38.243Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -220168,8 +220168,8 @@
         "pluginIds": [
           "io.github.tecknozic.skybrief"
         ],
-        "commit": "fdec12de856a7f27f660998ce8266f3cf82cbf90",
-        "checkedAt": "2026-09-23T18:57:29.265Z",
+        "commit": "f153e6d4666ca828903ee8bec63dfecfd2a46c5d",
+        "checkedAt": "2026-10-01T06:26:38.243Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -220200,6 +220200,26 @@
             ],
             "commit": "2daefe9e12ab1e050c13a4a9745acfbe7097b66b",
             "checkedAt": "2026-09-22T20:09:28.581Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "fdec12de856a7f27f660998ce8266f3cf82cbf90",
+          "validatedAt": "2026-09-23T18:57:29.265Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T06:26:38.243Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tecknozic/omarchy-skybrief",
+            "pluginIds": [
+              "io.github.tecknozic.skybrief"
+            ],
+            "commit": "fdec12de856a7f27f660998ce8266f3cf82cbf90",
+            "checkedAt": "2026-09-23T18:57:29.265Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
