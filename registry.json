@@ -180018,8 +180018,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-15",
       "listedAt": "2026-09-15T19:23:46.968Z",
-      "listingValidatedCommit": "a42d31fc1a52619786cd50788050ce45f324f38f",
-      "listingValidatedAt": "2026-09-15T19:23:46.968Z",
+      "listingValidatedCommit": "947267d144e3e5161db5802a9d7c2207aafc5e09",
+      "listingValidatedAt": "2026-10-01T01:35:56.985Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -180028,8 +180028,8 @@
         "pluginIds": [
           "io.github.pablousx.omadocs"
         ],
-        "commit": "a42d31fc1a52619786cd50788050ce45f324f38f",
-        "checkedAt": "2026-09-15T19:23:46.891Z",
+        "commit": "947267d144e3e5161db5802a9d7c2207aafc5e09",
+        "checkedAt": "2026-10-01T01:35:56.985Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -180037,28 +180037,6 @@
           "installer",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "pablousx/omadocs",
-        "pluginIds": [
-          "io.github.pablousx.omadocs"
-        ],
-        "commit": "a42d31fc1a52619786cd50788050ce45f324f38f",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-15T19:23:46.891Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-10T20:20:01.857Z",
-        "requestEventId": 31197581890,
-        "requestedAt": "2026-09-15T19:10:30Z",
-        "reviewedAt": "2026-09-15T19:23:46.892Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.pablousx.omadocs": {
@@ -180069,7 +180047,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pablousx/omadocs",
+        "pluginIds": [
+          "io.github.pablousx.omadocs"
+        ],
+        "commit": "947267d144e3e5161db5802a9d7c2207aafc5e09",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T01:35:56.985Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-22T17:11:04.377Z",
+        "requestEventId": 32214226047,
+        "requestedAt": "2026-10-01T01:35:30Z",
+        "reviewedAt": "2026-10-01T01:35:56.985Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a42d31fc1a52619786cd50788050ce45f324f38f",
+          "validatedAt": "2026-09-15T19:23:46.968Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T01:35:56.985Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "pablousx/omadocs",
+            "pluginIds": [
+              "io.github.pablousx.omadocs"
+            ],
+            "commit": "a42d31fc1a52619786cd50788050ce45f324f38f",
+            "checkedAt": "2026-09-15T19:23:46.891Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "pablousx/omadocs",
+            "pluginIds": [
+              "io.github.pablousx.omadocs"
+            ],
+            "commit": "a42d31fc1a52619786cd50788050ce45f324f38f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-15T19:23:46.891Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-10T20:20:01.857Z",
+            "requestEventId": 31197581890,
+            "requestedAt": "2026-09-15T19:10:30Z",
+            "reviewedAt": "2026-09-15T19:23:46.892Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Meenun-123/omarchy-plugin-manager",
