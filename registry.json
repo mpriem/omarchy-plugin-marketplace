@@ -15578,8 +15578,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-17",
       "listedAt": "2026-08-17T19:09:14.639Z",
-      "listingValidatedCommit": "a876061a58c7bf7f05dcb83526de80751b66c4f2",
-      "listingValidatedAt": "2026-09-27T10:45:40.583Z",
+      "listingValidatedCommit": "a3bf6153edb28d536d4b830a792e4f640d4754f0",
+      "listingValidatedAt": "2026-10-01T21:40:36.270Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -15588,8 +15588,8 @@
         "pluginIds": [
           "io.github.filipechagas.omapin"
         ],
-        "commit": "a876061a58c7bf7f05dcb83526de80751b66c4f2",
-        "checkedAt": "2026-09-27T10:45:40.583Z",
+        "commit": "a3bf6153edb28d536d4b830a792e4f640d4754f0",
+        "checkedAt": "2026-10-01T21:40:36.270Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -15620,6 +15620,26 @@
             ],
             "commit": "c314964febca90b869af5088069ba015cf51afbb",
             "checkedAt": "2026-08-17T18:14:48.039Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "a876061a58c7bf7f05dcb83526de80751b66c4f2",
+          "validatedAt": "2026-09-27T10:45:40.583Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T21:40:36.270Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "filipechagas/omarchy-pinboard",
+            "pluginIds": [
+              "io.github.filipechagas.omapin"
+            ],
+            "commit": "a876061a58c7bf7f05dcb83526de80751b66c4f2",
+            "checkedAt": "2026-09-27T10:45:40.583Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
