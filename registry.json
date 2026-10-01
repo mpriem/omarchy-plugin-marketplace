@@ -191560,8 +191560,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T20:43:18.134Z",
-      "listingValidatedCommit": "76317e69f211e1a4f2881bc0367362de5f293712",
-      "listingValidatedAt": "2026-09-16T20:43:18.134Z",
+      "listingValidatedCommit": "0faf060c1726b37f37cd4f3e5caaeaa44b17cde9",
+      "listingValidatedAt": "2026-10-01T08:54:39.653Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -191570,8 +191570,8 @@
         "pluginIds": [
           "simoz.vessel"
         ],
-        "commit": "76317e69f211e1a4f2881bc0367362de5f293712",
-        "checkedAt": "2026-09-16T20:43:18.043Z",
+        "commit": "0faf060c1726b37f37cd4f3e5caaeaa44b17cde9",
+        "checkedAt": "2026-10-01T08:54:39.653Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -191585,7 +191585,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "76317e69f211e1a4f2881bc0367362de5f293712",
+          "validatedAt": "2026-09-16T20:43:18.134Z",
+          "branch": "master",
+          "supersededAt": "2026-10-01T08:54:39.653Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "simoz/omarchy-vessel",
+            "pluginIds": [
+              "simoz.vessel"
+            ],
+            "commit": "76317e69f211e1a4f2881bc0367362de5f293712",
+            "checkedAt": "2026-09-16T20:43:18.043Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/MASH2RAFI/omarchy-kronos",
