@@ -257074,6 +257074,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/HurlyDesousa/omarchy-ai-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T16:32:15.761Z",
+      "listingValidatedCommit": "99dc83d813053461653bff68bc4fb2ac5f26c09a",
+      "listingValidatedAt": "2026-10-01T16:32:15.761Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hurlydesousa/omarchy-ai-usage",
+        "pluginIds": [
+          "io.github.hurlydesousa.ai-usage"
+        ],
+        "commit": "99dc83d813053461653bff68bc4fb2ac5f26c09a",
+        "checkedAt": "2026-10-01T16:32:15.632Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.hurlydesousa.ai-usage": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
