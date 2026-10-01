@@ -236641,8 +236641,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T08:58:23.507Z",
-      "listingValidatedCommit": "0314c8f5e5dad0d8ec2989284328faba8d3a2357",
-      "listingValidatedAt": "2026-09-27T08:58:23.507Z",
+      "listingValidatedCommit": "1ccb9d1fb392335219290a514355405214704382",
+      "listingValidatedAt": "2026-10-01T10:16:48.083Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -236651,8 +236651,8 @@
         "pluginIds": [
           "io.github.danielerikssoncoder.ps5-firmware"
         ],
-        "commit": "0314c8f5e5dad0d8ec2989284328faba8d3a2357",
-        "checkedAt": "2026-09-27T08:58:23.397Z",
+        "commit": "1ccb9d1fb392335219290a514355405214704382",
+        "checkedAt": "2026-10-01T10:16:48.082Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -236668,7 +236668,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0314c8f5e5dad0d8ec2989284328faba8d3a2357",
+          "validatedAt": "2026-09-27T08:58:23.507Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T10:16:48.083Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "danielerikssoncoder/omarchy-ps5-firmware",
+            "pluginIds": [
+              "io.github.danielerikssoncoder.ps5-firmware"
+            ],
+            "commit": "0314c8f5e5dad0d8ec2989284328faba8d3a2357",
+            "checkedAt": "2026-09-27T08:58:23.397Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/usutani/omarchy-eye-care",
