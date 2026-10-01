@@ -209733,8 +209733,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T20:09:57.908Z",
-      "listingValidatedCommit": "c1fba46aa56a152b4bdd66f90874f0e8e41dd432",
-      "listingValidatedAt": "2026-09-25T21:55:03.062Z",
+      "listingValidatedCommit": "a97c11062fe0f3744690bbddfb6bf76e5d30af6c",
+      "listingValidatedAt": "2026-10-01T21:07:21.155Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -209743,8 +209743,8 @@
         "pluginIds": [
           "lucas.system-pulse"
         ],
-        "commit": "c1fba46aa56a152b4bdd66f90874f0e8e41dd432",
-        "checkedAt": "2026-09-25T21:55:03.062Z",
+        "commit": "a97c11062fe0f3744690bbddfb6bf76e5d30af6c",
+        "checkedAt": "2026-10-01T21:07:21.155Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -209762,27 +209762,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "lucaslus/omarchy-statusline",
-        "pluginIds": [
-          "lucas.system-pulse"
-        ],
-        "commit": "c1fba46aa56a152b4bdd66f90874f0e8e41dd432",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-25T21:55:03.062Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-24T10:37:37.769Z",
-        "requestEventId": 31866454231,
-        "requestedAt": "2026-09-25T21:27:14Z",
-        "reviewedAt": "2026-09-25T21:55:03.062Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -209827,8 +209806,72 @@
             "reviewedAt": "2026-09-21T20:09:57.815Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "c1fba46aa56a152b4bdd66f90874f0e8e41dd432",
+          "validatedAt": "2026-09-25T21:55:03.062Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T21:07:21.155Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lucaslus/omarchy-statusline",
+            "pluginIds": [
+              "lucas.system-pulse"
+            ],
+            "commit": "c1fba46aa56a152b4bdd66f90874f0e8e41dd432",
+            "checkedAt": "2026-09-25T21:55:03.062Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "lucaslus/omarchy-statusline",
+            "pluginIds": [
+              "lucas.system-pulse"
+            ],
+            "commit": "c1fba46aa56a152b4bdd66f90874f0e8e41dd432",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-25T21:55:03.062Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-24T10:37:37.769Z",
+            "requestEventId": 31866454231,
+            "requestedAt": "2026-09-25T21:27:14Z",
+            "reviewedAt": "2026-09-25T21:55:03.062Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lucaslus/omarchy-statusline",
+        "pluginIds": [
+          "lucas.system-pulse"
+        ],
+        "commit": "a97c11062fe0f3744690bbddfb6bf76e5d30af6c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T21:07:21.155Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T03:17:37.595Z",
+        "requestEventId": 32287028319,
+        "requestedAt": "2026-10-01T20:35:29Z",
+        "reviewedAt": "2026-10-01T21:07:21.155Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/jikotheguy/omarchy-agentcron",
