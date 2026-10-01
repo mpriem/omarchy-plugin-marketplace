@@ -260292,6 +260292,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Darkosxl/omarchy-cursor-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T23:19:39.213Z",
+      "listingValidatedCommit": "a6fcd8c61a40f274c1edd6e63c459fe2ffd173c7",
+      "listingValidatedAt": "2026-10-01T23:19:39.213Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "darkosxl/omarchy-cursor-usage",
+        "pluginIds": [
+          "darkosxl.agents-cursor"
+        ],
+        "commit": "a6fcd8c61a40f274c1edd6e63c459fe2ffd173c7",
+        "checkedAt": "2026-10-01T23:19:39.088Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "darkosxl.agents-cursor": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
