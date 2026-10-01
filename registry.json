@@ -215166,8 +215166,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T11:19:03.233Z",
-      "listingValidatedCommit": "dcba938567c72058e016223c4a9e18fe80f55bf9",
-      "listingValidatedAt": "2026-09-22T11:19:03.233Z",
+      "listingValidatedCommit": "77a0c0844facb538b3a09322d109871a9c117474",
+      "listingValidatedAt": "2026-10-01T03:28:34.450Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -215176,8 +215176,8 @@
         "pluginIds": [
           "yakumy.station"
         ],
-        "commit": "dcba938567c72058e016223c4a9e18fe80f55bf9",
-        "checkedAt": "2026-09-22T11:19:03.159Z",
+        "commit": "77a0c0844facb538b3a09322d109871a9c117474",
+        "checkedAt": "2026-10-01T03:28:34.450Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -215185,28 +215185,6 @@
           "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "yakumy/station",
-        "pluginIds": [
-          "yakumy.station"
-        ],
-        "commit": "dcba938567c72058e016223c4a9e18fe80f55bf9",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-22T11:19:03.159Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-22T10:38:26.289Z",
-        "requestEventId": 31594339060,
-        "requestedAt": "2026-09-22T11:09:43Z",
-        "reviewedAt": "2026-09-22T11:19:03.159Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "yakumy.station": {
@@ -215217,7 +215195,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yakumy/station",
+        "pluginIds": [
+          "yakumy.station"
+        ],
+        "commit": "77a0c0844facb538b3a09322d109871a9c117474",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T03:28:34.450Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-23T06:01:58.984Z",
+        "requestEventId": 32219221634,
+        "requestedAt": "2026-10-01T03:28:08Z",
+        "reviewedAt": "2026-10-01T03:28:34.450Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "dcba938567c72058e016223c4a9e18fe80f55bf9",
+          "validatedAt": "2026-09-22T11:19:03.233Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T03:28:34.450Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "yakumy/station",
+            "pluginIds": [
+              "yakumy.station"
+            ],
+            "commit": "dcba938567c72058e016223c4a9e18fe80f55bf9",
+            "checkedAt": "2026-09-22T11:19:03.159Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "yakumy/station",
+            "pluginIds": [
+              "yakumy.station"
+            ],
+            "commit": "dcba938567c72058e016223c4a9e18fe80f55bf9",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-22T11:19:03.159Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-22T10:38:26.289Z",
+            "requestEventId": 31594339060,
+            "requestedAt": "2026-09-22T11:09:43Z",
+            "reviewedAt": "2026-09-22T11:19:03.159Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Daz92/omarchy-toggl-track",
