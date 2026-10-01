@@ -199719,8 +199719,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-19",
       "listedAt": "2026-09-19T10:47:32.762Z",
-      "listingValidatedCommit": "5594cf9123ac4e2b1c8435d077af4b175af22c84",
-      "listingValidatedAt": "2026-09-19T10:47:32.762Z",
+      "listingValidatedCommit": "f4aa3fc841bef7331e8954f5a518b90bf70ccf1c",
+      "listingValidatedAt": "2026-10-01T11:50:29.011Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -199729,8 +199729,8 @@
         "pluginIds": [
           "omarchy-wireless-display"
         ],
-        "commit": "5594cf9123ac4e2b1c8435d077af4b175af22c84",
-        "checkedAt": "2026-09-19T10:47:32.669Z",
+        "commit": "f4aa3fc841bef7331e8954f5a518b90bf70ccf1c",
+        "checkedAt": "2026-10-01T11:50:29.011Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -199740,29 +199740,6 @@
           "privilege"
         ]
       },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "alchemy/omarchy-wireless-display",
-        "pluginIds": [
-          "omarchy-wireless-display"
-        ],
-        "commit": "5594cf9123ac4e2b1c8435d077af4b175af22c84",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-19T10:47:32.669Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "service-management",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-18T20:16:58.773Z",
-        "requestEventId": 31441563486,
-        "requestedAt": "2026-09-19T10:42:52Z",
-        "reviewedAt": "2026-09-19T10:47:32.669Z",
-        "reviewer": "HANCORE-linux"
-      },
       "plugins": {
         "omarchy-wireless-display": {
           "category": "System",
@@ -199771,7 +199748,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alchemy/omarchy-wireless-display",
+        "pluginIds": [
+          "omarchy-wireless-display"
+        ],
+        "commit": "f4aa3fc841bef7331e8954f5a518b90bf70ccf1c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T11:50:29.011Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T07:14:52.638Z",
+        "requestEventId": 32246541905,
+        "requestedAt": "2026-10-01T11:30:26Z",
+        "reviewedAt": "2026-10-01T11:50:29.011Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5594cf9123ac4e2b1c8435d077af4b175af22c84",
+          "validatedAt": "2026-09-19T10:47:32.762Z",
+          "branch": "master",
+          "supersededAt": "2026-10-01T11:50:29.011Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "alchemy/omarchy-wireless-display",
+            "pluginIds": [
+              "omarchy-wireless-display"
+            ],
+            "commit": "5594cf9123ac4e2b1c8435d077af4b175af22c84",
+            "checkedAt": "2026-09-19T10:47:32.669Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "alchemy/omarchy-wireless-display",
+            "pluginIds": [
+              "omarchy-wireless-display"
+            ],
+            "commit": "5594cf9123ac4e2b1c8435d077af4b175af22c84",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-19T10:47:32.669Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-18T20:16:58.773Z",
+            "requestEventId": 31441563486,
+            "requestedAt": "2026-09-19T10:42:52Z",
+            "reviewedAt": "2026-09-19T10:47:32.669Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dneighbors/omarchy-plugin-tinkerer-club",
