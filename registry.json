@@ -187454,8 +187454,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T15:07:06.664Z",
-      "listingValidatedCommit": "8395534c0b97d90783ae0802a52a6a17c603a4fd",
-      "listingValidatedAt": "2026-09-16T15:07:06.664Z",
+      "listingValidatedCommit": "4f0f01b785950d672f144528bbc2b78089f4c709",
+      "listingValidatedAt": "2026-10-01T09:04:51.329Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -187464,35 +187464,14 @@
         "pluginIds": [
           "com.arashlab.panorama"
         ],
-        "commit": "8395534c0b97d90783ae0802a52a6a17c603a4fd",
-        "checkedAt": "2026-09-16T15:07:06.569Z",
+        "commit": "4f0f01b785950d672f144528bbc2b78089f4c709",
+        "checkedAt": "2026-10-01T09:04:51.329Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "arashonfire/panorama",
-        "pluginIds": [
-          "com.arashlab.panorama"
-        ],
-        "commit": "8395534c0b97d90783ae0802a52a6a17c603a4fd",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T15:07:06.569Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-13T22:37:20.569Z",
-        "requestEventId": 31254882903,
-        "requestedAt": "2026-09-16T15:05:29Z",
-        "reviewedAt": "2026-09-16T15:07:06.569Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "com.arashlab.panorama": {
@@ -187502,7 +187481,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "arashonfire/panorama",
+        "pluginIds": [
+          "com.arashlab.panorama"
+        ],
+        "commit": "4f0f01b785950d672f144528bbc2b78089f4c709",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T09:04:51.329Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-27T04:34:09.497Z",
+        "requestEventId": 32237079296,
+        "requestedAt": "2026-10-01T09:03:29Z",
+        "reviewedAt": "2026-10-01T09:04:51.329Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "8395534c0b97d90783ae0802a52a6a17c603a4fd",
+          "validatedAt": "2026-09-16T15:07:06.664Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T09:04:51.329Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "arashonfire/panorama",
+            "pluginIds": [
+              "com.arashlab.panorama"
+            ],
+            "commit": "8395534c0b97d90783ae0802a52a6a17c603a4fd",
+            "checkedAt": "2026-09-16T15:07:06.569Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "arashonfire/panorama",
+            "pluginIds": [
+              "com.arashlab.panorama"
+            ],
+            "commit": "8395534c0b97d90783ae0802a52a6a17c603a4fd",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T15:07:06.569Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-13T22:37:20.569Z",
+            "requestEventId": 31254882903,
+            "requestedAt": "2026-09-16T15:05:29Z",
+            "reviewedAt": "2026-09-16T15:07:06.569Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/karamble/omarchy-site-sentinel",
