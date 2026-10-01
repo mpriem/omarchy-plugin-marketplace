@@ -259556,6 +259556,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/JustVicinity/omagato",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T22:26:32.291Z",
+      "listingValidatedCommit": "af8d11a3731487efa15866132b98d29d424a8629",
+      "listingValidatedAt": "2026-10-01T22:26:32.291Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "justvicinity/omagato",
+        "pluginIds": [
+          "io.github.justvicinity.omagato"
+        ],
+        "commit": "af8d11a3731487efa15866132b98d29d424a8629",
+        "checkedAt": "2026-10-01T22:26:32.169Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "justvicinity/omagato",
+        "pluginIds": [
+          "io.github.justvicinity.omagato"
+        ],
+        "commit": "af8d11a3731487efa15866132b98d29d424a8629",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T22:26:32.169Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T11:06:59.974Z",
+        "requestEventId": 32292161825,
+        "requestedAt": "2026-10-01T21:55:54Z",
+        "reviewedAt": "2026-10-01T22:26:32.169Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.justvicinity.omagato": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
