@@ -260099,6 +260099,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/szaidi-code/fleet-health",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T23:06:48.570Z",
+      "listingValidatedCommit": "5d331efc13931dd4d23a5abe8072017222490b24",
+      "listingValidatedAt": "2026-10-01T23:06:48.570Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "szaidi-code/fleet-health",
+        "pluginIds": [
+          "fleet.health"
+        ],
+        "commit": "5d331efc13931dd4d23a5abe8072017222490b24",
+        "checkedAt": "2026-10-01T23:06:48.438Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "szaidi-code/fleet-health",
+        "pluginIds": [
+          "fleet.health"
+        ],
+        "commit": "5d331efc13931dd4d23a5abe8072017222490b24",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T23:06:48.438Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T10:33:28.457Z",
+        "requestEventId": 32294539421,
+        "requestedAt": "2026-10-01T22:40:19Z",
+        "reviewedAt": "2026-10-01T23:06:48.438Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "fleet.health": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
