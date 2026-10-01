@@ -32956,8 +32956,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-20",
       "listedAt": "2026-08-20T19:34:13.433Z",
-      "listingValidatedCommit": "b5247002ae7f23bd0e1148753a31d02ca6e29bf6",
-      "listingValidatedAt": "2026-09-10T20:30:14.159Z",
+      "listingValidatedCommit": "7ef5e783f82558d79a4de6dc2c6336ee6c0802f6",
+      "listingValidatedAt": "2026-10-01T13:18:53.813Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -32966,8 +32966,8 @@
         "pluginIds": [
           "emils.localhost"
         ],
-        "commit": "b5247002ae7f23bd0e1148753a31d02ca6e29bf6",
-        "checkedAt": "2026-09-10T20:30:14.159Z",
+        "commit": "7ef5e783f82558d79a4de6dc2c6336ee6c0802f6",
+        "checkedAt": "2026-10-01T13:18:53.813Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -32985,28 +32985,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "emilsvaldmanis/omarchy-localhost",
-        "pluginIds": [
-          "emils.localhost"
-        ],
-        "commit": "b5247002ae7f23bd0e1148753a31d02ca6e29bf6",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-10T20:30:14.159Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-05T11:10:25.725Z",
-        "requestEventId": 30929098121,
-        "requestedAt": "2026-09-10T20:17:02Z",
-        "reviewedAt": "2026-09-10T20:30:14.159Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -33031,8 +33009,75 @@
               "service-management"
             ]
           }
+        },
+        {
+          "commit": "b5247002ae7f23bd0e1148753a31d02ca6e29bf6",
+          "validatedAt": "2026-09-10T20:30:14.159Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T13:18:53.813Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "emilsvaldmanis/omarchy-localhost",
+            "pluginIds": [
+              "emils.localhost"
+            ],
+            "commit": "b5247002ae7f23bd0e1148753a31d02ca6e29bf6",
+            "checkedAt": "2026-09-10T20:30:14.159Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "emilsvaldmanis/omarchy-localhost",
+            "pluginIds": [
+              "emils.localhost"
+            ],
+            "commit": "b5247002ae7f23bd0e1148753a31d02ca6e29bf6",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-10T20:30:14.159Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-05T11:10:25.725Z",
+            "requestEventId": 30929098121,
+            "requestedAt": "2026-09-10T20:17:02Z",
+            "reviewedAt": "2026-09-10T20:30:14.159Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "emilsvaldmanis/omarchy-localhost",
+        "pluginIds": [
+          "emils.localhost"
+        ],
+        "commit": "7ef5e783f82558d79a4de6dc2c6336ee6c0802f6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T13:18:53.813Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T07:23:28.277Z",
+        "requestEventId": 32254122935,
+        "requestedAt": "2026-10-01T13:15:05Z",
+        "reviewedAt": "2026-10-01T13:18:53.813Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/sheikhlimon/omarchy-todo",
