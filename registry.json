@@ -259202,6 +259202,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/kittxdev-technologies/omarchy-keyboard-switcher",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T22:04:51.757Z",
+      "listingValidatedCommit": "1c0e27b4ddb8a82abd626640bd76dbc9c1a22e47",
+      "listingValidatedAt": "2026-10-01T22:04:51.757Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kittxdev-technologies/omarchy-keyboard-switcher",
+        "pluginIds": [
+          "io.github.kittxdev-technologies.keyboard-switcher"
+        ],
+        "commit": "1c0e27b4ddb8a82abd626640bd76dbc9c1a22e47",
+        "checkedAt": "2026-10-01T22:04:51.644Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kittxdev-technologies/omarchy-keyboard-switcher",
+        "pluginIds": [
+          "io.github.kittxdev-technologies.keyboard-switcher"
+        ],
+        "commit": "1c0e27b4ddb8a82abd626640bd76dbc9c1a22e47",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T22:04:51.644Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T20:22:59.466Z",
+        "requestEventId": 32290848037,
+        "requestedAt": "2026-10-01T21:34:04Z",
+        "reviewedAt": "2026-10-01T22:04:51.644Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.kittxdev-technologies.keyboard-switcher": {
+          "category": "System",
+          "tags": [
+            "system",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
