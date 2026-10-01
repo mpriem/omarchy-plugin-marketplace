@@ -258002,6 +258002,68 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/cittadhammo/omarchy-languagetool",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T20:29:23.992Z",
+      "listingValidatedCommit": "a3d27556dd290b0b6b51887b3f0c5114b18db0cb",
+      "listingValidatedAt": "2026-10-01T20:29:23.992Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cittadhammo/omarchy-languagetool",
+        "pluginIds": [
+          "cittadhammo.languagetool"
+        ],
+        "commit": "a3d27556dd290b0b6b51887b3f0c5114b18db0cb",
+        "checkedAt": "2026-10-01T20:29:23.858Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cittadhammo/omarchy-languagetool",
+        "pluginIds": [
+          "cittadhammo.languagetool"
+        ],
+        "commit": "a3d27556dd290b0b6b51887b3f0c5114b18db0cb",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T20:29:23.858Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T20:19:43.348Z",
+        "requestEventId": 32286218654,
+        "requestedAt": "2026-10-01T20:23:38Z",
+        "reviewedAt": "2026-10-01T20:29:23.859Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "cittadhammo.languagetool": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
