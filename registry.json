@@ -121000,8 +121000,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-01",
       "listedAt": "2026-09-01T22:34:16.400Z",
-      "listingValidatedCommit": "5b5e4c6f78ebb37f9bc81ac789285d77d2bfa8dc",
-      "listingValidatedAt": "2026-09-10T17:51:52.817Z",
+      "listingValidatedCommit": "951fe32fa65763b306c7af6146fa9be0a2ecff41",
+      "listingValidatedAt": "2026-10-01T21:19:10.976Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -121010,8 +121010,8 @@
         "pluginIds": [
           "roubilibo.workspace-navigator"
         ],
-        "commit": "5b5e4c6f78ebb37f9bc81ac789285d77d2bfa8dc",
-        "checkedAt": "2026-09-10T17:51:52.817Z",
+        "commit": "951fe32fa65763b306c7af6146fa9be0a2ecff41",
+        "checkedAt": "2026-10-01T21:19:10.976Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -121063,6 +121063,26 @@
             ],
             "commit": "683faf628b8e2ad7a932801c03bd3e4fd86b9039",
             "checkedAt": "2026-09-03T22:22:06.228Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "5b5e4c6f78ebb37f9bc81ac789285d77d2bfa8dc",
+          "validatedAt": "2026-09-10T17:51:52.817Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T21:19:10.976Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "roubilibo/omarchy-workspace-navigator",
+            "pluginIds": [
+              "roubilibo.workspace-navigator"
+            ],
+            "commit": "5b5e4c6f78ebb37f9bc81ac789285d77d2bfa8dc",
+            "checkedAt": "2026-09-10T17:51:52.817Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
