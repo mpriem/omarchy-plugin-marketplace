@@ -197224,8 +197224,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-18",
       "listedAt": "2026-09-18T18:25:14.420Z",
-      "listingValidatedCommit": "143da7017897823da485017f91af842f20e52d1f",
-      "listingValidatedAt": "2026-09-18T18:25:14.420Z",
+      "listingValidatedCommit": "3245914dd5e384c83950731c63ce46311a3016cc",
+      "listingValidatedAt": "2026-10-01T09:01:36.336Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -197234,8 +197234,8 @@
         "pluginIds": [
           "user.duolingo"
         ],
-        "commit": "143da7017897823da485017f91af842f20e52d1f",
-        "checkedAt": "2026-09-18T18:25:14.325Z",
+        "commit": "3245914dd5e384c83950731c63ce46311a3016cc",
+        "checkedAt": "2026-10-01T09:01:36.336Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -197243,28 +197243,6 @@
           "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "danielxxomg/omarchy-duolingo",
-        "pluginIds": [
-          "user.duolingo"
-        ],
-        "commit": "143da7017897823da485017f91af842f20e52d1f",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-18T18:25:14.325Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-18T18:10:56.183Z",
-        "requestEventId": 31409497490,
-        "requestedAt": "2026-09-18T18:23:38Z",
-        "reviewedAt": "2026-09-18T18:25:14.325Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "user.duolingo": {
@@ -197275,7 +197253,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "danielxxomg/omarchy-duolingo",
+        "pluginIds": [
+          "user.duolingo"
+        ],
+        "commit": "3245914dd5e384c83950731c63ce46311a3016cc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T09:01:36.336Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-27T05:29:17.715Z",
+        "requestEventId": 32236907775,
+        "requestedAt": "2026-10-01T09:01:02Z",
+        "reviewedAt": "2026-10-01T09:01:36.336Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "143da7017897823da485017f91af842f20e52d1f",
+          "validatedAt": "2026-09-18T18:25:14.420Z",
+          "branch": "master",
+          "supersededAt": "2026-10-01T09:01:36.336Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "danielxxomg/omarchy-duolingo",
+            "pluginIds": [
+              "user.duolingo"
+            ],
+            "commit": "143da7017897823da485017f91af842f20e52d1f",
+            "checkedAt": "2026-09-18T18:25:14.325Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "danielxxomg/omarchy-duolingo",
+            "pluginIds": [
+              "user.duolingo"
+            ],
+            "commit": "143da7017897823da485017f91af842f20e52d1f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-18T18:25:14.325Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-18T18:10:56.183Z",
+            "requestEventId": 31409497490,
+            "requestedAt": "2026-09-18T18:23:38Z",
+            "reviewedAt": "2026-09-18T18:25:14.325Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/the4rchangel/omarchy-hackery-lock",
