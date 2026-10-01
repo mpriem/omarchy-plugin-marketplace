@@ -192434,8 +192434,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-17",
       "listedAt": "2026-09-17T07:28:56.024Z",
-      "listingValidatedCommit": "dce8e1830007cfe3e17720a9d4b2a8d75faa4784",
-      "listingValidatedAt": "2026-09-27T11:01:08.815Z",
+      "listingValidatedCommit": "379d15e2977565243abb1ad4b3ace4fbc5ee8334",
+      "listingValidatedAt": "2026-10-01T11:12:19.939Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -192444,8 +192444,8 @@
         "pluginIds": [
           "ghrepo.tracker"
         ],
-        "commit": "dce8e1830007cfe3e17720a9d4b2a8d75faa4784",
-        "checkedAt": "2026-09-27T11:01:08.814Z",
+        "commit": "379d15e2977565243abb1ad4b3ace4fbc5ee8334",
+        "checkedAt": "2026-10-01T11:12:19.938Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -192495,6 +192495,26 @@
             ],
             "commit": "4014e63db074b3b2efc95356217a7e56510bef56",
             "checkedAt": "2026-09-23T16:50:00.547Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "dce8e1830007cfe3e17720a9d4b2a8d75faa4784",
+          "validatedAt": "2026-09-27T11:01:08.815Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T11:12:19.939Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "davidhbigelow/githubrepotracker",
+            "pluginIds": [
+              "ghrepo.tracker"
+            ],
+            "commit": "dce8e1830007cfe3e17720a9d4b2a8d75faa4784",
+            "checkedAt": "2026-09-27T11:01:08.814Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
