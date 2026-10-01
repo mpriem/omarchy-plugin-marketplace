@@ -250103,6 +250103,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/komagata/line",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T02:33:00.774Z",
+      "listingValidatedCommit": "7ef2fb8f9783712b393b371f881b4371fbb9ffd8",
+      "listingValidatedAt": "2026-10-01T02:33:00.774Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "komagata/line",
+        "pluginIds": [
+          "io.github.komagata.line"
+        ],
+        "commit": "7ef2fb8f9783712b393b371f881b4371fbb9ffd8",
+        "checkedAt": "2026-10-01T02:33:00.679Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "komagata/line",
+        "pluginIds": [
+          "io.github.komagata.line"
+        ],
+        "commit": "7ef2fb8f9783712b393b371f881b4371fbb9ffd8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T02:33:00.679Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T00:18:59.537Z",
+        "requestEventId": 32216720545,
+        "requestedAt": "2026-10-01T02:32:30Z",
+        "reviewedAt": "2026-10-01T02:33:00.679Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.komagata.line": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "bar",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
