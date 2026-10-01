@@ -255105,6 +255105,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/TECHNOCRAFT27/readitloud",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T14:29:16.629Z",
+      "listingValidatedCommit": "6261a64a881309bb09758ba014b0b66fdf6f3801",
+      "listingValidatedAt": "2026-10-01T14:29:16.629Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "technocraft27/readitloud",
+        "pluginIds": [
+          "readitloud.tts"
+        ],
+        "commit": "6261a64a881309bb09758ba014b0b66fdf6f3801",
+        "checkedAt": "2026-10-01T14:29:16.517Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "technocraft27/readitloud",
+        "pluginIds": [
+          "readitloud.tts"
+        ],
+        "commit": "6261a64a881309bb09758ba014b0b66fdf6f3801",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T14:29:16.517Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T08:26:06.801Z",
+        "requestEventId": 32259291501,
+        "requestedAt": "2026-10-01T14:19:22Z",
+        "reviewedAt": "2026-10-01T14:29:16.517Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "readitloud.tts": {
+          "category": "Productivity",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
