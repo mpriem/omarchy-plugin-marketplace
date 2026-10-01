@@ -247634,8 +247634,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T16:26:40.183Z",
-      "listingValidatedCommit": "f9cbcfdb151ad62793fe61532695ccc546ab7c23",
-      "listingValidatedAt": "2026-09-28T16:26:40.183Z",
+      "listingValidatedCommit": "35f544ef626498aba43b25e8ec37d00534bae783",
+      "listingValidatedAt": "2026-10-01T13:04:06.140Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -247644,8 +247644,8 @@
         "pluginIds": [
           "io.github.bresleveloper.ollama-cloud-usage-bar-widget"
         ],
-        "commit": "f9cbcfdb151ad62793fe61532695ccc546ab7c23",
-        "checkedAt": "2026-09-28T16:26:40.081Z",
+        "commit": "35f544ef626498aba43b25e8ec37d00534bae783",
+        "checkedAt": "2026-10-01T13:04:06.140Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -247661,7 +247661,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f9cbcfdb151ad62793fe61532695ccc546ab7c23",
+          "validatedAt": "2026-09-28T16:26:40.183Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T13:04:06.140Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bresleveloper-ai-agents/omarchy-ollama-cloud-usage-bar-widget",
+            "pluginIds": [
+              "io.github.bresleveloper.ollama-cloud-usage-bar-widget"
+            ],
+            "commit": "f9cbcfdb151ad62793fe61532695ccc546ab7c23",
+            "checkedAt": "2026-09-28T16:26:40.081Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/duketopceo/dayflow-linux",
