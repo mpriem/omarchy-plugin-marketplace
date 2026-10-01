@@ -210343,8 +210343,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T21:44:27.945Z",
-      "listingValidatedCommit": "b3bc1d0ff9c1a003b2e87b65282e0b15589beb1b",
-      "listingValidatedAt": "2026-09-21T21:44:27.945Z",
+      "listingValidatedCommit": "9958204a096aeabcfafcd24e6831728d7237429f",
+      "listingValidatedAt": "2026-10-01T09:20:41.668Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -210353,8 +210353,8 @@
         "pluginIds": [
           "davidcbradleyjr.lanes"
         ],
-        "commit": "b3bc1d0ff9c1a003b2e87b65282e0b15589beb1b",
-        "checkedAt": "2026-09-21T21:44:27.846Z",
+        "commit": "9958204a096aeabcfafcd24e6831728d7237429f",
+        "checkedAt": "2026-10-01T09:20:41.668Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -210370,7 +210370,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "b3bc1d0ff9c1a003b2e87b65282e0b15589beb1b",
+          "validatedAt": "2026-09-21T21:44:27.945Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T09:20:41.668Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "davidcbradleyjr/omarchy-lanes",
+            "pluginIds": [
+              "davidcbradleyjr.lanes"
+            ],
+            "commit": "b3bc1d0ff9c1a003b2e87b65282e0b15589beb1b",
+            "checkedAt": "2026-09-21T21:44:27.846Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/chr0nzz/omarchy-alienware-battery",
