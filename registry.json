@@ -259936,6 +259936,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/HakataMike/omarchy-weather-japan",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T22:55:46.244Z",
+      "listingValidatedCommit": "d47f7baa101802e1cfe66affc6c470074f815a85",
+      "listingValidatedAt": "2026-10-01T22:55:46.244Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hakatamike/omarchy-weather-japan",
+        "pluginIds": [
+          "hakatamike.weather"
+        ],
+        "commit": "d47f7baa101802e1cfe66affc6c470074f815a85",
+        "checkedAt": "2026-10-01T22:55:46.151Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "hakatamike.weather": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
