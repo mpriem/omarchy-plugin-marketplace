@@ -256659,6 +256659,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/HarryParkes/omarchy-firefox-launcher",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T16:08:17.082Z",
+      "listingValidatedCommit": "892319d3816e145a63ac5e740fe87538e342e1df",
+      "listingValidatedAt": "2026-10-01T16:08:17.082Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "harryparkes/omarchy-firefox-launcher",
+        "pluginIds": [
+          "io.github.harryparkes.firefox-sessions"
+        ],
+        "commit": "892319d3816e145a63ac5e740fe87538e342e1df",
+        "checkedAt": "2026-10-01T16:08:16.985Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "harryparkes/omarchy-firefox-launcher",
+        "pluginIds": [
+          "io.github.harryparkes.firefox-sessions"
+        ],
+        "commit": "892319d3816e145a63ac5e740fe87538e342e1df",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T16:08:16.985Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T14:23:00.383Z",
+        "requestEventId": 32267584900,
+        "requestedAt": "2026-10-01T16:01:07Z",
+        "reviewedAt": "2026-10-01T16:08:16.985Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.harryparkes.firefox-sessions": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "workspaces",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
