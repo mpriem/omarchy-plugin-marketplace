@@ -6056,13 +6056,18 @@
       "type": "plugin-source",
       "addedAt": "2026-08-14",
       "listedAt": "2026-08-14T17:01:35.073Z",
-      "listingValidatedCommit": "dd02755256bc954799f0d7ea283185a0fa22129a",
-      "listingValidatedAt": "2026-08-14T17:01:35.073Z",
+      "listingValidatedCommit": "9708884de04f4ea8d1e153400328bad083439346",
+      "listingValidatedAt": "2026-10-01T07:46:52.621Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
+        "schemaVersion": 1,
         "version": "3",
-        "commit": "dd02755256bc954799f0d7ea283185a0fa22129a",
-        "checkedAt": "2026-08-14T16:41:04.823Z",
+        "repository": "treramey/omarchy-raindrop-bookmarks",
+        "pluginIds": [
+          "io.github.treramey.raindrop-bookmarks"
+        ],
+        "commit": "9708884de04f4ea8d1e153400328bad083439346",
+        "checkedAt": "2026-10-01T07:46:52.621Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -6078,7 +6083,47 @@
             "quickshell"
           ]
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "treramey/omarchy-raindrop-bookmarks",
+        "pluginIds": [
+          "io.github.treramey.raindrop-bookmarks"
+        ],
+        "commit": "9708884de04f4ea8d1e153400328bad083439346",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T07:46:52.621Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-25T14:46:39.800Z",
+        "requestEventId": 32231774360,
+        "requestedAt": "2026-10-01T07:43:35Z",
+        "reviewedAt": "2026-10-01T07:46:52.621Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "dd02755256bc954799f0d7ea283185a0fa22129a",
+          "validatedAt": "2026-08-14T17:01:35.073Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T07:46:52.621Z",
+          "automatedSecurityBaseline": {
+            "version": "3",
+            "commit": "dd02755256bc954799f0d7ea283185a0fa22129a",
+            "checkedAt": "2026-08-14T16:41:04.823Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jvlianodorneles/lock-keys",
