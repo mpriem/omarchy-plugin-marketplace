@@ -158155,8 +158155,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T18:37:09.421Z",
-      "listingValidatedCommit": "cff565986035fe1aa1adf6e39af30bfec0c8b9a5",
-      "listingValidatedAt": "2026-09-08T18:37:09.421Z",
+      "listingValidatedCommit": "d82981f56bc99a45c1ea8a06c8a993a65fa8218a",
+      "listingValidatedAt": "2026-10-01T07:49:50.854Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -158165,8 +158165,8 @@
         "pluginIds": [
           "atoslins.dualsense"
         ],
-        "commit": "cff565986035fe1aa1adf6e39af30bfec0c8b9a5",
-        "checkedAt": "2026-09-08T18:37:09.354Z",
+        "commit": "d82981f56bc99a45c1ea8a06c8a993a65fa8218a",
+        "checkedAt": "2026-10-01T07:49:50.854Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -158174,28 +158174,6 @@
           "privilege",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "atoslins/omarchy-plugin-dualsense",
-        "pluginIds": [
-          "atoslins.dualsense"
-        ],
-        "commit": "cff565986035fe1aa1adf6e39af30bfec0c8b9a5",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-08T18:37:09.354Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-08T15:02:44.163Z",
-        "requestEventId": 30777037092,
-        "requestedAt": "2026-09-08T18:35:33Z",
-        "reviewedAt": "2026-09-08T18:37:09.354Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "atoslins.dualsense": {
@@ -158207,7 +158185,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "atoslins/omarchy-plugin-dualsense",
+        "pluginIds": [
+          "atoslins.dualsense"
+        ],
+        "commit": "d82981f56bc99a45c1ea8a06c8a993a65fa8218a",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T07:49:50.854Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-26T16:05:38.448Z",
+        "requestEventId": 32231866935,
+        "requestedAt": "2026-10-01T07:45:09Z",
+        "reviewedAt": "2026-10-01T07:49:50.854Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "cff565986035fe1aa1adf6e39af30bfec0c8b9a5",
+          "validatedAt": "2026-09-08T18:37:09.421Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T07:49:50.854Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "atoslins/omarchy-plugin-dualsense",
+            "pluginIds": [
+              "atoslins.dualsense"
+            ],
+            "commit": "cff565986035fe1aa1adf6e39af30bfec0c8b9a5",
+            "checkedAt": "2026-09-08T18:37:09.354Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "atoslins/omarchy-plugin-dualsense",
+            "pluginIds": [
+              "atoslins.dualsense"
+            ],
+            "commit": "cff565986035fe1aa1adf6e39af30bfec0c8b9a5",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-08T18:37:09.354Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-08T15:02:44.163Z",
+            "requestEventId": 30777037092,
+            "requestedAt": "2026-09-08T18:35:33Z",
+            "reviewedAt": "2026-09-08T18:37:09.354Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/BeerBelly69/omarchy-dictdrawer",
