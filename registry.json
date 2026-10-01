@@ -107455,8 +107455,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-30",
       "listedAt": "2026-08-30T19:35:14.372Z",
-      "listingValidatedCommit": "86da6ae31833f05843388c18292e5f55356d2aa6",
-      "listingValidatedAt": "2026-09-04T14:31:57.610Z",
+      "listingValidatedCommit": "1dc532607ae9602136b26510d1048a7c9cd64801",
+      "listingValidatedAt": "2026-10-01T09:52:51.980Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -107465,8 +107465,8 @@
         "pluginIds": [
           "meviusisback.agent-orchestr"
         ],
-        "commit": "86da6ae31833f05843388c18292e5f55356d2aa6",
-        "checkedAt": "2026-09-04T14:31:57.610Z",
+        "commit": "1dc532607ae9602136b26510d1048a7c9cd64801",
+        "checkedAt": "2026-10-01T09:52:51.980Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -107525,6 +107525,26 @@
             "requestedAt": "2026-08-30T19:34:44Z",
             "reviewedAt": "2026-08-30T19:35:14.326Z",
             "reviewer": "HANCORE-linux"
+          }
+        },
+        {
+          "commit": "86da6ae31833f05843388c18292e5f55356d2aa6",
+          "validatedAt": "2026-09-04T14:31:57.610Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T09:52:51.980Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "meviusisback/agent-orchestr",
+            "pluginIds": [
+              "meviusisback.agent-orchestr"
+            ],
+            "commit": "86da6ae31833f05843388c18292e5f55356d2aa6",
+            "checkedAt": "2026-09-04T14:31:57.610Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
           }
         }
       ]
