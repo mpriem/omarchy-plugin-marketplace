@@ -256197,6 +256197,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/5h3rd1l/omaSearch",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T15:39:29.299Z",
+      "listingValidatedCommit": "a002289c04dff552fd9c73ef2bd7d7be838ca271",
+      "listingValidatedAt": "2026-10-01T15:39:29.299Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "5h3rd1l/omasearch",
+        "pluginIds": [
+          "io.github.5h3rd1l.omasearch"
+        ],
+        "commit": "a002289c04dff552fd9c73ef2bd7d7be838ca271",
+        "checkedAt": "2026-10-01T15:39:29.183Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "5h3rd1l/omasearch",
+        "pluginIds": [
+          "io.github.5h3rd1l.omasearch"
+        ],
+        "commit": "a002289c04dff552fd9c73ef2bd7d7be838ca271",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T15:39:29.183Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T04:33:09.878Z",
+        "requestEventId": 32264866669,
+        "requestedAt": "2026-10-01T15:26:41Z",
+        "reviewedAt": "2026-10-01T15:39:29.183Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.5h3rd1l.omasearch": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "launcher",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
