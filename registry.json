@@ -259259,6 +259259,43 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Dornkimik/gnome-calendar-integration",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T22:07:43.035Z",
+      "listingValidatedCommit": "63531bb898d15645200ac5117bf528f9deb8d06a",
+      "listingValidatedAt": "2026-10-01T22:07:43.035Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dornkimik/gnome-calendar-integration",
+        "pluginIds": [
+          "dornkimik.gnome-calendar"
+        ],
+        "commit": "63531bb898d15645200ac5117bf528f9deb8d06a",
+        "checkedAt": "2026-10-01T22:07:42.908Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "dornkimik.gnome-calendar": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
