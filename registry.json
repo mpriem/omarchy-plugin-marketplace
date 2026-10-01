@@ -218825,8 +218825,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T17:46:28.133Z",
-      "listingValidatedCommit": "3b1f43fb1343c7df5bdf98e4aa182a1e314ededb",
-      "listingValidatedAt": "2026-09-22T17:46:28.133Z",
+      "listingValidatedCommit": "80127675576833f5fdc5d0f6264b07bd5db55d30",
+      "listingValidatedAt": "2026-10-01T06:10:20.135Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -218835,8 +218835,8 @@
         "pluginIds": [
           "io.github.dmitry-solomadin.desktop-restore"
         ],
-        "commit": "3b1f43fb1343c7df5bdf98e4aa182a1e314ededb",
-        "checkedAt": "2026-09-22T17:46:28.066Z",
+        "commit": "80127675576833f5fdc5d0f6264b07bd5db55d30",
+        "checkedAt": "2026-10-01T06:10:20.135Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -218844,28 +218844,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "dmitry-solomadin/omarchy-desktop-restore",
-        "pluginIds": [
-          "io.github.dmitry-solomadin.desktop-restore"
-        ],
-        "commit": "3b1f43fb1343c7df5bdf98e4aa182a1e314ededb",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-22T17:46:28.066Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-22T15:53:45.382Z",
-        "requestEventId": 31619601143,
-        "requestedAt": "2026-09-22T17:44:43Z",
-        "reviewedAt": "2026-09-22T17:46:28.066Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.dmitry-solomadin.desktop-restore": {
@@ -218877,7 +218855,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dmitry-solomadin/omarchy-desktop-restore",
+        "pluginIds": [
+          "io.github.dmitry-solomadin.desktop-restore"
+        ],
+        "commit": "80127675576833f5fdc5d0f6264b07bd5db55d30",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T06:10:20.135Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T20:31:38.750Z",
+        "requestEventId": 32226538555,
+        "requestedAt": "2026-10-01T06:09:54Z",
+        "reviewedAt": "2026-10-01T06:10:20.135Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3b1f43fb1343c7df5bdf98e4aa182a1e314ededb",
+          "validatedAt": "2026-09-22T17:46:28.133Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T06:10:20.135Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dmitry-solomadin/omarchy-desktop-restore",
+            "pluginIds": [
+              "io.github.dmitry-solomadin.desktop-restore"
+            ],
+            "commit": "3b1f43fb1343c7df5bdf98e4aa182a1e314ededb",
+            "checkedAt": "2026-09-22T17:46:28.066Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "dmitry-solomadin/omarchy-desktop-restore",
+            "pluginIds": [
+              "io.github.dmitry-solomadin.desktop-restore"
+            ],
+            "commit": "3b1f43fb1343c7df5bdf98e4aa182a1e314ededb",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-22T17:46:28.066Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-22T15:53:45.382Z",
+            "requestEventId": 31619601143,
+            "requestedAt": "2026-09-22T17:44:43Z",
+            "reviewedAt": "2026-09-22T17:46:28.066Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jesusarchive/omarchy-eyes",
