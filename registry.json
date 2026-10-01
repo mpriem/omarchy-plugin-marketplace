@@ -230015,8 +230015,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-24",
       "listedAt": "2026-09-24T21:23:41.781Z",
-      "listingValidatedCommit": "5b226834322faa45b94a002cddb46e1e8f323f32",
-      "listingValidatedAt": "2026-09-24T21:23:41.781Z",
+      "listingValidatedCommit": "77bb933e2ed393ce41efdca773d89631d44bcd3d",
+      "listingValidatedAt": "2026-10-01T12:11:03.523Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -230025,35 +230025,14 @@
         "pluginIds": [
           "io.github.dmitry-solomadin.omastocks"
         ],
-        "commit": "5b226834322faa45b94a002cddb46e1e8f323f32",
-        "checkedAt": "2026-09-24T21:23:41.681Z",
+        "commit": "77bb933e2ed393ce41efdca773d89631d44bcd3d",
+        "checkedAt": "2026-10-01T12:11:03.523Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "dmitry-solomadin/omastocks",
-        "pluginIds": [
-          "io.github.dmitry-solomadin.omastocks"
-        ],
-        "commit": "5b226834322faa45b94a002cddb46e1e8f323f32",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-24T21:23:41.681Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-24T20:11:53.672Z",
-        "requestEventId": 31791553982,
-        "requestedAt": "2026-09-24T21:21:00Z",
-        "reviewedAt": "2026-09-24T21:23:41.681Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.dmitry-solomadin.omastocks": {
@@ -230065,7 +230044,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dmitry-solomadin/omastocks",
+        "pluginIds": [
+          "io.github.dmitry-solomadin.omastocks"
+        ],
+        "commit": "77bb933e2ed393ce41efdca773d89631d44bcd3d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T12:11:03.523Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T17:11:40.910Z",
+        "requestEventId": 32248506372,
+        "requestedAt": "2026-10-01T12:00:15Z",
+        "reviewedAt": "2026-10-01T12:11:03.523Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5b226834322faa45b94a002cddb46e1e8f323f32",
+          "validatedAt": "2026-09-24T21:23:41.781Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T12:11:03.523Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dmitry-solomadin/omastocks",
+            "pluginIds": [
+              "io.github.dmitry-solomadin.omastocks"
+            ],
+            "commit": "5b226834322faa45b94a002cddb46e1e8f323f32",
+            "checkedAt": "2026-09-24T21:23:41.681Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "dmitry-solomadin/omastocks",
+            "pluginIds": [
+              "io.github.dmitry-solomadin.omastocks"
+            ],
+            "commit": "5b226834322faa45b94a002cddb46e1e8f323f32",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-24T21:23:41.681Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-24T20:11:53.672Z",
+            "requestEventId": 31791553982,
+            "requestedAt": "2026-09-24T21:21:00Z",
+            "reviewedAt": "2026-09-24T21:23:41.681Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/codydon/omatune",
