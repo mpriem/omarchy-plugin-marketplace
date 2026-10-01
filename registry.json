@@ -1529,8 +1529,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-04",
       "listedAt": "2026-08-04T04:41:35.242Z",
-      "listingValidatedCommit": "51e92f671a49b68897175ca281e99de575fa3a27",
-      "listingValidatedAt": "2026-08-04T04:41:35.242Z",
+      "listingValidatedCommit": "b62a65df4fda26ae82c95d07b74251caf63fea42",
+      "listingValidatedAt": "2026-10-01T12:33:51.583Z",
       "listingValidatedBranch": "main",
       "plugins": {
         "scottjones.flush-bar": {
@@ -1541,7 +1541,52 @@
             "quickshell"
           ]
         }
-      }
+      },
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "scottjones/omarchy-flush-bar",
+        "pluginIds": [
+          "scottjones.flush-bar"
+        ],
+        "commit": "b62a65df4fda26ae82c95d07b74251caf63fea42",
+        "checkedAt": "2026-10-01T12:33:51.583Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "scottjones/omarchy-flush-bar",
+        "pluginIds": [
+          "scottjones.flush-bar"
+        ],
+        "commit": "b62a65df4fda26ae82c95d07b74251caf63fea42",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T12:33:51.583Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-20T19:58:22.166Z",
+        "requestEventId": 32251108286,
+        "requestedAt": "2026-10-01T12:33:11Z",
+        "reviewedAt": "2026-10-01T12:33:51.583Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "51e92f671a49b68897175ca281e99de575fa3a27",
+          "validatedAt": "2026-08-04T04:41:35.242Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T12:33:51.583Z"
+        }
+      ]
     },
     {
       "repo": "https://github.com/HANCORE-linux/Shibumi-Shell",
