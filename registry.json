@@ -65029,8 +65029,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-24",
       "listedAt": "2026-08-24T16:37:35.593Z",
-      "listingValidatedCommit": "e37f43ce15108374d0199b87bbfc504f2fd8766d",
-      "listingValidatedAt": "2026-08-24T16:37:35.593Z",
+      "listingValidatedCommit": "9d976a238b044c45a861f8df7a0a795d11e48c55",
+      "listingValidatedAt": "2026-10-01T07:34:24.648Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -65039,8 +65039,8 @@
         "pluginIds": [
           "yashwanth.link"
         ],
-        "commit": "e37f43ce15108374d0199b87bbfc504f2fd8766d",
-        "checkedAt": "2026-08-24T16:37:35.561Z",
+        "commit": "9d976a238b044c45a861f8df7a0a795d11e48c55",
+        "checkedAt": "2026-10-01T07:34:24.648Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -65051,30 +65051,6 @@
           "service-management"
         ]
       },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "yashwk/omanethub",
-        "pluginIds": [
-          "yashwanth.link"
-        ],
-        "commit": "e37f43ce15108374d0199b87bbfc504f2fd8766d",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-24T16:37:35.561Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "remote-build",
-          "installer",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-24T11:39:17.327Z",
-        "requestEventId": 29926041940,
-        "requestedAt": "2026-08-24T16:29:22Z",
-        "reviewedAt": "2026-08-24T16:37:35.561Z",
-        "reviewer": "HANCORE-linux"
-      },
       "plugins": {
         "yashwanth.link": {
           "category": "System",
@@ -65084,7 +65060,82 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yashwk/omanethub",
+        "pluginIds": [
+          "yashwanth.link"
+        ],
+        "commit": "9d976a238b044c45a861f8df7a0a795d11e48c55",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T07:34:24.648Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-25T10:30:33.073Z",
+        "requestEventId": 32231040880,
+        "requestedAt": "2026-10-01T07:31:37Z",
+        "reviewedAt": "2026-10-01T07:34:24.648Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e37f43ce15108374d0199b87bbfc504f2fd8766d",
+          "validatedAt": "2026-08-24T16:37:35.593Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T07:34:24.648Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "yashwk/omanethub",
+            "pluginIds": [
+              "yashwanth.link"
+            ],
+            "commit": "e37f43ce15108374d0199b87bbfc504f2fd8766d",
+            "checkedAt": "2026-08-24T16:37:35.561Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "yashwk/omanethub",
+            "pluginIds": [
+              "yashwanth.link"
+            ],
+            "commit": "e37f43ce15108374d0199b87bbfc504f2fd8766d",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-24T16:37:35.561Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-24T11:39:17.327Z",
+            "requestEventId": 29926041940,
+            "requestedAt": "2026-08-24T16:29:22Z",
+            "reviewedAt": "2026-08-24T16:37:35.561Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ogarza/ogarza.plugins.weather",
