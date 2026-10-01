@@ -131335,7 +131335,7 @@
           "nugget210.oma-sleeper"
         ],
         "commit": "c2f37fcde12e16bf153557ad2e8dfd100eb4d25f",
-        "checkedAt": "2026-09-29T12:49:26.117Z",
+        "checkedAt": "2026-10-01T20:52:56.004Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -131349,11 +131349,7 @@
             "quickshell",
             "games"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       },
       "listingValidationHistory": [

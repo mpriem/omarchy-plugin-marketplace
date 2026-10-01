@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T20:50:11.212Z",
+  "generatedAt": "2026-10-01T20:52:56.004Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -121065,14 +121065,14 @@
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
       "verificationCommit": "c2f37fcde12e16bf153557ad2e8dfd100eb4d25f",
-      "verificationCheckedAt": "2026-09-29T12:49:26.117Z",
+      "verificationCheckedAt": "2026-10-01T20:52:56.004Z",
       "manifestPath": "manifest.json",
       "addedAt": "2026-09-04",
       "listedAt": "2026-09-04T16:49:32.036Z",
       "repositoryLayout": "root-plugin",
-      "installAvailable": false,
-      "installCommand": "",
-      "installNote": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions.",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/nugget210/oma-sleeper.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
       "category": "Widgets",
       "tags": [
         "bar",
@@ -121105,7 +121105,7 @@
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "33b26615bb5e5952c822c366e0552b7c45c2396d16d42d4c21f042237855fc0a",
       "versionUpdatedAt": "2026-09-29T12:49:26.613Z",
-      "status": "Manual setup"
+      "status": "Available"
     },
     {
       "id": "bvisagie.omapihole",
