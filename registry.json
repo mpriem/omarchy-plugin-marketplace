@@ -249745,6 +249745,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/DasPoxy/taskchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T01:55:09.737Z",
+      "listingValidatedCommit": "1caffad24b0cc966a27a1346aa9b9c286e0c4310",
+      "listingValidatedAt": "2026-10-01T01:55:09.737Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "daspoxy/taskchy",
+        "pluginIds": [
+          "taskchy"
+        ],
+        "commit": "1caffad24b0cc966a27a1346aa9b9c286e0c4310",
+        "checkedAt": "2026-10-01T01:55:09.631Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "daspoxy/taskchy",
+        "pluginIds": [
+          "taskchy"
+        ],
+        "commit": "1caffad24b0cc966a27a1346aa9b9c286e0c4310",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T01:55:09.631Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T01:49:54.254Z",
+        "requestEventId": 32214954006,
+        "requestedAt": "2026-10-01T01:53:00Z",
+        "reviewedAt": "2026-10-01T01:55:09.632Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "taskchy": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
