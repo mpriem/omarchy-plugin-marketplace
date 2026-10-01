@@ -250166,6 +250166,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/OmarGonD/omarchy-shutdown-timer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T02:42:26.133Z",
+      "listingValidatedCommit": "71cde6cef74c2da0bbb64490596873a4bf22cab7",
+      "listingValidatedAt": "2026-10-01T02:42:26.133Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "omargond/omarchy-shutdown-timer",
+        "pluginIds": [
+          "io.github.omargond.shutdown-timer"
+        ],
+        "commit": "71cde6cef74c2da0bbb64490596873a4bf22cab7",
+        "checkedAt": "2026-10-01T02:42:26.030Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "omargond/omarchy-shutdown-timer",
+        "pluginIds": [
+          "io.github.omargond.shutdown-timer"
+        ],
+        "commit": "71cde6cef74c2da0bbb64490596873a4bf22cab7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T02:42:26.030Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T01:16:28.250Z",
+        "requestEventId": 32217133106,
+        "requestedAt": "2026-10-01T02:42:00Z",
+        "reviewedAt": "2026-10-01T02:42:26.030Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.omargond.shutdown-timer": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "power-management",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
