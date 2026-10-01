@@ -260326,6 +260326,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/workingtitle/omarchy-swipe-control",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T23:22:49.325Z",
+      "listingValidatedCommit": "1d7c532c53d5a05e5b347182c5f4cebca66fee96",
+      "listingValidatedAt": "2026-10-01T23:22:49.325Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "workingtitle/omarchy-swipe-control",
+        "pluginIds": [
+          "io.github.workingtitle.gestures"
+        ],
+        "commit": "1d7c532c53d5a05e5b347182c5f4cebca66fee96",
+        "checkedAt": "2026-10-01T23:22:49.211Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "workingtitle/omarchy-swipe-control",
+        "pluginIds": [
+          "io.github.workingtitle.gestures"
+        ],
+        "commit": "1d7c532c53d5a05e5b347182c5f4cebca66fee96",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T23:22:49.211Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T13:43:17.937Z",
+        "requestEventId": 32295105321,
+        "requestedAt": "2026-10-01T22:52:10Z",
+        "reviewedAt": "2026-10-01T23:22:49.211Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.workingtitle.gestures": {
+          "category": "Desktop",
+          "tags": [
+            "workspaces",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
