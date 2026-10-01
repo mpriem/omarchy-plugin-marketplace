@@ -183647,8 +183647,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T00:03:21.302Z",
-      "listingValidatedCommit": "ebb2bdda0750c6a58eb3e87f9065f28a5efc6d3b",
-      "listingValidatedAt": "2026-09-16T00:03:21.302Z",
+      "listingValidatedCommit": "8c6904324829452e839a266568a73233d2f1b623",
+      "listingValidatedAt": "2026-10-01T12:39:50.975Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -183657,35 +183657,14 @@
         "pluginIds": [
           "videinfra.tandem"
         ],
-        "commit": "ebb2bdda0750c6a58eb3e87f9065f28a5efc6d3b",
-        "checkedAt": "2026-09-16T00:03:21.218Z",
+        "commit": "8c6904324829452e839a266568a73233d2f1b623",
+        "checkedAt": "2026-10-01T12:39:50.975Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "thevideinfra/tandem",
-        "pluginIds": [
-          "videinfra.tandem"
-        ],
-        "commit": "ebb2bdda0750c6a58eb3e87f9065f28a5efc6d3b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T00:03:21.218Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-15T03:04:41.355Z",
-        "requestEventId": 31211179304,
-        "requestedAt": "2026-09-16T00:02:07Z",
-        "reviewedAt": "2026-09-16T00:03:21.218Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "videinfra.tandem": {
@@ -183697,7 +183676,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "thevideinfra/tandem",
+        "pluginIds": [
+          "videinfra.tandem"
+        ],
+        "commit": "8c6904324829452e839a266568a73233d2f1b623",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T12:39:50.975Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T01:09:09.925Z",
+        "requestEventId": 32251357395,
+        "requestedAt": "2026-10-01T12:36:41Z",
+        "reviewedAt": "2026-10-01T12:39:50.975Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ebb2bdda0750c6a58eb3e87f9065f28a5efc6d3b",
+          "validatedAt": "2026-09-16T00:03:21.302Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T12:39:50.975Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "thevideinfra/tandem",
+            "pluginIds": [
+              "videinfra.tandem"
+            ],
+            "commit": "ebb2bdda0750c6a58eb3e87f9065f28a5efc6d3b",
+            "checkedAt": "2026-09-16T00:03:21.218Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "thevideinfra/tandem",
+            "pluginIds": [
+              "videinfra.tandem"
+            ],
+            "commit": "ebb2bdda0750c6a58eb3e87f9065f28a5efc6d3b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T00:03:21.218Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-15T03:04:41.355Z",
+            "requestEventId": 31211179304,
+            "requestedAt": "2026-09-16T00:02:07Z",
+            "reviewedAt": "2026-09-16T00:03:21.218Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/gdiab/omarchy-fullscreen-border",
