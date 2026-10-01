@@ -255048,6 +255048,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/NoodleSploder/omarchy-celeste",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T14:26:09.578Z",
+      "listingValidatedCommit": "a0ccf9cb48237e29515da64319aaa39b9c77939e",
+      "listingValidatedAt": "2026-10-01T14:26:09.578Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "noodlesploder/omarchy-celeste",
+        "pluginIds": [
+          "noodlesploder.celeste"
+        ],
+        "commit": "a0ccf9cb48237e29515da64319aaa39b9c77939e",
+        "checkedAt": "2026-10-01T14:26:09.464Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "noodlesploder/omarchy-celeste",
+        "pluginIds": [
+          "noodlesploder.celeste"
+        ],
+        "commit": "a0ccf9cb48237e29515da64319aaa39b9c77939e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T14:26:09.464Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T08:21:25.947Z",
+        "requestEventId": 32259280010,
+        "requestedAt": "2026-10-01T14:19:14Z",
+        "reviewedAt": "2026-10-01T14:26:09.464Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "noodlesploder.celeste": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
