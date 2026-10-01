@@ -255668,6 +255668,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Veilios/omarchy-plugin-nether",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T15:01:43.124Z",
+      "listingValidatedCommit": "5919c5222e41716fc6286d85ec9ebe38a321443b",
+      "listingValidatedAt": "2026-10-01T15:01:43.124Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "veilios/omarchy-plugin-nether",
+        "pluginIds": [
+          "veilios.nether"
+        ],
+        "commit": "5919c5222e41716fc6286d85ec9ebe38a321443b",
+        "checkedAt": "2026-10-01T15:01:42.998Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "veilios/omarchy-plugin-nether",
+        "pluginIds": [
+          "veilios.nether"
+        ],
+        "commit": "5919c5222e41716fc6286d85ec9ebe38a321443b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T15:01:42.998Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T14:22:43.341Z",
+        "requestEventId": 32261979926,
+        "requestedAt": "2026-10-01T14:52:04Z",
+        "reviewedAt": "2026-10-01T15:01:42.999Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "veilios.nether": {
+          "category": "Widgets",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
