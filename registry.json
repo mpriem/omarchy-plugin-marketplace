@@ -187371,8 +187371,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T16:09:18.375Z",
-      "listingValidatedCommit": "bb5e3afd9f21b37ce3a673105b5396d0b168fde8",
-      "listingValidatedAt": "2026-09-16T16:09:18.375Z",
+      "listingValidatedCommit": "4ee2a512d50e98fe0929ae2be1b64343dcec7bfd",
+      "listingValidatedAt": "2026-10-01T07:23:05.358Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -187381,35 +187381,14 @@
         "pluginIds": [
           "fans.omarchy.feedback"
         ],
-        "commit": "bb5e3afd9f21b37ce3a673105b5396d0b168fde8",
-        "checkedAt": "2026-09-16T16:09:18.290Z",
+        "commit": "4ee2a512d50e98fe0929ae2be1b64343dcec7bfd",
+        "checkedAt": "2026-10-01T07:23:05.357Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "omarchyfans/omarchy-fans-feedback",
-        "pluginIds": [
-          "fans.omarchy.feedback"
-        ],
-        "commit": "bb5e3afd9f21b37ce3a673105b5396d0b168fde8",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T16:09:18.290Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-14T20:28:00.707Z",
-        "requestEventId": 31258524235,
-        "requestedAt": "2026-09-16T16:01:01Z",
-        "reviewedAt": "2026-09-16T16:09:18.290Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "fans.omarchy.feedback": {
@@ -187421,7 +187400,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "omarchyfans/omarchy-fans-feedback",
+        "pluginIds": [
+          "fans.omarchy.feedback"
+        ],
+        "commit": "4ee2a512d50e98fe0929ae2be1b64343dcec7bfd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T07:23:05.357Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-26T18:34:59.392Z",
+        "requestEventId": 32230317199,
+        "requestedAt": "2026-10-01T07:19:41Z",
+        "reviewedAt": "2026-10-01T07:23:05.358Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "bb5e3afd9f21b37ce3a673105b5396d0b168fde8",
+          "validatedAt": "2026-09-16T16:09:18.375Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T07:23:05.358Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "omarchyfans/omarchy-fans-feedback",
+            "pluginIds": [
+              "fans.omarchy.feedback"
+            ],
+            "commit": "bb5e3afd9f21b37ce3a673105b5396d0b168fde8",
+            "checkedAt": "2026-09-16T16:09:18.290Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "omarchyfans/omarchy-fans-feedback",
+            "pluginIds": [
+              "fans.omarchy.feedback"
+            ],
+            "commit": "bb5e3afd9f21b37ce3a673105b5396d0b168fde8",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T16:09:18.290Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-14T20:28:00.707Z",
+            "requestEventId": 31258524235,
+            "requestedAt": "2026-09-16T16:01:01Z",
+            "reviewedAt": "2026-09-16T16:09:18.290Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/diogochaves/omarchy-omawin",
