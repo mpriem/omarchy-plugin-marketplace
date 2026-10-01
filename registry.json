@@ -259621,6 +259621,68 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/shieldsworks/omaquill",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T22:29:27.394Z",
+      "listingValidatedCommit": "6c7363ea6a2c0d17fde0bf1ef6def8c70f793c35",
+      "listingValidatedAt": "2026-10-01T22:29:27.394Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "shieldsworks/omaquill",
+        "pluginIds": [
+          "io.github.shieldsworks.omaquill"
+        ],
+        "commit": "6c7363ea6a2c0d17fde0bf1ef6def8c70f793c35",
+        "checkedAt": "2026-10-01T22:29:27.273Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "shieldsworks/omaquill",
+        "pluginIds": [
+          "io.github.shieldsworks.omaquill"
+        ],
+        "commit": "6c7363ea6a2c0d17fde0bf1ef6def8c70f793c35",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T22:29:27.273Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T14:55:53.650Z",
+        "requestEventId": 32292341295,
+        "requestedAt": "2026-10-01T21:58:55Z",
+        "reviewedAt": "2026-10-01T22:29:27.273Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.shieldsworks.omaquill": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
