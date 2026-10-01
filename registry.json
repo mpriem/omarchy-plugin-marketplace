@@ -246750,8 +246750,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T09:01:09.484Z",
-      "listingValidatedCommit": "482430b75d7882bef615bdaa5271d885e3de245b",
-      "listingValidatedAt": "2026-09-29T17:07:46.289Z",
+      "listingValidatedCommit": "e7c3ba710846cdd6b3f1deac1d1159b4ee28eb49",
+      "listingValidatedAt": "2026-10-01T22:52:22.068Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -246760,8 +246760,8 @@
         "pluginIds": [
           "io.github.zdehasek.records"
         ],
-        "commit": "482430b75d7882bef615bdaa5271d885e3de245b",
-        "checkedAt": "2026-09-29T17:07:46.289Z",
+        "commit": "e7c3ba710846cdd6b3f1deac1d1159b4ee28eb49",
+        "checkedAt": "2026-10-01T22:52:22.068Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -246784,28 +246784,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "zdehasek/records-desktop",
-        "pluginIds": [
-          "io.github.zdehasek.records"
-        ],
-        "commit": "482430b75d7882bef615bdaa5271d885e3de245b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-29T17:07:46.289Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-29T08:00:11.000Z",
-        "requestEventId": 32091369965,
-        "requestedAt": "2026-09-29T15:18:18Z",
-        "reviewedAt": "2026-09-29T17:07:46.289Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -246852,8 +246830,75 @@
             "reviewedAt": "2026-09-28T09:01:09.413Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "482430b75d7882bef615bdaa5271d885e3de245b",
+          "validatedAt": "2026-09-29T17:07:46.289Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T22:52:22.068Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "zdehasek/records-desktop",
+            "pluginIds": [
+              "io.github.zdehasek.records"
+            ],
+            "commit": "482430b75d7882bef615bdaa5271d885e3de245b",
+            "checkedAt": "2026-09-29T17:07:46.289Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "zdehasek/records-desktop",
+            "pluginIds": [
+              "io.github.zdehasek.records"
+            ],
+            "commit": "482430b75d7882bef615bdaa5271d885e3de245b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-29T17:07:46.289Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-29T08:00:11.000Z",
+            "requestEventId": 32091369965,
+            "requestedAt": "2026-09-29T15:18:18Z",
+            "reviewedAt": "2026-09-29T17:07:46.289Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "zdehasek/records-desktop",
+        "pluginIds": [
+          "io.github.zdehasek.records"
+        ],
+        "commit": "e7c3ba710846cdd6b3f1deac1d1159b4ee28eb49",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T22:52:22.068Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T22:30:47.006Z",
+        "requestEventId": 32293960794,
+        "requestedAt": "2026-10-01T22:28:58Z",
+        "reviewedAt": "2026-10-01T22:52:22.068Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/saigkill/omarchy-mastodon",
