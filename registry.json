@@ -185579,8 +185579,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T07:35:14.559Z",
-      "listingValidatedCommit": "ff8115fa4f751795be5e722a3c8cbe829c83f598",
-      "listingValidatedAt": "2026-09-16T07:35:14.559Z",
+      "listingValidatedCommit": "ac273010f9c8a8ce02b6c86dc75bb5101f8bbb3c",
+      "listingValidatedAt": "2026-10-01T08:48:33.742Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -185589,39 +185589,16 @@
         "pluginIds": [
           "spuder.googledrive"
         ],
-        "commit": "ff8115fa4f751795be5e722a3c8cbe829c83f598",
-        "checkedAt": "2026-09-16T07:35:14.479Z",
+        "commit": "ac273010f9c8a8ce02b6c86dc75bb5101f8bbb3c",
+        "checkedAt": "2026-10-01T08:48:33.742Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "service-management",
           "privilege",
+          "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "spuder/omarchy-google-drives",
-        "pluginIds": [
-          "spuder.googledrive"
-        ],
-        "commit": "ff8115fa4f751795be5e722a3c8cbe829c83f598",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T07:35:14.479Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-16T04:44:45.913Z",
-        "requestEventId": 31227887179,
-        "requestedAt": "2026-09-16T07:33:45Z",
-        "reviewedAt": "2026-09-16T07:35:14.479Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "spuder.googledrive": {
@@ -185633,7 +185610,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "spuder/omarchy-google-drives",
+        "pluginIds": [
+          "spuder.googledrive"
+        ],
+        "commit": "ac273010f9c8a8ce02b6c86dc75bb5101f8bbb3c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T08:48:33.742Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-26T20:59:05.191Z",
+        "requestEventId": 32235705385,
+        "requestedAt": "2026-10-01T08:44:33Z",
+        "reviewedAt": "2026-10-01T08:48:33.742Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ff8115fa4f751795be5e722a3c8cbe829c83f598",
+          "validatedAt": "2026-09-16T07:35:14.559Z",
+          "branch": "master",
+          "supersededAt": "2026-10-01T08:48:33.742Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "spuder/omarchy-google-drives",
+            "pluginIds": [
+              "spuder.googledrive"
+            ],
+            "commit": "ff8115fa4f751795be5e722a3c8cbe829c83f598",
+            "checkedAt": "2026-09-16T07:35:14.479Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "spuder/omarchy-google-drives",
+            "pluginIds": [
+              "spuder.googledrive"
+            ],
+            "commit": "ff8115fa4f751795be5e722a3c8cbe829c83f598",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T07:35:14.479Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-16T04:44:45.913Z",
+            "requestEventId": 31227887179,
+            "requestedAt": "2026-09-16T07:33:45Z",
+            "reviewedAt": "2026-09-16T07:35:14.479Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Adamya-Gupta/omarchy-virtual-display",
