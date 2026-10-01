@@ -256383,6 +256383,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Jared-Mac/omafy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T15:48:57.506Z",
+      "listingValidatedCommit": "8e2b7b29229c3e52e3b51496041b0ce0110ed581",
+      "listingValidatedAt": "2026-10-01T15:48:57.506Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jared-mac/omafy",
+        "pluginIds": [
+          "jaredm.omafy"
+        ],
+        "commit": "8e2b7b29229c3e52e3b51496041b0ce0110ed581",
+        "checkedAt": "2026-10-01T15:48:57.390Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jared-mac/omafy",
+        "pluginIds": [
+          "jaredm.omafy"
+        ],
+        "commit": "8e2b7b29229c3e52e3b51496041b0ce0110ed581",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T15:48:57.390Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T05:05:16.572Z",
+        "requestEventId": 32264910919,
+        "requestedAt": "2026-10-01T15:27:11Z",
+        "reviewedAt": "2026-10-01T15:48:57.390Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jaredm.omafy": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
