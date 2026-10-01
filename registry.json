@@ -258324,6 +258324,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/paudelsamir/opencode-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T20:44:02.445Z",
+      "listingValidatedCommit": "8440e6137642ba8edc2d3c4eab4be8cc718ee76e",
+      "listingValidatedAt": "2026-10-01T20:44:02.445Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "paudelsamir/opencode-usage",
+        "pluginIds": [
+          "paudelsamir.opencode-usage"
+        ],
+        "commit": "8440e6137642ba8edc2d3c4eab4be8cc718ee76e",
+        "checkedAt": "2026-10-01T20:44:02.323Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "paudelsamir.opencode-usage": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
