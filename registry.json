@@ -122712,8 +122712,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-02",
       "listedAt": "2026-09-02T10:36:20.761Z",
-      "listingValidatedCommit": "13cd373e5e6df72aa0c0d59222e1d77b42720f01",
-      "listingValidatedAt": "2026-09-02T10:36:20.761Z",
+      "listingValidatedCommit": "323ed891c7f2bf281b66f9e7eae3491fa53ac0df",
+      "listingValidatedAt": "2026-10-01T01:05:30.150Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -122722,8 +122722,8 @@
         "pluginIds": [
           "celestune-bar"
         ],
-        "commit": "13cd373e5e6df72aa0c0d59222e1d77b42720f01",
-        "checkedAt": "2026-09-02T10:36:20.703Z",
+        "commit": "323ed891c7f2bf281b66f9e7eae3491fa53ac0df",
+        "checkedAt": "2026-10-01T01:05:30.150Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -122739,7 +122739,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "13cd373e5e6df72aa0c0d59222e1d77b42720f01",
+          "validatedAt": "2026-09-02T10:36:20.761Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T01:05:30.150Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "flipz3ro/celestune-bar",
+            "pluginIds": [
+              "celestune-bar"
+            ],
+            "commit": "13cd373e5e6df72aa0c0d59222e1d77b42720f01",
+            "checkedAt": "2026-09-02T10:36:20.703Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/whelanh/omarchy-repo-watcher",
