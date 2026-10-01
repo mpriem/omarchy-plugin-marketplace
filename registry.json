@@ -250838,8 +250838,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-29",
       "listedAt": "2026-09-29T11:04:45.865Z",
-      "listingValidatedCommit": "ed1f5ece932078ce97090548d1524132e14c5bf3",
-      "listingValidatedAt": "2026-09-29T11:04:45.865Z",
+      "listingValidatedCommit": "1a3a799c00a5d3bc6d99150257bb89dcf267013b",
+      "listingValidatedAt": "2026-10-01T13:27:04.652Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -250848,8 +250848,8 @@
         "pluginIds": [
           "prometheus.arxiv-scanner"
         ],
-        "commit": "ed1f5ece932078ce97090548d1524132e14c5bf3",
-        "checkedAt": "2026-09-29T11:04:45.731Z",
+        "commit": "1a3a799c00a5d3bc6d99150257bb89dcf267013b",
+        "checkedAt": "2026-10-01T13:27:04.652Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -250858,29 +250858,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "linuskelsey/arxiv-scanner",
-        "pluginIds": [
-          "prometheus.arxiv-scanner"
-        ],
-        "commit": "ed1f5ece932078ce97090548d1524132e14c5bf3",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-29T11:04:45.731Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-29T10:59:35.538Z",
-        "requestEventId": 32072850236,
-        "requestedAt": "2026-09-29T11:02:25Z",
-        "reviewedAt": "2026-09-29T11:04:45.731Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "prometheus.arxiv-scanner": {
@@ -250896,7 +250873,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "linuskelsey/arxiv-scanner",
+        "pluginIds": [
+          "prometheus.arxiv-scanner"
+        ],
+        "commit": "1a3a799c00a5d3bc6d99150257bb89dcf267013b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T13:27:04.652Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T09:41:46.823Z",
+        "requestEventId": 32254440830,
+        "requestedAt": "2026-10-01T13:19:17Z",
+        "reviewedAt": "2026-10-01T13:27:04.652Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ed1f5ece932078ce97090548d1524132e14c5bf3",
+          "validatedAt": "2026-09-29T11:04:45.865Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T13:27:04.652Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "linuskelsey/arxiv-scanner",
+            "pluginIds": [
+              "prometheus.arxiv-scanner"
+            ],
+            "commit": "ed1f5ece932078ce97090548d1524132e14c5bf3",
+            "checkedAt": "2026-09-29T11:04:45.731Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "linuskelsey/arxiv-scanner",
+            "pluginIds": [
+              "prometheus.arxiv-scanner"
+            ],
+            "commit": "ed1f5ece932078ce97090548d1524132e14c5bf3",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-29T11:04:45.731Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-29T10:59:35.538Z",
+            "requestEventId": 32072850236,
+            "requestedAt": "2026-09-29T11:02:25Z",
+            "reviewedAt": "2026-09-29T11:04:45.731Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/houz42/omarchy-global-protect",
