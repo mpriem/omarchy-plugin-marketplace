@@ -250339,6 +250339,62 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/TarikDruzich/focus-timer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T02:51:16.430Z",
+      "listingValidatedCommit": "980f53d897d083f6a10576fd942769c2e45fa81b",
+      "listingValidatedAt": "2026-10-01T02:51:16.430Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tarikdruzich/focus-timer",
+        "pluginIds": [
+          "tarik.focus-timer"
+        ],
+        "commit": "980f53d897d083f6a10576fd942769c2e45fa81b",
+        "checkedAt": "2026-10-01T02:51:16.317Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tarikdruzich/focus-timer",
+        "pluginIds": [
+          "tarik.focus-timer"
+        ],
+        "commit": "980f53d897d083f6a10576fd942769c2e45fa81b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T02:51:16.317Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T00:34:50.348Z",
+        "requestEventId": 32217423798,
+        "requestedAt": "2026-10-01T02:48:33Z",
+        "reviewedAt": "2026-10-01T02:51:16.317Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "tarik.focus-timer": {
+          "category": "Productivity",
+          "tags": [
+            "education",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
