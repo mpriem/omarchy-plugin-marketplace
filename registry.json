@@ -176023,8 +176023,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-13",
       "listedAt": "2026-09-13T15:03:20.841Z",
-      "listingValidatedCommit": "bbc8e711f8b1ab562de36a7dc988366f7ee21087",
-      "listingValidatedAt": "2026-09-13T15:03:20.841Z",
+      "listingValidatedCommit": "df307366d5e1c997951a8323e4d6f65aee1169a7",
+      "listingValidatedAt": "2026-10-01T21:43:30.704Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -176033,8 +176033,8 @@
         "pluginIds": [
           "magicmike.frontrow"
         ],
-        "commit": "bbc8e711f8b1ab562de36a7dc988366f7ee21087",
-        "checkedAt": "2026-09-13T15:03:20.768Z",
+        "commit": "df307366d5e1c997951a8323e4d6f65aee1169a7",
+        "checkedAt": "2026-10-01T21:43:30.704Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -176050,7 +176050,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "bbc8e711f8b1ab562de36a7dc988366f7ee21087",
+          "validatedAt": "2026-09-13T15:03:20.841Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T21:43:30.704Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ezoguitars/magicmenu",
+            "pluginIds": [
+              "magicmike.frontrow"
+            ],
+            "commit": "bbc8e711f8b1ab562de36a7dc988366f7ee21087",
+            "checkedAt": "2026-09-13T15:03:20.768Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/pdaether/omarchy-ploi",
