@@ -250432,6 +250432,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/mateuspim/omarchy-display-reserve",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T02:58:20.087Z",
+      "listingValidatedCommit": "70a5c0cf16597b0beabe49c39f5253f6d95260fa",
+      "listingValidatedAt": "2026-10-01T02:58:20.087Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mateuspim/omarchy-display-reserve",
+        "pluginIds": [
+          "pym.display-reserve"
+        ],
+        "commit": "70a5c0cf16597b0beabe49c39f5253f6d95260fa",
+        "checkedAt": "2026-10-01T02:58:19.967Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "pym.display-reserve": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
