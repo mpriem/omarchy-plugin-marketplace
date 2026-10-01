@@ -221122,8 +221122,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T19:39:23.256Z",
-      "listingValidatedCommit": "0e25c2d1e2e94dd974e471d2e7ea6bacf1f9df5f",
-      "listingValidatedAt": "2026-09-22T19:39:23.256Z",
+      "listingValidatedCommit": "5ef1dc0ecfe534c01779a74fcda3742e752d18d9",
+      "listingValidatedAt": "2026-10-01T08:20:39.498Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -221132,8 +221132,8 @@
         "pluginIds": [
           "yuri.cmdpp"
         ],
-        "commit": "0e25c2d1e2e94dd974e471d2e7ea6bacf1f9df5f",
-        "checkedAt": "2026-09-22T19:39:23.156Z",
+        "commit": "5ef1dc0ecfe534c01779a74fcda3742e752d18d9",
+        "checkedAt": "2026-10-01T08:20:39.498Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -221149,7 +221149,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0e25c2d1e2e94dd974e471d2e7ea6bacf1f9df5f",
+          "validatedAt": "2026-09-22T19:39:23.256Z",
+          "branch": "master",
+          "supersededAt": "2026-10-01T08:20:39.498Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "hyuricane/omarchy-cmdpp",
+            "pluginIds": [
+              "yuri.cmdpp"
+            ],
+            "commit": "0e25c2d1e2e94dd974e471d2e7ea6bacf1f9df5f",
+            "checkedAt": "2026-09-22T19:39:23.156Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/paytbidd/omarchy-apple-music-mini",
