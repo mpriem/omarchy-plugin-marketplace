@@ -230530,8 +230530,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-25",
       "listedAt": "2026-09-25T09:26:40.721Z",
-      "listingValidatedCommit": "a9fe34c2b25f0104b7e5e74df9f423916efda59c",
-      "listingValidatedAt": "2026-09-25T09:26:40.721Z",
+      "listingValidatedCommit": "99d85d566de735dc2e9c851285a10802897012bc",
+      "listingValidatedAt": "2026-10-01T08:26:11.058Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -230540,35 +230540,14 @@
         "pluginIds": [
           "rubichandrap.mozax"
         ],
-        "commit": "a9fe34c2b25f0104b7e5e74df9f423916efda59c",
-        "checkedAt": "2026-09-25T09:26:40.617Z",
+        "commit": "99d85d566de735dc2e9c851285a10802897012bc",
+        "checkedAt": "2026-10-01T08:26:11.058Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "rubichandrap/omarchy-mozax",
-        "pluginIds": [
-          "rubichandrap.mozax"
-        ],
-        "commit": "a9fe34c2b25f0104b7e5e74df9f423916efda59c",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-25T09:26:40.617Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-25T08:30:44.277Z",
-        "requestEventId": 31822014969,
-        "requestedAt": "2026-09-25T08:37:51Z",
-        "reviewedAt": "2026-09-25T09:26:40.617Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "rubichandrap.mozax": {
@@ -230580,7 +230559,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rubichandrap/omarchy-mozax",
+        "pluginIds": [
+          "rubichandrap.mozax"
+        ],
+        "commit": "99d85d566de735dc2e9c851285a10802897012bc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T08:26:11.058Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-26T13:03:57.112Z",
+        "requestEventId": 32234255812,
+        "requestedAt": "2026-10-01T08:22:15Z",
+        "reviewedAt": "2026-10-01T08:26:11.058Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a9fe34c2b25f0104b7e5e74df9f423916efda59c",
+          "validatedAt": "2026-09-25T09:26:40.721Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T08:26:11.058Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rubichandrap/omarchy-mozax",
+            "pluginIds": [
+              "rubichandrap.mozax"
+            ],
+            "commit": "a9fe34c2b25f0104b7e5e74df9f423916efda59c",
+            "checkedAt": "2026-09-25T09:26:40.617Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "rubichandrap/omarchy-mozax",
+            "pluginIds": [
+              "rubichandrap.mozax"
+            ],
+            "commit": "a9fe34c2b25f0104b7e5e74df9f423916efda59c",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-25T09:26:40.617Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-25T08:30:44.277Z",
+            "requestEventId": 31822014969,
+            "requestedAt": "2026-09-25T08:37:51Z",
+            "reviewedAt": "2026-09-25T09:26:40.617Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/tathagat11/omarchy-checklist-todo",
