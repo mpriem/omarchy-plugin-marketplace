@@ -259111,6 +259111,43 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/godisopensource/omarchy-wacom-support",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T21:55:48.681Z",
+      "listingValidatedCommit": "d401683aad9cd9e50136cc7b510a03cb441ecbc8",
+      "listingValidatedAt": "2026-10-01T21:55:48.681Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "godisopensource/omarchy-wacom-support",
+        "pluginIds": [
+          "io.github.godisopensource.omarchy-wacom-support"
+        ],
+        "commit": "d401683aad9cd9e50136cc7b510a03cb441ecbc8",
+        "checkedAt": "2026-10-01T21:55:48.559Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.godisopensource.omarchy-wacom-support": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
