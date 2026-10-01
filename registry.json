@@ -81199,8 +81199,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-26",
       "listedAt": "2026-08-26T20:24:50.186Z",
-      "listingValidatedCommit": "347860819fe6bcecc54968d5d3ceed88cc57737d",
-      "listingValidatedAt": "2026-09-10T20:38:23.546Z",
+      "listingValidatedCommit": "42c9ccc16420430b3fe2b4d3326a8f95135b9d5b",
+      "listingValidatedAt": "2026-10-01T07:52:36.849Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -81209,8 +81209,8 @@
         "pluginIds": [
           "eduard.workspaces"
         ],
-        "commit": "347860819fe6bcecc54968d5d3ceed88cc57737d",
-        "checkedAt": "2026-09-10T20:38:23.546Z",
+        "commit": "42c9ccc16420430b3fe2b4d3326a8f95135b9d5b",
+        "checkedAt": "2026-10-01T07:52:36.849Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -81318,6 +81318,51 @@
             "reviewedAt": "2026-08-30T23:33:59.967Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "347860819fe6bcecc54968d5d3ceed88cc57737d",
+          "validatedAt": "2026-09-10T20:38:23.546Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T07:52:36.849Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "eddygarcas/omarchy-workspaces-preview",
+            "pluginIds": [
+              "eduard.workspaces"
+            ],
+            "commit": "347860819fe6bcecc54968d5d3ceed88cc57737d",
+            "checkedAt": "2026-09-10T20:38:23.546Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "eddygarcas/omarchy-workspaces-preview",
+            "pluginIds": [
+              "eduard.workspaces"
+            ],
+            "commit": "347860819fe6bcecc54968d5d3ceed88cc57737d",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-10T20:38:23.546Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-07T10:49:11.519Z",
+            "requestEventId": 30929108433,
+            "requestedAt": "2026-09-10T20:17:13Z",
+            "reviewedAt": "2026-09-10T20:38:23.546Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -81326,20 +81371,20 @@
         "pluginIds": [
           "eduard.workspaces"
         ],
-        "commit": "347860819fe6bcecc54968d5d3ceed88cc57737d",
+        "commit": "42c9ccc16420430b3fe2b4d3326a8f95135b9d5b",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-10T20:38:23.546Z",
+        "baselineCheckedAt": "2026-10-01T07:52:36.849Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "remote-build",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-09-07T10:49:11.519Z",
-        "requestEventId": 30929108433,
-        "requestedAt": "2026-09-10T20:17:13Z",
-        "reviewedAt": "2026-09-10T20:38:23.546Z",
+        "reviewedBaselineCheckedAt": "2026-09-25T19:42:02.044Z",
+        "requestEventId": 32231875840,
+        "requestedAt": "2026-10-01T07:45:17Z",
+        "reviewedAt": "2026-10-01T07:52:36.849Z",
         "reviewer": "HANCORE-linux"
       }
     },
