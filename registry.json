@@ -131801,8 +131801,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-04",
       "listedAt": "2026-09-04T17:42:01.249Z",
-      "listingValidatedCommit": "4a667dadfce52251ac4d897ac3f10fd5eaac3967",
-      "listingValidatedAt": "2026-09-04T17:42:01.249Z",
+      "listingValidatedCommit": "fd438a111598df41a0e6edc4bcce1b4802f3d57a",
+      "listingValidatedAt": "2026-10-01T04:23:46.368Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -131811,35 +131811,12 @@
         "pluginIds": [
           "io.github.tcballard.omarchy-markets"
         ],
-        "commit": "4a667dadfce52251ac4d897ac3f10fd5eaac3967",
-        "checkedAt": "2026-09-04T17:42:01.190Z",
-        "outcome": "review-required",
+        "commit": "fd438a111598df41a0e6edc4bcce1b4802f3d57a",
+        "checkedAt": "2026-10-01T04:23:46.368Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": [
-          "privilege"
-        ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "tcballard/omarchy-markets",
-        "pluginIds": [
-          "io.github.tcballard.omarchy-markets"
-        ],
-        "commit": "4a667dadfce52251ac4d897ac3f10fd5eaac3967",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-04T17:42:01.190Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-04T06:14:49.038Z",
-        "requestEventId": 30567070965,
-        "requestedAt": "2026-09-04T16:17:31Z",
-        "reviewedAt": "2026-09-04T17:42:01.190Z",
-        "reviewer": "HANCORE-linux"
+        "capabilities": []
       },
       "plugins": {
         "io.github.tcballard.omarchy-markets": {
@@ -131850,7 +131827,52 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "4a667dadfce52251ac4d897ac3f10fd5eaac3967",
+          "validatedAt": "2026-09-04T17:42:01.249Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T04:23:46.368Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tcballard/omarchy-markets",
+            "pluginIds": [
+              "io.github.tcballard.omarchy-markets"
+            ],
+            "commit": "4a667dadfce52251ac4d897ac3f10fd5eaac3967",
+            "checkedAt": "2026-09-04T17:42:01.190Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "tcballard/omarchy-markets",
+            "pluginIds": [
+              "io.github.tcballard.omarchy-markets"
+            ],
+            "commit": "4a667dadfce52251ac4d897ac3f10fd5eaac3967",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-04T17:42:01.190Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-04T06:14:49.038Z",
+            "requestEventId": 30567070965,
+            "requestedAt": "2026-09-04T16:17:31Z",
+            "reviewedAt": "2026-09-04T17:42:01.190Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/marashiai/omarchy-display",
