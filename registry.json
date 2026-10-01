@@ -247624,8 +247624,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T17:18:10.013Z",
-      "listingValidatedCommit": "a8a89fea93180069823db8abefd21772e92cfd78",
-      "listingValidatedAt": "2026-09-28T17:18:10.013Z",
+      "listingValidatedCommit": "8f44d9e657e5847fd4143ae6278abbe86c13c468",
+      "listingValidatedAt": "2026-10-01T12:19:37.927Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -247634,41 +247634,12 @@
         "pluginIds": [
           "io.github.mehrshadfb.ttc-departures"
         ],
-        "commit": "a8a89fea93180069823db8abefd21772e92cfd78",
-        "checkedAt": "2026-09-28T17:18:09.896Z",
-        "outcome": "needs-fixes",
+        "commit": "8f44d9e657e5847fd4143ae6278abbe86c13c468",
+        "checkedAt": "2026-10-01T12:19:37.927Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
-        "findings": [
-          "remote-git-execution-unpinned"
-        ],
-        "capabilities": [
-          "remote-build",
-          "package-manager"
-        ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "mehrshadfb/omarchy-ttc-departures",
-        "pluginIds": [
-          "io.github.mehrshadfb.ttc-departures"
-        ],
-        "commit": "a8a89fea93180069823db8abefd21772e92cfd78",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-28T17:18:09.896Z",
-        "baselineOutcome": "needs-fixes",
-        "findings": [
-          "remote-git-execution-unpinned"
-        ],
-        "capabilities": [
-          "remote-build",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-28T17:14:10.016Z",
-        "requestEventId": 32013327743,
-        "requestedAt": "2026-09-28T17:15:27Z",
-        "reviewedAt": "2026-09-28T17:18:09.896Z",
-        "reviewer": "HANCORE-linux"
+        "findings": [],
+        "capabilities": []
       },
       "plugins": {
         "io.github.mehrshadfb.ttc-departures": {
@@ -247679,7 +247650,58 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a8a89fea93180069823db8abefd21772e92cfd78",
+          "validatedAt": "2026-09-28T17:18:10.013Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T12:19:37.927Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mehrshadfb/omarchy-ttc-departures",
+            "pluginIds": [
+              "io.github.mehrshadfb.ttc-departures"
+            ],
+            "commit": "a8a89fea93180069823db8abefd21772e92cfd78",
+            "checkedAt": "2026-09-28T17:18:09.896Z",
+            "outcome": "needs-fixes",
+            "enforcementMode": "selective",
+            "findings": [
+              "remote-git-execution-unpinned"
+            ],
+            "capabilities": [
+              "remote-build",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "mehrshadfb/omarchy-ttc-departures",
+            "pluginIds": [
+              "io.github.mehrshadfb.ttc-departures"
+            ],
+            "commit": "a8a89fea93180069823db8abefd21772e92cfd78",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-28T17:18:09.896Z",
+            "baselineOutcome": "needs-fixes",
+            "findings": [
+              "remote-git-execution-unpinned"
+            ],
+            "capabilities": [
+              "remote-build",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-28T17:14:10.016Z",
+            "requestEventId": 32013327743,
+            "requestedAt": "2026-09-28T17:15:27Z",
+            "reviewedAt": "2026-09-28T17:18:09.896Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/crmne/omacal",
