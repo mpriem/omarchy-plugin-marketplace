@@ -234133,8 +234133,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-26",
       "listedAt": "2026-09-26T07:38:12.184Z",
-      "listingValidatedCommit": "003afd8f4aa3c814ae3d754c6c2c3e567689b6d9",
-      "listingValidatedAt": "2026-09-26T07:38:12.184Z",
+      "listingValidatedCommit": "225f486ac113c0a5129bb9e386dc9c6bea30e8ad",
+      "listingValidatedAt": "2026-10-01T11:34:38.815Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -234143,8 +234143,8 @@
         "pluginIds": [
           "io.github.alxwolfenstein97.omaobs"
         ],
-        "commit": "003afd8f4aa3c814ae3d754c6c2c3e567689b6d9",
-        "checkedAt": "2026-09-26T07:38:12.070Z",
+        "commit": "225f486ac113c0a5129bb9e386dc9c6bea30e8ad",
+        "checkedAt": "2026-10-01T11:34:38.815Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -234153,29 +234153,6 @@
           "installer",
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "alxwolfenstein97/omaobs",
-        "pluginIds": [
-          "io.github.alxwolfenstein97.omaobs"
-        ],
-        "commit": "003afd8f4aa3c814ae3d754c6c2c3e567689b6d9",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-26T07:38:12.070Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "installer",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-26T00:34:01.430Z",
-        "requestEventId": 31882725430,
-        "requestedAt": "2026-09-26T07:15:17Z",
-        "reviewedAt": "2026-09-26T07:38:12.070Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.alxwolfenstein97.omaobs": {
@@ -234190,7 +234167,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alxwolfenstein97/omaobs",
+        "pluginIds": [
+          "io.github.alxwolfenstein97.omaobs"
+        ],
+        "commit": "225f486ac113c0a5129bb9e386dc9c6bea30e8ad",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T11:34:38.815Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-28T06:35:24.313Z",
+        "requestEventId": 32245607189,
+        "requestedAt": "2026-10-01T11:15:32Z",
+        "reviewedAt": "2026-10-01T11:34:38.815Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "003afd8f4aa3c814ae3d754c6c2c3e567689b6d9",
+          "validatedAt": "2026-09-26T07:38:12.184Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T11:34:38.815Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "alxwolfenstein97/omaobs",
+            "pluginIds": [
+              "io.github.alxwolfenstein97.omaobs"
+            ],
+            "commit": "003afd8f4aa3c814ae3d754c6c2c3e567689b6d9",
+            "checkedAt": "2026-09-26T07:38:12.070Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "alxwolfenstein97/omaobs",
+            "pluginIds": [
+              "io.github.alxwolfenstein97.omaobs"
+            ],
+            "commit": "003afd8f4aa3c814ae3d754c6c2c3e567689b6d9",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-26T07:38:12.070Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-26T00:34:01.430Z",
+            "requestEventId": 31882725430,
+            "requestedAt": "2026-09-26T07:15:17Z",
+            "reviewedAt": "2026-09-26T07:38:12.070Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/AlxWolfenstein97/omavt",
