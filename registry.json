@@ -169609,8 +169609,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-11",
       "listedAt": "2026-09-11T09:40:45.374Z",
-      "listingValidatedCommit": "3b3aff7d82ddf4864074506b463b4f36b2fad5fc",
-      "listingValidatedAt": "2026-09-28T22:54:51.394Z",
+      "listingValidatedCommit": "f39d126b4b427af4dca73f499415689ed9a9d444",
+      "listingValidatedAt": "2026-10-01T21:13:17.416Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -169619,8 +169619,8 @@
         "pluginIds": [
           "ekollof.omaconnect"
         ],
-        "commit": "3b3aff7d82ddf4864074506b463b4f36b2fad5fc",
-        "checkedAt": "2026-09-28T22:54:51.394Z",
+        "commit": "f39d126b4b427af4dca73f499415689ed9a9d444",
+        "checkedAt": "2026-10-01T21:13:17.415Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -169640,29 +169640,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ekollof/omaconnect",
-        "pluginIds": [
-          "ekollof.omaconnect"
-        ],
-        "commit": "3b3aff7d82ddf4864074506b463b4f36b2fad5fc",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-28T22:54:51.394Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "package-manager",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-20T15:31:05.600Z",
-        "requestEventId": 32034796617,
-        "requestedAt": "2026-09-28T22:52:45Z",
-        "reviewedAt": "2026-09-28T22:54:51.394Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -169711,8 +169688,78 @@
             "reviewedAt": "2026-09-11T09:40:45.297Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "3b3aff7d82ddf4864074506b463b4f36b2fad5fc",
+          "validatedAt": "2026-09-28T22:54:51.394Z",
+          "branch": "master",
+          "supersededAt": "2026-10-01T21:13:17.416Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ekollof/omaconnect",
+            "pluginIds": [
+              "ekollof.omaconnect"
+            ],
+            "commit": "3b3aff7d82ddf4864074506b463b4f36b2fad5fc",
+            "checkedAt": "2026-09-28T22:54:51.394Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ekollof/omaconnect",
+            "pluginIds": [
+              "ekollof.omaconnect"
+            ],
+            "commit": "3b3aff7d82ddf4864074506b463b4f36b2fad5fc",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-28T22:54:51.394Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-20T15:31:05.600Z",
+            "requestEventId": 32034796617,
+            "requestedAt": "2026-09-28T22:52:45Z",
+            "reviewedAt": "2026-09-28T22:54:51.394Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ekollof/omaconnect",
+        "pluginIds": [
+          "ekollof.omaconnect"
+        ],
+        "commit": "f39d126b4b427af4dca73f499415689ed9a9d444",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T21:13:17.415Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T07:03:39.885Z",
+        "requestEventId": 32287658634,
+        "requestedAt": "2026-10-01T20:44:31Z",
+        "reviewedAt": "2026-10-01T21:13:17.416Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/DarioBF/per-display-workspaces",
