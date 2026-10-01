@@ -244290,8 +244290,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T23:50:23.608Z",
-      "listingValidatedCommit": "959c8f30badb90c30b709d59f87cf87209b86705",
-      "listingValidatedAt": "2026-09-27T23:50:23.608Z",
+      "listingValidatedCommit": "96615ec56a630858f951a10de734453bd933d2d9",
+      "listingValidatedAt": "2026-10-01T21:58:54.927Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -244300,8 +244300,8 @@
         "pluginIds": [
           "io.github.mrosati84.github-notifications"
         ],
-        "commit": "959c8f30badb90c30b709d59f87cf87209b86705",
-        "checkedAt": "2026-09-27T23:50:23.506Z",
+        "commit": "96615ec56a630858f951a10de734453bd933d2d9",
+        "checkedAt": "2026-10-01T21:58:54.927Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -244315,7 +244315,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "959c8f30badb90c30b709d59f87cf87209b86705",
+          "validatedAt": "2026-09-27T23:50:23.608Z",
+          "branch": "master",
+          "supersededAt": "2026-10-01T21:58:54.927Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mrosati84/github-notifications",
+            "pluginIds": [
+              "io.github.mrosati84.github-notifications"
+            ],
+            "commit": "959c8f30badb90c30b709d59f87cf87209b86705",
+            "checkedAt": "2026-09-27T23:50:23.506Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/hexploder/echocast",
