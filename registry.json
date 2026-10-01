@@ -255999,6 +255999,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jhonoryza/omarchy-agents-pin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T15:26:50.769Z",
+      "listingValidatedCommit": "e56e74fee4daa1f6ff09aa16941884b715fcb4b3",
+      "listingValidatedAt": "2026-10-01T15:26:50.769Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jhonoryza/omarchy-agents-pin",
+        "pluginIds": [
+          "dell.agents"
+        ],
+        "commit": "e56e74fee4daa1f6ff09aa16941884b715fcb4b3",
+        "checkedAt": "2026-10-01T15:26:50.635Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "dell.agents": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
