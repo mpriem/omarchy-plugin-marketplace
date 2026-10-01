@@ -255905,6 +255905,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/thepixelgardener-create/omarchyform",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T15:18:02.020Z",
+      "listingValidatedCommit": "0d3d7e3380c4cf74f41344c44fc405d93148d4a4",
+      "listingValidatedAt": "2026-10-01T15:18:02.020Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "thepixelgardener-create/omarchyform",
+        "pluginIds": [
+          "thepixelgardener.omarchyform"
+        ],
+        "commit": "0d3d7e3380c4cf74f41344c44fc405d93148d4a4",
+        "checkedAt": "2026-10-01T15:18:01.907Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "thepixelgardener-create/omarchyform",
+        "pluginIds": [
+          "thepixelgardener.omarchyform"
+        ],
+        "commit": "0d3d7e3380c4cf74f41344c44fc405d93148d4a4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T15:18:01.907Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T05:09:17.971Z",
+        "requestEventId": 32262023954,
+        "requestedAt": "2026-10-01T14:52:35Z",
+        "reviewedAt": "2026-10-01T15:18:01.907Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "thepixelgardener.omarchyform": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "hyprland",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
