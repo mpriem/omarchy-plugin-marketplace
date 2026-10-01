@@ -258417,6 +258417,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/jameskeane/agentdeck",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T20:50:10.723Z",
+      "listingValidatedCommit": "5aee2a80fc0a7811846e78e07a997feab48f9ac5",
+      "listingValidatedAt": "2026-10-01T20:50:10.723Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jameskeane/agentdeck",
+        "pluginIds": [
+          "io.github.jameskeane.agentdeck"
+        ],
+        "commit": "5aee2a80fc0a7811846e78e07a997feab48f9ac5",
+        "checkedAt": "2026-10-01T20:50:10.628Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jameskeane/agentdeck",
+        "pluginIds": [
+          "io.github.jameskeane.agentdeck"
+        ],
+        "commit": "5aee2a80fc0a7811846e78e07a997feab48f9ac5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T20:50:10.628Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T20:20:39.106Z",
+        "requestEventId": 32286317196,
+        "requestedAt": "2026-10-01T20:25:05Z",
+        "reviewedAt": "2026-10-01T20:50:10.628Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.jameskeane.agentdeck": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
