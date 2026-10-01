@@ -259524,6 +259524,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/HawzhinOmer/timebox",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T22:23:19.053Z",
+      "listingValidatedCommit": "8cff3c2d0afb3a4ea91e04e21096381f9aafdf83",
+      "listingValidatedAt": "2026-10-01T22:23:19.053Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hawzhinomer/timebox",
+        "pluginIds": [
+          "hawzhin.timebox"
+        ],
+        "commit": "8cff3c2d0afb3a4ea91e04e21096381f9aafdf83",
+        "checkedAt": "2026-10-01T22:23:18.930Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "hawzhin.timebox": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
