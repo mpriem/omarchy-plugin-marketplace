@@ -242866,8 +242866,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T19:33:21.819Z",
-      "listingValidatedCommit": "10449954687d9132b94330f7f282af58bfd39770",
-      "listingValidatedAt": "2026-09-27T19:33:21.819Z",
+      "listingValidatedCommit": "3dccc138c4c9b279c7e1b3fa074d7cdef069dddd",
+      "listingValidatedAt": "2026-10-01T21:24:46.656Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -242876,8 +242876,8 @@
         "pluginIds": [
           "jev.emoji"
         ],
-        "commit": "10449954687d9132b94330f7f282af58bfd39770",
-        "checkedAt": "2026-09-27T19:33:21.708Z",
+        "commit": "3dccc138c4c9b279c7e1b3fa074d7cdef069dddd",
+        "checkedAt": "2026-10-01T21:24:46.656Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -242892,7 +242892,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "10449954687d9132b94330f7f282af58bfd39770",
+          "validatedAt": "2026-09-27T19:33:21.819Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T21:24:46.656Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nun/jev-emoji",
+            "pluginIds": [
+              "jev.emoji"
+            ],
+            "commit": "10449954687d9132b94330f7f282af58bfd39770",
+            "checkedAt": "2026-09-27T19:33:21.708Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Jeffe747/omarchy-cisco-vpn",
