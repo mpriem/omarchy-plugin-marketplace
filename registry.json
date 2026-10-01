@@ -260036,6 +260036,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/llanttana/island",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T23:04:03.478Z",
+      "listingValidatedCommit": "7708cca69382e9ec0488c7f5405765d33271f077",
+      "listingValidatedAt": "2026-10-01T23:04:03.478Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "llanttana/island",
+        "pluginIds": [
+          "lanta.island"
+        ],
+        "commit": "7708cca69382e9ec0488c7f5405765d33271f077",
+        "checkedAt": "2026-10-01T23:04:03.365Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "llanttana/island",
+        "pluginIds": [
+          "lanta.island"
+        ],
+        "commit": "7708cca69382e9ec0488c7f5405765d33271f077",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T23:04:03.365Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T10:15:42.071Z",
+        "requestEventId": 32294364260,
+        "requestedAt": "2026-10-01T22:36:51Z",
+        "reviewedAt": "2026-10-01T23:04:03.365Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "lanta.island": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
