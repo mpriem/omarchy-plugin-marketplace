@@ -198485,8 +198485,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-19",
       "listedAt": "2026-09-19T11:35:57.529Z",
-      "listingValidatedCommit": "08e22eaee72d73e01fb6b2c0665818782b9247b4",
-      "listingValidatedAt": "2026-09-19T11:35:57.529Z",
+      "listingValidatedCommit": "18841ff8dc2c97ba8b9032a0dc62707d8b9b825e",
+      "listingValidatedAt": "2026-10-01T01:57:50.021Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -198495,35 +198495,14 @@
         "pluginIds": [
           "pablousx.omabinds"
         ],
-        "commit": "08e22eaee72d73e01fb6b2c0665818782b9247b4",
-        "checkedAt": "2026-09-19T11:35:57.441Z",
+        "commit": "18841ff8dc2c97ba8b9032a0dc62707d8b9b825e",
+        "checkedAt": "2026-10-01T01:57:50.021Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "pablousx/omabinds",
-        "pluginIds": [
-          "pablousx.omabinds"
-        ],
-        "commit": "08e22eaee72d73e01fb6b2c0665818782b9247b4",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-19T11:35:57.441Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-18T00:49:31.894Z",
-        "requestEventId": 31442845143,
-        "requestedAt": "2026-09-19T11:33:50Z",
-        "reviewedAt": "2026-09-19T11:35:57.441Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "pablousx.omabinds": {
@@ -198535,7 +198514,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pablousx/omabinds",
+        "pluginIds": [
+          "pablousx.omabinds"
+        ],
+        "commit": "18841ff8dc2c97ba8b9032a0dc62707d8b9b825e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T01:57:50.021Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-22T18:13:21.400Z",
+        "requestEventId": 32214973550,
+        "requestedAt": "2026-10-01T01:53:30Z",
+        "reviewedAt": "2026-10-01T01:57:50.021Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "08e22eaee72d73e01fb6b2c0665818782b9247b4",
+          "validatedAt": "2026-09-19T11:35:57.529Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T01:57:50.021Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "pablousx/omabinds",
+            "pluginIds": [
+              "pablousx.omabinds"
+            ],
+            "commit": "08e22eaee72d73e01fb6b2c0665818782b9247b4",
+            "checkedAt": "2026-09-19T11:35:57.441Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "pablousx/omabinds",
+            "pluginIds": [
+              "pablousx.omabinds"
+            ],
+            "commit": "08e22eaee72d73e01fb6b2c0665818782b9247b4",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-19T11:35:57.441Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-18T00:49:31.894Z",
+            "requestEventId": 31442845143,
+            "requestedAt": "2026-09-19T11:33:50Z",
+            "reviewedAt": "2026-09-19T11:35:57.441Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/sumanthmukkala/omarchy-stage-drawer",
