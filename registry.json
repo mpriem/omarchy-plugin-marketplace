@@ -259969,6 +259969,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jimmibram/chrome-launcher",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T22:58:31.106Z",
+      "listingValidatedCommit": "cd608b6a7c211dd11e7adb1bfb74b86cb5bdded9",
+      "listingValidatedAt": "2026-10-01T22:58:31.106Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jimmibram/chrome-launcher",
+        "pluginIds": [
+          "jimmibram.chrome-launcher"
+        ],
+        "commit": "cd608b6a7c211dd11e7adb1bfb74b86cb5bdded9",
+        "checkedAt": "2026-10-01T22:58:30.989Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "jimmibram.chrome-launcher": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
