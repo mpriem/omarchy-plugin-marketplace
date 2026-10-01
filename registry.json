@@ -239910,8 +239910,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T15:27:57.846Z",
-      "listingValidatedCommit": "054ccce4796613226b4b48eab48ddefe0a04c1f5",
-      "listingValidatedAt": "2026-09-27T15:27:57.846Z",
+      "listingValidatedCommit": "1cffb1d6e47e3a578637294c3eae8df14b0b61c3",
+      "listingValidatedAt": "2026-10-01T13:08:16.689Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -239920,37 +239920,16 @@
         "pluginIds": [
           "neat.citadel"
         ],
-        "commit": "054ccce4796613226b4b48eab48ddefe0a04c1f5",
-        "checkedAt": "2026-09-27T15:27:57.747Z",
+        "commit": "1cffb1d6e47e3a578637294c3eae8df14b0b61c3",
+        "checkedAt": "2026-10-01T13:08:16.689Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege",
-          "package-manager"
+          "package-manager",
+          "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "neatouk/citadel",
-        "pluginIds": [
-          "neat.citadel"
-        ],
-        "commit": "054ccce4796613226b4b48eab48ddefe0a04c1f5",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T15:27:57.747Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-27T14:00:25.610Z",
-        "requestEventId": 31935344070,
-        "requestedAt": "2026-09-27T14:59:49Z",
-        "reviewedAt": "2026-09-27T15:27:57.747Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "neat.citadel": {
@@ -239960,7 +239939,77 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "neatouk/citadel",
+        "pluginIds": [
+          "neat.citadel"
+        ],
+        "commit": "1cffb1d6e47e3a578637294c3eae8df14b0b61c3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T13:08:16.689Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-29T13:05:52.678Z",
+        "requestEventId": 32253480737,
+        "requestedAt": "2026-10-01T13:07:08Z",
+        "reviewedAt": "2026-10-01T13:08:16.689Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "054ccce4796613226b4b48eab48ddefe0a04c1f5",
+          "validatedAt": "2026-09-27T15:27:57.846Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T13:08:16.689Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "neatouk/citadel",
+            "pluginIds": [
+              "neat.citadel"
+            ],
+            "commit": "054ccce4796613226b4b48eab48ddefe0a04c1f5",
+            "checkedAt": "2026-09-27T15:27:57.747Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "neatouk/citadel",
+            "pluginIds": [
+              "neat.citadel"
+            ],
+            "commit": "054ccce4796613226b4b48eab48ddefe0a04c1f5",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T15:27:57.747Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-27T14:00:25.610Z",
+            "requestEventId": 31935344070,
+            "requestedAt": "2026-09-27T14:59:49Z",
+            "reviewedAt": "2026-09-27T15:27:57.747Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/TierTek/omarchy-tekvoice",
