@@ -256781,6 +256781,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/18orkidea/omarchy-ai-writer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T16:15:49.763Z",
+      "listingValidatedCommit": "c5239fc3decb3a66ae87d89456fa36afcc59e6b3",
+      "listingValidatedAt": "2026-10-01T16:15:49.763Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "18orkidea/omarchy-ai-writer",
+        "pluginIds": [
+          "eu.orkidea.ai-writer"
+        ],
+        "commit": "c5239fc3decb3a66ae87d89456fa36afcc59e6b3",
+        "checkedAt": "2026-10-01T16:15:49.664Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "18orkidea/omarchy-ai-writer",
+        "pluginIds": [
+          "eu.orkidea.ai-writer"
+        ],
+        "commit": "c5239fc3decb3a66ae87d89456fa36afcc59e6b3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T16:15:49.664Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T05:34:47.061Z",
+        "requestEventId": 32267603665,
+        "requestedAt": "2026-10-01T16:01:22Z",
+        "reviewedAt": "2026-10-01T16:15:49.664Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "eu.orkidea.ai-writer": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "bar",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
