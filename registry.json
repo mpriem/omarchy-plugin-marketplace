@@ -202446,8 +202446,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-20",
       "listedAt": "2026-09-20T10:21:51.678Z",
-      "listingValidatedCommit": "8963939fa0ae30708beedee9fafd5239c8300f47",
-      "listingValidatedAt": "2026-09-20T10:21:51.678Z",
+      "listingValidatedCommit": "7c47499fc8afef49dce9d03ea4083261595ad142",
+      "listingValidatedAt": "2026-10-01T05:07:56.729Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -202456,8 +202456,8 @@
         "pluginIds": [
           "animated.dock"
         ],
-        "commit": "8963939fa0ae30708beedee9fafd5239c8300f47",
-        "checkedAt": "2026-09-20T10:21:51.586Z",
+        "commit": "7c47499fc8afef49dce9d03ea4083261595ad142",
+        "checkedAt": "2026-10-01T05:07:56.729Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -202465,28 +202465,6 @@
           "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "davedes83/animated-dock",
-        "pluginIds": [
-          "animated.dock"
-        ],
-        "commit": "8963939fa0ae30708beedee9fafd5239c8300f47",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-20T10:21:51.586Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-20T00:47:17.339Z",
-        "requestEventId": 31477907400,
-        "requestedAt": "2026-09-20T10:11:55Z",
-        "reviewedAt": "2026-09-20T10:21:51.586Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "animated.dock": {
@@ -202496,7 +202474,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "davedes83/animated-dock",
+        "pluginIds": [
+          "animated.dock"
+        ],
+        "commit": "7c47499fc8afef49dce9d03ea4083261595ad142",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T05:07:56.729Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-23T18:10:42.427Z",
+        "requestEventId": 32223669505,
+        "requestedAt": "2026-10-01T05:07:32Z",
+        "reviewedAt": "2026-10-01T05:07:56.729Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "8963939fa0ae30708beedee9fafd5239c8300f47",
+          "validatedAt": "2026-09-20T10:21:51.678Z",
+          "branch": "master",
+          "supersededAt": "2026-10-01T05:07:56.729Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "davedes83/animated-dock",
+            "pluginIds": [
+              "animated.dock"
+            ],
+            "commit": "8963939fa0ae30708beedee9fafd5239c8300f47",
+            "checkedAt": "2026-09-20T10:21:51.586Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "davedes83/animated-dock",
+            "pluginIds": [
+              "animated.dock"
+            ],
+            "commit": "8963939fa0ae30708beedee9fafd5239c8300f47",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-20T10:21:51.586Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-20T00:47:17.339Z",
+            "requestEventId": 31477907400,
+            "requestedAt": "2026-09-20T10:11:55Z",
+            "reviewedAt": "2026-09-20T10:21:51.586Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/JorgeDelgadillo/omarchy-relaxy",
