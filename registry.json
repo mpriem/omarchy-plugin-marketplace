@@ -255349,6 +255349,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/GerritWanderer/keycade-lazyvim",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T14:41:41.015Z",
+      "listingValidatedCommit": "4caa766a50df6dec3e0ca57f4034838aa2d53845",
+      "listingValidatedAt": "2026-10-01T14:41:41.015Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gerritwanderer/keycade-lazyvim",
+        "pluginIds": [
+          "gerritwanderer.keycade-lazyvim"
+        ],
+        "commit": "4caa766a50df6dec3e0ca57f4034838aa2d53845",
+        "checkedAt": "2026-10-01T14:41:40.937Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "gerritwanderer.keycade-lazyvim": {
+          "category": "Developer Tools",
+          "tags": [
+            "education"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
