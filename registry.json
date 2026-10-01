@@ -249678,6 +249678,73 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/archlatam/flatpak",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T01:51:56.890Z",
+      "listingValidatedCommit": "e724b2d5421d6ad39a83d5273026df27d69d807c",
+      "listingValidatedAt": "2026-10-01T01:51:56.890Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "archlatam/flatpak",
+        "pluginIds": [
+          "io.github.archlatam.flatpak"
+        ],
+        "commit": "e724b2d5421d6ad39a83d5273026df27d69d807c",
+        "checkedAt": "2026-10-01T01:51:56.779Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "archlatam/flatpak",
+        "pluginIds": [
+          "io.github.archlatam.flatpak"
+        ],
+        "commit": "e724b2d5421d6ad39a83d5273026df27d69d807c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T01:51:56.779Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T01:47:59.018Z",
+        "requestEventId": 32214891765,
+        "requestedAt": "2026-10-01T01:51:26Z",
+        "reviewedAt": "2026-10-01T01:51:56.780Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.archlatam.flatpak": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
