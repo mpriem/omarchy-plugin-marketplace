@@ -72624,8 +72624,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-25",
       "listedAt": "2026-08-25T14:17:04.572Z",
-      "listingValidatedCommit": "69fe05b03129a23664fff3f8289821a7b7f80095",
-      "listingValidatedAt": "2026-08-25T14:17:04.572Z",
+      "listingValidatedCommit": "d620c300020d3acfa9c00418da7f6cded485ffdb",
+      "listingValidatedAt": "2026-10-01T00:46:29.485Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -72634,39 +72634,17 @@
         "pluginIds": [
           "kdk.omavless"
         ],
-        "commit": "69fe05b03129a23664fff3f8289821a7b7f80095",
-        "checkedAt": "2026-08-25T14:17:04.539Z",
+        "commit": "d620c300020d3acfa9c00418da7f6cded485ffdb",
+        "checkedAt": "2026-10-01T00:46:29.485Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "privilege",
+          "installer",
+          "package-manager",
           "service-management",
-          "installer"
+          "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "k-kostin/omavless",
-        "pluginIds": [
-          "kdk.omavless"
-        ],
-        "commit": "69fe05b03129a23664fff3f8289821a7b7f80095",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-25T14:17:04.539Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-25T08:53:39.922Z",
-        "requestEventId": 29982707700,
-        "requestedAt": "2026-08-25T14:14:11Z",
-        "reviewedAt": "2026-08-25T14:17:04.539Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "kdk.omavless": {
@@ -72678,7 +72656,80 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "k-kostin/omavless",
+        "pluginIds": [
+          "kdk.omavless"
+        ],
+        "commit": "d620c300020d3acfa9c00418da7f6cded485ffdb",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T00:46:29.485Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "package-manager",
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-22T11:11:41.585Z",
+        "requestEventId": 32212015176,
+        "requestedAt": "2026-10-01T00:46:01Z",
+        "reviewedAt": "2026-10-01T00:46:29.485Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "69fe05b03129a23664fff3f8289821a7b7f80095",
+          "validatedAt": "2026-08-25T14:17:04.572Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T00:46:29.485Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "k-kostin/omavless",
+            "pluginIds": [
+              "kdk.omavless"
+            ],
+            "commit": "69fe05b03129a23664fff3f8289821a7b7f80095",
+            "checkedAt": "2026-08-25T14:17:04.539Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "k-kostin/omavless",
+            "pluginIds": [
+              "kdk.omavless"
+            ],
+            "commit": "69fe05b03129a23664fff3f8289821a7b7f80095",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-25T14:17:04.539Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-25T08:53:39.922Z",
+            "requestEventId": 29982707700,
+            "requestedAt": "2026-08-25T14:14:11Z",
+            "reviewedAt": "2026-08-25T14:17:04.539Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/luccast/omafrigate",
