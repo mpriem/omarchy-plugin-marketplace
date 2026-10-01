@@ -256065,6 +256065,75 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/TiniTinyTerminator/ODrive",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T15:33:01.944Z",
+      "listingValidatedCommit": "c17c4219e6b9c08c5a175060af1fde8429f1d10e",
+      "listingValidatedAt": "2026-10-01T15:33:01.944Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tinitinyterminator/odrive",
+        "pluginIds": [
+          "ttt.odrive"
+        ],
+        "commit": "c17c4219e6b9c08c5a175060af1fde8429f1d10e",
+        "checkedAt": "2026-10-01T15:33:01.819Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tinitinyterminator/odrive",
+        "pluginIds": [
+          "ttt.odrive"
+        ],
+        "commit": "c17c4219e6b9c08c5a175060af1fde8429f1d10e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T15:33:01.819Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T08:56:53.261Z",
+        "requestEventId": 32264844449,
+        "requestedAt": "2026-10-01T15:26:25Z",
+        "reviewedAt": "2026-10-01T15:33:01.819Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ttt.odrive": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
