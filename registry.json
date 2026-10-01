@@ -254921,6 +254921,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/abort-retry-ignore/ff-drive",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T14:19:27.612Z",
+      "listingValidatedCommit": "2afa9ba8f96c052068ed5582a9c48e1635c6aade",
+      "listingValidatedAt": "2026-10-01T14:19:27.612Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "abort-retry-ignore/ff-drive",
+        "pluginIds": [
+          "io.github.abort-retry-ignore.ff-drive"
+        ],
+        "commit": "2afa9ba8f96c052068ed5582a9c48e1635c6aade",
+        "checkedAt": "2026-10-01T14:19:27.515Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "abort-retry-ignore/ff-drive",
+        "pluginIds": [
+          "io.github.abort-retry-ignore.ff-drive"
+        ],
+        "commit": "2afa9ba8f96c052068ed5582a9c48e1635c6aade",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T14:19:27.515Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T22:11:58.697Z",
+        "requestEventId": 32259259169,
+        "requestedAt": "2026-10-01T14:18:58Z",
+        "reviewedAt": "2026-10-01T14:19:27.515Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.abort-retry-ignore.ff-drive": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
