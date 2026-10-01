@@ -259801,6 +259801,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/murankar/omarchy-eso-server-status",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T22:45:54.602Z",
+      "listingValidatedCommit": "f669178c60ef5288d5cc55d6ab2589c507112219",
+      "listingValidatedAt": "2026-10-01T22:45:54.602Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "murankar/omarchy-eso-server-status",
+        "pluginIds": [
+          "murankar.eso-server-status"
+        ],
+        "commit": "f669178c60ef5288d5cc55d6ab2589c507112219",
+        "checkedAt": "2026-10-01T22:45:54.483Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "murankar/omarchy-eso-server-status",
+        "pluginIds": [
+          "murankar.eso-server-status"
+        ],
+        "commit": "f669178c60ef5288d5cc55d6ab2589c507112219",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T22:45:54.483Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T14:24:29.382Z",
+        "requestEventId": 32293674756,
+        "requestedAt": "2026-10-01T22:23:12Z",
+        "reviewedAt": "2026-10-01T22:45:54.483Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "murankar.eso-server-status": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
