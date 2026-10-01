@@ -242361,8 +242361,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T21:54:48.439Z",
-      "listingValidatedCommit": "fba876fee9ad9aac869632992996617ed23126df",
-      "listingValidatedAt": "2026-09-27T21:54:48.439Z",
+      "listingValidatedCommit": "5bf354db8dce1fac81f54a55eda02002ba236920",
+      "listingValidatedAt": "2026-10-01T11:58:31.369Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -242371,35 +242371,15 @@
         "pluginIds": [
           "io.github.expri-commits.kanji-lookup"
         ],
-        "commit": "fba876fee9ad9aac869632992996617ed23126df",
-        "checkedAt": "2026-09-27T21:54:48.349Z",
+        "commit": "5bf354db8dce1fac81f54a55eda02002ba236920",
+        "checkedAt": "2026-10-01T11:58:31.369Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "package-manager"
+          "package-manager",
+          "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "expri-commits/kanji-lookup",
-        "pluginIds": [
-          "io.github.expri-commits.kanji-lookup"
-        ],
-        "commit": "fba876fee9ad9aac869632992996617ed23126df",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T21:54:48.349Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-27T20:23:13.401Z",
-        "requestEventId": 31948620029,
-        "requestedAt": "2026-09-27T21:41:05Z",
-        "reviewedAt": "2026-09-27T21:54:48.349Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.expri-commits.kanji-lookup": {
@@ -242411,7 +242391,74 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "expri-commits/kanji-lookup",
+        "pluginIds": [
+          "io.github.expri-commits.kanji-lookup"
+        ],
+        "commit": "5bf354db8dce1fac81f54a55eda02002ba236920",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T11:58:31.369Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-28T11:32:57.410Z",
+        "requestEventId": 32247163462,
+        "requestedAt": "2026-10-01T11:40:21Z",
+        "reviewedAt": "2026-10-01T11:58:31.369Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "fba876fee9ad9aac869632992996617ed23126df",
+          "validatedAt": "2026-09-27T21:54:48.439Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T11:58:31.369Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "expri-commits/kanji-lookup",
+            "pluginIds": [
+              "io.github.expri-commits.kanji-lookup"
+            ],
+            "commit": "fba876fee9ad9aac869632992996617ed23126df",
+            "checkedAt": "2026-09-27T21:54:48.349Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "expri-commits/kanji-lookup",
+            "pluginIds": [
+              "io.github.expri-commits.kanji-lookup"
+            ],
+            "commit": "fba876fee9ad9aac869632992996617ed23126df",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T21:54:48.349Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-27T20:23:13.401Z",
+            "requestEventId": 31948620029,
+            "requestedAt": "2026-09-27T21:41:05Z",
+            "reviewedAt": "2026-09-27T21:54:48.349Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/fasi96/omarchy-liquid-glass",
