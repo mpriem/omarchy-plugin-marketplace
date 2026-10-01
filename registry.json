@@ -255872,6 +255872,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/paudelsamir/bhagwat-geeta",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T15:14:52.606Z",
+      "listingValidatedCommit": "2ccd7114f2c397e861a34edd99789eeccbfdce0a",
+      "listingValidatedAt": "2026-10-01T15:14:52.606Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "paudelsamir/bhagwat-geeta",
+        "pluginIds": [
+          "paudelsamir.bhagwat-geeta"
+        ],
+        "commit": "2ccd7114f2c397e861a34edd99789eeccbfdce0a",
+        "checkedAt": "2026-10-01T15:14:52.487Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "paudelsamir.bhagwat-geeta": {
+          "category": "Kids",
+          "tags": [
+            "education",
+            "kids"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
