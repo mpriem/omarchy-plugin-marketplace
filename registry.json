@@ -249214,6 +249214,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/shawk08033/Omarchy-VPN-Nord",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T00:57:33.455Z",
+      "listingValidatedCommit": "756d2dfae5e9b732f2ca497a3913aca1b8382e56",
+      "listingValidatedAt": "2026-10-01T00:57:33.455Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "shawk08033/omarchy-vpn-nord",
+        "pluginIds": [
+          "shaunhawk.nordvpn"
+        ],
+        "commit": "756d2dfae5e9b732f2ca497a3913aca1b8382e56",
+        "checkedAt": "2026-10-01T00:57:33.342Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "shaunhawk.nordvpn": {
+          "category": "System",
+          "tags": [
+            "vpn",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
