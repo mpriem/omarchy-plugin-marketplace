@@ -258472,6 +258472,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/squinto-py/zenbook-duo-omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T20:55:14.434Z",
+      "listingValidatedCommit": "3b077358d2aa2e50a064e0d402b90d8af14e0ca4",
+      "listingValidatedAt": "2026-10-01T20:55:14.434Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "squinto-py/zenbook-duo-omarchy",
+        "pluginIds": [
+          "squinto.zenbook-duo-bottom-oled"
+        ],
+        "commit": "3b077358d2aa2e50a064e0d402b90d8af14e0ca4",
+        "checkedAt": "2026-10-01T20:55:14.319Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "squinto-py/zenbook-duo-omarchy",
+        "pluginIds": [
+          "squinto.zenbook-duo-bottom-oled"
+        ],
+        "commit": "3b077358d2aa2e50a064e0d402b90d8af14e0ca4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T20:55:14.319Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T20:20:49.910Z",
+        "requestEventId": 32286666417,
+        "requestedAt": "2026-10-01T20:30:20Z",
+        "reviewedAt": "2026-10-01T20:55:14.319Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "squinto.zenbook-duo-bottom-oled": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
