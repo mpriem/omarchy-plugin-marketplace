@@ -249986,6 +249986,74 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/randymy/omarchy-buzz",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T02:26:08.973Z",
+      "listingValidatedCommit": "4692efad01ae41808e0833961027db56e59c0fdc",
+      "listingValidatedAt": "2026-10-01T02:26:08.973Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "randymy/omarchy-buzz",
+        "pluginIds": [
+          "community.buzz"
+        ],
+        "commit": "4692efad01ae41808e0833961027db56e59c0fdc",
+        "checkedAt": "2026-10-01T02:26:08.867Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer",
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "randymy/omarchy-buzz",
+        "pluginIds": [
+          "community.buzz"
+        ],
+        "commit": "4692efad01ae41808e0833961027db56e59c0fdc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T02:26:08.867Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T02:20:53.777Z",
+        "requestEventId": 32216435762,
+        "requestedAt": "2026-10-01T02:25:45Z",
+        "reviewedAt": "2026-10-01T02:26:08.867Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "community.buzz": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
