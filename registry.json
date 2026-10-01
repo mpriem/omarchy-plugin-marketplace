@@ -247500,8 +247500,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T12:31:36.644Z",
-      "listingValidatedCommit": "0e0cf60acb33a7080c74bdb2456c1e05bc565532",
-      "listingValidatedAt": "2026-09-28T12:31:36.644Z",
+      "listingValidatedCommit": "b0044a9038f72e2ee8ccf12f9d77ad077a7ccd34",
+      "listingValidatedAt": "2026-10-01T21:37:35.249Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -247510,35 +247510,14 @@
         "pluginIds": [
           "io.github.simoz.outbound"
         ],
-        "commit": "0e0cf60acb33a7080c74bdb2456c1e05bc565532",
-        "checkedAt": "2026-09-28T12:31:36.533Z",
+        "commit": "b0044a9038f72e2ee8ccf12f9d77ad077a7ccd34",
+        "checkedAt": "2026-10-01T21:37:35.249Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "simoz/omarchy-outbound",
-        "pluginIds": [
-          "io.github.simoz.outbound"
-        ],
-        "commit": "0e0cf60acb33a7080c74bdb2456c1e05bc565532",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-28T12:31:36.533Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-28T12:25:50.689Z",
-        "requestEventId": 31991214723,
-        "requestedAt": "2026-09-28T12:28:54Z",
-        "reviewedAt": "2026-09-28T12:31:36.533Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.simoz.outbound": {
@@ -247553,7 +247532,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "simoz/omarchy-outbound",
+        "pluginIds": [
+          "io.github.simoz.outbound"
+        ],
+        "commit": "b0044a9038f72e2ee8ccf12f9d77ad077a7ccd34",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T21:37:35.249Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T16:27:40.129Z",
+        "requestEventId": 32289359499,
+        "requestedAt": "2026-10-01T21:10:21Z",
+        "reviewedAt": "2026-10-01T21:37:35.249Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0e0cf60acb33a7080c74bdb2456c1e05bc565532",
+          "validatedAt": "2026-09-28T12:31:36.644Z",
+          "branch": "main",
+          "supersededAt": "2026-10-01T21:37:35.249Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "simoz/omarchy-outbound",
+            "pluginIds": [
+              "io.github.simoz.outbound"
+            ],
+            "commit": "0e0cf60acb33a7080c74bdb2456c1e05bc565532",
+            "checkedAt": "2026-09-28T12:31:36.533Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "simoz/omarchy-outbound",
+            "pluginIds": [
+              "io.github.simoz.outbound"
+            ],
+            "commit": "0e0cf60acb33a7080c74bdb2456c1e05bc565532",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-28T12:31:36.533Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-28T12:25:50.689Z",
+            "requestEventId": 31991214723,
+            "requestedAt": "2026-09-28T12:28:54Z",
+            "reviewedAt": "2026-09-28T12:31:36.533Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/murjax/OmaPostal",
