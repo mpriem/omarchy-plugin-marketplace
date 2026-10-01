@@ -255166,6 +255166,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ralphsmith80/omarchy-equal-tiling",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T14:32:10.847Z",
+      "listingValidatedCommit": "53484cdfb01e09fe0104592d1b66ff18c9dad8d4",
+      "listingValidatedAt": "2026-10-01T14:32:10.847Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ralphsmith80/omarchy-equal-tiling",
+        "pluginIds": [
+          "ralphsmith80.equal-tiling"
+        ],
+        "commit": "53484cdfb01e09fe0104592d1b66ff18c9dad8d4",
+        "checkedAt": "2026-10-01T14:32:10.749Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ralphsmith80/omarchy-equal-tiling",
+        "pluginIds": [
+          "ralphsmith80.equal-tiling"
+        ],
+        "commit": "53484cdfb01e09fe0104592d1b66ff18c9dad8d4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T14:32:10.749Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T08:28:02.951Z",
+        "requestEventId": 32259302715,
+        "requestedAt": "2026-10-01T14:19:30Z",
+        "reviewedAt": "2026-10-01T14:32:10.750Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ralphsmith80.equal-tiling": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
