@@ -202092,8 +202092,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-19",
       "listedAt": "2026-09-19T20:25:16.548Z",
-      "listingValidatedCommit": "1d9f56b789ee6af7bbd34fdbfeee27ce7fdff986",
-      "listingValidatedAt": "2026-09-19T20:25:16.548Z",
+      "listingValidatedCommit": "5ee786567f0470b6b47fcb112236dbaf285e3919",
+      "listingValidatedAt": "2026-10-01T11:54:42.857Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -202102,8 +202102,8 @@
         "pluginIds": [
           "widget.torrents"
         ],
-        "commit": "1d9f56b789ee6af7bbd34fdbfeee27ce7fdff986",
-        "checkedAt": "2026-09-19T20:25:16.479Z",
+        "commit": "5ee786567f0470b6b47fcb112236dbaf285e3919",
+        "checkedAt": "2026-10-01T11:54:42.857Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -202121,7 +202121,29 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1d9f56b789ee6af7bbd34fdbfeee27ce7fdff986",
+          "validatedAt": "2026-09-19T20:25:16.548Z",
+          "branch": "master",
+          "supersededAt": "2026-10-01T11:54:42.857Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "xfedis/omarchy-torrents",
+            "pluginIds": [
+              "widget.torrents"
+            ],
+            "commit": "1d9f56b789ee6af7bbd34fdbfeee27ce7fdff986",
+            "checkedAt": "2026-09-19T20:25:16.479Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ReidenXerx/omarchy-omagram",
