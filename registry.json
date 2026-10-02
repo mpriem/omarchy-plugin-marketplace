@@ -129767,8 +129767,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-04",
       "listedAt": "2026-09-04T03:10:47.120Z",
-      "listingValidatedCommit": "d4b445926f722580c3e1c9c9c8c487c7cbd6432c",
-      "listingValidatedAt": "2026-10-02T00:13:07.280Z",
+      "listingValidatedCommit": "8a86a403cc374cc5de2da876c2af163792019f58",
+      "listingValidatedAt": "2026-10-02T18:42:13.485Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -129777,8 +129777,8 @@
         "pluginIds": [
           "io.github.steveclarke.screenpush"
         ],
-        "commit": "d4b445926f722580c3e1c9c9c8c487c7cbd6432c",
-        "checkedAt": "2026-10-02T00:13:07.280Z",
+        "commit": "8a86a403cc374cc5de2da876c2af163792019f58",
+        "checkedAt": "2026-10-02T18:42:13.485Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -129801,29 +129801,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "steveclarke/omarchy-screenpush",
-        "pluginIds": [
-          "io.github.steveclarke.screenpush"
-        ],
-        "commit": "d4b445926f722580c3e1c9c9c8c487c7cbd6432c",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T00:13:07.280Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-29T14:04:01.631Z",
-        "requestEventId": 32297730341,
-        "requestedAt": "2026-10-01T23:50:48Z",
-        "reviewedAt": "2026-10-02T00:13:07.280Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -129872,8 +129849,78 @@
             "reviewedAt": "2026-09-04T03:10:47.062Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "d4b445926f722580c3e1c9c9c8c487c7cbd6432c",
+          "validatedAt": "2026-10-02T00:13:07.280Z",
+          "branch": "master",
+          "supersededAt": "2026-10-02T18:42:13.485Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "steveclarke/omarchy-screenpush",
+            "pluginIds": [
+              "io.github.steveclarke.screenpush"
+            ],
+            "commit": "d4b445926f722580c3e1c9c9c8c487c7cbd6432c",
+            "checkedAt": "2026-10-02T00:13:07.280Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "steveclarke/omarchy-screenpush",
+            "pluginIds": [
+              "io.github.steveclarke.screenpush"
+            ],
+            "commit": "d4b445926f722580c3e1c9c9c8c487c7cbd6432c",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T00:13:07.280Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-29T14:04:01.631Z",
+            "requestEventId": 32297730341,
+            "requestedAt": "2026-10-01T23:50:48Z",
+            "reviewedAt": "2026-10-02T00:13:07.280Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "steveclarke/omarchy-screenpush",
+        "pluginIds": [
+          "io.github.steveclarke.screenpush"
+        ],
+        "commit": "8a86a403cc374cc5de2da876c2af163792019f58",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T18:42:13.485Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T17:08:07.264Z",
+        "requestEventId": 32354498791,
+        "requestedAt": "2026-10-02T17:55:18Z",
+        "reviewedAt": "2026-10-02T18:42:13.485Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/SmartALB/omarchy-roma",
