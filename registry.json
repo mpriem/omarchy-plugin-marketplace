@@ -266203,6 +266203,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/eng1n88r/omarchy-adaptive-power",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T06:27:30.522Z",
+      "listingValidatedCommit": "e4a708fa49ec102fd5c32995c525002dc1c8b4f2",
+      "listingValidatedAt": "2026-10-02T06:27:30.522Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "eng1n88r/omarchy-adaptive-power",
+        "pluginIds": [
+          "adaptive.power"
+        ],
+        "commit": "e4a708fa49ec102fd5c32995c525002dc1c8b4f2",
+        "checkedAt": "2026-10-02T06:27:30.400Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "eng1n88r/omarchy-adaptive-power",
+        "pluginIds": [
+          "adaptive.power"
+        ],
+        "commit": "e4a708fa49ec102fd5c32995c525002dc1c8b4f2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T06:27:30.400Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T06:25:47.256Z",
+        "requestEventId": 32313718130,
+        "requestedAt": "2026-10-02T06:27:04Z",
+        "reviewedAt": "2026-10-02T06:27:30.400Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "adaptive.power": {
+          "category": "Hardware",
+          "tags": [
+            "power-management",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
