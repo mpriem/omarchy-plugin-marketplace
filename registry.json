@@ -262195,8 +262195,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T00:27:44.030Z",
-      "listingValidatedCommit": "e900818db716ef9de87cce83f802848f081b17df",
-      "listingValidatedAt": "2026-10-02T00:27:44.030Z",
+      "listingValidatedCommit": "cffc6c450729646e77a00d4f0aad313c703a467c",
+      "listingValidatedAt": "2026-10-02T07:41:25.145Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -262205,8 +262205,8 @@
         "pluginIds": [
           "security-hub"
         ],
-        "commit": "e900818db716ef9de87cce83f802848f081b17df",
-        "checkedAt": "2026-10-02T00:27:43.963Z",
+        "commit": "cffc6c450729646e77a00d4f0aad313c703a467c",
+        "checkedAt": "2026-10-02T07:41:25.145Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -262216,30 +262216,6 @@
           "package-manager",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "btey/omarchy-security-hub-plugin",
-        "pluginIds": [
-          "security-hub"
-        ],
-        "commit": "e900818db716ef9de87cce83f802848f081b17df",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T00:27:43.963Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "installer",
-          "package-manager",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-01T22:05:05.700Z",
-        "requestEventId": 32298194868,
-        "requestedAt": "2026-10-02T00:02:19Z",
-        "reviewedAt": "2026-10-02T00:27:43.963Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "security-hub": {
@@ -262255,7 +262231,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "btey/omarchy-security-hub-plugin",
+        "pluginIds": [
+          "security-hub"
+        ],
+        "commit": "cffc6c450729646e77a00d4f0aad313c703a467c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T07:41:25.145Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T04:20:24.900Z",
+        "requestEventId": 32315853778,
+        "requestedAt": "2026-10-02T07:13:11Z",
+        "reviewedAt": "2026-10-02T07:41:25.145Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e900818db716ef9de87cce83f802848f081b17df",
+          "validatedAt": "2026-10-02T00:27:44.030Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T07:41:25.145Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "btey/omarchy-security-hub-plugin",
+            "pluginIds": [
+              "security-hub"
+            ],
+            "commit": "e900818db716ef9de87cce83f802848f081b17df",
+            "checkedAt": "2026-10-02T00:27:43.963Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer",
+              "package-manager",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "btey/omarchy-security-hub-plugin",
+            "pluginIds": [
+              "security-hub"
+            ],
+            "commit": "e900818db716ef9de87cce83f802848f081b17df",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T00:27:43.963Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer",
+              "package-manager",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T22:05:05.700Z",
+            "requestEventId": 32298194868,
+            "requestedAt": "2026-10-02T00:02:19Z",
+            "reviewedAt": "2026-10-02T00:27:43.963Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/syndicalt/omarchy-hot-apps",
