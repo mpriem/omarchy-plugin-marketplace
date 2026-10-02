@@ -252947,8 +252947,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T17:18:10.013Z",
-      "listingValidatedCommit": "8f44d9e657e5847fd4143ae6278abbe86c13c468",
-      "listingValidatedAt": "2026-10-01T12:19:37.927Z",
+      "listingValidatedCommit": "da0b266869ef59d765c037fa12dd76cc9a4c24f1",
+      "listingValidatedAt": "2026-10-02T15:01:55.090Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -252957,8 +252957,8 @@
         "pluginIds": [
           "io.github.mehrshadfb.ttc-departures"
         ],
-        "commit": "8f44d9e657e5847fd4143ae6278abbe86c13c468",
-        "checkedAt": "2026-10-01T12:19:37.927Z",
+        "commit": "da0b266869ef59d765c037fa12dd76cc9a4c24f1",
+        "checkedAt": "2026-10-02T15:01:55.089Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -253022,6 +253022,26 @@
             "requestedAt": "2026-09-28T17:15:27Z",
             "reviewedAt": "2026-09-28T17:18:09.896Z",
             "reviewer": "HANCORE-linux"
+          }
+        },
+        {
+          "commit": "8f44d9e657e5847fd4143ae6278abbe86c13c468",
+          "validatedAt": "2026-10-01T12:19:37.927Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T15:01:55.090Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mehrshadfb/omarchy-ttc-departures",
+            "pluginIds": [
+              "io.github.mehrshadfb.ttc-departures"
+            ],
+            "commit": "8f44d9e657e5847fd4143ae6278abbe86c13c468",
+            "checkedAt": "2026-10-01T12:19:37.927Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
           }
         }
       ]
