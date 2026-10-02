@@ -162899,8 +162899,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T23:31:25.744Z",
-      "listingValidatedCommit": "2c02a8210780bf503e2d96fafe8e7df0ced753a1",
-      "listingValidatedAt": "2026-09-13T13:22:35.579Z",
+      "listingValidatedCommit": "10f74a0b35ff9d0df5551808c836dbbec519f73b",
+      "listingValidatedAt": "2026-10-02T12:37:51.823Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -162909,8 +162909,8 @@
         "pluginIds": [
           "jmartin.hypertile"
         ],
-        "commit": "2c02a8210780bf503e2d96fafe8e7df0ced753a1",
-        "checkedAt": "2026-09-13T13:22:35.578Z",
+        "commit": "10f74a0b35ff9d0df5551808c836dbbec519f73b",
+        "checkedAt": "2026-10-02T12:37:51.823Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -163015,6 +163015,49 @@
             "reviewedAt": "2026-09-11T15:26:37.058Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "2c02a8210780bf503e2d96fafe8e7df0ced753a1",
+          "validatedAt": "2026-09-13T13:22:35.579Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T12:37:51.823Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jdvmi00/hypertile",
+            "pluginIds": [
+              "jmartin.hypertile"
+            ],
+            "commit": "2c02a8210780bf503e2d96fafe8e7df0ced753a1",
+            "checkedAt": "2026-09-13T13:22:35.578Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "jdvmi00/hypertile",
+            "pluginIds": [
+              "jmartin.hypertile"
+            ],
+            "commit": "2c02a8210780bf503e2d96fafe8e7df0ced753a1",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-13T13:22:35.578Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-12T19:03:23.628Z",
+            "requestEventId": 31053033238,
+            "requestedAt": "2026-09-13T13:18:03Z",
+            "reviewedAt": "2026-09-13T13:22:35.579Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -163023,19 +163066,19 @@
         "pluginIds": [
           "jmartin.hypertile"
         ],
-        "commit": "2c02a8210780bf503e2d96fafe8e7df0ced753a1",
+        "commit": "10f74a0b35ff9d0df5551808c836dbbec519f73b",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-13T13:22:35.578Z",
+        "baselineCheckedAt": "2026-10-02T12:37:51.823Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-09-12T19:03:23.628Z",
-        "requestEventId": 31053033238,
-        "requestedAt": "2026-09-13T13:18:03Z",
-        "reviewedAt": "2026-09-13T13:22:35.579Z",
+        "reviewedBaselineCheckedAt": "2026-09-21T01:23:26.381Z",
+        "requestEventId": 32331705636,
+        "requestedAt": "2026-10-02T12:01:58Z",
+        "reviewedAt": "2026-10-02T12:37:51.823Z",
         "reviewer": "HANCORE-linux"
       }
     },
