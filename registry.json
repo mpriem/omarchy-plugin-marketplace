@@ -268427,6 +268427,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/lavrinovich86/omarchy-agy-token-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T09:44:32.330Z",
+      "listingValidatedCommit": "76d0ce94c3110500ba652eaa219482012eeea9ea",
+      "listingValidatedAt": "2026-10-02T09:44:32.330Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lavrinovich86/omarchy-agy-token-usage",
+        "pluginIds": [
+          "agy.token-usage"
+        ],
+        "commit": "76d0ce94c3110500ba652eaa219482012eeea9ea",
+        "checkedAt": "2026-10-02T09:44:32.210Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "agy.token-usage": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "ai",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
