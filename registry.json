@@ -2003,8 +2003,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-10",
       "listedAt": "2026-08-10T07:14:50.951Z",
-      "listingValidatedCommit": "b51fe3432e3162c910061cb053a0a8779f0c9275",
-      "listingValidatedAt": "2026-08-10T07:14:50.951Z",
+      "listingValidatedCommit": "c3f9c295b84fa2edeb4468ab1b284efbae6fca0f",
+      "listingValidatedAt": "2026-10-02T18:45:24.524Z",
       "listingValidatedBranch": "main",
       "plugins": {
         "oma.nearby": {
@@ -2019,7 +2019,29 @@
             "note": "Nearby requires a version-matched native helper. Follow the upstream installation instructions to install the plugin and helper together."
           }
         }
-      }
+      },
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jfg96/omarchy-nearby",
+        "pluginIds": [
+          "oma.nearby"
+        ],
+        "commit": "c3f9c295b84fa2edeb4468ab1b284efbae6fca0f",
+        "checkedAt": "2026-10-02T18:45:24.524Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "b51fe3432e3162c910061cb053a0a8779f0c9275",
+          "validatedAt": "2026-08-10T07:14:50.951Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T18:45:24.524Z"
+        }
+      ]
     },
     {
       "repo": "https://github.com/sepehr500/omarchy-openrouter-usage",
