@@ -251520,8 +251520,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-29",
       "listedAt": "2026-09-29T01:58:27.393Z",
-      "listingValidatedCommit": "f00f6b1941aa91737f846ca86f2f89aa8e81073f",
-      "listingValidatedAt": "2026-09-29T01:58:27.393Z",
+      "listingValidatedCommit": "6dca6ee3621e34c476d5cd8b9406994ec4efff0f",
+      "listingValidatedAt": "2026-10-02T09:06:13.982Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -251530,35 +251530,14 @@
         "pluginIds": [
           "io.github.heinsk.devops-monitor"
         ],
-        "commit": "f00f6b1941aa91737f846ca86f2f89aa8e81073f",
-        "checkedAt": "2026-09-29T01:58:27.286Z",
+        "commit": "6dca6ee3621e34c476d5cd8b9406994ec4efff0f",
+        "checkedAt": "2026-10-02T09:06:13.982Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "heinsk/omarchy-devops-monitor",
-        "pluginIds": [
-          "io.github.heinsk.devops-monitor"
-        ],
-        "commit": "f00f6b1941aa91737f846ca86f2f89aa8e81073f",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-29T01:58:27.286Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-29T01:52:03.341Z",
-        "requestEventId": 32043069191,
-        "requestedAt": "2026-09-29T01:56:12Z",
-        "reviewedAt": "2026-09-29T01:58:27.286Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.heinsk.devops-monitor": {
@@ -251572,7 +251551,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "heinsk/omarchy-devops-monitor",
+        "pluginIds": [
+          "io.github.heinsk.devops-monitor"
+        ],
+        "commit": "6dca6ee3621e34c476d5cd8b9406994ec4efff0f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T09:06:13.982Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T23:50:35.117Z",
+        "requestEventId": 32321789381,
+        "requestedAt": "2026-10-02T09:03:08Z",
+        "reviewedAt": "2026-10-02T09:06:13.982Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f00f6b1941aa91737f846ca86f2f89aa8e81073f",
+          "validatedAt": "2026-09-29T01:58:27.393Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T09:06:13.982Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "heinsk/omarchy-devops-monitor",
+            "pluginIds": [
+              "io.github.heinsk.devops-monitor"
+            ],
+            "commit": "f00f6b1941aa91737f846ca86f2f89aa8e81073f",
+            "checkedAt": "2026-09-29T01:58:27.286Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "heinsk/omarchy-devops-monitor",
+            "pluginIds": [
+              "io.github.heinsk.devops-monitor"
+            ],
+            "commit": "f00f6b1941aa91737f846ca86f2f89aa8e81073f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-29T01:58:27.286Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-29T01:52:03.341Z",
+            "requestEventId": 32043069191,
+            "requestedAt": "2026-09-29T01:56:12Z",
+            "reviewedAt": "2026-09-29T01:58:27.286Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/joega/a-weather-app",
