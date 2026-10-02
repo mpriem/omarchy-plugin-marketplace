@@ -261039,6 +261039,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/vladkarok/omabump",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T00:07:34.929Z",
+      "listingValidatedCommit": "2d0960638bbe449aed054d82e68e85b132bf2ce7",
+      "listingValidatedAt": "2026-10-02T00:07:34.929Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "vladkarok/omabump",
+        "pluginIds": [
+          "io.github.vladkarok.omabump"
+        ],
+        "commit": "2d0960638bbe449aed054d82e68e85b132bf2ce7",
+        "checkedAt": "2026-10-02T00:07:34.833Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "vladkarok/omabump",
+        "pluginIds": [
+          "io.github.vladkarok.omabump"
+        ],
+        "commit": "2d0960638bbe449aed054d82e68e85b132bf2ce7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T00:07:34.833Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T19:36:15.502Z",
+        "requestEventId": 32297625740,
+        "requestedAt": "2026-10-01T23:48:20Z",
+        "reviewedAt": "2026-10-02T00:07:34.833Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.vladkarok.omabump": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
