@@ -158268,8 +158268,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T17:05:34.356Z",
-      "listingValidatedCommit": "6034841676d672ded8d62d806498dbfc04afeee2",
-      "listingValidatedAt": "2026-09-17T07:00:48.776Z",
+      "listingValidatedCommit": "d4b72e505814eed53246472cbb74d3321dbefde5",
+      "listingValidatedAt": "2026-10-02T10:39:55.610Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -158278,8 +158278,8 @@
         "pluginIds": [
           "jam.grace-window"
         ],
-        "commit": "6034841676d672ded8d62d806498dbfc04afeee2",
-        "checkedAt": "2026-09-17T07:00:48.776Z",
+        "commit": "d4b72e505814eed53246472cbb74d3321dbefde5",
+        "checkedAt": "2026-10-02T10:39:55.610Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -158396,6 +158396,26 @@
             ],
             "commit": "3a6ab8d4e316b31a4c50267a3368d0a371300896",
             "checkedAt": "2026-09-13T15:42:07.974Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "6034841676d672ded8d62d806498dbfc04afeee2",
+          "validatedAt": "2026-09-17T07:00:48.776Z",
+          "branch": "master",
+          "supersededAt": "2026-10-02T10:39:55.610Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jan-berberich/omarchy-grace-window",
+            "pluginIds": [
+              "jam.grace-window"
+            ],
+            "commit": "6034841676d672ded8d62d806498dbfc04afeee2",
+            "checkedAt": "2026-09-17T07:00:48.776Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
