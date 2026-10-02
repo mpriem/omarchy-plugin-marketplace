@@ -268372,6 +268372,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Sebasgl23/omarchy-ytmusic",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T09:41:28.974Z",
+      "listingValidatedCommit": "e80a0c2fdd552f794b7714850099cf49b11d3db9",
+      "listingValidatedAt": "2026-10-02T09:41:28.974Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sebasgl23/omarchy-ytmusic",
+        "pluginIds": [
+          "sebasgl23.ytmusic"
+        ],
+        "commit": "e80a0c2fdd552f794b7714850099cf49b11d3db9",
+        "checkedAt": "2026-10-02T09:41:28.859Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "sebasgl23/omarchy-ytmusic",
+        "pluginIds": [
+          "sebasgl23.ytmusic"
+        ],
+        "commit": "e80a0c2fdd552f794b7714850099cf49b11d3db9",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T09:41:28.859Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T09:25:46.441Z",
+        "requestEventId": 32323725958,
+        "requestedAt": "2026-10-02T09:35:48Z",
+        "reviewedAt": "2026-10-02T09:41:28.859Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "sebasgl23.ytmusic": {
+          "category": "Widgets",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
