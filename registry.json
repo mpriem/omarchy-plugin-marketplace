@@ -268175,6 +268175,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mjasnikovs/omarchy-breaktime",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T09:27:31.520Z",
+      "listingValidatedCommit": "403a1dd272d71c6f04d86995ddabe90ab9e5e1e3",
+      "listingValidatedAt": "2026-10-02T09:27:31.520Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mjasnikovs/omarchy-breaktime",
+        "pluginIds": [
+          "mjasnikovs.breaktime"
+        ],
+        "commit": "403a1dd272d71c6f04d86995ddabe90ab9e5e1e3",
+        "checkedAt": "2026-10-02T09:27:31.383Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mjasnikovs/omarchy-breaktime",
+        "pluginIds": [
+          "mjasnikovs.breaktime"
+        ],
+        "commit": "403a1dd272d71c6f04d86995ddabe90ab9e5e1e3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T09:27:31.383Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T06:58:18.463Z",
+        "requestEventId": 32323039627,
+        "requestedAt": "2026-10-02T09:24:41Z",
+        "reviewedAt": "2026-10-02T09:27:31.383Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "mjasnikovs.breaktime": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
