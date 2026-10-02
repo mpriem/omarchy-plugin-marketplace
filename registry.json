@@ -268684,6 +268684,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/sumdahl/omarchy-plugin-menu",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T10:05:01.950Z",
+      "listingValidatedCommit": "a2b3ae1311e02f05b55b7da4d539a15565191faa",
+      "listingValidatedAt": "2026-10-02T10:05:01.950Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sumdahl/omarchy-plugin-menu",
+        "pluginIds": [
+          "io.github.sumdahl.menu"
+        ],
+        "commit": "a2b3ae1311e02f05b55b7da4d539a15565191faa",
+        "checkedAt": "2026-10-02T10:05:01.871Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.sumdahl.menu": {
+          "category": "Desktop",
+          "tags": [
+            "quickshell",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [

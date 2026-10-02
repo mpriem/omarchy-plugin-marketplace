@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T10:02:53.648Z",
+  "generatedAt": "2026-10-02T10:05:02.382Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -260466,6 +260466,55 @@
       "upstreamValidatedAt": "2026-10-02T09:59:39.596Z",
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "1324367f0268e42dcfad51c5cc5638d1ca18ed0b60e9babd21e0efedf724ef07",
+      "status": "Available"
+    },
+    {
+      "id": "io.github.sumdahl.menu",
+      "name": "Menu (Escape unwinds)",
+      "description": "Omarchy menu fork where Escape backs out one level instead of closing the whole menu.",
+      "author": "Sumiran Dahal",
+      "version": "1.0.3",
+      "repo": "https://github.com/sumdahl/omarchy-plugin-menu",
+      "sourceType": "community",
+      "verificationStatus": "verified",
+      "verificationSnapshotStatus": "verified",
+      "verificationCoverage": "snapshot-verified",
+      "verificationBaselineVersion": "3",
+      "verificationCommit": "a2b3ae1311e02f05b55b7da4d539a15565191faa",
+      "verificationCheckedAt": "2026-10-02T10:05:01.871Z",
+      "manifestPath": "manifest.json",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T10:05:01.950Z",
+      "repositoryLayout": "root-plugin",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/sumdahl/omarchy-plugin-menu.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
+      "category": "Desktop",
+      "tags": [
+        "quickshell",
+        "launcher"
+      ],
+      "license": "MIT",
+      "stars": 0,
+      "repositoryUpdatedAt": "2026-08-25T03:55:06Z",
+      "repositoryRelease": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/sumdahl/omarchy-plugin-menu/tree/v1.0.0"
+      },
+      "accent": "coral",
+      "initials": "M(",
+      "kind": "Bar widget",
+      "listingValidatedCommit": "a2b3ae1311e02f05b55b7da4d539a15565191faa",
+      "listingValidatedAt": "2026-10-02T10:05:01.950Z",
+      "listingValidatedBranch": "main",
+      "upstreamObservedCommit": "a2b3ae1311e02f05b55b7da4d539a15565191faa",
+      "upstreamObservedBranch": "main",
+      "upstreamCheckedAt": "2026-10-02T10:05:02.382Z",
+      "upstreamCheckStatus": "passed",
+      "upstreamValidatedCommit": "a2b3ae1311e02f05b55b7da4d539a15565191faa",
+      "upstreamValidatedAt": "2026-10-02T10:05:02.382Z",
+      "upstreamValidationVersion": 1,
+      "upstreamSourceFingerprint": "eef2b4f0e6eb3571e4c339ff49835e37ca4aaaf79be5bdfdfe4f41e21016396b",
       "status": "Available"
     },
     {
