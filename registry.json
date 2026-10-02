@@ -264244,6 +264244,62 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/itcaat/omarchy-easy-calendar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T03:15:38.766Z",
+      "listingValidatedCommit": "a18d5b4edba0da859bbe79c6ef7cc16a7d44fb22",
+      "listingValidatedAt": "2026-10-02T03:15:38.766Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "itcaat/omarchy-easy-calendar",
+        "pluginIds": [
+          "itcaat.easy-calendar"
+        ],
+        "commit": "a18d5b4edba0da859bbe79c6ef7cc16a7d44fb22",
+        "checkedAt": "2026-10-02T03:15:38.653Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "itcaat/omarchy-easy-calendar",
+        "pluginIds": [
+          "itcaat.easy-calendar"
+        ],
+        "commit": "a18d5b4edba0da859bbe79c6ef7cc16a7d44fb22",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T03:15:38.653Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T02:43:57.819Z",
+        "requestEventId": 32305056815,
+        "requestedAt": "2026-10-02T02:46:02Z",
+        "reviewedAt": "2026-10-02T03:15:38.653Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "itcaat.easy-calendar": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
