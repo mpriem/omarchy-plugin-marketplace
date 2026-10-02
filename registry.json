@@ -161405,8 +161405,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T23:28:44.480Z",
-      "listingValidatedCommit": "b6d0d107882bf9e4a9506dade2f69a66f5bfa268",
-      "listingValidatedAt": "2026-09-08T23:28:44.480Z",
+      "listingValidatedCommit": "c3537142ce92bf374304914ae28f001d5d306add",
+      "listingValidatedAt": "2026-10-02T00:10:21.453Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -161415,8 +161415,8 @@
         "pluginIds": [
           "io.github.dreed47.session-restore"
         ],
-        "commit": "b6d0d107882bf9e4a9506dade2f69a66f5bfa268",
-        "checkedAt": "2026-09-08T23:28:44.437Z",
+        "commit": "c3537142ce92bf374304914ae28f001d5d306add",
+        "checkedAt": "2026-10-02T00:10:21.453Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -161424,28 +161424,6 @@
           "package-manager",
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "dreed47/omarchy-session-restore",
-        "pluginIds": [
-          "io.github.dreed47.session-restore"
-        ],
-        "commit": "b6d0d107882bf9e4a9506dade2f69a66f5bfa268",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-08T23:28:44.437Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-06T18:48:33.063Z",
-        "requestEventId": 30791006033,
-        "requestedAt": "2026-09-08T23:26:25Z",
-        "reviewedAt": "2026-09-08T23:28:44.437Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.dreed47.session-restore": {
@@ -161457,7 +161435,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dreed47/omarchy-session-restore",
+        "pluginIds": [
+          "io.github.dreed47.session-restore"
+        ],
+        "commit": "c3537142ce92bf374304914ae28f001d5d306add",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T00:10:21.453Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-23T00:05:08.281Z",
+        "requestEventId": 32297640278,
+        "requestedAt": "2026-10-01T23:48:40Z",
+        "reviewedAt": "2026-10-02T00:10:21.453Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "b6d0d107882bf9e4a9506dade2f69a66f5bfa268",
+          "validatedAt": "2026-09-08T23:28:44.480Z",
+          "branch": "master",
+          "supersededAt": "2026-10-02T00:10:21.453Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dreed47/omarchy-session-restore",
+            "pluginIds": [
+              "io.github.dreed47.session-restore"
+            ],
+            "commit": "b6d0d107882bf9e4a9506dade2f69a66f5bfa268",
+            "checkedAt": "2026-09-08T23:28:44.437Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "dreed47/omarchy-session-restore",
+            "pluginIds": [
+              "io.github.dreed47.session-restore"
+            ],
+            "commit": "b6d0d107882bf9e4a9506dade2f69a66f5bfa268",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-08T23:28:44.437Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-06T18:48:33.063Z",
+            "requestEventId": 30791006033,
+            "requestedAt": "2026-09-08T23:26:25Z",
+            "reviewedAt": "2026-09-08T23:28:44.437Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jdvmi00/hypertile",
