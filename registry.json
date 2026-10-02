@@ -192135,8 +192135,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T19:13:33.079Z",
-      "listingValidatedCommit": "bccc71ba44dced827c9eced7e85dfe8e22bfda53",
-      "listingValidatedAt": "2026-09-16T19:13:33.079Z",
+      "listingValidatedCommit": "188e3e6bb77c74279a4a3155910c6618d624189a",
+      "listingValidatedAt": "2026-10-02T09:21:05.050Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -192145,8 +192145,8 @@
         "pluginIds": [
           "mero.layout-label"
         ],
-        "commit": "bccc71ba44dced827c9eced7e85dfe8e22bfda53",
-        "checkedAt": "2026-09-16T19:13:32.990Z",
+        "commit": "188e3e6bb77c74279a4a3155910c6618d624189a",
+        "checkedAt": "2026-10-02T09:21:05.050Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -192162,7 +192162,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "bccc71ba44dced827c9eced7e85dfe8e22bfda53",
+          "validatedAt": "2026-09-16T19:13:33.079Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T09:21:05.050Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mero245/layout-label",
+            "pluginIds": [
+              "mero.layout-label"
+            ],
+            "commit": "bccc71ba44dced827c9eced7e85dfe8e22bfda53",
+            "checkedAt": "2026-09-16T19:13:32.990Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/LosokosG/omarchy-window-gallery",
