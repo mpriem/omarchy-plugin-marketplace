@@ -248001,8 +248001,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T23:22:01.605Z",
-      "listingValidatedCommit": "48cd246a4f7c30a0d016283186c49db7f657499f",
-      "listingValidatedAt": "2026-10-01T12:42:55.416Z",
+      "listingValidatedCommit": "2862b66db9141ac94c0da207bef7e49d24371d1e",
+      "listingValidatedAt": "2026-10-02T14:34:29.622Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -248011,8 +248011,8 @@
         "pluginIds": [
           "omyphone"
         ],
-        "commit": "48cd246a4f7c30a0d016283186c49db7f657499f",
-        "checkedAt": "2026-10-01T12:42:55.415Z",
+        "commit": "2862b66db9141ac94c0da207bef7e49d24371d1e",
+        "checkedAt": "2026-10-02T14:34:29.621Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -248044,6 +248044,26 @@
             ],
             "commit": "503419d1fc9ecb685f05a2fc8e04568f05efe684",
             "checkedAt": "2026-09-27T23:22:01.484Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "48cd246a4f7c30a0d016283186c49db7f657499f",
+          "validatedAt": "2026-10-01T12:42:55.416Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T14:34:29.622Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "boyidzham/omyphone",
+            "pluginIds": [
+              "omyphone"
+            ],
+            "commit": "48cd246a4f7c30a0d016283186c49db7f657499f",
+            "checkedAt": "2026-10-01T12:42:55.415Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
