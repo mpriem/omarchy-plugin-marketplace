@@ -266148,6 +266148,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/deandesign/omalaunchschedule",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T06:22:18.373Z",
+      "listingValidatedCommit": "617b574dfbbf419b142c83e76e7bb54cd1632586",
+      "listingValidatedAt": "2026-10-02T06:22:18.373Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "deandesign/omalaunchschedule",
+        "pluginIds": [
+          "io.github.deandesign.launch-schedule"
+        ],
+        "commit": "617b574dfbbf419b142c83e76e7bb54cd1632586",
+        "checkedAt": "2026-10-02T06:22:18.278Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "deandesign/omalaunchschedule",
+        "pluginIds": [
+          "io.github.deandesign.launch-schedule"
+        ],
+        "commit": "617b574dfbbf419b142c83e76e7bb54cd1632586",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T06:22:18.278Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T06:07:18.447Z",
+        "requestEventId": 32313316615,
+        "requestedAt": "2026-10-02T06:17:57Z",
+        "reviewedAt": "2026-10-02T06:22:18.278Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.deandesign.launch-schedule": {
+          "category": "Widgets",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
