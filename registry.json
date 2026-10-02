@@ -193365,18 +193365,18 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T20:08:59.149Z",
-      "listingValidatedCommit": "3e1967a6a4bba1d4b33b5925a07f0c2a95abccfd",
-      "listingValidatedAt": "2026-09-16T20:08:59.149Z",
+      "listingValidatedCommit": "c9b4b8c0ee26ba2d4dff627c71c569e5b7eb9669",
+      "listingValidatedAt": "2026-10-02T10:29:16.550Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
         "version": "3",
-        "repository": "javihuh/recurring-schedule-omarchy",
+        "repository": "javihuh/niku-calendar-omarchy",
         "pluginIds": [
           "io.github.javihuh.schedule"
         ],
-        "commit": "3e1967a6a4bba1d4b33b5925a07f0c2a95abccfd",
-        "checkedAt": "2026-09-16T20:08:59.068Z",
+        "commit": "c9b4b8c0ee26ba2d4dff627c71c569e5b7eb9669",
+        "checkedAt": "2026-10-02T10:29:16.550Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -193392,7 +193392,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3e1967a6a4bba1d4b33b5925a07f0c2a95abccfd",
+          "validatedAt": "2026-09-16T20:08:59.149Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T10:29:16.550Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "javihuh/recurring-schedule-omarchy",
+            "pluginIds": [
+              "io.github.javihuh.schedule"
+            ],
+            "commit": "3e1967a6a4bba1d4b33b5925a07f0c2a95abccfd",
+            "checkedAt": "2026-09-16T20:08:59.068Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ryenski/omarchy-taildrop",
