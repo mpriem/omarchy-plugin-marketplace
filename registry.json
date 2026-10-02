@@ -266354,6 +266354,61 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/victorhsb/omarchy-github-pr-status",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T06:37:04.138Z",
+      "listingValidatedCommit": "8fd508d1f36a871caa6061883640c09c5b1e0249",
+      "listingValidatedAt": "2026-10-02T06:37:04.138Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "victorhsb/omarchy-github-pr-status",
+        "pluginIds": [
+          "torugo.github-pr-status"
+        ],
+        "commit": "8fd508d1f36a871caa6061883640c09c5b1e0249",
+        "checkedAt": "2026-10-02T06:37:04.064Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "victorhsb/omarchy-github-pr-status",
+        "pluginIds": [
+          "torugo.github-pr-status"
+        ],
+        "commit": "8fd508d1f36a871caa6061883640c09c5b1e0249",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T06:37:04.064Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T06:26:31.994Z",
+        "requestEventId": 32313764082,
+        "requestedAt": "2026-10-02T06:28:09Z",
+        "reviewedAt": "2026-10-02T06:37:04.064Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "torugo.github-pr-status": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
