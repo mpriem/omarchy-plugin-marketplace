@@ -255468,8 +255468,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-30",
       "listedAt": "2026-09-30T18:23:21.072Z",
-      "listingValidatedCommit": "0e3085fa62c2879ba4c51e24323ee5ce6a69b3ec",
-      "listingValidatedAt": "2026-09-30T18:23:21.072Z",
+      "listingValidatedCommit": "5412484f4330c68a7296e087e6649dab66bd1a1f",
+      "listingValidatedAt": "2026-10-02T11:50:11.045Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -255478,8 +255478,8 @@
         "pluginIds": [
           "io.github.cesarfilho.bluetooth-adapter-switch"
         ],
-        "commit": "0e3085fa62c2879ba4c51e24323ee5ce6a69b3ec",
-        "checkedAt": "2026-09-30T18:23:20.947Z",
+        "commit": "5412484f4330c68a7296e087e6649dab66bd1a1f",
+        "checkedAt": "2026-10-02T11:50:11.044Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -255494,7 +255494,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0e3085fa62c2879ba4c51e24323ee5ce6a69b3ec",
+          "validatedAt": "2026-09-30T18:23:21.072Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T11:50:11.045Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "cesarfilho/omarchy-bluetooth-adapter-switch",
+            "pluginIds": [
+              "io.github.cesarfilho.bluetooth-adapter-switch"
+            ],
+            "commit": "0e3085fa62c2879ba4c51e24323ee5ce6a69b3ec",
+            "checkedAt": "2026-09-30T18:23:20.947Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dfrost90/omarchy-cpp-daily",
