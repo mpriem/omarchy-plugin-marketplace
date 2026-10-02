@@ -248393,8 +248393,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T21:58:32.358Z",
-      "listingValidatedCommit": "5fafb8f9d74eae3e165f527c9e79ae7fb9d5b817",
-      "listingValidatedAt": "2026-09-27T21:58:32.358Z",
+      "listingValidatedCommit": "dd17c7706a0d40d0f575c14c313e1ed287f406ec",
+      "listingValidatedAt": "2026-10-02T18:04:45.954Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -248403,8 +248403,8 @@
         "pluginIds": [
           "io.github.fasi96.liquid-glass"
         ],
-        "commit": "5fafb8f9d74eae3e165f527c9e79ae7fb9d5b817",
-        "checkedAt": "2026-09-27T21:58:32.250Z",
+        "commit": "dd17c7706a0d40d0f575c14c313e1ed287f406ec",
+        "checkedAt": "2026-10-02T18:04:45.954Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -248414,30 +248414,6 @@
           "privilege",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "fasi96/omarchy-liquid-glass",
-        "pluginIds": [
-          "io.github.fasi96.liquid-glass"
-        ],
-        "commit": "5fafb8f9d74eae3e165f527c9e79ae7fb9d5b817",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T21:58:32.250Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer",
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-27T20:05:14.795Z",
-        "requestEventId": 31948623268,
-        "requestedAt": "2026-09-27T21:41:11Z",
-        "reviewedAt": "2026-09-27T21:58:32.250Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.fasi96.liquid-glass": {
@@ -248452,7 +248428,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "fasi96/omarchy-liquid-glass",
+        "pluginIds": [
+          "io.github.fasi96.liquid-glass"
+        ],
+        "commit": "dd17c7706a0d40d0f575c14c313e1ed287f406ec",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T18:04:45.954Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T07:13:44.174Z",
+        "requestEventId": 32352496082,
+        "requestedAt": "2026-10-02T17:21:58Z",
+        "reviewedAt": "2026-10-02T18:04:45.954Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5fafb8f9d74eae3e165f527c9e79ae7fb9d5b817",
+          "validatedAt": "2026-09-27T21:58:32.358Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T18:04:45.954Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "fasi96/omarchy-liquid-glass",
+            "pluginIds": [
+              "io.github.fasi96.liquid-glass"
+            ],
+            "commit": "5fafb8f9d74eae3e165f527c9e79ae7fb9d5b817",
+            "checkedAt": "2026-09-27T21:58:32.250Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer",
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "fasi96/omarchy-liquid-glass",
+            "pluginIds": [
+              "io.github.fasi96.liquid-glass"
+            ],
+            "commit": "5fafb8f9d74eae3e165f527c9e79ae7fb9d5b817",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T21:58:32.250Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer",
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-27T20:05:14.795Z",
+            "requestEventId": 31948623268,
+            "requestedAt": "2026-09-27T21:41:11Z",
+            "reviewedAt": "2026-09-27T21:58:32.250Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ylaung-uod/omarchy-rdp-plugin",
