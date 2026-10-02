@@ -272741,6 +272741,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/johnloringpollard/reword",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T16:47:18.198Z",
+      "listingValidatedCommit": "462e8ea3a8fbe12f49f65a210bd8cdf10c2cd796",
+      "listingValidatedAt": "2026-10-02T16:47:18.198Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "johnloringpollard/reword",
+        "pluginIds": [
+          "io.github.johnloringpollard.rewerd"
+        ],
+        "commit": "462e8ea3a8fbe12f49f65a210bd8cdf10c2cd796",
+        "checkedAt": "2026-10-02T16:47:18.074Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.johnloringpollard.rewerd": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
