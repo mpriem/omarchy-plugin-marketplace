@@ -204271,8 +204271,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-19",
       "listedAt": "2026-09-19T13:08:22.309Z",
-      "listingValidatedCommit": "2ba45fbec22d3b1a290bfda6e64d31377883bfde",
-      "listingValidatedAt": "2026-09-19T13:08:22.309Z",
+      "listingValidatedCommit": "4963274bd9cbcde0d82c5fc0cfb91f5eace20427",
+      "listingValidatedAt": "2026-10-02T11:47:09.642Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -204281,8 +204281,8 @@
         "pluginIds": [
           "omarchy-focus-gate"
         ],
-        "commit": "2ba45fbec22d3b1a290bfda6e64d31377883bfde",
-        "checkedAt": "2026-09-19T13:08:22.214Z",
+        "commit": "4963274bd9cbcde0d82c5fc0cfb91f5eace20427",
+        "checkedAt": "2026-10-02T11:47:09.642Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -204290,28 +204290,6 @@
           "installer",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "codebyvimal/omarchy-focus-gate",
-        "pluginIds": [
-          "omarchy-focus-gate"
-        ],
-        "commit": "2ba45fbec22d3b1a290bfda6e64d31377883bfde",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-19T13:08:22.214Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-18T19:46:22.029Z",
-        "requestEventId": 31445190946,
-        "requestedAt": "2026-09-19T13:03:39Z",
-        "reviewedAt": "2026-09-19T13:08:22.215Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "omarchy-focus-gate": {
@@ -204321,7 +204299,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "codebyvimal/omarchy-focus-gate",
+        "pluginIds": [
+          "omarchy-focus-gate"
+        ],
+        "commit": "4963274bd9cbcde0d82c5fc0cfb91f5eace20427",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T11:47:09.642Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-19T15:42:38.834Z",
+        "requestEventId": 32328281224,
+        "requestedAt": "2026-10-02T11:00:07Z",
+        "reviewedAt": "2026-10-02T11:47:09.642Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2ba45fbec22d3b1a290bfda6e64d31377883bfde",
+          "validatedAt": "2026-09-19T13:08:22.309Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T11:47:09.642Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "codebyvimal/omarchy-focus-gate",
+            "pluginIds": [
+              "omarchy-focus-gate"
+            ],
+            "commit": "2ba45fbec22d3b1a290bfda6e64d31377883bfde",
+            "checkedAt": "2026-09-19T13:08:22.214Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "codebyvimal/omarchy-focus-gate",
+            "pluginIds": [
+              "omarchy-focus-gate"
+            ],
+            "commit": "2ba45fbec22d3b1a290bfda6e64d31377883bfde",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-19T13:08:22.214Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-18T19:46:22.029Z",
+            "requestEventId": 31445190946,
+            "requestedAt": "2026-09-19T13:03:39Z",
+            "reviewedAt": "2026-09-19T13:08:22.215Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Nipeb/omarchy-shader-wallpaper",
