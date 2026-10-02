@@ -145322,8 +145322,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-06",
       "listedAt": "2026-09-06T15:08:37.275Z",
-      "listingValidatedCommit": "cf4dffdeff9a40224761cd4fa721367cf9947ada",
-      "listingValidatedAt": "2026-09-06T15:08:37.275Z",
+      "listingValidatedCommit": "35f41a8e834e720f3824b38d9cf54dbe853c9fc9",
+      "listingValidatedAt": "2026-10-02T06:56:49.186Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -145332,8 +145332,8 @@
         "pluginIds": [
           "io.github.saiaungminkhant.nothing-buds"
         ],
-        "commit": "cf4dffdeff9a40224761cd4fa721367cf9947ada",
-        "checkedAt": "2026-09-06T15:08:37.214Z",
+        "commit": "35f41a8e834e720f3824b38d9cf54dbe853c9fc9",
+        "checkedAt": "2026-10-02T06:56:49.186Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -145343,30 +145343,6 @@
           "installer",
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "saiaungminkhant/omarchy-nothing-buds",
-        "pluginIds": [
-          "io.github.saiaungminkhant.nothing-buds"
-        ],
-        "commit": "cf4dffdeff9a40224761cd4fa721367cf9947ada",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-06T15:08:37.214Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "service-management",
-          "installer",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-05T23:05:20.021Z",
-        "requestEventId": 30644317059,
-        "requestedAt": "2026-09-06T15:07:41Z",
-        "reviewedAt": "2026-09-06T15:08:37.214Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.saiaungminkhant.nothing-buds": {
@@ -145382,7 +145358,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "saiaungminkhant/omarchy-nothing-buds",
+        "pluginIds": [
+          "io.github.saiaungminkhant.nothing-buds"
+        ],
+        "commit": "35f41a8e834e720f3824b38d9cf54dbe853c9fc9",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T06:56:49.186Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "installer",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-29T06:34:03.024Z",
+        "requestEventId": 32313981149,
+        "requestedAt": "2026-10-02T06:32:57Z",
+        "reviewedAt": "2026-10-02T06:56:49.186Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "cf4dffdeff9a40224761cd4fa721367cf9947ada",
+          "validatedAt": "2026-09-06T15:08:37.275Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T06:56:49.186Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "saiaungminkhant/omarchy-nothing-buds",
+            "pluginIds": [
+              "io.github.saiaungminkhant.nothing-buds"
+            ],
+            "commit": "cf4dffdeff9a40224761cd4fa721367cf9947ada",
+            "checkedAt": "2026-09-06T15:08:37.214Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "installer",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "saiaungminkhant/omarchy-nothing-buds",
+            "pluginIds": [
+              "io.github.saiaungminkhant.nothing-buds"
+            ],
+            "commit": "cf4dffdeff9a40224761cd4fa721367cf9947ada",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-06T15:08:37.214Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "installer",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-05T23:05:20.021Z",
+            "requestEventId": 30644317059,
+            "requestedAt": "2026-09-06T15:07:41Z",
+            "reviewedAt": "2026-09-06T15:08:37.214Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/hehh2001/omarchy-tailscale-plus",
