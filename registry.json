@@ -268631,6 +268631,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Yashasewi/omarchy-trackpad-input-controls",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T09:59:38.851Z",
+      "listingValidatedCommit": "d34cc51fc1334758240a2425958c97a6a4937b29",
+      "listingValidatedAt": "2026-10-02T09:59:38.851Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yashasewi/omarchy-trackpad-input-controls",
+        "pluginIds": [
+          "io.github.yashasewi.trackpad-input-controls"
+        ],
+        "commit": "d34cc51fc1334758240a2425958c97a6a4937b29",
+        "checkedAt": "2026-10-02T09:59:38.722Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yashasewi/omarchy-trackpad-input-controls",
+        "pluginIds": [
+          "io.github.yashasewi.trackpad-input-controls"
+        ],
+        "commit": "d34cc51fc1334758240a2425958c97a6a4937b29",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T09:59:38.722Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T09:26:40.546Z",
+        "requestEventId": 32323796298,
+        "requestedAt": "2026-10-02T09:37:03Z",
+        "reviewedAt": "2026-10-02T09:59:38.722Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.yashasewi.trackpad-input-controls": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
