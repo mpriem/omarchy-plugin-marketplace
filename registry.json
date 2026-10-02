@@ -206914,8 +206914,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-20",
       "listedAt": "2026-09-20T00:24:28.485Z",
-      "listingValidatedCommit": "f5824ee9a1a6ae8178f69afb2b4a122d3cd65994",
-      "listingValidatedAt": "2026-09-20T00:24:28.485Z",
+      "listingValidatedCommit": "c7368f118c37c0a4cf798c7cf52865b8fcbace6a",
+      "listingValidatedAt": "2026-10-02T14:09:43.715Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -206924,8 +206924,8 @@
         "pluginIds": [
           "ozz1ee.hermbot"
         ],
-        "commit": "f5824ee9a1a6ae8178f69afb2b4a122d3cd65994",
-        "checkedAt": "2026-09-20T00:24:28.395Z",
+        "commit": "c7368f118c37c0a4cf798c7cf52865b8fcbace6a",
+        "checkedAt": "2026-10-02T14:09:43.715Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -206941,7 +206941,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f5824ee9a1a6ae8178f69afb2b4a122d3cd65994",
+          "validatedAt": "2026-09-20T00:24:28.485Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T14:09:43.715Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ozz1ee-dev/omarchy-hermbot",
+            "pluginIds": [
+              "ozz1ee.hermbot"
+            ],
+            "commit": "f5824ee9a1a6ae8178f69afb2b4a122d3cd65994",
+            "checkedAt": "2026-09-20T00:24:28.395Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/bethropolis/omarchy-kcd-plugin",
