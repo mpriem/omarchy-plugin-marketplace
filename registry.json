@@ -277318,6 +277318,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/magosoptimistprime/omarchy-mouse-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T23:45:13.886Z",
+      "listingValidatedCommit": "16971a8cff331b1496b360dc89ee2b31fea8f922",
+      "listingValidatedAt": "2026-10-02T23:45:13.886Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "magosoptimistprime/omarchy-mouse-plugin",
+        "pluginIds": [
+          "optimistprime.mouse"
+        ],
+        "commit": "16971a8cff331b1496b360dc89ee2b31fea8f922",
+        "checkedAt": "2026-10-02T23:45:13.757Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "magosoptimistprime/omarchy-mouse-plugin",
+        "pluginIds": [
+          "optimistprime.mouse"
+        ],
+        "commit": "16971a8cff331b1496b360dc89ee2b31fea8f922",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T23:45:13.757Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T23:33:59.042Z",
+        "requestEventId": 32372879907,
+        "requestedAt": "2026-10-02T23:41:41Z",
+        "reviewedAt": "2026-10-02T23:45:13.757Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "optimistprime.mouse": {
+          "category": "Widgets",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
