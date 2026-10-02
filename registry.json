@@ -3764,6 +3764,43 @@
             "system"
           ]
         }
+      },
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kamal-v8/omasot",
+        "pluginIds": [
+          "omasot"
+        ],
+        "commit": "562b9163240af48134cf32a25fa18a3fe0d0d8ee",
+        "checkedAt": "2026-10-02T16:57:06.982Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kamal-v8/omasot",
+        "pluginIds": [
+          "omasot"
+        ],
+        "commit": "562b9163240af48134cf32a25fa18a3fe0d0d8ee",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T16:57:06.982Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T15:39:53.167Z",
+        "requestEventId": 32349276082,
+        "requestedAt": "2026-10-02T16:28:45Z",
+        "reviewedAt": "2026-10-02T16:57:06.983Z",
+        "reviewer": "HANCORE-linux"
       }
     },
     {
