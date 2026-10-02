@@ -196758,8 +196758,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-17",
       "listedAt": "2026-09-17T14:40:41.379Z",
-      "listingValidatedCommit": "f46d2b4f4b5e8eb7776c3eea6684a8c91352d5c3",
-      "listingValidatedAt": "2026-09-23T07:19:25.503Z",
+      "listingValidatedCommit": "26944cdcdae88adea7203df42d9d279dc273d6f9",
+      "listingValidatedAt": "2026-10-02T12:31:36.016Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -196768,8 +196768,8 @@
         "pluginIds": [
           "karamble.omabudget"
         ],
-        "commit": "f46d2b4f4b5e8eb7776c3eea6684a8c91352d5c3",
-        "checkedAt": "2026-09-23T07:19:25.503Z",
+        "commit": "26944cdcdae88adea7203df42d9d279dc273d6f9",
+        "checkedAt": "2026-10-02T12:31:36.016Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -196853,6 +196853,26 @@
             "requestedAt": "2026-09-20T16:01:44Z",
             "reviewedAt": "2026-09-20T16:03:32.700Z",
             "reviewer": "HANCORE-linux"
+          }
+        },
+        {
+          "commit": "f46d2b4f4b5e8eb7776c3eea6684a8c91352d5c3",
+          "validatedAt": "2026-09-23T07:19:25.503Z",
+          "branch": "master",
+          "supersededAt": "2026-10-02T12:31:36.016Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "karamble/omarchy-omabudget",
+            "pluginIds": [
+              "karamble.omabudget"
+            ],
+            "commit": "f46d2b4f4b5e8eb7776c3eea6684a8c91352d5c3",
+            "checkedAt": "2026-09-23T07:19:25.503Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
           }
         }
       ]
