@@ -263348,6 +263348,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/corrreia/omarchy-speaker-mode",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T02:23:27.804Z",
+      "listingValidatedCommit": "2b4d2c1e1e4b7a18a555508c3cd7a0e108764ac4",
+      "listingValidatedAt": "2026-10-02T02:23:27.804Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "corrreia/omarchy-speaker-mode",
+        "pluginIds": [
+          "io.github.corrreia.speaker"
+        ],
+        "commit": "2b4d2c1e1e4b7a18a555508c3cd7a0e108764ac4",
+        "checkedAt": "2026-10-02T02:23:27.681Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "corrreia/omarchy-speaker-mode",
+        "pluginIds": [
+          "io.github.corrreia.speaker"
+        ],
+        "commit": "2b4d2c1e1e4b7a18a555508c3cd7a0e108764ac4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T02:23:27.681Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T01:51:43.550Z",
+        "requestEventId": 32302835136,
+        "requestedAt": "2026-10-02T01:53:12Z",
+        "reviewedAt": "2026-10-02T02:23:27.681Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.corrreia.speaker": {
+          "category": "Other",
+          "tags": [
+            "media",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
