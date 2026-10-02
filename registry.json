@@ -261907,6 +261907,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ozdil/omarchy-omablock",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T01:03:50.539Z",
+      "listingValidatedCommit": "43710b2daf4a8914056a5013077e0c2f8535744c",
+      "listingValidatedAt": "2026-10-02T01:03:50.539Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ozdil/omarchy-omablock",
+        "pluginIds": [
+          "ozdil.omablock"
+        ],
+        "commit": "43710b2daf4a8914056a5013077e0c2f8535744c",
+        "checkedAt": "2026-10-02T01:03:50.421Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ozdil/omarchy-omablock",
+        "pluginIds": [
+          "ozdil.omablock"
+        ],
+        "commit": "43710b2daf4a8914056a5013077e0c2f8535744c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T01:03:50.421Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T00:33:38.937Z",
+        "requestEventId": 32299595358,
+        "requestedAt": "2026-10-02T00:35:48Z",
+        "reviewedAt": "2026-10-02T01:03:50.421Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ozdil.omablock": {
+          "category": "System",
+          "tags": [
+            "security",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
