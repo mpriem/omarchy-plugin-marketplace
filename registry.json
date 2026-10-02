@@ -260882,6 +260882,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Hazem-Ahmed-Salem/omarchy-power-display",
+      "type": "plugin-source",
+      "addedAt": "2026-10-01",
+      "listedAt": "2026-10-01T23:58:39.830Z",
+      "listingValidatedCommit": "ab7a5ed7ee9800ce76c3917ea0a4232845014313",
+      "listingValidatedAt": "2026-10-01T23:58:39.830Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hazem-ahmed-salem/omarchy-power-display",
+        "pluginIds": [
+          "hazem.power"
+        ],
+        "commit": "ab7a5ed7ee9800ce76c3917ea0a4232845014313",
+        "checkedAt": "2026-10-01T23:58:39.713Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hazem-ahmed-salem/omarchy-power-display",
+        "pluginIds": [
+          "hazem.power"
+        ],
+        "commit": "ab7a5ed7ee9800ce76c3917ea0a4232845014313",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-01T23:58:39.713Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T19:22:02.740Z",
+        "requestEventId": 32297266512,
+        "requestedAt": "2026-10-01T23:39:46Z",
+        "reviewedAt": "2026-10-01T23:58:39.713Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "hazem.power": {
+          "category": "Hardware",
+          "tags": [
+            "power-management",
+            "bar",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
