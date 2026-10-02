@@ -186945,8 +186945,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T00:40:16.526Z",
-      "listingValidatedCommit": "b9f2d063a8c165d4fbbd9b490a0c8b80f2018e0e",
-      "listingValidatedAt": "2026-09-16T00:40:16.526Z",
+      "listingValidatedCommit": "990962145e8ea8aae662b468bdb5827127c693df",
+      "listingValidatedAt": "2026-10-02T13:41:00.082Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -186955,8 +186955,8 @@
         "pluginIds": [
           "io.github.pablousx.omastart"
         ],
-        "commit": "b9f2d063a8c165d4fbbd9b490a0c8b80f2018e0e",
-        "checkedAt": "2026-09-16T00:40:16.467Z",
+        "commit": "990962145e8ea8aae662b468bdb5827127c693df",
+        "checkedAt": "2026-10-02T13:41:00.082Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -186964,28 +186964,6 @@
           "installer",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "pablousx/omastart",
-        "pluginIds": [
-          "io.github.pablousx.omastart"
-        ],
-        "commit": "b9f2d063a8c165d4fbbd9b490a0c8b80f2018e0e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T00:40:16.467Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-13T03:55:36.864Z",
-        "requestEventId": 31212343071,
-        "requestedAt": "2026-09-16T00:35:59Z",
-        "reviewedAt": "2026-09-16T00:40:16.467Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.pablousx.omastart": {
@@ -186997,7 +186975,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pablousx/omastart",
+        "pluginIds": [
+          "io.github.pablousx.omastart"
+        ],
+        "commit": "990962145e8ea8aae662b468bdb5827127c693df",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T13:41:00.082Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T03:55:38.686Z",
+        "requestEventId": 32335542583,
+        "requestedAt": "2026-10-02T13:04:25Z",
+        "reviewedAt": "2026-10-02T13:41:00.082Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "b9f2d063a8c165d4fbbd9b490a0c8b80f2018e0e",
+          "validatedAt": "2026-09-16T00:40:16.526Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T13:41:00.082Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "pablousx/omastart",
+            "pluginIds": [
+              "io.github.pablousx.omastart"
+            ],
+            "commit": "b9f2d063a8c165d4fbbd9b490a0c8b80f2018e0e",
+            "checkedAt": "2026-09-16T00:40:16.467Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "pablousx/omastart",
+            "pluginIds": [
+              "io.github.pablousx.omastart"
+            ],
+            "commit": "b9f2d063a8c165d4fbbd9b490a0c8b80f2018e0e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T00:40:16.467Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-13T03:55:36.864Z",
+            "requestEventId": 31212343071,
+            "requestedAt": "2026-09-16T00:35:59Z",
+            "reviewedAt": "2026-09-16T00:40:16.467Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ninepointlabs/omarchy-fastmail-calendar",
