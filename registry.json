@@ -262931,6 +262931,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/supercleanse/omarchy-teamclaude",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T01:59:24.632Z",
+      "listingValidatedCommit": "540dcd8baf935bdb03cb79235ea6f18ecd8a70a3",
+      "listingValidatedAt": "2026-10-02T01:59:24.632Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "supercleanse/omarchy-teamclaude",
+        "pluginIds": [
+          "supercleanse.agents"
+        ],
+        "commit": "540dcd8baf935bdb03cb79235ea6f18ecd8a70a3",
+        "checkedAt": "2026-10-02T01:59:24.516Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "supercleanse/omarchy-teamclaude",
+        "pluginIds": [
+          "supercleanse.agents"
+        ],
+        "commit": "540dcd8baf935bdb03cb79235ea6f18ecd8a70a3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T01:59:24.516Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T01:32:07.560Z",
+        "requestEventId": 32301978059,
+        "requestedAt": "2026-10-02T01:33:51Z",
+        "reviewedAt": "2026-10-02T01:59:24.517Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "supercleanse.agents": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
