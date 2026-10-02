@@ -264300,6 +264300,72 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/brightwalker25/omarchy-battery-limit",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T03:18:46.579Z",
+      "listingValidatedCommit": "74cf2c73dca7a072028a7408f31e55c14a39cb36",
+      "listingValidatedAt": "2026-10-02T03:18:46.579Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "brightwalker25/omarchy-battery-limit",
+        "pluginIds": [
+          "brightwalker25.battery-limit"
+        ],
+        "commit": "74cf2c73dca7a072028a7408f31e55c14a39cb36",
+        "checkedAt": "2026-10-02T03:18:46.460Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "remote-build",
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "brightwalker25/omarchy-battery-limit",
+        "pluginIds": [
+          "brightwalker25.battery-limit"
+        ],
+        "commit": "74cf2c73dca7a072028a7408f31e55c14a39cb36",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T03:18:46.460Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "remote-build",
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T02:49:33.686Z",
+        "requestEventId": 32305243414,
+        "requestedAt": "2026-10-02T02:50:41Z",
+        "reviewedAt": "2026-10-02T03:18:46.460Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "brightwalker25.battery-limit": {
+          "category": "Hardware",
+          "tags": [
+            "power-management",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
