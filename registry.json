@@ -275943,6 +275943,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/gameticharles/omnidisplay",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T21:24:14.304Z",
+      "listingValidatedCommit": "079fd592550a451d4e88e79929586ad4c4f35a17",
+      "listingValidatedAt": "2026-10-02T21:24:14.304Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gameticharles/omnidisplay",
+        "pluginIds": [
+          "omnidisplay"
+        ],
+        "commit": "079fd592550a451d4e88e79929586ad4c4f35a17",
+        "checkedAt": "2026-10-02T21:24:14.182Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gameticharles/omnidisplay",
+        "pluginIds": [
+          "omnidisplay"
+        ],
+        "commit": "079fd592550a451d4e88e79929586ad4c4f35a17",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T21:24:14.182Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T21:19:16.788Z",
+        "requestEventId": 32366483720,
+        "requestedAt": "2026-10-02T21:21:23Z",
+        "reviewedAt": "2026-10-02T21:24:14.183Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omnidisplay": {
+          "category": "System",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
