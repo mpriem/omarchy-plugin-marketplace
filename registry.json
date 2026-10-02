@@ -265401,6 +265401,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/AbdulrahmanHR/omarchy-typesuggest",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T04:30:09.317Z",
+      "listingValidatedCommit": "ab801a2f76648d15fb2c737a58f58380cc3be748",
+      "listingValidatedAt": "2026-10-02T04:30:09.317Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "abdulrahmanhr/omarchy-typesuggest",
+        "pluginIds": [
+          "io.github.abdulrahmanhr.typesuggest"
+        ],
+        "commit": "ab801a2f76648d15fb2c737a58f58380cc3be748",
+        "checkedAt": "2026-10-02T04:30:09.218Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "abdulrahmanhr/omarchy-typesuggest",
+        "pluginIds": [
+          "io.github.abdulrahmanhr.typesuggest"
+        ],
+        "commit": "ab801a2f76648d15fb2c737a58f58380cc3be748",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T04:30:09.218Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T04:16:09.093Z",
+        "requestEventId": 32309032058,
+        "requestedAt": "2026-10-02T04:29:43Z",
+        "reviewedAt": "2026-10-02T04:30:09.218Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.abdulrahmanhr.typesuggest": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
