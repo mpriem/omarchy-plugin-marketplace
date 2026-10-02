@@ -160308,8 +160308,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T19:47:40.599Z",
-      "listingValidatedCommit": "d97fe94062d620daa20f8f32778f4579c359f36b",
-      "listingValidatedAt": "2026-09-16T08:32:42.049Z",
+      "listingValidatedCommit": "dafdb91f1c64687ca2c3037b5ebfbb62e53c0440",
+      "listingValidatedAt": "2026-10-02T10:07:34.592Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -160318,8 +160318,8 @@
         "pluginIds": [
           "hadijaveed.omareel"
         ],
-        "commit": "d97fe94062d620daa20f8f32778f4579c359f36b",
-        "checkedAt": "2026-09-16T08:32:42.049Z",
+        "commit": "dafdb91f1c64687ca2c3037b5ebfbb62e53c0440",
+        "checkedAt": "2026-10-02T10:07:34.592Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -160338,28 +160338,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "hadijaveed/omareel",
-        "pluginIds": [
-          "hadijaveed.omareel"
-        ],
-        "commit": "d97fe94062d620daa20f8f32778f4579c359f36b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T08:32:42.049Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-12T00:28:10.927Z",
-        "requestEventId": 31231004647,
-        "requestedAt": "2026-09-16T08:31:08Z",
-        "reviewedAt": "2026-09-16T08:32:42.049Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -160406,8 +160384,75 @@
             "reviewedAt": "2026-09-08T19:47:40.518Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "d97fe94062d620daa20f8f32778f4579c359f36b",
+          "validatedAt": "2026-09-16T08:32:42.049Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T10:07:34.592Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "hadijaveed/omareel",
+            "pluginIds": [
+              "hadijaveed.omareel"
+            ],
+            "commit": "d97fe94062d620daa20f8f32778f4579c359f36b",
+            "checkedAt": "2026-09-16T08:32:42.049Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "hadijaveed/omareel",
+            "pluginIds": [
+              "hadijaveed.omareel"
+            ],
+            "commit": "d97fe94062d620daa20f8f32778f4579c359f36b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T08:32:42.049Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-12T00:28:10.927Z",
+            "requestEventId": 31231004647,
+            "requestedAt": "2026-09-16T08:31:08Z",
+            "reviewedAt": "2026-09-16T08:32:42.049Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hadijaveed/omareel",
+        "pluginIds": [
+          "hadijaveed.omareel"
+        ],
+        "commit": "dafdb91f1c64687ca2c3037b5ebfbb62e53c0440",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T10:07:34.592Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-25T03:08:23.305Z",
+        "requestEventId": 32323950909,
+        "requestedAt": "2026-10-02T09:39:55Z",
+        "reviewedAt": "2026-10-02T10:07:34.592Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/jcputney/omarchy-media-float-youtube",
