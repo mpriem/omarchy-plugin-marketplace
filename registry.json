@@ -203523,8 +203523,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-18",
       "listedAt": "2026-09-18T20:37:45.968Z",
-      "listingValidatedCommit": "13499bcb30df7c72466322e0a42231a4bdcb840f",
-      "listingValidatedAt": "2026-09-18T20:37:45.968Z",
+      "listingValidatedCommit": "44a40bb403618497d32129aad708a09a8cdceef5",
+      "listingValidatedAt": "2026-10-02T19:18:13.485Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -203533,8 +203533,8 @@
         "pluginIds": [
           "emkcloud.wallpaper-manager"
         ],
-        "commit": "13499bcb30df7c72466322e0a42231a4bdcb840f",
-        "checkedAt": "2026-09-18T20:37:45.915Z",
+        "commit": "44a40bb403618497d32129aad708a09a8cdceef5",
+        "checkedAt": "2026-10-02T19:18:13.485Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -203550,7 +203550,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "13499bcb30df7c72466322e0a42231a4bdcb840f",
+          "validatedAt": "2026-09-18T20:37:45.968Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T19:18:13.485Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "emkcloud/omarchy-wallpapers-plugin",
+            "pluginIds": [
+              "emkcloud.wallpaper-manager"
+            ],
+            "commit": "13499bcb30df7c72466322e0a42231a4bdcb840f",
+            "checkedAt": "2026-09-18T20:37:45.915Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/komagata/OmaText",
