@@ -261001,6 +261001,44 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/pablohc/omarchy-dropbox-plus",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T00:04:30.463Z",
+      "listingValidatedCommit": "55528933cf2b91dd055052af7c6738bc1cae2b83",
+      "listingValidatedAt": "2026-10-02T00:04:30.463Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pablohc/omarchy-dropbox-plus",
+        "pluginIds": [
+          "pablohc.dropbox"
+        ],
+        "commit": "55528933cf2b91dd055052af7c6738bc1cae2b83",
+        "checkedAt": "2026-10-02T00:04:30.343Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "pablohc.dropbox": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
