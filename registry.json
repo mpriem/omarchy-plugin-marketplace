@@ -253428,8 +253428,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T15:16:02.237Z",
-      "listingValidatedCommit": "5420d23695535007dc0e279d00602fb069fa0582",
-      "listingValidatedAt": "2026-09-28T15:16:02.237Z",
+      "listingValidatedCommit": "ec853ac6052396888489c9ee14889fee606ff54d",
+      "listingValidatedAt": "2026-10-02T19:06:33.123Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -253438,8 +253438,8 @@
         "pluginIds": [
           "nic.youtube-music"
         ],
-        "commit": "5420d23695535007dc0e279d00602fb069fa0582",
-        "checkedAt": "2026-09-28T15:16:02.145Z",
+        "commit": "ec853ac6052396888489c9ee14889fee606ff54d",
+        "checkedAt": "2026-10-02T19:06:33.123Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -253447,28 +253447,6 @@
           "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "nicolasfalesy/omarchy-youtube-music",
-        "pluginIds": [
-          "nic.youtube-music"
-        ],
-        "commit": "5420d23695535007dc0e279d00602fb069fa0582",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-28T15:16:02.145Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-28T15:12:43.460Z",
-        "requestEventId": 32004431953,
-        "requestedAt": "2026-09-28T15:14:11Z",
-        "reviewedAt": "2026-09-28T15:16:02.145Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "nic.youtube-music": {
@@ -253484,7 +253462,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nicolasfalesy/omarchy-youtube-music",
+        "pluginIds": [
+          "nic.youtube-music"
+        ],
+        "commit": "ec853ac6052396888489c9ee14889fee606ff54d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T19:06:33.123Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T17:24:30.499Z",
+        "requestEventId": 32356840765,
+        "requestedAt": "2026-10-02T18:34:11Z",
+        "reviewedAt": "2026-10-02T19:06:33.123Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5420d23695535007dc0e279d00602fb069fa0582",
+          "validatedAt": "2026-09-28T15:16:02.237Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T19:06:33.123Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nicolasfalesy/omarchy-youtube-music",
+            "pluginIds": [
+              "nic.youtube-music"
+            ],
+            "commit": "5420d23695535007dc0e279d00602fb069fa0582",
+            "checkedAt": "2026-09-28T15:16:02.145Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "nicolasfalesy/omarchy-youtube-music",
+            "pluginIds": [
+              "nic.youtube-music"
+            ],
+            "commit": "5420d23695535007dc0e279d00602fb069fa0582",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-28T15:16:02.145Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-28T15:12:43.460Z",
+            "requestEventId": 32004431953,
+            "requestedAt": "2026-09-28T15:14:11Z",
+            "reviewedAt": "2026-09-28T15:16:02.145Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/sud0n1m/omarchy-foot-pedal",
