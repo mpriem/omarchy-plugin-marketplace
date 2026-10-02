@@ -266677,8 +266677,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T23:16:03.364Z",
-      "listingValidatedCommit": "c431face21375cae9b0329fbdbfb1b1803308228",
-      "listingValidatedAt": "2026-10-02T18:22:19.598Z",
+      "listingValidatedCommit": "383776f5afa85b87877882916a8c1e103e4f20f5",
+      "listingValidatedAt": "2026-10-02T20:42:40.895Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -266687,8 +266687,8 @@
         "pluginIds": [
           "r4venward.wallpaper-video"
         ],
-        "commit": "c431face21375cae9b0329fbdbfb1b1803308228",
-        "checkedAt": "2026-10-02T18:22:19.598Z",
+        "commit": "383776f5afa85b87877882916a8c1e103e4f20f5",
+        "checkedAt": "2026-10-02T20:42:40.895Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -266712,29 +266712,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "tylefnx/omarchy-animated-wallpaper",
-        "pluginIds": [
-          "r4venward.wallpaper-video"
-        ],
-        "commit": "c431face21375cae9b0329fbdbfb1b1803308228",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T18:22:19.598Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T17:22:11.138Z",
-        "requestEventId": 32353299068,
-        "requestedAt": "2026-10-02T17:35:14Z",
-        "reviewedAt": "2026-10-02T18:22:19.598Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -266783,8 +266760,78 @@
             "reviewedAt": "2026-10-01T23:16:03.246Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "c431face21375cae9b0329fbdbfb1b1803308228",
+          "validatedAt": "2026-10-02T18:22:19.598Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T20:42:40.895Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tylefnx/omarchy-animated-wallpaper",
+            "pluginIds": [
+              "r4venward.wallpaper-video"
+            ],
+            "commit": "c431face21375cae9b0329fbdbfb1b1803308228",
+            "checkedAt": "2026-10-02T18:22:19.598Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "tylefnx/omarchy-animated-wallpaper",
+            "pluginIds": [
+              "r4venward.wallpaper-video"
+            ],
+            "commit": "c431face21375cae9b0329fbdbfb1b1803308228",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T18:22:19.598Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T17:22:11.138Z",
+            "requestEventId": 32353299068,
+            "requestedAt": "2026-10-02T17:35:14Z",
+            "reviewedAt": "2026-10-02T18:22:19.598Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tylefnx/omarchy-animated-wallpaper",
+        "pluginIds": [
+          "r4venward.wallpaper-video"
+        ],
+        "commit": "383776f5afa85b87877882916a8c1e103e4f20f5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T20:42:40.895Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T20:08:24.733Z",
+        "requestEventId": 32364173382,
+        "requestedAt": "2026-10-02T20:39:11Z",
+        "reviewedAt": "2026-10-02T20:42:40.895Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Darkosxl/omarchy-cursor-usage",
