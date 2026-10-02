@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T05:47:43.610Z",
+  "generatedAt": "2026-10-02T05:50:32.361Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -258857,6 +258857,55 @@
       "upstreamValidatedAt": "2026-10-02T05:47:43.610Z",
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "95aa0b318151985c8d151281fac3e3ccf961857c80fad851e9c07378a9452da4",
+      "status": "Available"
+    },
+    {
+      "id": "nick.quick-settings",
+      "name": "Quick Settings",
+      "description": "A configurable quick settings panel for opening your installed plugin controls.",
+      "author": "Nick Stone",
+      "version": "1.0.1",
+      "repo": "https://github.com/nickpstone/omarchy-quick-settings-plugin",
+      "sourceType": "community",
+      "verificationStatus": "verified",
+      "verificationSnapshotStatus": "verified",
+      "verificationCoverage": "snapshot-verified",
+      "verificationBaselineVersion": "3",
+      "verificationCommit": "22216004f7ff61c2985128bc201eb6ec8cdc73ce",
+      "verificationCheckedAt": "2026-10-02T05:50:31.666Z",
+      "manifestPath": "manifest.json",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T05:50:31.791Z",
+      "repositoryLayout": "root-plugin",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/nickpstone/omarchy-quick-settings-plugin.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
+      "category": "Appearance",
+      "tags": [
+        "system"
+      ],
+      "license": "MIT",
+      "stars": 0,
+      "repositoryUpdatedAt": "2026-10-02T05:43:48Z",
+      "repositoryRelease": {
+        "tag": "v1.0.1",
+        "url": "https://github.com/nickpstone/omarchy-quick-settings-plugin/releases/tag/v1.0.1",
+        "publishedAt": "2026-10-02T05:21:40Z"
+      },
+      "accent": "violet",
+      "initials": "QS",
+      "kind": "Bar widget",
+      "listingValidatedCommit": "22216004f7ff61c2985128bc201eb6ec8cdc73ce",
+      "listingValidatedAt": "2026-10-02T05:50:31.791Z",
+      "listingValidatedBranch": "main",
+      "upstreamObservedCommit": "22216004f7ff61c2985128bc201eb6ec8cdc73ce",
+      "upstreamObservedBranch": "main",
+      "upstreamCheckedAt": "2026-10-02T05:50:32.361Z",
+      "upstreamCheckStatus": "passed",
+      "upstreamValidatedCommit": "22216004f7ff61c2985128bc201eb6ec8cdc73ce",
+      "upstreamValidatedAt": "2026-10-02T05:50:32.361Z",
+      "upstreamValidationVersion": 1,
+      "upstreamSourceFingerprint": "2f3172da9b12d1a939aba4626f25caad94e0738d2dcf2be965e3496dd542f026",
       "status": "Available"
     },
     {

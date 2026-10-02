@@ -265822,6 +265822,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nickpstone/omarchy-quick-settings-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T05:50:31.791Z",
+      "listingValidatedCommit": "22216004f7ff61c2985128bc201eb6ec8cdc73ce",
+      "listingValidatedAt": "2026-10-02T05:50:31.791Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nickpstone/omarchy-quick-settings-plugin",
+        "pluginIds": [
+          "nick.quick-settings"
+        ],
+        "commit": "22216004f7ff61c2985128bc201eb6ec8cdc73ce",
+        "checkedAt": "2026-10-02T05:50:31.666Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "nick.quick-settings": {
+          "category": "Appearance",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
