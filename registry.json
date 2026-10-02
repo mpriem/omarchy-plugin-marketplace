@@ -86166,8 +86166,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-27",
       "listedAt": "2026-08-27T14:31:13.219Z",
-      "listingValidatedCommit": "e6885ba33ead7385b193460d68086c3ddaa4020e",
-      "listingValidatedAt": "2026-09-11T06:48:15.889Z",
+      "listingValidatedCommit": "de1f9e3652e1e85958827b2f43fc8e84ac62f31b",
+      "listingValidatedAt": "2026-10-02T18:01:55.345Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -86176,8 +86176,8 @@
         "pluginIds": [
           "justnak.charge-cap"
         ],
-        "commit": "e6885ba33ead7385b193460d68086c3ddaa4020e",
-        "checkedAt": "2026-09-11T06:48:15.889Z",
+        "commit": "de1f9e3652e1e85958827b2f43fc8e84ac62f31b",
+        "checkedAt": "2026-10-02T18:01:55.345Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -86195,27 +86195,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "justnak/charge-cap",
-        "pluginIds": [
-          "justnak.charge-cap"
-        ],
-        "commit": "e6885ba33ead7385b193460d68086c3ddaa4020e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-11T06:48:15.889Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-08T07:26:37.053Z",
-        "requestEventId": 30953474897,
-        "requestedAt": "2026-09-11T06:33:18Z",
-        "reviewedAt": "2026-09-11T06:48:15.889Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -86260,8 +86239,72 @@
             "reviewedAt": "2026-08-27T14:31:13.184Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "e6885ba33ead7385b193460d68086c3ddaa4020e",
+          "validatedAt": "2026-09-11T06:48:15.889Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T18:01:55.345Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "justnak/charge-cap",
+            "pluginIds": [
+              "justnak.charge-cap"
+            ],
+            "commit": "e6885ba33ead7385b193460d68086c3ddaa4020e",
+            "checkedAt": "2026-09-11T06:48:15.889Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "justnak/charge-cap",
+            "pluginIds": [
+              "justnak.charge-cap"
+            ],
+            "commit": "e6885ba33ead7385b193460d68086c3ddaa4020e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-11T06:48:15.889Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-08T07:26:37.053Z",
+            "requestEventId": 30953474897,
+            "requestedAt": "2026-09-11T06:33:18Z",
+            "reviewedAt": "2026-09-11T06:48:15.889Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "justnak/charge-cap",
+        "pluginIds": [
+          "justnak.charge-cap"
+        ],
+        "commit": "de1f9e3652e1e85958827b2f43fc8e84ac62f31b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T18:01:55.345Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T11:42:30.807Z",
+        "requestEventId": 32352277478,
+        "requestedAt": "2026-10-02T17:18:23Z",
+        "reviewedAt": "2026-10-02T18:01:55.345Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/novuon/omarchy_tableau",
