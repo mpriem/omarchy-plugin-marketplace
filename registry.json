@@ -267767,6 +267767,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Esegnorelli/omarchy-privacy-pulse",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T08:21:20.931Z",
+      "listingValidatedCommit": "46b8095f1e8f68886c995f069ecd275c9701d7e2",
+      "listingValidatedAt": "2026-10-02T08:21:20.931Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "esegnorelli/omarchy-privacy-pulse",
+        "pluginIds": [
+          "esegnorelli.privacy-pulse"
+        ],
+        "commit": "46b8095f1e8f68886c995f069ecd275c9701d7e2",
+        "checkedAt": "2026-10-02T08:21:20.810Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "esegnorelli.privacy-pulse": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "security",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
