@@ -263528,6 +263528,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/alanfrigo/omarchy-openlogi",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T02:32:22.789Z",
+      "listingValidatedCommit": "9b196cc8f8713f2be39e6d956a4fcaedfa142601",
+      "listingValidatedAt": "2026-10-02T02:32:22.789Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alanfrigo/omarchy-openlogi",
+        "pluginIds": [
+          "alanfrigo.openlogi"
+        ],
+        "commit": "9b196cc8f8713f2be39e6d956a4fcaedfa142601",
+        "checkedAt": "2026-10-02T02:32:22.667Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alanfrigo/omarchy-openlogi",
+        "pluginIds": [
+          "alanfrigo.openlogi"
+        ],
+        "commit": "9b196cc8f8713f2be39e6d956a4fcaedfa142601",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T02:32:22.667Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T02:02:52.353Z",
+        "requestEventId": 32303376677,
+        "requestedAt": "2026-10-02T02:04:16Z",
+        "reviewedAt": "2026-10-02T02:32:22.668Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "alanfrigo.openlogi": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
