@@ -208381,8 +208381,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-20",
       "listedAt": "2026-09-20T19:46:36.684Z",
-      "listingValidatedCommit": "3e06fded42a3dd535849eefe9c8b7583e4f61fad",
-      "listingValidatedAt": "2026-09-20T19:46:36.684Z",
+      "listingValidatedCommit": "167f342c767d69f89de7f737cc824d41ff62f74d",
+      "listingValidatedAt": "2026-10-02T12:23:09.672Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -208391,35 +208391,14 @@
         "pluginIds": [
           "io.github.jxsparrou.spokenshelf"
         ],
-        "commit": "3e06fded42a3dd535849eefe9c8b7583e4f61fad",
-        "checkedAt": "2026-09-20T19:46:36.598Z",
+        "commit": "167f342c767d69f89de7f737cc824d41ff62f74d",
+        "checkedAt": "2026-10-02T12:23:09.672Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "jxsparrou/spokenshelf",
-        "pluginIds": [
-          "io.github.jxsparrou.spokenshelf"
-        ],
-        "commit": "3e06fded42a3dd535849eefe9c8b7583e4f61fad",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-20T19:46:36.598Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-20T12:06:30.813Z",
-        "requestEventId": 31490877431,
-        "requestedAt": "2026-09-20T19:41:05Z",
-        "reviewedAt": "2026-09-20T19:46:36.598Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.jxsparrou.spokenshelf": {
@@ -208431,7 +208410,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jxsparrou/spokenshelf",
+        "pluginIds": [
+          "io.github.jxsparrou.spokenshelf"
+        ],
+        "commit": "167f342c767d69f89de7f737cc824d41ff62f74d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T12:23:09.672Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T23:26:16.479Z",
+        "requestEventId": 32330662070,
+        "requestedAt": "2026-10-02T11:44:50Z",
+        "reviewedAt": "2026-10-02T12:23:09.672Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3e06fded42a3dd535849eefe9c8b7583e4f61fad",
+          "validatedAt": "2026-09-20T19:46:36.684Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T12:23:09.672Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jxsparrou/spokenshelf",
+            "pluginIds": [
+              "io.github.jxsparrou.spokenshelf"
+            ],
+            "commit": "3e06fded42a3dd535849eefe9c8b7583e4f61fad",
+            "checkedAt": "2026-09-20T19:46:36.598Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "jxsparrou/spokenshelf",
+            "pluginIds": [
+              "io.github.jxsparrou.spokenshelf"
+            ],
+            "commit": "3e06fded42a3dd535849eefe9c8b7583e4f61fad",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-20T19:46:36.598Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-20T12:06:30.813Z",
+            "requestEventId": 31490877431,
+            "requestedAt": "2026-09-20T19:41:05Z",
+            "reviewedAt": "2026-09-20T19:46:36.598Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/peterholko/omarchy-school-mode",
