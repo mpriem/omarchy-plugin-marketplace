@@ -247183,8 +247183,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T19:41:47.858Z",
-      "listingValidatedCommit": "407c624cf575d8829bc491c9448971f5926b96d7",
-      "listingValidatedAt": "2026-09-27T19:41:47.858Z",
+      "listingValidatedCommit": "6e5adf576cd127d8dbb58a68f4b80616801857e7",
+      "listingValidatedAt": "2026-10-02T14:56:22.102Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -247193,8 +247193,8 @@
         "pluginIds": [
           "jeffe747.cisco-vpn"
         ],
-        "commit": "407c624cf575d8829bc491c9448971f5926b96d7",
-        "checkedAt": "2026-09-27T19:41:47.766Z",
+        "commit": "6e5adf576cd127d8dbb58a68f4b80616801857e7",
+        "checkedAt": "2026-10-02T14:56:22.102Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -247202,28 +247202,6 @@
           "package-manager",
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "jeffe747/omarchy-cisco-vpn",
-        "pluginIds": [
-          "jeffe747.cisco-vpn"
-        ],
-        "commit": "407c624cf575d8829bc491c9448971f5926b96d7",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T19:41:47.766Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-27T19:38:00.395Z",
-        "requestEventId": 31944580518,
-        "requestedAt": "2026-09-27T19:40:00Z",
-        "reviewedAt": "2026-09-27T19:41:47.766Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "jeffe747.cisco-vpn": {
@@ -247233,7 +247211,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jeffe747/omarchy-cisco-vpn",
+        "pluginIds": [
+          "jeffe747.cisco-vpn"
+        ],
+        "commit": "6e5adf576cd127d8dbb58a68f4b80616801857e7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T14:56:22.102Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T15:57:41.769Z",
+        "requestEventId": 32340658991,
+        "requestedAt": "2026-10-02T14:19:51Z",
+        "reviewedAt": "2026-10-02T14:56:22.102Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "407c624cf575d8829bc491c9448971f5926b96d7",
+          "validatedAt": "2026-09-27T19:41:47.858Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T14:56:22.102Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jeffe747/omarchy-cisco-vpn",
+            "pluginIds": [
+              "jeffe747.cisco-vpn"
+            ],
+            "commit": "407c624cf575d8829bc491c9448971f5926b96d7",
+            "checkedAt": "2026-09-27T19:41:47.766Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "jeffe747/omarchy-cisco-vpn",
+            "pluginIds": [
+              "jeffe747.cisco-vpn"
+            ],
+            "commit": "407c624cf575d8829bc491c9448971f5926b96d7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T19:41:47.766Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-27T19:38:00.395Z",
+            "requestEventId": 31944580518,
+            "requestedAt": "2026-09-27T19:40:00Z",
+            "reviewedAt": "2026-09-27T19:41:47.766Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/woodenplastic/omarchy-information-wallpaper-overlay",
