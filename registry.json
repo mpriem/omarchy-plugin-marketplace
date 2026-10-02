@@ -260939,6 +260939,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/diddado/omarchy-tailscale-ssh",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T00:02:02.093Z",
+      "listingValidatedCommit": "aa57fce5a27bcc6ade429f620c79c80c01285414",
+      "listingValidatedAt": "2026-10-02T00:02:02.093Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "diddado/omarchy-tailscale-ssh",
+        "pluginIds": [
+          "io.github.diddado.tailscale-ssh"
+        ],
+        "commit": "aa57fce5a27bcc6ade429f620c79c80c01285414",
+        "checkedAt": "2026-10-02T00:02:02.025Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "diddado/omarchy-tailscale-ssh",
+        "pluginIds": [
+          "io.github.diddado.tailscale-ssh"
+        ],
+        "commit": "aa57fce5a27bcc6ade429f620c79c80c01285414",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T00:02:02.025Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T18:59:14.545Z",
+        "requestEventId": 32297397514,
+        "requestedAt": "2026-10-01T23:42:47Z",
+        "reviewedAt": "2026-10-02T00:02:02.025Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.diddado.tailscale-ssh": {
+          "category": "Other",
+          "tags": [
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
