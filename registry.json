@@ -274872,6 +274872,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/legibet/sing-box-bar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T19:47:08.167Z",
+      "listingValidatedCommit": "fbcf7f8a6cddf5c47e7588dc1f648df86ff9a5fb",
+      "listingValidatedAt": "2026-10-02T19:47:08.167Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "legibet/sing-box-bar",
+        "pluginIds": [
+          "io.github.legibet.sing-box-bar"
+        ],
+        "commit": "fbcf7f8a6cddf5c47e7588dc1f648df86ff9a5fb",
+        "checkedAt": "2026-10-02T19:47:08.040Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "legibet/sing-box-bar",
+        "pluginIds": [
+          "io.github.legibet.sing-box-bar"
+        ],
+        "commit": "fbcf7f8a6cddf5c47e7588dc1f648df86ff9a5fb",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T19:47:08.040Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T16:57:42.910Z",
+        "requestEventId": 32360029192,
+        "requestedAt": "2026-10-02T19:28:45Z",
+        "reviewedAt": "2026-10-02T19:47:08.040Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.legibet.sing-box-bar": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "vpn",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
