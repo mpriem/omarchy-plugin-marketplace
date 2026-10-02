@@ -261585,6 +261585,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/davidsmorais/omarchy-omagames",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T00:38:36.423Z",
+      "listingValidatedCommit": "1b84b7e832f7c9cb3208cb16a28d6992db607b14",
+      "listingValidatedAt": "2026-10-02T00:38:36.423Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "davidsmorais/omarchy-omagames",
+        "pluginIds": [
+          "david.omagames"
+        ],
+        "commit": "1b84b7e832f7c9cb3208cb16a28d6992db607b14",
+        "checkedAt": "2026-10-02T00:38:36.303Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "david.omagames": {
+          "category": "Desktop",
+          "tags": [
+            "games",
+            "launcher",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
