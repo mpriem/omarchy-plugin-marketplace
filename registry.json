@@ -210867,18 +210867,18 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T04:58:53.220Z",
-      "listingValidatedCommit": "9141c662c5854c93fbdcd36beae3a592b16607ea",
-      "listingValidatedAt": "2026-09-21T04:58:53.220Z",
+      "listingValidatedCommit": "e846989a4d2115c1dd0299b8ae961dd67736f562",
+      "listingValidatedAt": "2026-10-02T13:17:07.991Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
         "version": "3",
-        "repository": "elranu/omarchy-panorama",
+        "repository": "elranu/omarchy-vista",
         "pluginIds": [
           "ranu.panorama"
         ],
-        "commit": "9141c662c5854c93fbdcd36beae3a592b16607ea",
-        "checkedAt": "2026-09-21T04:58:53.115Z",
+        "commit": "e846989a4d2115c1dd0299b8ae961dd67736f562",
+        "checkedAt": "2026-10-02T13:17:07.991Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -210894,7 +210894,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "9141c662c5854c93fbdcd36beae3a592b16607ea",
+          "validatedAt": "2026-09-21T04:58:53.220Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T13:17:07.991Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "elranu/omarchy-panorama",
+            "pluginIds": [
+              "ranu.panorama"
+            ],
+            "commit": "9141c662c5854c93fbdcd36beae3a592b16607ea",
+            "checkedAt": "2026-09-21T04:58:53.115Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/rmcdavid/omarchy-iptv",
