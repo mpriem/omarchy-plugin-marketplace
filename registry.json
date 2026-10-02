@@ -276725,6 +276725,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/zaki2993/zakarch.prism",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T22:32:21.352Z",
+      "listingValidatedCommit": "82850c3ad9ccc5fca0ae0e25cd5b36548d30109b",
+      "listingValidatedAt": "2026-10-02T22:32:21.352Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zaki2993/zakarch.prism",
+        "pluginIds": [
+          "zakarch.prism"
+        ],
+        "commit": "82850c3ad9ccc5fca0ae0e25cd5b36548d30109b",
+        "checkedAt": "2026-10-02T22:32:21.247Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "zakarch.prism": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
