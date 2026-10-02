@@ -244266,8 +244266,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T13:23:14.068Z",
-      "listingValidatedCommit": "6dae61603dfe196f7aefdaf8ba2d8c8bf30b158c",
-      "listingValidatedAt": "2026-09-27T13:23:14.068Z",
+      "listingValidatedCommit": "92ba1c60a664852a70fa6db9b17cd7c0406a08f5",
+      "listingValidatedAt": "2026-10-02T19:22:02.807Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -244276,8 +244276,8 @@
         "pluginIds": [
           "blacksheep.airplay"
         ],
-        "commit": "6dae61603dfe196f7aefdaf8ba2d8c8bf30b158c",
-        "checkedAt": "2026-09-27T13:23:13.981Z",
+        "commit": "92ba1c60a664852a70fa6db9b17cd7c0406a08f5",
+        "checkedAt": "2026-10-02T19:22:02.807Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -244285,28 +244285,6 @@
           "service-management",
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "jonspinks/omarchy-cast",
-        "pluginIds": [
-          "blacksheep.airplay"
-        ],
-        "commit": "6dae61603dfe196f7aefdaf8ba2d8c8bf30b158c",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T13:23:13.981Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-27T12:01:53.474Z",
-        "requestEventId": 31930559795,
-        "requestedAt": "2026-09-27T12:35:33Z",
-        "reviewedAt": "2026-09-27T13:23:13.981Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "blacksheep.airplay": {
@@ -244322,7 +244300,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jonspinks/omarchy-cast",
+        "pluginIds": [
+          "blacksheep.airplay"
+        ],
+        "commit": "92ba1c60a664852a70fa6db9b17cd7c0406a08f5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T19:22:02.807Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T14:26:55.532Z",
+        "requestEventId": 32357586984,
+        "requestedAt": "2026-10-02T18:46:51Z",
+        "reviewedAt": "2026-10-02T19:22:02.807Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "6dae61603dfe196f7aefdaf8ba2d8c8bf30b158c",
+          "validatedAt": "2026-09-27T13:23:14.068Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T19:22:02.807Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jonspinks/omarchy-cast",
+            "pluginIds": [
+              "blacksheep.airplay"
+            ],
+            "commit": "6dae61603dfe196f7aefdaf8ba2d8c8bf30b158c",
+            "checkedAt": "2026-09-27T13:23:13.981Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "jonspinks/omarchy-cast",
+            "pluginIds": [
+              "blacksheep.airplay"
+            ],
+            "commit": "6dae61603dfe196f7aefdaf8ba2d8c8bf30b158c",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T13:23:13.981Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-27T12:01:53.474Z",
+            "requestEventId": 31930559795,
+            "requestedAt": "2026-09-27T12:35:33Z",
+            "reviewedAt": "2026-09-27T13:23:13.981Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jhonoryza/omarchy-deepseek-usage",
