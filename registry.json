@@ -249997,8 +249997,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T18:08:11.286Z",
-      "listingValidatedCommit": "26681556f41b90f4b99e39782ab46546093072fd",
-      "listingValidatedAt": "2026-09-28T18:08:11.286Z",
+      "listingValidatedCommit": "78bfd1c88932075ee6624bfe228d521495ae1714",
+      "listingValidatedAt": "2026-10-02T07:57:51.892Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -250007,8 +250007,8 @@
         "pluginIds": [
           "omaseek"
         ],
-        "commit": "26681556f41b90f4b99e39782ab46546093072fd",
-        "checkedAt": "2026-09-28T18:08:11.218Z",
+        "commit": "78bfd1c88932075ee6624bfe228d521495ae1714",
+        "checkedAt": "2026-10-02T07:57:51.892Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -250018,30 +250018,6 @@
           "installer",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "gold-chen-five/omaseek",
-        "pluginIds": [
-          "omaseek"
-        ],
-        "commit": "26681556f41b90f4b99e39782ab46546093072fd",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-28T18:08:11.218Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "service-management",
-          "installer",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-28T17:53:55.638Z",
-        "requestEventId": 32016325973,
-        "requestedAt": "2026-09-28T18:00:14Z",
-        "reviewedAt": "2026-09-28T18:08:11.218Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "omaseek": {
@@ -250056,7 +250032,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gold-chen-five/omaseek",
+        "pluginIds": [
+          "omaseek"
+        ],
+        "commit": "78bfd1c88932075ee6624bfe228d521495ae1714",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T07:57:51.892Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T03:15:53.789Z",
+        "requestEventId": 32316672584,
+        "requestedAt": "2026-10-02T07:29:42Z",
+        "reviewedAt": "2026-10-02T07:57:51.892Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "26681556f41b90f4b99e39782ab46546093072fd",
+          "validatedAt": "2026-09-28T18:08:11.286Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T07:57:51.892Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gold-chen-five/omaseek",
+            "pluginIds": [
+              "omaseek"
+            ],
+            "commit": "26681556f41b90f4b99e39782ab46546093072fd",
+            "checkedAt": "2026-09-28T18:08:11.218Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management",
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gold-chen-five/omaseek",
+            "pluginIds": [
+              "omaseek"
+            ],
+            "commit": "26681556f41b90f4b99e39782ab46546093072fd",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-28T18:08:11.218Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management",
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-28T17:53:55.638Z",
+            "requestEventId": 32016325973,
+            "requestedAt": "2026-09-28T18:00:14Z",
+            "reviewedAt": "2026-09-28T18:08:11.218Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/radheshpai87/omarchy-spotify-player",
