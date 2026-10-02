@@ -68938,8 +68938,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-24",
       "listedAt": "2026-08-24T22:26:53.109Z",
-      "listingValidatedCommit": "1225de0632e6dff2874deeb3f4896fe026bdd8e4",
-      "listingValidatedAt": "2026-08-25T15:57:42.523Z",
+      "listingValidatedCommit": "5bf968d3798077093c90e9eeca009e0df97393e0",
+      "listingValidatedAt": "2026-10-02T12:03:49.883Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -68948,12 +68948,14 @@
         "pluginIds": [
           "io.github.silouanwright.look-elsewhere"
         ],
-        "commit": "1225de0632e6dff2874deeb3f4896fe026bdd8e4",
-        "checkedAt": "2026-08-25T15:57:42.523Z",
-        "outcome": "passed",
+        "commit": "5bf968d3798077093c90e9eeca009e0df97393e0",
+        "checkedAt": "2026-10-02T12:03:49.883Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "installer"
+        ]
       },
       "plugins": {
         "io.github.silouanwright.look-elsewhere": {
@@ -68986,8 +68988,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "1225de0632e6dff2874deeb3f4896fe026bdd8e4",
+          "validatedAt": "2026-08-25T15:57:42.523Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T12:03:49.883Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "silouanwright/lookelsewhere",
+            "pluginIds": [
+              "io.github.silouanwright.look-elsewhere"
+            ],
+            "commit": "1225de0632e6dff2874deeb3f4896fe026bdd8e4",
+            "checkedAt": "2026-08-25T15:57:42.523Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "silouanwright/lookelsewhere",
+        "pluginIds": [
+          "io.github.silouanwright.look-elsewhere"
+        ],
+        "commit": "5bf968d3798077093c90e9eeca009e0df97393e0",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T12:03:49.883Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T06:36:31.242Z",
+        "requestEventId": 32329378704,
+        "requestedAt": "2026-10-02T11:20:56Z",
+        "reviewedAt": "2026-10-02T12:03:49.883Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/ptgamr/oma-world-clock",
