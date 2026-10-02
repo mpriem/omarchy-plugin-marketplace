@@ -263471,6 +263471,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/AlexR1712/omarchy-corsair-void",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T02:29:13.227Z",
+      "listingValidatedCommit": "6c215344c047538880b06c1a68a97917a448a1c1",
+      "listingValidatedAt": "2026-10-02T02:29:13.227Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alexr1712/omarchy-corsair-void",
+        "pluginIds": [
+          "io.github.alexr1712.corsair-void"
+        ],
+        "commit": "6c215344c047538880b06c1a68a97917a448a1c1",
+        "checkedAt": "2026-10-02T02:29:13.108Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alexr1712/omarchy-corsair-void",
+        "pluginIds": [
+          "io.github.alexr1712.corsair-void"
+        ],
+        "commit": "6c215344c047538880b06c1a68a97917a448a1c1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T02:29:13.108Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T01:57:21.726Z",
+        "requestEventId": 32303152219,
+        "requestedAt": "2026-10-02T01:59:21Z",
+        "reviewedAt": "2026-10-02T02:29:13.108Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.alexr1712.corsair-void": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "power-management",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
