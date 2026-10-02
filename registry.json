@@ -265367,6 +265367,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Dankestrick/OmaRandom",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T04:23:02.824Z",
+      "listingValidatedCommit": "fa31719e04bef0d3e9f4eb7cac1a6e6218a36015",
+      "listingValidatedAt": "2026-10-02T04:23:02.824Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dankestrick/omarandom",
+        "pluginIds": [
+          "io.github.dankestrick.omarandom"
+        ],
+        "commit": "fa31719e04bef0d3e9f4eb7cac1a6e6218a36015",
+        "checkedAt": "2026-10-02T04:23:02.701Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.dankestrick.omarandom": {
+          "category": "Other",
+          "tags": [
+            "bar",
+            "quickshell",
+            "games"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
