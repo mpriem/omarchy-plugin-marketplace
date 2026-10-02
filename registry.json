@@ -4763,8 +4763,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-13",
       "listedAt": "2026-08-13T10:27:00.283Z",
-      "listingValidatedCommit": "85bb4ffc7750daf57705bcbd62482a3784e55972",
-      "listingValidatedAt": "2026-09-26T23:16:38.489Z",
+      "listingValidatedCommit": "3df0886ec47f182664384c27c94a232137bb990b",
+      "listingValidatedAt": "2026-10-02T21:21:08.275Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -4773,8 +4773,8 @@
         "pluginIds": [
           "crmne.mpris"
         ],
-        "commit": "85bb4ffc7750daf57705bcbd62482a3784e55972",
-        "checkedAt": "2026-09-26T23:16:38.489Z",
+        "commit": "3df0886ec47f182664384c27c94a232137bb990b",
+        "checkedAt": "2026-10-02T21:21:08.275Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -4860,6 +4860,26 @@
             ],
             "commit": "fd228693f8490aef3de3328b51a7556eed650546",
             "checkedAt": "2026-09-22T20:45:11.555Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "85bb4ffc7750daf57705bcbd62482a3784e55972",
+          "validatedAt": "2026-09-26T23:16:38.489Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T21:21:08.275Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "crmne/omarchy-mpris",
+            "pluginIds": [
+              "crmne.mpris"
+            ],
+            "commit": "85bb4ffc7750daf57705bcbd62482a3784e55972",
+            "checkedAt": "2026-09-26T23:16:38.489Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
