@@ -260963,8 +260963,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T02:54:00.799Z",
-      "listingValidatedCommit": "9e5ba54f4a463757831c43031a468944df17b15b",
-      "listingValidatedAt": "2026-10-01T02:54:00.799Z",
+      "listingValidatedCommit": "a6f22a1ca35c4f06305b9cda7832aa2e107bd593",
+      "listingValidatedAt": "2026-10-02T18:35:55.821Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -260973,12 +260973,14 @@
         "pluginIds": [
           "conree.ee-calc"
         ],
-        "commit": "9e5ba54f4a463757831c43031a468944df17b15b",
-        "checkedAt": "2026-10-01T02:54:00.701Z",
-        "outcome": "passed",
+        "commit": "a6f22a1ca35c4f06305b9cda7832aa2e107bd593",
+        "checkedAt": "2026-10-02T18:35:55.821Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "bundled-executable-binary"
+        ]
       },
       "plugins": {
         "conree.ee-calc": {
@@ -260993,7 +260995,50 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "conree/omarchy-ee-calc",
+        "pluginIds": [
+          "conree.ee-calc"
+        ],
+        "commit": "a6f22a1ca35c4f06305b9cda7832aa2e107bd593",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T18:35:55.821Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T23:16:34.583Z",
+        "requestEventId": 32353969795,
+        "requestedAt": "2026-10-02T17:46:26Z",
+        "reviewedAt": "2026-10-02T18:35:55.821Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "9e5ba54f4a463757831c43031a468944df17b15b",
+          "validatedAt": "2026-10-01T02:54:00.799Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T18:35:55.821Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "conree/omarchy-ee-calc",
+            "pluginIds": [
+              "conree.ee-calc"
+            ],
+            "commit": "9e5ba54f4a463757831c43031a468944df17b15b",
+            "checkedAt": "2026-10-01T02:54:00.701Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/mateuspim/omarchy-display-reserve",
