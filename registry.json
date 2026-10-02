@@ -130460,8 +130460,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-04",
       "listedAt": "2026-09-04T13:55:29.371Z",
-      "listingValidatedCommit": "730c58b031c22b6bf20ba6970ab667bcbbcde64e",
-      "listingValidatedAt": "2026-09-04T13:55:29.371Z",
+      "listingValidatedCommit": "9898d149cff355c5aaf05db55d265610c6e9d42b",
+      "listingValidatedAt": "2026-10-02T17:15:32.161Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -130470,8 +130470,8 @@
         "pluginIds": [
           "io.github.17xande.simple-sip"
         ],
-        "commit": "730c58b031c22b6bf20ba6970ab667bcbbcde64e",
-        "checkedAt": "2026-09-04T13:55:29.308Z",
+        "commit": "9898d149cff355c5aaf05db55d265610c6e9d42b",
+        "checkedAt": "2026-10-02T17:15:32.161Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -130480,29 +130480,6 @@
           "service-management",
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "17xande/omarchy-simple-sip",
-        "pluginIds": [
-          "io.github.17xande.simple-sip"
-        ],
-        "commit": "730c58b031c22b6bf20ba6970ab667bcbbcde64e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-04T13:55:29.308Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "service-management",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-02T17:18:12.475Z",
-        "requestEventId": 30558199661,
-        "requestedAt": "2026-09-04T13:51:44Z",
-        "reviewedAt": "2026-09-04T13:55:29.308Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.17xande.simple-sip": {
@@ -130517,7 +130494,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "17xande/omarchy-simple-sip",
+        "pluginIds": [
+          "io.github.17xande.simple-sip"
+        ],
+        "commit": "9898d149cff355c5aaf05db55d265610c6e9d42b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T17:15:32.161Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T07:49:38.138Z",
+        "requestEventId": 32349948938,
+        "requestedAt": "2026-10-02T16:39:49Z",
+        "reviewedAt": "2026-10-02T17:15:32.161Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "730c58b031c22b6bf20ba6970ab667bcbbcde64e",
+          "validatedAt": "2026-09-04T13:55:29.371Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T17:15:32.161Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "17xande/omarchy-simple-sip",
+            "pluginIds": [
+              "io.github.17xande.simple-sip"
+            ],
+            "commit": "730c58b031c22b6bf20ba6970ab667bcbbcde64e",
+            "checkedAt": "2026-09-04T13:55:29.308Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "17xande/omarchy-simple-sip",
+            "pluginIds": [
+              "io.github.17xande.simple-sip"
+            ],
+            "commit": "730c58b031c22b6bf20ba6970ab667bcbbcde64e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-04T13:55:29.308Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-02T17:18:12.475Z",
+            "requestEventId": 30558199661,
+            "requestedAt": "2026-09-04T13:51:44Z",
+            "reviewedAt": "2026-09-04T13:55:29.308Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/48hoursnonstop/proton-vpn-omarchy",
