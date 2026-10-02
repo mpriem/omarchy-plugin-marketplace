@@ -268856,6 +268856,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Badr-Emil/omarchy-display-layout",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T10:17:15.078Z",
+      "listingValidatedCommit": "399e66ec31c31b552cb8cdfba8267c80a1ff2601",
+      "listingValidatedAt": "2026-10-02T10:17:15.078Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "badr-emil/omarchy-display-layout",
+        "pluginIds": [
+          "io.github.badr-emil.display-layout"
+        ],
+        "commit": "399e66ec31c31b552cb8cdfba8267c80a1ff2601",
+        "checkedAt": "2026-10-02T10:17:14.954Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.badr-emil.display-layout": {
+          "category": "System",
+          "tags": [
+            "hyprland",
+            "bar",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
