@@ -263409,6 +263409,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/lubabs770/optination",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T02:26:13.639Z",
+      "listingValidatedCommit": "1d04e1ff23e9d0ed77aa0095c08d07283124af2b",
+      "listingValidatedAt": "2026-10-02T02:26:13.639Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lubabs770/optination",
+        "pluginIds": [
+          "io.github.lubabs770.optination"
+        ],
+        "commit": "1d04e1ff23e9d0ed77aa0095c08d07283124af2b",
+        "checkedAt": "2026-10-02T02:26:13.516Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lubabs770/optination",
+        "pluginIds": [
+          "io.github.lubabs770.optination"
+        ],
+        "commit": "1d04e1ff23e9d0ed77aa0095c08d07283124af2b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T02:26:13.516Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T01:56:43.069Z",
+        "requestEventId": 32303081844,
+        "requestedAt": "2026-10-02T01:57:52Z",
+        "reviewedAt": "2026-10-02T02:26:13.517Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.lubabs770.optination": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
