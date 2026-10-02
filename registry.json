@@ -267164,6 +267164,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Creazawolf/omarchygotchi",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T07:35:39.955Z",
+      "listingValidatedCommit": "a5e343e9f7c8aa25c516535b265f62a216aa48e4",
+      "listingValidatedAt": "2026-10-02T07:35:39.955Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "creazawolf/omarchygotchi",
+        "pluginIds": [
+          "creaza.tamagotchi"
+        ],
+        "commit": "a5e343e9f7c8aa25c516535b265f62a216aa48e4",
+        "checkedAt": "2026-10-02T07:35:39.838Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "creaza.tamagotchi": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "games",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
