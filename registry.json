@@ -197354,8 +197354,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-17",
       "listedAt": "2026-09-17T14:37:05.889Z",
-      "listingValidatedCommit": "0c327f10ac9759852af0fcd6f42b54f3a8c372e0",
-      "listingValidatedAt": "2026-09-17T14:37:05.889Z",
+      "listingValidatedCommit": "dd591bd050745a6787c211c58ef4e9af040e4fa6",
+      "listingValidatedAt": "2026-10-02T14:37:41.536Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -197364,8 +197364,8 @@
         "pluginIds": [
           "io.github.dragosol.better-displays-pro"
         ],
-        "commit": "0c327f10ac9759852af0fcd6f42b54f3a8c372e0",
-        "checkedAt": "2026-09-17T14:37:05.796Z",
+        "commit": "dd591bd050745a6787c211c58ef4e9af040e4fa6",
+        "checkedAt": "2026-10-02T14:37:41.536Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -197381,7 +197381,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0c327f10ac9759852af0fcd6f42b54f3a8c372e0",
+          "validatedAt": "2026-09-17T14:37:05.889Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T14:37:41.536Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dragosol/omarchy-better-displays",
+            "pluginIds": [
+              "io.github.dragosol.better-displays-pro"
+            ],
+            "commit": "0c327f10ac9759852af0fcd6f42b54f3a8c372e0",
+            "checkedAt": "2026-09-17T14:37:05.796Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/karamble/omarchy-omabudget",
