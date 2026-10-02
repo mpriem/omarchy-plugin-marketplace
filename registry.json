@@ -192936,8 +192936,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T17:07:12.140Z",
-      "listingValidatedCommit": "3ed4d34df97aa7eaceab53176c2d4eb0e367261a",
-      "listingValidatedAt": "2026-09-16T17:07:12.140Z",
+      "listingValidatedCommit": "c1eab4ce728069363df1a0c7f99c5ac38d4ff58d",
+      "listingValidatedAt": "2026-10-02T18:52:11.274Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -192946,8 +192946,8 @@
         "pluginIds": [
           "io.github.elberacasa.omalogi"
         ],
-        "commit": "3ed4d34df97aa7eaceab53176c2d4eb0e367261a",
-        "checkedAt": "2026-09-16T17:07:12.049Z",
+        "commit": "c1eab4ce728069363df1a0c7f99c5ac38d4ff58d",
+        "checkedAt": "2026-10-02T18:52:11.274Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -192959,31 +192959,6 @@
           "installer"
         ]
       },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "elberacasa/omalogi",
-        "pluginIds": [
-          "io.github.elberacasa.omalogi"
-        ],
-        "commit": "3ed4d34df97aa7eaceab53176c2d4eb0e367261a",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T17:07:12.049Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "remote-build",
-          "service-management",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-16T00:08:26.434Z",
-        "requestEventId": 31260919798,
-        "requestedAt": "2026-09-16T16:40:54Z",
-        "reviewedAt": "2026-09-16T17:07:12.049Z",
-        "reviewer": "HANCORE-linux"
-      },
       "plugins": {
         "io.github.elberacasa.omalogi": {
           "category": "Hardware",
@@ -192994,7 +192969,85 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "elberacasa/omalogi",
+        "pluginIds": [
+          "io.github.elberacasa.omalogi"
+        ],
+        "commit": "c1eab4ce728069363df1a0c7f99c5ac38d4ff58d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T18:52:11.274Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "service-management",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T12:25:38.973Z",
+        "requestEventId": 32355522865,
+        "requestedAt": "2026-10-02T18:12:05Z",
+        "reviewedAt": "2026-10-02T18:52:11.274Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3ed4d34df97aa7eaceab53176c2d4eb0e367261a",
+          "validatedAt": "2026-09-16T17:07:12.140Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T18:52:11.274Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "elberacasa/omalogi",
+            "pluginIds": [
+              "io.github.elberacasa.omalogi"
+            ],
+            "commit": "3ed4d34df97aa7eaceab53176c2d4eb0e367261a",
+            "checkedAt": "2026-09-16T17:07:12.049Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "service-management",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "elberacasa/omalogi",
+            "pluginIds": [
+              "io.github.elberacasa.omalogi"
+            ],
+            "commit": "3ed4d34df97aa7eaceab53176c2d4eb0e367261a",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T17:07:12.049Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "service-management",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-16T00:08:26.434Z",
+            "requestEventId": 31260919798,
+            "requestedAt": "2026-09-16T16:40:54Z",
+            "reviewedAt": "2026-09-16T17:07:12.049Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/daniellopez12/just-right-weather",
