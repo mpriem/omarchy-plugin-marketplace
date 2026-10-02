@@ -210391,8 +210391,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T04:29:38.353Z",
-      "listingValidatedCommit": "eeb7444de87da7afcc8d32c9b2d63a947cf38dc7",
-      "listingValidatedAt": "2026-09-21T04:29:38.353Z",
+      "listingValidatedCommit": "c261d1df6cdf2ca0310b73e5fdc3d66931dfd102",
+      "listingValidatedAt": "2026-10-02T13:20:23.541Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -210401,35 +210401,12 @@
         "pluginIds": [
           "sarr.windowpeek"
         ],
-        "commit": "eeb7444de87da7afcc8d32c9b2d63a947cf38dc7",
-        "checkedAt": "2026-09-21T04:29:38.261Z",
-        "outcome": "review-required",
+        "commit": "c261d1df6cdf2ca0310b73e5fdc3d66931dfd102",
+        "checkedAt": "2026-10-02T13:20:23.541Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": [
-          "installer"
-        ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "sarr77/windowpeek",
-        "pluginIds": [
-          "sarr.windowpeek"
-        ],
-        "commit": "eeb7444de87da7afcc8d32c9b2d63a947cf38dc7",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-21T04:29:38.261Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-21T00:00:35.287Z",
-        "requestEventId": 31504067022,
-        "requestedAt": "2026-09-21T04:26:05Z",
-        "reviewedAt": "2026-09-21T04:29:38.261Z",
-        "reviewer": "HANCORE-linux"
+        "capabilities": []
       },
       "plugins": {
         "sarr.windowpeek": {
@@ -210441,7 +210418,52 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "eeb7444de87da7afcc8d32c9b2d63a947cf38dc7",
+          "validatedAt": "2026-09-21T04:29:38.353Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T13:20:23.541Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "sarr77/windowpeek",
+            "pluginIds": [
+              "sarr.windowpeek"
+            ],
+            "commit": "eeb7444de87da7afcc8d32c9b2d63a947cf38dc7",
+            "checkedAt": "2026-09-21T04:29:38.261Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "sarr77/windowpeek",
+            "pluginIds": [
+              "sarr.windowpeek"
+            ],
+            "commit": "eeb7444de87da7afcc8d32c9b2d63a947cf38dc7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-21T04:29:38.261Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-21T00:00:35.287Z",
+            "requestEventId": 31504067022,
+            "requestedAt": "2026-09-21T04:26:05Z",
+            "reviewedAt": "2026-09-21T04:29:38.261Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/rodrigopim/omarchy.gitname",
