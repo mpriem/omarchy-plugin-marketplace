@@ -264972,6 +264972,62 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Adam-loy/Spotify_Wheel",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T04:00:59.992Z",
+      "listingValidatedCommit": "c3852d4f020ad900da4308bb7e8038fbc525e6f9",
+      "listingValidatedAt": "2026-10-02T04:00:59.992Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "adam-loy/spotify_wheel",
+        "pluginIds": [
+          "io.github.adam-loy.spotify-wheel"
+        ],
+        "commit": "c3852d4f020ad900da4308bb7e8038fbc525e6f9",
+        "checkedAt": "2026-10-02T04:00:59.865Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "adam-loy/spotify_wheel",
+        "pluginIds": [
+          "io.github.adam-loy.spotify-wheel"
+        ],
+        "commit": "c3852d4f020ad900da4308bb7e8038fbc525e6f9",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T04:00:59.865Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T15:17:47.325Z",
+        "requestEventId": 32306819202,
+        "requestedAt": "2026-10-02T03:31:04Z",
+        "reviewedAt": "2026-10-02T04:00:59.865Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.adam-loy.spotify-wheel": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
