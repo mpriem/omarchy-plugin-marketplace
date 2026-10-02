@@ -232637,8 +232637,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-25",
       "listedAt": "2026-09-25T08:25:25.767Z",
-      "listingValidatedCommit": "b7ef12716fb5a93d55063e6af659d37a2c740cb9",
-      "listingValidatedAt": "2026-09-25T08:25:25.767Z",
+      "listingValidatedCommit": "831ec42cee27d042b5894682da561170d677d0e5",
+      "listingValidatedAt": "2026-10-02T07:02:48.352Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -232647,8 +232647,8 @@
         "pluginIds": [
           "io.github.mindows.mib-statuscheck"
         ],
-        "commit": "b7ef12716fb5a93d55063e6af659d37a2c740cb9",
-        "checkedAt": "2026-09-25T08:25:25.657Z",
+        "commit": "831ec42cee27d042b5894682da561170d677d0e5",
+        "checkedAt": "2026-10-02T07:02:48.352Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -232663,7 +232663,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "b7ef12716fb5a93d55063e6af659d37a2c740cb9",
+          "validatedAt": "2026-09-25T08:25:25.767Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T07:02:48.352Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mindows/mib-statuscheck",
+            "pluginIds": [
+              "io.github.mindows.mib-statuscheck"
+            ],
+            "commit": "b7ef12716fb5a93d55063e6af659d37a2c740cb9",
+            "checkedAt": "2026-09-25T08:25:25.657Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/alkin/omarchy-screenshare",
