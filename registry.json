@@ -269415,6 +269415,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/phillpal/omarchy-window-training-wheels",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T11:18:57.865Z",
+      "listingValidatedCommit": "1eb2eecee9f2b9677e50bedbaf08728214f9a54e",
+      "listingValidatedAt": "2026-10-02T11:18:57.865Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "phillpal/omarchy-window-training-wheels",
+        "pluginIds": [
+          "teknobu.minimize"
+        ],
+        "commit": "1eb2eecee9f2b9677e50bedbaf08728214f9a54e",
+        "checkedAt": "2026-10-02T11:18:57.745Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "phillpal/omarchy-window-training-wheels",
+        "pluginIds": [
+          "teknobu.minimize"
+        ],
+        "commit": "1eb2eecee9f2b9677e50bedbaf08728214f9a54e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T11:18:57.745Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T09:29:14.421Z",
+        "requestEventId": 32327300681,
+        "requestedAt": "2026-10-02T10:41:13Z",
+        "reviewedAt": "2026-10-02T11:18:57.745Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "teknobu.minimize": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
