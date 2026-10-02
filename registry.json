@@ -174717,8 +174717,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-12",
       "listedAt": "2026-09-12T20:29:13.884Z",
-      "listingValidatedCommit": "17c39b666ce88853602bc5099d82867eb0d6956c",
-      "listingValidatedAt": "2026-09-12T20:29:13.884Z",
+      "listingValidatedCommit": "8094739c264d4f9d7232e3a889d026665175ad28",
+      "listingValidatedAt": "2026-10-02T00:30:13.383Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -174727,8 +174727,8 @@
         "pluginIds": [
           "dorian.voice"
         ],
-        "commit": "17c39b666ce88853602bc5099d82867eb0d6956c",
-        "checkedAt": "2026-09-12T20:29:13.802Z",
+        "commit": "8094739c264d4f9d7232e3a889d026665175ad28",
+        "checkedAt": "2026-10-02T00:30:13.383Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -174739,31 +174739,6 @@
           "privilege",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "dorianorellanobbap/omarchy-jarvis",
-        "pluginIds": [
-          "dorian.voice"
-        ],
-        "commit": "17c39b666ce88853602bc5099d82867eb0d6956c",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-12T20:29:13.802Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "remote-build",
-          "installer",
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-09T05:33:54.536Z",
-        "requestEventId": 31032230547,
-        "requestedAt": "2026-09-12T20:22:19Z",
-        "reviewedAt": "2026-09-12T20:29:13.802Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "dorian.voice": {
@@ -174779,7 +174754,85 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dorianorellanobbap/omarchy-jarvis",
+        "pluginIds": [
+          "dorian.voice"
+        ],
+        "commit": "8094739c264d4f9d7232e3a889d026665175ad28",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T00:30:13.383Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build",
+          "installer",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T01:17:47.279Z",
+        "requestEventId": 32298244278,
+        "requestedAt": "2026-10-02T00:03:24Z",
+        "reviewedAt": "2026-10-02T00:30:13.383Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "17c39b666ce88853602bc5099d82867eb0d6956c",
+          "validatedAt": "2026-09-12T20:29:13.884Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T00:30:13.383Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dorianorellanobbap/omarchy-jarvis",
+            "pluginIds": [
+              "dorian.voice"
+            ],
+            "commit": "17c39b666ce88853602bc5099d82867eb0d6956c",
+            "checkedAt": "2026-09-12T20:29:13.802Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "remote-build",
+              "installer",
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "dorianorellanobbap/omarchy-jarvis",
+            "pluginIds": [
+              "dorian.voice"
+            ],
+            "commit": "17c39b666ce88853602bc5099d82867eb0d6956c",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-12T20:29:13.802Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "remote-build",
+              "installer",
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-09T05:33:54.536Z",
+            "requestEventId": 31032230547,
+            "requestedAt": "2026-09-12T20:22:19Z",
+            "reviewedAt": "2026-09-12T20:29:13.802Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jvlianodorneles/alcalc",
