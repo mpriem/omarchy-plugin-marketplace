@@ -268595,6 +268595,42 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/almoramx/omakamal",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T09:56:47.620Z",
+      "listingValidatedCommit": "0ec5c7664ebd0fbb251a1eb8641004db0792314b",
+      "listingValidatedAt": "2026-10-02T09:56:47.620Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "almoramx/omakamal",
+        "pluginIds": [
+          "io.github.almoramx.omakamal"
+        ],
+        "commit": "0ec5c7664ebd0fbb251a1eb8641004db0792314b",
+        "checkedAt": "2026-10-02T09:56:47.499Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.almoramx.omakamal": {
+          "category": "Developer Tools",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
