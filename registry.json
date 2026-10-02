@@ -265183,6 +265183,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/paudelsamir/notch-island",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T04:13:05.772Z",
+      "listingValidatedCommit": "b031f6d40747e7a990b6a0eca00fbd21d14d2a86",
+      "listingValidatedAt": "2026-10-02T04:13:05.772Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "paudelsamir/notch-island",
+        "pluginIds": [
+          "paudelsamir.notch-island"
+        ],
+        "commit": "b031f6d40747e7a990b6a0eca00fbd21d14d2a86",
+        "checkedAt": "2026-10-02T04:13:05.647Z",
+        "outcome": "needs-fixes",
+        "enforcementMode": "selective",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "paudelsamir/notch-island",
+        "pluginIds": [
+          "paudelsamir.notch-island"
+        ],
+        "commit": "b031f6d40747e7a990b6a0eca00fbd21d14d2a86",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T04:13:05.647Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T03:31:54.235Z",
+        "requestEventId": 32307465300,
+        "requestedAt": "2026-10-02T03:48:40Z",
+        "reviewedAt": "2026-10-02T04:13:05.647Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "paudelsamir.notch-island": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell",
+            "media",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
