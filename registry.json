@@ -261363,6 +261363,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/btey/omarchy-security-hub-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T00:27:44.030Z",
+      "listingValidatedCommit": "e900818db716ef9de87cce83f802848f081b17df",
+      "listingValidatedAt": "2026-10-02T00:27:44.030Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "btey/omarchy-security-hub-plugin",
+        "pluginIds": [
+          "security-hub"
+        ],
+        "commit": "e900818db716ef9de87cce83f802848f081b17df",
+        "checkedAt": "2026-10-02T00:27:43.963Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "btey/omarchy-security-hub-plugin",
+        "pluginIds": [
+          "security-hub"
+        ],
+        "commit": "e900818db716ef9de87cce83f802848f081b17df",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T00:27:43.963Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T22:05:05.700Z",
+        "requestEventId": 32298194868,
+        "requestedAt": "2026-10-02T00:02:19Z",
+        "reviewedAt": "2026-10-02T00:27:43.963Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "security-hub": {
+          "category": "System",
+          "tags": [
+            "security",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
