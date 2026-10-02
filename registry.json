@@ -250867,8 +250867,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T07:53:16.483Z",
-      "listingValidatedCommit": "a51a7cf68c6d43a0792d85573c43981fca08b30f",
-      "listingValidatedAt": "2026-09-28T07:53:16.483Z",
+      "listingValidatedCommit": "b89c98552b4648cda72b0d27374a735adff93502",
+      "listingValidatedAt": "2026-10-02T17:09:09.999Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -250877,8 +250877,8 @@
         "pluginIds": [
           "cdelcollado.network"
         ],
-        "commit": "a51a7cf68c6d43a0792d85573c43981fca08b30f",
-        "checkedAt": "2026-09-28T07:53:16.372Z",
+        "commit": "b89c98552b4648cda72b0d27374a735adff93502",
+        "checkedAt": "2026-10-02T17:09:09.999Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -250894,7 +250894,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a51a7cf68c6d43a0792d85573c43981fca08b30f",
+          "validatedAt": "2026-09-28T07:53:16.483Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T17:09:09.999Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "cdelcollado/wifiomarchy",
+            "pluginIds": [
+              "cdelcollado.network"
+            ],
+            "commit": "a51a7cf68c6d43a0792d85573c43981fca08b30f",
+            "checkedAt": "2026-09-28T07:53:16.372Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/gabepsilva/omarchy-user-services",
