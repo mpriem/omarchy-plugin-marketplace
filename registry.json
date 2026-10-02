@@ -236841,8 +236841,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-25",
       "listedAt": "2026-09-25T08:50:05.610Z",
-      "listingValidatedCommit": "a3b79ad0be4879b34b4e940d1a46ec65865d6144",
-      "listingValidatedAt": "2026-10-02T15:05:20.390Z",
+      "listingValidatedCommit": "1d8ae0dea22e9b980f39284519708aeb80aabec7",
+      "listingValidatedAt": "2026-10-02T20:47:21.257Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -236851,12 +236851,14 @@
         "pluginIds": [
           "sky.lofi"
         ],
-        "commit": "a3b79ad0be4879b34b4e940d1a46ec65865d6144",
-        "checkedAt": "2026-10-02T15:05:20.389Z",
-        "outcome": "passed",
+        "commit": "1d8ae0dea22e9b980f39284519708aeb80aabec7",
+        "checkedAt": "2026-10-02T20:47:21.256Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "bundled-executable-binary"
+        ]
       },
       "plugins": {
         "sky.lofi": {
@@ -236889,8 +236891,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "a3b79ad0be4879b34b4e940d1a46ec65865d6144",
+          "validatedAt": "2026-10-02T15:05:20.390Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T20:47:21.257Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "objlako/omarchy-lofi-focus",
+            "pluginIds": [
+              "sky.lofi"
+            ],
+            "commit": "a3b79ad0be4879b34b4e940d1a46ec65865d6144",
+            "checkedAt": "2026-10-02T15:05:20.389Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "objlako/omarchy-lofi-focus",
+        "pluginIds": [
+          "sky.lofi"
+        ],
+        "commit": "1d8ae0dea22e9b980f39284519708aeb80aabec7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T20:47:21.256Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T19:16:29.829Z",
+        "requestEventId": 32364217946,
+        "requestedAt": "2026-10-02T20:39:56Z",
+        "reviewedAt": "2026-10-02T20:47:21.257Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/JesusLovesYou1013/omaplugs_browser",
