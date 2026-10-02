@@ -226082,8 +226082,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-23",
       "listedAt": "2026-09-23T06:34:29.113Z",
-      "listingValidatedCommit": "ccb8b32fad7ba8c71dbac28eef0dc97ba58d083d",
-      "listingValidatedAt": "2026-09-23T06:34:29.113Z",
+      "listingValidatedCommit": "d4be00554b375abd14aa882903dee6379c2f7923",
+      "listingValidatedAt": "2026-10-02T08:18:27.058Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -226092,8 +226092,8 @@
         "pluginIds": [
           "md.lifeos.doubao-say"
         ],
-        "commit": "ccb8b32fad7ba8c71dbac28eef0dc97ba58d083d",
-        "checkedAt": "2026-09-23T06:34:29.030Z",
+        "commit": "d4be00554b375abd14aa882903dee6379c2f7923",
+        "checkedAt": "2026-10-02T08:18:27.058Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -226104,30 +226104,6 @@
           "installer"
         ]
       },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "quanru/doubao-say",
-        "pluginIds": [
-          "md.lifeos.doubao-say"
-        ],
-        "commit": "ccb8b32fad7ba8c71dbac28eef0dc97ba58d083d",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-23T06:34:29.030Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-23T03:44:57.056Z",
-        "requestEventId": 31654160142,
-        "requestedAt": "2026-09-23T06:08:32Z",
-        "reviewedAt": "2026-09-23T06:34:29.030Z",
-        "reviewer": "HANCORE-linux"
-      },
       "plugins": {
         "md.lifeos.doubao-say": {
           "category": "Productivity",
@@ -226137,7 +226113,82 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "quanru/doubao-say",
+        "pluginIds": [
+          "md.lifeos.doubao-say"
+        ],
+        "commit": "d4be00554b375abd14aa882903dee6379c2f7923",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T08:18:27.058Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T01:17:40.320Z",
+        "requestEventId": 32317761932,
+        "requestedAt": "2026-10-02T07:50:41Z",
+        "reviewedAt": "2026-10-02T08:18:27.058Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ccb8b32fad7ba8c71dbac28eef0dc97ba58d083d",
+          "validatedAt": "2026-09-23T06:34:29.113Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T08:18:27.058Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "quanru/doubao-say",
+            "pluginIds": [
+              "md.lifeos.doubao-say"
+            ],
+            "commit": "ccb8b32fad7ba8c71dbac28eef0dc97ba58d083d",
+            "checkedAt": "2026-09-23T06:34:29.030Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "quanru/doubao-say",
+            "pluginIds": [
+              "md.lifeos.doubao-say"
+            ],
+            "commit": "ccb8b32fad7ba8c71dbac28eef0dc97ba58d083d",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-23T06:34:29.030Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-23T03:44:57.056Z",
+            "requestEventId": 31654160142,
+            "requestedAt": "2026-09-23T06:08:32Z",
+            "reviewedAt": "2026-09-23T06:34:29.030Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/lukebest/omarsync",
