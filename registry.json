@@ -263657,6 +263657,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mbradaschia/oma-zotero-launcher",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T02:42:54.076Z",
+      "listingValidatedCommit": "863f0e766a5c92e8ab939036486cc13bf2bd3414",
+      "listingValidatedAt": "2026-10-02T02:42:54.076Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mbradaschia/oma-zotero-launcher",
+        "pluginIds": [
+          "io.github.mbradaschia.oma-zotero"
+        ],
+        "commit": "863f0e766a5c92e8ab939036486cc13bf2bd3414",
+        "checkedAt": "2026-10-02T02:42:53.961Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mbradaschia/oma-zotero-launcher",
+        "pluginIds": [
+          "io.github.mbradaschia.oma-zotero"
+        ],
+        "commit": "863f0e766a5c92e8ab939036486cc13bf2bd3414",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T02:42:53.961Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T02:12:24.510Z",
+        "requestEventId": 32303786133,
+        "requestedAt": "2026-10-02T02:14:19Z",
+        "reviewedAt": "2026-10-02T02:42:53.961Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.mbradaschia.oma-zotero": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "ai",
+            "education"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
