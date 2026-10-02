@@ -264906,6 +264906,72 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/hanoixan/moush",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T03:57:49.110Z",
+      "listingValidatedCommit": "e5a95d3f21b625db0f5f64c88e7aa8b61f7976b6",
+      "listingValidatedAt": "2026-10-02T03:57:49.110Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hanoixan/moush",
+        "pluginIds": [
+          "hanoixan-moush"
+        ],
+        "commit": "e5a95d3f21b625db0f5f64c88e7aa8b61f7976b6",
+        "checkedAt": "2026-10-02T03:57:48.998Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hanoixan/moush",
+        "pluginIds": [
+          "hanoixan-moush"
+        ],
+        "commit": "e5a95d3f21b625db0f5f64c88e7aa8b61f7976b6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T03:57:48.998Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T03:26:02.410Z",
+        "requestEventId": 32306707407,
+        "requestedAt": "2026-10-02T03:28:05Z",
+        "reviewedAt": "2026-10-02T03:57:48.998Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "hanoixan-moush": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
