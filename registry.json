@@ -265302,6 +265302,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/RushiSompuraWork/Songbook",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T04:19:58.057Z",
+      "listingValidatedCommit": "111921d91e69d351b73eca96452501631b293280",
+      "listingValidatedAt": "2026-10-02T04:19:58.057Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rushisompurawork/songbook",
+        "pluginIds": [
+          "rushi.songbook"
+        ],
+        "commit": "111921d91e69d351b73eca96452501631b293280",
+        "checkedAt": "2026-10-02T04:19:57.936Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rushisompurawork/songbook",
+        "pluginIds": [
+          "rushi.songbook"
+        ],
+        "commit": "111921d91e69d351b73eca96452501631b293280",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T04:19:57.936Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T03:36:36.776Z",
+        "requestEventId": 32308219080,
+        "requestedAt": "2026-10-02T04:07:58Z",
+        "reviewedAt": "2026-10-02T04:19:57.936Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "rushi.songbook": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
