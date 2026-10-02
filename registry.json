@@ -34716,7 +34716,7 @@
           "seb-krz.omarchy-connect"
         ],
         "commit": "c97e6fbed4ce51a156dd410a931694ce4e577d89",
-        "checkedAt": "2026-08-20T20:39:50.746Z",
+        "checkedAt": "2026-10-02T10:27:11.688Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -34740,6 +34740,29 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "seb-krz/omarchy-connect",
+        "pluginIds": [
+          "seb-krz.omarchy-connect"
+        ],
+        "commit": "c97e6fbed4ce51a156dd410a931694ce4e577d89",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T10:27:11.688Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T07:15:42.580Z",
+        "requestEventId": 32324887993,
+        "requestedAt": "2026-10-02T09:56:47Z",
+        "reviewedAt": "2026-10-02T10:27:11.689Z",
+        "reviewer": "HANCORE-linux"
       }
     },
     {
