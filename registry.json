@@ -267191,8 +267191,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T05:07:38.994Z",
-      "listingValidatedCommit": "e70e1d08f60cac2790c29fc46685a3a7b32d124d",
-      "listingValidatedAt": "2026-10-02T05:07:38.994Z",
+      "listingValidatedCommit": "197e3053352e47b8d51b3c6c0a8fb81e4ea73200",
+      "listingValidatedAt": "2026-10-02T10:14:02.269Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -267201,35 +267201,14 @@
         "pluginIds": [
           "lutfi.eco"
         ],
-        "commit": "e70e1d08f60cac2790c29fc46685a3a7b32d124d",
-        "checkedAt": "2026-10-02T05:07:38.876Z",
+        "commit": "197e3053352e47b8d51b3c6c0a8fb81e4ea73200",
+        "checkedAt": "2026-10-02T10:14:02.269Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "lutfi-zain/omarchy-eco-mode",
-        "pluginIds": [
-          "lutfi.eco"
-        ],
-        "commit": "e70e1d08f60cac2790c29fc46685a3a7b32d124d",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T05:07:38.876Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T05:03:23.014Z",
-        "requestEventId": 32310400956,
-        "requestedAt": "2026-10-02T05:07:10Z",
-        "reviewedAt": "2026-10-02T05:07:38.877Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "lutfi.eco": {
@@ -267241,7 +267220,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lutfi-zain/omarchy-eco-mode",
+        "pluginIds": [
+          "lutfi.eco"
+        ],
+        "commit": "197e3053352e47b8d51b3c6c0a8fb81e4ea73200",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T10:14:02.269Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T07:34:19.676Z",
+        "requestEventId": 32324302598,
+        "requestedAt": "2026-10-02T09:46:06Z",
+        "reviewedAt": "2026-10-02T10:14:02.269Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e70e1d08f60cac2790c29fc46685a3a7b32d124d",
+          "validatedAt": "2026-10-02T05:07:38.994Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T10:14:02.269Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lutfi-zain/omarchy-eco-mode",
+            "pluginIds": [
+              "lutfi.eco"
+            ],
+            "commit": "e70e1d08f60cac2790c29fc46685a3a7b32d124d",
+            "checkedAt": "2026-10-02T05:07:38.876Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "lutfi-zain/omarchy-eco-mode",
+            "pluginIds": [
+              "lutfi.eco"
+            ],
+            "commit": "e70e1d08f60cac2790c29fc46685a3a7b32d124d",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T05:07:38.876Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T05:03:23.014Z",
+            "requestEventId": 32310400956,
+            "requestedAt": "2026-10-02T05:07:10Z",
+            "reviewedAt": "2026-10-02T05:07:38.877Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/lutfi-zain/omarchy-glass-blur",
