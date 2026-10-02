@@ -276308,6 +276308,72 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/hjanuschka/omarchy-pi",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T22:06:37.660Z",
+      "listingValidatedCommit": "6a6c20e02fe0d40326a01562b46618140cf59f9d",
+      "listingValidatedAt": "2026-10-02T22:06:37.660Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hjanuschka/omarchy-pi",
+        "pluginIds": [
+          "hjanuschka.omarchy-pi"
+        ],
+        "commit": "6a6c20e02fe0d40326a01562b46618140cf59f9d",
+        "checkedAt": "2026-10-02T22:06:37.519Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build",
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hjanuschka/omarchy-pi",
+        "pluginIds": [
+          "hjanuschka.omarchy-pi"
+        ],
+        "commit": "6a6c20e02fe0d40326a01562b46618140cf59f9d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T22:06:37.519Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T21:58:15.630Z",
+        "requestEventId": 32368360685,
+        "requestedAt": "2026-10-02T21:59:46Z",
+        "reviewedAt": "2026-10-02T22:06:37.519Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "hjanuschka.omarchy-pi": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
