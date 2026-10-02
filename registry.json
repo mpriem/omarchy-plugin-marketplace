@@ -264366,6 +264366,62 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/RobbieUK1/omarchy-power-menu",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T03:22:03.660Z",
+      "listingValidatedCommit": "78a2833bb49d7ad8910d134af0dfca5b99ea7acc",
+      "listingValidatedAt": "2026-10-02T03:22:03.660Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "robbieuk1/omarchy-power-menu",
+        "pluginIds": [
+          "robbie.power-menu"
+        ],
+        "commit": "78a2833bb49d7ad8910d134af0dfca5b99ea7acc",
+        "checkedAt": "2026-10-02T03:22:03.561Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "robbieuk1/omarchy-power-menu",
+        "pluginIds": [
+          "robbie.power-menu"
+        ],
+        "commit": "78a2833bb49d7ad8910d134af0dfca5b99ea7acc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T03:22:03.561Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T02:50:18.909Z",
+        "requestEventId": 32305282225,
+        "requestedAt": "2026-10-02T02:51:45Z",
+        "reviewedAt": "2026-10-02T03:22:03.561Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "robbie.power-menu": {
+          "category": "System",
+          "tags": [
+            "power-management",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
