@@ -205146,8 +205146,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-19",
       "listedAt": "2026-09-19T13:01:53.709Z",
-      "listingValidatedCommit": "d81094571abaa5760c8190393c1014ecbf96a986",
-      "listingValidatedAt": "2026-09-19T13:01:53.709Z",
+      "listingValidatedCommit": "3a226549828ce70821c3edf99fcce84dc4c4d6fe",
+      "listingValidatedAt": "2026-10-02T14:13:14.393Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -205156,41 +205156,18 @@
         "pluginIds": [
           "taylorburke.sudo-watch"
         ],
-        "commit": "d81094571abaa5760c8190393c1014ecbf96a986",
-        "checkedAt": "2026-09-19T13:01:53.612Z",
+        "commit": "3a226549828ce70821c3edf99fcce84dc4c4d6fe",
+        "checkedAt": "2026-10-02T14:13:14.393Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege",
           "remote-build",
+          "package-manager",
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "taylorburke/sudo-watch",
-        "pluginIds": [
-          "taylorburke.sudo-watch"
-        ],
-        "commit": "d81094571abaa5760c8190393c1014ecbf96a986",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-19T13:01:53.612Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "remote-build",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-18T18:05:22.885Z",
-        "requestEventId": 31444967437,
-        "requestedAt": "2026-09-19T12:55:08Z",
-        "reviewedAt": "2026-09-19T13:01:53.612Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "taylorburke.sudo-watch": {
@@ -205202,7 +205179,83 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "taylorburke/sudo-watch",
+        "pluginIds": [
+          "taylorburke.sudo-watch"
+        ],
+        "commit": "3a226549828ce70821c3edf99fcce84dc4c4d6fe",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T14:13:14.393Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T21:24:03.420Z",
+        "requestEventId": 32338432897,
+        "requestedAt": "2026-10-02T13:47:41Z",
+        "reviewedAt": "2026-10-02T14:13:14.393Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "d81094571abaa5760c8190393c1014ecbf96a986",
+          "validatedAt": "2026-09-19T13:01:53.709Z",
+          "branch": "master",
+          "supersededAt": "2026-10-02T14:13:14.393Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "taylorburke/sudo-watch",
+            "pluginIds": [
+              "taylorburke.sudo-watch"
+            ],
+            "commit": "d81094571abaa5760c8190393c1014ecbf96a986",
+            "checkedAt": "2026-09-19T13:01:53.612Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "taylorburke/sudo-watch",
+            "pluginIds": [
+              "taylorburke.sudo-watch"
+            ],
+            "commit": "d81094571abaa5760c8190393c1014ecbf96a986",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-19T13:01:53.612Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-18T18:05:22.885Z",
+            "requestEventId": 31444967437,
+            "requestedAt": "2026-09-19T12:55:08Z",
+            "reviewedAt": "2026-09-19T13:01:53.612Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ArtMin96/omarchy-l2tp-vpn",
