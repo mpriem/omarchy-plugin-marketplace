@@ -263096,6 +263096,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/t1nk333r/t1nk33r.nothing-glass",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T02:08:27.025Z",
+      "listingValidatedCommit": "3f085e916bdec7ef65dc4f225c14edbc94044c09",
+      "listingValidatedAt": "2026-10-02T02:08:27.025Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "t1nk333r/t1nk33r.nothing-glass",
+        "pluginIds": [
+          "t1nk33r.nothing-glass"
+        ],
+        "commit": "3f085e916bdec7ef65dc4f225c14edbc94044c09",
+        "checkedAt": "2026-10-02T02:08:26.936Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "t1nk33r.nothing-glass": {
+          "category": "Widgets",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
