@@ -226600,8 +226600,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T18:07:41.485Z",
-      "listingValidatedCommit": "5f5f4c2d44c5ffa916e2a7399f8a746f78d5998f",
-      "listingValidatedAt": "2026-09-22T18:07:41.485Z",
+      "listingValidatedCommit": "95743fdacd925bbd9b0af7b6a5ea960943b40a52",
+      "listingValidatedAt": "2026-10-02T22:46:25.597Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -226610,8 +226610,8 @@
         "pluginIds": [
           "gdeyoung.sysmon"
         ],
-        "commit": "5f5f4c2d44c5ffa916e2a7399f8a746f78d5998f",
-        "checkedAt": "2026-09-22T18:07:41.383Z",
+        "commit": "95743fdacd925bbd9b0af7b6a5ea960943b40a52",
+        "checkedAt": "2026-10-02T22:46:25.597Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -226619,28 +226619,6 @@
           "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "gdeyoung/omarchy-sysmon",
-        "pluginIds": [
-          "gdeyoung.sysmon"
-        ],
-        "commit": "5f5f4c2d44c5ffa916e2a7399f8a746f78d5998f",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-22T18:07:41.383Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-22T17:19:43.829Z",
-        "requestEventId": 31620616130,
-        "requestedAt": "2026-09-22T18:02:29Z",
-        "reviewedAt": "2026-09-22T18:07:41.383Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "gdeyoung.sysmon": {
@@ -226652,7 +226630,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gdeyoung/omarchy-sysmon",
+        "pluginIds": [
+          "gdeyoung.sysmon"
+        ],
+        "commit": "95743fdacd925bbd9b0af7b6a5ea960943b40a52",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T22:46:25.597Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T21:21:01.334Z",
+        "requestEventId": 32370325471,
+        "requestedAt": "2026-10-02T22:43:16Z",
+        "reviewedAt": "2026-10-02T22:46:25.597Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5f5f4c2d44c5ffa916e2a7399f8a746f78d5998f",
+          "validatedAt": "2026-09-22T18:07:41.485Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T22:46:25.597Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gdeyoung/omarchy-sysmon",
+            "pluginIds": [
+              "gdeyoung.sysmon"
+            ],
+            "commit": "5f5f4c2d44c5ffa916e2a7399f8a746f78d5998f",
+            "checkedAt": "2026-09-22T18:07:41.383Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gdeyoung/omarchy-sysmon",
+            "pluginIds": [
+              "gdeyoung.sysmon"
+            ],
+            "commit": "5f5f4c2d44c5ffa916e2a7399f8a746f78d5998f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-22T18:07:41.383Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-22T17:19:43.829Z",
+            "requestEventId": 31620616130,
+            "requestedAt": "2026-09-22T18:02:29Z",
+            "reviewedAt": "2026-09-22T18:07:41.383Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/BrunoMoreno/omafocus",
