@@ -272381,6 +272381,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/sjwasko/omafishin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T16:23:26.417Z",
+      "listingValidatedCommit": "dd1d5ebdaed4258bdb72459e12e798586a47e4b4",
+      "listingValidatedAt": "2026-10-02T16:23:26.417Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sjwasko/omafishin",
+        "pluginIds": [
+          "swasko.omafishin"
+        ],
+        "commit": "dd1d5ebdaed4258bdb72459e12e798586a47e4b4",
+        "checkedAt": "2026-10-02T16:23:26.296Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "sjwasko/omafishin",
+        "pluginIds": [
+          "swasko.omafishin"
+        ],
+        "commit": "dd1d5ebdaed4258bdb72459e12e798586a47e4b4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T16:23:26.296Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T16:08:30.924Z",
+        "requestEventId": 32348165976,
+        "requestedAt": "2026-10-02T16:10:55Z",
+        "reviewedAt": "2026-10-02T16:23:26.296Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "swasko.omafishin": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
