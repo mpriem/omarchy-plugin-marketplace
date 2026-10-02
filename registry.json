@@ -53271,8 +53271,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-23",
       "listedAt": "2026-08-23T02:15:01.426Z",
-      "listingValidatedCommit": "efa46690991ea59c3c290456807545dd7350dc03",
-      "listingValidatedAt": "2026-09-13T11:23:42.265Z",
+      "listingValidatedCommit": "9da73fc13fc2027be5b44915b4ab89440beb74ab",
+      "listingValidatedAt": "2026-10-02T08:55:27.469Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -53281,14 +53281,12 @@
         "pluginIds": [
           "omaplug"
         ],
-        "commit": "efa46690991ea59c3c290456807545dd7350dc03",
-        "checkedAt": "2026-09-13T11:23:42.265Z",
-        "outcome": "review-required",
+        "commit": "9da73fc13fc2027be5b44915b4ab89440beb74ab",
+        "checkedAt": "2026-10-02T08:55:27.469Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": [
-          "installer"
-        ]
+        "capabilities": []
       },
       "plugins": {
         "omaplug": {
@@ -53487,29 +53485,51 @@
             "reviewedAt": "2026-09-02T02:25:55.878Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "efa46690991ea59c3c290456807545dd7350dc03",
+          "validatedAt": "2026-09-13T11:23:42.265Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T08:55:27.469Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "fross100/omaplug",
+            "pluginIds": [
+              "omaplug"
+            ],
+            "commit": "efa46690991ea59c3c290456807545dd7350dc03",
+            "checkedAt": "2026-09-13T11:23:42.265Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "fross100/omaplug",
+            "pluginIds": [
+              "omaplug"
+            ],
+            "commit": "efa46690991ea59c3c290456807545dd7350dc03",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-13T11:23:42.265Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-12T09:45:36.528Z",
+            "requestEventId": 31050360893,
+            "requestedAt": "2026-09-13T11:14:32Z",
+            "reviewedAt": "2026-09-13T11:23:42.265Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ],
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "fross100/omaplug",
-        "pluginIds": [
-          "omaplug"
-        ],
-        "commit": "efa46690991ea59c3c290456807545dd7350dc03",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-13T11:23:42.265Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-12T09:45:36.528Z",
-        "requestEventId": 31050360893,
-        "requestedAt": "2026-09-13T11:14:32Z",
-        "reviewedAt": "2026-09-13T11:23:42.265Z",
-        "reviewer": "HANCORE-linux"
-      }
+      ]
     },
     {
       "repo": "https://github.com/flaviomedeiros/rssheadlines",
