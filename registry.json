@@ -269299,8 +269299,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T04:30:09.317Z",
-      "listingValidatedCommit": "ab801a2f76648d15fb2c737a58f58380cc3be748",
-      "listingValidatedAt": "2026-10-02T04:30:09.317Z",
+      "listingValidatedCommit": "6c4b7fe02bbc499bfd6eb82e33acb8da58c49aa3",
+      "listingValidatedAt": "2026-10-02T13:54:09.689Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -269309,8 +269309,8 @@
         "pluginIds": [
           "io.github.abdulrahmanhr.typesuggest"
         ],
-        "commit": "ab801a2f76648d15fb2c737a58f58380cc3be748",
-        "checkedAt": "2026-10-02T04:30:09.218Z",
+        "commit": "6c4b7fe02bbc499bfd6eb82e33acb8da58c49aa3",
+        "checkedAt": "2026-10-02T13:54:09.689Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -269318,28 +269318,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "abdulrahmanhr/omarchy-typesuggest",
-        "pluginIds": [
-          "io.github.abdulrahmanhr.typesuggest"
-        ],
-        "commit": "ab801a2f76648d15fb2c737a58f58380cc3be748",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T04:30:09.218Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T04:16:09.093Z",
-        "requestEventId": 32309032058,
-        "requestedAt": "2026-10-02T04:29:43Z",
-        "reviewedAt": "2026-10-02T04:30:09.218Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.abdulrahmanhr.typesuggest": {
@@ -269354,7 +269332,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "abdulrahmanhr/omarchy-typesuggest",
+        "pluginIds": [
+          "io.github.abdulrahmanhr.typesuggest"
+        ],
+        "commit": "6c4b7fe02bbc499bfd6eb82e33acb8da58c49aa3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T13:54:09.689Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T13:09:00.753Z",
+        "requestEventId": 32336380587,
+        "requestedAt": "2026-10-02T13:17:02Z",
+        "reviewedAt": "2026-10-02T13:54:09.689Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ab801a2f76648d15fb2c737a58f58380cc3be748",
+          "validatedAt": "2026-10-02T04:30:09.317Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T13:54:09.689Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "abdulrahmanhr/omarchy-typesuggest",
+            "pluginIds": [
+              "io.github.abdulrahmanhr.typesuggest"
+            ],
+            "commit": "ab801a2f76648d15fb2c737a58f58380cc3be748",
+            "checkedAt": "2026-10-02T04:30:09.218Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "abdulrahmanhr/omarchy-typesuggest",
+            "pluginIds": [
+              "io.github.abdulrahmanhr.typesuggest"
+            ],
+            "commit": "ab801a2f76648d15fb2c737a58f58380cc3be748",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T04:30:09.218Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T04:16:09.093Z",
+            "requestEventId": 32309032058,
+            "requestedAt": "2026-10-02T04:29:43Z",
+            "reviewedAt": "2026-10-02T04:30:09.218Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/LeninZapata/omarchy-super-clipboard-snippet",
