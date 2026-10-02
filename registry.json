@@ -262029,6 +262029,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/demirhere/omarchy-caseta",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T01:10:06.133Z",
+      "listingValidatedCommit": "c88695dde8bd91980468ccaaec0f56b74f3aada5",
+      "listingValidatedAt": "2026-10-02T01:10:06.133Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "demirhere/omarchy-caseta",
+        "pluginIds": [
+          "io.github.demirhere.caseta"
+        ],
+        "commit": "c88695dde8bd91980468ccaaec0f56b74f3aada5",
+        "checkedAt": "2026-10-02T01:10:06.014Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "demirhere/omarchy-caseta",
+        "pluginIds": [
+          "io.github.demirhere.caseta"
+        ],
+        "commit": "c88695dde8bd91980468ccaaec0f56b74f3aada5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T01:10:06.014Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T00:42:19.257Z",
+        "requestEventId": 32299910043,
+        "requestedAt": "2026-10-02T00:43:40Z",
+        "reviewedAt": "2026-10-02T01:10:06.014Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.demirhere.caseta": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
