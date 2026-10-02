@@ -264185,6 +264185,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Roudis/omarchy-pokeget",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T03:12:40.264Z",
+      "listingValidatedCommit": "43db223f2a4a021fc56e0d492f9e0a8128cd6d90",
+      "listingValidatedAt": "2026-10-02T03:12:40.264Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "roudis/omarchy-pokeget",
+        "pluginIds": [
+          "alkis.pokeget"
+        ],
+        "commit": "43db223f2a4a021fc56e0d492f9e0a8128cd6d90",
+        "checkedAt": "2026-10-02T03:12:40.149Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "roudis/omarchy-pokeget",
+        "pluginIds": [
+          "alkis.pokeget"
+        ],
+        "commit": "43db223f2a4a021fc56e0d492f9e0a8128cd6d90",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T03:12:40.149Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T02:43:14.684Z",
+        "requestEventId": 32304997817,
+        "requestedAt": "2026-10-02T02:44:33Z",
+        "reviewedAt": "2026-10-02T03:12:40.149Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "alkis.pokeget": {
+          "category": "Appearance",
+          "tags": [
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
