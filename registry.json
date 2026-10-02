@@ -265246,6 +265246,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/menobass/omarchy-hive-portfolio",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T04:16:52.611Z",
+      "listingValidatedCommit": "afa6211c40f0141de6d33b63c2a6a9c8335a2e73",
+      "listingValidatedAt": "2026-10-02T04:16:52.611Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "menobass/omarchy-hive-portfolio",
+        "pluginIds": [
+          "io.github.menobass.hive-portfolio"
+        ],
+        "commit": "afa6211c40f0141de6d33b63c2a6a9c8335a2e73",
+        "checkedAt": "2026-10-02T04:16:52.478Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "menobass/omarchy-hive-portfolio",
+        "pluginIds": [
+          "io.github.menobass.hive-portfolio"
+        ],
+        "commit": "afa6211c40f0141de6d33b63c2a6a9c8335a2e73",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T04:16:52.478Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T03:53:53.229Z",
+        "requestEventId": 32307897744,
+        "requestedAt": "2026-10-02T03:59:18Z",
+        "reviewedAt": "2026-10-02T04:16:52.478Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.menobass.hive-portfolio": {
+          "category": "Widgets",
+          "tags": [
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
