@@ -198790,8 +198790,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-18",
       "listedAt": "2026-09-18T01:51:51.786Z",
-      "listingValidatedCommit": "58765f89156ac78ad82021159379bcf704d41f5f",
-      "listingValidatedAt": "2026-09-18T01:51:51.786Z",
+      "listingValidatedCommit": "5527a061ff0249d4b8313f3e2e98e2ed6b5e71d3",
+      "listingValidatedAt": "2026-10-02T11:22:57.101Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -198800,8 +198800,8 @@
         "pluginIds": [
           "zed.omahold"
         ],
-        "commit": "58765f89156ac78ad82021159379bcf704d41f5f",
-        "checkedAt": "2026-09-18T01:51:51.691Z",
+        "commit": "5527a061ff0249d4b8313f3e2e98e2ed6b5e71d3",
+        "checkedAt": "2026-10-02T11:22:57.101Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -198817,7 +198817,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "58765f89156ac78ad82021159379bcf704d41f5f",
+          "validatedAt": "2026-09-18T01:51:51.786Z",
+          "branch": "master",
+          "supersededAt": "2026-10-02T11:22:57.101Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "zednaked/omahold",
+            "pluginIds": [
+              "zed.omahold"
+            ],
+            "commit": "58765f89156ac78ad82021159379bcf704d41f5f",
+            "checkedAt": "2026-09-18T01:51:51.691Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/oliwier-xiao/omarchy-auto-pilot4agents",
