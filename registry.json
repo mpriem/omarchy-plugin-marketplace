@@ -262160,6 +262160,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/nicknow/omarchy-nicknow-workspaces",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T01:16:08.788Z",
+      "listingValidatedCommit": "7c2e4a9ca2c450e2c2c24b26446703f59ee88908",
+      "listingValidatedAt": "2026-10-02T01:16:08.788Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nicknow/omarchy-nicknow-workspaces",
+        "pluginIds": [
+          "nicknow.workspaces"
+        ],
+        "commit": "7c2e4a9ca2c450e2c2c24b26446703f59ee88908",
+        "checkedAt": "2026-10-02T01:16:08.672Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "nicknow.workspaces": {
+          "category": "Desktop",
+          "tags": [
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
