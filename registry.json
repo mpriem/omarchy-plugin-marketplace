@@ -262866,6 +262866,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/supercleanse/spitball",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T01:56:11.378Z",
+      "listingValidatedCommit": "3919daf6409f06603f12be62b29152b443e250d5",
+      "listingValidatedAt": "2026-10-02T01:56:11.378Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "supercleanse/spitball",
+        "pluginIds": [
+          "supercleanse.spitball"
+        ],
+        "commit": "3919daf6409f06603f12be62b29152b443e250d5",
+        "checkedAt": "2026-10-02T01:56:11.260Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "supercleanse/spitball",
+        "pluginIds": [
+          "supercleanse.spitball"
+        ],
+        "commit": "3919daf6409f06603f12be62b29152b443e250d5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T01:56:11.260Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T01:31:26.088Z",
+        "requestEventId": 32301935888,
+        "requestedAt": "2026-10-02T01:32:46Z",
+        "reviewedAt": "2026-10-02T01:56:11.260Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "supercleanse.spitball": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
