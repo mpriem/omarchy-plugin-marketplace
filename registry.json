@@ -266194,8 +266194,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T00:07:34.929Z",
-      "listingValidatedCommit": "2d0960638bbe449aed054d82e68e85b132bf2ce7",
-      "listingValidatedAt": "2026-10-02T00:07:34.929Z",
+      "listingValidatedCommit": "627240f3134c9aab63f82ecfe3bcbd36a6ade1c7",
+      "listingValidatedAt": "2026-10-02T17:36:58.313Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -266204,8 +266204,8 @@
         "pluginIds": [
           "io.github.vladkarok.omabump"
         ],
-        "commit": "2d0960638bbe449aed054d82e68e85b132bf2ce7",
-        "checkedAt": "2026-10-02T00:07:34.833Z",
+        "commit": "627240f3134c9aab63f82ecfe3bcbd36a6ade1c7",
+        "checkedAt": "2026-10-02T17:36:58.313Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -266214,29 +266214,6 @@
           "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "vladkarok/omabump",
-        "pluginIds": [
-          "io.github.vladkarok.omabump"
-        ],
-        "commit": "2d0960638bbe449aed054d82e68e85b132bf2ce7",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T00:07:34.833Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-01T19:36:15.502Z",
-        "requestEventId": 32297625740,
-        "requestedAt": "2026-10-01T23:48:20Z",
-        "reviewedAt": "2026-10-02T00:07:34.833Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.vladkarok.omabump": {
@@ -266248,7 +266225,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "vladkarok/omabump",
+        "pluginIds": [
+          "io.github.vladkarok.omabump"
+        ],
+        "commit": "627240f3134c9aab63f82ecfe3bcbd36a6ade1c7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T17:36:58.313Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T15:01:24.063Z",
+        "requestEventId": 32351382556,
+        "requestedAt": "2026-10-02T17:03:25Z",
+        "reviewedAt": "2026-10-02T17:36:58.313Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2d0960638bbe449aed054d82e68e85b132bf2ce7",
+          "validatedAt": "2026-10-02T00:07:34.929Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T17:36:58.313Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "vladkarok/omabump",
+            "pluginIds": [
+              "io.github.vladkarok.omabump"
+            ],
+            "commit": "2d0960638bbe449aed054d82e68e85b132bf2ce7",
+            "checkedAt": "2026-10-02T00:07:34.833Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "vladkarok/omabump",
+            "pluginIds": [
+              "io.github.vladkarok.omabump"
+            ],
+            "commit": "2d0960638bbe449aed054d82e68e85b132bf2ce7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T00:07:34.833Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T19:36:15.502Z",
+            "requestEventId": 32297625740,
+            "requestedAt": "2026-10-01T23:48:20Z",
+            "reviewedAt": "2026-10-02T00:07:34.833Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/kdriedger/omarchy-lock-battery",
