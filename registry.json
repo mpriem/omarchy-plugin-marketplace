@@ -244441,8 +244441,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T14:25:15.434Z",
-      "listingValidatedCommit": "8fd78360785d623e2c94be3862365060194676de",
-      "listingValidatedAt": "2026-09-27T14:25:15.434Z",
+      "listingValidatedCommit": "b17a801395124b5eb0526fdb00863465b5ea09ea",
+      "listingValidatedAt": "2026-10-02T18:15:44.341Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -244451,35 +244451,14 @@
         "pluginIds": [
           "foamy.monitor"
         ],
-        "commit": "8fd78360785d623e2c94be3862365060194676de",
-        "checkedAt": "2026-09-27T14:25:15.335Z",
+        "commit": "b17a801395124b5eb0526fdb00863465b5ea09ea",
+        "checkedAt": "2026-10-02T18:15:44.341Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "foamrider/foamy-monitor",
-        "pluginIds": [
-          "foamy.monitor"
-        ],
-        "commit": "8fd78360785d623e2c94be3862365060194676de",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T14:25:15.335Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-27T12:50:10.522Z",
-        "requestEventId": 31932199542,
-        "requestedAt": "2026-09-27T13:24:18Z",
-        "reviewedAt": "2026-09-27T14:25:15.335Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "foamy.monitor": {
@@ -244491,7 +244470,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "foamrider/foamy-monitor",
+        "pluginIds": [
+          "foamy.monitor"
+        ],
+        "commit": "b17a801395124b5eb0526fdb00863465b5ea09ea",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T18:15:44.341Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T07:18:34.878Z",
+        "requestEventId": 32352705956,
+        "requestedAt": "2026-10-02T17:25:18Z",
+        "reviewedAt": "2026-10-02T18:15:44.341Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "8fd78360785d623e2c94be3862365060194676de",
+          "validatedAt": "2026-09-27T14:25:15.434Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T18:15:44.341Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "foamrider/foamy-monitor",
+            "pluginIds": [
+              "foamy.monitor"
+            ],
+            "commit": "8fd78360785d623e2c94be3862365060194676de",
+            "checkedAt": "2026-09-27T14:25:15.335Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "foamrider/foamy-monitor",
+            "pluginIds": [
+              "foamy.monitor"
+            ],
+            "commit": "8fd78360785d623e2c94be3862365060194676de",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T14:25:15.335Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-27T12:50:10.522Z",
+            "requestEventId": 31932199542,
+            "requestedAt": "2026-09-27T13:24:18Z",
+            "reviewedAt": "2026-09-27T14:25:15.335Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/AlxWolfenstein97/chroma",
