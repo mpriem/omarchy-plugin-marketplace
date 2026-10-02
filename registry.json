@@ -187970,8 +187970,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T00:24:54.802Z",
-      "listingValidatedCommit": "08be2c30c74ed9dfa845aab2d3d64185056502f3",
-      "listingValidatedAt": "2026-09-16T00:24:54.802Z",
+      "listingValidatedCommit": "b142b0208cc086adc53dbdad78a73207a3075854",
+      "listingValidatedAt": "2026-10-02T23:20:15.512Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -187980,39 +187980,15 @@
         "pluginIds": [
           "thefreshoffice.speaker-calibrator"
         ],
-        "commit": "08be2c30c74ed9dfa845aab2d3d64185056502f3",
-        "checkedAt": "2026-09-16T00:24:54.748Z",
+        "commit": "b142b0208cc086adc53dbdad78a73207a3075854",
+        "checkedAt": "2026-10-02T23:20:15.512Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management",
-          "package-manager",
-          "installer"
+          "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "thefreshoffice/omarchy-speaker-calibrator",
-        "pluginIds": [
-          "thefreshoffice.speaker-calibrator"
-        ],
-        "commit": "08be2c30c74ed9dfa845aab2d3d64185056502f3",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T00:24:54.748Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-15T22:17:28.096Z",
-        "requestEventId": 31211940319,
-        "requestedAt": "2026-09-16T00:23:54Z",
-        "reviewedAt": "2026-09-16T00:24:54.748Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "thefreshoffice.speaker-calibrator": {
@@ -188024,7 +188000,78 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "thefreshoffice/omarchy-speaker-calibrator",
+        "pluginIds": [
+          "thefreshoffice.speaker-calibrator"
+        ],
+        "commit": "b142b0208cc086adc53dbdad78a73207a3075854",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T23:20:15.512Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-22T21:53:19.161Z",
+        "requestEventId": 32371886034,
+        "requestedAt": "2026-10-02T23:16:58Z",
+        "reviewedAt": "2026-10-02T23:20:15.512Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "08be2c30c74ed9dfa845aab2d3d64185056502f3",
+          "validatedAt": "2026-09-16T00:24:54.802Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T23:20:15.512Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "thefreshoffice/omarchy-speaker-calibrator",
+            "pluginIds": [
+              "thefreshoffice.speaker-calibrator"
+            ],
+            "commit": "08be2c30c74ed9dfa845aab2d3d64185056502f3",
+            "checkedAt": "2026-09-16T00:24:54.748Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "thefreshoffice/omarchy-speaker-calibrator",
+            "pluginIds": [
+              "thefreshoffice.speaker-calibrator"
+            ],
+            "commit": "08be2c30c74ed9dfa845aab2d3d64185056502f3",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T00:24:54.748Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-15T22:17:28.096Z",
+            "requestEventId": 31211940319,
+            "requestedAt": "2026-09-16T00:23:54Z",
+            "reviewedAt": "2026-09-16T00:24:54.748Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/wesleygrimes/omastorm",
