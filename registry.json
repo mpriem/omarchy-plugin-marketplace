@@ -276139,6 +276139,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mwikala/omarchy-auto-theme",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T21:53:31.941Z",
+      "listingValidatedCommit": "e33e2d14ad50163fb9b9786e2db252074c67b3e4",
+      "listingValidatedAt": "2026-10-02T21:53:31.941Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mwikala/omarchy-auto-theme",
+        "pluginIds": [
+          "mwikala.auto-theme"
+        ],
+        "commit": "e33e2d14ad50163fb9b9786e2db252074c67b3e4",
+        "checkedAt": "2026-10-02T21:53:31.826Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mwikala/omarchy-auto-theme",
+        "pluginIds": [
+          "mwikala.auto-theme"
+        ],
+        "commit": "e33e2d14ad50163fb9b9786e2db252074c67b3e4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T21:53:31.826Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T19:31:17.838Z",
+        "requestEventId": 32367864457,
+        "requestedAt": "2026-10-02T21:48:57Z",
+        "reviewedAt": "2026-10-02T21:53:31.826Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "mwikala.auto-theme": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
