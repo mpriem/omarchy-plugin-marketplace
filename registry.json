@@ -268562,6 +268562,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/marcusmyers/omarchy-espn-scores",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T09:54:00.997Z",
+      "listingValidatedCommit": "433a44ba6f6063f04bf63b8811680d7d8e4998c4",
+      "listingValidatedAt": "2026-10-02T09:54:00.997Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "marcusmyers/omarchy-espn-scores",
+        "pluginIds": [
+          "io.github.marcusmyers.espn-scores"
+        ],
+        "commit": "433a44ba6f6063f04bf63b8811680d7d8e4998c4",
+        "checkedAt": "2026-10-02T09:54:00.869Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.marcusmyers.espn-scores": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
