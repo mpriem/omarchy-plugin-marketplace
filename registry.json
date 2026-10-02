@@ -202028,8 +202028,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-18",
       "listedAt": "2026-09-18T21:08:51.227Z",
-      "listingValidatedCommit": "06bf2b930303d9cf65224f61a8099258065f6b76",
-      "listingValidatedAt": "2026-09-18T21:08:51.227Z",
+      "listingValidatedCommit": "f8e9754f8804db852407f804f36cb0b69c2e82c4",
+      "listingValidatedAt": "2026-10-02T11:12:09.181Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -202038,8 +202038,8 @@
         "pluginIds": [
           "sarr.scratchpeek"
         ],
-        "commit": "06bf2b930303d9cf65224f61a8099258065f6b76",
-        "checkedAt": "2026-09-18T21:08:51.129Z",
+        "commit": "f8e9754f8804db852407f804f36cb0b69c2e82c4",
+        "checkedAt": "2026-10-02T11:12:09.181Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -202055,7 +202055,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "06bf2b930303d9cf65224f61a8099258065f6b76",
+          "validatedAt": "2026-09-18T21:08:51.227Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T11:12:09.181Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "sarr77/scratchpeek",
+            "pluginIds": [
+              "sarr.scratchpeek"
+            ],
+            "commit": "06bf2b930303d9cf65224f61a8099258065f6b76",
+            "checkedAt": "2026-09-18T21:08:51.129Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/funcoder/omarchy-app-shortcuts",
