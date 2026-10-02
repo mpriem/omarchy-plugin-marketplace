@@ -213287,8 +213287,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T19:23:31.622Z",
-      "listingValidatedCommit": "9ce2b50e011553e86db0e23d9596b7a281572dcd",
-      "listingValidatedAt": "2026-09-21T19:23:31.622Z",
+      "listingValidatedCommit": "b5bb923821660747ff9c3eed736c078e71d2bac5",
+      "listingValidatedAt": "2026-10-02T18:25:41.493Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -213297,35 +213297,14 @@
         "pluginIds": [
           "ozdil.netradar"
         ],
-        "commit": "9ce2b50e011553e86db0e23d9596b7a281572dcd",
-        "checkedAt": "2026-09-21T19:23:31.548Z",
+        "commit": "b5bb923821660747ff9c3eed736c078e71d2bac5",
+        "checkedAt": "2026-10-02T18:25:41.493Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ozdil/omarchy-netradar",
-        "pluginIds": [
-          "ozdil.netradar"
-        ],
-        "commit": "9ce2b50e011553e86db0e23d9596b7a281572dcd",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-21T19:23:31.548Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-21T11:44:49.933Z",
-        "requestEventId": 31552908060,
-        "requestedAt": "2026-09-21T19:12:25Z",
-        "reviewedAt": "2026-09-21T19:23:31.548Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "ozdil.netradar": {
@@ -213337,7 +213316,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ozdil/omarchy-netradar",
+        "pluginIds": [
+          "ozdil.netradar"
+        ],
+        "commit": "b5bb923821660747ff9c3eed736c078e71d2bac5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T18:25:41.493Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T11:47:29.941Z",
+        "requestEventId": 32353787552,
+        "requestedAt": "2026-10-02T17:43:24Z",
+        "reviewedAt": "2026-10-02T18:25:41.493Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "9ce2b50e011553e86db0e23d9596b7a281572dcd",
+          "validatedAt": "2026-09-21T19:23:31.622Z",
+          "branch": "master",
+          "supersededAt": "2026-10-02T18:25:41.493Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ozdil/omarchy-netradar",
+            "pluginIds": [
+              "ozdil.netradar"
+            ],
+            "commit": "9ce2b50e011553e86db0e23d9596b7a281572dcd",
+            "checkedAt": "2026-09-21T19:23:31.548Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ozdil/omarchy-netradar",
+            "pluginIds": [
+              "ozdil.netradar"
+            ],
+            "commit": "9ce2b50e011553e86db0e23d9596b7a281572dcd",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-21T19:23:31.548Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-21T11:44:49.933Z",
+            "requestEventId": 31552908060,
+            "requestedAt": "2026-09-21T19:12:25Z",
+            "reviewedAt": "2026-09-21T19:23:31.548Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/FirstIntegral/Vigil",
