@@ -262285,6 +262285,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/NajmAlzorqah/video-downloader-ultra",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T01:25:03.404Z",
+      "listingValidatedCommit": "a48910b5b1998e027bf3e02d5df4b2412866ccf4",
+      "listingValidatedAt": "2026-10-02T01:25:03.404Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "najmalzorqah/video-downloader-ultra",
+        "pluginIds": [
+          "najmalzorqah.video-downloader-ultra"
+        ],
+        "commit": "a48910b5b1998e027bf3e02d5df4b2412866ccf4",
+        "checkedAt": "2026-10-02T01:25:03.292Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "privilege",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "najmalzorqah/video-downloader-ultra",
+        "pluginIds": [
+          "najmalzorqah.video-downloader-ultra"
+        ],
+        "commit": "a48910b5b1998e027bf3e02d5df4b2412866ccf4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T01:25:03.292Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T23:31:22.809Z",
+        "requestEventId": 32300467569,
+        "requestedAt": "2026-10-02T00:57:17Z",
+        "reviewedAt": "2026-10-02T01:25:03.292Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "najmalzorqah.video-downloader-ultra": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
