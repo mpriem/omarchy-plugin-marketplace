@@ -161838,8 +161838,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T23:08:01.076Z",
-      "listingValidatedCommit": "68ce0f70701661fe52558f74fa26be905c219e3c",
-      "listingValidatedAt": "2026-09-13T13:41:43.749Z",
+      "listingValidatedCommit": "1543e855e88c7e955fc32fb263f1d83da1a1e729",
+      "listingValidatedAt": "2026-10-02T10:20:34.903Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -161848,12 +161848,14 @@
         "pluginIds": [
           "io.github.maajix.spotlight"
         ],
-        "commit": "68ce0f70701661fe52558f74fa26be905c219e3c",
-        "checkedAt": "2026-09-13T13:41:43.749Z",
-        "outcome": "passed",
+        "commit": "1543e855e88c7e955fc32fb263f1d83da1a1e729",
+        "checkedAt": "2026-10-02T10:20:34.903Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "service-management"
+        ]
       },
       "plugins": {
         "io.github.maajix.spotlight": {
@@ -161926,8 +161928,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "68ce0f70701661fe52558f74fa26be905c219e3c",
+          "validatedAt": "2026-09-13T13:41:43.749Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T10:20:34.903Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "maajix/omarchy-spotlight",
+            "pluginIds": [
+              "io.github.maajix.spotlight"
+            ],
+            "commit": "68ce0f70701661fe52558f74fa26be905c219e3c",
+            "checkedAt": "2026-09-13T13:41:43.749Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "maajix/omarchy-spotlight",
+        "pluginIds": [
+          "io.github.maajix.spotlight"
+        ],
+        "commit": "1543e855e88c7e955fc32fb263f1d83da1a1e729",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T10:20:34.903Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T07:40:30.727Z",
+        "requestEventId": 32324751029,
+        "requestedAt": "2026-10-02T09:54:14Z",
+        "reviewedAt": "2026-10-02T10:20:34.903Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/cfaulkingham/quickbridge",
