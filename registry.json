@@ -270425,8 +270425,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T05:42:31.568Z",
-      "listingValidatedCommit": "79d3008a9edf5ebdf9090c3bdef022e110e09139",
-      "listingValidatedAt": "2026-10-02T05:42:31.568Z",
+      "listingValidatedCommit": "a7e5ecb40c3e509b8ebe8d47e73918c528bed82c",
+      "listingValidatedAt": "2026-10-02T16:33:05.819Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -270435,8 +270435,8 @@
         "pluginIds": [
           "c4pt0r.vortex"
         ],
-        "commit": "79d3008a9edf5ebdf9090c3bdef022e110e09139",
-        "checkedAt": "2026-10-02T05:42:31.438Z",
+        "commit": "a7e5ecb40c3e509b8ebe8d47e73918c528bed82c",
+        "checkedAt": "2026-10-02T16:33:05.819Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -270451,7 +270451,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "79d3008a9edf5ebdf9090c3bdef022e110e09139",
+          "validatedAt": "2026-10-02T05:42:31.568Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T16:33:05.819Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "c4pt0r/vortex",
+            "pluginIds": [
+              "c4pt0r.vortex"
+            ],
+            "commit": "79d3008a9edf5ebdf9090c3bdef022e110e09139",
+            "checkedAt": "2026-10-02T05:42:31.438Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Deoxizn/now-playing",
