@@ -214394,8 +214394,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T21:28:58.880Z",
-      "listingValidatedCommit": "4a883d94d919de93058dd356701a6f74e3d74d9d",
-      "listingValidatedAt": "2026-09-21T21:28:58.880Z",
+      "listingValidatedCommit": "4c9f3dcced6f1208fd38a9b81e0d433618632348",
+      "listingValidatedAt": "2026-10-02T13:57:20.141Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -214404,35 +214404,14 @@
         "pluginIds": [
           "io.github.lucasvidela94.charge-mode"
         ],
-        "commit": "4a883d94d919de93058dd356701a6f74e3d74d9d",
-        "checkedAt": "2026-09-21T21:28:58.785Z",
+        "commit": "4c9f3dcced6f1208fd38a9b81e0d433618632348",
+        "checkedAt": "2026-10-02T13:57:20.141Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "lucasvidela94/omarchy-charge-mode",
-        "pluginIds": [
-          "io.github.lucasvidela94.charge-mode"
-        ],
-        "commit": "4a883d94d919de93058dd356701a6f74e3d74d9d",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-21T21:28:58.785Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-21T01:47:33.530Z",
-        "requestEventId": 31559851829,
-        "requestedAt": "2026-09-21T21:16:33Z",
-        "reviewedAt": "2026-09-21T21:28:58.785Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.lucasvidela94.charge-mode": {
@@ -214444,7 +214423,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lucasvidela94/omarchy-charge-mode",
+        "pluginIds": [
+          "io.github.lucasvidela94.charge-mode"
+        ],
+        "commit": "4c9f3dcced6f1208fd38a9b81e0d433618632348",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T13:57:20.141Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-22T21:32:02.322Z",
+        "requestEventId": 32336936076,
+        "requestedAt": "2026-10-02T13:25:28Z",
+        "reviewedAt": "2026-10-02T13:57:20.141Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "4a883d94d919de93058dd356701a6f74e3d74d9d",
+          "validatedAt": "2026-09-21T21:28:58.880Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T13:57:20.141Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lucasvidela94/omarchy-charge-mode",
+            "pluginIds": [
+              "io.github.lucasvidela94.charge-mode"
+            ],
+            "commit": "4a883d94d919de93058dd356701a6f74e3d74d9d",
+            "checkedAt": "2026-09-21T21:28:58.785Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "lucasvidela94/omarchy-charge-mode",
+            "pluginIds": [
+              "io.github.lucasvidela94.charge-mode"
+            ],
+            "commit": "4a883d94d919de93058dd356701a6f74e3d74d9d",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-21T21:28:58.785Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-21T01:47:33.530Z",
+            "requestEventId": 31559851829,
+            "requestedAt": "2026-09-21T21:16:33Z",
+            "reviewedAt": "2026-09-21T21:28:58.785Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/tdemers218/hyprworld",
