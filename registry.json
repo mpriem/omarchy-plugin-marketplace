@@ -156532,8 +156532,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T13:50:22.579Z",
-      "listingValidatedCommit": "d536e0032401186700106f78aa3490a5dec13bfe",
-      "listingValidatedAt": "2026-09-13T15:50:05.755Z",
+      "listingValidatedCommit": "b9cadeea13d60ff57b63fbf3279148887caa1f42",
+      "listingValidatedAt": "2026-10-02T12:26:45.731Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -156542,8 +156542,8 @@
         "pluginIds": [
           "jwty.tokscale"
         ],
-        "commit": "d536e0032401186700106f78aa3490a5dec13bfe",
-        "checkedAt": "2026-09-13T15:50:05.754Z",
+        "commit": "b9cadeea13d60ff57b63fbf3279148887caa1f42",
+        "checkedAt": "2026-10-02T12:26:45.731Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -156563,29 +156563,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "jwtiyar/omarchy-tokscale",
-        "pluginIds": [
-          "jwty.tokscale"
-        ],
-        "commit": "d536e0032401186700106f78aa3490a5dec13bfe",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-13T15:50:05.754Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-13T05:17:30.429Z",
-        "requestEventId": 31056104284,
-        "requestedAt": "2026-09-13T15:26:08Z",
-        "reviewedAt": "2026-09-13T15:50:05.755Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -156634,8 +156611,78 @@
             "reviewedAt": "2026-09-08T13:50:22.508Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "d536e0032401186700106f78aa3490a5dec13bfe",
+          "validatedAt": "2026-09-13T15:50:05.755Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T12:26:45.731Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jwtiyar/omarchy-tokscale",
+            "pluginIds": [
+              "jwty.tokscale"
+            ],
+            "commit": "d536e0032401186700106f78aa3490a5dec13bfe",
+            "checkedAt": "2026-09-13T15:50:05.754Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "jwtiyar/omarchy-tokscale",
+            "pluginIds": [
+              "jwty.tokscale"
+            ],
+            "commit": "d536e0032401186700106f78aa3490a5dec13bfe",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-13T15:50:05.754Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-13T05:17:30.429Z",
+            "requestEventId": 31056104284,
+            "requestedAt": "2026-09-13T15:26:08Z",
+            "reviewedAt": "2026-09-13T15:50:05.755Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jwtiyar/omarchy-tokscale",
+        "pluginIds": [
+          "jwty.tokscale"
+        ],
+        "commit": "b9cadeea13d60ff57b63fbf3279148887caa1f42",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T12:26:45.731Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T16:53:05.558Z",
+        "requestEventId": 32330829084,
+        "requestedAt": "2026-10-02T11:47:08Z",
+        "reviewedAt": "2026-10-02T12:26:45.731Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/TIerTek/omarchy-scratchpad-deck",
