@@ -264687,6 +264687,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/urijaRom26/omarchy-plugin-wifi-force-connector",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T03:43:01.216Z",
+      "listingValidatedCommit": "17a21cea9f85b788e943443faf1f8639da663c06",
+      "listingValidatedAt": "2026-10-02T03:43:01.216Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "urijarom26/omarchy-plugin-wifi-force-connector",
+        "pluginIds": [
+          "urija.wifi-force-connector"
+        ],
+        "commit": "17a21cea9f85b788e943443faf1f8639da663c06",
+        "checkedAt": "2026-10-02T03:43:01.094Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "urija.wifi-force-connector": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
