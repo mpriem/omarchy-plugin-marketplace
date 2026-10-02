@@ -216101,8 +216101,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T00:17:06.526Z",
-      "listingValidatedCommit": "eaac8fca29a5c91aa0b4ab86ec57654456ade6c4",
-      "listingValidatedAt": "2026-09-22T00:17:06.526Z",
+      "listingValidatedCommit": "63ceeae2d1f120f7fed772e0d4d076dc3764d641",
+      "listingValidatedAt": "2026-10-02T13:34:25.598Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -216111,8 +216111,8 @@
         "pluginIds": [
           "io.github.broken-branch.kanban"
         ],
-        "commit": "eaac8fca29a5c91aa0b4ab86ec57654456ade6c4",
-        "checkedAt": "2026-09-22T00:17:06.438Z",
+        "commit": "63ceeae2d1f120f7fed772e0d4d076dc3764d641",
+        "checkedAt": "2026-10-02T13:34:25.598Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -216120,28 +216120,6 @@
           "privilege",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "broken-branch/omarchy-github-kanban",
-        "pluginIds": [
-          "io.github.broken-branch.kanban"
-        ],
-        "commit": "eaac8fca29a5c91aa0b4ab86ec57654456ade6c4",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-22T00:17:06.438Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-21T23:59:45.985Z",
-        "requestEventId": 31567115766,
-        "requestedAt": "2026-09-22T00:13:43Z",
-        "reviewedAt": "2026-09-22T00:17:06.438Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.broken-branch.kanban": {
@@ -216152,7 +216130,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "broken-branch/omarchy-github-kanban",
+        "pluginIds": [
+          "io.github.broken-branch.kanban"
+        ],
+        "commit": "63ceeae2d1f120f7fed772e0d4d076dc3764d641",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T13:34:25.598Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-22T17:38:53.020Z",
+        "requestEventId": 32335121247,
+        "requestedAt": "2026-10-02T12:57:48Z",
+        "reviewedAt": "2026-10-02T13:34:25.598Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "eaac8fca29a5c91aa0b4ab86ec57654456ade6c4",
+          "validatedAt": "2026-09-22T00:17:06.526Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T13:34:25.598Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "broken-branch/omarchy-github-kanban",
+            "pluginIds": [
+              "io.github.broken-branch.kanban"
+            ],
+            "commit": "eaac8fca29a5c91aa0b4ab86ec57654456ade6c4",
+            "checkedAt": "2026-09-22T00:17:06.438Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "broken-branch/omarchy-github-kanban",
+            "pluginIds": [
+              "io.github.broken-branch.kanban"
+            ],
+            "commit": "eaac8fca29a5c91aa0b4ab86ec57654456ade6c4",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-22T00:17:06.438Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-21T23:59:45.985Z",
+            "requestEventId": 31567115766,
+            "requestedAt": "2026-09-22T00:13:43Z",
+            "reviewedAt": "2026-09-22T00:17:06.438Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/byronroark/omarchy-streampip",
