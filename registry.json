@@ -274929,6 +274929,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tumbleweedlabs/omarchy-klipsch-pcm",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T19:50:28.921Z",
+      "listingValidatedCommit": "746c95da182a3469f2ebe03879f987b83bbfe7e3",
+      "listingValidatedAt": "2026-10-02T19:50:28.921Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tumbleweedlabs/omarchy-klipsch-pcm",
+        "pluginIds": [
+          "io.github.tumbleweedlabs.klipsch-pcm"
+        ],
+        "commit": "746c95da182a3469f2ebe03879f987b83bbfe7e3",
+        "checkedAt": "2026-10-02T19:50:28.791Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tumbleweedlabs/omarchy-klipsch-pcm",
+        "pluginIds": [
+          "io.github.tumbleweedlabs.klipsch-pcm"
+        ],
+        "commit": "746c95da182a3469f2ebe03879f987b83bbfe7e3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T19:50:28.791Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T18:04:07.830Z",
+        "requestEventId": 32360230427,
+        "requestedAt": "2026-10-02T19:32:15Z",
+        "reviewedAt": "2026-10-02T19:50:28.791Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.tumbleweedlabs.klipsch-pcm": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
