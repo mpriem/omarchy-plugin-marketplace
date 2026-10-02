@@ -276667,6 +276667,64 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/tymurbogach/battery",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T22:28:27.101Z",
+      "listingValidatedCommit": "16eed9309d83dfdcfe35924a1f983b75633c6b0e",
+      "listingValidatedAt": "2026-10-02T22:28:27.101Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tymurbogach/battery",
+        "pluginIds": [
+          "cyberdyne.battery"
+        ],
+        "commit": "16eed9309d83dfdcfe35924a1f983b75633c6b0e",
+        "checkedAt": "2026-10-02T22:28:27.025Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tymurbogach/battery",
+        "pluginIds": [
+          "cyberdyne.battery"
+        ],
+        "commit": "16eed9309d83dfdcfe35924a1f983b75633c6b0e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T22:28:27.025Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T21:05:19.591Z",
+        "requestEventId": 32369583428,
+        "requestedAt": "2026-10-02T22:26:43Z",
+        "reviewedAt": "2026-10-02T22:28:27.025Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "cyberdyne.battery": {
+          "category": "System",
+          "tags": [
+            "power-management",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
