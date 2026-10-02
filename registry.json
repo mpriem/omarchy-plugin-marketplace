@@ -262091,6 +262091,75 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Aayush9029/OmaFan",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T01:13:15.184Z",
+      "listingValidatedCommit": "91674b184450bce66d1c62bfae2710d3d278d36b",
+      "listingValidatedAt": "2026-10-02T01:13:15.184Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "aayush9029/omafan",
+        "pluginIds": [
+          "io.github.aayush9029.omafan"
+        ],
+        "commit": "91674b184450bce66d1c62bfae2710d3d278d36b",
+        "checkedAt": "2026-10-02T01:13:15.059Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "privilege",
+          "service-management",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "aayush9029/omafan",
+        "pluginIds": [
+          "io.github.aayush9029.omafan"
+        ],
+        "commit": "91674b184450bce66d1c62bfae2710d3d278d36b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T01:13:15.059Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "privilege",
+          "service-management",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T00:43:04.827Z",
+        "requestEventId": 32299935718,
+        "requestedAt": "2026-10-02T00:44:19Z",
+        "reviewedAt": "2026-10-02T01:13:15.059Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.aayush9029.omafan": {
+          "category": "Hardware",
+          "tags": [
+            "system",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
