@@ -275180,6 +275180,61 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/MaenExists/omaopus",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T20:06:23.801Z",
+      "listingValidatedCommit": "5380329133c2b13475fce7881181548d28452f9e",
+      "listingValidatedAt": "2026-10-02T20:06:23.801Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "maenexists/omaopus",
+        "pluginIds": [
+          "maen.omaopus"
+        ],
+        "commit": "5380329133c2b13475fce7881181548d28452f9e",
+        "checkedAt": "2026-10-02T20:06:23.686Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "maenexists/omaopus",
+        "pluginIds": [
+          "maen.omaopus"
+        ],
+        "commit": "5380329133c2b13475fce7881181548d28452f9e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T20:06:23.686Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T19:45:33.552Z",
+        "requestEventId": 32361269882,
+        "requestedAt": "2026-10-02T19:50:22Z",
+        "reviewedAt": "2026-10-02T20:06:23.686Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "maen.omaopus": {
+          "category": "Widgets",
+          "tags": [
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
