@@ -275084,6 +275084,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Cloud-First-Consulting/omarchy-instantcampaign-spark",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T19:59:44.137Z",
+      "listingValidatedCommit": "b9ac1b5d66bcae7a33823f107417aae64b8da450",
+      "listingValidatedAt": "2026-10-02T19:59:44.137Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cloud-first-consulting/omarchy-instantcampaign-spark",
+        "pluginIds": [
+          "instantcampaign.spark"
+        ],
+        "commit": "b9ac1b5d66bcae7a33823f107417aae64b8da450",
+        "checkedAt": "2026-10-02T19:59:44.012Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "instantcampaign.spark": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
