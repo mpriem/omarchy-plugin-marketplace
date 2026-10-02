@@ -272679,6 +272679,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Nikolaos-Gkionis/omarchy-imessage",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T16:44:15.703Z",
+      "listingValidatedCommit": "cd296d379040816763ff63a1e289bd77b397647f",
+      "listingValidatedAt": "2026-10-02T16:44:15.703Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nikolaos-gkionis/omarchy-imessage",
+        "pluginIds": [
+          "io.github.nikolaos-gkionis.messages"
+        ],
+        "commit": "cd296d379040816763ff63a1e289bd77b397647f",
+        "checkedAt": "2026-10-02T16:44:15.569Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nikolaos-gkionis/omarchy-imessage",
+        "pluginIds": [
+          "io.github.nikolaos-gkionis.messages"
+        ],
+        "commit": "cd296d379040816763ff63a1e289bd77b397647f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T16:44:15.569Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T14:50:48.873Z",
+        "requestEventId": 32348728408,
+        "requestedAt": "2026-10-02T16:19:58Z",
+        "reviewedAt": "2026-10-02T16:44:15.569Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.nikolaos-gkionis.messages": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
