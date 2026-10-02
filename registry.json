@@ -229692,8 +229692,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-23",
       "listedAt": "2026-09-23T02:07:59.060Z",
-      "listingValidatedCommit": "d333fb135f6204b6d9276eef932a83a437077794",
-      "listingValidatedAt": "2026-10-01T09:43:08.073Z",
+      "listingValidatedCommit": "0e63adf502c22c5d711c57815bbd1f5896e33cbf",
+      "listingValidatedAt": "2026-10-02T22:03:23.180Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -229702,8 +229702,8 @@
         "pluginIds": [
           "rohirik.docker-monitor"
         ],
-        "commit": "d333fb135f6204b6d9276eef932a83a437077794",
-        "checkedAt": "2026-10-01T09:43:08.073Z",
+        "commit": "0e63adf502c22c5d711c57815bbd1f5896e33cbf",
+        "checkedAt": "2026-10-02T22:03:23.179Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -229735,6 +229735,26 @@
             ],
             "commit": "d0e6a0c8c102537ace81db89d2b7466b22fd7f9f",
             "checkedAt": "2026-09-23T02:07:58.953Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "d333fb135f6204b6d9276eef932a83a437077794",
+          "validatedAt": "2026-10-01T09:43:08.073Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T22:03:23.180Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rohirik/omarchy-docker-monitor",
+            "pluginIds": [
+              "rohirik.docker-monitor"
+            ],
+            "commit": "d333fb135f6204b6d9276eef932a83a437077794",
+            "checkedAt": "2026-10-01T09:43:08.073Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
