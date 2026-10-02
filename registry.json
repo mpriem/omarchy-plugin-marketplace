@@ -272879,6 +272879,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/rclinux/omapasswords",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T16:59:27.350Z",
+      "listingValidatedCommit": "d61e3be1ced69e1066920c3020a9be91a1ff4c01",
+      "listingValidatedAt": "2026-10-02T16:59:27.350Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rclinux/omapasswords",
+        "pluginIds": [
+          "io.github.rclinux.omapasswords"
+        ],
+        "commit": "d61e3be1ced69e1066920c3020a9be91a1ff4c01",
+        "checkedAt": "2026-10-02T16:59:27.223Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.rclinux.omapasswords": {
+          "category": "Productivity",
+          "tags": [
+            "security",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
