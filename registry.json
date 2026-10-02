@@ -51620,8 +51620,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-22",
       "listedAt": "2026-08-22T22:22:24.300Z",
-      "listingValidatedCommit": "9be2fc9d1a8b2b708d36276d5902876574952cde",
-      "listingValidatedAt": "2026-08-22T22:22:24.300Z",
+      "listingValidatedCommit": "139f6fe1c5d2a4bb2a53e537f591fdf56b2958db",
+      "listingValidatedAt": "2026-10-02T06:48:19.765Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -51630,37 +51630,17 @@
         "pluginIds": [
           "stefanmara.bookmarks"
         ],
-        "commit": "9be2fc9d1a8b2b708d36276d5902876574952cde",
-        "checkedAt": "2026-08-22T22:22:24.275Z",
-        "outcome": "review-required",
+        "commit": "139f6fe1c5d2a4bb2a53e537f591fdf56b2958db",
+        "checkedAt": "2026-10-02T06:48:19.765Z",
+        "outcome": "needs-fixes",
         "enforcementMode": "selective",
-        "findings": [],
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
         "capabilities": [
-          "service-management",
-          "package-manager"
+          "installer",
+          "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "stefanmarantonsson/omarchy-bookmarks",
-        "pluginIds": [
-          "stefanmara.bookmarks"
-        ],
-        "commit": "9be2fc9d1a8b2b708d36276d5902876574952cde",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-22T22:22:24.275Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-22T22:16:12.611Z",
-        "requestEventId": 29858459103,
-        "requestedAt": "2026-08-22T22:21:07Z",
-        "reviewedAt": "2026-08-22T22:22:24.275Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "stefanmara.bookmarks": {
@@ -51671,7 +51651,78 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "stefanmarantonsson/omarchy-bookmarks",
+        "pluginIds": [
+          "stefanmara.bookmarks"
+        ],
+        "commit": "139f6fe1c5d2a4bb2a53e537f591fdf56b2958db",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T06:48:19.765Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "installer",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-21T12:39:49.514Z",
+        "requestEventId": 32313895602,
+        "requestedAt": "2026-10-02T06:31:06Z",
+        "reviewedAt": "2026-10-02T06:48:19.765Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "9be2fc9d1a8b2b708d36276d5902876574952cde",
+          "validatedAt": "2026-08-22T22:22:24.300Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T06:48:19.765Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "stefanmarantonsson/omarchy-bookmarks",
+            "pluginIds": [
+              "stefanmara.bookmarks"
+            ],
+            "commit": "9be2fc9d1a8b2b708d36276d5902876574952cde",
+            "checkedAt": "2026-08-22T22:22:24.275Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "stefanmarantonsson/omarchy-bookmarks",
+            "pluginIds": [
+              "stefanmara.bookmarks"
+            ],
+            "commit": "9be2fc9d1a8b2b708d36276d5902876574952cde",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-22T22:22:24.275Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-22T22:16:12.611Z",
+            "requestEventId": 29858459103,
+            "requestedAt": "2026-08-22T22:21:07Z",
+            "reviewedAt": "2026-08-22T22:22:24.275Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/RegionallyFamous/fukumei",
