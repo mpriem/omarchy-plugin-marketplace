@@ -231160,8 +231160,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-24",
       "listedAt": "2026-09-24T18:23:33.225Z",
-      "listingValidatedCommit": "0135dae264268d7457aa2d2e18716b9cd813e6c8",
-      "listingValidatedAt": "2026-10-01T07:06:01.199Z",
+      "listingValidatedCommit": "a7fc3f9cc7dff6a7187797d4a02d6506565adde4",
+      "listingValidatedAt": "2026-10-02T08:15:27.469Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -231170,8 +231170,8 @@
         "pluginIds": [
           "io.github.mtolhuys.fathom"
         ],
-        "commit": "0135dae264268d7457aa2d2e18716b9cd813e6c8",
-        "checkedAt": "2026-10-01T07:06:01.199Z",
+        "commit": "a7fc3f9cc7dff6a7187797d4a02d6506565adde4",
+        "checkedAt": "2026-10-02T08:15:27.469Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -231203,6 +231203,26 @@
             ],
             "commit": "6e032d00aeab35189c95b100009ad9f932757ec8",
             "checkedAt": "2026-09-24T18:23:33.126Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "0135dae264268d7457aa2d2e18716b9cd813e6c8",
+          "validatedAt": "2026-10-01T07:06:01.199Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T08:15:27.469Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mtolhuys/fathom",
+            "pluginIds": [
+              "io.github.mtolhuys.fathom"
+            ],
+            "commit": "0135dae264268d7457aa2d2e18716b9cd813e6c8",
+            "checkedAt": "2026-10-01T07:06:01.199Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
