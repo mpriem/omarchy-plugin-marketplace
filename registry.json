@@ -267663,6 +267663,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/lookiyam-94/omarchy-memento-mori",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T08:12:26.476Z",
+      "listingValidatedCommit": "7f440e0b39b845a60f3e519c616ffcebe86edaf9",
+      "listingValidatedAt": "2026-10-02T08:12:26.476Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lookiyam-94/omarchy-memento-mori",
+        "pluginIds": [
+          "lookiyam.memento"
+        ],
+        "commit": "7f440e0b39b845a60f3e519c616ffcebe86edaf9",
+        "checkedAt": "2026-10-02T08:12:26.358Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "lookiyam.memento": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
