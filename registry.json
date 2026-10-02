@@ -261264,6 +261264,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/namelesstherebel/hyprchess",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T00:22:07.968Z",
+      "listingValidatedCommit": "3ab5da365f8aa2063a76e7249cb5bf6023e68217",
+      "listingValidatedAt": "2026-10-02T00:22:07.968Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "namelesstherebel/hyprchess",
+        "pluginIds": [
+          "io.github.namelesstherebel.hyprchess"
+        ],
+        "commit": "3ab5da365f8aa2063a76e7249cb5bf6023e68217",
+        "checkedAt": "2026-10-02T00:22:07.850Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "namelesstherebel/hyprchess",
+        "pluginIds": [
+          "io.github.namelesstherebel.hyprchess"
+        ],
+        "commit": "3ab5da365f8aa2063a76e7249cb5bf6023e68217",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T00:22:07.850Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T20:40:18.300Z",
+        "requestEventId": 32298039338,
+        "requestedAt": "2026-10-01T23:58:32Z",
+        "reviewedAt": "2026-10-02T00:22:07.850Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.namelesstherebel.hyprchess": {
+          "category": "Other",
+          "tags": [
+            "games",
+            "bar",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
