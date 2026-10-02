@@ -263030,6 +263030,72 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/petrzpav/omarchy-mail",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T02:05:24.795Z",
+      "listingValidatedCommit": "89a484cb22b0acd5bc42d01dc3867a0268573761",
+      "listingValidatedAt": "2026-10-02T02:05:24.795Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "petrzpav/omarchy-mail",
+        "pluginIds": [
+          "petrzpav.mail"
+        ],
+        "commit": "89a484cb22b0acd5bc42d01dc3867a0268573761",
+        "checkedAt": "2026-10-02T02:05:24.691Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "petrzpav/omarchy-mail",
+        "pluginIds": [
+          "petrzpav.mail"
+        ],
+        "commit": "89a484cb22b0acd5bc42d01dc3867a0268573761",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T02:05:24.691Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T01:34:35.161Z",
+        "requestEventId": 32302109112,
+        "requestedAt": "2026-10-02T01:37:12Z",
+        "reviewedAt": "2026-10-02T02:05:24.691Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "petrzpav.mail": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
