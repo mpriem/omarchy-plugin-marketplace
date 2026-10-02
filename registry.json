@@ -262711,6 +262711,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/LinuxGamerUK/omarchy-dual-monitor-workspaces",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T01:45:48.944Z",
+      "listingValidatedCommit": "8eae6dffc936dead7ac13288cc45cc479e2d6ee3",
+      "listingValidatedAt": "2026-10-02T01:45:48.944Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "linuxgameruk/omarchy-dual-monitor-workspaces",
+        "pluginIds": [
+          "io.github.linuxgameruk.dual-monitor-workspaces"
+        ],
+        "commit": "8eae6dffc936dead7ac13288cc45cc479e2d6ee3",
+        "checkedAt": "2026-10-02T01:45:48.807Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "linuxgameruk/omarchy-dual-monitor-workspaces",
+        "pluginIds": [
+          "io.github.linuxgameruk.dual-monitor-workspaces"
+        ],
+        "commit": "8eae6dffc936dead7ac13288cc45cc479e2d6ee3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T01:45:48.807Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T01:17:40.554Z",
+        "requestEventId": 32301518777,
+        "requestedAt": "2026-10-02T01:22:16Z",
+        "reviewedAt": "2026-10-02T01:45:48.807Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.linuxgameruk.dual-monitor-workspaces": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
