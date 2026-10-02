@@ -265092,8 +265092,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T17:02:11.791Z",
-      "listingValidatedCommit": "345b78aea6c33ed84d9d1366ea0e5f58abbcbcd8",
-      "listingValidatedAt": "2026-10-02T21:03:09.783Z",
+      "listingValidatedCommit": "11c88685a979d5d8abfa850ab401cc1a49d8639d",
+      "listingValidatedAt": "2026-10-02T22:56:07.125Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -265102,8 +265102,8 @@
         "pluginIds": [
           "io.github.iluxav.omaestro"
         ],
-        "commit": "345b78aea6c33ed84d9d1366ea0e5f58abbcbcd8",
-        "checkedAt": "2026-10-02T21:03:09.783Z",
+        "commit": "11c88685a979d5d8abfa850ab401cc1a49d8639d",
+        "checkedAt": "2026-10-02T22:56:07.125Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -265275,6 +265275,57 @@
             "reviewedAt": "2026-10-02T19:03:28.340Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "345b78aea6c33ed84d9d1366ea0e5f58abbcbcd8",
+          "validatedAt": "2026-10-02T21:03:09.783Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T22:56:07.125Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "iluxav/omaestro",
+            "pluginIds": [
+              "io.github.iluxav.omaestro"
+            ],
+            "commit": "345b78aea6c33ed84d9d1366ea0e5f58abbcbcd8",
+            "checkedAt": "2026-10-02T21:03:09.783Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "remote-build",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "iluxav/omaestro",
+            "pluginIds": [
+              "io.github.iluxav.omaestro"
+            ],
+            "commit": "345b78aea6c33ed84d9d1366ea0e5f58abbcbcd8",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T21:03:09.783Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "remote-build",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T20:40:09.857Z",
+            "requestEventId": 32364904079,
+            "requestedAt": "2026-10-02T20:52:02Z",
+            "reviewedAt": "2026-10-02T21:03:09.783Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -265283,10 +265334,10 @@
         "pluginIds": [
           "io.github.iluxav.omaestro"
         ],
-        "commit": "345b78aea6c33ed84d9d1366ea0e5f58abbcbcd8",
+        "commit": "11c88685a979d5d8abfa850ab401cc1a49d8639d",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T21:03:09.783Z",
+        "baselineCheckedAt": "2026-10-02T22:56:07.125Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -265296,10 +265347,10 @@
           "privilege",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-02T20:40:09.857Z",
-        "requestEventId": 32364904079,
-        "requestedAt": "2026-10-02T20:52:02Z",
-        "reviewedAt": "2026-10-02T21:03:09.783Z",
+        "reviewedBaselineCheckedAt": "2026-10-02T22:30:30.325Z",
+        "requestEventId": 32370791912,
+        "requestedAt": "2026-10-02T22:53:07Z",
+        "reviewedAt": "2026-10-02T22:56:07.125Z",
         "reviewer": "HANCORE-linux"
       }
     },
