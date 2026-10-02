@@ -266092,6 +266092,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/shuuul/omarchy-token-monitor",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T06:18:48.900Z",
+      "listingValidatedCommit": "a100685665c59d71f1a9575ae3113e53f5e92769",
+      "listingValidatedAt": "2026-10-02T06:18:48.900Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "shuuul/omarchy-token-monitor",
+        "pluginIds": [
+          "shuuul.token-monitor"
+        ],
+        "commit": "a100685665c59d71f1a9575ae3113e53f5e92769",
+        "checkedAt": "2026-10-02T06:18:48.823Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "shuuul/omarchy-token-monitor",
+        "pluginIds": [
+          "shuuul.token-monitor"
+        ],
+        "commit": "a100685665c59d71f1a9575ae3113e53f5e92769",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T06:18:48.823Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T06:13:35.531Z",
+        "requestEventId": 32313225997,
+        "requestedAt": "2026-10-02T06:15:50Z",
+        "reviewedAt": "2026-10-02T06:18:48.823Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "shuuul.token-monitor": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
