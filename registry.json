@@ -265028,6 +265028,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/brunorzm/omaklippy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T04:04:01.349Z",
+      "listingValidatedCommit": "cba2f3d248881996d4ca9f8d6739f7e6481569ce",
+      "listingValidatedAt": "2026-10-02T04:04:01.349Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "brunorzm/omaklippy",
+        "pluginIds": [
+          "io.github.brunorzm.omaklippy"
+        ],
+        "commit": "cba2f3d248881996d4ca9f8d6739f7e6481569ce",
+        "checkedAt": "2026-10-02T04:04:01.220Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "brunorzm/omaklippy",
+        "pluginIds": [
+          "io.github.brunorzm.omaklippy"
+        ],
+        "commit": "cba2f3d248881996d4ca9f8d6739f7e6481569ce",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T04:04:01.220Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T03:35:13.315Z",
+        "requestEventId": 32307019775,
+        "requestedAt": "2026-10-02T03:36:26Z",
+        "reviewedAt": "2026-10-02T04:04:01.220Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.brunorzm.omaklippy": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
