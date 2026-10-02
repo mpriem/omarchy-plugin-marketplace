@@ -265519,6 +265519,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/uripg/omarchy-tablet",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T05:01:44.190Z",
+      "listingValidatedCommit": "d3acfee7555de9604b66573f15cff75f0e575aa3",
+      "listingValidatedAt": "2026-10-02T05:01:44.190Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "uripg/omarchy-tablet",
+        "pluginIds": [
+          "io.github.uripg.tablet"
+        ],
+        "commit": "d3acfee7555de9604b66573f15cff75f0e575aa3",
+        "checkedAt": "2026-10-02T05:01:44.090Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "uripg/omarchy-tablet",
+        "pluginIds": [
+          "io.github.uripg.tablet"
+        ],
+        "commit": "d3acfee7555de9604b66573f15cff75f0e575aa3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T05:01:44.090Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T04:46:48.241Z",
+        "requestEventId": 32310168626,
+        "requestedAt": "2026-10-02T05:01:03Z",
+        "reviewedAt": "2026-10-02T05:01:44.091Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.uripg.tablet": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
