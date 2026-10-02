@@ -196947,8 +196947,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-17",
       "listedAt": "2026-09-17T14:17:47.351Z",
-      "listingValidatedCommit": "c21c45542b6aae67162c506f583f3d0715db5286",
-      "listingValidatedAt": "2026-09-17T14:17:47.351Z",
+      "listingValidatedCommit": "8c46efa7571567305307917528aab4bfb9c17eaa",
+      "listingValidatedAt": "2026-10-02T14:26:43.016Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -196957,8 +196957,8 @@
         "pluginIds": [
           "io.github.danjonesio.coolwatch"
         ],
-        "commit": "c21c45542b6aae67162c506f583f3d0715db5286",
-        "checkedAt": "2026-09-17T14:17:47.253Z",
+        "commit": "8c46efa7571567305307917528aab4bfb9c17eaa",
+        "checkedAt": "2026-10-02T14:26:43.016Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -196973,7 +196973,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "c21c45542b6aae67162c506f583f3d0715db5286",
+          "validatedAt": "2026-09-17T14:17:47.351Z",
+          "branch": "master",
+          "supersededAt": "2026-10-02T14:26:43.016Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "danjonesio/coolwatch",
+            "pluginIds": [
+              "io.github.danjonesio.coolwatch"
+            ],
+            "commit": "c21c45542b6aae67162c506f583f3d0715db5286",
+            "checkedAt": "2026-09-17T14:17:47.253Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/thebenwalther/omarchy-apple-music",
