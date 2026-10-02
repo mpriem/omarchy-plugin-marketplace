@@ -263285,6 +263285,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/foexig/omarchy-sfl",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T02:20:21.338Z",
+      "listingValidatedCommit": "60f99d2c0cbef78b43e34a39bc19e35acca038cc",
+      "listingValidatedAt": "2026-10-02T02:20:21.338Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "foexig/omarchy-sfl",
+        "pluginIds": [
+          "fabio.crypto"
+        ],
+        "commit": "60f99d2c0cbef78b43e34a39bc19e35acca038cc",
+        "checkedAt": "2026-10-02T02:20:21.220Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "foexig/omarchy-sfl",
+        "pluginIds": [
+          "fabio.crypto"
+        ],
+        "commit": "60f99d2c0cbef78b43e34a39bc19e35acca038cc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T02:20:21.220Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T01:50:56.271Z",
+        "requestEventId": 32302777985,
+        "requestedAt": "2026-10-02T01:52:08Z",
+        "reviewedAt": "2026-10-02T02:20:21.220Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "fabio.crypto": {
+          "category": "Productivity",
+          "tags": [
+            "security",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
