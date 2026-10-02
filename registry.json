@@ -268461,6 +268461,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/SotoAugusto/omarchy-airpods",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T09:47:27.086Z",
+      "listingValidatedCommit": "a1de124d77453bf572fbef1538334ea2ef238cd4",
+      "listingValidatedAt": "2026-10-02T09:47:27.086Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sotoaugusto/omarchy-airpods",
+        "pluginIds": [
+          "io.github.sotoaugusto.airpods"
+        ],
+        "commit": "a1de124d77453bf572fbef1538334ea2ef238cd4",
+        "checkedAt": "2026-10-02T09:47:26.973Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "sotoaugusto/omarchy-airpods",
+        "pluginIds": [
+          "io.github.sotoaugusto.airpods"
+        ],
+        "commit": "a1de124d77453bf572fbef1538334ea2ef238cd4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T09:47:26.973Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T09:26:17.319Z",
+        "requestEventId": 32323749121,
+        "requestedAt": "2026-10-02T09:36:12Z",
+        "reviewedAt": "2026-10-02T09:47:26.973Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.sotoaugusto.airpods": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
