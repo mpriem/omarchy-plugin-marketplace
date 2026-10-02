@@ -265116,6 +265116,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/supercleanse/promptbro",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T04:10:27.618Z",
+      "listingValidatedCommit": "41721c10bc67497aee2cea6bc10431bf8bbc055b",
+      "listingValidatedAt": "2026-10-02T04:10:27.618Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "supercleanse/promptbro",
+        "pluginIds": [
+          "supercleanse.promptbro"
+        ],
+        "commit": "41721c10bc67497aee2cea6bc10431bf8bbc055b",
+        "checkedAt": "2026-10-02T04:10:27.549Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "supercleanse/promptbro",
+        "pluginIds": [
+          "supercleanse.promptbro"
+        ],
+        "commit": "41721c10bc67497aee2cea6bc10431bf8bbc055b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T04:10:27.549Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T03:35:58.249Z",
+        "requestEventId": 32307247672,
+        "requestedAt": "2026-10-02T03:42:48Z",
+        "reviewedAt": "2026-10-02T04:10:27.549Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "supercleanse.promptbro": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
