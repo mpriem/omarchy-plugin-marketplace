@@ -264118,6 +264118,73 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/leandrooricchio/omarchy-vivobook",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T03:09:46.779Z",
+      "listingValidatedCommit": "cdc6361f2a88df7102e5991caf7402268dab0a53",
+      "listingValidatedAt": "2026-10-02T03:09:46.779Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "leandrooricchio/omarchy-vivobook",
+        "pluginIds": [
+          "io.github.leandrooricchio.vivobook"
+        ],
+        "commit": "cdc6361f2a88df7102e5991caf7402268dab0a53",
+        "checkedAt": "2026-10-02T03:09:46.673Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "sudoers-modification",
+          "remote-build",
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "leandrooricchio/omarchy-vivobook",
+        "pluginIds": [
+          "io.github.leandrooricchio.vivobook"
+        ],
+        "commit": "cdc6361f2a88df7102e5991caf7402268dab0a53",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T03:09:46.673Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "sudoers-modification",
+          "remote-build",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T02:05:31.293Z",
+        "requestEventId": 32304802652,
+        "requestedAt": "2026-10-02T02:39:39Z",
+        "reviewedAt": "2026-10-02T03:09:46.673Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.leandrooricchio.vivobook": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "power-management"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
