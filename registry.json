@@ -276994,6 +276994,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Xarishark/Language-and-Input-Omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T22:59:01.026Z",
+      "listingValidatedCommit": "7442d8f28cd36671d64418d510b77c429422737c",
+      "listingValidatedAt": "2026-10-02T22:59:01.026Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "xarishark/language-and-input-omarchy",
+        "pluginIds": [
+          "xarishark.language-input"
+        ],
+        "commit": "7442d8f28cd36671d64418d510b77c429422737c",
+        "checkedAt": "2026-10-02T22:59:00.922Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "xarishark/language-and-input-omarchy",
+        "pluginIds": [
+          "xarishark.language-input"
+        ],
+        "commit": "7442d8f28cd36671d64418d510b77c429422737c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T22:59:00.922Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T22:43:30.531Z",
+        "requestEventId": 32370819050,
+        "requestedAt": "2026-10-02T22:53:44Z",
+        "reviewedAt": "2026-10-02T22:59:00.922Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "xarishark.language-input": {
+          "category": "System",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
