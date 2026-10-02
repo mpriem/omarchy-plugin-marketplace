@@ -55075,8 +55075,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-23",
       "listedAt": "2026-08-23T10:15:43.985Z",
-      "listingValidatedCommit": "0575bf4313ffeaea80dc26a87ec6e54fc58bdf86",
-      "listingValidatedAt": "2026-08-23T10:15:43.985Z",
+      "listingValidatedCommit": "048d3bb55a0a3770f967f9b1ecd6791751eb6708",
+      "listingValidatedAt": "2026-10-02T10:55:58.836Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -55085,37 +55085,16 @@
         "pluginIds": [
           "mrai.keyguide"
         ],
-        "commit": "0575bf4313ffeaea80dc26a87ec6e54fc58bdf86",
-        "checkedAt": "2026-08-23T10:15:43.954Z",
+        "commit": "048d3bb55a0a3770f967f9b1ecd6791751eb6708",
+        "checkedAt": "2026-10-02T10:55:58.836Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
+          "privilege",
           "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "mrai125kr/omarchy-keyguide",
-        "pluginIds": [
-          "mrai.keyguide"
-        ],
-        "commit": "0575bf4313ffeaea80dc26a87ec6e54fc58bdf86",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-23T10:15:43.954Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-23T09:01:15.240Z",
-        "requestEventId": 29868889919,
-        "requestedAt": "2026-08-23T10:08:10Z",
-        "reviewedAt": "2026-08-23T10:15:43.954Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "mrai.keyguide": {
@@ -55127,7 +55106,77 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mrai125kr/omarchy-keyguide",
+        "pluginIds": [
+          "mrai.keyguide"
+        ],
+        "commit": "048d3bb55a0a3770f967f9b1ecd6791751eb6708",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T10:55:58.836Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-19T05:04:14.786Z",
+        "requestEventId": 32326639993,
+        "requestedAt": "2026-10-02T10:28:36Z",
+        "reviewedAt": "2026-10-02T10:55:58.836Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0575bf4313ffeaea80dc26a87ec6e54fc58bdf86",
+          "validatedAt": "2026-08-23T10:15:43.985Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T10:55:58.836Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mrai125kr/omarchy-keyguide",
+            "pluginIds": [
+              "mrai.keyguide"
+            ],
+            "commit": "0575bf4313ffeaea80dc26a87ec6e54fc58bdf86",
+            "checkedAt": "2026-08-23T10:15:43.954Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "mrai125kr/omarchy-keyguide",
+            "pluginIds": [
+              "mrai.keyguide"
+            ],
+            "commit": "0575bf4313ffeaea80dc26a87ec6e54fc58bdf86",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-23T10:15:43.954Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-23T09:01:15.240Z",
+            "requestEventId": 29868889919,
+            "requestedAt": "2026-08-23T10:08:10Z",
+            "reviewedAt": "2026-08-23T10:15:43.954Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/sgruendel/omarchy-airq",
