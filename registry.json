@@ -263929,6 +263929,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/kamal-v8/flowfocus",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T02:57:46.704Z",
+      "listingValidatedCommit": "20d4bfac373b64fa5f945b12086d1887f600e7b2",
+      "listingValidatedAt": "2026-10-02T02:57:46.704Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kamal-v8/flowfocus",
+        "pluginIds": [
+          "flowfocus"
+        ],
+        "commit": "20d4bfac373b64fa5f945b12086d1887f600e7b2",
+        "checkedAt": "2026-10-02T02:57:46.582Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "flowfocus": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
