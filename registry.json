@@ -176928,8 +176928,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-12",
       "listedAt": "2026-09-12T17:57:13.109Z",
-      "listingValidatedCommit": "366498d5c3ac08d2e25c21fd7f95414fba60ed83",
-      "listingValidatedAt": "2026-09-12T17:57:13.109Z",
+      "listingValidatedCommit": "9346f0921db925e03d29c04ff945d47cf80c5ce2",
+      "listingValidatedAt": "2026-10-02T21:50:41.799Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -176938,8 +176938,8 @@
         "pluginIds": [
           "io.github.mcurtis.wispr-flow"
         ],
-        "commit": "366498d5c3ac08d2e25c21fd7f95414fba60ed83",
-        "checkedAt": "2026-09-12T17:57:13.034Z",
+        "commit": "9346f0921db925e03d29c04ff945d47cf80c5ce2",
+        "checkedAt": "2026-10-02T21:50:41.799Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -176955,7 +176955,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "366498d5c3ac08d2e25c21fd7f95414fba60ed83",
+          "validatedAt": "2026-09-12T17:57:13.109Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T21:50:41.799Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mcurtis/omarchy-wispr-flow",
+            "pluginIds": [
+              "io.github.mcurtis.wispr-flow"
+            ],
+            "commit": "366498d5c3ac08d2e25c21fd7f95414fba60ed83",
+            "checkedAt": "2026-09-12T17:57:13.034Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/delarosa1312/omarchy-sony-xm5",
