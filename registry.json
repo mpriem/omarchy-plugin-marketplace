@@ -239498,8 +239498,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-26",
       "listedAt": "2026-09-26T16:24:58.877Z",
-      "listingValidatedCommit": "03dcf242aad0f9b326528c4dd156f87bc8650277",
-      "listingValidatedAt": "2026-09-26T16:24:58.877Z",
+      "listingValidatedCommit": "75065d733be772eb773f53b58a30b2fd15cc16c8",
+      "listingValidatedAt": "2026-10-02T12:10:55.836Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -239508,35 +239508,14 @@
         "pluginIds": [
           "io.github.swiizerkuh.afterglow"
         ],
-        "commit": "03dcf242aad0f9b326528c4dd156f87bc8650277",
-        "checkedAt": "2026-09-26T16:24:58.772Z",
+        "commit": "75065d733be772eb773f53b58a30b2fd15cc16c8",
+        "checkedAt": "2026-10-02T12:10:55.836Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "swiizerkuh/omarchy-afterglow",
-        "pluginIds": [
-          "io.github.swiizerkuh.afterglow"
-        ],
-        "commit": "03dcf242aad0f9b326528c4dd156f87bc8650277",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-26T16:24:58.772Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-26T14:35:23.928Z",
-        "requestEventId": 31897024154,
-        "requestedAt": "2026-09-26T15:54:21Z",
-        "reviewedAt": "2026-09-26T16:24:58.772Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.swiizerkuh.afterglow": {
@@ -239547,7 +239526,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "swiizerkuh/omarchy-afterglow",
+        "pluginIds": [
+          "io.github.swiizerkuh.afterglow"
+        ],
+        "commit": "75065d733be772eb773f53b58a30b2fd15cc16c8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T12:10:55.836Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T10:57:20.525Z",
+        "requestEventId": 32330132536,
+        "requestedAt": "2026-10-02T11:34:56Z",
+        "reviewedAt": "2026-10-02T12:10:55.836Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "03dcf242aad0f9b326528c4dd156f87bc8650277",
+          "validatedAt": "2026-09-26T16:24:58.877Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T12:10:55.836Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "swiizerkuh/omarchy-afterglow",
+            "pluginIds": [
+              "io.github.swiizerkuh.afterglow"
+            ],
+            "commit": "03dcf242aad0f9b326528c4dd156f87bc8650277",
+            "checkedAt": "2026-09-26T16:24:58.772Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "swiizerkuh/omarchy-afterglow",
+            "pluginIds": [
+              "io.github.swiizerkuh.afterglow"
+            ],
+            "commit": "03dcf242aad0f9b326528c4dd156f87bc8650277",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-26T16:24:58.772Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-26T14:35:23.928Z",
+            "requestEventId": 31897024154,
+            "requestedAt": "2026-09-26T15:54:21Z",
+            "reviewedAt": "2026-09-26T16:24:58.772Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/kolbenhans/qmk-vial-keycolors-omarchy",
