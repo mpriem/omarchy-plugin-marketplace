@@ -275050,6 +275050,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/skoom21/omarchy-nowplaying-osd",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T19:56:38.683Z",
+      "listingValidatedCommit": "271ffabecf8eac02eb971eb8767cc6af24a62237",
+      "listingValidatedAt": "2026-10-02T19:56:38.683Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "skoom21/omarchy-nowplaying-osd",
+        "pluginIds": [
+          "skoom.nowplaying-osd"
+        ],
+        "commit": "271ffabecf8eac02eb971eb8767cc6af24a62237",
+        "checkedAt": "2026-10-02T19:56:38.554Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "skoom.nowplaying-osd": {
+          "category": "Desktop",
+          "tags": [
+            "media",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
