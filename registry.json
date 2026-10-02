@@ -142984,8 +142984,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-06",
       "listedAt": "2026-09-06T00:39:27.911Z",
-      "listingValidatedCommit": "0c64abb203c6b8b6eb441e9c631e4023d5c675fc",
-      "listingValidatedAt": "2026-09-06T00:39:27.911Z",
+      "listingValidatedCommit": "69e57b5ee8d5c564bf9427880a0b7b1a27870969",
+      "listingValidatedAt": "2026-10-02T12:54:26.944Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -142994,35 +142994,14 @@
         "pluginIds": [
           "io.github.2dennis.zoom-in-out"
         ],
-        "commit": "0c64abb203c6b8b6eb441e9c631e4023d5c675fc",
-        "checkedAt": "2026-09-06T00:39:27.841Z",
+        "commit": "69e57b5ee8d5c564bf9427880a0b7b1a27870969",
+        "checkedAt": "2026-10-02T12:54:26.944Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "2dennis/zoom-in-out",
-        "pluginIds": [
-          "io.github.2dennis.zoom-in-out"
-        ],
-        "commit": "0c64abb203c6b8b6eb441e9c631e4023d5c675fc",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-06T00:39:27.841Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-05T07:05:50.788Z",
-        "requestEventId": 30625327779,
-        "requestedAt": "2026-09-06T00:29:27Z",
-        "reviewedAt": "2026-09-06T00:39:27.841Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.2dennis.zoom-in-out": {
@@ -143032,7 +143011,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "2dennis/zoom-in-out",
+        "pluginIds": [
+          "io.github.2dennis.zoom-in-out"
+        ],
+        "commit": "69e57b5ee8d5c564bf9427880a0b7b1a27870969",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T12:54:26.944Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-21T06:21:49.709Z",
+        "requestEventId": 32332612541,
+        "requestedAt": "2026-10-02T12:18:14Z",
+        "reviewedAt": "2026-10-02T12:54:26.944Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0c64abb203c6b8b6eb441e9c631e4023d5c675fc",
+          "validatedAt": "2026-09-06T00:39:27.911Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T12:54:26.944Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "2dennis/zoom-in-out",
+            "pluginIds": [
+              "io.github.2dennis.zoom-in-out"
+            ],
+            "commit": "0c64abb203c6b8b6eb441e9c631e4023d5c675fc",
+            "checkedAt": "2026-09-06T00:39:27.841Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "2dennis/zoom-in-out",
+            "pluginIds": [
+              "io.github.2dennis.zoom-in-out"
+            ],
+            "commit": "0c64abb203c6b8b6eb441e9c631e4023d5c675fc",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-06T00:39:27.841Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-05T07:05:50.788Z",
+            "requestEventId": 30625327779,
+            "requestedAt": "2026-09-06T00:29:27Z",
+            "reviewedAt": "2026-09-06T00:39:27.841Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/asdfsnlr/omabrickrace",
