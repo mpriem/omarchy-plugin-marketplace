@@ -108453,8 +108453,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-30",
       "listedAt": "2026-08-30T18:12:27.549Z",
-      "listingValidatedCommit": "32d54d3af94cbf106b17deccb862f68fd8520284",
-      "listingValidatedAt": "2026-08-30T18:12:27.549Z",
+      "listingValidatedCommit": "cb47de3908cafa4a8b0f4a7db078efe9b23bb996",
+      "listingValidatedAt": "2026-10-02T14:53:17.155Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -108463,8 +108463,8 @@
         "pluginIds": [
           "io.github.cozidian.dnd"
         ],
-        "commit": "32d54d3af94cbf106b17deccb862f68fd8520284",
-        "checkedAt": "2026-08-30T18:12:27.500Z",
+        "commit": "cb47de3908cafa4a8b0f4a7db078efe9b23bb996",
+        "checkedAt": "2026-10-02T14:53:17.155Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -108480,7 +108480,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "32d54d3af94cbf106b17deccb862f68fd8520284",
+          "validatedAt": "2026-08-30T18:12:27.549Z",
+          "branch": "master",
+          "supersededAt": "2026-10-02T14:53:17.155Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "cozidian/omarchy-dnd",
+            "pluginIds": [
+              "io.github.cozidian.dnd"
+            ],
+            "commit": "32d54d3af94cbf106b17deccb862f68fd8520284",
+            "checkedAt": "2026-08-30T18:12:27.500Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/RolfKoenders/umarchy",
