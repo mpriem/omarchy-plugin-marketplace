@@ -187805,8 +187805,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T07:45:42.078Z",
-      "listingValidatedCommit": "0c8dbb23f0be077513cd6e2d41398a7bb7535a7c",
-      "listingValidatedAt": "2026-09-16T07:45:42.078Z",
+      "listingValidatedCommit": "373e1d7cc8a6f03334cec3c7c5c2e489551ddfca",
+      "listingValidatedAt": "2026-10-02T10:23:45.652Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -187815,35 +187815,15 @@
         "pluginIds": [
           "gaius-codius.unifi"
         ],
-        "commit": "0c8dbb23f0be077513cd6e2d41398a7bb7535a7c",
-        "checkedAt": "2026-09-16T07:45:41.988Z",
+        "commit": "373e1d7cc8a6f03334cec3c7c5c2e489551ddfca",
+        "checkedAt": "2026-10-02T10:23:45.652Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "installer"
+          "installer",
+          "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "gaius-codius/omarchy-unifi",
-        "pluginIds": [
-          "gaius-codius.unifi"
-        ],
-        "commit": "0c8dbb23f0be077513cd6e2d41398a7bb7535a7c",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T07:45:41.988Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-12T13:26:45.782Z",
-        "requestEventId": 31228331263,
-        "requestedAt": "2026-09-16T07:42:26Z",
-        "reviewedAt": "2026-09-16T07:45:41.988Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "gaius-codius.unifi": {
@@ -187854,7 +187834,74 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gaius-codius/omarchy-unifi",
+        "pluginIds": [
+          "gaius-codius.unifi"
+        ],
+        "commit": "373e1d7cc8a6f03334cec3c7c5c2e489551ddfca",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T10:23:45.652Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T11:16:27.724Z",
+        "requestEventId": 32324842314,
+        "requestedAt": "2026-10-02T09:55:55Z",
+        "reviewedAt": "2026-10-02T10:23:45.652Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0c8dbb23f0be077513cd6e2d41398a7bb7535a7c",
+          "validatedAt": "2026-09-16T07:45:42.078Z",
+          "branch": "master",
+          "supersededAt": "2026-10-02T10:23:45.652Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gaius-codius/omarchy-unifi",
+            "pluginIds": [
+              "gaius-codius.unifi"
+            ],
+            "commit": "0c8dbb23f0be077513cd6e2d41398a7bb7535a7c",
+            "checkedAt": "2026-09-16T07:45:41.988Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gaius-codius/omarchy-unifi",
+            "pluginIds": [
+              "gaius-codius.unifi"
+            ],
+            "commit": "0c8dbb23f0be077513cd6e2d41398a7bb7535a7c",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T07:45:41.988Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-12T13:26:45.782Z",
+            "requestEventId": 31228331263,
+            "requestedAt": "2026-09-16T07:42:26Z",
+            "reviewedAt": "2026-09-16T07:45:41.988Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/anothaDev/omarchy-eglo-light",
