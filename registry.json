@@ -265886,6 +265886,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ishan-parihar/pill-bar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T05:58:49.723Z",
+      "listingValidatedCommit": "f28f9c6ad32e7f7bd369e235e185ff94034989eb",
+      "listingValidatedAt": "2026-10-02T05:58:49.723Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ishan-parihar/pill-bar",
+        "pluginIds": [
+          "pill-bar"
+        ],
+        "commit": "f28f9c6ad32e7f7bd369e235e185ff94034989eb",
+        "checkedAt": "2026-10-02T05:58:49.593Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ishan-parihar/pill-bar",
+        "pluginIds": [
+          "pill-bar"
+        ],
+        "commit": "f28f9c6ad32e7f7bd369e235e185ff94034989eb",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T05:58:49.593Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T05:56:58.459Z",
+        "requestEventId": 32312433170,
+        "requestedAt": "2026-10-02T05:58:23Z",
+        "reviewedAt": "2026-10-02T05:58:49.593Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "pill-bar": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
