@@ -193857,8 +193857,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T20:39:27.378Z",
-      "listingValidatedCommit": "2e38dc6aa8317da0bb2df7176027ab3cdc75a167",
-      "listingValidatedAt": "2026-09-16T20:39:27.378Z",
+      "listingValidatedCommit": "7f25cf97752a11411725fb9fa6b3a02a41499992",
+      "listingValidatedAt": "2026-10-02T10:46:50.943Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -193867,8 +193867,8 @@
         "pluginIds": [
           "io.github.aashbury.voxhud"
         ],
-        "commit": "2e38dc6aa8317da0bb2df7176027ab3cdc75a167",
-        "checkedAt": "2026-09-16T20:39:27.290Z",
+        "commit": "7f25cf97752a11411725fb9fa6b3a02a41499992",
+        "checkedAt": "2026-10-02T10:46:50.943Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -193876,28 +193876,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "aashbury/voxhud",
-        "pluginIds": [
-          "io.github.aashbury.voxhud"
-        ],
-        "commit": "2e38dc6aa8317da0bb2df7176027ab3cdc75a167",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T20:39:27.290Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-16T20:14:40.619Z",
-        "requestEventId": 31273963236,
-        "requestedAt": "2026-09-16T20:26:10Z",
-        "reviewedAt": "2026-09-16T20:39:27.290Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.aashbury.voxhud": {
@@ -193909,7 +193887,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "aashbury/voxhud",
+        "pluginIds": [
+          "io.github.aashbury.voxhud"
+        ],
+        "commit": "7f25cf97752a11411725fb9fa6b3a02a41499992",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T10:46:50.943Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-19T02:36:08.006Z",
+        "requestEventId": 32326300873,
+        "requestedAt": "2026-10-02T10:22:10Z",
+        "reviewedAt": "2026-10-02T10:46:50.943Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2e38dc6aa8317da0bb2df7176027ab3cdc75a167",
+          "validatedAt": "2026-09-16T20:39:27.378Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T10:46:50.943Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "aashbury/voxhud",
+            "pluginIds": [
+              "io.github.aashbury.voxhud"
+            ],
+            "commit": "2e38dc6aa8317da0bb2df7176027ab3cdc75a167",
+            "checkedAt": "2026-09-16T20:39:27.290Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "aashbury/voxhud",
+            "pluginIds": [
+              "io.github.aashbury.voxhud"
+            ],
+            "commit": "2e38dc6aa8317da0bb2df7176027ab3cdc75a167",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T20:39:27.290Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-16T20:14:40.619Z",
+            "requestEventId": 31273963236,
+            "requestedAt": "2026-09-16T20:26:10Z",
+            "reviewedAt": "2026-09-16T20:39:27.290Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/simoz/omarchy-vessel",
