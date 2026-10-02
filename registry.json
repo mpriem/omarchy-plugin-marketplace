@@ -251395,8 +251395,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-29",
       "listedAt": "2026-09-29T00:11:40.949Z",
-      "listingValidatedCommit": "64a901bd3941fa3aae02126713eded3c07b7bdde",
-      "listingValidatedAt": "2026-09-29T00:11:40.949Z",
+      "listingValidatedCommit": "f7ef8f83efa0372566748721c9a6342fa2196e9f",
+      "listingValidatedAt": "2026-10-02T08:51:04.399Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -251405,35 +251405,14 @@
         "pluginIds": [
           "ridgetopai.wobble-party"
         ],
-        "commit": "64a901bd3941fa3aae02126713eded3c07b7bdde",
-        "checkedAt": "2026-09-29T00:11:40.837Z",
+        "commit": "f7ef8f83efa0372566748721c9a6342fa2196e9f",
+        "checkedAt": "2026-10-02T08:51:04.399Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ridgetopai/wobble-party",
-        "pluginIds": [
-          "ridgetopai.wobble-party"
-        ],
-        "commit": "64a901bd3941fa3aae02126713eded3c07b7bdde",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-29T00:11:40.837Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-29T00:05:24.201Z",
-        "requestEventId": 32038424726,
-        "requestedAt": "2026-09-29T00:09:29Z",
-        "reviewedAt": "2026-09-29T00:11:40.837Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "ridgetopai.wobble-party": {
@@ -251448,7 +251427,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ridgetopai/wobble-party",
+        "pluginIds": [
+          "ridgetopai.wobble-party"
+        ],
+        "commit": "f7ef8f83efa0372566748721c9a6342fa2196e9f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T08:51:04.399Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T00:52:53.861Z",
+        "requestEventId": 32321070909,
+        "requestedAt": "2026-10-02T08:50:37Z",
+        "reviewedAt": "2026-10-02T08:51:04.399Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "64a901bd3941fa3aae02126713eded3c07b7bdde",
+          "validatedAt": "2026-09-29T00:11:40.949Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T08:51:04.399Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ridgetopai/wobble-party",
+            "pluginIds": [
+              "ridgetopai.wobble-party"
+            ],
+            "commit": "64a901bd3941fa3aae02126713eded3c07b7bdde",
+            "checkedAt": "2026-09-29T00:11:40.837Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ridgetopai/wobble-party",
+            "pluginIds": [
+              "ridgetopai.wobble-party"
+            ],
+            "commit": "64a901bd3941fa3aae02126713eded3c07b7bdde",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-29T00:11:40.837Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-29T00:05:24.201Z",
+            "requestEventId": 32038424726,
+            "requestedAt": "2026-09-29T00:09:29Z",
+            "reviewedAt": "2026-09-29T00:11:40.837Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/heinsk/omarchy-devops-monitor",
