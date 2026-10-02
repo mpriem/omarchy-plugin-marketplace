@@ -183246,8 +183246,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-15",
       "listedAt": "2026-09-15T19:07:14.003Z",
-      "listingValidatedCommit": "705766528f19aea034bc02b9610fc5e89583d8b0",
-      "listingValidatedAt": "2026-09-15T19:07:14.003Z",
+      "listingValidatedCommit": "3fdd61458d4c04d2529f6b73dd9644e2ac42ab82",
+      "listingValidatedAt": "2026-10-02T11:38:38.342Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -183256,8 +183256,8 @@
         "pluginIds": [
           "marchybar.touchbar"
         ],
-        "commit": "705766528f19aea034bc02b9610fc5e89583d8b0",
-        "checkedAt": "2026-09-15T19:07:13.922Z",
+        "commit": "3fdd61458d4c04d2529f6b73dd9644e2ac42ab82",
+        "checkedAt": "2026-10-02T11:38:38.342Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -183267,30 +183267,6 @@
           "installer",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "githubguy132010/marchybar",
-        "pluginIds": [
-          "marchybar.touchbar"
-        ],
-        "commit": "705766528f19aea034bc02b9610fc5e89583d8b0",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-15T19:07:13.922Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege",
-          "installer",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-09T15:55:43.723Z",
-        "requestEventId": 31196716870,
-        "requestedAt": "2026-09-15T18:55:58Z",
-        "reviewedAt": "2026-09-15T19:07:13.922Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "marchybar.touchbar": {
@@ -183302,7 +183278,82 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "githubguy132010/marchybar",
+        "pluginIds": [
+          "marchybar.touchbar"
+        ],
+        "commit": "3fdd61458d4c04d2529f6b73dd9644e2ac42ab82",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T11:38:38.342Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T05:37:41.215Z",
+        "requestEventId": 32327668302,
+        "requestedAt": "2026-10-02T10:48:11Z",
+        "reviewedAt": "2026-10-02T11:38:38.342Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "705766528f19aea034bc02b9610fc5e89583d8b0",
+          "validatedAt": "2026-09-15T19:07:14.003Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T11:38:38.342Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "githubguy132010/marchybar",
+            "pluginIds": [
+              "marchybar.touchbar"
+            ],
+            "commit": "705766528f19aea034bc02b9610fc5e89583d8b0",
+            "checkedAt": "2026-09-15T19:07:13.922Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "githubguy132010/marchybar",
+            "pluginIds": [
+              "marchybar.touchbar"
+            ],
+            "commit": "705766528f19aea034bc02b9610fc5e89583d8b0",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-15T19:07:13.922Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-09T15:55:43.723Z",
+            "requestEventId": 31196716870,
+            "requestedAt": "2026-09-15T18:55:58Z",
+            "reviewedAt": "2026-09-15T19:07:13.922Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Guneshbari/omarchy-network",
