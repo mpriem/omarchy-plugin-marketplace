@@ -261972,6 +261972,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Babbletrax/omarchy-centre-split",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T01:06:46.964Z",
+      "listingValidatedCommit": "7edbfb4d9f16db672ea85d4d497e240eba6d25b4",
+      "listingValidatedAt": "2026-10-02T01:06:46.964Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "babbletrax/omarchy-centre-split",
+        "pluginIds": [
+          "io.github.babbletrax.centre-split"
+        ],
+        "commit": "7edbfb4d9f16db672ea85d4d497e240eba6d25b4",
+        "checkedAt": "2026-10-02T01:06:46.847Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "babbletrax/omarchy-centre-split",
+        "pluginIds": [
+          "io.github.babbletrax.centre-split"
+        ],
+        "commit": "7edbfb4d9f16db672ea85d4d497e240eba6d25b4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T01:06:46.847Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T00:34:20.215Z",
+        "requestEventId": 32299715243,
+        "requestedAt": "2026-10-02T00:38:46Z",
+        "reviewedAt": "2026-10-02T01:06:46.847Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.babbletrax.centre-split": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "workspaces",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
