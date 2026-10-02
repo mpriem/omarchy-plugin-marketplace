@@ -272488,6 +272488,74 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Darkosxl/1-click-omarchy-print",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T16:29:56.047Z",
+      "listingValidatedCommit": "9cae66fb7c6753fbadce75153292b7122f07d8b6",
+      "listingValidatedAt": "2026-10-02T16:29:56.047Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "darkosxl/1-click-omarchy-print",
+        "pluginIds": [
+          "darkosxl.printer"
+        ],
+        "commit": "9cae66fb7c6753fbadce75153292b7122f07d8b6",
+        "checkedAt": "2026-10-02T16:29:55.925Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "privilege",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "darkosxl/1-click-omarchy-print",
+        "pluginIds": [
+          "darkosxl.printer"
+        ],
+        "commit": "9cae66fb7c6753fbadce75153292b7122f07d8b6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T16:29:55.925Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "privilege",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T16:14:15.014Z",
+        "requestEventId": 32348471056,
+        "requestedAt": "2026-10-02T16:15:48Z",
+        "reviewedAt": "2026-10-02T16:29:55.925Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "darkosxl.printer": {
+          "category": "Hardware",
+          "tags": [
+            "system",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
