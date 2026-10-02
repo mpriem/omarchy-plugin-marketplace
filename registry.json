@@ -151583,7 +151583,7 @@
           "harryxu.dropspace"
         ],
         "commit": "10a77ba9e372f2c723aa21b54c3a9d55d4864d99",
-        "checkedAt": "2026-09-17T23:30:28.781Z",
+        "checkedAt": "2026-10-02T10:02:53.648Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -151595,11 +151595,7 @@
           "tags": [
             "workspaces"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       },
       "listingValidationHistory": [
