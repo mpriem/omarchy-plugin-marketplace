@@ -261682,6 +261682,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/barmstrong/omarchy-coinbase",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T00:48:50.320Z",
+      "listingValidatedCommit": "16f53d8b6e5c4a827939fb03ef72744334b5dd91",
+      "listingValidatedAt": "2026-10-02T00:48:50.320Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "barmstrong/omarchy-coinbase",
+        "pluginIds": [
+          "coinbase"
+        ],
+        "commit": "16f53d8b6e5c4a827939fb03ef72744334b5dd91",
+        "checkedAt": "2026-10-02T00:48:50.209Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "coinbase": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
