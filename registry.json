@@ -269356,6 +269356,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/69Harold69/omarchy-gadget-batteries",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T11:15:47.810Z",
+      "listingValidatedCommit": "60a5c5097c4f7716ccddc6e42475be3f3cd971ec",
+      "listingValidatedAt": "2026-10-02T11:15:47.810Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "69harold69/omarchy-gadget-batteries",
+        "pluginIds": [
+          "io.github.69harold69.gadget-batteries"
+        ],
+        "commit": "60a5c5097c4f7716ccddc6e42475be3f3cd971ec",
+        "checkedAt": "2026-10-02T11:15:47.699Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "69harold69/omarchy-gadget-batteries",
+        "pluginIds": [
+          "io.github.69harold69.gadget-batteries"
+        ],
+        "commit": "60a5c5097c4f7716ccddc6e42475be3f3cd971ec",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T11:15:47.699Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T08:25:17.043Z",
+        "requestEventId": 32327122032,
+        "requestedAt": "2026-10-02T10:37:43Z",
+        "reviewedAt": "2026-10-02T11:15:47.699Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.69harold69.gadget-batteries": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "power-management",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
