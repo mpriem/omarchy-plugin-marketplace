@@ -263722,6 +263722,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/megamvb/omawhats",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T02:45:53.787Z",
+      "listingValidatedCommit": "dd7432ad3facb8ad3ad010d884dc78c38d740257",
+      "listingValidatedAt": "2026-10-02T02:45:53.787Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "megamvb/omawhats",
+        "pluginIds": [
+          "megamvb.omawhats"
+        ],
+        "commit": "dd7432ad3facb8ad3ad010d884dc78c38d740257",
+        "checkedAt": "2026-10-02T02:45:53.662Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "megamvb/omawhats",
+        "pluginIds": [
+          "megamvb.omawhats"
+        ],
+        "commit": "dd7432ad3facb8ad3ad010d884dc78c38d740257",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T02:45:53.662Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T02:17:50.447Z",
+        "requestEventId": 32303981537,
+        "requestedAt": "2026-10-02T02:19:13Z",
+        "reviewedAt": "2026-10-02T02:45:53.662Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "megamvb.omawhats": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
