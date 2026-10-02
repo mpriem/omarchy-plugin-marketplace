@@ -243181,8 +243181,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T11:58:41.446Z",
-      "listingValidatedCommit": "e9e9ff4577f2d9c32e6f285ced522f69dfc3259e",
-      "listingValidatedAt": "2026-09-27T11:58:41.446Z",
+      "listingValidatedCommit": "55170963d55a7c2f0d1e7acf7f0cadd3c87826fa",
+      "listingValidatedAt": "2026-10-02T17:46:09.757Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -243191,39 +243191,15 @@
         "pluginIds": [
           "io.github.dankestrick.omagravastar"
         ],
-        "commit": "e9e9ff4577f2d9c32e6f285ced522f69dfc3259e",
-        "checkedAt": "2026-09-27T11:58:41.335Z",
+        "commit": "55170963d55a7c2f0d1e7acf7f0cadd3c87826fa",
+        "checkedAt": "2026-10-02T17:46:09.757Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege",
-          "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "dankestrick/omagravastar",
-        "pluginIds": [
-          "io.github.dankestrick.omagravastar"
-        ],
-        "commit": "e9e9ff4577f2d9c32e6f285ced522f69dfc3259e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T11:58:41.335Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-27T02:49:29.439Z",
-        "requestEventId": 31928353316,
-        "requestedAt": "2026-09-27T11:17:10Z",
-        "reviewedAt": "2026-09-27T11:58:41.335Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.dankestrick.omagravastar": {
@@ -243239,7 +243215,78 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dankestrick/omagravastar",
+        "pluginIds": [
+          "io.github.dankestrick.omagravastar"
+        ],
+        "commit": "55170963d55a7c2f0d1e7acf7f0cadd3c87826fa",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T17:46:09.757Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T03:43:53.006Z",
+        "requestEventId": 32351704517,
+        "requestedAt": "2026-10-02T17:08:49Z",
+        "reviewedAt": "2026-10-02T17:46:09.757Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e9e9ff4577f2d9c32e6f285ced522f69dfc3259e",
+          "validatedAt": "2026-09-27T11:58:41.446Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T17:46:09.757Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dankestrick/omagravastar",
+            "pluginIds": [
+              "io.github.dankestrick.omagravastar"
+            ],
+            "commit": "e9e9ff4577f2d9c32e6f285ced522f69dfc3259e",
+            "checkedAt": "2026-09-27T11:58:41.335Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "dankestrick/omagravastar",
+            "pluginIds": [
+              "io.github.dankestrick.omagravastar"
+            ],
+            "commit": "e9e9ff4577f2d9c32e6f285ced522f69dfc3259e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T11:58:41.335Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-27T02:49:29.439Z",
+            "requestEventId": 31928353316,
+            "requestedAt": "2026-09-27T11:17:10Z",
+            "reviewedAt": "2026-09-27T11:58:41.335Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/eNgine9r/omaux",
