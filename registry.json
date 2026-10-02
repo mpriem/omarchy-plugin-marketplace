@@ -256482,8 +256482,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-29",
       "listedAt": "2026-09-29T09:52:34.723Z",
-      "listingValidatedCommit": "bc060043281f4bb8c117d7e2164bb960d744ae7a",
-      "listingValidatedAt": "2026-09-29T09:52:34.723Z",
+      "listingValidatedCommit": "8fa808158a88720f404930135147890eb13deb5b",
+      "listingValidatedAt": "2026-10-02T17:58:51.635Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -256492,8 +256492,8 @@
         "pluginIds": [
           "omavm"
         ],
-        "commit": "bc060043281f4bb8c117d7e2164bb960d744ae7a",
-        "checkedAt": "2026-09-29T09:52:34.619Z",
+        "commit": "8fa808158a88720f404930135147890eb13deb5b",
+        "checkedAt": "2026-10-02T17:58:51.635Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -256502,29 +256502,6 @@
           "service-management",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "abdulazizalwabel/omarchy-omavm",
-        "pluginIds": [
-          "omavm"
-        ],
-        "commit": "bc060043281f4bb8c117d7e2164bb960d744ae7a",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-29T09:52:34.619Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "service-management",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-29T09:43:49.372Z",
-        "requestEventId": 32068223249,
-        "requestedAt": "2026-09-29T09:50:28Z",
-        "reviewedAt": "2026-09-29T09:52:34.619Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "omavm": {
@@ -256536,7 +256513,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "abdulazizalwabel/omarchy-omavm",
+        "pluginIds": [
+          "omavm"
+        ],
+        "commit": "8fa808158a88720f404930135147890eb13deb5b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T17:58:51.635Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T07:02:30.599Z",
+        "requestEventId": 32352192954,
+        "requestedAt": "2026-10-02T17:16:58Z",
+        "reviewedAt": "2026-10-02T17:58:51.635Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "bc060043281f4bb8c117d7e2164bb960d744ae7a",
+          "validatedAt": "2026-09-29T09:52:34.723Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T17:58:51.635Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "abdulazizalwabel/omarchy-omavm",
+            "pluginIds": [
+              "omavm"
+            ],
+            "commit": "bc060043281f4bb8c117d7e2164bb960d744ae7a",
+            "checkedAt": "2026-09-29T09:52:34.619Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "abdulazizalwabel/omarchy-omavm",
+            "pluginIds": [
+              "omavm"
+            ],
+            "commit": "bc060043281f4bb8c117d7e2164bb960d744ae7a",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-29T09:52:34.619Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-29T09:43:49.372Z",
+            "requestEventId": 32068223249,
+            "requestedAt": "2026-09-29T09:50:28Z",
+            "reviewedAt": "2026-09-29T09:52:34.619Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/linuskelsey/arxiv-scanner",
