@@ -262768,6 +262768,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/0xQuan93/omarchy-pixel-spirit",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T01:50:14.170Z",
+      "listingValidatedCommit": "611df0a3742303e46e9b638347d42375e5524aae",
+      "listingValidatedAt": "2026-10-02T01:50:14.170Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "0xquan93/omarchy-pixel-spirit",
+        "pluginIds": [
+          "oxquan.pixel-spirit"
+        ],
+        "commit": "611df0a3742303e46e9b638347d42375e5524aae",
+        "checkedAt": "2026-10-02T01:50:14.053Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "0xquan93/omarchy-pixel-spirit",
+        "pluginIds": [
+          "oxquan.pixel-spirit"
+        ],
+        "commit": "611df0a3742303e46e9b638347d42375e5524aae",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T01:50:14.053Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T01:25:17.878Z",
+        "requestEventId": 32301685054,
+        "requestedAt": "2026-10-02T01:26:23Z",
+        "reviewedAt": "2026-10-02T01:50:14.053Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "oxquan.pixel-spirit": {
+          "category": "Desktop",
+          "tags": [
+            "ai",
+            "games",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
