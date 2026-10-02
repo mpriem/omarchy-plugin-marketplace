@@ -262516,6 +262516,70 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Divanyx/omateams",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T01:37:03.581Z",
+      "listingValidatedCommit": "1546aca6c9eefc98bcb7bc326300ce2559446293",
+      "listingValidatedAt": "2026-10-02T01:37:03.581Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "divanyx/omateams",
+        "pluginIds": [
+          "omateams"
+        ],
+        "commit": "1546aca6c9eefc98bcb7bc326300ce2559446293",
+        "checkedAt": "2026-10-02T01:37:03.462Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "divanyx/omateams",
+        "pluginIds": [
+          "omateams"
+        ],
+        "commit": "1546aca6c9eefc98bcb7bc326300ce2559446293",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T01:37:03.462Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T01:13:56.543Z",
+        "requestEventId": 32301237632,
+        "requestedAt": "2026-10-02T01:15:09Z",
+        "reviewedAt": "2026-10-02T01:37:03.462Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omateams": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
