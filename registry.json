@@ -69125,8 +69125,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-24",
       "listedAt": "2026-08-24T22:09:12.057Z",
-      "listingValidatedCommit": "1b2efa527fb33330e8089853cce59c1ddd7996a8",
-      "listingValidatedAt": "2026-08-24T22:09:12.057Z",
+      "listingValidatedCommit": "a7af22f1043c8b077181e5a3a3af374d422b5fc6",
+      "listingValidatedAt": "2026-10-02T21:06:36.015Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -69135,8 +69135,8 @@
         "pluginIds": [
           "skvggor.omavault"
         ],
-        "commit": "1b2efa527fb33330e8089853cce59c1ddd7996a8",
-        "checkedAt": "2026-08-24T22:09:12.023Z",
+        "commit": "a7af22f1043c8b077181e5a3a3af374d422b5fc6",
+        "checkedAt": "2026-10-02T21:06:36.015Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -69146,29 +69146,6 @@
           "installer"
         ]
       },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "skvggor/omavault-plugin",
-        "pluginIds": [
-          "skvggor.omavault"
-        ],
-        "commit": "1b2efa527fb33330e8089853cce59c1ddd7996a8",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-24T22:09:12.023Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-24T19:54:28.426Z",
-        "requestEventId": 29941800796,
-        "requestedAt": "2026-08-24T21:52:27Z",
-        "reviewedAt": "2026-08-24T22:09:12.023Z",
-        "reviewer": "HANCORE-linux"
-      },
       "plugins": {
         "skvggor.omavault": {
           "category": "System",
@@ -69177,7 +69154,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "skvggor/omavault-plugin",
+        "pluginIds": [
+          "skvggor.omavault"
+        ],
+        "commit": "a7af22f1043c8b077181e5a3a3af374d422b5fc6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T21:06:36.015Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T20:34:38.926Z",
+        "requestEventId": 32364908731,
+        "requestedAt": "2026-10-02T20:52:08Z",
+        "reviewedAt": "2026-10-02T21:06:36.015Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1b2efa527fb33330e8089853cce59c1ddd7996a8",
+          "validatedAt": "2026-08-24T22:09:12.057Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T21:06:36.015Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "skvggor/omavault-plugin",
+            "pluginIds": [
+              "skvggor.omavault"
+            ],
+            "commit": "1b2efa527fb33330e8089853cce59c1ddd7996a8",
+            "checkedAt": "2026-08-24T22:09:12.023Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "skvggor/omavault-plugin",
+            "pluginIds": [
+              "skvggor.omavault"
+            ],
+            "commit": "1b2efa527fb33330e8089853cce59c1ddd7996a8",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-24T22:09:12.023Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-24T19:54:28.426Z",
+            "requestEventId": 29941800796,
+            "requestedAt": "2026-08-24T21:52:27Z",
+            "reviewedAt": "2026-08-24T22:09:12.023Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/rickycbanks/osystemd",
