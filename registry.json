@@ -267361,6 +267361,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/bayhnf/omarchy-relaybar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T07:51:03.757Z",
+      "listingValidatedCommit": "7c3330098980c22bea7fa21214dda65cd3613d2f",
+      "listingValidatedAt": "2026-10-02T07:51:03.757Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "bayhnf/omarchy-relaybar",
+        "pluginIds": [
+          "io.github.bayhnf.relaybar"
+        ],
+        "commit": "7c3330098980c22bea7fa21214dda65cd3613d2f",
+        "checkedAt": "2026-10-02T07:51:03.639Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bayhnf/omarchy-relaybar",
+        "pluginIds": [
+          "io.github.bayhnf.relaybar"
+        ],
+        "commit": "7c3330098980c22bea7fa21214dda65cd3613d2f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T07:51:03.639Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T06:46:59.856Z",
+        "requestEventId": 32316370233,
+        "requestedAt": "2026-10-02T07:23:42Z",
+        "reviewedAt": "2026-10-02T07:51:03.639Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.bayhnf.relaybar": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
