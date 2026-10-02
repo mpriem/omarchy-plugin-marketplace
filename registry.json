@@ -247654,8 +247654,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T20:13:47.042Z",
-      "listingValidatedCommit": "3cdbdd95af8168126fbc13d313b4e7a339632dcd",
-      "listingValidatedAt": "2026-09-27T20:13:47.042Z",
+      "listingValidatedCommit": "822c5166384501ddc7b634aa3abbc2e8d5eb1a95",
+      "listingValidatedAt": "2026-10-02T17:22:45.953Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -247664,12 +247664,15 @@
         "pluginIds": [
           "woodenplastic.information-wallpaper-overlay"
         ],
-        "commit": "3cdbdd95af8168126fbc13d313b4e7a339632dcd",
-        "checkedAt": "2026-09-27T20:13:46.934Z",
-        "outcome": "passed",
+        "commit": "822c5166384501ddc7b634aa3abbc2e8d5eb1a95",
+        "checkedAt": "2026-10-02T17:22:45.953Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ]
       },
       "plugins": {
         "woodenplastic.information-wallpaper-overlay": {
@@ -247681,7 +247684,51 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "woodenplastic/omarchy-information-wallpaper-overlay",
+        "pluginIds": [
+          "woodenplastic.information-wallpaper-overlay"
+        ],
+        "commit": "822c5166384501ddc7b634aa3abbc2e8d5eb1a95",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T17:22:45.953Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T15:06:03.014Z",
+        "requestEventId": 32350652227,
+        "requestedAt": "2026-10-02T16:51:18Z",
+        "reviewedAt": "2026-10-02T17:22:45.953Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3cdbdd95af8168126fbc13d313b4e7a339632dcd",
+          "validatedAt": "2026-09-27T20:13:47.042Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T17:22:45.953Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "woodenplastic/omarchy-information-wallpaper-overlay",
+            "pluginIds": [
+              "woodenplastic.information-wallpaper-overlay"
+            ],
+            "commit": "3cdbdd95af8168126fbc13d313b4e7a339632dcd",
+            "checkedAt": "2026-09-27T20:13:46.934Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/vip32/omarchy-procyclingstats",
