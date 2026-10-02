@@ -264080,6 +264080,44 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ozdil/omarchy-omacom-news",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T03:06:40.116Z",
+      "listingValidatedCommit": "f50c7bcf4fd397a497d0e09449830bb53201a9b5",
+      "listingValidatedAt": "2026-10-02T03:06:40.116Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ozdil/omarchy-omacom-news",
+        "pluginIds": [
+          "ozdil.omacom-news"
+        ],
+        "commit": "f50c7bcf4fd397a497d0e09449830bb53201a9b5",
+        "checkedAt": "2026-10-02T03:06:39.975Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ozdil.omacom-news": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
