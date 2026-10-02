@@ -264591,6 +264591,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/polidog/omarchy-headlint",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T03:37:05.637Z",
+      "listingValidatedCommit": "83a47b050768b94fad0400241e5473e1900a30b6",
+      "listingValidatedAt": "2026-10-02T03:37:05.637Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "polidog/omarchy-headlint",
+        "pluginIds": [
+          "polidog.headlint"
+        ],
+        "commit": "83a47b050768b94fad0400241e5473e1900a30b6",
+        "checkedAt": "2026-10-02T03:37:05.535Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "polidog/omarchy-headlint",
+        "pluginIds": [
+          "polidog.headlint"
+        ],
+        "commit": "83a47b050768b94fad0400241e5473e1900a30b6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T03:37:05.535Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T03:06:52.610Z",
+        "requestEventId": 32305946876,
+        "requestedAt": "2026-10-02T03:08:03Z",
+        "reviewedAt": "2026-10-02T03:37:05.535Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "polidog.headlint": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
