@@ -262996,6 +262996,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/tymurbogach/hardwarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-02",
+      "listedAt": "2026-10-02T02:02:29.692Z",
+      "listingValidatedCommit": "8a556b36eae9da74d2ec58748c7a459ad873a0e9",
+      "listingValidatedAt": "2026-10-02T02:02:29.692Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tymurbogach/hardwarchy",
+        "pluginIds": [
+          "io.github.tymurbogach.hardwarchy"
+        ],
+        "commit": "8a556b36eae9da74d2ec58748c7a459ad873a0e9",
+        "checkedAt": "2026-10-02T02:02:29.576Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.tymurbogach.hardwarchy": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
