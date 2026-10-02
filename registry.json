@@ -215408,8 +215408,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T20:53:35.429Z",
-      "listingValidatedCommit": "661d9e8e58073403b7704e7ca2463762c824b956",
-      "listingValidatedAt": "2026-09-21T20:53:35.429Z",
+      "listingValidatedCommit": "c93d720330d6ed3939a36fec303f155f2f2d756f",
+      "listingValidatedAt": "2026-10-02T23:16:50.980Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -215418,35 +215418,14 @@
         "pluginIds": [
           "workspace-gesture-switcher"
         ],
-        "commit": "661d9e8e58073403b7704e7ca2463762c824b956",
-        "checkedAt": "2026-09-21T20:53:35.345Z",
+        "commit": "c93d720330d6ed3939a36fec303f155f2f2d756f",
+        "checkedAt": "2026-10-02T23:16:50.980Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "alexanderpuschkinberlin/workspace-gesture-switcher",
-        "pluginIds": [
-          "workspace-gesture-switcher"
-        ],
-        "commit": "661d9e8e58073403b7704e7ca2463762c824b956",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-21T20:53:35.345Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-20T20:22:13.642Z",
-        "requestEventId": 31558232279,
-        "requestedAt": "2026-09-21T20:45:44Z",
-        "reviewedAt": "2026-09-21T20:53:35.345Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "workspace-gesture-switcher": {
@@ -215456,7 +215435,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alexanderpuschkinberlin/workspace-gesture-switcher",
+        "pluginIds": [
+          "workspace-gesture-switcher"
+        ],
+        "commit": "c93d720330d6ed3939a36fec303f155f2f2d756f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-02T23:16:50.980Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T16:17:42.977Z",
+        "requestEventId": 32371865973,
+        "requestedAt": "2026-10-02T23:16:27Z",
+        "reviewedAt": "2026-10-02T23:16:50.980Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "661d9e8e58073403b7704e7ca2463762c824b956",
+          "validatedAt": "2026-09-21T20:53:35.429Z",
+          "branch": "master",
+          "supersededAt": "2026-10-02T23:16:50.980Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "alexanderpuschkinberlin/workspace-gesture-switcher",
+            "pluginIds": [
+              "workspace-gesture-switcher"
+            ],
+            "commit": "661d9e8e58073403b7704e7ca2463762c824b956",
+            "checkedAt": "2026-09-21T20:53:35.345Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "alexanderpuschkinberlin/workspace-gesture-switcher",
+            "pluginIds": [
+              "workspace-gesture-switcher"
+            ],
+            "commit": "661d9e8e58073403b7704e7ca2463762c824b956",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-21T20:53:35.345Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-20T20:22:13.642Z",
+            "requestEventId": 31558232279,
+            "requestedAt": "2026-09-21T20:45:44Z",
+            "reviewedAt": "2026-09-21T20:53:35.345Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dbachelder/omarchy-istats",
