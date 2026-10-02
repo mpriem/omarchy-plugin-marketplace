@@ -238016,8 +238016,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-26",
       "listedAt": "2026-09-26T15:57:05.325Z",
-      "listingValidatedCommit": "f8306d763c7b3c89d24172edb0e68fb6dacb68a9",
-      "listingValidatedAt": "2026-09-26T15:57:05.325Z",
+      "listingValidatedCommit": "e3f341fd9d90afe65d9cfc2e44630082efa4fdbc",
+      "listingValidatedAt": "2026-10-02T09:14:27.313Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -238026,8 +238026,8 @@
         "pluginIds": [
           "tornikegomareli.spaces"
         ],
-        "commit": "f8306d763c7b3c89d24172edb0e68fb6dacb68a9",
-        "checkedAt": "2026-09-26T15:57:05.237Z",
+        "commit": "e3f341fd9d90afe65d9cfc2e44630082efa4fdbc",
+        "checkedAt": "2026-10-02T09:14:27.313Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -238043,7 +238043,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f8306d763c7b3c89d24172edb0e68fb6dacb68a9",
+          "validatedAt": "2026-09-26T15:57:05.325Z",
+          "branch": "main",
+          "supersededAt": "2026-10-02T09:14:27.313Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tornikegomareli/omarchy-spaces",
+            "pluginIds": [
+              "tornikegomareli.spaces"
+            ],
+            "commit": "f8306d763c7b3c89d24172edb0e68fb6dacb68a9",
+            "checkedAt": "2026-09-26T15:57:05.237Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/stoneynutcase/omacounter",
