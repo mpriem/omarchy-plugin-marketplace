@@ -218496,8 +218496,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T21:24:50.531Z",
-      "listingValidatedCommit": "58547f475db81b4cbc39b47fcadc1c670298528b",
-      "listingValidatedAt": "2026-09-27T11:46:21.733Z",
+      "listingValidatedCommit": "17fa346e6d3b47d9c5685d79e60d387863d85961",
+      "listingValidatedAt": "2026-10-03T23:12:35.782Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -218506,8 +218506,8 @@
         "pluginIds": [
           "gdeyoung.appdock"
         ],
-        "commit": "58547f475db81b4cbc39b47fcadc1c670298528b",
-        "checkedAt": "2026-09-27T11:46:21.733Z",
+        "commit": "17fa346e6d3b47d9c5685d79e60d387863d85961",
+        "checkedAt": "2026-10-03T23:12:35.782Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -218526,28 +218526,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "gdeyoung/omarchy-appdock",
-        "pluginIds": [
-          "gdeyoung.appdock"
-        ],
-        "commit": "58547f475db81b4cbc39b47fcadc1c670298528b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T11:46:21.733Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-25T20:54:04.873Z",
-        "requestEventId": 31928158654,
-        "requestedAt": "2026-09-27T11:09:59Z",
-        "reviewedAt": "2026-09-27T11:46:21.733Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -218594,8 +218572,75 @@
             "reviewedAt": "2026-09-21T21:24:50.427Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "58547f475db81b4cbc39b47fcadc1c670298528b",
+          "validatedAt": "2026-09-27T11:46:21.733Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T23:12:35.782Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gdeyoung/omarchy-appdock",
+            "pluginIds": [
+              "gdeyoung.appdock"
+            ],
+            "commit": "58547f475db81b4cbc39b47fcadc1c670298528b",
+            "checkedAt": "2026-09-27T11:46:21.733Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gdeyoung/omarchy-appdock",
+            "pluginIds": [
+              "gdeyoung.appdock"
+            ],
+            "commit": "58547f475db81b4cbc39b47fcadc1c670298528b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T11:46:21.733Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-25T20:54:04.873Z",
+            "requestEventId": 31928158654,
+            "requestedAt": "2026-09-27T11:09:59Z",
+            "reviewedAt": "2026-09-27T11:46:21.733Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gdeyoung/omarchy-appdock",
+        "pluginIds": [
+          "gdeyoung.appdock"
+        ],
+        "commit": "17fa346e6d3b47d9c5685d79e60d387863d85961",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T23:12:35.782Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T22:54:46.103Z",
+        "requestEventId": 32419101952,
+        "requestedAt": "2026-10-03T23:05:40Z",
+        "reviewedAt": "2026-10-03T23:12:35.782Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/lucasvidela94/omarchy-charge-mode",
