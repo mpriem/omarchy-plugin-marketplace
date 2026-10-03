@@ -277915,6 +277915,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/gaboxarg/cliamp-widget",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T01:51:12.848Z",
+      "listingValidatedCommit": "e10550148c212c2ae53a8bb019443a05c54dc519",
+      "listingValidatedAt": "2026-10-03T01:51:12.848Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gaboxarg/cliamp-widget",
+        "pluginIds": [
+          "gabox.cliamp-now-playing"
+        ],
+        "commit": "e10550148c212c2ae53a8bb019443a05c54dc519",
+        "checkedAt": "2026-10-03T01:51:12.725Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gaboxarg/cliamp-widget",
+        "pluginIds": [
+          "gabox.cliamp-now-playing"
+        ],
+        "commit": "e10550148c212c2ae53a8bb019443a05c54dc519",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T01:51:12.725Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T01:47:57.704Z",
+        "requestEventId": 32377062410,
+        "requestedAt": "2026-10-03T01:50:50Z",
+        "reviewedAt": "2026-10-03T01:51:12.725Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "gabox.cliamp-now-playing": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
