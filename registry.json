@@ -284832,6 +284832,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jchisholm59/omarchy-widget-controller",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T21:45:32.501Z",
+      "listingValidatedCommit": "0e7a6a6a5f3f742ae1ea09121fcc3eb508926a60",
+      "listingValidatedAt": "2026-10-03T21:45:32.501Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jchisholm59/omarchy-widget-controller",
+        "pluginIds": [
+          "jim.widget-controller"
+        ],
+        "commit": "0e7a6a6a5f3f742ae1ea09121fcc3eb508926a60",
+        "checkedAt": "2026-10-03T21:45:32.365Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "jim.widget-controller": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
