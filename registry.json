@@ -278221,6 +278221,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tymurbogach/replicant",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T03:25:43.824Z",
+      "listingValidatedCommit": "9e6af06e9da66aafeb21be24fc90f05ab87cb803",
+      "listingValidatedAt": "2026-10-03T03:25:43.824Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tymurbogach/replicant",
+        "pluginIds": [
+          "io.github.tymurbogach.replicant"
+        ],
+        "commit": "9e6af06e9da66aafeb21be24fc90f05ab87cb803",
+        "checkedAt": "2026-10-03T03:25:43.733Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tymurbogach/replicant",
+        "pluginIds": [
+          "io.github.tymurbogach.replicant"
+        ],
+        "commit": "9e6af06e9da66aafeb21be24fc90f05ab87cb803",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T03:25:43.733Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T02:38:51.412Z",
+        "requestEventId": 32379851458,
+        "requestedAt": "2026-10-03T03:25:09Z",
+        "reviewedAt": "2026-10-03T03:25:43.733Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.tymurbogach.replicant": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "security",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
