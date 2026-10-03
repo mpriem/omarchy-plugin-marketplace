@@ -278079,6 +278079,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/seunghan91/omarchy-glance-dock",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T02:22:18.919Z",
+      "listingValidatedCommit": "45dd1d66327c65638b584ef2400f4e4ba1f3ee93",
+      "listingValidatedAt": "2026-10-03T02:22:18.919Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "seunghan91/omarchy-glance-dock",
+        "pluginIds": [
+          "io.github.seunghan91.glance-dock"
+        ],
+        "commit": "45dd1d66327c65638b584ef2400f4e4ba1f3ee93",
+        "checkedAt": "2026-10-03T02:22:18.842Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.seunghan91.glance-dock": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "workspaces",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
