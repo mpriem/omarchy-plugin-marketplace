@@ -200589,7 +200589,7 @@
           "kalinewb.profiles"
         ],
         "commit": "f7b78b01c1092397615fc23e785557113d28bc82",
-        "checkedAt": "2026-09-17T23:42:42.193Z",
+        "checkedAt": "2026-10-03T09:33:31.050Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -200603,11 +200603,7 @@
             "security",
             "quickshell"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       }
     },
