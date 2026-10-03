@@ -283975,6 +283975,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/zamkara/Omarchy-Backup",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T19:37:45.052Z",
+      "listingValidatedCommit": "a777dc845d24da275080777d19ded368ca9eee65",
+      "listingValidatedAt": "2026-10-03T19:37:45.052Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zamkara/omarchy-backup",
+        "pluginIds": [
+          "zam.backup"
+        ],
+        "commit": "a777dc845d24da275080777d19ded368ca9eee65",
+        "checkedAt": "2026-10-03T19:37:44.927Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "zamkara/omarchy-backup",
+        "pluginIds": [
+          "zam.backup"
+        ],
+        "commit": "a777dc845d24da275080777d19ded368ca9eee65",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T19:37:44.927Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T19:29:50.398Z",
+        "requestEventId": 32411646822,
+        "requestedAt": "2026-10-03T19:37:15Z",
+        "reviewedAt": "2026-10-03T19:37:44.927Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "zam.backup": {
+          "category": "System",
+          "tags": [
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
