@@ -284480,6 +284480,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/DeV-433/Omaspot",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T21:18:22.176Z",
+      "listingValidatedCommit": "e79a221326a6c461b3f5e711572ad4805c9a3841",
+      "listingValidatedAt": "2026-10-03T21:18:22.176Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dev-433/omaspot",
+        "pluginIds": [
+          "io.github.devanshu.omaspot"
+        ],
+        "commit": "e79a221326a6c461b3f5e711572ad4805c9a3841",
+        "checkedAt": "2026-10-03T21:18:22.093Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dev-433/omaspot",
+        "pluginIds": [
+          "io.github.devanshu.omaspot"
+        ],
+        "commit": "e79a221326a6c461b3f5e711572ad4805c9a3841",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T21:18:22.093Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T20:58:12.426Z",
+        "requestEventId": 32414914267,
+        "requestedAt": "2026-10-03T21:11:45Z",
+        "reviewedAt": "2026-10-03T21:18:22.093Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.devanshu.omaspot": {
+          "category": "System",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
