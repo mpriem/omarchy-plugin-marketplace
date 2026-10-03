@@ -281468,6 +281468,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/saigkill/omarchy-bluesky",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T11:29:25.151Z",
+      "listingValidatedCommit": "6ee236ea9a2749482a4a02b59238051e63f7b383",
+      "listingValidatedAt": "2026-10-03T11:29:25.151Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "saigkill/omarchy-bluesky",
+        "pluginIds": [
+          "saigkill.bluesky"
+        ],
+        "commit": "6ee236ea9a2749482a4a02b59238051e63f7b383",
+        "checkedAt": "2026-10-03T11:29:25.071Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "saigkill/omarchy-bluesky",
+        "pluginIds": [
+          "saigkill.bluesky"
+        ],
+        "commit": "6ee236ea9a2749482a4a02b59238051e63f7b383",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T11:29:25.071Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T11:22:05.068Z",
+        "requestEventId": 32394420454,
+        "requestedAt": "2026-10-03T11:23:45Z",
+        "reviewedAt": "2026-10-03T11:29:25.071Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "saigkill.bluesky": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
