@@ -150437,8 +150437,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-07",
       "listedAt": "2026-09-07T09:32:00.233Z",
-      "listingValidatedCommit": "a2b1da44f77e69125ad2dc061979022b98ea6d5c",
-      "listingValidatedAt": "2026-10-02T00:32:53.289Z",
+      "listingValidatedCommit": "a2aa8899eb6b2c1e05a9e94a8288966ec89719cf",
+      "listingValidatedAt": "2026-10-03T20:56:18.819Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -150447,8 +150447,8 @@
         "pluginIds": [
           "vitor.perfo"
         ],
-        "commit": "a2b1da44f77e69125ad2dc061979022b98ea6d5c",
-        "checkedAt": "2026-10-02T00:32:53.289Z",
+        "commit": "a2aa8899eb6b2c1e05a9e94a8288966ec89719cf",
+        "checkedAt": "2026-10-03T20:56:18.819Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -150470,27 +150470,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "vitorholandai/perfo",
-        "pluginIds": [
-          "vitor.perfo"
-        ],
-        "commit": "a2b1da44f77e69125ad2dc061979022b98ea6d5c",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T00:32:53.289Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "bundled-executable-binary"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-11T19:18:07.954Z",
-        "requestEventId": 32298387055,
-        "requestedAt": "2026-10-02T00:06:33Z",
-        "reviewedAt": "2026-10-02T00:32:53.289Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -150535,8 +150514,72 @@
             "reviewedAt": "2026-09-07T09:32:00.162Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "a2b1da44f77e69125ad2dc061979022b98ea6d5c",
+          "validatedAt": "2026-10-02T00:32:53.289Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T20:56:18.819Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "vitorholandai/perfo",
+            "pluginIds": [
+              "vitor.perfo"
+            ],
+            "commit": "a2b1da44f77e69125ad2dc061979022b98ea6d5c",
+            "checkedAt": "2026-10-02T00:32:53.289Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "vitorholandai/perfo",
+            "pluginIds": [
+              "vitor.perfo"
+            ],
+            "commit": "a2b1da44f77e69125ad2dc061979022b98ea6d5c",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T00:32:53.289Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-11T19:18:07.954Z",
+            "requestEventId": 32298387055,
+            "requestedAt": "2026-10-02T00:06:33Z",
+            "reviewedAt": "2026-10-02T00:32:53.289Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "vitorholandai/perfo",
+        "pluginIds": [
+          "vitor.perfo"
+        ],
+        "commit": "a2aa8899eb6b2c1e05a9e94a8288966ec89719cf",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T20:56:18.819Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T13:31:47.295Z",
+        "requestEventId": 32414379785,
+        "requestedAt": "2026-10-03T20:55:54Z",
+        "reviewedAt": "2026-10-03T20:56:18.819Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/martlets/omarchy-stay-clean",
