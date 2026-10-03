@@ -131818,8 +131818,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-04",
       "listedAt": "2026-09-04T13:59:31.973Z",
-      "listingValidatedCommit": "7b2923286c711f8b1b6b22eedc2a9255c13bf48a",
-      "listingValidatedAt": "2026-09-08T09:16:27.412Z",
+      "listingValidatedCommit": "812512ee12c31edd44a5141a1cd684fb51d5c189",
+      "listingValidatedAt": "2026-10-03T08:34:32.202Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -131828,8 +131828,8 @@
         "pluginIds": [
           "cschaba.omapass"
         ],
-        "commit": "7b2923286c711f8b1b6b22eedc2a9255c13bf48a",
-        "checkedAt": "2026-09-08T09:16:27.412Z",
+        "commit": "812512ee12c31edd44a5141a1cd684fb51d5c189",
+        "checkedAt": "2026-10-03T08:34:32.202Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -131854,30 +131854,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "cschaba/omapass",
-        "pluginIds": [
-          "cschaba.omapass"
-        ],
-        "commit": "7b2923286c711f8b1b6b22eedc2a9255c13bf48a",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-08T09:16:27.412Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "privilege",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-04T15:15:22.521Z",
-        "requestEventId": 30741747301,
-        "requestedAt": "2026-09-08T08:52:03Z",
-        "reviewedAt": "2026-09-08T09:16:27.412Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -131928,8 +131904,81 @@
             "reviewedAt": "2026-09-04T13:59:31.917Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "7b2923286c711f8b1b6b22eedc2a9255c13bf48a",
+          "validatedAt": "2026-09-08T09:16:27.412Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T08:34:32.202Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "cschaba/omapass",
+            "pluginIds": [
+              "cschaba.omapass"
+            ],
+            "commit": "7b2923286c711f8b1b6b22eedc2a9255c13bf48a",
+            "checkedAt": "2026-09-08T09:16:27.412Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "cschaba/omapass",
+            "pluginIds": [
+              "cschaba.omapass"
+            ],
+            "commit": "7b2923286c711f8b1b6b22eedc2a9255c13bf48a",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-08T09:16:27.412Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-04T15:15:22.521Z",
+            "requestEventId": 30741747301,
+            "requestedAt": "2026-09-08T08:52:03Z",
+            "reviewedAt": "2026-09-08T09:16:27.412Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cschaba/omapass",
+        "pluginIds": [
+          "cschaba.omapass"
+        ],
+        "commit": "812512ee12c31edd44a5141a1cd684fb51d5c189",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T08:34:32.202Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T06:39:54.288Z",
+        "requestEventId": 32388323470,
+        "requestedAt": "2026-10-03T08:33:58Z",
+        "reviewedAt": "2026-10-03T08:34:32.202Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/grechman/dynamic-bar",
