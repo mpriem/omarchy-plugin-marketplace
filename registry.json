@@ -280998,6 +280998,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/sifenfisaha/omarchy-sallah-reminder",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T10:48:40.179Z",
+      "listingValidatedCommit": "3359014d2937867f000a50eb51a06887346ae65d",
+      "listingValidatedAt": "2026-10-03T10:48:40.179Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sifenfisaha/omarchy-sallah-reminder",
+        "pluginIds": [
+          "salah.reminder"
+        ],
+        "commit": "3359014d2937867f000a50eb51a06887346ae65d",
+        "checkedAt": "2026-10-03T10:48:40.058Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "salah.reminder": {
+          "category": "Widgets",
+          "tags": [
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
