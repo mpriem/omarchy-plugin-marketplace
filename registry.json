@@ -283665,6 +283665,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/paulhocker/omarchy-plugin-chuck",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T16:40:09.892Z",
+      "listingValidatedCommit": "bce5112c5ffc4cc712aafb44b0cf5454352f80e6",
+      "listingValidatedAt": "2026-10-03T16:40:09.892Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "paulhocker/omarchy-plugin-chuck",
+        "pluginIds": [
+          "paulhocker.omarchy-plugin-chuck"
+        ],
+        "commit": "bce5112c5ffc4cc712aafb44b0cf5454352f80e6",
+        "checkedAt": "2026-10-03T16:40:09.813Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "paulhocker.omarchy-plugin-chuck": {
+          "category": "Other",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
