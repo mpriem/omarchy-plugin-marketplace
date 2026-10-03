@@ -280557,6 +280557,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/epicbagel/icloudbar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T09:25:12.218Z",
+      "listingValidatedCommit": "3c9835c73731acf244445a750cd6f2d403d0f545",
+      "listingValidatedAt": "2026-10-03T09:25:12.218Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "epicbagel/icloudbar",
+        "pluginIds": [
+          "io.github.epicbagel.icloudbar"
+        ],
+        "commit": "3c9835c73731acf244445a750cd6f2d403d0f545",
+        "checkedAt": "2026-10-03T09:25:12.086Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "epicbagel/icloudbar",
+        "pluginIds": [
+          "io.github.epicbagel.icloudbar"
+        ],
+        "commit": "3c9835c73731acf244445a750cd6f2d403d0f545",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T09:25:12.086Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T09:02:26.246Z",
+        "requestEventId": 32389827148,
+        "requestedAt": "2026-10-03T09:19:55Z",
+        "reviewedAt": "2026-10-03T09:25:12.086Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.epicbagel.icloudbar": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
