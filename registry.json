@@ -283178,6 +283178,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/layolayo/omarchy-memory-guard",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T15:38:19.765Z",
+      "listingValidatedCommit": "e5951e1101cf3a7ff75fabbaad08ed5b4d8afecb",
+      "listingValidatedAt": "2026-10-03T15:38:19.765Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "layolayo/omarchy-memory-guard",
+        "pluginIds": [
+          "io.github.layolayo.memory-guard"
+        ],
+        "commit": "e5951e1101cf3a7ff75fabbaad08ed5b4d8afecb",
+        "checkedAt": "2026-10-03T15:38:19.680Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.layolayo.memory-guard": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
