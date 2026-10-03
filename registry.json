@@ -207522,8 +207522,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-19",
       "listedAt": "2026-09-19T11:59:10.184Z",
-      "listingValidatedCommit": "2200cff7b1fc88aef16d4345ee916967bc36808e",
-      "listingValidatedAt": "2026-09-19T11:59:10.184Z",
+      "listingValidatedCommit": "eba9f5ccfa7450d6eca6af1b3051d35a61e91816",
+      "listingValidatedAt": "2026-10-03T12:02:07.611Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -207532,8 +207532,8 @@
         "pluginIds": [
           "graph"
         ],
-        "commit": "2200cff7b1fc88aef16d4345ee916967bc36808e",
-        "checkedAt": "2026-09-19T11:59:10.093Z",
+        "commit": "eba9f5ccfa7450d6eca6af1b3051d35a61e91816",
+        "checkedAt": "2026-10-03T12:02:07.611Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -207549,7 +207549,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2200cff7b1fc88aef16d4345ee916967bc36808e",
+          "validatedAt": "2026-09-19T11:59:10.184Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T12:02:07.611Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "1990wn/omarchy-graph",
+            "pluginIds": [
+              "graph"
+            ],
+            "commit": "2200cff7b1fc88aef16d4345ee916967bc36808e",
+            "checkedAt": "2026-09-19T11:59:10.093Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/joeyvigil/pawsense",
