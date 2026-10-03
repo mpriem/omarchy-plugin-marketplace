@@ -195071,8 +195071,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T18:56:38.758Z",
-      "listingValidatedCommit": "4d06522b4aee87c8cad7d2b3309ea1f2e49e4c5e",
-      "listingValidatedAt": "2026-09-16T18:56:38.758Z",
+      "listingValidatedCommit": "e4a02f6a65a041665feb91daab31c219fe03b148",
+      "listingValidatedAt": "2026-10-03T06:41:44.517Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -195081,8 +195081,8 @@
         "pluginIds": [
           "ipkalid.flatpak-store"
         ],
-        "commit": "4d06522b4aee87c8cad7d2b3309ea1f2e49e4c5e",
-        "checkedAt": "2026-09-16T18:56:38.662Z",
+        "commit": "e4a02f6a65a041665feb91daab31c219fe03b148",
+        "checkedAt": "2026-10-03T06:41:44.517Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -195091,29 +195091,6 @@
           "privilege",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ipkalid/omarchy-flatpak",
-        "pluginIds": [
-          "ipkalid.flatpak-store"
-        ],
-        "commit": "4d06522b4aee87c8cad7d2b3309ea1f2e49e4c5e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T18:56:38.662Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-16T12:10:26.084Z",
-        "requestEventId": 31268108677,
-        "requestedAt": "2026-09-16T18:40:19Z",
-        "reviewedAt": "2026-09-16T18:56:38.663Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "ipkalid.flatpak-store": {
@@ -195125,7 +195102,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ipkalid/omarchy-flatpak",
+        "pluginIds": [
+          "ipkalid.flatpak-store"
+        ],
+        "commit": "e4a02f6a65a041665feb91daab31c219fe03b148",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T06:41:44.517Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T06:37:37.791Z",
+        "requestEventId": 32385206041,
+        "requestedAt": "2026-10-03T06:40:52Z",
+        "reviewedAt": "2026-10-03T06:41:44.517Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "4d06522b4aee87c8cad7d2b3309ea1f2e49e4c5e",
+          "validatedAt": "2026-09-16T18:56:38.758Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T06:41:44.517Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ipkalid/omarchy-flatpak",
+            "pluginIds": [
+              "ipkalid.flatpak-store"
+            ],
+            "commit": "4d06522b4aee87c8cad7d2b3309ea1f2e49e4c5e",
+            "checkedAt": "2026-09-16T18:56:38.662Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ipkalid/omarchy-flatpak",
+            "pluginIds": [
+              "ipkalid.flatpak-store"
+            ],
+            "commit": "4d06522b4aee87c8cad7d2b3309ea1f2e49e4c5e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T18:56:38.662Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-16T12:10:26.084Z",
+            "requestEventId": 31268108677,
+            "requestedAt": "2026-09-16T18:40:19Z",
+            "reviewedAt": "2026-09-16T18:56:38.663Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/danteregis/omarchy-quick-convert",
