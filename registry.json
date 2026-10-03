@@ -282706,6 +282706,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/SLcode777/omatrad",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T14:25:11.923Z",
+      "listingValidatedCommit": "6eac7c32fba825983684284c442d430d21b6c211",
+      "listingValidatedAt": "2026-10-03T14:25:11.923Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "slcode777/omatrad",
+        "pluginIds": [
+          "slcode777.omatrad"
+        ],
+        "commit": "6eac7c32fba825983684284c442d430d21b6c211",
+        "checkedAt": "2026-10-03T14:25:11.796Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "slcode777.omatrad": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
