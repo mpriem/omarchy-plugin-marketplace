@@ -282188,6 +282188,72 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Unayung/omarchy-ipad-sidecar-x86",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T12:33:05.792Z",
+      "listingValidatedCommit": "028d2c8c78f25bd41612dc2025c05e47bca94bf0",
+      "listingValidatedAt": "2026-10-03T12:33:05.792Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "unayung/omarchy-ipad-sidecar-x86",
+        "pluginIds": [
+          "io.github.unayung.sidecar-x86"
+        ],
+        "commit": "028d2c8c78f25bd41612dc2025c05e47bca94bf0",
+        "checkedAt": "2026-10-03T12:33:05.712Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "package-manager",
+          "service-management",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "unayung/omarchy-ipad-sidecar-x86",
+        "pluginIds": [
+          "io.github.unayung.sidecar-x86"
+        ],
+        "commit": "028d2c8c78f25bd41612dc2025c05e47bca94bf0",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T12:33:05.712Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "package-manager",
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T12:15:11.143Z",
+        "requestEventId": 32396358464,
+        "requestedAt": "2026-10-03T12:23:50Z",
+        "reviewedAt": "2026-10-03T12:33:05.712Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.unayung.sidecar-x86": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
