@@ -115940,8 +115940,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-31",
       "listedAt": "2026-08-31T13:46:27.286Z",
-      "listingValidatedCommit": "c3e9a6fa1eb65f749dddc93ff2c1d8a9b06bcd00",
-      "listingValidatedAt": "2026-08-31T13:46:27.286Z",
+      "listingValidatedCommit": "59fe3057535e233f8628ac1b4fd0ab8adaa4dd5f",
+      "listingValidatedAt": "2026-10-03T07:53:17.735Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -115950,35 +115950,14 @@
         "pluginIds": [
           "tim.theme-rotate"
         ],
-        "commit": "c3e9a6fa1eb65f749dddc93ff2c1d8a9b06bcd00",
-        "checkedAt": "2026-08-31T13:46:27.233Z",
+        "commit": "59fe3057535e233f8628ac1b4fd0ab8adaa4dd5f",
+        "checkedAt": "2026-10-03T07:53:17.735Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ninepointlabs/omarchy-theme-rotate",
-        "pluginIds": [
-          "tim.theme-rotate"
-        ],
-        "commit": "c3e9a6fa1eb65f749dddc93ff2c1d8a9b06bcd00",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-31T13:46:27.233Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-29T03:27:58.934Z",
-        "requestEventId": 30281637991,
-        "requestedAt": "2026-08-31T13:31:33Z",
-        "reviewedAt": "2026-08-31T13:46:27.234Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "tim.theme-rotate": {
@@ -115990,7 +115969,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ninepointlabs/omarchy-theme-rotate",
+        "pluginIds": [
+          "tim.theme-rotate"
+        ],
+        "commit": "59fe3057535e233f8628ac1b4fd0ab8adaa4dd5f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T07:53:17.735Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T06:38:09.521Z",
+        "requestEventId": 32385630281,
+        "requestedAt": "2026-10-03T06:56:37Z",
+        "reviewedAt": "2026-10-03T07:53:17.735Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "c3e9a6fa1eb65f749dddc93ff2c1d8a9b06bcd00",
+          "validatedAt": "2026-08-31T13:46:27.286Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T07:53:17.735Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ninepointlabs/omarchy-theme-rotate",
+            "pluginIds": [
+              "tim.theme-rotate"
+            ],
+            "commit": "c3e9a6fa1eb65f749dddc93ff2c1d8a9b06bcd00",
+            "checkedAt": "2026-08-31T13:46:27.233Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ninepointlabs/omarchy-theme-rotate",
+            "pluginIds": [
+              "tim.theme-rotate"
+            ],
+            "commit": "c3e9a6fa1eb65f749dddc93ff2c1d8a9b06bcd00",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-31T13:46:27.233Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-29T03:27:58.934Z",
+            "requestEventId": 30281637991,
+            "requestedAt": "2026-08-31T13:31:33Z",
+            "reviewedAt": "2026-08-31T13:46:27.234Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/harbefas/omarchy-vault",
