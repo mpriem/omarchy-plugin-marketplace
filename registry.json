@@ -178474,8 +178474,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-12",
       "listedAt": "2026-09-12T18:08:44.180Z",
-      "listingValidatedCommit": "1ad221f26121848adb74eca1634bff1125f1162c",
-      "listingValidatedAt": "2026-09-12T18:08:44.180Z",
+      "listingValidatedCommit": "c36e625ede2dddde7f8664e0d42688ca04ac838b",
+      "listingValidatedAt": "2026-10-03T12:35:48.196Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -178484,8 +178484,8 @@
         "pluginIds": [
           "devfrp.audio-patchbay"
         ],
-        "commit": "1ad221f26121848adb74eca1634bff1125f1162c",
-        "checkedAt": "2026-09-12T18:08:44.104Z",
+        "commit": "c36e625ede2dddde7f8664e0d42688ca04ac838b",
+        "checkedAt": "2026-10-03T12:35:48.196Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -178494,29 +178494,6 @@
           "privilege",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "devfrp/omarchy-audio-pro",
-        "pluginIds": [
-          "devfrp.audio-patchbay"
-        ],
-        "commit": "1ad221f26121848adb74eca1634bff1125f1162c",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-12T18:08:44.104Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-12T18:06:12.489Z",
-        "requestEventId": 31029027050,
-        "requestedAt": "2026-09-12T18:07:15Z",
-        "reviewedAt": "2026-09-12T18:08:44.104Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "devfrp.audio-patchbay": {
@@ -178528,7 +178505,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "devfrp/omarchy-audio-pro",
+        "pluginIds": [
+          "devfrp.audio-patchbay"
+        ],
+        "commit": "c36e625ede2dddde7f8664e0d42688ca04ac838b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T12:35:48.196Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T12:11:05.812Z",
+        "requestEventId": 32396425190,
+        "requestedAt": "2026-10-03T12:25:52Z",
+        "reviewedAt": "2026-10-03T12:35:48.196Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1ad221f26121848adb74eca1634bff1125f1162c",
+          "validatedAt": "2026-09-12T18:08:44.180Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T12:35:48.196Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "devfrp/omarchy-audio-pro",
+            "pluginIds": [
+              "devfrp.audio-patchbay"
+            ],
+            "commit": "1ad221f26121848adb74eca1634bff1125f1162c",
+            "checkedAt": "2026-09-12T18:08:44.104Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "devfrp/omarchy-audio-pro",
+            "pluginIds": [
+              "devfrp.audio-patchbay"
+            ],
+            "commit": "1ad221f26121848adb74eca1634bff1125f1162c",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-12T18:08:44.104Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-12T18:06:12.489Z",
+            "requestEventId": 31029027050,
+            "requestedAt": "2026-09-12T18:07:15Z",
+            "reviewedAt": "2026-09-12T18:08:44.104Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/xoox83/omarchy-aero-x16-keyboard-rgb",
