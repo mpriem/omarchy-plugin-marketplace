@@ -183708,8 +183708,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-14",
       "listedAt": "2026-09-14T23:39:57.744Z",
-      "listingValidatedCommit": "e2d6042852c511451c8a2212c80f4c1804500592",
-      "listingValidatedAt": "2026-09-14T23:39:57.744Z",
+      "listingValidatedCommit": "3694ffcb33ee3fbb505d11f64266ad31e3521327",
+      "listingValidatedAt": "2026-10-03T02:24:41.607Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -183718,41 +183718,17 @@
         "pluginIds": [
           "io.github.danielkillenberger.distraction-space"
         ],
-        "commit": "e2d6042852c511451c8a2212c80f4c1804500592",
-        "checkedAt": "2026-09-14T23:39:57.696Z",
+        "commit": "3694ffcb33ee3fbb505d11f64266ad31e3521327",
+        "checkedAt": "2026-10-03T02:24:41.607Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "sudoers-modification",
           "privilege",
+          "sudoers-modification",
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "danielkillenberger/omarchy-distraction-space",
-        "pluginIds": [
-          "io.github.danielkillenberger.distraction-space"
-        ],
-        "commit": "e2d6042852c511451c8a2212c80f4c1804500592",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-14T23:39:57.696Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "sudoers-modification",
-          "privilege",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-14T07:41:18.752Z",
-        "requestEventId": 31136687294,
-        "requestedAt": "2026-09-14T23:33:42Z",
-        "reviewedAt": "2026-09-14T23:39:57.696Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.danielkillenberger.distraction-space": {
@@ -183764,7 +183740,82 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "danielkillenberger/omarchy-distraction-space",
+        "pluginIds": [
+          "io.github.danielkillenberger.distraction-space"
+        ],
+        "commit": "3694ffcb33ee3fbb505d11f64266ad31e3521327",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T02:24:41.607Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "sudoers-modification",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T09:57:39.525Z",
+        "requestEventId": 32378021777,
+        "requestedAt": "2026-10-03T02:21:59Z",
+        "reviewedAt": "2026-10-03T02:24:41.607Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e2d6042852c511451c8a2212c80f4c1804500592",
+          "validatedAt": "2026-09-14T23:39:57.744Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T02:24:41.607Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "danielkillenberger/omarchy-distraction-space",
+            "pluginIds": [
+              "io.github.danielkillenberger.distraction-space"
+            ],
+            "commit": "e2d6042852c511451c8a2212c80f4c1804500592",
+            "checkedAt": "2026-09-14T23:39:57.696Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "sudoers-modification",
+              "privilege",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "danielkillenberger/omarchy-distraction-space",
+            "pluginIds": [
+              "io.github.danielkillenberger.distraction-space"
+            ],
+            "commit": "e2d6042852c511451c8a2212c80f4c1804500592",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-14T23:39:57.696Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "sudoers-modification",
+              "privilege",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-14T07:41:18.752Z",
+            "requestEventId": 31136687294,
+            "requestedAt": "2026-09-14T23:33:42Z",
+            "reviewedAt": "2026-09-14T23:39:57.696Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/data-goblin/fileblade",
