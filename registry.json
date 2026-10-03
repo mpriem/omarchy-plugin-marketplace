@@ -280164,6 +280164,43 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Mouxy/omarchy-sharpdesk",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T08:55:49.664Z",
+      "listingValidatedCommit": "41992bda7a5fde3c1a2943132abe2dd981b30d1d",
+      "listingValidatedAt": "2026-10-03T08:55:49.664Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mouxy/omarchy-sharpdesk",
+        "pluginIds": [
+          "sharpdesk.mouxy"
+        ],
+        "commit": "41992bda7a5fde3c1a2943132abe2dd981b30d1d",
+        "checkedAt": "2026-10-03T08:55:49.541Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "sharpdesk.mouxy": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
