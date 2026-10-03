@@ -195059,8 +195059,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T17:23:34.716Z",
-      "listingValidatedCommit": "811c40c071cb6d0c2662986d039005212315409b",
-      "listingValidatedAt": "2026-09-16T17:23:34.716Z",
+      "listingValidatedCommit": "b38b7074dc3b5159bb81dedf2947b952e3066000",
+      "listingValidatedAt": "2026-10-03T09:04:56.974Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -195069,8 +195069,8 @@
         "pluginIds": [
           "more-weather"
         ],
-        "commit": "811c40c071cb6d0c2662986d039005212315409b",
-        "checkedAt": "2026-09-16T17:23:34.632Z",
+        "commit": "b38b7074dc3b5159bb81dedf2947b952e3066000",
+        "checkedAt": "2026-10-03T09:04:56.974Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -195085,7 +195085,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "811c40c071cb6d0c2662986d039005212315409b",
+          "validatedAt": "2026-09-16T17:23:34.716Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T09:04:56.974Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "t-the-coder/more-weather",
+            "pluginIds": [
+              "more-weather"
+            ],
+            "commit": "811c40c071cb6d0c2662986d039005212315409b",
+            "checkedAt": "2026-09-16T17:23:34.632Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/key-arg/omarchy-statable",
