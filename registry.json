@@ -162535,8 +162535,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T19:30:32.982Z",
-      "listingValidatedCommit": "2b2713f3c9186ec7dd723121d3241c6b23ecd64f",
-      "listingValidatedAt": "2026-09-08T19:30:32.982Z",
+      "listingValidatedCommit": "7cbf2c13261baa7ec7e1c83a9f7f20691a85ce3b",
+      "listingValidatedAt": "2026-10-03T07:05:47.372Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -162545,39 +162545,16 @@
         "pluginIds": [
           "davedes.fossfetch"
         ],
-        "commit": "2b2713f3c9186ec7dd723121d3241c6b23ecd64f",
-        "checkedAt": "2026-09-08T19:30:32.902Z",
+        "commit": "7cbf2c13261baa7ec7e1c83a9f7f20691a85ce3b",
+        "checkedAt": "2026-10-03T07:05:47.372Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "package-manager",
           "privilege",
+          "package-manager",
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "davedes83/fossfetch",
-        "pluginIds": [
-          "davedes.fossfetch"
-        ],
-        "commit": "2b2713f3c9186ec7dd723121d3241c6b23ecd64f",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-08T19:30:32.902Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege",
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-08T15:46:40.929Z",
-        "requestEventId": 30779776140,
-        "requestedAt": "2026-09-08T19:26:19Z",
-        "reviewedAt": "2026-09-08T19:30:32.902Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "davedes.fossfetch": {
@@ -162588,7 +162565,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "davedes83/fossfetch",
+        "pluginIds": [
+          "davedes.fossfetch"
+        ],
+        "commit": "7cbf2c13261baa7ec7e1c83a9f7f20691a85ce3b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T07:05:47.372Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T06:38:08.338Z",
+        "requestEventId": 32385368855,
+        "requestedAt": "2026-10-03T06:46:58Z",
+        "reviewedAt": "2026-10-03T07:05:47.372Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2b2713f3c9186ec7dd723121d3241c6b23ecd64f",
+          "validatedAt": "2026-09-08T19:30:32.982Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T07:05:47.372Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "davedes83/fossfetch",
+            "pluginIds": [
+              "davedes.fossfetch"
+            ],
+            "commit": "2b2713f3c9186ec7dd723121d3241c6b23ecd64f",
+            "checkedAt": "2026-09-08T19:30:32.902Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "davedes83/fossfetch",
+            "pluginIds": [
+              "davedes.fossfetch"
+            ],
+            "commit": "2b2713f3c9186ec7dd723121d3241c6b23ecd64f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-08T19:30:32.902Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-08T15:46:40.929Z",
+            "requestEventId": 30779776140,
+            "requestedAt": "2026-09-08T19:26:19Z",
+            "reviewedAt": "2026-09-08T19:30:32.902Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/FilipHarald/oma-mise",
