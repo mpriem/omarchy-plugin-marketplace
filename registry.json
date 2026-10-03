@@ -242961,8 +242961,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-26",
       "listedAt": "2026-09-26T06:55:45.179Z",
-      "listingValidatedCommit": "3ec798df30099ef56aab4131d4f26d31d2ad08e5",
-      "listingValidatedAt": "2026-09-26T06:55:45.179Z",
+      "listingValidatedCommit": "5ac0b7ccbfe7a4aa0d56049dfcfedf8a0fa8d20f",
+      "listingValidatedAt": "2026-10-03T21:48:56.174Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -242971,12 +242971,16 @@
         "pluginIds": [
           "brightwalker25.system"
         ],
-        "commit": "3ec798df30099ef56aab4131d4f26d31d2ad08e5",
-        "checkedAt": "2026-09-26T06:55:45.069Z",
-        "outcome": "passed",
+        "commit": "5ac0b7ccbfe7a4aa0d56049dfcfedf8a0fa8d20f",
+        "checkedAt": "2026-10-03T21:48:56.174Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "privilege",
+          "sudoers-modification",
+          "installer"
+        ]
       },
       "plugins": {
         "brightwalker25.system": {
@@ -242987,7 +242991,52 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "brightwalker25/omarchy-system",
+        "pluginIds": [
+          "brightwalker25.system"
+        ],
+        "commit": "5ac0b7ccbfe7a4aa0d56049dfcfedf8a0fa8d20f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T21:48:56.174Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "sudoers-modification",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T17:35:50.171Z",
+        "requestEventId": 32415483380,
+        "requestedAt": "2026-10-03T21:28:20Z",
+        "reviewedAt": "2026-10-03T21:48:56.174Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3ec798df30099ef56aab4131d4f26d31d2ad08e5",
+          "validatedAt": "2026-09-26T06:55:45.179Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T21:48:56.174Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "brightwalker25/omarchy-system",
+            "pluginIds": [
+              "brightwalker25.system"
+            ],
+            "commit": "3ec798df30099ef56aab4131d4f26d31d2ad08e5",
+            "checkedAt": "2026-09-26T06:55:45.069Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/brightwalker25/omarchy-vpn-check",
