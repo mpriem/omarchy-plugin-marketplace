@@ -151171,8 +151171,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-07",
       "listedAt": "2026-09-07T10:48:32.876Z",
-      "listingValidatedCommit": "e5dfc0535d1815c7e3b55f97d897ea07e62cc1c6",
-      "listingValidatedAt": "2026-09-12T00:18:00.919Z",
+      "listingValidatedCommit": "b3d0daaab9f59989bf37cb60de85ae00d7c5bce4",
+      "listingValidatedAt": "2026-10-03T13:08:26.298Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -151181,8 +151181,8 @@
         "pluginIds": [
           "kc.omarchy-menubar-manager"
         ],
-        "commit": "e5dfc0535d1815c7e3b55f97d897ea07e62cc1c6",
-        "checkedAt": "2026-09-12T00:18:00.918Z",
+        "commit": "b3d0daaab9f59989bf37cb60de85ae00d7c5bce4",
+        "checkedAt": "2026-10-03T13:08:26.298Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -151213,6 +151213,26 @@
             ],
             "commit": "7c3207baf55f4b4d6bb84b73c311aaf30691e668",
             "checkedAt": "2026-09-07T10:48:32.805Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "e5dfc0535d1815c7e3b55f97d897ea07e62cc1c6",
+          "validatedAt": "2026-09-12T00:18:00.919Z",
+          "branch": "master",
+          "supersededAt": "2026-10-03T13:08:26.298Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "kevclarkco/omarchy-menubar-manager",
+            "pluginIds": [
+              "kc.omarchy-menubar-manager"
+            ],
+            "commit": "e5dfc0535d1815c7e3b55f97d897ea07e62cc1c6",
+            "checkedAt": "2026-09-12T00:18:00.918Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
