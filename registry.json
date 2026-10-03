@@ -255637,7 +255637,7 @@
           "staruxian.lifeos"
         ],
         "commit": "db4b6d489b7c736fadcfce6ccfa0a99741c8e5f6",
-        "checkedAt": "2026-10-03T01:54:11.313Z",
+        "checkedAt": "2026-10-03T22:20:46.295Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -255650,11 +255650,7 @@
             "bar",
             "quickshell"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       },
       "listingValidationHistory": [

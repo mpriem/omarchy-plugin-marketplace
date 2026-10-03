@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T22:17:03.626Z",
+  "generatedAt": "2026-10-03T22:20:46.295Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -238490,14 +238490,14 @@
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
       "verificationCommit": "db4b6d489b7c736fadcfce6ccfa0a99741c8e5f6",
-      "verificationCheckedAt": "2026-10-03T01:54:11.313Z",
+      "verificationCheckedAt": "2026-10-03T22:20:46.295Z",
       "manifestPath": "manifest.json",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T07:21:35.178Z",
       "repositoryLayout": "root-plugin",
-      "installAvailable": false,
-      "installCommand": "",
-      "installNote": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions.",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/staruxian/lifeos.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
       "category": "Productivity",
       "tags": [
         "bar",
@@ -238529,7 +238529,7 @@
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "9b55d29ecb76394bb89e4829a1867c6a2bbe6cbbc255a6e5a0f88fb76152bb07",
       "versionUpdatedAt": "2026-09-30T13:23:15.671Z",
-      "status": "Manual setup"
+      "status": "Available"
     },
     {
       "id": "io.github.zhuangbiaowei.workspace-names",
