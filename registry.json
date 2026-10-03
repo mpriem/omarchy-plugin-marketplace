@@ -283044,6 +283044,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/rmc507/omaread",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T15:17:24.025Z",
+      "listingValidatedCommit": "371e8c4f19955eb0c42c7a6cb73c9b321caaa3ca",
+      "listingValidatedAt": "2026-10-03T15:17:24.025Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rmc507/omaread",
+        "pluginIds": [
+          "io.github.rmc507.omaread"
+        ],
+        "commit": "371e8c4f19955eb0c42c7a6cb73c9b321caaa3ca",
+        "checkedAt": "2026-10-03T15:17:23.884Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.rmc507.omaread": {
+          "category": "Productivity",
+          "tags": [
+            "education",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
