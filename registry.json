@@ -26,6 +26,7 @@
     "io.github.aayush9029.omatype",
     "io.github.aayush9029.super-space",
     "io.github.asdecided.wayfinder",
+    "io.github.donnishcomau.snote",
     "io.github.ef-code.access-profiles",
     "io.github.eithe.oma20-20-20",
     "io.github.eshayat102.hide-icons",
@@ -252345,43 +252346,6 @@
           "category": "System",
           "tags": [
             "power-management"
-          ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
-        }
-      }
-    },
-    {
-      "repo": "https://github.com/donnishcomau/omarchy-snote",
-      "type": "plugin-source",
-      "addedAt": "2026-09-28",
-      "listedAt": "2026-09-28T00:18:34.922Z",
-      "listingValidatedCommit": "1b640ae36a32c8e4917541bcf543c6fa7b313b4a",
-      "listingValidatedAt": "2026-09-28T00:18:34.922Z",
-      "listingValidatedBranch": "main",
-      "automatedSecurityBaseline": {
-        "schemaVersion": 1,
-        "version": "3",
-        "repository": "donnishcomau/omarchy-snote",
-        "pluginIds": [
-          "io.github.donnishcomau.snote"
-        ],
-        "commit": "1b640ae36a32c8e4917541bcf543c6fa7b313b4a",
-        "checkedAt": "2026-09-28T00:18:34.811Z",
-        "outcome": "passed",
-        "enforcementMode": "selective",
-        "findings": [],
-        "capabilities": []
-      },
-      "plugins": {
-        "io.github.donnishcomau.snote": {
-          "category": "Productivity",
-          "tags": [
-            "bar",
-            "launcher"
           ],
           "manifestPath": "manifest.json",
           "installation": {
