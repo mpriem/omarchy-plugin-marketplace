@@ -284731,6 +284731,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jchisholm59/omarchy-ollama-chat",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T21:37:15.371Z",
+      "listingValidatedCommit": "e23ac21a140d27cc22b333a81bcb818c9156d864",
+      "listingValidatedAt": "2026-10-03T21:37:15.371Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jchisholm59/omarchy-ollama-chat",
+        "pluginIds": [
+          "jim.ollama-chat"
+        ],
+        "commit": "e23ac21a140d27cc22b333a81bcb818c9156d864",
+        "checkedAt": "2026-10-03T21:37:15.250Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "jim.ollama-chat": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
