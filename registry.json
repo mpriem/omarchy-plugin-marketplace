@@ -280911,6 +280911,75 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/TiagoVello/paper-cast",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T10:33:09.460Z",
+      "listingValidatedCommit": "863cd3c2ba9f480fe87774aff0f533e489baa475",
+      "listingValidatedAt": "2026-10-03T10:33:09.460Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tiagovello/paper-cast",
+        "pluginIds": [
+          "io.github.tiagovello.paper-cast"
+        ],
+        "commit": "863cd3c2ba9f480fe87774aff0f533e489baa475",
+        "checkedAt": "2026-10-03T10:33:09.347Z",
+        "outcome": "needs-fixes",
+        "enforcementMode": "selective",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tiagovello/paper-cast",
+        "pluginIds": [
+          "io.github.tiagovello.paper-cast"
+        ],
+        "commit": "863cd3c2ba9f480fe87774aff0f533e489baa475",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T10:33:09.347Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T09:23:24.215Z",
+        "requestEventId": 32392231488,
+        "requestedAt": "2026-10-03T10:32:45Z",
+        "reviewedAt": "2026-10-03T10:33:09.347Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.tiagovello.paper-cast": {
+          "category": "Productivity",
+          "tags": [
+            "ai"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
