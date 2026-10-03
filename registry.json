@@ -205701,8 +205701,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-18",
       "listedAt": "2026-09-18T20:14:47.173Z",
-      "listingValidatedCommit": "93e3c6550ca8b2a88b4904fda4e35c96c16436c0",
-      "listingValidatedAt": "2026-09-18T20:14:47.173Z",
+      "listingValidatedCommit": "f29f1afb1ae7fbcc13850a666d82d09d4e1eaffb",
+      "listingValidatedAt": "2026-10-03T22:48:28.272Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -205711,8 +205711,8 @@
         "pluginIds": [
           "io.github.acero-ad.writing-critter"
         ],
-        "commit": "93e3c6550ca8b2a88b4904fda4e35c96c16436c0",
-        "checkedAt": "2026-09-18T20:14:47.072Z",
+        "commit": "f29f1afb1ae7fbcc13850a666d82d09d4e1eaffb",
+        "checkedAt": "2026-10-03T22:48:28.271Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -205721,29 +205721,6 @@
           "privilege",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "acero-ad/omarchy-writing-pet",
-        "pluginIds": [
-          "io.github.acero-ad.writing-critter"
-        ],
-        "commit": "93e3c6550ca8b2a88b4904fda4e35c96c16436c0",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-18T20:14:47.072Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-18T06:20:18.655Z",
-        "requestEventId": 31414878275,
-        "requestedAt": "2026-09-18T19:57:08Z",
-        "reviewedAt": "2026-09-18T20:14:47.072Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.acero-ad.writing-critter": {
@@ -205754,7 +205731,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "acero-ad/omarchy-writing-pet",
+        "pluginIds": [
+          "io.github.acero-ad.writing-critter"
+        ],
+        "commit": "f29f1afb1ae7fbcc13850a666d82d09d4e1eaffb",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T22:48:28.271Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T22:43:30.734Z",
+        "requestEventId": 32418435677,
+        "requestedAt": "2026-10-03T22:47:58Z",
+        "reviewedAt": "2026-10-03T22:48:28.272Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "93e3c6550ca8b2a88b4904fda4e35c96c16436c0",
+          "validatedAt": "2026-09-18T20:14:47.173Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T22:48:28.272Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "acero-ad/omarchy-writing-pet",
+            "pluginIds": [
+              "io.github.acero-ad.writing-critter"
+            ],
+            "commit": "93e3c6550ca8b2a88b4904fda4e35c96c16436c0",
+            "checkedAt": "2026-09-18T20:14:47.072Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "acero-ad/omarchy-writing-pet",
+            "pluginIds": [
+              "io.github.acero-ad.writing-critter"
+            ],
+            "commit": "93e3c6550ca8b2a88b4904fda4e35c96c16436c0",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-18T20:14:47.072Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-18T06:20:18.655Z",
+            "requestEventId": 31414878275,
+            "requestedAt": "2026-09-18T19:57:08Z",
+            "reviewedAt": "2026-09-18T20:14:47.072Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/skylightlim/omarchy-workspace-peek",
