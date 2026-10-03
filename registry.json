@@ -282493,6 +282493,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Aniket1995/omarchy-predator-turbo",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T13:42:31.532Z",
+      "listingValidatedCommit": "65d2d59771710b6b0f7b86e9d8fe3d292441f696",
+      "listingValidatedAt": "2026-10-03T13:42:31.532Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "aniket1995/omarchy-predator-turbo",
+        "pluginIds": [
+          "predator-turbo"
+        ],
+        "commit": "65d2d59771710b6b0f7b86e9d8fe3d292441f696",
+        "checkedAt": "2026-10-03T13:42:31.412Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "aniket1995/omarchy-predator-turbo",
+        "pluginIds": [
+          "predator-turbo"
+        ],
+        "commit": "65d2d59771710b6b0f7b86e9d8fe3d292441f696",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T13:42:31.412Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T13:40:07.732Z",
+        "requestEventId": 32398982490,
+        "requestedAt": "2026-10-03T13:42:02Z",
+        "reviewedAt": "2026-10-03T13:42:31.412Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "predator-turbo": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "power-management",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
