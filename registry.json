@@ -230860,8 +230860,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-23",
       "listedAt": "2026-09-23T07:59:05.975Z",
-      "listingValidatedCommit": "7fa691c125e8a8f9ab75c7f359e32265eb153486",
-      "listingValidatedAt": "2026-09-23T07:59:05.975Z",
+      "listingValidatedCommit": "119ff0b3fbb16a2defd3c356f75bff2cbb84d82c",
+      "listingValidatedAt": "2026-10-03T01:43:19.492Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -230870,35 +230870,14 @@
         "pluginIds": [
           "datbuiquoc035.omaray"
         ],
-        "commit": "7fa691c125e8a8f9ab75c7f359e32265eb153486",
-        "checkedAt": "2026-09-23T07:59:05.870Z",
+        "commit": "119ff0b3fbb16a2defd3c356f75bff2cbb84d82c",
+        "checkedAt": "2026-10-03T01:43:19.492Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "datbuiquoc035/omaray",
-        "pluginIds": [
-          "datbuiquoc035.omaray"
-        ],
-        "commit": "7fa691c125e8a8f9ab75c7f359e32265eb153486",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-23T07:59:05.870Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-23T07:14:39.091Z",
-        "requestEventId": 31659431825,
-        "requestedAt": "2026-09-23T07:57:21Z",
-        "reviewedAt": "2026-09-23T07:59:05.870Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "datbuiquoc035.omaray": {
@@ -230908,7 +230887,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "datbuiquoc035/omaray",
+        "pluginIds": [
+          "datbuiquoc035.omaray"
+        ],
+        "commit": "119ff0b3fbb16a2defd3c356f75bff2cbb84d82c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T01:43:19.492Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T01:23:57.145Z",
+        "requestEventId": 32376800337,
+        "requestedAt": "2026-10-03T01:42:50Z",
+        "reviewedAt": "2026-10-03T01:43:19.492Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "7fa691c125e8a8f9ab75c7f359e32265eb153486",
+          "validatedAt": "2026-09-23T07:59:05.975Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T01:43:19.492Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "datbuiquoc035/omaray",
+            "pluginIds": [
+              "datbuiquoc035.omaray"
+            ],
+            "commit": "7fa691c125e8a8f9ab75c7f359e32265eb153486",
+            "checkedAt": "2026-09-23T07:59:05.870Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "datbuiquoc035/omaray",
+            "pluginIds": [
+              "datbuiquoc035.omaray"
+            ],
+            "commit": "7fa691c125e8a8f9ab75c7f359e32265eb153486",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-23T07:59:05.870Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-23T07:14:39.091Z",
+            "requestEventId": 31659431825,
+            "requestedAt": "2026-09-23T07:57:21Z",
+            "reviewedAt": "2026-09-23T07:59:05.870Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/niraletter/workspace-icons",
