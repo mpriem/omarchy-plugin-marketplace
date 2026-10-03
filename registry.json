@@ -280460,6 +280460,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/unicadesign/omarchy-sexy-screenshot",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T09:19:30.330Z",
+      "listingValidatedCommit": "90356da0a087f4ad3b5cf9286acb5f416bbd0de5",
+      "listingValidatedAt": "2026-10-03T09:19:30.330Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "unicadesign/omarchy-sexy-screenshot",
+        "pluginIds": [
+          "unicadesign.sexy-screenshot"
+        ],
+        "commit": "90356da0a087f4ad3b5cf9286acb5f416bbd0de5",
+        "checkedAt": "2026-10-03T09:19:30.203Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "unicadesign.sexy-screenshot": {
+          "category": "Widgets",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
