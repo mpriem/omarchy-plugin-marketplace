@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T02:07:11.179Z",
+  "generatedAt": "2026-10-03T02:14:52.624Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -84497,14 +84497,14 @@
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
       "verificationCommit": "e2912f6f38f1d7aa6f119b41d93cefa6cc4db0d1",
-      "verificationCheckedAt": "2026-10-03T00:43:51.517Z",
+      "verificationCheckedAt": "2026-10-03T02:14:52.624Z",
       "manifestPath": "manifest.json",
       "addedAt": "2026-08-28",
       "listedAt": "2026-08-28T05:43:57.701Z",
       "repositoryLayout": "root-plugin",
-      "installAvailable": false,
-      "installCommand": "",
-      "installNote": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions.",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/pkayokay/omapaste.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
       "category": "Productivity",
       "tags": [
         "hyprland",
@@ -84541,7 +84541,7 @@
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "d997303446393505fb97c94f868c9e927922e036b19ce4041e44c93ed45fd0bf",
       "versionUpdatedAt": "2026-09-05T14:57:35.261Z",
-      "status": "Manual setup"
+      "status": "Available"
     },
     {
       "id": "io.github.tyrichards.tray",

@@ -92808,7 +92808,7 @@
           "io.github.pkayokay.omapaste"
         ],
         "commit": "e2912f6f38f1d7aa6f119b41d93cefa6cc4db0d1",
-        "checkedAt": "2026-10-03T00:43:51.517Z",
+        "checkedAt": "2026-10-03T02:14:52.624Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -92821,11 +92821,7 @@
             "hyprland",
             "quickshell"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       },
       "listingValidationHistory": [
