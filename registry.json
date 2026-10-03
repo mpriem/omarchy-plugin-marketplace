@@ -281156,6 +281156,42 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/saigkill/omarchy-missed-shortcuts",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T11:01:46.091Z",
+      "listingValidatedCommit": "ce5dd2aead4866c4b252cbf44c77f1450cc14bcd",
+      "listingValidatedAt": "2026-10-03T11:01:46.091Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "saigkill/omarchy-missed-shortcuts",
+        "pluginIds": [
+          "saigkill.missed-shortcuts"
+        ],
+        "commit": "ce5dd2aead4866c4b252cbf44c77f1450cc14bcd",
+        "checkedAt": "2026-10-03T11:01:45.963Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "saigkill.missed-shortcuts": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
