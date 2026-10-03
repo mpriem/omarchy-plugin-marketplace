@@ -283077,6 +283077,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/siflaynerdias/omarchy-fita",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T15:29:04.112Z",
+      "listingValidatedCommit": "0c4558f189dcb35f2498d85b1aa29a52ec1a01ac",
+      "listingValidatedAt": "2026-10-03T15:29:04.112Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "siflaynerdias/omarchy-fita",
+        "pluginIds": [
+          "silfayner.fita"
+        ],
+        "commit": "0c4558f189dcb35f2498d85b1aa29a52ec1a01ac",
+        "checkedAt": "2026-10-03T15:29:03.984Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "silfayner.fita": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
