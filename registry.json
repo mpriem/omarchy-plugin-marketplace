@@ -280492,6 +280492,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/EDDARI/omarchy-macropad",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T09:22:40.501Z",
+      "listingValidatedCommit": "7cf81aec29304cae57d400ed7e1d7b167c4e24e3",
+      "listingValidatedAt": "2026-10-03T09:22:40.501Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "eddari/omarchy-macropad",
+        "pluginIds": [
+          "eddari.macropad"
+        ],
+        "commit": "7cf81aec29304cae57d400ed7e1d7b167c4e24e3",
+        "checkedAt": "2026-10-03T09:22:40.421Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "eddari/omarchy-macropad",
+        "pluginIds": [
+          "eddari.macropad"
+        ],
+        "commit": "7cf81aec29304cae57d400ed7e1d7b167c4e24e3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T09:22:40.421Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T09:02:22.416Z",
+        "requestEventId": 32389723438,
+        "requestedAt": "2026-10-03T09:17:04Z",
+        "reviewedAt": "2026-10-03T09:22:40.421Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "eddari.macropad": {
+          "category": "Desktop",
+          "tags": [
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
