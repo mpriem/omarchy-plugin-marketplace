@@ -285227,6 +285227,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Edward-Kulyk/omarchy-claude-sessions",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T22:23:09.660Z",
+      "listingValidatedCommit": "4b8abc3a256aacdfe20dc842ce98688038676b29",
+      "listingValidatedAt": "2026-10-03T22:23:09.660Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "edward-kulyk/omarchy-claude-sessions",
+        "pluginIds": [
+          "edward-kulyk.claude-sessions"
+        ],
+        "commit": "4b8abc3a256aacdfe20dc842ce98688038676b29",
+        "checkedAt": "2026-10-03T22:23:09.538Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "edward-kulyk.claude-sessions": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
