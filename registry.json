@@ -216789,8 +216789,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T20:38:31.114Z",
-      "listingValidatedCommit": "55acecf67bff656f86137d72fc59467327c44bd8",
-      "listingValidatedAt": "2026-09-21T20:38:31.114Z",
+      "listingValidatedCommit": "2dd87df4cfb494ca2006038400578e3e9474f616",
+      "listingValidatedAt": "2026-10-03T09:10:44.250Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -216799,8 +216799,8 @@
         "pluginIds": [
           "ziouf.adaptive-brightness"
         ],
-        "commit": "55acecf67bff656f86137d72fc59467327c44bd8",
-        "checkedAt": "2026-09-21T20:38:31.033Z",
+        "commit": "2dd87df4cfb494ca2006038400578e3e9474f616",
+        "checkedAt": "2026-10-03T09:10:44.250Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -216809,29 +216809,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ziouf/omarchy-adaptive-brightness",
-        "pluginIds": [
-          "ziouf.adaptive-brightness"
-        ],
-        "commit": "55acecf67bff656f86137d72fc59467327c44bd8",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-21T20:38:31.033Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-20T19:01:56.582Z",
-        "requestEventId": 31556351842,
-        "requestedAt": "2026-09-21T20:13:14Z",
-        "reviewedAt": "2026-09-21T20:38:31.033Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "ziouf.adaptive-brightness": {
@@ -216843,7 +216820,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ziouf/omarchy-adaptive-brightness",
+        "pluginIds": [
+          "ziouf.adaptive-brightness"
+        ],
+        "commit": "2dd87df4cfb494ca2006038400578e3e9474f616",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T09:10:44.250Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T08:35:01.165Z",
+        "requestEventId": 32389190870,
+        "requestedAt": "2026-10-03T09:02:19Z",
+        "reviewedAt": "2026-10-03T09:10:44.250Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "55acecf67bff656f86137d72fc59467327c44bd8",
+          "validatedAt": "2026-09-21T20:38:31.114Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T09:10:44.250Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ziouf/omarchy-adaptive-brightness",
+            "pluginIds": [
+              "ziouf.adaptive-brightness"
+            ],
+            "commit": "55acecf67bff656f86137d72fc59467327c44bd8",
+            "checkedAt": "2026-09-21T20:38:31.033Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ziouf/omarchy-adaptive-brightness",
+            "pluginIds": [
+              "ziouf.adaptive-brightness"
+            ],
+            "commit": "55acecf67bff656f86137d72fc59467327c44bd8",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-21T20:38:31.033Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-20T19:01:56.582Z",
+            "requestEventId": 31556351842,
+            "requestedAt": "2026-09-21T20:13:14Z",
+            "reviewedAt": "2026-09-21T20:38:31.033Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/lpanebr/omarchy-rpn-calc",
