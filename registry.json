@@ -19860,8 +19860,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-18",
       "listedAt": "2026-08-18T06:37:39.349Z",
-      "listingValidatedCommit": "4cf958c19e890a7b470de08ced6e083bc1b30d3f",
-      "listingValidatedAt": "2026-08-31T07:09:55.408Z",
+      "listingValidatedCommit": "0b8ab6893a5f740f452c63188bb7ba704e957040",
+      "listingValidatedAt": "2026-10-03T08:15:35.381Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -19870,8 +19870,8 @@
         "pluginIds": [
           "tobiasz-p.next-event"
         ],
-        "commit": "4cf958c19e890a7b470de08ced6e083bc1b30d3f",
-        "checkedAt": "2026-08-31T07:09:55.408Z",
+        "commit": "0b8ab6893a5f740f452c63188bb7ba704e957040",
+        "checkedAt": "2026-10-03T08:15:35.381Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -19971,6 +19971,53 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "4cf958c19e890a7b470de08ced6e083bc1b30d3f",
+          "validatedAt": "2026-08-31T07:09:55.408Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T08:15:35.381Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tobiasz-p/next-event",
+            "pluginIds": [
+              "tobiasz-p.next-event"
+            ],
+            "commit": "4cf958c19e890a7b470de08ced6e083bc1b30d3f",
+            "checkedAt": "2026-08-31T07:09:55.408Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "tobiasz-p/next-event",
+            "pluginIds": [
+              "tobiasz-p.next-event"
+            ],
+            "commit": "4cf958c19e890a7b470de08ced6e083bc1b30d3f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-31T07:09:55.408Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-31T06:57:04.376Z",
+            "requestEventId": 30262924775,
+            "requestedAt": "2026-08-31T07:09:17Z",
+            "reviewedAt": "2026-08-31T07:09:55.408Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -19979,10 +20026,10 @@
         "pluginIds": [
           "tobiasz-p.next-event"
         ],
-        "commit": "4cf958c19e890a7b470de08ced6e083bc1b30d3f",
+        "commit": "0b8ab6893a5f740f452c63188bb7ba704e957040",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-31T07:09:55.408Z",
+        "baselineCheckedAt": "2026-10-03T08:15:35.381Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -19990,10 +20037,10 @@
           "installer",
           "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-08-31T06:57:04.376Z",
-        "requestEventId": 30262924775,
-        "requestedAt": "2026-08-31T07:09:17Z",
-        "reviewedAt": "2026-08-31T07:09:55.408Z",
+        "reviewedBaselineCheckedAt": "2026-10-03T07:23:54.027Z",
+        "requestEventId": 32386445654,
+        "requestedAt": "2026-10-03T07:26:19Z",
+        "reviewedAt": "2026-10-03T08:15:35.381Z",
         "reviewer": "HANCORE-linux"
       }
     },
