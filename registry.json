@@ -199465,8 +199465,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-17",
       "listedAt": "2026-09-17T07:52:48.466Z",
-      "listingValidatedCommit": "f0c87b2ef76d64dcac4279dc3febef8362ca748c",
-      "listingValidatedAt": "2026-09-17T07:52:48.466Z",
+      "listingValidatedCommit": "82db872d576e7c9aadb42ab81ccae04769d3fa8e",
+      "listingValidatedAt": "2026-10-03T22:57:10.355Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -199475,8 +199475,8 @@
         "pluginIds": [
           "io.github.duketopceo.bumblebee"
         ],
-        "commit": "f0c87b2ef76d64dcac4279dc3febef8362ca748c",
-        "checkedAt": "2026-09-17T07:52:48.392Z",
+        "commit": "82db872d576e7c9aadb42ab81ccae04769d3fa8e",
+        "checkedAt": "2026-10-03T22:57:10.355Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -199491,7 +199491,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f0c87b2ef76d64dcac4279dc3febef8362ca748c",
+          "validatedAt": "2026-09-17T07:52:48.466Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T22:57:10.355Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "duketopceo/omarchy-bumblebee",
+            "pluginIds": [
+              "io.github.duketopceo.bumblebee"
+            ],
+            "commit": "f0c87b2ef76d64dcac4279dc3febef8362ca748c",
+            "checkedAt": "2026-09-17T07:52:48.392Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/duketopceo/omarchy-numbat",
