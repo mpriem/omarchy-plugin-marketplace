@@ -214539,8 +214539,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T04:52:19.234Z",
-      "listingValidatedCommit": "4496b5b847202b50fcdfbedc02f64e391cfea964",
-      "listingValidatedAt": "2026-09-21T04:52:19.234Z",
+      "listingValidatedCommit": "6f034f722154b5f9ea59ee7c396ce30db00b773e",
+      "listingValidatedAt": "2026-10-03T21:05:50.841Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -214549,8 +214549,8 @@
         "pluginIds": [
           "slowburnaz.omanomad"
         ],
-        "commit": "4496b5b847202b50fcdfbedc02f64e391cfea964",
-        "checkedAt": "2026-09-21T04:52:19.147Z",
+        "commit": "6f034f722154b5f9ea59ee7c396ce30db00b773e",
+        "checkedAt": "2026-10-03T21:05:50.841Z",
         "outcome": "needs-fixes",
         "enforcementMode": "selective",
         "findings": [
@@ -214564,16 +214564,27 @@
           "package-manager"
         ]
       },
+      "plugins": {
+        "slowburnaz.omanomad": {
+          "category": "System",
+          "tags": [
+            "ai",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      },
       "maintainerVerificationReview": {
         "schemaVersion": 1,
         "repository": "slowburnaz/omanomad",
         "pluginIds": [
           "slowburnaz.omanomad"
         ],
-        "commit": "4496b5b847202b50fcdfbedc02f64e391cfea964",
+        "commit": "6f034f722154b5f9ea59ee7c396ce30db00b773e",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-21T04:52:19.147Z",
+        "baselineCheckedAt": "2026-10-03T21:05:50.841Z",
         "baselineOutcome": "needs-fixes",
         "findings": [
           "curl-pipe-shell"
@@ -214585,23 +214596,69 @@
           "installer",
           "package-manager"
         ],
-        "reviewedBaselineCheckedAt": "2026-09-21T02:43:08.005Z",
-        "requestEventId": 31504545999,
-        "requestedAt": "2026-09-21T04:40:00Z",
-        "reviewedAt": "2026-09-21T04:52:19.147Z",
+        "reviewedBaselineCheckedAt": "2026-10-03T16:20:33.110Z",
+        "requestEventId": 32414706120,
+        "requestedAt": "2026-10-03T21:05:18Z",
+        "reviewedAt": "2026-10-03T21:05:50.841Z",
         "reviewer": "HANCORE-linux"
       },
-      "plugins": {
-        "slowburnaz.omanomad": {
-          "category": "System",
-          "tags": [
-            "ai",
-            "bar",
-            "system"
-          ],
-          "manifestPath": "manifest.json"
+      "listingValidationHistory": [
+        {
+          "commit": "4496b5b847202b50fcdfbedc02f64e391cfea964",
+          "validatedAt": "2026-09-21T04:52:19.234Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T21:05:50.841Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "slowburnaz/omanomad",
+            "pluginIds": [
+              "slowburnaz.omanomad"
+            ],
+            "commit": "4496b5b847202b50fcdfbedc02f64e391cfea964",
+            "checkedAt": "2026-09-21T04:52:19.147Z",
+            "outcome": "needs-fixes",
+            "enforcementMode": "selective",
+            "findings": [
+              "curl-pipe-shell"
+            ],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "service-management",
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "slowburnaz/omanomad",
+            "pluginIds": [
+              "slowburnaz.omanomad"
+            ],
+            "commit": "4496b5b847202b50fcdfbedc02f64e391cfea964",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-21T04:52:19.147Z",
+            "baselineOutcome": "needs-fixes",
+            "findings": [
+              "curl-pipe-shell"
+            ],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "service-management",
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-21T02:43:08.005Z",
+            "requestEventId": 31504545999,
+            "requestedAt": "2026-09-21T04:40:00Z",
+            "reviewedAt": "2026-09-21T04:52:19.147Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      }
+      ]
     },
     {
       "repo": "https://github.com/Primly/ncaaf-ticker",
