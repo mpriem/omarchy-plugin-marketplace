@@ -276119,8 +276119,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T04:30:09.317Z",
-      "listingValidatedCommit": "6c4b7fe02bbc499bfd6eb82e33acb8da58c49aa3",
-      "listingValidatedAt": "2026-10-02T13:54:09.689Z",
+      "listingValidatedCommit": "15e7c30b10a626f522c9c0587fbb0b3ac72fb6bf",
+      "listingValidatedAt": "2026-10-03T22:05:01.917Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -276129,8 +276129,8 @@
         "pluginIds": [
           "io.github.abdulrahmanhr.typesuggest"
         ],
-        "commit": "6c4b7fe02bbc499bfd6eb82e33acb8da58c49aa3",
-        "checkedAt": "2026-10-02T13:54:09.689Z",
+        "commit": "15e7c30b10a626f522c9c0587fbb0b3ac72fb6bf",
+        "checkedAt": "2026-10-03T22:05:01.917Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -276152,28 +276152,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "abdulrahmanhr/omarchy-typesuggest",
-        "pluginIds": [
-          "io.github.abdulrahmanhr.typesuggest"
-        ],
-        "commit": "6c4b7fe02bbc499bfd6eb82e33acb8da58c49aa3",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T13:54:09.689Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T13:09:00.753Z",
-        "requestEventId": 32336380587,
-        "requestedAt": "2026-10-02T13:17:02Z",
-        "reviewedAt": "2026-10-02T13:54:09.689Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -276220,8 +276198,75 @@
             "reviewedAt": "2026-10-02T04:30:09.218Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "6c4b7fe02bbc499bfd6eb82e33acb8da58c49aa3",
+          "validatedAt": "2026-10-02T13:54:09.689Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T22:05:01.917Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "abdulrahmanhr/omarchy-typesuggest",
+            "pluginIds": [
+              "io.github.abdulrahmanhr.typesuggest"
+            ],
+            "commit": "6c4b7fe02bbc499bfd6eb82e33acb8da58c49aa3",
+            "checkedAt": "2026-10-02T13:54:09.689Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "abdulrahmanhr/omarchy-typesuggest",
+            "pluginIds": [
+              "io.github.abdulrahmanhr.typesuggest"
+            ],
+            "commit": "6c4b7fe02bbc499bfd6eb82e33acb8da58c49aa3",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T13:54:09.689Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T13:09:00.753Z",
+            "requestEventId": 32336380587,
+            "requestedAt": "2026-10-02T13:17:02Z",
+            "reviewedAt": "2026-10-02T13:54:09.689Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "abdulrahmanhr/omarchy-typesuggest",
+        "pluginIds": [
+          "io.github.abdulrahmanhr.typesuggest"
+        ],
+        "commit": "15e7c30b10a626f522c9c0587fbb0b3ac72fb6bf",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T22:05:01.917Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T20:17:25.593Z",
+        "requestEventId": 32415826129,
+        "requestedAt": "2026-10-03T21:39:35Z",
+        "reviewedAt": "2026-10-03T22:05:01.917Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/LeninZapata/omarchy-super-clipboard-snippet",
