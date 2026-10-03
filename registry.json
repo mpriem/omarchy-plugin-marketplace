@@ -278499,8 +278499,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T21:09:35.120Z",
-      "listingValidatedCommit": "83ffb2e761c64436d8606d25373785f42a2dd2d7",
-      "listingValidatedAt": "2026-10-02T23:23:17.716Z",
+      "listingValidatedCommit": "d1e84c9835125cb59ff1674f8b6a34bb1d4710a0",
+      "listingValidatedAt": "2026-10-03T08:58:57.614Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -278509,8 +278509,8 @@
         "pluginIds": [
           "seamlesscontrol.control"
         ],
-        "commit": "83ffb2e761c64436d8606d25373785f42a2dd2d7",
-        "checkedAt": "2026-10-02T23:23:17.716Z",
+        "commit": "d1e84c9835125cb59ff1674f8b6a34bb1d4710a0",
+        "checkedAt": "2026-10-03T08:58:57.614Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -278534,30 +278534,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "purodelphi/seamlesscontrol",
-        "pluginIds": [
-          "seamlesscontrol.control"
-        ],
-        "commit": "83ffb2e761c64436d8606d25373785f42a2dd2d7",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T23:23:17.716Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "installer",
-          "package-manager",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T22:01:06.170Z",
-        "requestEventId": 32372100145,
-        "requestedAt": "2026-10-02T23:21:16Z",
-        "reviewedAt": "2026-10-02T23:23:17.716Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -278608,8 +278584,81 @@
             "reviewedAt": "2026-10-02T21:09:34.995Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "83ffb2e761c64436d8606d25373785f42a2dd2d7",
+          "validatedAt": "2026-10-02T23:23:17.716Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T08:58:57.614Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "purodelphi/seamlesscontrol",
+            "pluginIds": [
+              "seamlesscontrol.control"
+            ],
+            "commit": "83ffb2e761c64436d8606d25373785f42a2dd2d7",
+            "checkedAt": "2026-10-02T23:23:17.716Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer",
+              "package-manager",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "purodelphi/seamlesscontrol",
+            "pluginIds": [
+              "seamlesscontrol.control"
+            ],
+            "commit": "83ffb2e761c64436d8606d25373785f42a2dd2d7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T23:23:17.716Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer",
+              "package-manager",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T22:01:06.170Z",
+            "requestEventId": 32372100145,
+            "requestedAt": "2026-10-02T23:21:16Z",
+            "reviewedAt": "2026-10-02T23:23:17.716Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "purodelphi/seamlesscontrol",
+        "pluginIds": [
+          "seamlesscontrol.control"
+        ],
+        "commit": "d1e84c9835125cb59ff1674f8b6a34bb1d4710a0",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T08:58:57.614Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T08:27:45.196Z",
+        "requestEventId": 32389031500,
+        "requestedAt": "2026-10-03T08:57:06Z",
+        "reviewedAt": "2026-10-03T08:58:57.614Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/hverbruggen/omabisync",
