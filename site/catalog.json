@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T10:38:14.712Z",
+  "generatedAt": "2026-10-03T10:42:58.852Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -111149,14 +111149,14 @@
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
       "verificationCommit": "ca73337ccc237d7552071d835e7970e4f6defbd2",
-      "verificationCheckedAt": "2026-09-01T23:40:02.602Z",
+      "verificationCheckedAt": "2026-10-03T10:42:58.852Z",
       "manifestPath": "manifest.json",
       "addedAt": "2026-09-01",
       "listedAt": "2026-09-01T20:26:34.030Z",
       "repositoryLayout": "root-plugin",
-      "installAvailable": false,
-      "installCommand": "",
-      "installNote": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions.",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/sunoxen-lab/jott.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
       "category": "Productivity",
       "tags": [
         "bar",
@@ -111187,7 +111187,7 @@
       "upstreamValidatedAt": "2026-09-01T23:40:02.970Z",
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "ac6a2d03a19dd107279c04170f1d96357f0074161d8efad0aa54ce6522856e79",
-      "status": "Manual setup"
+      "status": "Available"
     },
     {
       "id": "pynetreedev.workspace-order",

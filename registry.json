@@ -122997,7 +122997,7 @@
           "io.github.sunoxen-lab.jott"
         ],
         "commit": "ca73337ccc237d7552071d835e7970e4f6defbd2",
-        "checkedAt": "2026-09-01T23:40:02.602Z",
+        "checkedAt": "2026-10-03T10:42:58.852Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -123010,11 +123010,7 @@
             "bar",
             "quickshell"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       },
       "listingValidationHistory": [
