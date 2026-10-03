@@ -176292,8 +176292,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-11",
       "listedAt": "2026-09-11T23:19:44.225Z",
-      "listingValidatedCommit": "cdfc2c07688a456615f969b381cd1f939a709f87",
-      "listingValidatedAt": "2026-09-11T23:19:44.225Z",
+      "listingValidatedCommit": "7304fd5118e6fa8ea4f5fb990c3a4afeb344dfbf",
+      "listingValidatedAt": "2026-10-03T12:15:51.114Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -176302,8 +176302,8 @@
         "pluginIds": [
           "jon.modem"
         ],
-        "commit": "cdfc2c07688a456615f969b381cd1f939a709f87",
-        "checkedAt": "2026-09-11T23:19:44.139Z",
+        "commit": "7304fd5118e6fa8ea4f5fb990c3a4afeb344dfbf",
+        "checkedAt": "2026-10-03T12:15:51.114Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -176311,28 +176311,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "mariposajon/omarchy_modemmanager_plugin",
-        "pluginIds": [
-          "jon.modem"
-        ],
-        "commit": "cdfc2c07688a456615f969b381cd1f939a709f87",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-11T23:19:44.139Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-11T13:45:27.384Z",
-        "requestEventId": 31004145142,
-        "requestedAt": "2026-09-11T23:18:28Z",
-        "reviewedAt": "2026-09-11T23:19:44.139Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "jon.modem": {
@@ -176344,7 +176322,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mariposajon/omarchy_modemmanager_plugin",
+        "pluginIds": [
+          "jon.modem"
+        ],
+        "commit": "7304fd5118e6fa8ea4f5fb990c3a4afeb344dfbf",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T12:15:51.114Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T11:57:34.175Z",
+        "requestEventId": 32395945838,
+        "requestedAt": "2026-10-03T12:11:25Z",
+        "reviewedAt": "2026-10-03T12:15:51.114Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "cdfc2c07688a456615f969b381cd1f939a709f87",
+          "validatedAt": "2026-09-11T23:19:44.225Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T12:15:51.114Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mariposajon/omarchy_modemmanager_plugin",
+            "pluginIds": [
+              "jon.modem"
+            ],
+            "commit": "cdfc2c07688a456615f969b381cd1f939a709f87",
+            "checkedAt": "2026-09-11T23:19:44.139Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "mariposajon/omarchy_modemmanager_plugin",
+            "pluginIds": [
+              "jon.modem"
+            ],
+            "commit": "cdfc2c07688a456615f969b381cd1f939a709f87",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-11T23:19:44.139Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-11T13:45:27.384Z",
+            "requestEventId": 31004145142,
+            "requestedAt": "2026-09-11T23:18:28Z",
+            "reviewedAt": "2026-09-11T23:19:44.139Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/SiWestworth/omarchy-cyber-sentry",
