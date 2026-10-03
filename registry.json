@@ -278164,6 +278164,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/adampog/literal-web-crawler",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T02:49:22.599Z",
+      "listingValidatedCommit": "1e6b081d649c77d4854ff9d0fd6fee2cd0b1bf13",
+      "listingValidatedAt": "2026-10-03T02:49:22.599Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "adampog/literal-web-crawler",
+        "pluginIds": [
+          "io.github.adampog.literal-web-crawler"
+        ],
+        "commit": "1e6b081d649c77d4854ff9d0fd6fee2cd0b1bf13",
+        "checkedAt": "2026-10-03T02:49:22.481Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "adampog/literal-web-crawler",
+        "pluginIds": [
+          "io.github.adampog.literal-web-crawler"
+        ],
+        "commit": "1e6b081d649c77d4854ff9d0fd6fee2cd0b1bf13",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T02:49:22.481Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T02:29:14.179Z",
+        "requestEventId": 32378830827,
+        "requestedAt": "2026-10-03T02:48:38Z",
+        "reviewedAt": "2026-10-03T02:49:22.481Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.adampog.literal-web-crawler": {
+          "category": "Desktop",
+          "tags": [
+            "games",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
