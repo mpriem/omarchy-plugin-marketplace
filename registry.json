@@ -243647,8 +243647,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-26",
       "listedAt": "2026-09-26T08:01:27.030Z",
-      "listingValidatedCommit": "842a92b9d0ef82d6a976ea001bd49d1b2ca5e324",
-      "listingValidatedAt": "2026-09-26T08:01:27.030Z",
+      "listingValidatedCommit": "9892bcf408385e5898b15afe92b68f9cb1d41bee",
+      "listingValidatedAt": "2026-10-03T12:30:45.460Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -243657,8 +243657,8 @@
         "pluginIds": [
           "bearthomas.luogu"
         ],
-        "commit": "842a92b9d0ef82d6a976ea001bd49d1b2ca5e324",
-        "checkedAt": "2026-09-26T08:01:26.949Z",
+        "commit": "9892bcf408385e5898b15afe92b68f9cb1d41bee",
+        "checkedAt": "2026-10-03T12:30:45.460Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -243674,7 +243674,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "842a92b9d0ef82d6a976ea001bd49d1b2ca5e324",
+          "validatedAt": "2026-09-26T08:01:27.030Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T12:30:45.460Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bearthomas/omarchy-luogu",
+            "pluginIds": [
+              "bearthomas.luogu"
+            ],
+            "commit": "842a92b9d0ef82d6a976ea001bd49d1b2ca5e324",
+            "checkedAt": "2026-09-26T08:01:26.949Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/aiob3/omany",
