@@ -24,6 +24,7 @@ import {
   securityBaselineErrorMarker,
   securityBaselineMarkerPrefix,
 } from "../scripts/security-baseline-policy.mjs";
+import { classifySubmission } from "../scripts/submission.mjs";
 
 const root = new URL("../", import.meta.url);
 
@@ -1742,5 +1743,77 @@ test("refresh warns only about sources that newly fail, with sanitized names", a
     );
   } finally {
     await rm(directory, { recursive: true, force: true });
+  }
+});
+
+test("unlabeled CLI submissions with form errors publish their own failure report", async () => {
+  const workflow = await readFile(
+    new URL(".github/workflows/validate-submission.yml", root),
+    "utf8",
+  );
+  const labelScript = workflowStepScript(workflow, "Add submission label");
+  const publishScript = workflowStepScript(workflow, "Publish validation report");
+  const title = "[Plugin]: Example";
+  const body = "### Repository URL\n\nhttps://github.com/example/plugin\n";
+  const report = [
+    "<!-- marketplace-validation -->",
+    "## Marketplace validation",
+    "",
+    "❌ **Validation failed:** The submission fields are missing, reordered, or malformed.",
+    "",
+  ].join("\n");
+  const intake = classifySubmission({ title, body });
+  assert.deepEqual(intake, { shouldValidate: true, shouldLabel: true });
+
+  for (const [group, labelStepRuns] of [
+    ["issue-validation-42", true],
+    ["plugin-catalog-writes", true],
+    ["issue-validation-42", false],
+    ["plugin-catalog-writes", false],
+  ]) {
+    const directory = await mkdtemp(join(tmpdir(), "marketplace-cli-submission-report-"));
+    try {
+      await mkdir(join(directory, "validation-reports"));
+      await writeFile(join(directory, "validation-reports", "validation-report.md"), report);
+      const stub = await createIssueMutationStub(directory, {
+        state: "open",
+        title,
+        body,
+        labels: [],
+      });
+      const env = {
+        EXPECTED_BODY: body,
+        EXPECTED_TITLE: title,
+        EXPECTED_TYPE_LABEL: "submission",
+        GH_CALLS: stub.calls,
+        GH_STATE: stub.state,
+        GITHUB_REPOSITORY: "example/marketplace",
+        ISSUE_NUMBER: "42",
+        MUTATION_CONCURRENCY_GROUP: group,
+        PATH: `${stub.bin}:${process.env.PATH}`,
+        RUNNER_TEMP: directory,
+      };
+      initializeIssueMutationGuard(workflow, { cwd: directory, env });
+      if (labelStepRuns) {
+        const label = runWorkflowScript(labelScript, { cwd: directory, env });
+        assert.equal(label.status, 0, label.stderr);
+      }
+      const publish = runWorkflowScript(publishScript, { cwd: directory, env });
+      const state = JSON.parse(await readFile(stub.state, "utf8"));
+      if (labelStepRuns) {
+        assert.equal(publish.status, 0, `${group}: ${publish.stderr}`);
+        assert.deepEqual(state.labels.map(({ name }) => name), ["submission"], group);
+        assert.deepEqual(state.comments, [report], group);
+      } else if (group === "plugin-catalog-writes") {
+        assert.notEqual(publish.status, 0, group);
+        assert.deepEqual(state.comments, [], group);
+      } else {
+        assert.equal(publish.status, 0, `${group}: ${publish.stderr}`);
+        assert.equal(await readFile(join(directory, "issue-mutation-stop"), "utf8"), "fallback\n");
+        assert.deepEqual(state.comments, [], group);
+      }
+    } finally {
+      await rm(directory, { recursive: true, force: true });
+    }
   }
 });
