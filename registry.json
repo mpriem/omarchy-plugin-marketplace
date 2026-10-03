@@ -284322,6 +284322,70 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/fiifiofosu/omarchy-android-emulator",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T21:09:14.583Z",
+      "listingValidatedCommit": "7a95786be9e4e0921b8592f076305d452b8c612a",
+      "listingValidatedAt": "2026-10-03T21:09:14.583Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "fiifiofosu/omarchy-android-emulator",
+        "pluginIds": [
+          "io.github.fiifiofosu.android-emulator"
+        ],
+        "commit": "7a95786be9e4e0921b8592f076305d452b8c612a",
+        "checkedAt": "2026-10-03T21:09:14.457Z",
+        "outcome": "needs-fixes",
+        "enforcementMode": "selective",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "fiifiofosu/omarchy-android-emulator",
+        "pluginIds": [
+          "io.github.fiifiofosu.android-emulator"
+        ],
+        "commit": "7a95786be9e4e0921b8592f076305d452b8c612a",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T21:09:14.457Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T20:57:19.321Z",
+        "requestEventId": 32414731322,
+        "requestedAt": "2026-10-03T21:06:01Z",
+        "reviewedAt": "2026-10-03T21:09:14.457Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.fiifiofosu.android-emulator": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
