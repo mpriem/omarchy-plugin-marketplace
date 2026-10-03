@@ -215327,8 +215327,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T18:12:51.409Z",
-      "listingValidatedCommit": "d0ce844fe6fa7fe9a4640d8f39062ce41cef710a",
-      "listingValidatedAt": "2026-09-21T18:12:51.409Z",
+      "listingValidatedCommit": "73fd8eca38b560c876f374770ea65c28988cefe8",
+      "listingValidatedAt": "2026-10-03T08:12:10.375Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -215337,8 +215337,8 @@
         "pluginIds": [
           "ozdil.omarss"
         ],
-        "commit": "d0ce844fe6fa7fe9a4640d8f39062ce41cef710a",
-        "checkedAt": "2026-09-21T18:12:51.314Z",
+        "commit": "73fd8eca38b560c876f374770ea65c28988cefe8",
+        "checkedAt": "2026-10-03T08:12:10.375Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -215353,7 +215353,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "d0ce844fe6fa7fe9a4640d8f39062ce41cef710a",
+          "validatedAt": "2026-09-21T18:12:51.409Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T08:12:10.375Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ozdil/omarchy-omarss",
+            "pluginIds": [
+              "ozdil.omarss"
+            ],
+            "commit": "d0ce844fe6fa7fe9a4640d8f39062ce41cef710a",
+            "checkedAt": "2026-09-21T18:12:51.314Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ozdil/omarchy-omastudio",
