@@ -2848,7 +2848,11 @@ test("CLI submissions require the complete issue-form structure", () => {
       title: "[Plugin]: Example",
       body: submissionBody({ checked: submissionChecklist.slice(0, -1) }),
     }),
-    { shouldValidate: true, shouldLabel: false },
+    { shouldValidate: true, shouldLabel: true },
+  );
+  assert.deepEqual(
+    classifySubmission({ title: "General question", body: "missing fields" }),
+    { shouldValidate: false, shouldLabel: false },
   );
   assert.deepEqual(
     classifySubmission({
@@ -2867,7 +2871,7 @@ test("CLI submissions require the complete issue-form structure", () => {
   );
   assert.deepEqual(
     classifySubmission({ title: "[Plugin]:", body }),
-    { shouldValidate: true, shouldLabel: false },
+    { shouldValidate: true, shouldLabel: true },
   );
 });
 
@@ -3046,7 +3050,7 @@ test("CLI checklist confirmation is limited to the checklist section", () => {
   const body = submissionBody({ notes: checkedInNotes, checked: [] });
   assert.deepEqual(
     classifySubmission({ title: "[Plugin]: Example", body }),
-    { shouldValidate: true, shouldLabel: false },
+    { shouldValidate: true, shouldLabel: true },
   );
   assert.equal(
     hasRightsConfirmation({ user: { login: "plugin-author" }, body }),
