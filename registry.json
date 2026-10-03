@@ -12032,8 +12032,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-17",
       "listedAt": "2026-08-17T02:09:04.120Z",
-      "listingValidatedCommit": "e33b16598659eaa4db15aff8f71e586a8367c5b7",
-      "listingValidatedAt": "2026-08-17T02:09:04.120Z",
+      "listingValidatedCommit": "3b31e135960304988ca97bbaf5fc9d22f5e2a5d3",
+      "listingValidatedAt": "2026-10-03T00:00:06.431Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -12042,8 +12042,8 @@
         "pluginIds": [
           "aweiward.omaqbt"
         ],
-        "commit": "e33b16598659eaa4db15aff8f71e586a8367c5b7",
-        "checkedAt": "2026-08-17T01:13:40.118Z",
+        "commit": "3b31e135960304988ca97bbaf5fc9d22f5e2a5d3",
+        "checkedAt": "2026-10-03T00:00:06.431Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -12065,7 +12065,56 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "aweiward/omaqbt",
+        "pluginIds": [
+          "aweiward.omaqbt"
+        ],
+        "commit": "3b31e135960304988ca97bbaf5fc9d22f5e2a5d3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T00:00:06.431Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-02T21:21:30.058Z",
+        "requestEventId": 32373501183,
+        "requestedAt": "2026-10-02T23:59:13Z",
+        "reviewedAt": "2026-10-03T00:00:06.431Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e33b16598659eaa4db15aff8f71e586a8367c5b7",
+          "validatedAt": "2026-08-17T02:09:04.120Z",
+          "branch": "master",
+          "supersededAt": "2026-10-03T00:00:06.431Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "aweiward/omaqbt",
+            "pluginIds": [
+              "aweiward.omaqbt"
+            ],
+            "commit": "e33b16598659eaa4db15aff8f71e586a8367c5b7",
+            "checkedAt": "2026-08-17T01:13:40.118Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ]
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/devgtv/omarchy-menu-esc-back",
