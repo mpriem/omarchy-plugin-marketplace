@@ -123548,8 +123548,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-02",
       "listedAt": "2026-09-02T05:13:13.696Z",
-      "listingValidatedCommit": "e8105b6b69e6577f28b08be75001dd5f8a05672c",
-      "listingValidatedAt": "2026-09-02T05:13:13.696Z",
+      "listingValidatedCommit": "c58ff567e8753a2180de2b2bcd810a12e966e941",
+      "listingValidatedAt": "2026-10-03T06:48:34.181Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -123558,12 +123558,16 @@
         "pluginIds": [
           "jacob.npu"
         ],
-        "commit": "e8105b6b69e6577f28b08be75001dd5f8a05672c",
-        "checkedAt": "2026-09-02T05:13:13.650Z",
-        "outcome": "passed",
+        "commit": "c58ff567e8753a2180de2b2bcd810a12e966e941",
+        "checkedAt": "2026-10-03T06:48:34.180Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ]
       },
       "plugins": {
         "jacob.npu": {
@@ -123575,7 +123579,52 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jacob-vincent-mink/omarchy-npu-waveform",
+        "pluginIds": [
+          "jacob.npu"
+        ],
+        "commit": "c58ff567e8753a2180de2b2bcd810a12e966e941",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T06:48:34.180Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T06:37:26.428Z",
+        "requestEventId": 32385248085,
+        "requestedAt": "2026-10-03T06:42:26Z",
+        "reviewedAt": "2026-10-03T06:48:34.181Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e8105b6b69e6577f28b08be75001dd5f8a05672c",
+          "validatedAt": "2026-09-02T05:13:13.696Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T06:48:34.181Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jacob-vincent-mink/omarchy-npu-waveform",
+            "pluginIds": [
+              "jacob.npu"
+            ],
+            "commit": "e8105b6b69e6577f28b08be75001dd5f8a05672c",
+            "checkedAt": "2026-09-02T05:13:13.650Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ZacharyZhang-NY/omarchy-pets",
