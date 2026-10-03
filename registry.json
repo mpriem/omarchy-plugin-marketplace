@@ -281887,6 +281887,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/powerk1977/omarchy-lms",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T12:09:32.472Z",
+      "listingValidatedCommit": "7def2b33aeb3cc9e14a24cbe83ae40bee594bbbe",
+      "listingValidatedAt": "2026-10-03T12:09:32.472Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "powerk1977/omarchy-lms",
+        "pluginIds": [
+          "io.github.powerk1977.lms"
+        ],
+        "commit": "7def2b33aeb3cc9e14a24cbe83ae40bee594bbbe",
+        "checkedAt": "2026-10-03T12:09:32.356Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.powerk1977.lms": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
