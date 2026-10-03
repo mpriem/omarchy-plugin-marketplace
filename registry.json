@@ -280773,8 +280773,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T01:51:12.848Z",
-      "listingValidatedCommit": "e10550148c212c2ae53a8bb019443a05c54dc519",
-      "listingValidatedAt": "2026-10-03T01:51:12.848Z",
+      "listingValidatedCommit": "ef50497f986b857cfaa840625dfedfd3b1e37b55",
+      "listingValidatedAt": "2026-10-03T21:12:19.973Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -280783,8 +280783,8 @@
         "pluginIds": [
           "gabox.cliamp-now-playing"
         ],
-        "commit": "e10550148c212c2ae53a8bb019443a05c54dc519",
-        "checkedAt": "2026-10-03T01:51:12.725Z",
+        "commit": "ef50497f986b857cfaa840625dfedfd3b1e37b55",
+        "checkedAt": "2026-10-03T21:12:19.973Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -280793,29 +280793,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "gaboxarg/cliamp-widget",
-        "pluginIds": [
-          "gabox.cliamp-now-playing"
-        ],
-        "commit": "e10550148c212c2ae53a8bb019443a05c54dc519",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-03T01:51:12.725Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-03T01:47:57.704Z",
-        "requestEventId": 32377062410,
-        "requestedAt": "2026-10-03T01:50:50Z",
-        "reviewedAt": "2026-10-03T01:51:12.725Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "gabox.cliamp-now-playing": {
@@ -280827,7 +280804,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gaboxarg/cliamp-widget",
+        "pluginIds": [
+          "gabox.cliamp-now-playing"
+        ],
+        "commit": "ef50497f986b857cfaa840625dfedfd3b1e37b55",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T21:12:19.973Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T15:02:01.511Z",
+        "requestEventId": 32414866915,
+        "requestedAt": "2026-10-03T21:10:13Z",
+        "reviewedAt": "2026-10-03T21:12:19.973Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e10550148c212c2ae53a8bb019443a05c54dc519",
+          "validatedAt": "2026-10-03T01:51:12.848Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T21:12:19.973Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gaboxarg/cliamp-widget",
+            "pluginIds": [
+              "gabox.cliamp-now-playing"
+            ],
+            "commit": "e10550148c212c2ae53a8bb019443a05c54dc519",
+            "checkedAt": "2026-10-03T01:51:12.725Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gaboxarg/cliamp-widget",
+            "pluginIds": [
+              "gabox.cliamp-now-playing"
+            ],
+            "commit": "e10550148c212c2ae53a8bb019443a05c54dc519",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-03T01:51:12.725Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-03T01:47:57.704Z",
+            "requestEventId": 32377062410,
+            "requestedAt": "2026-10-03T01:50:50Z",
+            "reviewedAt": "2026-10-03T01:51:12.725Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/c8h10n4o2-b/omarchy-theme-roulette",
