@@ -280855,6 +280855,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/jgarza9788/flank",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T10:15:42.685Z",
+      "listingValidatedCommit": "d7230599690ff9fa236313f2001056525f022e87",
+      "listingValidatedAt": "2026-10-03T10:15:42.685Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jgarza9788/flank",
+        "pluginIds": [
+          "jgarza.flank"
+        ],
+        "commit": "d7230599690ff9fa236313f2001056525f022e87",
+        "checkedAt": "2026-10-03T10:15:42.562Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "jgarza.flank": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
