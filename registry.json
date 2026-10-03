@@ -107314,8 +107314,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-30",
       "listedAt": "2026-08-30T11:37:39.159Z",
-      "listingValidatedCommit": "d149590dc8d70e01b853bd2dcb2bbef33cc4b3a2",
-      "listingValidatedAt": "2026-09-02T01:04:26.074Z",
+      "listingValidatedCommit": "ffead99ed58d0f1acf52e95c064e897d081575a6",
+      "listingValidatedAt": "2026-10-03T07:56:10.310Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -107324,8 +107324,8 @@
         "pluginIds": [
           "io.github.jeremylongshore.loose-ends"
         ],
-        "commit": "d149590dc8d70e01b853bd2dcb2bbef33cc4b3a2",
-        "checkedAt": "2026-09-02T01:04:26.074Z",
+        "commit": "ffead99ed58d0f1acf52e95c064e897d081575a6",
+        "checkedAt": "2026-10-03T07:56:10.310Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -107342,27 +107342,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "jeremylongshore/omarchy-loose-ends-entry",
-        "pluginIds": [
-          "io.github.jeremylongshore.loose-ends"
-        ],
-        "commit": "d149590dc8d70e01b853bd2dcb2bbef33cc4b3a2",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-02T01:04:26.074Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-31T22:21:51.567Z",
-        "requestEventId": 30382820955,
-        "requestedAt": "2026-09-02T00:28:47Z",
-        "reviewedAt": "2026-09-02T01:04:26.074Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -107411,8 +107390,72 @@
             "reviewedAt": "2026-08-30T11:37:39.116Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "d149590dc8d70e01b853bd2dcb2bbef33cc4b3a2",
+          "validatedAt": "2026-09-02T01:04:26.074Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T07:56:10.310Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jeremylongshore/omarchy-loose-ends-entry",
+            "pluginIds": [
+              "io.github.jeremylongshore.loose-ends"
+            ],
+            "commit": "d149590dc8d70e01b853bd2dcb2bbef33cc4b3a2",
+            "checkedAt": "2026-09-02T01:04:26.074Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "jeremylongshore/omarchy-loose-ends-entry",
+            "pluginIds": [
+              "io.github.jeremylongshore.loose-ends"
+            ],
+            "commit": "d149590dc8d70e01b853bd2dcb2bbef33cc4b3a2",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-02T01:04:26.074Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-31T22:21:51.567Z",
+            "requestEventId": 30382820955,
+            "requestedAt": "2026-09-02T00:28:47Z",
+            "reviewedAt": "2026-09-02T01:04:26.074Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jeremylongshore/omarchy-loose-ends-entry",
+        "pluginIds": [
+          "io.github.jeremylongshore.loose-ends"
+        ],
+        "commit": "ffead99ed58d0f1acf52e95c064e897d081575a6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T07:56:10.310Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T06:38:02.962Z",
+        "requestEventId": 32385634871,
+        "requestedAt": "2026-10-03T06:56:47Z",
+        "reviewedAt": "2026-10-03T07:56:10.310Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/jeremylongshore/omarchy-capture-conveyor-entry",
