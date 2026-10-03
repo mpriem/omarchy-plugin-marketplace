@@ -281192,6 +281192,61 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/saigkill/omarchy-network-check",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T11:04:50.335Z",
+      "listingValidatedCommit": "2ae5580aab0d72c825e950885a5eb6baa1b34db5",
+      "listingValidatedAt": "2026-10-03T11:04:50.335Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "saigkill/omarchy-network-check",
+        "pluginIds": [
+          "saigkill.network-check"
+        ],
+        "commit": "2ae5580aab0d72c825e950885a5eb6baa1b34db5",
+        "checkedAt": "2026-10-03T11:04:50.212Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "saigkill/omarchy-network-check",
+        "pluginIds": [
+          "saigkill.network-check"
+        ],
+        "commit": "2ae5580aab0d72c825e950885a5eb6baa1b34db5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T11:04:50.212Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T10:33:56.958Z",
+        "requestEventId": 32393528752,
+        "requestedAt": "2026-10-03T11:02:24Z",
+        "reviewedAt": "2026-10-03T11:04:50.212Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "saigkill.network-check": {
+          "category": "Desktop",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
