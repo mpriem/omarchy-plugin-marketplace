@@ -281031,6 +281031,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Sennadachi/omarchy-pioneer-visualizer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T10:52:52.392Z",
+      "listingValidatedCommit": "c13f06aa4d269816e747386319579064345ea570",
+      "listingValidatedAt": "2026-10-03T10:52:52.392Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sennadachi/omarchy-pioneer-visualizer",
+        "pluginIds": [
+          "io.github.sennadachi.pioneer-visualizer"
+        ],
+        "commit": "c13f06aa4d269816e747386319579064345ea570",
+        "checkedAt": "2026-10-03T10:52:52.287Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "sennadachi/omarchy-pioneer-visualizer",
+        "pluginIds": [
+          "io.github.sennadachi.pioneer-visualizer"
+        ],
+        "commit": "c13f06aa4d269816e747386319579064345ea570",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T10:52:52.287Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T09:23:47.335Z",
+        "requestEventId": 32393006546,
+        "requestedAt": "2026-10-03T10:51:17Z",
+        "reviewedAt": "2026-10-03T10:52:52.287Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.sennadachi.pioneer-visualizer": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
