@@ -266989,8 +266989,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T15:08:12.649Z",
-      "listingValidatedCommit": "53ef566485a84082b1ae6a698d7e49e095f82a30",
-      "listingValidatedAt": "2026-10-01T15:08:12.649Z",
+      "listingValidatedCommit": "e60bb5c829cb0b548bceb512afb38b9b441be699",
+      "listingValidatedAt": "2026-10-03T23:06:10.022Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -266999,8 +266999,8 @@
         "pluginIds": [
           "gdeyoung.powercore"
         ],
-        "commit": "53ef566485a84082b1ae6a698d7e49e095f82a30",
-        "checkedAt": "2026-10-01T15:08:12.530Z",
+        "commit": "e60bb5c829cb0b548bceb512afb38b9b441be699",
+        "checkedAt": "2026-10-03T23:06:10.022Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -267008,28 +267008,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "gdeyoung/omarchy-powercore",
-        "pluginIds": [
-          "gdeyoung.powercore"
-        ],
-        "commit": "53ef566485a84082b1ae6a698d7e49e095f82a30",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T15:08:12.530Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-01T09:27:07.497Z",
-        "requestEventId": 32262000862,
-        "requestedAt": "2026-10-01T14:52:18Z",
-        "reviewedAt": "2026-10-01T15:08:12.530Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "gdeyoung.powercore": {
@@ -267041,7 +267019,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gdeyoung/omarchy-powercore",
+        "pluginIds": [
+          "gdeyoung.powercore"
+        ],
+        "commit": "e60bb5c829cb0b548bceb512afb38b9b441be699",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T23:06:10.022Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T22:54:44.063Z",
+        "requestEventId": 32419063285,
+        "requestedAt": "2026-10-03T23:04:38Z",
+        "reviewedAt": "2026-10-03T23:06:10.022Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "53ef566485a84082b1ae6a698d7e49e095f82a30",
+          "validatedAt": "2026-10-01T15:08:12.649Z",
+          "branch": "master",
+          "supersededAt": "2026-10-03T23:06:10.022Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gdeyoung/omarchy-powercore",
+            "pluginIds": [
+              "gdeyoung.powercore"
+            ],
+            "commit": "53ef566485a84082b1ae6a698d7e49e095f82a30",
+            "checkedAt": "2026-10-01T15:08:12.530Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gdeyoung/omarchy-powercore",
+            "pluginIds": [
+              "gdeyoung.powercore"
+            ],
+            "commit": "53ef566485a84082b1ae6a698d7e49e095f82a30",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T15:08:12.530Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T09:27:07.497Z",
+            "requestEventId": 32262000862,
+            "requestedAt": "2026-10-01T14:52:18Z",
+            "reviewedAt": "2026-10-01T15:08:12.530Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/hpolthof/omarchy-plugin-totp",
