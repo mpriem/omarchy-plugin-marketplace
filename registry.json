@@ -280618,6 +280618,43 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/epicbagel/buzzbar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T09:30:20.094Z",
+      "listingValidatedCommit": "5adc91f343efc139f0927793f6fe22bc6e002504",
+      "listingValidatedAt": "2026-10-03T09:30:20.094Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "epicbagel/buzzbar",
+        "pluginIds": [
+          "io.github.epicbagel.buzzbar"
+        ],
+        "commit": "5adc91f343efc139f0927793f6fe22bc6e002504",
+        "checkedAt": "2026-10-03T09:30:19.976Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.epicbagel.buzzbar": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
