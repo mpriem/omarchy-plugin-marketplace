@@ -283496,8 +283496,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T15:04:45.136Z",
-      "listingValidatedCommit": "8828990d261ccf4220fb54154b02322b96d0eed5",
-      "listingValidatedAt": "2026-10-03T15:04:45.136Z",
+      "listingValidatedCommit": "bbce3155f2d169ef9f81ea46f3e535071bb8a949",
+      "listingValidatedAt": "2026-10-03T22:01:36.791Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -283506,37 +283506,12 @@
         "pluginIds": [
           "omarchy-rewind"
         ],
-        "commit": "8828990d261ccf4220fb54154b02322b96d0eed5",
-        "checkedAt": "2026-10-03T15:04:45.013Z",
-        "outcome": "review-required",
+        "commit": "bbce3155f2d169ef9f81ea46f3e535071bb8a949",
+        "checkedAt": "2026-10-03T22:01:36.791Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "andrewx82/omarchy-rewind",
-        "pluginIds": [
-          "omarchy-rewind"
-        ],
-        "commit": "8828990d261ccf4220fb54154b02322b96d0eed5",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-03T15:04:45.013Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-03T15:02:25.122Z",
-        "requestEventId": 32401892024,
-        "requestedAt": "2026-10-03T15:04:20Z",
-        "reviewedAt": "2026-10-03T15:04:45.013Z",
-        "reviewer": "HANCORE-linux"
+        "capabilities": []
       },
       "plugins": {
         "omarchy-rewind": {
@@ -283552,7 +283527,54 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "8828990d261ccf4220fb54154b02322b96d0eed5",
+          "validatedAt": "2026-10-03T15:04:45.136Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T22:01:36.791Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "andrewx82/omarchy-rewind",
+            "pluginIds": [
+              "omarchy-rewind"
+            ],
+            "commit": "8828990d261ccf4220fb54154b02322b96d0eed5",
+            "checkedAt": "2026-10-03T15:04:45.013Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "andrewx82/omarchy-rewind",
+            "pluginIds": [
+              "omarchy-rewind"
+            ],
+            "commit": "8828990d261ccf4220fb54154b02322b96d0eed5",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-03T15:04:45.013Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-03T15:02:25.122Z",
+            "requestEventId": 32401892024,
+            "requestedAt": "2026-10-03T15:04:20Z",
+            "reviewedAt": "2026-10-03T15:04:45.013Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/kenners22/omarchy-dictation-pill",
