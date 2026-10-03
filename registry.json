@@ -281346,6 +281346,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/morawskimck/omarchy-kimai",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T11:20:56.004Z",
+      "listingValidatedCommit": "f61e4b463a715e8b3acf898b7072985f01881eb5",
+      "listingValidatedAt": "2026-10-03T11:20:56.004Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "morawskimck/omarchy-kimai",
+        "pluginIds": [
+          "io.github.morawskimck.kimai"
+        ],
+        "commit": "f61e4b463a715e8b3acf898b7072985f01881eb5",
+        "checkedAt": "2026-10-03T11:20:55.878Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.morawskimck.kimai": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
