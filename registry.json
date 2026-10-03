@@ -282985,6 +282985,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/isaactopo/omarchy-settings-sync",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T15:11:50.154Z",
+      "listingValidatedCommit": "58d0704c9549a733c8c70ddde7165f2e7fb46445",
+      "listingValidatedAt": "2026-10-03T15:11:50.154Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "isaactopo/omarchy-settings-sync",
+        "pluginIds": [
+          "settings-sync"
+        ],
+        "commit": "58d0704c9549a733c8c70ddde7165f2e7fb46445",
+        "checkedAt": "2026-10-03T15:11:50.026Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "isaactopo/omarchy-settings-sync",
+        "pluginIds": [
+          "settings-sync"
+        ],
+        "commit": "58d0704c9549a733c8c70ddde7165f2e7fb46445",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T15:11:50.026Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T15:07:33.172Z",
+        "requestEventId": 32402145026,
+        "requestedAt": "2026-10-03T15:11:10Z",
+        "reviewedAt": "2026-10-03T15:11:50.026Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "settings-sync": {
+          "category": "System",
+          "tags": [
+            "system",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
