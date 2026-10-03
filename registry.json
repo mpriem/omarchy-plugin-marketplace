@@ -280250,6 +280250,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/mejares-jamesmichael/omarchy-nghtwv-plz",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T09:01:59.516Z",
+      "listingValidatedCommit": "fd73e67ce2e7274f78587aac1266497b9a86b4a0",
+      "listingValidatedAt": "2026-10-03T09:01:59.516Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mejares-jamesmichael/omarchy-nghtwv-plz",
+        "pluginIds": [
+          "kaelvxdev.nghtwv-plz"
+        ],
+        "commit": "fd73e67ce2e7274f78587aac1266497b9a86b4a0",
+        "checkedAt": "2026-10-03T09:01:59.396Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "kaelvxdev.nghtwv-plz": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
