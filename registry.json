@@ -79003,8 +79003,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-25",
       "listedAt": "2026-08-25T20:39:25.082Z",
-      "listingValidatedCommit": "d17477ee7005eeeb5a77398d9ac32fcbf3571711",
-      "listingValidatedAt": "2026-08-30T09:14:36.141Z",
+      "listingValidatedCommit": "08a20539be16bea1e777713d9e7902761f9b295d",
+      "listingValidatedAt": "2026-10-03T09:38:21.639Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -79013,8 +79013,8 @@
         "pluginIds": [
           "calmasacow.grok-usage"
         ],
-        "commit": "d17477ee7005eeeb5a77398d9ac32fcbf3571711",
-        "checkedAt": "2026-08-30T09:14:36.141Z",
+        "commit": "08a20539be16bea1e777713d9e7902761f9b295d",
+        "checkedAt": "2026-10-03T09:38:21.639Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -79119,6 +79119,49 @@
             "reviewedAt": "2026-08-29T14:45:05.307Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "d17477ee7005eeeb5a77398d9ac32fcbf3571711",
+          "validatedAt": "2026-08-30T09:14:36.141Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T09:38:21.639Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "calmasacow/omarchy-grok-usage",
+            "pluginIds": [
+              "calmasacow.grok-usage"
+            ],
+            "commit": "d17477ee7005eeeb5a77398d9ac32fcbf3571711",
+            "checkedAt": "2026-08-30T09:14:36.141Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "calmasacow/omarchy-grok-usage",
+            "pluginIds": [
+              "calmasacow.grok-usage"
+            ],
+            "commit": "d17477ee7005eeeb5a77398d9ac32fcbf3571711",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-30T09:14:36.141Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-29T22:41:55.042Z",
+            "requestEventId": 30232170785,
+            "requestedAt": "2026-08-30T09:09:50Z",
+            "reviewedAt": "2026-08-30T09:14:36.141Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -79127,19 +79170,19 @@
         "pluginIds": [
           "calmasacow.grok-usage"
         ],
-        "commit": "d17477ee7005eeeb5a77398d9ac32fcbf3571711",
+        "commit": "08a20539be16bea1e777713d9e7902761f9b295d",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-30T09:14:36.141Z",
+        "baselineCheckedAt": "2026-10-03T09:38:21.639Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-08-29T22:41:55.042Z",
-        "requestEventId": 30232170785,
-        "requestedAt": "2026-08-30T09:09:50Z",
-        "reviewedAt": "2026-08-30T09:14:36.141Z",
+        "reviewedBaselineCheckedAt": "2026-10-03T09:19:46.369Z",
+        "requestEventId": 32390454851,
+        "requestedAt": "2026-10-03T09:37:09Z",
+        "reviewedAt": "2026-10-03T09:38:21.639Z",
         "reviewer": "HANCORE-linux"
       }
     },
