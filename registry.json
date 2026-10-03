@@ -284032,6 +284032,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/vinicgobbi/omarchy-plugin-clipboard",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T20:07:37.215Z",
+      "listingValidatedCommit": "c6b18df01a0e23ff217e547ee23b9cb9981f12a5",
+      "listingValidatedAt": "2026-10-03T20:07:37.215Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "vinicgobbi/omarchy-plugin-clipboard",
+        "pluginIds": [
+          "vinicgobbi.clipboard"
+        ],
+        "commit": "c6b18df01a0e23ff217e547ee23b9cb9981f12a5",
+        "checkedAt": "2026-10-03T20:07:37.087Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "vinicgobbi.clipboard": {
+          "category": "Productivity",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
