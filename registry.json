@@ -284140,8 +284140,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T15:04:45.136Z",
-      "listingValidatedCommit": "bbce3155f2d169ef9f81ea46f3e535071bb8a949",
-      "listingValidatedAt": "2026-10-03T22:01:36.791Z",
+      "listingValidatedCommit": "261436dbc553ed1b0aaa7cbf248221a411ee07ec",
+      "listingValidatedAt": "2026-10-03T23:36:37.454Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -284150,8 +284150,8 @@
         "pluginIds": [
           "omarchy-rewind"
         ],
-        "commit": "bbce3155f2d169ef9f81ea46f3e535071bb8a949",
-        "checkedAt": "2026-10-03T22:01:36.791Z",
+        "commit": "261436dbc553ed1b0aaa7cbf248221a411ee07ec",
+        "checkedAt": "2026-10-03T23:36:37.453Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -284216,6 +284216,26 @@
             "requestedAt": "2026-10-03T15:04:20Z",
             "reviewedAt": "2026-10-03T15:04:45.013Z",
             "reviewer": "HANCORE-linux"
+          }
+        },
+        {
+          "commit": "bbce3155f2d169ef9f81ea46f3e535071bb8a949",
+          "validatedAt": "2026-10-03T22:01:36.791Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T23:36:37.454Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "andrewx82/omarchy-rewind",
+            "pluginIds": [
+              "omarchy-rewind"
+            ],
+            "commit": "bbce3155f2d169ef9f81ea46f3e535071bb8a949",
+            "checkedAt": "2026-10-03T22:01:36.791Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
           }
         }
       ]
