@@ -209221,8 +209221,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-20",
       "listedAt": "2026-09-20T00:38:47.315Z",
-      "listingValidatedCommit": "24dfd57f5d6e7af8978d179da858fcb895679e5d",
-      "listingValidatedAt": "2026-09-20T00:38:47.315Z",
+      "listingValidatedCommit": "303997dff7a1605dcaa0df17a57ff92ffd15ab4b",
+      "listingValidatedAt": "2026-10-03T06:56:30.357Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -209231,8 +209231,8 @@
         "pluginIds": [
           "io.github.buildscript-dev.oneplus-experience"
         ],
-        "commit": "24dfd57f5d6e7af8978d179da858fcb895679e5d",
-        "checkedAt": "2026-09-20T00:38:47.219Z",
+        "commit": "303997dff7a1605dcaa0df17a57ff92ffd15ab4b",
+        "checkedAt": "2026-10-03T06:56:30.357Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -209240,28 +209240,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "buildscript-dev/omarchy-oneplus-experience",
-        "pluginIds": [
-          "io.github.buildscript-dev.oneplus-experience"
-        ],
-        "commit": "24dfd57f5d6e7af8978d179da858fcb895679e5d",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-20T00:38:47.219Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-18T21:27:19.272Z",
-        "requestEventId": 31464970263,
-        "requestedAt": "2026-09-20T00:15:46Z",
-        "reviewedAt": "2026-09-20T00:38:47.220Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.buildscript-dev.oneplus-experience": {
@@ -209273,7 +209251,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "buildscript-dev/omarchy-oneplus-experience",
+        "pluginIds": [
+          "io.github.buildscript-dev.oneplus-experience"
+        ],
+        "commit": "303997dff7a1605dcaa0df17a57ff92ffd15ab4b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T06:56:30.357Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T06:38:12.347Z",
+        "requestEventId": 32385259202,
+        "requestedAt": "2026-10-03T06:42:52Z",
+        "reviewedAt": "2026-10-03T06:56:30.357Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "24dfd57f5d6e7af8978d179da858fcb895679e5d",
+          "validatedAt": "2026-09-20T00:38:47.315Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T06:56:30.357Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "buildscript-dev/omarchy-oneplus-experience",
+            "pluginIds": [
+              "io.github.buildscript-dev.oneplus-experience"
+            ],
+            "commit": "24dfd57f5d6e7af8978d179da858fcb895679e5d",
+            "checkedAt": "2026-09-20T00:38:47.219Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "buildscript-dev/omarchy-oneplus-experience",
+            "pluginIds": [
+              "io.github.buildscript-dev.oneplus-experience"
+            ],
+            "commit": "24dfd57f5d6e7af8978d179da858fcb895679e5d",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-20T00:38:47.219Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-18T21:27:19.272Z",
+            "requestEventId": 31464970263,
+            "requestedAt": "2026-09-20T00:15:46Z",
+            "reviewedAt": "2026-09-20T00:38:47.220Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/cylon58/omarchy-community-knowledge-plugin",
