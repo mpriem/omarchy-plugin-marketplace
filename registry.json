@@ -3774,8 +3774,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-12",
       "listedAt": "2026-08-12T17:11:08.633Z",
-      "listingValidatedCommit": "562b9163240af48134cf32a25fa18a3fe0d0d8ee",
-      "listingValidatedAt": "2026-08-12T17:11:08.633Z",
+      "listingValidatedCommit": "6fa42757ae3a9fdbec206a7431cdb8f8ec8d452f",
+      "listingValidatedAt": "2026-10-03T07:17:46.971Z",
       "listingValidatedBranch": "master",
       "plugins": {
         "omasot": {
@@ -3794,8 +3794,8 @@
         "pluginIds": [
           "omasot"
         ],
-        "commit": "562b9163240af48134cf32a25fa18a3fe0d0d8ee",
-        "checkedAt": "2026-10-02T16:57:06.982Z",
+        "commit": "6fa42757ae3a9fdbec206a7431cdb8f8ec8d452f",
+        "checkedAt": "2026-10-03T07:17:46.971Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -3809,21 +3809,66 @@
         "pluginIds": [
           "omasot"
         ],
-        "commit": "562b9163240af48134cf32a25fa18a3fe0d0d8ee",
+        "commit": "6fa42757ae3a9fdbec206a7431cdb8f8ec8d452f",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T16:57:06.982Z",
+        "baselineCheckedAt": "2026-10-03T07:17:46.971Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "remote-build"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-02T15:39:53.167Z",
-        "requestEventId": 32349276082,
-        "requestedAt": "2026-10-02T16:28:45Z",
-        "reviewedAt": "2026-10-02T16:57:06.983Z",
+        "reviewedBaselineCheckedAt": "2026-10-03T06:38:23.043Z",
+        "requestEventId": 32385387053,
+        "requestedAt": "2026-10-03T06:47:41Z",
+        "reviewedAt": "2026-10-03T07:17:46.971Z",
         "reviewer": "HANCORE-linux"
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "562b9163240af48134cf32a25fa18a3fe0d0d8ee",
+          "validatedAt": "2026-08-12T17:11:08.633Z",
+          "branch": "master",
+          "supersededAt": "2026-10-03T07:17:46.971Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "kamal-v8/omasot",
+            "pluginIds": [
+              "omasot"
+            ],
+            "commit": "562b9163240af48134cf32a25fa18a3fe0d0d8ee",
+            "checkedAt": "2026-10-02T16:57:06.982Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "kamal-v8/omasot",
+            "pluginIds": [
+              "omasot"
+            ],
+            "commit": "562b9163240af48134cf32a25fa18a3fe0d0d8ee",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T16:57:06.982Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T15:39:53.167Z",
+            "requestEventId": 32349276082,
+            "requestedAt": "2026-10-02T16:28:45Z",
+            "reviewedAt": "2026-10-02T16:57:06.983Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Esegnorelli/omarchy-omacapy",
