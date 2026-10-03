@@ -285770,6 +285770,77 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Blazeeers/VPN-TGWSProxy-Zapret-orchestrate",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T23:28:26.575Z",
+      "listingValidatedCommit": "a61ee3910982ded5f5068b38b1817c7b3a88a330",
+      "listingValidatedAt": "2026-10-03T23:28:26.575Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "blazeeers/vpn-tgwsproxy-zapret-orchestrate",
+        "pluginIds": [
+          "io.github.blazeeers.omavpn"
+        ],
+        "commit": "a61ee3910982ded5f5068b38b1817c7b3a88a330",
+        "checkedAt": "2026-10-03T23:28:26.426Z",
+        "outcome": "needs-fixes",
+        "enforcementMode": "selective",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "blazeeers/vpn-tgwsproxy-zapret-orchestrate",
+        "pluginIds": [
+          "io.github.blazeeers.omavpn"
+        ],
+        "commit": "a61ee3910982ded5f5068b38b1817c7b3a88a330",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T23:28:26.426Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T23:22:30.546Z",
+        "requestEventId": 32419889827,
+        "requestedAt": "2026-10-03T23:27:55Z",
+        "reviewedAt": "2026-10-03T23:28:26.426Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.blazeeers.omavpn": {
+          "category": "System",
+          "tags": [
+            "vpn",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
