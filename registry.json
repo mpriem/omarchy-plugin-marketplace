@@ -253795,8 +253795,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T02:59:02.052Z",
-      "listingValidatedCommit": "53c0b37d8f7daa7679dea86f89fec4cd444c3f33",
-      "listingValidatedAt": "2026-09-28T02:59:02.052Z",
+      "listingValidatedCommit": "420ef10ddc462fca7d0fe36d4a4a0b7c7682a462",
+      "listingValidatedAt": "2026-10-03T20:40:43.637Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -253805,8 +253805,8 @@
         "pluginIds": [
           "hoven.cast"
         ],
-        "commit": "53c0b37d8f7daa7679dea86f89fec4cd444c3f33",
-        "checkedAt": "2026-09-28T02:59:01.943Z",
+        "commit": "420ef10ddc462fca7d0fe36d4a4a0b7c7682a462",
+        "checkedAt": "2026-10-03T20:40:43.637Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -253816,30 +253816,6 @@
           "installer",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "lockinflow-sudo/hovencast",
-        "pluginIds": [
-          "hoven.cast"
-        ],
-        "commit": "53c0b37d8f7daa7679dea86f89fec4cd444c3f33",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-28T02:59:01.943Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege",
-          "installer",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-28T02:49:39.689Z",
-        "requestEventId": 31959279132,
-        "requestedAt": "2026-09-28T02:51:53Z",
-        "reviewedAt": "2026-09-28T02:59:01.944Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "hoven.cast": {
@@ -253855,7 +253831,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lockinflow-sudo/hovencast",
+        "pluginIds": [
+          "hoven.cast"
+        ],
+        "commit": "420ef10ddc462fca7d0fe36d4a4a0b7c7682a462",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T20:40:43.637Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T13:53:14.906Z",
+        "requestEventId": 32413828973,
+        "requestedAt": "2026-10-03T20:40:15Z",
+        "reviewedAt": "2026-10-03T20:40:43.637Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "53c0b37d8f7daa7679dea86f89fec4cd444c3f33",
+          "validatedAt": "2026-09-28T02:59:02.052Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T20:40:43.637Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lockinflow-sudo/hovencast",
+            "pluginIds": [
+              "hoven.cast"
+            ],
+            "commit": "53c0b37d8f7daa7679dea86f89fec4cd444c3f33",
+            "checkedAt": "2026-09-28T02:59:01.943Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "lockinflow-sudo/hovencast",
+            "pluginIds": [
+              "hoven.cast"
+            ],
+            "commit": "53c0b37d8f7daa7679dea86f89fec4cd444c3f33",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-28T02:59:01.943Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-28T02:49:39.689Z",
+            "requestEventId": 31959279132,
+            "requestedAt": "2026-09-28T02:51:53Z",
+            "reviewedAt": "2026-09-28T02:59:01.944Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/fivefold3/omarchy-ip-config",
