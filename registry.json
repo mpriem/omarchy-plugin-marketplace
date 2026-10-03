@@ -130814,8 +130814,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-04",
       "listedAt": "2026-09-04T02:19:45.599Z",
-      "listingValidatedCommit": "60ced5b5a0c36f526525ff3ff8dc1036dd49196c",
-      "listingValidatedAt": "2026-09-11T14:44:34.422Z",
+      "listingValidatedCommit": "c3fccd6453cec979bfdd955e2b98e8cfab2f366d",
+      "listingValidatedAt": "2026-10-03T22:39:30.766Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -130824,12 +130824,15 @@
         "pluginIds": [
           "pretty.omadeck"
         ],
-        "commit": "60ced5b5a0c36f526525ff3ff8dc1036dd49196c",
-        "checkedAt": "2026-09-11T14:44:34.422Z",
-        "outcome": "passed",
+        "commit": "c3fccd6453cec979bfdd955e2b98e8cfab2f366d",
+        "checkedAt": "2026-10-03T22:39:30.766Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "installer",
+          "privilege"
+        ]
       },
       "plugins": {
         "pretty.omadeck": {
@@ -130995,8 +130998,50 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "60ced5b5a0c36f526525ff3ff8dc1036dd49196c",
+          "validatedAt": "2026-09-11T14:44:34.422Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T22:39:30.766Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "theairick/omadeck",
+            "pluginIds": [
+              "pretty.omadeck"
+            ],
+            "commit": "60ced5b5a0c36f526525ff3ff8dc1036dd49196c",
+            "checkedAt": "2026-09-11T14:44:34.422Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "theairick/omadeck",
+        "pluginIds": [
+          "pretty.omadeck"
+        ],
+        "commit": "c3fccd6453cec979bfdd955e2b98e8cfab2f366d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T22:39:30.766Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T22:36:40.224Z",
+        "requestEventId": 32418014104,
+        "requestedAt": "2026-10-03T22:39:06Z",
+        "reviewedAt": "2026-10-03T22:39:30.766Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/PixelatedContinuum/omarchy-sysmonitor",
