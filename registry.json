@@ -255085,45 +255085,24 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T05:00:05.785Z",
-      "listingValidatedCommit": "7f7aa9a350c68847f5689517c8c961525ba34289",
-      "listingValidatedAt": "2026-09-28T05:00:05.785Z",
+      "listingValidatedCommit": "91f3acdf26e10e5443a8be36d84404848485ff8c",
+      "listingValidatedAt": "2026-10-03T21:52:48.283Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
         "version": "3",
-        "repository": "omribenami/omarchy-ai-settings",
+        "repository": "omribenami/omarchy-ai-plugin",
         "pluginIds": [
           "omarchy-ai.settings"
         ],
-        "commit": "7f7aa9a350c68847f5689517c8c961525ba34289",
-        "checkedAt": "2026-09-28T05:00:05.674Z",
+        "commit": "91f3acdf26e10e5443a8be36d84404848485ff8c",
+        "checkedAt": "2026-10-03T21:52:48.283Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "omribenami/omarchy-ai-settings",
-        "pluginIds": [
-          "omarchy-ai.settings"
-        ],
-        "commit": "7f7aa9a350c68847f5689517c8c961525ba34289",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-28T05:00:05.674Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-28T04:44:15.997Z",
-        "requestEventId": 31964255924,
-        "requestedAt": "2026-09-28T04:55:25Z",
-        "reviewedAt": "2026-09-28T05:00:05.674Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "omarchy-ai.settings": {
@@ -255139,7 +255118,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "omribenami/omarchy-ai-plugin",
+        "pluginIds": [
+          "omarchy-ai.settings"
+        ],
+        "commit": "91f3acdf26e10e5443a8be36d84404848485ff8c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T21:52:48.283Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-01T20:04:23.722Z",
+        "requestEventId": 32415508717,
+        "requestedAt": "2026-10-03T21:29:05Z",
+        "reviewedAt": "2026-10-03T21:52:48.283Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "7f7aa9a350c68847f5689517c8c961525ba34289",
+          "validatedAt": "2026-09-28T05:00:05.785Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T21:52:48.283Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "omribenami/omarchy-ai-settings",
+            "pluginIds": [
+              "omarchy-ai.settings"
+            ],
+            "commit": "7f7aa9a350c68847f5689517c8c961525ba34289",
+            "checkedAt": "2026-09-28T05:00:05.674Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "omribenami/omarchy-ai-settings",
+            "pluginIds": [
+              "omarchy-ai.settings"
+            ],
+            "commit": "7f7aa9a350c68847f5689517c8c961525ba34289",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-28T05:00:05.674Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-28T04:44:15.997Z",
+            "requestEventId": 31964255924,
+            "requestedAt": "2026-09-28T04:55:25Z",
+            "reviewedAt": "2026-09-28T05:00:05.674Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/mindows/mib-nprofiles",
