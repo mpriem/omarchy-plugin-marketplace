@@ -28861,7 +28861,7 @@
           "io.github.ncr.omaphones"
         ],
         "commit": "e8546c03b8b7844cfa71d2de7fba245a6b340e02",
-        "checkedAt": "2026-10-03T22:08:07.593Z",
+        "checkedAt": "2026-10-03T23:18:45.605Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -28875,11 +28875,7 @@
             "media",
             "power-management"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       },
       "listingValidationHistory": [
