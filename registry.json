@@ -196733,8 +196733,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T19:31:42.841Z",
-      "listingValidatedCommit": "88a244e992f688a9ec7dda7883a8bfce15bfee20",
-      "listingValidatedAt": "2026-09-16T19:31:42.841Z",
+      "listingValidatedCommit": "de2fd9d3a981b81a176393aca949129d4bdf72a3",
+      "listingValidatedAt": "2026-10-03T12:19:02.622Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -196743,35 +196743,14 @@
         "pluginIds": [
           "davedes.omcontrol"
         ],
-        "commit": "88a244e992f688a9ec7dda7883a8bfce15bfee20",
-        "checkedAt": "2026-09-16T19:31:42.744Z",
+        "commit": "de2fd9d3a981b81a176393aca949129d4bdf72a3",
+        "checkedAt": "2026-10-03T12:19:02.622Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "davedes83/omacontrol",
-        "pluginIds": [
-          "davedes.omcontrol"
-        ],
-        "commit": "88a244e992f688a9ec7dda7883a8bfce15bfee20",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T19:31:42.744Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-16T16:25:58.766Z",
-        "requestEventId": 31269627907,
-        "requestedAt": "2026-09-16T19:05:43Z",
-        "reviewedAt": "2026-09-16T19:31:42.744Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "davedes.omcontrol": {
@@ -196783,7 +196762,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "davedes83/omacontrol",
+        "pluginIds": [
+          "davedes.omcontrol"
+        ],
+        "commit": "de2fd9d3a981b81a176393aca949129d4bdf72a3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T12:19:02.622Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T11:48:41.159Z",
+        "requestEventId": 32395977834,
+        "requestedAt": "2026-10-03T12:12:30Z",
+        "reviewedAt": "2026-10-03T12:19:02.622Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "88a244e992f688a9ec7dda7883a8bfce15bfee20",
+          "validatedAt": "2026-09-16T19:31:42.841Z",
+          "branch": "master",
+          "supersededAt": "2026-10-03T12:19:02.622Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "davedes83/omacontrol",
+            "pluginIds": [
+              "davedes.omcontrol"
+            ],
+            "commit": "88a244e992f688a9ec7dda7883a8bfce15bfee20",
+            "checkedAt": "2026-09-16T19:31:42.744Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "davedes83/omacontrol",
+            "pluginIds": [
+              "davedes.omcontrol"
+            ],
+            "commit": "88a244e992f688a9ec7dda7883a8bfce15bfee20",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T19:31:42.744Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-16T16:25:58.766Z",
+            "requestEventId": 31269627907,
+            "requestedAt": "2026-09-16T19:05:43Z",
+            "reviewedAt": "2026-09-16T19:31:42.744Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/JMThomas00/omarchy-uplink",
