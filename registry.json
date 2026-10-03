@@ -182384,8 +182384,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-14",
       "listedAt": "2026-09-14T14:30:53.361Z",
-      "listingValidatedCommit": "28a27ad4a362941fe818652be8140cc84a8d32ea",
-      "listingValidatedAt": "2026-09-14T14:30:53.361Z",
+      "listingValidatedCommit": "38b131d20732baf0845b021d7572c420070dd700",
+      "listingValidatedAt": "2026-10-03T06:53:39.465Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -182394,8 +182394,8 @@
         "pluginIds": [
           "lukedaduke.standby"
         ],
-        "commit": "28a27ad4a362941fe818652be8140cc84a8d32ea",
-        "checkedAt": "2026-09-14T14:30:53.311Z",
+        "commit": "38b131d20732baf0845b021d7572c420070dd700",
+        "checkedAt": "2026-10-03T06:53:39.465Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -182411,7 +182411,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "28a27ad4a362941fe818652be8140cc84a8d32ea",
+          "validatedAt": "2026-09-14T14:30:53.361Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T06:53:39.465Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "duketopceo/omarchy-standby",
+            "pluginIds": [
+              "lukedaduke.standby"
+            ],
+            "commit": "28a27ad4a362941fe818652be8140cc84a8d32ea",
+            "checkedAt": "2026-09-14T14:30:53.311Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/decadentsavant/baton",
