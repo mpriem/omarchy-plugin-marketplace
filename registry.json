@@ -282588,6 +282588,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/n0d3xt-max/n0d3x.agents",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T13:53:58.017Z",
+      "listingValidatedCommit": "6d8fea5f727f132ce8cb95ee53f9d725bfefe6ce",
+      "listingValidatedAt": "2026-10-03T13:53:58.017Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "n0d3xt-max/n0d3x.agents",
+        "pluginIds": [
+          "n0d3x.agents"
+        ],
+        "commit": "6d8fea5f727f132ce8cb95ee53f9d725bfefe6ce",
+        "checkedAt": "2026-10-03T13:53:57.913Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "n0d3xt-max/n0d3x.agents",
+        "pluginIds": [
+          "n0d3x.agents"
+        ],
+        "commit": "6d8fea5f727f132ce8cb95ee53f9d725bfefe6ce",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T13:53:57.913Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T13:32:59.261Z",
+        "requestEventId": 32399360469,
+        "requestedAt": "2026-10-03T13:53:20Z",
+        "reviewedAt": "2026-10-03T13:53:57.913Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "n0d3x.agents": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
