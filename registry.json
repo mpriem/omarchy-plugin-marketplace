@@ -285306,6 +285306,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/claudiuiosif/omarchy-random-theme",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T22:29:29.180Z",
+      "listingValidatedCommit": "912b464cc7b0ea02bf2e2dc08bac534b3c4a32ea",
+      "listingValidatedAt": "2026-10-03T22:29:29.180Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "claudiuiosif/omarchy-random-theme",
+        "pluginIds": [
+          "io.github.claudiuiosif.random-theme"
+        ],
+        "commit": "912b464cc7b0ea02bf2e2dc08bac534b3c4a32ea",
+        "checkedAt": "2026-10-03T22:29:29.051Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.claudiuiosif.random-theme": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
