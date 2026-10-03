@@ -283823,6 +283823,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/jacklapinza/omadex",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T18:06:18.771Z",
+      "listingValidatedCommit": "4084e5000a46087d785ff145cf2bb0da65ff0607",
+      "listingValidatedAt": "2026-10-03T18:06:18.771Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jacklapinza/omadex",
+        "pluginIds": [
+          "io.github.jacklapinza.omadex"
+        ],
+        "commit": "4084e5000a46087d785ff145cf2bb0da65ff0607",
+        "checkedAt": "2026-10-03T18:06:18.669Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.jacklapinza.omadex": {
+          "category": "Other",
+          "tags": [
+            "games",
+            "education",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
