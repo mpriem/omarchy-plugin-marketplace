@@ -282925,6 +282925,66 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/kenners22/omarchy-dictation-pill",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T15:08:49.956Z",
+      "listingValidatedCommit": "80fd6b10d382a49cc065015a6209faf9cf509263",
+      "listingValidatedAt": "2026-10-03T15:08:49.956Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kenners22/omarchy-dictation-pill",
+        "pluginIds": [
+          "kenners22.dictation-pill"
+        ],
+        "commit": "80fd6b10d382a49cc065015a6209faf9cf509263",
+        "checkedAt": "2026-10-03T15:08:49.834Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kenners22/omarchy-dictation-pill",
+        "pluginIds": [
+          "kenners22.dictation-pill"
+        ],
+        "commit": "80fd6b10d382a49cc065015a6209faf9cf509263",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T15:08:49.834Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T15:01:10.460Z",
+        "requestEventId": 32402031246,
+        "requestedAt": "2026-10-03T15:08:18Z",
+        "reviewedAt": "2026-10-03T15:08:49.834Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "kenners22.dictation-pill": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "ai"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
