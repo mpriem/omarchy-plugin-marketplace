@@ -275089,8 +275089,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T03:00:50.365Z",
-      "listingValidatedCommit": "652d853f3963c24fa91a6a01495a1c4be0b72f76",
-      "listingValidatedAt": "2026-10-02T03:00:50.365Z",
+      "listingValidatedCommit": "66acd30b1c45f0a44968f152dc24059e4399f4ed",
+      "listingValidatedAt": "2026-10-03T23:15:39.253Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -275099,8 +275099,8 @@
         "pluginIds": [
           "gdeyoung.readyroom"
         ],
-        "commit": "652d853f3963c24fa91a6a01495a1c4be0b72f76",
-        "checkedAt": "2026-10-02T03:00:50.262Z",
+        "commit": "66acd30b1c45f0a44968f152dc24059e4399f4ed",
+        "checkedAt": "2026-10-03T23:15:39.253Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -275109,29 +275109,6 @@
           "remote-build",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "gdeyoung/omarchy-ready-room",
-        "pluginIds": [
-          "gdeyoung.readyroom"
-        ],
-        "commit": "652d853f3963c24fa91a6a01495a1c4be0b72f76",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T03:00:50.262Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "remote-build",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T02:30:31.568Z",
-        "requestEventId": 32304525170,
-        "requestedAt": "2026-10-02T02:32:38Z",
-        "reviewedAt": "2026-10-02T03:00:50.262Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "gdeyoung.readyroom": {
@@ -275143,7 +275120,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gdeyoung/omarchy-ready-room",
+        "pluginIds": [
+          "gdeyoung.readyroom"
+        ],
+        "commit": "66acd30b1c45f0a44968f152dc24059e4399f4ed",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T23:15:39.253Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T22:55:17.645Z",
+        "requestEventId": 32419186417,
+        "requestedAt": "2026-10-03T23:07:54Z",
+        "reviewedAt": "2026-10-03T23:15:39.253Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "652d853f3963c24fa91a6a01495a1c4be0b72f76",
+          "validatedAt": "2026-10-02T03:00:50.365Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T23:15:39.253Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gdeyoung/omarchy-ready-room",
+            "pluginIds": [
+              "gdeyoung.readyroom"
+            ],
+            "commit": "652d853f3963c24fa91a6a01495a1c4be0b72f76",
+            "checkedAt": "2026-10-02T03:00:50.262Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gdeyoung/omarchy-ready-room",
+            "pluginIds": [
+              "gdeyoung.readyroom"
+            ],
+            "commit": "652d853f3963c24fa91a6a01495a1c4be0b72f76",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T03:00:50.262Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T02:30:31.568Z",
+            "requestEventId": 32304525170,
+            "requestedAt": "2026-10-02T02:32:38Z",
+            "reviewedAt": "2026-10-02T03:00:50.262Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/LMajs/infiniarchy",
