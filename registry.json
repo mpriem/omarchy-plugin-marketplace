@@ -158592,8 +158592,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T13:38:43.455Z",
-      "listingValidatedCommit": "702e9f7fc2c2bacce35305402faa85484a27267e",
-      "listingValidatedAt": "2026-10-02T22:16:38.348Z",
+      "listingValidatedCommit": "ea231e3a25f3fb8d977aaebe8ff62e5ae5913c05",
+      "listingValidatedAt": "2026-10-03T11:43:39.601Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -158602,13 +158602,14 @@
         "pluginIds": [
           "sero.local-ai"
         ],
-        "commit": "702e9f7fc2c2bacce35305402faa85484a27267e",
-        "checkedAt": "2026-10-02T22:16:38.348Z",
+        "commit": "ea231e3a25f3fb8d977aaebe8ff62e5ae5913c05",
+        "checkedAt": "2026-10-03T11:43:39.601Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "installer"
+          "installer",
+          "package-manager"
         ]
       },
       "plugins": {
@@ -158625,27 +158626,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "0xsero/omarchy-local-ai",
-        "pluginIds": [
-          "sero.local-ai"
-        ],
-        "commit": "702e9f7fc2c2bacce35305402faa85484a27267e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T22:16:38.348Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T20:57:28.656Z",
-        "requestEventId": 32368534029,
-        "requestedAt": "2026-10-02T22:03:32Z",
-        "reviewedAt": "2026-10-02T22:16:38.348Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -158667,8 +158647,73 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "702e9f7fc2c2bacce35305402faa85484a27267e",
+          "validatedAt": "2026-10-02T22:16:38.348Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T11:43:39.601Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "0xsero/omarchy-local-ai",
+            "pluginIds": [
+              "sero.local-ai"
+            ],
+            "commit": "702e9f7fc2c2bacce35305402faa85484a27267e",
+            "checkedAt": "2026-10-02T22:16:38.348Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "0xsero/omarchy-local-ai",
+            "pluginIds": [
+              "sero.local-ai"
+            ],
+            "commit": "702e9f7fc2c2bacce35305402faa85484a27267e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T22:16:38.348Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T20:57:28.656Z",
+            "requestEventId": 32368534029,
+            "requestedAt": "2026-10-02T22:03:32Z",
+            "reviewedAt": "2026-10-02T22:16:38.348Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "0xsero/omarchy-local-ai",
+        "pluginIds": [
+          "sero.local-ai"
+        ],
+        "commit": "ea231e3a25f3fb8d977aaebe8ff62e5ae5913c05",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T11:43:39.601Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T11:19:15.247Z",
+        "requestEventId": 32395038868,
+        "requestedAt": "2026-10-03T11:43:10Z",
+        "reviewedAt": "2026-10-03T11:43:39.601Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Gabbe2312/omadates",
