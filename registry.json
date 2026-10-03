@@ -282352,6 +282352,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/godkinmo/omarchy-plugin-omarchy-dvp-qwerty-toggle",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T13:00:11.335Z",
+      "listingValidatedCommit": "d184a8437924b22fbcd86d853f8b4cf6ec031830",
+      "listingValidatedAt": "2026-10-03T13:00:11.335Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "godkinmo/omarchy-plugin-omarchy-dvp-qwerty-toggle",
+        "pluginIds": [
+          "godkin.omarchy-dvp-qwerty-toggle"
+        ],
+        "commit": "d184a8437924b22fbcd86d853f8b4cf6ec031830",
+        "checkedAt": "2026-10-03T13:00:11.210Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "godkinmo/omarchy-plugin-omarchy-dvp-qwerty-toggle",
+        "pluginIds": [
+          "godkin.omarchy-dvp-qwerty-toggle"
+        ],
+        "commit": "d184a8437924b22fbcd86d853f8b4cf6ec031830",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T13:00:11.210Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T12:56:32.149Z",
+        "requestEventId": 32397549740,
+        "requestedAt": "2026-10-03T12:59:39Z",
+        "reviewedAt": "2026-10-03T13:00:11.210Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "godkin.omarchy-dvp-qwerty-toggle": {
+          "category": "System",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
