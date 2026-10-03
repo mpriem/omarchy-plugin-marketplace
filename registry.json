@@ -281606,6 +281606,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Turing-Cat/AppDeck",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T11:40:11.527Z",
+      "listingValidatedCommit": "feddbe19b062549cf2e2bbdda26d93e15008d492",
+      "listingValidatedAt": "2026-10-03T11:40:11.527Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "turing-cat/appdeck",
+        "pluginIds": [
+          "appdeck.app"
+        ],
+        "commit": "feddbe19b062549cf2e2bbdda26d93e15008d492",
+        "checkedAt": "2026-10-03T11:40:11.394Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "appdeck.app": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "launcher",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
