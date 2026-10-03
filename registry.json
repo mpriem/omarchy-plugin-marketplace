@@ -282738,6 +282738,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/artinlenz/omarchy-airpods",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T14:36:42.113Z",
+      "listingValidatedCommit": "82e3d73d41de1b80ed3ae552a192634032210a4f",
+      "listingValidatedAt": "2026-10-03T14:36:42.113Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "artinlenz/omarchy-airpods",
+        "pluginIds": [
+          "artinlenz.airpods"
+        ],
+        "commit": "82e3d73d41de1b80ed3ae552a192634032210a4f",
+        "checkedAt": "2026-10-03T14:36:41.991Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "artinlenz/omarchy-airpods",
+        "pluginIds": [
+          "artinlenz.airpods"
+        ],
+        "commit": "82e3d73d41de1b80ed3ae552a192634032210a4f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T14:36:41.991Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T14:21:56.766Z",
+        "requestEventId": 32400859774,
+        "requestedAt": "2026-10-03T14:36:08Z",
+        "reviewedAt": "2026-10-03T14:36:41.991Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "artinlenz.airpods": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "media",
+            "security"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
