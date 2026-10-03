@@ -282099,6 +282099,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/R88800/xr-head-aim",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T12:27:27.580Z",
+      "listingValidatedCommit": "adfbad265a3de9f05887b039bf813467ccb4eb81",
+      "listingValidatedAt": "2026-10-03T12:27:27.580Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "r88800/xr-head-aim",
+        "pluginIds": [
+          "io.github.r88800.xr-head-aim"
+        ],
+        "commit": "adfbad265a3de9f05887b039bf813467ccb4eb81",
+        "checkedAt": "2026-10-03T12:27:27.455Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "r88800/xr-head-aim",
+        "pluginIds": [
+          "io.github.r88800.xr-head-aim"
+        ],
+        "commit": "adfbad265a3de9f05887b039bf813467ccb4eb81",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T12:27:27.455Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T12:15:20.845Z",
+        "requestEventId": 32396296620,
+        "requestedAt": "2026-10-03T12:22:01Z",
+        "reviewedAt": "2026-10-03T12:27:27.455Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.r88800.xr-head-aim": {
+          "category": "Hardware",
+          "tags": [
+            "games",
+            "bar",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
