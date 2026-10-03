@@ -199621,8 +199621,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-17",
       "listedAt": "2026-09-17T07:58:45.121Z",
-      "listingValidatedCommit": "6be877e7746d141d29d6028f3893571d7a486b7b",
-      "listingValidatedAt": "2026-09-17T07:58:45.121Z",
+      "listingValidatedCommit": "92dff603fe9b681f3874fe37809c8ec6f48c23f4",
+      "listingValidatedAt": "2026-10-03T23:09:36.670Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -199631,8 +199631,8 @@
         "pluginIds": [
           "io.github.duketopceo.pplx"
         ],
-        "commit": "6be877e7746d141d29d6028f3893571d7a486b7b",
-        "checkedAt": "2026-09-17T07:58:45.067Z",
+        "commit": "92dff603fe9b681f3874fe37809c8ec6f48c23f4",
+        "checkedAt": "2026-10-03T23:09:36.670Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -199647,7 +199647,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "6be877e7746d141d29d6028f3893571d7a486b7b",
+          "validatedAt": "2026-09-17T07:58:45.121Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T23:09:36.670Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "duketopceo/omarchy-pplx",
+            "pluginIds": [
+              "io.github.duketopceo.pplx"
+            ],
+            "commit": "6be877e7746d141d29d6028f3893571d7a486b7b",
+            "checkedAt": "2026-09-17T07:58:45.067Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/MrShirini/omarchy-clipboard",
