@@ -283470,6 +283470,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/jellespijker/omarchy-azure-vpn",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T16:31:33.260Z",
+      "listingValidatedCommit": "c00fedcf8740ab99530530b167c978622c86157e",
+      "listingValidatedAt": "2026-10-03T16:31:33.260Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jellespijker/omarchy-azure-vpn",
+        "pluginIds": [
+          "jellespijker.azure-vpn"
+        ],
+        "commit": "c00fedcf8740ab99530530b167c978622c86157e",
+        "checkedAt": "2026-10-03T16:31:33.149Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "sudoers-modification",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jellespijker/omarchy-azure-vpn",
+        "pluginIds": [
+          "jellespijker.azure-vpn"
+        ],
+        "commit": "c00fedcf8740ab99530530b167c978622c86157e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T16:31:33.149Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "sudoers-modification",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T16:03:09.272Z",
+        "requestEventId": 32405013663,
+        "requestedAt": "2026-10-03T16:31:06Z",
+        "reviewedAt": "2026-10-03T16:31:33.149Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jellespijker.azure-vpn": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "security"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
