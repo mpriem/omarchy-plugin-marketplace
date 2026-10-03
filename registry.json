@@ -265010,8 +265010,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T16:11:11.717Z",
-      "listingValidatedCommit": "ce4a3a42b02605c75968fca63045be702d72ba0e",
-      "listingValidatedAt": "2026-10-01T16:11:11.717Z",
+      "listingValidatedCommit": "c367f533f5624298687ebe92beb13e0a7b1da1c3",
+      "listingValidatedAt": "2026-10-03T05:18:41.690Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -265020,8 +265020,8 @@
         "pluginIds": [
           "io.github.ray0907.input-menu"
         ],
-        "commit": "ce4a3a42b02605c75968fca63045be702d72ba0e",
-        "checkedAt": "2026-10-01T16:11:11.600Z",
+        "commit": "c367f533f5624298687ebe92beb13e0a7b1da1c3",
+        "checkedAt": "2026-10-03T05:18:41.690Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -265029,28 +265029,6 @@
           "service-management",
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ray0907/omarchy-input-menu",
-        "pluginIds": [
-          "io.github.ray0907.input-menu"
-        ],
-        "commit": "ce4a3a42b02605c75968fca63045be702d72ba0e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T16:11:11.600Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-01T14:23:11.382Z",
-        "requestEventId": 32267594281,
-        "requestedAt": "2026-10-01T16:01:15Z",
-        "reviewedAt": "2026-10-01T16:11:11.600Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.ray0907.input-menu": {
@@ -265062,7 +265040,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ray0907/omarchy-input-menu",
+        "pluginIds": [
+          "io.github.ray0907.input-menu"
+        ],
+        "commit": "c367f533f5624298687ebe92beb13e0a7b1da1c3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T05:18:41.690Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T04:41:02.432Z",
+        "requestEventId": 32382902888,
+        "requestedAt": "2026-10-03T05:17:52Z",
+        "reviewedAt": "2026-10-03T05:18:41.690Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ce4a3a42b02605c75968fca63045be702d72ba0e",
+          "validatedAt": "2026-10-01T16:11:11.717Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T05:18:41.690Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ray0907/omarchy-input-menu",
+            "pluginIds": [
+              "io.github.ray0907.input-menu"
+            ],
+            "commit": "ce4a3a42b02605c75968fca63045be702d72ba0e",
+            "checkedAt": "2026-10-01T16:11:11.600Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ray0907/omarchy-input-menu",
+            "pluginIds": [
+              "io.github.ray0907.input-menu"
+            ],
+            "commit": "ce4a3a42b02605c75968fca63045be702d72ba0e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T16:11:11.600Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T14:23:11.382Z",
+            "requestEventId": 32267594281,
+            "requestedAt": "2026-10-01T16:01:15Z",
+            "reviewedAt": "2026-10-01T16:11:11.600Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/18orkidea/omarchy-ai-writer",
