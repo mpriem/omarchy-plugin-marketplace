@@ -277549,6 +277549,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/lukebest/omartwins",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T00:31:49.649Z",
+      "listingValidatedCommit": "33add9acb21dcd4448f036d0b3ad7b4b1d4ad92c",
+      "listingValidatedAt": "2026-10-03T00:31:49.649Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lukebest/omartwins",
+        "pluginIds": [
+          "io.github.lukebest.omartwins"
+        ],
+        "commit": "33add9acb21dcd4448f036d0b3ad7b4b1d4ad92c",
+        "checkedAt": "2026-10-03T00:31:49.541Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lukebest/omartwins",
+        "pluginIds": [
+          "io.github.lukebest.omartwins"
+        ],
+        "commit": "33add9acb21dcd4448f036d0b3ad7b4b1d4ad92c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T00:31:49.541Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T00:29:01.155Z",
+        "requestEventId": 32374578447,
+        "requestedAt": "2026-10-03T00:31:20Z",
+        "reviewedAt": "2026-10-03T00:31:49.541Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.lukebest.omartwins": {
+          "category": "System",
+          "tags": [
+            "ai",
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
