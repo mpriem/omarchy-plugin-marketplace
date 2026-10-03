@@ -108363,8 +108363,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-30",
       "listedAt": "2026-08-30T16:49:01.805Z",
-      "listingValidatedCommit": "f83f67209af2b7ef0fb6752c58d2c45e583d68d2",
-      "listingValidatedAt": "2026-09-02T00:03:49.743Z",
+      "listingValidatedCommit": "34eea93fcf4b16c4b4e0edaf6d8ff537712c7f40",
+      "listingValidatedAt": "2026-10-03T06:33:16.261Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -108373,15 +108373,15 @@
         "pluginIds": [
           "io.github.giodc.omarchweb"
         ],
-        "commit": "f83f67209af2b7ef0fb6752c58d2c45e583d68d2",
-        "checkedAt": "2026-09-02T00:03:49.742Z",
+        "commit": "34eea93fcf4b16c4b4e0edaf6d8ff537712c7f40",
+        "checkedAt": "2026-10-03T06:33:16.261Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege",
-          "service-management",
           "package-manager",
+          "service-management",
           "installer"
         ]
       },
@@ -108393,30 +108393,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "giodc/omarchweb",
-        "pluginIds": [
-          "io.github.giodc.omarchweb"
-        ],
-        "commit": "f83f67209af2b7ef0fb6752c58d2c45e583d68d2",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-02T00:03:49.742Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "service-management",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-31T14:56:31.031Z",
-        "requestEventId": 30381935603,
-        "requestedAt": "2026-09-02T00:03:04Z",
-        "reviewedAt": "2026-09-02T00:03:49.743Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -108467,8 +108443,81 @@
             "reviewedAt": "2026-08-30T16:49:01.760Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "f83f67209af2b7ef0fb6752c58d2c45e583d68d2",
+          "validatedAt": "2026-09-02T00:03:49.743Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T06:33:16.261Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "giodc/omarchweb",
+            "pluginIds": [
+              "io.github.giodc.omarchweb"
+            ],
+            "commit": "f83f67209af2b7ef0fb6752c58d2c45e583d68d2",
+            "checkedAt": "2026-09-02T00:03:49.742Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "giodc/omarchweb",
+            "pluginIds": [
+              "io.github.giodc.omarchweb"
+            ],
+            "commit": "f83f67209af2b7ef0fb6752c58d2c45e583d68d2",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-02T00:03:49.742Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-31T14:56:31.031Z",
+            "requestEventId": 30381935603,
+            "requestedAt": "2026-09-02T00:03:04Z",
+            "reviewedAt": "2026-09-02T00:03:49.743Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "giodc/omarchweb",
+        "pluginIds": [
+          "io.github.giodc.omarchweb"
+        ],
+        "commit": "34eea93fcf4b16c4b4e0edaf6d8ff537712c7f40",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T06:33:16.261Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-11T14:46:17.641Z",
+        "requestEventId": 32384988481,
+        "requestedAt": "2026-10-03T06:32:44Z",
+        "reviewedAt": "2026-10-03T06:33:16.261Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Skymebr/omarchy-usbguard",
