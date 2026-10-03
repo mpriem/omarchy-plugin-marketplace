@@ -283760,6 +283760,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/oidium/omarchy-pocket",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T17:46:49.596Z",
+      "listingValidatedCommit": "e564a436e65f08db245976bc0d6bde993fd1828d",
+      "listingValidatedAt": "2026-10-03T17:46:49.596Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "oidium/omarchy-pocket",
+        "pluginIds": [
+          "io.github.oidium.pocket"
+        ],
+        "commit": "e564a436e65f08db245976bc0d6bde993fd1828d",
+        "checkedAt": "2026-10-03T17:46:49.470Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "oidium/omarchy-pocket",
+        "pluginIds": [
+          "io.github.oidium.pocket"
+        ],
+        "commit": "e564a436e65f08db245976bc0d6bde993fd1828d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T17:46:49.470Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T17:31:34.673Z",
+        "requestEventId": 32407745121,
+        "requestedAt": "2026-10-03T17:46:15Z",
+        "reviewedAt": "2026-10-03T17:46:49.470Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.oidium.pocket": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
