@@ -254760,8 +254760,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T09:41:04.652Z",
-      "listingValidatedCommit": "0287ffb023bf00e20dfbfee0197a3545210c2b36",
-      "listingValidatedAt": "2026-09-28T09:41:04.652Z",
+      "listingValidatedCommit": "ff7b4d1bc6db1e6c41ee9346e2d626fa4ee68653",
+      "listingValidatedAt": "2026-10-03T08:53:07.596Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -254770,35 +254770,14 @@
         "pluginIds": [
           "saigkill.mastodon"
         ],
-        "commit": "0287ffb023bf00e20dfbfee0197a3545210c2b36",
-        "checkedAt": "2026-09-28T09:41:04.553Z",
+        "commit": "ff7b4d1bc6db1e6c41ee9346e2d626fa4ee68653",
+        "checkedAt": "2026-10-03T08:53:07.596Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "saigkill/omarchy-mastodon",
-        "pluginIds": [
-          "saigkill.mastodon"
-        ],
-        "commit": "0287ffb023bf00e20dfbfee0197a3545210c2b36",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-28T09:41:04.553Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-28T09:37:16.879Z",
-        "requestEventId": 31980213490,
-        "requestedAt": "2026-09-28T09:39:19Z",
-        "reviewedAt": "2026-09-28T09:41:04.553Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "saigkill.mastodon": {
@@ -254808,7 +254787,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "saigkill/omarchy-mastodon",
+        "pluginIds": [
+          "saigkill.mastodon"
+        ],
+        "commit": "ff7b4d1bc6db1e6c41ee9346e2d626fa4ee68653",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T08:53:07.596Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T08:00:26.324Z",
+        "requestEventId": 32388735851,
+        "requestedAt": "2026-10-03T08:47:56Z",
+        "reviewedAt": "2026-10-03T08:53:07.596Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0287ffb023bf00e20dfbfee0197a3545210c2b36",
+          "validatedAt": "2026-09-28T09:41:04.652Z",
+          "branch": "master",
+          "supersededAt": "2026-10-03T08:53:07.596Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "saigkill/omarchy-mastodon",
+            "pluginIds": [
+              "saigkill.mastodon"
+            ],
+            "commit": "0287ffb023bf00e20dfbfee0197a3545210c2b36",
+            "checkedAt": "2026-09-28T09:41:04.553Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "saigkill/omarchy-mastodon",
+            "pluginIds": [
+              "saigkill.mastodon"
+            ],
+            "commit": "0287ffb023bf00e20dfbfee0197a3545210c2b36",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-28T09:41:04.553Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-28T09:37:16.879Z",
+            "requestEventId": 31980213490,
+            "requestedAt": "2026-09-28T09:39:19Z",
+            "reviewedAt": "2026-09-28T09:41:04.553Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/M44F4/omagate",
