@@ -109244,8 +109244,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-30",
       "listedAt": "2026-08-30T17:49:00.629Z",
-      "listingValidatedCommit": "d37b75552e730cb2acbf0549bcdca627fb1f6426",
-      "listingValidatedAt": "2026-10-03T05:21:41.340Z",
+      "listingValidatedCommit": "17e3d702ba41038731c8cb9bde4876839dfb3b74",
+      "listingValidatedAt": "2026-10-03T08:37:28.961Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -109254,8 +109254,8 @@
         "pluginIds": [
           "bisma.omaga-sync"
         ],
-        "commit": "d37b75552e730cb2acbf0549bcdca627fb1f6426",
-        "checkedAt": "2026-10-03T05:21:41.340Z",
+        "commit": "17e3d702ba41038731c8cb9bde4876839dfb3b74",
+        "checkedAt": "2026-10-03T08:37:28.961Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -109370,6 +109370,53 @@
             "reviewedAt": "2026-09-03T22:16:12.058Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "d37b75552e730cb2acbf0549bcdca627fb1f6426",
+          "validatedAt": "2026-10-03T05:21:41.340Z",
+          "branch": "main",
+          "supersededAt": "2026-10-03T08:37:28.961Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bismawy/omaga-sync",
+            "pluginIds": [
+              "bisma.omaga-sync"
+            ],
+            "commit": "d37b75552e730cb2acbf0549bcdca627fb1f6426",
+            "checkedAt": "2026-10-03T05:21:41.340Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "bismawy/omaga-sync",
+            "pluginIds": [
+              "bisma.omaga-sync"
+            ],
+            "commit": "d37b75552e730cb2acbf0549bcdca627fb1f6426",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-03T05:21:41.340Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-03T04:51:06.461Z",
+            "requestEventId": 32382966023,
+            "requestedAt": "2026-10-03T05:20:21Z",
+            "reviewedAt": "2026-10-03T05:21:41.340Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -109378,10 +109425,10 @@
         "pluginIds": [
           "bisma.omaga-sync"
         ],
-        "commit": "d37b75552e730cb2acbf0549bcdca627fb1f6426",
+        "commit": "17e3d702ba41038731c8cb9bde4876839dfb3b74",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-03T05:21:41.340Z",
+        "baselineCheckedAt": "2026-10-03T08:37:28.961Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -109389,10 +109436,10 @@
           "installer",
           "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-03T04:51:06.461Z",
-        "requestEventId": 32382966023,
-        "requestedAt": "2026-10-03T05:20:21Z",
-        "reviewedAt": "2026-10-03T05:21:41.340Z",
+        "reviewedBaselineCheckedAt": "2026-10-03T07:20:27.402Z",
+        "requestEventId": 32388339626,
+        "requestedAt": "2026-10-03T08:34:30Z",
+        "reviewedAt": "2026-10-03T08:37:28.961Z",
         "reviewer": "HANCORE-linux"
       }
     },
