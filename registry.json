@@ -278504,6 +278504,79 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/TouchWorkStation/Omarchy-Vault",
+      "type": "plugin-source",
+      "addedAt": "2026-10-03",
+      "listedAt": "2026-10-03T04:43:36.966Z",
+      "listingValidatedCommit": "a2b008dff5c4af92f5222a328578d353cc808d4e",
+      "listingValidatedAt": "2026-10-03T04:43:36.966Z",
+      "listingValidatedBranch": "claude/omarchy-vault-setup-sjg3en",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "touchworkstation/omarchy-vault",
+        "pluginIds": [
+          "touchworkstation.vault"
+        ],
+        "commit": "a2b008dff5c4af92f5222a328578d353cc808d4e",
+        "checkedAt": "2026-10-03T04:43:36.890Z",
+        "outcome": "needs-fixes",
+        "enforcementMode": "selective",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "package-manager",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "touchworkstation/omarchy-vault",
+        "pluginIds": [
+          "touchworkstation.vault"
+        ],
+        "commit": "a2b008dff5c4af92f5222a328578d353cc808d4e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-03T04:43:36.890Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "package-manager",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T04:38:09.530Z",
+        "requestEventId": 32381894740,
+        "requestedAt": "2026-10-03T04:41:13Z",
+        "reviewedAt": "2026-10-03T04:43:36.890Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "touchworkstation.vault": {
+          "category": "Productivity",
+          "tags": [
+            "system",
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
