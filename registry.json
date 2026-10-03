@@ -240079,7 +240079,7 @@
           "io.github.mindows.mib-vlog"
         ],
         "commit": "6d5a022d25d1dc644dc924c1aa90527eebe1c40b",
-        "checkedAt": "2026-09-26T06:14:20.732Z",
+        "checkedAt": "2026-10-03T06:02:32.344Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -240091,11 +240091,7 @@
           "tags": [
             "media"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       }
     },
