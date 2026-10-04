@@ -286126,6 +286126,75 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/derekross/peridot",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T01:17:56.837Z",
+      "listingValidatedCommit": "346097ea01e4ca19015696b85bb27da82f134da6",
+      "listingValidatedAt": "2026-10-04T01:17:56.837Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "derekross/peridot",
+        "pluginIds": [
+          "derekross.peridot"
+        ],
+        "commit": "346097ea01e4ca19015696b85bb27da82f134da6",
+        "checkedAt": "2026-10-04T01:17:56.708Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "derekross/peridot",
+        "pluginIds": [
+          "derekross.peridot"
+        ],
+        "commit": "346097ea01e4ca19015696b85bb27da82f134da6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T01:17:56.708Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T01:01:22.883Z",
+        "requestEventId": 32422975872,
+        "requestedAt": "2026-10-04T01:17:30Z",
+        "reviewedAt": "2026-10-04T01:17:56.708Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "derekross.peridot": {
+          "category": "System",
+          "tags": [
+            "system",
+            "security",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
