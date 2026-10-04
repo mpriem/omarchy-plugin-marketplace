@@ -60439,8 +60439,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-23",
       "listedAt": "2026-08-23T16:57:55.991Z",
-      "listingValidatedCommit": "1cfc4c2d4ae98914992e815e7b9067ecdf26c0a2",
-      "listingValidatedAt": "2026-08-23T16:57:55.991Z",
+      "listingValidatedCommit": "4beee12fa3c8b5c112c2db6d08f4843325d53e0f",
+      "listingValidatedAt": "2026-10-04T15:05:28.029Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -60449,8 +60449,8 @@
         "pluginIds": [
           "piyush.omaswitch"
         ],
-        "commit": "1cfc4c2d4ae98914992e815e7b9067ecdf26c0a2",
-        "checkedAt": "2026-08-23T16:57:55.963Z",
+        "commit": "4beee12fa3c8b5c112c2db6d08f4843325d53e0f",
+        "checkedAt": "2026-10-04T15:05:28.028Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -60466,7 +60466,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1cfc4c2d4ae98914992e815e7b9067ecdf26c0a2",
+          "validatedAt": "2026-08-23T16:57:55.991Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T15:05:28.029Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "piyush97/omaswitch",
+            "pluginIds": [
+              "piyush.omaswitch"
+            ],
+            "commit": "1cfc4c2d4ae98914992e815e7b9067ecdf26c0a2",
+            "checkedAt": "2026-08-23T16:57:55.963Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/WyattB111/omarchy-oloopsy",
