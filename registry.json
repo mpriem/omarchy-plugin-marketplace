@@ -201235,8 +201235,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-17",
       "listedAt": "2026-09-17T15:20:51.991Z",
-      "listingValidatedCommit": "c28d7642d359a2aab1794e9ad3c853fb770546b9",
-      "listingValidatedAt": "2026-09-17T15:20:51.991Z",
+      "listingValidatedCommit": "fee36cf3e21f6fe1c27504973fa04b8c239798fe",
+      "listingValidatedAt": "2026-10-04T16:36:03.692Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -201245,35 +201245,15 @@
         "pluginIds": [
           "aridev1.transnote"
         ],
-        "commit": "c28d7642d359a2aab1794e9ad3c853fb770546b9",
-        "checkedAt": "2026-09-17T15:20:51.906Z",
+        "commit": "fee36cf3e21f6fe1c27504973fa04b8c239798fe",
+        "checkedAt": "2026-10-04T16:36:03.692Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "package-manager"
+          "package-manager",
+          "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "aridev1/transnote",
-        "pluginIds": [
-          "aridev1.transnote"
-        ],
-        "commit": "c28d7642d359a2aab1794e9ad3c853fb770546b9",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-17T15:20:51.906Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-17T14:14:21.903Z",
-        "requestEventId": 31330507602,
-        "requestedAt": "2026-09-17T15:18:15Z",
-        "reviewedAt": "2026-09-17T15:20:51.906Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "aridev1.transnote": {
@@ -201284,7 +201264,74 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "aridev1/transnote",
+        "pluginIds": [
+          "aridev1.transnote"
+        ],
+        "commit": "fee36cf3e21f6fe1c27504973fa04b8c239798fe",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T16:36:03.692Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T16:23:37.301Z",
+        "requestEventId": 32452027946,
+        "requestedAt": "2026-10-04T16:35:31Z",
+        "reviewedAt": "2026-10-04T16:36:03.692Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "c28d7642d359a2aab1794e9ad3c853fb770546b9",
+          "validatedAt": "2026-09-17T15:20:51.991Z",
+          "branch": "master",
+          "supersededAt": "2026-10-04T16:36:03.692Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "aridev1/transnote",
+            "pluginIds": [
+              "aridev1.transnote"
+            ],
+            "commit": "c28d7642d359a2aab1794e9ad3c853fb770546b9",
+            "checkedAt": "2026-09-17T15:20:51.906Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "aridev1/transnote",
+            "pluginIds": [
+              "aridev1.transnote"
+            ],
+            "commit": "c28d7642d359a2aab1794e9ad3c853fb770546b9",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-17T15:20:51.906Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-17T14:14:21.903Z",
+            "requestEventId": 31330507602,
+            "requestedAt": "2026-09-17T15:18:15Z",
+            "reviewedAt": "2026-09-17T15:20:51.906Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/TelecomsXChangeAPi/omarchy-voice-shield",
