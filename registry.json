@@ -290281,6 +290281,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/pretodev/quick-paste",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T18:23:15.198Z",
+      "listingValidatedCommit": "3b2a53632daae0bf02d50d56244aed0a87c021fa",
+      "listingValidatedAt": "2026-10-04T18:23:15.198Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pretodev/quick-paste",
+        "pluginIds": [
+          "quick-paste"
+        ],
+        "commit": "3b2a53632daae0bf02d50d56244aed0a87c021fa",
+        "checkedAt": "2026-10-04T18:23:15.093Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pretodev/quick-paste",
+        "pluginIds": [
+          "quick-paste"
+        ],
+        "commit": "3b2a53632daae0bf02d50d56244aed0a87c021fa",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T18:23:15.093Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T18:17:30.667Z",
+        "requestEventId": 32455620934,
+        "requestedAt": "2026-10-04T18:18:36Z",
+        "reviewedAt": "2026-10-04T18:23:15.093Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "quick-paste": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
