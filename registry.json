@@ -291665,6 +291665,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/alertxsto/omarchy-touch-mode",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T23:21:01.988Z",
+      "listingValidatedCommit": "69639aa15b14407debeb51afcbd839033cafbb1e",
+      "listingValidatedAt": "2026-10-04T23:21:01.988Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alertxsto/omarchy-touch-mode",
+        "pluginIds": [
+          "omarkyy.tablet"
+        ],
+        "commit": "69639aa15b14407debeb51afcbd839033cafbb1e",
+        "checkedAt": "2026-10-04T23:21:01.859Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alertxsto/omarchy-touch-mode",
+        "pluginIds": [
+          "omarkyy.tablet"
+        ],
+        "commit": "69639aa15b14407debeb51afcbd839033cafbb1e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T23:21:01.859Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T23:05:18.770Z",
+        "requestEventId": 32465966568,
+        "requestedAt": "2026-10-04T23:20:27Z",
+        "reviewedAt": "2026-10-04T23:21:01.859Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omarkyy.tablet": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
