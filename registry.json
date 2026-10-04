@@ -272635,8 +272635,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T00:22:07.968Z",
-      "listingValidatedCommit": "3ab5da365f8aa2063a76e7249cb5bf6023e68217",
-      "listingValidatedAt": "2026-10-02T00:22:07.968Z",
+      "listingValidatedCommit": "d1299050d031ccbe438172867ff95c70cc65b8c0",
+      "listingValidatedAt": "2026-10-04T11:19:11.179Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -272645,39 +272645,16 @@
         "pluginIds": [
           "io.github.namelesstherebel.hyprchess"
         ],
-        "commit": "3ab5da365f8aa2063a76e7249cb5bf6023e68217",
-        "checkedAt": "2026-10-02T00:22:07.850Z",
+        "commit": "d1299050d031ccbe438172867ff95c70cc65b8c0",
+        "checkedAt": "2026-10-04T11:19:11.179Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "remote-build",
           "package-manager",
+          "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "namelesstherebel/hyprchess",
-        "pluginIds": [
-          "io.github.namelesstherebel.hyprchess"
-        ],
-        "commit": "3ab5da365f8aa2063a76e7249cb5bf6023e68217",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T00:22:07.850Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-01T20:40:18.300Z",
-        "requestEventId": 32298039338,
-        "requestedAt": "2026-10-01T23:58:32Z",
-        "reviewedAt": "2026-10-02T00:22:07.850Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.namelesstherebel.hyprchess": {
@@ -272693,7 +272670,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "namelesstherebel/hyprchess",
+        "pluginIds": [
+          "io.github.namelesstherebel.hyprchess"
+        ],
+        "commit": "d1299050d031ccbe438172867ff95c70cc65b8c0",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T11:19:11.179Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T06:13:55.074Z",
+        "requestEventId": 32440084996,
+        "requestedAt": "2026-10-04T11:18:28Z",
+        "reviewedAt": "2026-10-04T11:19:11.179Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3ab5da365f8aa2063a76e7249cb5bf6023e68217",
+          "validatedAt": "2026-10-02T00:22:07.968Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T11:19:11.179Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "namelesstherebel/hyprchess",
+            "pluginIds": [
+              "io.github.namelesstherebel.hyprchess"
+            ],
+            "commit": "3ab5da365f8aa2063a76e7249cb5bf6023e68217",
+            "checkedAt": "2026-10-02T00:22:07.850Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "namelesstherebel/hyprchess",
+            "pluginIds": [
+              "io.github.namelesstherebel.hyprchess"
+            ],
+            "commit": "3ab5da365f8aa2063a76e7249cb5bf6023e68217",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T00:22:07.850Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T20:40:18.300Z",
+            "requestEventId": 32298039338,
+            "requestedAt": "2026-10-01T23:58:32Z",
+            "reviewedAt": "2026-10-02T00:22:07.850Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/marcho78/o-spotlight",
