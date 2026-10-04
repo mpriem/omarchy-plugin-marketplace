@@ -287379,6 +287379,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/uBruckhaus/omarchy-simple-recipes",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T12:12:27.552Z",
+      "listingValidatedCommit": "1e78cb009928594b6bfc99fb45514d2efca905fe",
+      "listingValidatedAt": "2026-10-04T12:12:27.552Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ubruckhaus/omarchy-simple-recipes",
+        "pluginIds": [
+          "ubruckhaus.simple-recipes"
+        ],
+        "commit": "1e78cb009928594b6bfc99fb45514d2efca905fe",
+        "checkedAt": "2026-10-04T12:12:27.432Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ubruckhaus/omarchy-simple-recipes",
+        "pluginIds": [
+          "ubruckhaus.simple-recipes"
+        ],
+        "commit": "1e78cb009928594b6bfc99fb45514d2efca905fe",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T12:12:27.432Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T09:57:23.717Z",
+        "requestEventId": 32442013694,
+        "requestedAt": "2026-10-04T12:11:57Z",
+        "reviewedAt": "2026-10-04T12:12:27.432Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ubruckhaus.simple-recipes": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
