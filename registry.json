@@ -291936,6 +291936,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Paulie420/omarchy-runcat",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T23:56:34.920Z",
+      "listingValidatedCommit": "e442a35eb508491210780d91fd28d8ce0aeb80d0",
+      "listingValidatedAt": "2026-10-04T23:56:34.920Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "paulie420/omarchy-runcat",
+        "pluginIds": [
+          "paulie420.runcat"
+        ],
+        "commit": "e442a35eb508491210780d91fd28d8ce0aeb80d0",
+        "checkedAt": "2026-10-04T23:56:34.798Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "paulie420/omarchy-runcat",
+        "pluginIds": [
+          "paulie420.runcat"
+        ],
+        "commit": "e442a35eb508491210780d91fd28d8ce0aeb80d0",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T23:56:34.798Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T23:53:59.631Z",
+        "requestEventId": 32467044437,
+        "requestedAt": "2026-10-04T23:56:06Z",
+        "reviewedAt": "2026-10-04T23:56:34.798Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "paulie420.runcat": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
