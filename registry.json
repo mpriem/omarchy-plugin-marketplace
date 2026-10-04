@@ -288191,6 +288191,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/saidrmdhani/omarchy-scenes",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T13:16:28.144Z",
+      "listingValidatedCommit": "3b2baa99f147d7b8e982cb7f7391631c8c9802a0",
+      "listingValidatedAt": "2026-10-04T13:16:28.144Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "saidrmdhani/omarchy-scenes",
+        "pluginIds": [
+          "saidness.scenes"
+        ],
+        "commit": "3b2baa99f147d7b8e982cb7f7391631c8c9802a0",
+        "checkedAt": "2026-10-04T13:16:28.071Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "saidness.scenes": {
+          "category": "Desktop",
+          "tags": [
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
