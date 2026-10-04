@@ -288098,6 +288098,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/debba/omarchy-stage-manager",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T13:10:24.181Z",
+      "listingValidatedCommit": "1c9154868cf2e7d07f6bd334e0d58634e3a6465b",
+      "listingValidatedAt": "2026-10-04T13:10:24.181Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "debba/omarchy-stage-manager",
+        "pluginIds": [
+          "debba.stage-manager"
+        ],
+        "commit": "1c9154868cf2e7d07f6bd334e0d58634e3a6465b",
+        "checkedAt": "2026-10-04T13:10:24.054Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "debba/omarchy-stage-manager",
+        "pluginIds": [
+          "debba.stage-manager"
+        ],
+        "commit": "1c9154868cf2e7d07f6bd334e0d58634e3a6465b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T13:10:24.054Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T11:43:27.213Z",
+        "requestEventId": 32444259964,
+        "requestedAt": "2026-10-04T13:08:23Z",
+        "reviewedAt": "2026-10-04T13:10:24.054Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "debba.stage-manager": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "workspaces",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
