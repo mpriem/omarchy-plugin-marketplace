@@ -257153,8 +257153,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T11:06:47.529Z",
-      "listingValidatedCommit": "57f65a147fc383c0ee2338af7f95f9c2a21978de",
-      "listingValidatedAt": "2026-09-28T11:06:47.529Z",
+      "listingValidatedCommit": "47fa725dc5af4687423692ebdb152d6a12681bd4",
+      "listingValidatedAt": "2026-10-04T11:33:29.917Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -257163,8 +257163,8 @@
         "pluginIds": [
           "andy.language-switcher"
         ],
-        "commit": "57f65a147fc383c0ee2338af7f95f9c2a21978de",
-        "checkedAt": "2026-09-28T11:06:47.418Z",
+        "commit": "47fa725dc5af4687423692ebdb152d6a12681bd4",
+        "checkedAt": "2026-10-04T11:33:29.917Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -257173,29 +257173,6 @@
           "privilege",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "manateelazycat/omarchy-language-switcher",
-        "pluginIds": [
-          "andy.language-switcher"
-        ],
-        "commit": "57f65a147fc383c0ee2338af7f95f9c2a21978de",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-28T11:06:47.418Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-28T10:49:37.683Z",
-        "requestEventId": 31985073725,
-        "requestedAt": "2026-09-28T10:56:29Z",
-        "reviewedAt": "2026-09-28T11:06:47.418Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "andy.language-switcher": {
@@ -257211,7 +257188,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-language-switcher",
+        "pluginIds": [
+          "andy.language-switcher"
+        ],
+        "commit": "47fa725dc5af4687423692ebdb152d6a12681bd4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T11:33:29.917Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T10:36:27.320Z",
+        "requestEventId": 32440328129,
+        "requestedAt": "2026-10-04T11:25:35Z",
+        "reviewedAt": "2026-10-04T11:33:29.917Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "57f65a147fc383c0ee2338af7f95f9c2a21978de",
+          "validatedAt": "2026-09-28T11:06:47.529Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T11:33:29.917Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-language-switcher",
+            "pluginIds": [
+              "andy.language-switcher"
+            ],
+            "commit": "57f65a147fc383c0ee2338af7f95f9c2a21978de",
+            "checkedAt": "2026-09-28T11:06:47.418Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "manateelazycat/omarchy-language-switcher",
+            "pluginIds": [
+              "andy.language-switcher"
+            ],
+            "commit": "57f65a147fc383c0ee2338af7f95f9c2a21978de",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-28T11:06:47.418Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-28T10:49:37.683Z",
+            "requestEventId": 31985073725,
+            "requestedAt": "2026-09-28T10:56:29Z",
+            "reviewedAt": "2026-09-28T11:06:47.418Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/MariposaJon/omarchy_ukrail",
