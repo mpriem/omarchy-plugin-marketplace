@@ -286035,6 +286035,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ugurcanbulut/omarchy-quilt",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T00:50:28.448Z",
+      "listingValidatedCommit": "edd0007bf3bc5f5184b84af02425b4876dbdc765",
+      "listingValidatedAt": "2026-10-04T00:50:28.448Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ugurcanbulut/omarchy-quilt",
+        "pluginIds": [
+          "ugurcanbulut.quilt"
+        ],
+        "commit": "edd0007bf3bc5f5184b84af02425b4876dbdc765",
+        "checkedAt": "2026-10-04T00:50:28.326Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ugurcanbulut.quilt": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "workspaces",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
