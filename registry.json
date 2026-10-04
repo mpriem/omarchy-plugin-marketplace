@@ -287671,6 +287671,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/uBruckhaus/omarchy-llm-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T12:35:11.808Z",
+      "listingValidatedCommit": "68fc962418f01e716f824ac0cef6e3d0d4636c65",
+      "listingValidatedAt": "2026-10-04T12:35:11.808Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ubruckhaus/omarchy-llm-usage",
+        "pluginIds": [
+          "ubruckhaus.llm-usage"
+        ],
+        "commit": "68fc962418f01e716f824ac0cef6e3d0d4636c65",
+        "checkedAt": "2026-10-04T12:35:11.685Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ubruckhaus/omarchy-llm-usage",
+        "pluginIds": [
+          "ubruckhaus.llm-usage"
+        ],
+        "commit": "68fc962418f01e716f824ac0cef6e3d0d4636c65",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T12:35:11.685Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T09:57:38.371Z",
+        "requestEventId": 32442874300,
+        "requestedAt": "2026-10-04T12:34:10Z",
+        "reviewedAt": "2026-10-04T12:35:11.685Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ubruckhaus.llm-usage": {
+          "category": "System",
+          "tags": [
+            "ai",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
