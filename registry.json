@@ -228791,8 +228791,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T14:45:12.253Z",
-      "listingValidatedCommit": "1684dc70bf7ff0fd964a8f36c8e32c1aa0cf41bf",
-      "listingValidatedAt": "2026-09-22T14:45:12.253Z",
+      "listingValidatedCommit": "28449838d15e36b905f2857644f2d6c791f68f7a",
+      "listingValidatedAt": "2026-10-04T15:37:07.991Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -228801,8 +228801,8 @@
         "pluginIds": [
           "org.user.media-awake"
         ],
-        "commit": "1684dc70bf7ff0fd964a8f36c8e32c1aa0cf41bf",
-        "checkedAt": "2026-09-22T14:45:12.170Z",
+        "commit": "28449838d15e36b905f2857644f2d6c791f68f7a",
+        "checkedAt": "2026-10-04T15:37:07.991Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -228816,7 +228816,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1684dc70bf7ff0fd964a8f36c8e32c1aa0cf41bf",
+          "validatedAt": "2026-09-22T14:45:12.253Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T15:37:07.991Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "sumit-official/omarchy-media-awake",
+            "pluginIds": [
+              "org.user.media-awake"
+            ],
+            "commit": "1684dc70bf7ff0fd964a8f36c8e32c1aa0cf41bf",
+            "checkedAt": "2026-09-22T14:45:12.170Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/turbineBMW/Omaview",
