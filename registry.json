@@ -291873,6 +291873,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/serverbauer/omarchy-taskmanager",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T23:45:53.971Z",
+      "listingValidatedCommit": "1751005d59fa28d32fc3b3232d88d823fec9092e",
+      "listingValidatedAt": "2026-10-04T23:45:53.971Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "serverbauer/omarchy-taskmanager",
+        "pluginIds": [
+          "io.github.serverbauer.taskmanager"
+        ],
+        "commit": "1751005d59fa28d32fc3b3232d88d823fec9092e",
+        "checkedAt": "2026-10-04T23:45:53.851Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "serverbauer/omarchy-taskmanager",
+        "pluginIds": [
+          "io.github.serverbauer.taskmanager"
+        ],
+        "commit": "1751005d59fa28d32fc3b3232d88d823fec9092e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T23:45:53.851Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T23:42:25.894Z",
+        "requestEventId": 32466689778,
+        "requestedAt": "2026-10-04T23:44:28Z",
+        "reviewedAt": "2026-10-04T23:45:53.851Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.serverbauer.taskmanager": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
