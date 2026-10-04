@@ -286713,6 +286713,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/cad0p/omarchy-threads",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T05:20:13.462Z",
+      "listingValidatedCommit": "db5e6f4c2e555fc755d4ead86110c41efdaf3a4f",
+      "listingValidatedAt": "2026-10-04T05:20:13.462Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cad0p/omarchy-threads",
+        "pluginIds": [
+          "cad0p.thread-center"
+        ],
+        "commit": "db5e6f4c2e555fc755d4ead86110c41efdaf3a4f",
+        "checkedAt": "2026-10-04T05:20:13.341Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "cad0p.thread-center": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
