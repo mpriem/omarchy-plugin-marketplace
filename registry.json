@@ -287850,6 +287850,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/manateelazycat/omarchy-side-panel",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T12:58:24.643Z",
+      "listingValidatedCommit": "5862d3103df74d1a663bd32980a1ce6cf2db8c21",
+      "listingValidatedAt": "2026-10-04T12:58:24.643Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "manateelazycat/omarchy-side-panel",
+        "pluginIds": [
+          "andy.side-panel"
+        ],
+        "commit": "5862d3103df74d1a663bd32980a1ce6cf2db8c21",
+        "checkedAt": "2026-10-04T12:58:24.547Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-side-panel",
+        "pluginIds": [
+          "andy.side-panel"
+        ],
+        "commit": "5862d3103df74d1a663bd32980a1ce6cf2db8c21",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T12:58:24.547Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T11:30:44.105Z",
+        "requestEventId": 32443800996,
+        "requestedAt": "2026-10-04T12:57:31Z",
+        "reviewedAt": "2026-10-04T12:58:24.547Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "andy.side-panel": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
