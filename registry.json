@@ -289005,6 +289005,75 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/i3oot/vr-control",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T15:21:15.573Z",
+      "listingValidatedCommit": "a22261198715178720d9f10ed3f92f57106e90d4",
+      "listingValidatedAt": "2026-10-04T15:21:15.573Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "i3oot/vr-control",
+        "pluginIds": [
+          "i3oot.vr"
+        ],
+        "commit": "a22261198715178720d9f10ed3f92f57106e90d4",
+        "checkedAt": "2026-10-04T15:21:15.456Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "sudoers-modification",
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "i3oot/vr-control",
+        "pluginIds": [
+          "i3oot.vr"
+        ],
+        "commit": "a22261198715178720d9f10ed3f92f57106e90d4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T15:21:15.456Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "sudoers-modification",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T15:08:59.259Z",
+        "requestEventId": 32449159833,
+        "requestedAt": "2026-10-04T15:18:13Z",
+        "reviewedAt": "2026-10-04T15:21:15.456Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "i3oot.vr": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
