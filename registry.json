@@ -283356,8 +283356,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T11:37:16.304Z",
-      "listingValidatedCommit": "831133ca5d3bb354b57e8b34ea4f9d6da3eb6007",
-      "listingValidatedAt": "2026-10-03T11:37:16.304Z",
+      "listingValidatedCommit": "c94b6d5acba023b49edf419956a22116c06b85fd",
+      "listingValidatedAt": "2026-10-04T00:00:28.472Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -283366,8 +283366,8 @@
         "pluginIds": [
           "io.github.qempexe.multi-docks"
         ],
-        "commit": "831133ca5d3bb354b57e8b34ea4f9d6da3eb6007",
-        "checkedAt": "2026-10-03T11:37:16.170Z",
+        "commit": "c94b6d5acba023b49edf419956a22116c06b85fd",
+        "checkedAt": "2026-10-04T00:00:28.472Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -283383,7 +283383,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "831133ca5d3bb354b57e8b34ea4f9d6da3eb6007",
+          "validatedAt": "2026-10-03T11:37:16.304Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T00:00:28.472Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "qempexe/omarchy-multi-docks",
+            "pluginIds": [
+              "io.github.qempexe.multi-docks"
+            ],
+            "commit": "831133ca5d3bb354b57e8b34ea4f9d6da3eb6007",
+            "checkedAt": "2026-10-03T11:37:16.170Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Turing-Cat/AppDeck",
