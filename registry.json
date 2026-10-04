@@ -286069,6 +286069,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/KitsuneForgering/omarchy-glass",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T01:00:33.354Z",
+      "listingValidatedCommit": "729f438e07cdacc893f23d96cf9117d226f7b3f7",
+      "listingValidatedAt": "2026-10-04T01:00:33.354Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kitsuneforgering/omarchy-glass",
+        "pluginIds": [
+          "kitsuneforgering.glass"
+        ],
+        "commit": "729f438e07cdacc893f23d96cf9117d226f7b3f7",
+        "checkedAt": "2026-10-04T01:00:33.280Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kitsuneforgering/omarchy-glass",
+        "pluginIds": [
+          "kitsuneforgering.glass"
+        ],
+        "commit": "729f438e07cdacc893f23d96cf9117d226f7b3f7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T01:00:33.280Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T00:53:21.862Z",
+        "requestEventId": 32422477716,
+        "requestedAt": "2026-10-04T01:00:09Z",
+        "reviewedAt": "2026-10-04T01:00:33.280Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "kitsuneforgering.glass": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
