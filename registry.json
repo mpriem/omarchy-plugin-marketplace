@@ -288033,6 +288033,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/debba/omarchy-openvpn-widget",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T13:07:36.119Z",
+      "listingValidatedCommit": "0731d1fbd867b80d6fb52cc332591a31fe93a812",
+      "listingValidatedAt": "2026-10-04T13:07:36.119Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "debba/omarchy-openvpn-widget",
+        "pluginIds": [
+          "community.openvpn"
+        ],
+        "commit": "0731d1fbd867b80d6fb52cc332591a31fe93a812",
+        "checkedAt": "2026-10-04T13:07:36.037Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "debba/omarchy-openvpn-widget",
+        "pluginIds": [
+          "community.openvpn"
+        ],
+        "commit": "0731d1fbd867b80d6fb52cc332591a31fe93a812",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T13:07:36.037Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T11:43:26.235Z",
+        "requestEventId": 32444178430,
+        "requestedAt": "2026-10-04T13:06:21Z",
+        "reviewedAt": "2026-10-04T13:07:36.037Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "community.openvpn": {
+          "category": "System",
+          "tags": [
+            "vpn",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
