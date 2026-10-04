@@ -181380,8 +181380,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-13",
       "listedAt": "2026-09-13T15:22:25.218Z",
-      "listingValidatedCommit": "49573826b1d46eec7c35a08ac5c14c4c1b64f604",
-      "listingValidatedAt": "2026-09-13T15:22:25.218Z",
+      "listingValidatedCommit": "e5e2be22306a57b206cb28c6d39f778313386121",
+      "listingValidatedAt": "2026-10-04T21:53:28.681Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -181390,35 +181390,14 @@
         "pluginIds": [
           "douper.underpants"
         ],
-        "commit": "49573826b1d46eec7c35a08ac5c14c4c1b64f604",
-        "checkedAt": "2026-09-13T15:22:25.143Z",
+        "commit": "e5e2be22306a57b206cb28c6d39f778313386121",
+        "checkedAt": "2026-10-04T21:53:28.681Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "rdoupe-omarchy/omarchy-underpants",
-        "pluginIds": [
-          "douper.underpants"
-        ],
-        "commit": "49573826b1d46eec7c35a08ac5c14c4c1b64f604",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-13T15:22:25.143Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-12T20:57:02.978Z",
-        "requestEventId": 31055945582,
-        "requestedAt": "2026-09-13T15:19:23Z",
-        "reviewedAt": "2026-09-13T15:22:25.143Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "douper.underpants": {
@@ -181429,7 +181408,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rdoupe-omarchy/omarchy-underpants",
+        "pluginIds": [
+          "douper.underpants"
+        ],
+        "commit": "e5e2be22306a57b206cb28c6d39f778313386121",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T21:53:28.681Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T21:37:03.729Z",
+        "requestEventId": 32463165660,
+        "requestedAt": "2026-10-04T21:51:32Z",
+        "reviewedAt": "2026-10-04T21:53:28.681Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "49573826b1d46eec7c35a08ac5c14c4c1b64f604",
+          "validatedAt": "2026-09-13T15:22:25.218Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T21:53:28.681Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rdoupe-omarchy/omarchy-underpants",
+            "pluginIds": [
+              "douper.underpants"
+            ],
+            "commit": "49573826b1d46eec7c35a08ac5c14c4c1b64f604",
+            "checkedAt": "2026-09-13T15:22:25.143Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "rdoupe-omarchy/omarchy-underpants",
+            "pluginIds": [
+              "douper.underpants"
+            ],
+            "commit": "49573826b1d46eec7c35a08ac5c14c4c1b64f604",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-13T15:22:25.143Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-12T20:57:02.978Z",
+            "requestEventId": 31055945582,
+            "requestedAt": "2026-09-13T15:19:23Z",
+            "reviewedAt": "2026-09-13T15:22:25.143Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/scoop/omarchy-plugin-uptime-kuma",
