@@ -287592,6 +287592,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/xolghadr/omarchy-screen-off",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T12:29:13.560Z",
+      "listingValidatedCommit": "6a6694ea5c7533a2c3be74bef3f92433af3987ee",
+      "listingValidatedAt": "2026-10-04T12:29:13.560Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "xolghadr/omarchy-screen-off",
+        "pluginIds": [
+          "xolghadr.screen-off"
+        ],
+        "commit": "6a6694ea5c7533a2c3be74bef3f92433af3987ee",
+        "checkedAt": "2026-10-04T12:29:13.435Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "xolghadr.screen-off": {
+          "category": "System",
+          "tags": [
+            "power-management",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
