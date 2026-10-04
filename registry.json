@@ -112015,8 +112015,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-31",
       "listedAt": "2026-08-31T00:13:46.542Z",
-      "listingValidatedCommit": "77b9c27a983ab88b924c65e2dd37ab38dcd2f9b0",
-      "listingValidatedAt": "2026-08-31T00:13:46.542Z",
+      "listingValidatedCommit": "8f3fbdacef7e1d597b0cc0fd2322c238c35579b3",
+      "listingValidatedAt": "2026-10-04T11:31:08.171Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -112025,35 +112025,15 @@
         "pluginIds": [
           "io.github.ki11e6.harbor"
         ],
-        "commit": "77b9c27a983ab88b924c65e2dd37ab38dcd2f9b0",
-        "checkedAt": "2026-08-31T00:13:46.493Z",
+        "commit": "8f3fbdacef7e1d597b0cc0fd2322c238c35579b3",
+        "checkedAt": "2026-10-04T11:31:08.171Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
+          "service-management",
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ki11e6/omarchy-harbor",
-        "pluginIds": [
-          "io.github.ki11e6.harbor"
-        ],
-        "commit": "77b9c27a983ab88b924c65e2dd37ab38dcd2f9b0",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-31T00:13:46.493Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-30T17:27:29.969Z",
-        "requestEventId": 30250375324,
-        "requestedAt": "2026-08-31T00:09:36Z",
-        "reviewedAt": "2026-08-31T00:13:46.493Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.ki11e6.harbor": {
@@ -112065,7 +112045,74 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ki11e6/omarchy-harbor",
+        "pluginIds": [
+          "io.github.ki11e6.harbor"
+        ],
+        "commit": "8f3fbdacef7e1d597b0cc0fd2322c238c35579b3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T11:31:08.171Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T09:18:21.782Z",
+        "requestEventId": 32440295743,
+        "requestedAt": "2026-10-04T11:24:40Z",
+        "reviewedAt": "2026-10-04T11:31:08.171Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "77b9c27a983ab88b924c65e2dd37ab38dcd2f9b0",
+          "validatedAt": "2026-08-31T00:13:46.542Z",
+          "branch": "master",
+          "supersededAt": "2026-10-04T11:31:08.171Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ki11e6/omarchy-harbor",
+            "pluginIds": [
+              "io.github.ki11e6.harbor"
+            ],
+            "commit": "77b9c27a983ab88b924c65e2dd37ab38dcd2f9b0",
+            "checkedAt": "2026-08-31T00:13:46.493Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ki11e6/omarchy-harbor",
+            "pluginIds": [
+              "io.github.ki11e6.harbor"
+            ],
+            "commit": "77b9c27a983ab88b924c65e2dd37ab38dcd2f9b0",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-31T00:13:46.493Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-30T17:27:29.969Z",
+            "requestEventId": 30250375324,
+            "requestedAt": "2026-08-31T00:09:36Z",
+            "reviewedAt": "2026-08-31T00:13:46.493Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Majkelll/omarchy-uptime",
