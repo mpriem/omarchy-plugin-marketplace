@@ -288323,6 +288323,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ariDev1/omaMusi",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T13:36:28.754Z",
+      "listingValidatedCommit": "a7a4124507c6b598c6da2d6e86bdd040dc019dad",
+      "listingValidatedAt": "2026-10-04T13:36:28.754Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "aridev1/omamusi",
+        "pluginIds": [
+          "io.github.aridev1.omamusi"
+        ],
+        "commit": "a7a4124507c6b598c6da2d6e86bdd040dc019dad",
+        "checkedAt": "2026-10-04T13:36:28.624Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "aridev1/omamusi",
+        "pluginIds": [
+          "io.github.aridev1.omamusi"
+        ],
+        "commit": "a7a4124507c6b598c6da2d6e86bdd040dc019dad",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T13:36:28.624Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T13:22:41.626Z",
+        "requestEventId": 32445229156,
+        "requestedAt": "2026-10-04T13:32:19Z",
+        "reviewedAt": "2026-10-04T13:36:28.624Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.aridev1.omamusi": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
