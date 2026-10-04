@@ -254501,8 +254501,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T23:38:49.371Z",
-      "listingValidatedCommit": "47a7c9a900ed6bb722da994539a88c4ee7d6acf0",
-      "listingValidatedAt": "2026-09-27T23:38:49.371Z",
+      "listingValidatedCommit": "c3e98796f3bc1c2f0395b4ff830f98c18cdf9022",
+      "listingValidatedAt": "2026-10-04T16:56:12.397Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -254511,8 +254511,8 @@
         "pluginIds": [
           "ubruckhaus.simple-launcher-for-fools"
         ],
-        "commit": "47a7c9a900ed6bb722da994539a88c4ee7d6acf0",
-        "checkedAt": "2026-09-27T23:38:49.255Z",
+        "commit": "c3e98796f3bc1c2f0395b4ff830f98c18cdf9022",
+        "checkedAt": "2026-10-04T16:56:12.397Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -254528,7 +254528,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "47a7c9a900ed6bb722da994539a88c4ee7d6acf0",
+          "validatedAt": "2026-09-27T23:38:49.371Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T16:56:12.397Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-simple-launcher-for-fools",
+            "pluginIds": [
+              "ubruckhaus.simple-launcher-for-fools"
+            ],
+            "commit": "47a7c9a900ed6bb722da994539a88c4ee7d6acf0",
+            "checkedAt": "2026-09-27T23:38:49.255Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/edddine4-source/jev-challenge-lab",
