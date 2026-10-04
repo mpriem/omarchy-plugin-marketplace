@@ -287728,6 +287728,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/dedeanth/andromarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T12:49:59.642Z",
+      "listingValidatedCommit": "454b73ae284d006fea56f024c370ac7d73523f67",
+      "listingValidatedAt": "2026-10-04T12:49:59.642Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dedeanth/andromarchy",
+        "pluginIds": [
+          "io.github.dedeanth.andromarchy"
+        ],
+        "commit": "454b73ae284d006fea56f024c370ac7d73523f67",
+        "checkedAt": "2026-10-04T12:49:59.514Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dedeanth/andromarchy",
+        "pluginIds": [
+          "io.github.dedeanth.andromarchy"
+        ],
+        "commit": "454b73ae284d006fea56f024c370ac7d73523f67",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T12:49:59.514Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T10:39:17.541Z",
+        "requestEventId": 32443486530,
+        "requestedAt": "2026-10-04T12:49:35Z",
+        "reviewedAt": "2026-10-04T12:49:59.514Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.dedeanth.andromarchy": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
