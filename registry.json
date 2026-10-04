@@ -239851,8 +239851,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-24",
       "listedAt": "2026-09-24T21:28:11.803Z",
-      "listingValidatedCommit": "7bc909916f0a1400bf34d3190c16cc357de8490b",
-      "listingValidatedAt": "2026-09-24T21:28:11.803Z",
+      "listingValidatedCommit": "8641ea8e9023584814aaf5e4a96df01c1f3d5246",
+      "listingValidatedAt": "2026-10-04T13:52:38.295Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -239861,35 +239861,14 @@
         "pluginIds": [
           "codydon.omatune"
         ],
-        "commit": "7bc909916f0a1400bf34d3190c16cc357de8490b",
-        "checkedAt": "2026-09-24T21:28:11.692Z",
+        "commit": "8641ea8e9023584814aaf5e4a96df01c1f3d5246",
+        "checkedAt": "2026-10-04T13:52:38.295Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "codydon/omatune",
-        "pluginIds": [
-          "codydon.omatune"
-        ],
-        "commit": "7bc909916f0a1400bf34d3190c16cc357de8490b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-24T21:28:11.692Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-24T08:28:22.369Z",
-        "requestEventId": 31791741899,
-        "requestedAt": "2026-09-24T21:24:14Z",
-        "reviewedAt": "2026-09-24T21:28:11.692Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "codydon.omatune": {
@@ -239905,7 +239884,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "codydon/omatune",
+        "pluginIds": [
+          "codydon.omatune"
+        ],
+        "commit": "8641ea8e9023584814aaf5e4a96df01c1f3d5246",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T13:52:38.295Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-30T04:33:35.515Z",
+        "requestEventId": 32445719533,
+        "requestedAt": "2026-10-04T13:44:33Z",
+        "reviewedAt": "2026-10-04T13:52:38.295Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "7bc909916f0a1400bf34d3190c16cc357de8490b",
+          "validatedAt": "2026-09-24T21:28:11.803Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T13:52:38.295Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "codydon/omatune",
+            "pluginIds": [
+              "codydon.omatune"
+            ],
+            "commit": "7bc909916f0a1400bf34d3190c16cc357de8490b",
+            "checkedAt": "2026-09-24T21:28:11.692Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "codydon/omatune",
+            "pluginIds": [
+              "codydon.omatune"
+            ],
+            "commit": "7bc909916f0a1400bf34d3190c16cc357de8490b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-24T21:28:11.692Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-24T08:28:22.369Z",
+            "requestEventId": 31791741899,
+            "requestedAt": "2026-09-24T21:24:14Z",
+            "reviewedAt": "2026-09-24T21:28:11.692Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/leonrlr4/halo",
