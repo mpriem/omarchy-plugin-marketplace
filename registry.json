@@ -283454,8 +283454,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T11:40:11.527Z",
-      "listingValidatedCommit": "feddbe19b062549cf2e2bbdda26d93e15008d492",
-      "listingValidatedAt": "2026-10-03T11:40:11.527Z",
+      "listingValidatedCommit": "52bae2419ea1d3cdf2baa297201017eee50da698",
+      "listingValidatedAt": "2026-10-04T01:32:44.412Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -283464,8 +283464,8 @@
         "pluginIds": [
           "appdeck.app"
         ],
-        "commit": "feddbe19b062549cf2e2bbdda26d93e15008d492",
-        "checkedAt": "2026-10-03T11:40:11.394Z",
+        "commit": "52bae2419ea1d3cdf2baa297201017eee50da698",
+        "checkedAt": "2026-10-04T01:32:44.412Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -283481,7 +283481,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "feddbe19b062549cf2e2bbdda26d93e15008d492",
+          "validatedAt": "2026-10-03T11:40:11.527Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T01:32:44.412Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "turing-cat/appdeck",
+            "pluginIds": [
+              "appdeck.app"
+            ],
+            "commit": "feddbe19b062549cf2e2bbdda26d93e15008d492",
+            "checkedAt": "2026-10-03T11:40:11.394Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/BruColomer/omaclaude",
