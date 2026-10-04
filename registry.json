@@ -265511,8 +265511,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T02:26:08.973Z",
-      "listingValidatedCommit": "4692efad01ae41808e0833961027db56e59c0fdc",
-      "listingValidatedAt": "2026-10-01T02:26:08.973Z",
+      "listingValidatedCommit": "e4109042bb63d45b1a0422546a307a3de00a7aaa",
+      "listingValidatedAt": "2026-10-04T02:10:10.656Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -265521,8 +265521,8 @@
         "pluginIds": [
           "community.buzz"
         ],
-        "commit": "4692efad01ae41808e0833961027db56e59c0fdc",
-        "checkedAt": "2026-10-01T02:26:08.867Z",
+        "commit": "e4109042bb63d45b1a0422546a307a3de00a7aaa",
+        "checkedAt": "2026-10-04T02:10:10.656Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -265533,31 +265533,6 @@
           "privilege",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "randymy/omarchy-buzz",
-        "pluginIds": [
-          "community.buzz"
-        ],
-        "commit": "4692efad01ae41808e0833961027db56e59c0fdc",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T02:26:08.867Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "service-management",
-          "installer",
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-01T02:20:53.777Z",
-        "requestEventId": 32216435762,
-        "requestedAt": "2026-10-01T02:25:45Z",
-        "reviewedAt": "2026-10-01T02:26:08.867Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "community.buzz": {
@@ -265572,7 +265547,85 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "randymy/omarchy-buzz",
+        "pluginIds": [
+          "community.buzz"
+        ],
+        "commit": "e4109042bb63d45b1a0422546a307a3de00a7aaa",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T02:10:10.656Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T02:08:00.947Z",
+        "requestEventId": 32424383155,
+        "requestedAt": "2026-10-04T02:09:39Z",
+        "reviewedAt": "2026-10-04T02:10:10.656Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "4692efad01ae41808e0833961027db56e59c0fdc",
+          "validatedAt": "2026-10-01T02:26:08.973Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T02:10:10.656Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "randymy/omarchy-buzz",
+            "pluginIds": [
+              "community.buzz"
+            ],
+            "commit": "4692efad01ae41808e0833961027db56e59c0fdc",
+            "checkedAt": "2026-10-01T02:26:08.867Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management",
+              "installer",
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "randymy/omarchy-buzz",
+            "pluginIds": [
+              "community.buzz"
+            ],
+            "commit": "4692efad01ae41808e0833961027db56e59c0fdc",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T02:26:08.867Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management",
+              "installer",
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T02:20:53.777Z",
+            "requestEventId": 32216435762,
+            "requestedAt": "2026-10-01T02:25:45Z",
+            "reviewedAt": "2026-10-01T02:26:08.867Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/komagata/line",
