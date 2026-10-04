@@ -290115,8 +290115,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T16:26:15.928Z",
-      "listingValidatedCommit": "21f23d86d0c2eec4ab6cc3eb62e6da8ff93c57a6",
-      "listingValidatedAt": "2026-10-04T16:26:15.928Z",
+      "listingValidatedCommit": "c57be186ee4315867fcc015852ac697b7864de57",
+      "listingValidatedAt": "2026-10-04T20:13:54.606Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -290125,35 +290125,12 @@
         "pluginIds": [
           "tmm.manual"
         ],
-        "commit": "21f23d86d0c2eec4ab6cc3eb62e6da8ff93c57a6",
-        "checkedAt": "2026-10-04T16:26:15.855Z",
-        "outcome": "review-required",
+        "commit": "c57be186ee4315867fcc015852ac697b7864de57",
+        "checkedAt": "2026-10-04T20:13:54.606Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": [
-          "installer"
-        ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "topurrra/omarchy-tmm",
-        "pluginIds": [
-          "tmm.manual"
-        ],
-        "commit": "21f23d86d0c2eec4ab6cc3eb62e6da8ff93c57a6",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T16:26:15.855Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T16:07:34.665Z",
-        "requestEventId": 32451671301,
-        "requestedAt": "2026-10-04T16:25:48Z",
-        "reviewedAt": "2026-10-04T16:26:15.855Z",
-        "reviewer": "HANCORE-linux"
+        "capabilities": []
       },
       "plugins": {
         "tmm.manual": {
@@ -290165,7 +290142,52 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "21f23d86d0c2eec4ab6cc3eb62e6da8ff93c57a6",
+          "validatedAt": "2026-10-04T16:26:15.928Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T20:13:54.606Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "topurrra/omarchy-tmm",
+            "pluginIds": [
+              "tmm.manual"
+            ],
+            "commit": "21f23d86d0c2eec4ab6cc3eb62e6da8ff93c57a6",
+            "checkedAt": "2026-10-04T16:26:15.855Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "topurrra/omarchy-tmm",
+            "pluginIds": [
+              "tmm.manual"
+            ],
+            "commit": "21f23d86d0c2eec4ab6cc3eb62e6da8ff93c57a6",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T16:26:15.855Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T16:07:34.665Z",
+            "requestEventId": 32451671301,
+            "requestedAt": "2026-10-04T16:25:48Z",
+            "reviewedAt": "2026-10-04T16:26:15.855Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/manateelazycat/omarchy-desktop-clock",
