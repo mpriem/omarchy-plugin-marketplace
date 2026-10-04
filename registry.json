@@ -290549,6 +290549,70 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/wicky14/omarchy-download-manager",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T19:36:21.667Z",
+      "listingValidatedCommit": "a14c44949ce9beb5550a3fe16808956bde600949",
+      "listingValidatedAt": "2026-10-04T19:36:21.667Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "wicky14/omarchy-download-manager",
+        "pluginIds": [
+          "omakid.download-manager"
+        ],
+        "commit": "a14c44949ce9beb5550a3fe16808956bde600949",
+        "checkedAt": "2026-10-04T19:36:21.582Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "wicky14/omarchy-download-manager",
+        "pluginIds": [
+          "omakid.download-manager"
+        ],
+        "commit": "a14c44949ce9beb5550a3fe16808956bde600949",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T19:36:21.582Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T19:29:58.978Z",
+        "requestEventId": 32458204328,
+        "requestedAt": "2026-10-04T19:31:19Z",
+        "reviewedAt": "2026-10-04T19:36:21.582Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omakid.download-manager": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
