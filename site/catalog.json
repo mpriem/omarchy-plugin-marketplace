@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T21:00:39.074Z",
+  "generatedAt": "2026-10-04T21:09:03.568Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -110392,14 +110392,14 @@
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
       "verificationCommit": "da912eca9cb4d64191157acfffff0199458e4435",
-      "verificationCheckedAt": "2026-10-04T21:00:38.618Z",
+      "verificationCheckedAt": "2026-10-04T21:09:03.568Z",
       "manifestPath": "manifest.json",
       "addedAt": "2026-09-01",
       "listedAt": "2026-09-01T16:46:10.227Z",
       "repositoryLayout": "root-plugin",
-      "installAvailable": false,
-      "installCommand": "",
-      "installNote": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions.",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/rdoupe/omarchy-pixelbuds.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
       "category": "Hardware",
       "tags": [
         "bar",
@@ -110437,7 +110437,7 @@
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "3f5b12d730f66d98ad9808e34a1a73738fba8404dabfde50b6a70d7071833b5e",
       "versionUpdatedAt": "2026-10-04T21:00:39.074Z",
-      "status": "Manual setup"
+      "status": "Available"
     },
     {
       "id": "io.github.kszx11.apphider",
