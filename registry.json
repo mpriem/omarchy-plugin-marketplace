@@ -290967,6 +290967,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Guranex/Omarchy-Lyrics-Widget",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T20:26:31.660Z",
+      "listingValidatedCommit": "1d4186aeef0a1008cf0ecf88ff9906f4330e2240",
+      "listingValidatedAt": "2026-10-04T20:26:31.660Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "guranex/omarchy-lyrics-widget",
+        "pluginIds": [
+          "io.github.guranex.media-lyrics"
+        ],
+        "commit": "1d4186aeef0a1008cf0ecf88ff9906f4330e2240",
+        "checkedAt": "2026-10-04T20:26:31.545Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.guranex.media-lyrics": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
