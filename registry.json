@@ -291023,6 +291023,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Hightech89/omarchy-command-center",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T20:32:38.297Z",
+      "listingValidatedCommit": "053331fd4bbc436a80332fda8dce283e2a3f4578",
+      "listingValidatedAt": "2026-10-04T20:32:38.297Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hightech89/omarchy-command-center",
+        "pluginIds": [
+          "io.github.hightech89.command-center"
+        ],
+        "commit": "053331fd4bbc436a80332fda8dce283e2a3f4578",
+        "checkedAt": "2026-10-04T20:32:38.166Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hightech89/omarchy-command-center",
+        "pluginIds": [
+          "io.github.hightech89.command-center"
+        ],
+        "commit": "053331fd4bbc436a80332fda8dce283e2a3f4578",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T20:32:38.166Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T19:56:35.907Z",
+        "requestEventId": 32460203534,
+        "requestedAt": "2026-10-04T20:27:27Z",
+        "reviewedAt": "2026-10-04T20:32:38.166Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.hightech89.command-center": {
+          "category": "System",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
