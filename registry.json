@@ -290635,6 +290635,79 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/BobSon85/kait2en-omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T19:58:05.533Z",
+      "listingValidatedCommit": "84a9a3bcf853fe23e009408ab8e24445537c8b78",
+      "listingValidatedAt": "2026-10-04T19:58:05.533Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "bobson85/kait2en-omarchy",
+        "pluginIds": [
+          "kait2en.audio"
+        ],
+        "commit": "84a9a3bcf853fe23e009408ab8e24445537c8b78",
+        "checkedAt": "2026-10-04T19:58:05.459Z",
+        "outcome": "needs-fixes",
+        "enforcementMode": "selective",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer",
+          "package-manager",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bobson85/kait2en-omarchy",
+        "pluginIds": [
+          "kait2en.audio"
+        ],
+        "commit": "84a9a3bcf853fe23e009408ab8e24445537c8b78",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T19:58:05.459Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer",
+          "package-manager",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T19:50:03.207Z",
+        "requestEventId": 32459155072,
+        "requestedAt": "2026-10-04T19:57:40Z",
+        "reviewedAt": "2026-10-04T19:58:05.459Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "kait2en.audio": {
+          "category": "Hardware",
+          "tags": [
+            "quickshell",
+            "system",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
