@@ -289204,6 +289204,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/imranZERO/omarchy-stashpad",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T15:34:10.063Z",
+      "listingValidatedCommit": "a3169f8ccd5122d63a461ee252423b4d8c307112",
+      "listingValidatedAt": "2026-10-04T15:34:10.063Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "imranzero/omarchy-stashpad",
+        "pluginIds": [
+          "imranzero.stashpad"
+        ],
+        "commit": "a3169f8ccd5122d63a461ee252423b4d8c307112",
+        "checkedAt": "2026-10-04T15:34:09.937Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "imranzero/omarchy-stashpad",
+        "pluginIds": [
+          "imranzero.stashpad"
+        ],
+        "commit": "a3169f8ccd5122d63a461ee252423b4d8c307112",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T15:34:09.937Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T15:28:50.103Z",
+        "requestEventId": 32449691349,
+        "requestedAt": "2026-10-04T15:33:11Z",
+        "reviewedAt": "2026-10-04T15:34:09.937Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "imranzero.stashpad": {
+          "category": "Desktop",
+          "tags": [
+            "workspaces",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
