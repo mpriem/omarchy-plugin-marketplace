@@ -290888,6 +290888,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Ziryt/omarchy-plugin-audio",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T20:16:34.194Z",
+      "listingValidatedCommit": "33438163f95e88ca0ce018361a0fb443a4230d3d",
+      "listingValidatedAt": "2026-10-04T20:16:34.194Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ziryt/omarchy-plugin-audio",
+        "pluginIds": [
+          "ziryt.audio"
+        ],
+        "commit": "33438163f95e88ca0ce018361a0fb443a4230d3d",
+        "checkedAt": "2026-10-04T20:16:34.117Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ziryt.audio": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "system",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
