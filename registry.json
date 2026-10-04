@@ -288569,8 +288569,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T12:35:11.808Z",
-      "listingValidatedCommit": "68fc962418f01e716f824ac0cef6e3d0d4636c65",
-      "listingValidatedAt": "2026-10-04T12:35:11.808Z",
+      "listingValidatedCommit": "e094c4ec702cee92cf3e5d5578ac49e7cbeb31b5",
+      "listingValidatedAt": "2026-10-04T18:17:36.494Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -288579,35 +288579,14 @@
         "pluginIds": [
           "ubruckhaus.llm-usage"
         ],
-        "commit": "68fc962418f01e716f824ac0cef6e3d0d4636c65",
-        "checkedAt": "2026-10-04T12:35:11.685Z",
+        "commit": "e094c4ec702cee92cf3e5d5578ac49e7cbeb31b5",
+        "checkedAt": "2026-10-04T18:17:36.493Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ubruckhaus/omarchy-llm-usage",
-        "pluginIds": [
-          "ubruckhaus.llm-usage"
-        ],
-        "commit": "68fc962418f01e716f824ac0cef6e3d0d4636c65",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T12:35:11.685Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T09:57:38.371Z",
-        "requestEventId": 32442874300,
-        "requestedAt": "2026-10-04T12:34:10Z",
-        "reviewedAt": "2026-10-04T12:35:11.685Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "ubruckhaus.llm-usage": {
@@ -288619,7 +288598,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ubruckhaus/omarchy-llm-usage",
+        "pluginIds": [
+          "ubruckhaus.llm-usage"
+        ],
+        "commit": "e094c4ec702cee92cf3e5d5578ac49e7cbeb31b5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T18:17:36.493Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T17:58:50.642Z",
+        "requestEventId": 32455437738,
+        "requestedAt": "2026-10-04T18:13:16Z",
+        "reviewedAt": "2026-10-04T18:17:36.494Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "68fc962418f01e716f824ac0cef6e3d0d4636c65",
+          "validatedAt": "2026-10-04T12:35:11.808Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T18:17:36.494Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-llm-usage",
+            "pluginIds": [
+              "ubruckhaus.llm-usage"
+            ],
+            "commit": "68fc962418f01e716f824ac0cef6e3d0d4636c65",
+            "checkedAt": "2026-10-04T12:35:11.685Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ubruckhaus/omarchy-llm-usage",
+            "pluginIds": [
+              "ubruckhaus.llm-usage"
+            ],
+            "commit": "68fc962418f01e716f824ac0cef6e3d0d4636c65",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T12:35:11.685Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T09:57:38.371Z",
+            "requestEventId": 32442874300,
+            "requestedAt": "2026-10-04T12:34:10Z",
+            "reviewedAt": "2026-10-04T12:35:11.685Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dedeanth/andromarchy",
