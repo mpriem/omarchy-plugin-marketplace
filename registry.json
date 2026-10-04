@@ -268816,8 +268816,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T16:19:16.344Z",
-      "listingValidatedCommit": "b702b2d3f12f925f48524447329cfd2271515404",
-      "listingValidatedAt": "2026-10-01T16:19:16.344Z",
+      "listingValidatedCommit": "d581043545581fcbad4ce053e79aa9773537169f",
+      "listingValidatedAt": "2026-10-04T11:56:58.777Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -268826,8 +268826,8 @@
         "pluginIds": [
           "krieziey.omarchy-xray"
         ],
-        "commit": "b702b2d3f12f925f48524447329cfd2271515404",
-        "checkedAt": "2026-10-01T16:19:16.231Z",
+        "commit": "d581043545581fcbad4ce053e79aa9773537169f",
+        "checkedAt": "2026-10-04T11:56:58.777Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -268835,28 +268835,6 @@
           "service-management",
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "kriezieyr/omarchy-xray",
-        "pluginIds": [
-          "krieziey.omarchy-xray"
-        ],
-        "commit": "b702b2d3f12f925f48524447329cfd2271515404",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T16:19:16.231Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-01T06:43:21.488Z",
-        "requestEventId": 32267561075,
-        "requestedAt": "2026-10-01T16:00:50Z",
-        "reviewedAt": "2026-10-01T16:19:16.231Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "krieziey.omarchy-xray": {
@@ -268871,7 +268849,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kriezieyr/omarchy-xray",
+        "pluginIds": [
+          "krieziey.omarchy-xray"
+        ],
+        "commit": "d581043545581fcbad4ce053e79aa9773537169f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T11:56:58.777Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T11:06:05.875Z",
+        "requestEventId": 32441145486,
+        "requestedAt": "2026-10-04T11:48:09Z",
+        "reviewedAt": "2026-10-04T11:56:58.777Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "b702b2d3f12f925f48524447329cfd2271515404",
+          "validatedAt": "2026-10-01T16:19:16.344Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T11:56:58.777Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "kriezieyr/omarchy-xray",
+            "pluginIds": [
+              "krieziey.omarchy-xray"
+            ],
+            "commit": "b702b2d3f12f925f48524447329cfd2271515404",
+            "checkedAt": "2026-10-01T16:19:16.231Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "kriezieyr/omarchy-xray",
+            "pluginIds": [
+              "krieziey.omarchy-xray"
+            ],
+            "commit": "b702b2d3f12f925f48524447329cfd2271515404",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T16:19:16.231Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T06:43:21.488Z",
+            "requestEventId": 32267561075,
+            "requestedAt": "2026-10-01T16:00:50Z",
+            "reviewedAt": "2026-10-01T16:19:16.231Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Badr-Emil/omarchy-iphone-connect",
