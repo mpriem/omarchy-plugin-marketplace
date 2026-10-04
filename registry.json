@@ -291560,33 +291560,8 @@
             "quickshell",
             "media"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "renanmt/omarchy-wallpaper-cutter",
-        "pluginIds": [
-          "renan.wallpaper-cutter"
-        ],
-        "commit": "cb5a328f9084aa652364edd6f957004343bb843b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T22:26:14.153Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T22:21:28.497Z",
-        "requestEventId": 32464260029,
-        "requestedAt": "2026-10-04T22:25:46Z",
-        "reviewedAt": "2026-10-04T22:26:14.153Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -291634,7 +291609,28 @@
             "reviewer": "HANCORE-linux"
           }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "renanmt/omarchy-wallpaper-cutter",
+        "pluginIds": [
+          "renan.wallpaper-cutter"
+        ],
+        "commit": "cb5a328f9084aa652364edd6f957004343bb843b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T22:26:14.153Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T22:21:28.497Z",
+        "requestEventId": 32464260029,
+        "requestedAt": "2026-10-04T22:25:46Z",
+        "reviewedAt": "2026-10-04T22:26:14.153Z",
+        "reviewer": "HANCORE-linux"
+      }
     }
   ],
   "builtInSources": [
