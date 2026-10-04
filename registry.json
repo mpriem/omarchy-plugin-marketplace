@@ -215599,8 +215599,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T05:02:20.252Z",
-      "listingValidatedCommit": "bf4ae8f4ec794e18d6d55269a290a8e607547976",
-      "listingValidatedAt": "2026-10-04T14:16:59.642Z",
+      "listingValidatedCommit": "f89f74835e90efbc0dd60c24da06591799f1def9",
+      "listingValidatedAt": "2026-10-04T17:51:07.954Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -215609,8 +215609,8 @@
         "pluginIds": [
           "io.github.rmcdavid.iptv"
         ],
-        "commit": "bf4ae8f4ec794e18d6d55269a290a8e607547976",
-        "checkedAt": "2026-10-04T14:16:59.642Z",
+        "commit": "f89f74835e90efbc0dd60c24da06591799f1def9",
+        "checkedAt": "2026-10-04T17:51:07.954Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -215682,6 +215682,26 @@
             ],
             "commit": "526a6c7119cd7a2ab6f5dc927de08266d17cbc22",
             "checkedAt": "2026-10-03T11:26:40.384Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "bf4ae8f4ec794e18d6d55269a290a8e607547976",
+          "validatedAt": "2026-10-04T14:16:59.642Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T17:51:07.954Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rmcdavid/omarchy-iptv",
+            "pluginIds": [
+              "io.github.rmcdavid.iptv"
+            ],
+            "commit": "bf4ae8f4ec794e18d6d55269a290a8e607547976",
+            "checkedAt": "2026-10-04T14:16:59.642Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
