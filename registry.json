@@ -209250,8 +209250,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-19",
       "listedAt": "2026-09-19T13:12:00.839Z",
-      "listingValidatedCommit": "c3ac25cb8bebf014a2a75de3e47673af54c8201b",
-      "listingValidatedAt": "2026-10-01T08:10:23.773Z",
+      "listingValidatedCommit": "886e4f81526fb08463822cd0cbb94af0c721f28b",
+      "listingValidatedAt": "2026-10-04T14:08:44.092Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -209260,8 +209260,8 @@
         "pluginIds": [
           "nipe.shader-wallpaper"
         ],
-        "commit": "c3ac25cb8bebf014a2a75de3e47673af54c8201b",
-        "checkedAt": "2026-10-01T08:10:23.773Z",
+        "commit": "886e4f81526fb08463822cd0cbb94af0c721f28b",
+        "checkedAt": "2026-10-04T14:08:44.092Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -209279,29 +209279,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "nipeb/omarchy-shader-wallpaper",
-        "pluginIds": [
-          "nipe.shader-wallpaper"
-        ],
-        "commit": "c3ac25cb8bebf014a2a75de3e47673af54c8201b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T08:10:23.773Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-26T06:20:56.230Z",
-        "requestEventId": 32233469373,
-        "requestedAt": "2026-10-01T08:09:57Z",
-        "reviewedAt": "2026-10-01T08:10:23.773Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -209350,8 +209327,78 @@
             "reviewedAt": "2026-09-19T13:12:00.742Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "c3ac25cb8bebf014a2a75de3e47673af54c8201b",
+          "validatedAt": "2026-10-01T08:10:23.773Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T14:08:44.092Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nipeb/omarchy-shader-wallpaper",
+            "pluginIds": [
+              "nipe.shader-wallpaper"
+            ],
+            "commit": "c3ac25cb8bebf014a2a75de3e47673af54c8201b",
+            "checkedAt": "2026-10-01T08:10:23.773Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "nipeb/omarchy-shader-wallpaper",
+            "pluginIds": [
+              "nipe.shader-wallpaper"
+            ],
+            "commit": "c3ac25cb8bebf014a2a75de3e47673af54c8201b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T08:10:23.773Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-26T06:20:56.230Z",
+            "requestEventId": 32233469373,
+            "requestedAt": "2026-10-01T08:09:57Z",
+            "reviewedAt": "2026-10-01T08:10:23.773Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nipeb/omarchy-shader-wallpaper",
+        "pluginIds": [
+          "nipe.shader-wallpaper"
+        ],
+        "commit": "886e4f81526fb08463822cd0cbb94af0c721f28b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T14:08:44.092Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T15:20:43.630Z",
+        "requestEventId": 32446647882,
+        "requestedAt": "2026-10-04T14:08:21Z",
+        "reviewedAt": "2026-10-04T14:08:44.092Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/cgranier/omarchy-keybind-dojo",
