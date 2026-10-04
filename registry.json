@@ -289674,6 +289674,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/xentimed/omaproduce",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T17:18:02.121Z",
+      "listingValidatedCommit": "114dead3c47bf59d7f10bbb66222b360323c745a",
+      "listingValidatedAt": "2026-10-04T17:18:02.121Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "xentimed/omaproduce",
+        "pluginIds": [
+          "omaproduce"
+        ],
+        "commit": "114dead3c47bf59d7f10bbb66222b360323c745a",
+        "checkedAt": "2026-10-04T17:18:01.990Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "omaproduce": {
+          "category": "Productivity",
+          "tags": [
+            "education"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
