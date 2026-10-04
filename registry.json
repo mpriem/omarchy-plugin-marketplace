@@ -291147,6 +291147,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Axawys/omarchy-potato-mode",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T20:39:57.729Z",
+      "listingValidatedCommit": "5da3ecff23281442256e3d08b8a8b0cc0bdcb4fa",
+      "listingValidatedAt": "2026-10-04T20:39:57.729Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "axawys/omarchy-potato-mode",
+        "pluginIds": [
+          "io.github.axawys.potato-mode"
+        ],
+        "commit": "5da3ecff23281442256e3d08b8a8b0cc0bdcb4fa",
+        "checkedAt": "2026-10-04T20:39:57.595Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.axawys.potato-mode": {
+          "category": "System",
+          "tags": [
+            "hyprland",
+            "system",
+            "power-management"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
