@@ -288469,8 +288469,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T13:01:28.292Z",
-      "listingValidatedCommit": "3e5b37452bac2b024d0fdfac89a000f188b6bbdc",
-      "listingValidatedAt": "2026-10-04T13:01:28.292Z",
+      "listingValidatedCommit": "529f9a547bedb01ac6d49555fdc84b185b4ee4b2",
+      "listingValidatedAt": "2026-10-04T15:31:30.985Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -288479,8 +288479,8 @@
         "pluginIds": [
           "io.github.manateelazycat.wave"
         ],
-        "commit": "3e5b37452bac2b024d0fdfac89a000f188b6bbdc",
-        "checkedAt": "2026-10-04T13:01:28.167Z",
+        "commit": "529f9a547bedb01ac6d49555fdc84b185b4ee4b2",
+        "checkedAt": "2026-10-04T15:31:30.985Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -288488,28 +288488,6 @@
           "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "manateelazycat/omarchy-wave",
-        "pluginIds": [
-          "io.github.manateelazycat.wave"
-        ],
-        "commit": "3e5b37452bac2b024d0fdfac89a000f188b6bbdc",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T13:01:28.167Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T11:32:29.522Z",
-        "requestEventId": 32443824576,
-        "requestedAt": "2026-10-04T12:58:07Z",
-        "reviewedAt": "2026-10-04T13:01:28.167Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.manateelazycat.wave": {
@@ -288521,7 +288499,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-wave",
+        "pluginIds": [
+          "io.github.manateelazycat.wave"
+        ],
+        "commit": "529f9a547bedb01ac6d49555fdc84b185b4ee4b2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T15:31:30.985Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T15:11:54.097Z",
+        "requestEventId": 32449618539,
+        "requestedAt": "2026-10-04T15:31:03Z",
+        "reviewedAt": "2026-10-04T15:31:30.985Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3e5b37452bac2b024d0fdfac89a000f188b6bbdc",
+          "validatedAt": "2026-10-04T13:01:28.292Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T15:31:30.985Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-wave",
+            "pluginIds": [
+              "io.github.manateelazycat.wave"
+            ],
+            "commit": "3e5b37452bac2b024d0fdfac89a000f188b6bbdc",
+            "checkedAt": "2026-10-04T13:01:28.167Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "manateelazycat/omarchy-wave",
+            "pluginIds": [
+              "io.github.manateelazycat.wave"
+            ],
+            "commit": "3e5b37452bac2b024d0fdfac89a000f188b6bbdc",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T13:01:28.167Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T11:32:29.522Z",
+            "requestEventId": 32443824576,
+            "requestedAt": "2026-10-04T12:58:07Z",
+            "reviewedAt": "2026-10-04T13:01:28.167Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/debba/omarchy-media-control",
