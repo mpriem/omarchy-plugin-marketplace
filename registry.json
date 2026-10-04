@@ -287528,6 +287528,70 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/manateelazycat/omarchy-days",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T12:26:26.620Z",
+      "listingValidatedCommit": "3870d97bd98a5582129c654c8309656980da4a6a",
+      "listingValidatedAt": "2026-10-04T12:26:26.620Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "manateelazycat/omarchy-days",
+        "pluginIds": [
+          "andy.days"
+        ],
+        "commit": "3870d97bd98a5582129c654c8309656980da4a6a",
+        "checkedAt": "2026-10-04T12:26:26.514Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-days",
+        "pluginIds": [
+          "andy.days"
+        ],
+        "commit": "3870d97bd98a5582129c654c8309656980da4a6a",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T12:26:26.514Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T12:24:44.910Z",
+        "requestEventId": 32442553307,
+        "requestedAt": "2026-10-04T12:26:01Z",
+        "reviewedAt": "2026-10-04T12:26:26.514Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "andy.days": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
