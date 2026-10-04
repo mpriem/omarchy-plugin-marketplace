@@ -286255,6 +286255,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/twentylines/omarchy-daikin-control",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T01:35:41.654Z",
+      "listingValidatedCommit": "5d89ef915adc6fb34f834f56aad4674dee334900",
+      "listingValidatedAt": "2026-10-04T01:35:41.654Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "twentylines/omarchy-daikin-control",
+        "pluginIds": [
+          "sai.homeassistant-ac"
+        ],
+        "commit": "5d89ef915adc6fb34f834f56aad4674dee334900",
+        "checkedAt": "2026-10-04T01:35:41.532Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "twentylines/omarchy-daikin-control",
+        "pluginIds": [
+          "sai.homeassistant-ac"
+        ],
+        "commit": "5d89ef915adc6fb34f834f56aad4674dee334900",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T01:35:41.532Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T01:28:36.410Z",
+        "requestEventId": 32423449970,
+        "requestedAt": "2026-10-04T01:34:47Z",
+        "reviewedAt": "2026-10-04T01:35:41.532Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "sai.homeassistant-ac": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
