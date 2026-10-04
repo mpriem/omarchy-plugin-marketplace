@@ -287464,6 +287464,70 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/OmaCheese/omarcheye",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T12:22:00.861Z",
+      "listingValidatedCommit": "41dea2a4ddadde8b7f42e228e9a49f2b6bc7002e",
+      "listingValidatedAt": "2026-10-04T12:22:00.861Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "omacheese/omarcheye",
+        "pluginIds": [
+          "omacheese.omarcheye"
+        ],
+        "commit": "41dea2a4ddadde8b7f42e228e9a49f2b6bc7002e",
+        "checkedAt": "2026-10-04T12:22:00.751Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "omacheese/omarcheye",
+        "pluginIds": [
+          "omacheese.omarcheye"
+        ],
+        "commit": "41dea2a4ddadde8b7f42e228e9a49f2b6bc7002e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T12:22:00.751Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T08:08:14.938Z",
+        "requestEventId": 32442370334,
+        "requestedAt": "2026-10-04T12:21:20Z",
+        "reviewedAt": "2026-10-04T12:22:00.752Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omacheese.omarcheye": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
