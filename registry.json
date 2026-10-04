@@ -288971,6 +288971,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/sash-rift/omarchy-junction",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T15:18:02.557Z",
+      "listingValidatedCommit": "554c9a77299108f4c0f4ce98785a556fca4a2dce",
+      "listingValidatedAt": "2026-10-04T15:18:02.557Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sash-rift/omarchy-junction",
+        "pluginIds": [
+          "io.github.sash-rift.junction"
+        ],
+        "commit": "554c9a77299108f4c0f4ce98785a556fca4a2dce",
+        "checkedAt": "2026-10-04T15:18:02.446Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.sash-rift.junction": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "launcher",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
