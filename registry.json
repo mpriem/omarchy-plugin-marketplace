@@ -197401,8 +197401,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T19:38:12.945Z",
-      "listingValidatedCommit": "ff654dec071e34b70ea890e18c99eb429a55dede",
-      "listingValidatedAt": "2026-09-16T19:38:12.945Z",
+      "listingValidatedCommit": "5f163237518eb76f331572a7251b3f438d36ca7e",
+      "listingValidatedAt": "2026-10-04T14:30:02.848Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -197411,39 +197411,17 @@
         "pluginIds": [
           "io.github.sergiudanstan.hardware"
         ],
-        "commit": "ff654dec071e34b70ea890e18c99eb429a55dede",
-        "checkedAt": "2026-09-16T19:38:12.867Z",
+        "commit": "5f163237518eb76f331572a7251b3f438d36ca7e",
+        "checkedAt": "2026-10-04T14:30:02.848Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege",
           "installer",
-          "package-manager"
+          "package-manager",
+          "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "sergiudanstan/omarchy-hardware",
-        "pluginIds": [
-          "io.github.sergiudanstan.hardware"
-        ],
-        "commit": "ff654dec071e34b70ea890e18c99eb429a55dede",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T19:38:12.867Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "installer",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-16T18:02:50.034Z",
-        "requestEventId": 31269754923,
-        "requestedAt": "2026-09-16T19:07:57Z",
-        "reviewedAt": "2026-09-16T19:38:12.867Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.sergiudanstan.hardware": {
@@ -197455,7 +197433,80 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "sergiudanstan/omarchy-hardware",
+        "pluginIds": [
+          "io.github.sergiudanstan.hardware"
+        ],
+        "commit": "5f163237518eb76f331572a7251b3f438d36ca7e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T14:30:02.848Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T13:53:58.487Z",
+        "requestEventId": 32447360952,
+        "requestedAt": "2026-10-04T14:29:32Z",
+        "reviewedAt": "2026-10-04T14:30:02.848Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ff654dec071e34b70ea890e18c99eb429a55dede",
+          "validatedAt": "2026-09-16T19:38:12.945Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T14:30:02.848Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "sergiudanstan/omarchy-hardware",
+            "pluginIds": [
+              "io.github.sergiudanstan.hardware"
+            ],
+            "commit": "ff654dec071e34b70ea890e18c99eb429a55dede",
+            "checkedAt": "2026-09-16T19:38:12.867Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "sergiudanstan/omarchy-hardware",
+            "pluginIds": [
+              "io.github.sergiudanstan.hardware"
+            ],
+            "commit": "ff654dec071e34b70ea890e18c99eb429a55dede",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T19:38:12.867Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-16T18:02:50.034Z",
+            "requestEventId": 31269754923,
+            "requestedAt": "2026-09-16T19:07:57Z",
+            "reviewedAt": "2026-09-16T19:38:12.867Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/chrisandtre/omarchy-bing-wallpaper",
