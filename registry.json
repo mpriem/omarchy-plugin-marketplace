@@ -291806,6 +291806,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/JonathanInTheClouds/omabar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T23:42:55.843Z",
+      "listingValidatedCommit": "66e248e761330a5f711b067d23f09f6071755d22",
+      "listingValidatedAt": "2026-10-04T23:42:55.843Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jonathanintheclouds/omabar",
+        "pluginIds": [
+          "io.github.jonathanintheclouds.omabar"
+        ],
+        "commit": "66e248e761330a5f711b067d23f09f6071755d22",
+        "checkedAt": "2026-10-04T23:42:55.700Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jonathanintheclouds/omabar",
+        "pluginIds": [
+          "io.github.jonathanintheclouds.omabar"
+        ],
+        "commit": "66e248e761330a5f711b067d23f09f6071755d22",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T23:42:55.700Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T23:18:27.126Z",
+        "requestEventId": 32466601890,
+        "requestedAt": "2026-10-04T23:41:36Z",
+        "reviewedAt": "2026-10-04T23:42:55.700Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.jonathanintheclouds.omabar": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
