@@ -281266,8 +281266,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T20:09:21.595Z",
-      "listingValidatedCommit": "b8c13f8b25ce7429dd2b87b195de9cd3c10b36b9",
-      "listingValidatedAt": "2026-10-02T20:09:21.595Z",
+      "listingValidatedCommit": "63d804aca4110c93b10a78f70e69819fc0e709bb",
+      "listingValidatedAt": "2026-10-04T13:39:32.104Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -281276,35 +281276,14 @@
         "pluginIds": [
           "elliot.network"
         ],
-        "commit": "b8c13f8b25ce7429dd2b87b195de9cd3c10b36b9",
-        "checkedAt": "2026-10-02T20:09:21.524Z",
+        "commit": "63d804aca4110c93b10a78f70e69819fc0e709bb",
+        "checkedAt": "2026-10-04T13:39:32.104Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "elliotalien/elliot-network-plugin",
-        "pluginIds": [
-          "elliot.network"
-        ],
-        "commit": "b8c13f8b25ce7429dd2b87b195de9cd3c10b36b9",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T20:09:21.524Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T19:45:33.760Z",
-        "requestEventId": 32361359188,
-        "requestedAt": "2026-10-02T19:51:56Z",
-        "reviewedAt": "2026-10-02T20:09:21.524Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "elliot.network": {
@@ -281316,7 +281295,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "elliotalien/elliot-network-plugin",
+        "pluginIds": [
+          "elliot.network"
+        ],
+        "commit": "63d804aca4110c93b10a78f70e69819fc0e709bb",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T13:39:32.104Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-03T07:43:21.420Z",
+        "requestEventId": 32445332562,
+        "requestedAt": "2026-10-04T13:34:54Z",
+        "reviewedAt": "2026-10-04T13:39:32.104Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "b8c13f8b25ce7429dd2b87b195de9cd3c10b36b9",
+          "validatedAt": "2026-10-02T20:09:21.595Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T13:39:32.104Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "elliotalien/elliot-network-plugin",
+            "pluginIds": [
+              "elliot.network"
+            ],
+            "commit": "b8c13f8b25ce7429dd2b87b195de9cd3c10b36b9",
+            "checkedAt": "2026-10-02T20:09:21.524Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "elliotalien/elliot-network-plugin",
+            "pluginIds": [
+              "elliot.network"
+            ],
+            "commit": "b8c13f8b25ce7429dd2b87b195de9cd3c10b36b9",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T20:09:21.524Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T19:45:33.760Z",
+            "requestEventId": 32361359188,
+            "requestedAt": "2026-10-02T19:51:56Z",
+            "reviewedAt": "2026-10-02T20:09:21.524Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/yeet-src/omarchy-yeet-ai",
