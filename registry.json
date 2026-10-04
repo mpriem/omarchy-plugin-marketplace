@@ -257869,8 +257869,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T13:12:33.882Z",
-      "listingValidatedCommit": "f98d891ef6978d5df49974f03cd6ff9cbe93d071",
-      "listingValidatedAt": "2026-09-28T13:12:33.882Z",
+      "listingValidatedCommit": "c84919362fbcd631b35547be788ea3bf527252ae",
+      "listingValidatedAt": "2026-10-04T11:44:29.611Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -257879,8 +257879,8 @@
         "pluginIds": [
           "andy.display-reset"
         ],
-        "commit": "f98d891ef6978d5df49974f03cd6ff9cbe93d071",
-        "checkedAt": "2026-09-28T13:12:33.792Z",
+        "commit": "c84919362fbcd631b35547be788ea3bf527252ae",
+        "checkedAt": "2026-10-04T11:44:29.611Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -257888,28 +257888,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "manateelazycat/omarchy-display-reset",
-        "pluginIds": [
-          "andy.display-reset"
-        ],
-        "commit": "f98d891ef6978d5df49974f03cd6ff9cbe93d071",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-28T13:12:33.792Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-28T13:05:51.281Z",
-        "requestEventId": 31994337743,
-        "requestedAt": "2026-09-28T13:10:32Z",
-        "reviewedAt": "2026-09-28T13:12:33.792Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "andy.display-reset": {
@@ -257921,7 +257899,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-display-reset",
+        "pluginIds": [
+          "andy.display-reset"
+        ],
+        "commit": "c84919362fbcd631b35547be788ea3bf527252ae",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T11:44:29.611Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T10:36:40.865Z",
+        "requestEventId": 32440693054,
+        "requestedAt": "2026-10-04T11:35:45Z",
+        "reviewedAt": "2026-10-04T11:44:29.611Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f98d891ef6978d5df49974f03cd6ff9cbe93d071",
+          "validatedAt": "2026-09-28T13:12:33.882Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T11:44:29.611Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-display-reset",
+            "pluginIds": [
+              "andy.display-reset"
+            ],
+            "commit": "f98d891ef6978d5df49974f03cd6ff9cbe93d071",
+            "checkedAt": "2026-09-28T13:12:33.792Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "manateelazycat/omarchy-display-reset",
+            "pluginIds": [
+              "andy.display-reset"
+            ],
+            "commit": "f98d891ef6978d5df49974f03cd6ff9cbe93d071",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-28T13:12:33.792Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-28T13:05:51.281Z",
+            "requestEventId": 31994337743,
+            "requestedAt": "2026-09-28T13:10:32Z",
+            "reviewedAt": "2026-09-28T13:12:33.792Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/hajimetchi/omarchy_stl_preview",
