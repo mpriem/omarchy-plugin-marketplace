@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T01:17:57.429Z",
+  "generatedAt": "2026-10-04T01:24:14.482Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -265679,14 +265679,14 @@
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
       "verificationCommit": "261436dbc553ed1b0aaa7cbf248221a411ee07ec",
-      "verificationCheckedAt": "2026-10-03T23:36:37.453Z",
+      "verificationCheckedAt": "2026-10-04T01:24:14.482Z",
       "manifestPath": "manifest.json",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T15:04:45.136Z",
       "repositoryLayout": "root-plugin",
-      "installAvailable": false,
-      "installCommand": "",
-      "installNote": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions.",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/Andrewx82/omarchy-rewind.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
       "category": "System",
       "tags": [
         "bar",
@@ -265718,7 +265718,7 @@
       "upstreamValidatedAt": "2026-10-03T23:36:37.988Z",
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "e21cb3ab5160eb3a5ee2f01c3d37d62af4c31def90f642ab354309faeda71655",
-      "status": "Manual setup"
+      "status": "Available"
     },
     {
       "id": "kenners22.dictation-pill",

@@ -284220,7 +284220,7 @@
           "omarchy-rewind"
         ],
         "commit": "261436dbc553ed1b0aaa7cbf248221a411ee07ec",
-        "checkedAt": "2026-10-03T23:36:37.453Z",
+        "checkedAt": "2026-10-04T01:24:14.482Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -284234,11 +284234,7 @@
             "hyprland",
             "quickshell"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       },
       "listingValidationHistory": [
