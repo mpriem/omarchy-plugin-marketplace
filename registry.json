@@ -287346,6 +287346,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/bafplus/torn-city-status",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T12:06:41.394Z",
+      "listingValidatedCommit": "d9d8590c6f8ae1a10ce7fbd4a00899354eb9488e",
+      "listingValidatedAt": "2026-10-04T12:06:41.394Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "bafplus/torn-city-status",
+        "pluginIds": [
+          "torn-city-status"
+        ],
+        "commit": "d9d8590c6f8ae1a10ce7fbd4a00899354eb9488e",
+        "checkedAt": "2026-10-04T12:06:41.260Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "torn-city-status": {
+          "category": "Widgets",
+          "tags": [
+            "games",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
