@@ -289558,6 +289558,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/manateelazycat/omarchy-desktop-clock",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T17:07:47.966Z",
+      "listingValidatedCommit": "acfa55548bfd037b64a7d3c0100fa592f8699b8f",
+      "listingValidatedAt": "2026-10-04T17:07:47.966Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "manateelazycat/omarchy-desktop-clock",
+        "pluginIds": [
+          "io.github.manateelazycat.desktop-clock"
+        ],
+        "commit": "acfa55548bfd037b64a7d3c0100fa592f8699b8f",
+        "checkedAt": "2026-10-04T17:07:47.860Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-desktop-clock",
+        "pluginIds": [
+          "io.github.manateelazycat.desktop-clock"
+        ],
+        "commit": "acfa55548bfd037b64a7d3c0100fa592f8699b8f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T17:07:47.860Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T16:56:34.792Z",
+        "requestEventId": 32453059384,
+        "requestedAt": "2026-10-04T17:04:39Z",
+        "reviewedAt": "2026-10-04T17:07:47.860Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.manateelazycat.desktop-clock": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
