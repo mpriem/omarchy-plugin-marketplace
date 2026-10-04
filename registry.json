@@ -288807,6 +288807,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/sanjyay/Data-budget",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T14:56:26.920Z",
+      "listingValidatedCommit": "0afdeafd0d70738c39f57dce2a8927a5d6ae2fef",
+      "listingValidatedAt": "2026-10-04T14:56:26.920Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sanjyay/data-budget",
+        "pluginIds": [
+          "data-budget"
+        ],
+        "commit": "0afdeafd0d70738c39f57dce2a8927a5d6ae2fef",
+        "checkedAt": "2026-10-04T14:56:26.788Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "data-budget": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
