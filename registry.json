@@ -291466,8 +291466,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T21:37:50.671Z",
-      "listingValidatedCommit": "1c385595de7755e365d70487c92fda85bf5af9c6",
-      "listingValidatedAt": "2026-10-04T21:37:50.671Z",
+      "listingValidatedCommit": "cb5a328f9084aa652364edd6f957004343bb843b",
+      "listingValidatedAt": "2026-10-04T22:26:14.153Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -291476,37 +291476,14 @@
         "pluginIds": [
           "renan.wallpaper-cutter"
         ],
-        "commit": "1c385595de7755e365d70487c92fda85bf5af9c6",
-        "checkedAt": "2026-10-04T21:37:50.546Z",
+        "commit": "cb5a328f9084aa652364edd6f957004343bb843b",
+        "checkedAt": "2026-10-04T22:26:14.153Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "renanmt/omarchy-wallpaper-cutter",
-        "pluginIds": [
-          "renan.wallpaper-cutter"
-        ],
-        "commit": "1c385595de7755e365d70487c92fda85bf5af9c6",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T21:37:50.546Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T21:31:19.082Z",
-        "requestEventId": 32462706021,
-        "requestedAt": "2026-10-04T21:37:17Z",
-        "reviewedAt": "2026-10-04T21:37:50.546Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "renan.wallpaper-cutter": {
@@ -291522,7 +291499,75 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "renanmt/omarchy-wallpaper-cutter",
+        "pluginIds": [
+          "renan.wallpaper-cutter"
+        ],
+        "commit": "cb5a328f9084aa652364edd6f957004343bb843b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T22:26:14.153Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T22:21:28.497Z",
+        "requestEventId": 32464260029,
+        "requestedAt": "2026-10-04T22:25:46Z",
+        "reviewedAt": "2026-10-04T22:26:14.153Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1c385595de7755e365d70487c92fda85bf5af9c6",
+          "validatedAt": "2026-10-04T21:37:50.671Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T22:26:14.153Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "renanmt/omarchy-wallpaper-cutter",
+            "pluginIds": [
+              "renan.wallpaper-cutter"
+            ],
+            "commit": "1c385595de7755e365d70487c92fda85bf5af9c6",
+            "checkedAt": "2026-10-04T21:37:50.546Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "renanmt/omarchy-wallpaper-cutter",
+            "pluginIds": [
+              "renan.wallpaper-cutter"
+            ],
+            "commit": "1c385595de7755e365d70487c92fda85bf5af9c6",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T21:37:50.546Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T21:31:19.082Z",
+            "requestEventId": 32462706021,
+            "requestedAt": "2026-10-04T21:37:17Z",
+            "reviewedAt": "2026-10-04T21:37:50.546Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     }
   ],
   "builtInSources": [
