@@ -291080,6 +291080,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/drewdunne/omarchy-ssh-mic-bridge",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T20:35:31.991Z",
+      "listingValidatedCommit": "f2d4b1ed516cb34a25c379ce907c3257bb5d2a24",
+      "listingValidatedAt": "2026-10-04T20:35:31.991Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "drewdunne/omarchy-ssh-mic-bridge",
+        "pluginIds": [
+          "gg.arkship.ssh-mic-bridge"
+        ],
+        "commit": "f2d4b1ed516cb34a25c379ce907c3257bb5d2a24",
+        "checkedAt": "2026-10-04T20:35:31.847Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "drewdunne/omarchy-ssh-mic-bridge",
+        "pluginIds": [
+          "gg.arkship.ssh-mic-bridge"
+        ],
+        "commit": "f2d4b1ed516cb34a25c379ce907c3257bb5d2a24",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T20:35:31.847Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T20:22:15.362Z",
+        "requestEventId": 32460311165,
+        "requestedAt": "2026-10-04T20:30:32Z",
+        "reviewedAt": "2026-10-04T20:35:31.847Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "gg.arkship.ssh-mic-bridge": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
