@@ -247572,8 +247572,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T10:41:31.310Z",
-      "listingValidatedCommit": "d2b3da119e9395ff3fd7eeb518b451bc53dfa385",
-      "listingValidatedAt": "2026-09-27T10:41:31.310Z",
+      "listingValidatedCommit": "6ffae54f1edefaa2d52dffb259e17970fce6b1f9",
+      "listingValidatedAt": "2026-10-04T11:36:10.886Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -247582,35 +247582,14 @@
         "pluginIds": [
           "io.github.manateelazycat.startup-map"
         ],
-        "commit": "d2b3da119e9395ff3fd7eeb518b451bc53dfa385",
-        "checkedAt": "2026-09-27T10:41:31.193Z",
+        "commit": "6ffae54f1edefaa2d52dffb259e17970fce6b1f9",
+        "checkedAt": "2026-10-04T11:36:10.886Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "manateelazycat/omarchy-startup-map",
-        "pluginIds": [
-          "io.github.manateelazycat.startup-map"
-        ],
-        "commit": "d2b3da119e9395ff3fd7eeb518b451bc53dfa385",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T10:41:31.193Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-27T01:21:11.768Z",
-        "requestEventId": 31927191246,
-        "requestedAt": "2026-09-27T10:34:48Z",
-        "reviewedAt": "2026-09-27T10:41:31.193Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.manateelazycat.startup-map": {
@@ -247622,7 +247601,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-startup-map",
+        "pluginIds": [
+          "io.github.manateelazycat.startup-map"
+        ],
+        "commit": "6ffae54f1edefaa2d52dffb259e17970fce6b1f9",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T11:36:10.886Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T10:36:23.782Z",
+        "requestEventId": 32440464642,
+        "requestedAt": "2026-10-04T11:29:22Z",
+        "reviewedAt": "2026-10-04T11:36:10.886Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "d2b3da119e9395ff3fd7eeb518b451bc53dfa385",
+          "validatedAt": "2026-09-27T10:41:31.310Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T11:36:10.886Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-startup-map",
+            "pluginIds": [
+              "io.github.manateelazycat.startup-map"
+            ],
+            "commit": "d2b3da119e9395ff3fd7eeb518b451bc53dfa385",
+            "checkedAt": "2026-09-27T10:41:31.193Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "manateelazycat/omarchy-startup-map",
+            "pluginIds": [
+              "io.github.manateelazycat.startup-map"
+            ],
+            "commit": "d2b3da119e9395ff3fd7eeb518b451bc53dfa385",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T10:41:31.193Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-27T01:21:11.768Z",
+            "requestEventId": 31927191246,
+            "requestedAt": "2026-09-27T10:34:48Z",
+            "reviewedAt": "2026-09-27T10:41:31.193Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/RohiRIK/rohi.network",
