@@ -287974,6 +287974,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/debba/omarchy-media-control",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T13:04:37.985Z",
+      "listingValidatedCommit": "62c3ea7e37e739958e084eabdd4022a3e7c7f4b9",
+      "listingValidatedAt": "2026-10-04T13:04:37.985Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "debba/omarchy-media-control",
+        "pluginIds": [
+          "debba.media-control"
+        ],
+        "commit": "62c3ea7e37e739958e084eabdd4022a3e7c7f4b9",
+        "checkedAt": "2026-10-04T13:04:37.863Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "debba/omarchy-media-control",
+        "pluginIds": [
+          "debba.media-control"
+        ],
+        "commit": "62c3ea7e37e739958e084eabdd4022a3e7c7f4b9",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T13:04:37.863Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T11:43:26.187Z",
+        "requestEventId": 32444044412,
+        "requestedAt": "2026-10-04T13:03:17Z",
+        "reviewedAt": "2026-10-04T13:04:37.863Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "debba.media-control": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
