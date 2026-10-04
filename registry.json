@@ -245518,8 +245518,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-26",
       "listedAt": "2026-09-26T15:45:47.896Z",
-      "listingValidatedCommit": "5ec7548173f061bd62a42189304223d2d9f2d07b",
-      "listingValidatedAt": "2026-09-26T15:45:47.896Z",
+      "listingValidatedCommit": "09bbc1909c2660335e8237798c6b5b3826d0f674",
+      "listingValidatedAt": "2026-10-04T04:17:24.096Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -245528,8 +245528,8 @@
         "pluginIds": [
           "io.github.tammyx44.omaglimpse"
         ],
-        "commit": "5ec7548173f061bd62a42189304223d2d9f2d07b",
-        "checkedAt": "2026-09-26T15:45:47.792Z",
+        "commit": "09bbc1909c2660335e8237798c6b5b3826d0f674",
+        "checkedAt": "2026-10-04T04:17:24.095Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -245545,7 +245545,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5ec7548173f061bd62a42189304223d2d9f2d07b",
+          "validatedAt": "2026-09-26T15:45:47.896Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T04:17:24.096Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tammyx44/omaglimpse",
+            "pluginIds": [
+              "io.github.tammyx44.omaglimpse"
+            ],
+            "commit": "5ec7548173f061bd62a42189304223d2d9f2d07b",
+            "checkedAt": "2026-09-26T15:45:47.792Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/kris-1/omarchy-monitor-layout",
