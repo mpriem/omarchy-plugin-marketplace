@@ -290221,6 +290221,66 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/hassox/omarchy-sauron-protect",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T18:20:30.003Z",
+      "listingValidatedCommit": "e662b78082c918808ff60d3cf77b85973d83da1b",
+      "listingValidatedAt": "2026-10-04T18:20:30.003Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hassox/omarchy-sauron-protect",
+        "pluginIds": [
+          "sauron"
+        ],
+        "commit": "e662b78082c918808ff60d3cf77b85973d83da1b",
+        "checkedAt": "2026-10-04T18:20:29.919Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hassox/omarchy-sauron-protect",
+        "pluginIds": [
+          "sauron"
+        ],
+        "commit": "e662b78082c918808ff60d3cf77b85973d83da1b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T18:20:29.919Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T18:12:22.489Z",
+        "requestEventId": 32455487392,
+        "requestedAt": "2026-10-04T18:14:42Z",
+        "reviewedAt": "2026-10-04T18:20:29.919Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "sauron": {
+          "category": "Widgets",
+          "tags": [
+            "security",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
