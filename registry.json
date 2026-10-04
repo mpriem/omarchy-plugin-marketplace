@@ -288355,8 +288355,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T12:58:24.643Z",
-      "listingValidatedCommit": "5862d3103df74d1a663bd32980a1ce6cf2db8c21",
-      "listingValidatedAt": "2026-10-04T12:58:24.643Z",
+      "listingValidatedCommit": "1baaac149d8f95955c41eb54b68c06949794725d",
+      "listingValidatedAt": "2026-10-04T15:24:25.977Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -288365,8 +288365,8 @@
         "pluginIds": [
           "andy.side-panel"
         ],
-        "commit": "5862d3103df74d1a663bd32980a1ce6cf2db8c21",
-        "checkedAt": "2026-10-04T12:58:24.547Z",
+        "commit": "1baaac149d8f95955c41eb54b68c06949794725d",
+        "checkedAt": "2026-10-04T15:24:25.977Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -288375,29 +288375,6 @@
           "installer",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "manateelazycat/omarchy-side-panel",
-        "pluginIds": [
-          "andy.side-panel"
-        ],
-        "commit": "5862d3103df74d1a663bd32980a1ce6cf2db8c21",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T12:58:24.547Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T11:30:44.105Z",
-        "requestEventId": 32443800996,
-        "requestedAt": "2026-10-04T12:57:31Z",
-        "reviewedAt": "2026-10-04T12:58:24.547Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "andy.side-panel": {
@@ -288413,7 +288390,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-side-panel",
+        "pluginIds": [
+          "andy.side-panel"
+        ],
+        "commit": "1baaac149d8f95955c41eb54b68c06949794725d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T15:24:25.977Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T15:09:32.678Z",
+        "requestEventId": 32449312387,
+        "requestedAt": "2026-10-04T15:22:32Z",
+        "reviewedAt": "2026-10-04T15:24:25.977Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5862d3103df74d1a663bd32980a1ce6cf2db8c21",
+          "validatedAt": "2026-10-04T12:58:24.643Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T15:24:25.977Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-side-panel",
+            "pluginIds": [
+              "andy.side-panel"
+            ],
+            "commit": "5862d3103df74d1a663bd32980a1ce6cf2db8c21",
+            "checkedAt": "2026-10-04T12:58:24.547Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "manateelazycat/omarchy-side-panel",
+            "pluginIds": [
+              "andy.side-panel"
+            ],
+            "commit": "5862d3103df74d1a663bd32980a1ce6cf2db8c21",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T12:58:24.547Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T11:30:44.105Z",
+            "requestEventId": 32443800996,
+            "requestedAt": "2026-10-04T12:57:31Z",
+            "reviewedAt": "2026-10-04T12:58:24.547Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/manateelazycat/omarchy-wave",
