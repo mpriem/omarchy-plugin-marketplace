@@ -14662,8 +14662,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-17",
       "listedAt": "2026-08-17T03:43:40.996Z",
-      "listingValidatedCommit": "898d09770723ce14ab8e2363af27773790943502",
-      "listingValidatedAt": "2026-08-17T03:43:40.996Z",
+      "listingValidatedCommit": "4601c9680f43185246b74428ff463489d2d9e8d4",
+      "listingValidatedAt": "2026-10-04T12:03:35.001Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -14672,14 +14672,12 @@
         "pluginIds": [
           "io.github.haydenmckay.theme-roulette"
         ],
-        "commit": "898d09770723ce14ab8e2363af27773790943502",
-        "checkedAt": "2026-08-21T23:28:33.093Z",
-        "outcome": "review-required",
+        "commit": "4601c9680f43185246b74428ff463489d2d9e8d4",
+        "checkedAt": "2026-10-04T12:03:35.001Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": [
-          "installer"
-        ]
+        "capabilities": []
       },
       "plugins": {
         "io.github.haydenmckay.theme-roulette": {
@@ -14692,27 +14690,51 @@
           "manifestPath": "manifest.json"
         }
       },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "haydenmckay/omarchy-theme-roulette",
-        "pluginIds": [
-          "io.github.haydenmckay.theme-roulette"
-        ],
-        "commit": "898d09770723ce14ab8e2363af27773790943502",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-21T23:28:33.093Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-21T08:26:19.959Z",
-        "requestEventId": 29832380478,
-        "requestedAt": "2026-08-21T23:14:13Z",
-        "reviewedAt": "2026-08-21T23:28:33.094Z",
-        "reviewer": "HANCORE-linux"
-      }
+      "listingValidationHistory": [
+        {
+          "commit": "898d09770723ce14ab8e2363af27773790943502",
+          "validatedAt": "2026-08-17T03:43:40.996Z",
+          "branch": "master",
+          "supersededAt": "2026-10-04T12:03:35.001Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "haydenmckay/omarchy-theme-roulette",
+            "pluginIds": [
+              "io.github.haydenmckay.theme-roulette"
+            ],
+            "commit": "898d09770723ce14ab8e2363af27773790943502",
+            "checkedAt": "2026-08-21T23:28:33.093Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "haydenmckay/omarchy-theme-roulette",
+            "pluginIds": [
+              "io.github.haydenmckay.theme-roulette"
+            ],
+            "commit": "898d09770723ce14ab8e2363af27773790943502",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-21T23:28:33.093Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-21T08:26:19.959Z",
+            "requestEventId": 29832380478,
+            "requestedAt": "2026-08-21T23:14:13Z",
+            "reviewedAt": "2026-08-21T23:28:33.094Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/chaitanyayeleti/yeleticc.vpn",
