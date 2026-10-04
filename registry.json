@@ -290422,6 +290422,64 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/GSkrt/lapbar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T19:12:28.861Z",
+      "listingValidatedCommit": "e3cf270aeb6902a03409be28854cc7f3b217ec68",
+      "listingValidatedAt": "2026-10-04T19:12:28.861Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gskrt/lapbar",
+        "pluginIds": [
+          "io.github.gskrt.lapbar"
+        ],
+        "commit": "e3cf270aeb6902a03409be28854cc7f3b217ec68",
+        "checkedAt": "2026-10-04T19:12:28.740Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gskrt/lapbar",
+        "pluginIds": [
+          "io.github.gskrt.lapbar"
+        ],
+        "commit": "e3cf270aeb6902a03409be28854cc7f3b217ec68",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T19:12:28.740Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T19:10:39.752Z",
+        "requestEventId": 32457528831,
+        "requestedAt": "2026-10-04T19:12:00Z",
+        "reviewedAt": "2026-10-04T19:12:28.740Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.gskrt.lapbar": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
