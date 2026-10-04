@@ -290803,6 +290803,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Charlie0113-T/omarchy_labs",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T20:10:35.047Z",
+      "listingValidatedCommit": "348145b1a0b06be737c8b30f22623c3c36cf62b7",
+      "listingValidatedAt": "2026-10-04T20:10:35.047Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "charlie0113-t/omarchy_labs",
+        "pluginIds": [
+          "io.github.charlie0113-t.omarchy-lab"
+        ],
+        "commit": "348145b1a0b06be737c8b30f22623c3c36cf62b7",
+        "checkedAt": "2026-10-04T20:10:34.930Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "charlie0113-t/omarchy_labs",
+        "pluginIds": [
+          "io.github.charlie0113-t.omarchy-lab"
+        ],
+        "commit": "348145b1a0b06be737c8b30f22623c3c36cf62b7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T20:10:34.930Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T19:53:11.420Z",
+        "requestEventId": 32459574199,
+        "requestedAt": "2026-10-04T20:09:41Z",
+        "reviewedAt": "2026-10-04T20:10:34.930Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.charlie0113-t.omarchy-lab": {
+          "category": "System",
+          "tags": [
+            "system",
+            "ai",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
