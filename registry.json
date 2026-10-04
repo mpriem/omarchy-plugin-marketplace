@@ -257634,8 +257634,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T12:16:24.270Z",
-      "listingValidatedCommit": "f7a25a636138312208f44dd5323e873fa7058156",
-      "listingValidatedAt": "2026-10-03T02:07:10.691Z",
+      "listingValidatedCommit": "e056297d53272e41ea6c4ff36b25847c85c9688e",
+      "listingValidatedAt": "2026-10-04T11:51:00.241Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -257644,8 +257644,8 @@
         "pluginIds": [
           "simonez.qwenimage"
         ],
-        "commit": "f7a25a636138312208f44dd5323e873fa7058156",
-        "checkedAt": "2026-10-03T02:07:10.691Z",
+        "commit": "e056297d53272e41ea6c4ff36b25847c85c9688e",
+        "checkedAt": "2026-10-04T11:51:00.241Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -257670,30 +257670,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "simonezpx3/omarchy-qwenimage",
-        "pluginIds": [
-          "simonez.qwenimage"
-        ],
-        "commit": "f7a25a636138312208f44dd5323e873fa7058156",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-03T02:07:10.691Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer",
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-03T01:53:40.948Z",
-        "requestEventId": 32377558986,
-        "requestedAt": "2026-10-03T02:06:39Z",
-        "reviewedAt": "2026-10-03T02:07:10.691Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -257744,8 +257720,81 @@
             "reviewedAt": "2026-09-28T12:16:24.156Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "f7a25a636138312208f44dd5323e873fa7058156",
+          "validatedAt": "2026-10-03T02:07:10.691Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T11:51:00.241Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "simonezpx3/omarchy-qwenimage",
+            "pluginIds": [
+              "simonez.qwenimage"
+            ],
+            "commit": "f7a25a636138312208f44dd5323e873fa7058156",
+            "checkedAt": "2026-10-03T02:07:10.691Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer",
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "simonezpx3/omarchy-qwenimage",
+            "pluginIds": [
+              "simonez.qwenimage"
+            ],
+            "commit": "f7a25a636138312208f44dd5323e873fa7058156",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-03T02:07:10.691Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer",
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-03T01:53:40.948Z",
+            "requestEventId": 32377558986,
+            "requestedAt": "2026-10-03T02:06:39Z",
+            "reviewedAt": "2026-10-03T02:07:10.691Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "simonezpx3/omarchy-qwenimage",
+        "pluginIds": [
+          "simonez.qwenimage"
+        ],
+        "commit": "e056297d53272e41ea6c4ff36b25847c85c9688e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T11:51:00.241Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T11:26:42.624Z",
+        "requestEventId": 32440760880,
+        "requestedAt": "2026-10-04T11:37:43Z",
+        "reviewedAt": "2026-10-04T11:51:00.241Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/simoz/omarchy-outbound",
