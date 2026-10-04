@@ -286458,6 +286458,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/AlanRoman117/omarchy-amd-npu",
+      "type": "plugin-source",
+      "addedAt": "2026-10-04",
+      "listedAt": "2026-10-04T02:22:53.341Z",
+      "listingValidatedCommit": "166604b14a213cc7257d3e05bca6a7367b0ab990",
+      "listingValidatedAt": "2026-10-04T02:22:53.341Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alanroman117/omarchy-amd-npu",
+        "pluginIds": [
+          "alanroman117.amd-npu"
+        ],
+        "commit": "166604b14a213cc7257d3e05bca6a7367b0ab990",
+        "checkedAt": "2026-10-04T02:22:53.214Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alanroman117/omarchy-amd-npu",
+        "pluginIds": [
+          "alanroman117.amd-npu"
+        ],
+        "commit": "166604b14a213cc7257d3e05bca6a7367b0ab990",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T02:22:53.214Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T02:17:43.340Z",
+        "requestEventId": 32424744760,
+        "requestedAt": "2026-10-04T02:22:26Z",
+        "reviewedAt": "2026-10-04T02:22:53.214Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "alanroman117.amd-npu": {
+          "category": "Hardware",
+          "tags": [
+            "ai",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
