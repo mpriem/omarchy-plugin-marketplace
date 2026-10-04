@@ -207722,8 +207722,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-19",
       "listedAt": "2026-09-19T10:57:50.482Z",
-      "listingValidatedCommit": "befc01388e208e560c8b4d2302d82c3b960cac1c",
-      "listingValidatedAt": "2026-09-29T20:27:57.738Z",
+      "listingValidatedCommit": "db631f62fb144c4a0bf76c3103e58f43eb7aba3c",
+      "listingValidatedAt": "2026-10-04T20:23:39.945Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -207732,8 +207732,8 @@
         "pluginIds": [
           "seigliva.ha-watch"
         ],
-        "commit": "befc01388e208e560c8b4d2302d82c3b960cac1c",
-        "checkedAt": "2026-09-29T20:27:57.738Z",
+        "commit": "db631f62fb144c4a0bf76c3103e58f43eb7aba3c",
+        "checkedAt": "2026-10-04T20:23:39.945Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -207752,28 +207752,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "seigliva/omarchy-ha-watch",
-        "pluginIds": [
-          "seigliva.ha-watch"
-        ],
-        "commit": "befc01388e208e560c8b4d2302d82c3b960cac1c",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-29T20:27:57.738Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-20T21:51:25.655Z",
-        "requestEventId": 32094712858,
-        "requestedAt": "2026-09-29T16:04:19Z",
-        "reviewedAt": "2026-09-29T20:27:57.738Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -207820,8 +207798,75 @@
             "reviewedAt": "2026-09-19T10:57:50.398Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "befc01388e208e560c8b4d2302d82c3b960cac1c",
+          "validatedAt": "2026-09-29T20:27:57.738Z",
+          "branch": "main",
+          "supersededAt": "2026-10-04T20:23:39.945Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "seigliva/omarchy-ha-watch",
+            "pluginIds": [
+              "seigliva.ha-watch"
+            ],
+            "commit": "befc01388e208e560c8b4d2302d82c3b960cac1c",
+            "checkedAt": "2026-09-29T20:27:57.738Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "seigliva/omarchy-ha-watch",
+            "pluginIds": [
+              "seigliva.ha-watch"
+            ],
+            "commit": "befc01388e208e560c8b4d2302d82c3b960cac1c",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-29T20:27:57.738Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-20T21:51:25.655Z",
+            "requestEventId": 32094712858,
+            "requestedAt": "2026-09-29T16:04:19Z",
+            "reviewedAt": "2026-09-29T20:27:57.738Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "seigliva/omarchy-ha-watch",
+        "pluginIds": [
+          "seigliva.ha-watch"
+        ],
+        "commit": "db631f62fb144c4a0bf76c3103e58f43eb7aba3c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-04T20:23:39.945Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-04T20:00:52.253Z",
+        "requestEventId": 32460045366,
+        "requestedAt": "2026-10-04T20:23:13Z",
+        "reviewedAt": "2026-10-04T20:23:39.945Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/onelegdave/omachat",
