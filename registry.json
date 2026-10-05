@@ -297378,6 +297378,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/cylon58/omarchy-tailnet-presence",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T15:18:17.525Z",
+      "listingValidatedCommit": "e8ff8dcdbea2212b897ac3b26bd811dba759a846",
+      "listingValidatedAt": "2026-10-05T15:18:17.525Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cylon58/omarchy-tailnet-presence",
+        "pluginIds": [
+          "cylon58.tailnet-presence"
+        ],
+        "commit": "e8ff8dcdbea2212b897ac3b26bd811dba759a846",
+        "checkedAt": "2026-10-05T15:18:17.398Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cylon58/omarchy-tailnet-presence",
+        "pluginIds": [
+          "cylon58.tailnet-presence"
+        ],
+        "commit": "e8ff8dcdbea2212b897ac3b26bd811dba759a846",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T15:18:17.398Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T15:05:36.248Z",
+        "requestEventId": 32521127574,
+        "requestedAt": "2026-10-05T15:14:57Z",
+        "reviewedAt": "2026-10-05T15:18:17.399Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "cylon58.tailnet-presence": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
