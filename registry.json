@@ -298756,6 +298756,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/grivera82/omarchy-agents",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T21:35:29.180Z",
+      "listingValidatedCommit": "17ef61d08b9aef6331868b05c633206c67b026af",
+      "listingValidatedAt": "2026-10-05T21:35:29.180Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "grivera82/omarchy-agents",
+        "pluginIds": [
+          "grivera.agents"
+        ],
+        "commit": "17ef61d08b9aef6331868b05c633206c67b026af",
+        "checkedAt": "2026-10-05T21:35:29.063Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "grivera.agents": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
