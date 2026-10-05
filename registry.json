@@ -293705,6 +293705,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/markbus-ai/omarchy-process-monitor",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T04:47:42.951Z",
+      "listingValidatedCommit": "2e783d0855c2a4c2248e3c0416b943e1898682f2",
+      "listingValidatedAt": "2026-10-05T04:47:42.951Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "markbus-ai/omarchy-process-monitor",
+        "pluginIds": [
+          "markbusking.process-monitor"
+        ],
+        "commit": "2e783d0855c2a4c2248e3c0416b943e1898682f2",
+        "checkedAt": "2026-10-05T04:47:42.844Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "markbus-ai/omarchy-process-monitor",
+        "pluginIds": [
+          "markbusking.process-monitor"
+        ],
+        "commit": "2e783d0855c2a4c2248e3c0416b943e1898682f2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T04:47:42.844Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T04:42:02.927Z",
+        "requestEventId": 32477708954,
+        "requestedAt": "2026-10-05T04:46:50Z",
+        "reviewedAt": "2026-10-05T04:47:42.844Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "markbusking.process-monitor": {
+          "category": "System",
+          "tags": [
+            "system",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
