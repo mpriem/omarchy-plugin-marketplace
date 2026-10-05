@@ -292910,6 +292910,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Ch3w3y/omarchy-wallpaper-gallery",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T03:10:54.811Z",
+      "listingValidatedCommit": "0ebb18c3999b17c37f11f2cbcc6e061b6fd67188",
+      "listingValidatedAt": "2026-10-05T03:10:54.811Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ch3w3y/omarchy-wallpaper-gallery",
+        "pluginIds": [
+          "io.github.ch3w3y.wallpaper-gallery"
+        ],
+        "commit": "0ebb18c3999b17c37f11f2cbcc6e061b6fd67188",
+        "checkedAt": "2026-10-05T03:10:54.728Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ch3w3y/omarchy-wallpaper-gallery",
+        "pluginIds": [
+          "io.github.ch3w3y.wallpaper-gallery"
+        ],
+        "commit": "0ebb18c3999b17c37f11f2cbcc6e061b6fd67188",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T03:10:54.728Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T03:06:08.534Z",
+        "requestEventId": 32473999684,
+        "requestedAt": "2026-10-05T03:10:26Z",
+        "reviewedAt": "2026-10-05T03:10:54.728Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.ch3w3y.wallpaper-gallery": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
