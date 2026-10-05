@@ -297756,6 +297756,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/kt3v/GazeAway",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T16:13:30.487Z",
+      "listingValidatedCommit": "67b30272a2e58d8ac101d5e4aad119070ce05fe8",
+      "listingValidatedAt": "2026-10-05T16:13:30.487Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kt3v/gazeaway",
+        "pluginIds": [
+          "io.github.indie.gazeaway"
+        ],
+        "commit": "67b30272a2e58d8ac101d5e4aad119070ce05fe8",
+        "checkedAt": "2026-10-05T16:13:30.356Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.indie.gazeaway": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
