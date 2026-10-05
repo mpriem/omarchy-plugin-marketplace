@@ -292161,6 +292161,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ch-arslanahmad/io.github.arslan.sysmon",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T01:16:15.295Z",
+      "listingValidatedCommit": "be130d80c289d75b3c88efac2970fa988840b08e",
+      "listingValidatedAt": "2026-10-05T01:16:15.295Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ch-arslanahmad/io.github.arslan.sysmon",
+        "pluginIds": [
+          "io.github.arslan.sysmon"
+        ],
+        "commit": "be130d80c289d75b3c88efac2970fa988840b08e",
+        "checkedAt": "2026-10-05T01:16:15.212Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ch-arslanahmad/io.github.arslan.sysmon",
+        "pluginIds": [
+          "io.github.arslan.sysmon"
+        ],
+        "commit": "be130d80c289d75b3c88efac2970fa988840b08e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T01:16:15.212Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T01:14:10.806Z",
+        "requestEventId": 32469832586,
+        "requestedAt": "2026-10-05T01:15:47Z",
+        "reviewedAt": "2026-10-05T01:16:15.212Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.arslan.sysmon": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
