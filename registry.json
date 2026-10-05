@@ -298021,6 +298021,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/PaulPPS632/omarchy-plugins-manager",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T17:18:22.433Z",
+      "listingValidatedCommit": "fa467db136c9f14f7d42087c32a7218c16ddbaad",
+      "listingValidatedAt": "2026-10-05T17:18:22.433Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "paulpps632/omarchy-plugins-manager",
+        "pluginIds": [
+          "io.github.paulpps632.plugin-manager"
+        ],
+        "commit": "fa467db136c9f14f7d42087c32a7218c16ddbaad",
+        "checkedAt": "2026-10-05T17:18:22.340Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.paulpps632.plugin-manager": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
