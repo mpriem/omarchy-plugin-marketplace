@@ -297344,6 +297344,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/leewhitfield/omarchy-duobar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T15:14:26.018Z",
+      "listingValidatedCommit": "a5f042e8595fde76752eac20763c664096cf907a",
+      "listingValidatedAt": "2026-10-05T15:14:26.018Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "leewhitfield/omarchy-duobar",
+        "pluginIds": [
+          "lee.duobar"
+        ],
+        "commit": "a5f042e8595fde76752eac20763c664096cf907a",
+        "checkedAt": "2026-10-05T15:14:25.880Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "lee.duobar": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "power-management"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
