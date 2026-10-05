@@ -261163,8 +261163,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T18:55:20.648Z",
-      "listingValidatedCommit": "5f64aafd351204dfa640d3cfed6d73a9d1efbbac",
-      "listingValidatedAt": "2026-09-28T18:55:20.648Z",
+      "listingValidatedCommit": "4a08897a96cfade650173afd787be88ef090b496",
+      "listingValidatedAt": "2026-10-05T22:13:32.912Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -261173,8 +261173,8 @@
         "pluginIds": [
           "org.omaviz.visualizer"
         ],
-        "commit": "5f64aafd351204dfa640d3cfed6d73a9d1efbbac",
-        "checkedAt": "2026-09-28T18:55:20.540Z",
+        "commit": "4a08897a96cfade650173afd787be88ef090b496",
+        "checkedAt": "2026-10-05T22:13:32.911Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -261183,29 +261183,6 @@
           "installer",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "omaviz/omaviz",
-        "pluginIds": [
-          "org.omaviz.visualizer"
-        ],
-        "commit": "5f64aafd351204dfa640d3cfed6d73a9d1efbbac",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-28T18:55:20.540Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "bundled-executable-binary",
-          "installer",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-28T18:48:31.574Z",
-        "requestEventId": 32019722253,
-        "requestedAt": "2026-09-28T18:53:09Z",
-        "reviewedAt": "2026-09-28T18:55:20.540Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "org.omaviz.visualizer": {
@@ -261217,7 +261194,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "omaviz/omaviz",
+        "pluginIds": [
+          "org.omaviz.visualizer"
+        ],
+        "commit": "4a08897a96cfade650173afd787be88ef090b496",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T22:13:32.911Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T18:57:07.456Z",
+        "requestEventId": 32549047435,
+        "requestedAt": "2026-10-05T22:13:03Z",
+        "reviewedAt": "2026-10-05T22:13:32.912Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5f64aafd351204dfa640d3cfed6d73a9d1efbbac",
+          "validatedAt": "2026-09-28T18:55:20.648Z",
+          "branch": "master",
+          "supersededAt": "2026-10-05T22:13:32.912Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "omaviz/omaviz",
+            "pluginIds": [
+              "org.omaviz.visualizer"
+            ],
+            "commit": "5f64aafd351204dfa640d3cfed6d73a9d1efbbac",
+            "checkedAt": "2026-09-28T18:55:20.540Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary",
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "omaviz/omaviz",
+            "pluginIds": [
+              "org.omaviz.visualizer"
+            ],
+            "commit": "5f64aafd351204dfa640d3cfed6d73a9d1efbbac",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-28T18:55:20.540Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary",
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-28T18:48:31.574Z",
+            "requestEventId": 32019722253,
+            "requestedAt": "2026-09-28T18:53:09Z",
+            "reviewedAt": "2026-09-28T18:55:20.540Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/oliverox/typarchy",
