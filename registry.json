@@ -292814,6 +292814,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/nixfred/omarchy-server-status",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T02:51:30.291Z",
+      "listingValidatedCommit": "774196d686f570c14d4d64919df30112506e3fb0",
+      "listingValidatedAt": "2026-10-05T02:51:30.291Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nixfred/omarchy-server-status",
+        "pluginIds": [
+          "io.github.nixfred.tailscale-host-monitor"
+        ],
+        "commit": "774196d686f570c14d4d64919df30112506e3fb0",
+        "checkedAt": "2026-10-05T02:51:30.208Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nixfred/omarchy-server-status",
+        "pluginIds": [
+          "io.github.nixfred.tailscale-host-monitor"
+        ],
+        "commit": "774196d686f570c14d4d64919df30112506e3fb0",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T02:51:30.208Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T02:43:36.069Z",
+        "requestEventId": 32473195104,
+        "requestedAt": "2026-10-05T02:48:14Z",
+        "reviewedAt": "2026-10-05T02:51:30.208Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.nixfred.tailscale-host-monitor": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
