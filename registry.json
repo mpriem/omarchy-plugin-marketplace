@@ -298417,6 +298417,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/resn3t/humline",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T18:26:52.427Z",
+      "listingValidatedCommit": "af6d507f69a248c22198325e14ba38c4ab91677c",
+      "listingValidatedAt": "2026-10-05T18:26:52.427Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "resn3t/humline",
+        "pluginIds": [
+          "humline"
+        ],
+        "commit": "af6d507f69a248c22198325e14ba38c4ab91677c",
+        "checkedAt": "2026-10-05T18:26:52.342Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "resn3t/humline",
+        "pluginIds": [
+          "humline"
+        ],
+        "commit": "af6d507f69a248c22198325e14ba38c4ab91677c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T18:26:52.342Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T18:24:01.271Z",
+        "requestEventId": 32535236162,
+        "requestedAt": "2026-10-05T18:26:18Z",
+        "reviewedAt": "2026-10-05T18:26:52.342Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "humline": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
