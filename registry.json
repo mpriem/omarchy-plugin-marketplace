@@ -298315,6 +298315,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/cesarho/xps-power",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T18:16:09.994Z",
+      "listingValidatedCommit": "fb44c128482c920dfdcc83895e7ec68e8ef6f6ed",
+      "listingValidatedAt": "2026-10-05T18:16:09.994Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cesarho/xps-power",
+        "pluginIds": [
+          "cesarho.xps-power"
+        ],
+        "commit": "fb44c128482c920dfdcc83895e7ec68e8ef6f6ed",
+        "checkedAt": "2026-10-05T18:16:09.865Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cesarho/xps-power",
+        "pluginIds": [
+          "cesarho.xps-power"
+        ],
+        "commit": "fb44c128482c920dfdcc83895e7ec68e8ef6f6ed",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T18:16:09.865Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T18:12:04.164Z",
+        "requestEventId": 32534514685,
+        "requestedAt": "2026-10-05T18:15:41Z",
+        "reviewedAt": "2026-10-05T18:16:09.865Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "cesarho.xps-power": {
+          "category": "Widgets",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
