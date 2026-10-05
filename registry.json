@@ -295288,6 +295288,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/onatvural/omarchy-screen-comfort",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T09:40:24.436Z",
+      "listingValidatedCommit": "63a595cd06544f817ac04ba4e132347c449c9dbb",
+      "listingValidatedAt": "2026-10-05T09:40:24.436Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "onatvural/omarchy-screen-comfort",
+        "pluginIds": [
+          "io.github.onatvural.screen-comfort"
+        ],
+        "commit": "63a595cd06544f817ac04ba4e132347c449c9dbb",
+        "checkedAt": "2026-10-05T09:40:24.306Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "onatvural/omarchy-screen-comfort",
+        "pluginIds": [
+          "io.github.onatvural.screen-comfort"
+        ],
+        "commit": "63a595cd06544f817ac04ba4e132347c449c9dbb",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T09:40:24.306Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T09:35:29.119Z",
+        "requestEventId": 32495062289,
+        "requestedAt": "2026-10-05T09:39:03Z",
+        "reviewedAt": "2026-10-05T09:40:24.306Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.onatvural.screen-comfort": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
