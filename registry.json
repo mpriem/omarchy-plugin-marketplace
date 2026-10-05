@@ -295422,6 +295422,44 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/IgorWarzocha/omarchy-herdr",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T09:53:22.155Z",
+      "listingValidatedCommit": "b76d4fe5fdf06c12371d901745b94b5aca7217ff",
+      "listingValidatedAt": "2026-10-05T09:53:22.155Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "igorwarzocha/omarchy-herdr",
+        "pluginIds": [
+          "howaboua.herdr"
+        ],
+        "commit": "b76d4fe5fdf06c12371d901745b94b5aca7217ff",
+        "checkedAt": "2026-10-05T09:53:22.028Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "howaboua.herdr": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
