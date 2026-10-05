@@ -292368,6 +292368,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jkthorne/omarchy-display",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T01:51:28.697Z",
+      "listingValidatedCommit": "04aa4500e8b00f8ea521c6584ed786646a9a43b2",
+      "listingValidatedAt": "2026-10-05T01:51:28.697Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jkthorne/omarchy-display",
+        "pluginIds": [
+          "jack.display"
+        ],
+        "commit": "04aa4500e8b00f8ea521c6584ed786646a9a43b2",
+        "checkedAt": "2026-10-05T01:51:28.555Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jkthorne/omarchy-display",
+        "pluginIds": [
+          "jack.display"
+        ],
+        "commit": "04aa4500e8b00f8ea521c6584ed786646a9a43b2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T01:51:28.555Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T01:46:53.661Z",
+        "requestEventId": 32471114292,
+        "requestedAt": "2026-10-05T01:51:00Z",
+        "reviewedAt": "2026-10-05T01:51:28.555Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jack.display": {
+          "category": "System",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
