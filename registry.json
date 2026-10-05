@@ -294936,6 +294936,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/DylanRothHuck/omarchy-tts-reader",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T08:15:02.962Z",
+      "listingValidatedCommit": "bd0c6f607c275131fb14d38001d6d136803a6155",
+      "listingValidatedAt": "2026-10-05T08:15:02.962Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dylanrothhuck/omarchy-tts-reader",
+        "pluginIds": [
+          "io.github.dylanrothhuck.tts-reader"
+        ],
+        "commit": "bd0c6f607c275131fb14d38001d6d136803a6155",
+        "checkedAt": "2026-10-05T08:15:02.881Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dylanrothhuck/omarchy-tts-reader",
+        "pluginIds": [
+          "io.github.dylanrothhuck.tts-reader"
+        ],
+        "commit": "bd0c6f607c275131fb14d38001d6d136803a6155",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T08:15:02.881Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T08:10:22.654Z",
+        "requestEventId": 32488968886,
+        "requestedAt": "2026-10-05T08:14:29Z",
+        "reviewedAt": "2026-10-05T08:15:02.881Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.dylanrothhuck.tts-reader": {
+          "category": "Productivity",
+          "tags": [
+            "ai"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
