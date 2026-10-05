@@ -297287,6 +297287,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tw3akercc/omarchy-skillsync",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T15:06:34.086Z",
+      "listingValidatedCommit": "7f076278b44fcea3503bd8302b0e3bb0d526360d",
+      "listingValidatedAt": "2026-10-05T15:06:34.086Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tw3akercc/omarchy-skillsync",
+        "pluginIds": [
+          "jbicks.skills"
+        ],
+        "commit": "7f076278b44fcea3503bd8302b0e3bb0d526360d",
+        "checkedAt": "2026-10-05T15:06:33.948Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tw3akercc/omarchy-skillsync",
+        "pluginIds": [
+          "jbicks.skills"
+        ],
+        "commit": "7f076278b44fcea3503bd8302b0e3bb0d526360d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T15:06:33.948Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T14:49:20.766Z",
+        "requestEventId": 32520105708,
+        "requestedAt": "2026-10-05T15:02:42Z",
+        "reviewedAt": "2026-10-05T15:06:33.948Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jbicks.skills": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
