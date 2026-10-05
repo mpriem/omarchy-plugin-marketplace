@@ -293977,6 +293977,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/n8group-oss/omarchy-session-memory",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T06:24:41.544Z",
+      "listingValidatedCommit": "2e331ace8f2861512d6c13f838fa26b844c7740b",
+      "listingValidatedAt": "2026-10-05T06:24:41.544Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "n8group-oss/omarchy-session-memory",
+        "pluginIds": [
+          "io.github.n8group-oss.sessionmemory"
+        ],
+        "commit": "2e331ace8f2861512d6c13f838fa26b844c7740b",
+        "checkedAt": "2026-10-05T06:24:41.429Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "n8group-oss/omarchy-session-memory",
+        "pluginIds": [
+          "io.github.n8group-oss.sessionmemory"
+        ],
+        "commit": "2e331ace8f2861512d6c13f838fa26b844c7740b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T06:24:41.429Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T06:15:51.713Z",
+        "requestEventId": 32481962939,
+        "requestedAt": "2026-10-05T06:21:29Z",
+        "reviewedAt": "2026-10-05T06:24:41.429Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.n8group-oss.sessionmemory": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
