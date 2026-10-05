@@ -295460,6 +295460,62 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/jefflord-pmg/omarchy-mouse-focus",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T10:00:02.315Z",
+      "listingValidatedCommit": "026dda397d90523626d4d03a63b3b1eabf1ebd6c",
+      "listingValidatedAt": "2026-10-05T10:00:02.315Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jefflord-pmg/omarchy-mouse-focus",
+        "pluginIds": [
+          "jlord.mouse-focus"
+        ],
+        "commit": "026dda397d90523626d4d03a63b3b1eabf1ebd6c",
+        "checkedAt": "2026-10-05T10:00:02.184Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jefflord-pmg/omarchy-mouse-focus",
+        "pluginIds": [
+          "jlord.mouse-focus"
+        ],
+        "commit": "026dda397d90523626d4d03a63b3b1eabf1ebd6c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T10:00:02.184Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T09:48:59.251Z",
+        "requestEventId": 32496800085,
+        "requestedAt": "2026-10-05T09:59:33Z",
+        "reviewedAt": "2026-10-05T10:00:02.184Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jlord.mouse-focus": {
+          "category": "System",
+          "tags": [
+            "system",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
