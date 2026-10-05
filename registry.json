@@ -294252,6 +294252,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/beijingrong/omarchy-smellytype",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T06:43:37.664Z",
+      "listingValidatedCommit": "2f920b5259b3327d0bb3224442ce4712dc64dc8e",
+      "listingValidatedAt": "2026-10-05T06:43:37.664Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "beijingrong/omarchy-smellytype",
+        "pluginIds": [
+          "beijingrong.smellytype"
+        ],
+        "commit": "2f920b5259b3327d0bb3224442ce4712dc64dc8e",
+        "checkedAt": "2026-10-05T06:43:37.536Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "beijingrong/omarchy-smellytype",
+        "pluginIds": [
+          "beijingrong.smellytype"
+        ],
+        "commit": "2f920b5259b3327d0bb3224442ce4712dc64dc8e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T06:43:37.536Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T06:37:19.337Z",
+        "requestEventId": 32483128132,
+        "requestedAt": "2026-10-05T06:42:27Z",
+        "reviewedAt": "2026-10-05T06:43:37.536Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "beijingrong.smellytype": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
