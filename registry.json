@@ -296267,6 +296267,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/abidfarhanRepo/omarchy-rog-control",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T12:23:06.272Z",
+      "listingValidatedCommit": "11c146d7d156ff63ad7fe7265c9865b017300aa8",
+      "listingValidatedAt": "2026-10-05T12:23:06.272Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "abidfarhanrepo/omarchy-rog-control",
+        "pluginIds": [
+          "armnt.rog-control"
+        ],
+        "commit": "11c146d7d156ff63ad7fe7265c9865b017300aa8",
+        "checkedAt": "2026-10-05T12:23:06.146Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "abidfarhanrepo/omarchy-rog-control",
+        "pluginIds": [
+          "armnt.rog-control"
+        ],
+        "commit": "11c146d7d156ff63ad7fe7265c9865b017300aa8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T12:23:06.146Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T12:16:43.335Z",
+        "requestEventId": 32506870227,
+        "requestedAt": "2026-10-05T12:22:40Z",
+        "reviewedAt": "2026-10-05T12:23:06.146Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "armnt.rog-control": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "power-management",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
