@@ -296326,6 +296326,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Kurama07a/omarchy-devopen",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T12:31:16.122Z",
+      "listingValidatedCommit": "775fd4600282bb1ec1b6f1cab8c75c8fd0158ed1",
+      "listingValidatedAt": "2026-10-05T12:31:16.122Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kurama07a/omarchy-devopen",
+        "pluginIds": [
+          "io.github.kurama07a.devopen"
+        ],
+        "commit": "775fd4600282bb1ec1b6f1cab8c75c8fd0158ed1",
+        "checkedAt": "2026-10-05T12:31:16.027Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kurama07a/omarchy-devopen",
+        "pluginIds": [
+          "io.github.kurama07a.devopen"
+        ],
+        "commit": "775fd4600282bb1ec1b6f1cab8c75c8fd0158ed1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T12:31:16.027Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T12:26:57.528Z",
+        "requestEventId": 32507460998,
+        "requestedAt": "2026-10-05T12:30:36Z",
+        "reviewedAt": "2026-10-05T12:31:16.027Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.kurama07a.devopen": {
+          "category": "Developer Tools",
+          "tags": [
+            "launcher",
+            "ai",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
