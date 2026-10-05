@@ -295827,6 +295827,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Ormus-Solutions/omaspaces",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T11:09:54.630Z",
+      "listingValidatedCommit": "33a133f3660c19b09e8209a11bf991bd5875ca4d",
+      "listingValidatedAt": "2026-10-05T11:09:54.630Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ormus-solutions/omaspaces",
+        "pluginIds": [
+          "omaspaces"
+        ],
+        "commit": "33a133f3660c19b09e8209a11bf991bd5875ca4d",
+        "checkedAt": "2026-10-05T11:09:54.500Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ormus-solutions/omaspaces",
+        "pluginIds": [
+          "omaspaces"
+        ],
+        "commit": "33a133f3660c19b09e8209a11bf991bd5875ca4d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T11:09:54.500Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T11:05:44.642Z",
+        "requestEventId": 32501588193,
+        "requestedAt": "2026-10-05T11:09:23Z",
+        "reviewedAt": "2026-10-05T11:09:54.500Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omaspaces": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
