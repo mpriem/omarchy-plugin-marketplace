@@ -293480,6 +293480,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Quarezz/omarchy-g502x",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T04:25:53.585Z",
+      "listingValidatedCommit": "d51a8cb903704a5c68abe29d3f25beae538756bf",
+      "listingValidatedAt": "2026-10-05T04:25:53.585Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "quarezz/omarchy-g502x",
+        "pluginIds": [
+          "morf.g502x"
+        ],
+        "commit": "d51a8cb903704a5c68abe29d3f25beae538756bf",
+        "checkedAt": "2026-10-05T04:25:53.441Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "morf.g502x": {
+          "category": "Hardware",
+          "tags": [
+            "power-management"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
