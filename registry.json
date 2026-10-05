@@ -282051,8 +282051,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T19:34:48.465Z",
-      "listingValidatedCommit": "64b630e97e6e68f79c1af4d39bb6729d6598de9a",
-      "listingValidatedAt": "2026-10-02T19:34:48.465Z",
+      "listingValidatedCommit": "6244e11c0f79c8952c2d5f8c474937754f2b09fa",
+      "listingValidatedAt": "2026-10-05T14:29:37.589Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -282061,8 +282061,8 @@
         "pluginIds": [
           "robertstevenson.omaovercast"
         ],
-        "commit": "64b630e97e6e68f79c1af4d39bb6729d6598de9a",
-        "checkedAt": "2026-10-02T19:34:48.342Z",
+        "commit": "6244e11c0f79c8952c2d5f8c474937754f2b09fa",
+        "checkedAt": "2026-10-05T14:29:37.589Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -282078,7 +282078,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "64b630e97e6e68f79c1af4d39bb6729d6598de9a",
+          "validatedAt": "2026-10-02T19:34:48.465Z",
+          "branch": "main",
+          "supersededAt": "2026-10-05T14:29:37.589Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "robertstevenson/omaovercast",
+            "pluginIds": [
+              "robertstevenson.omaovercast"
+            ],
+            "commit": "64b630e97e6e68f79c1af4d39bb6729d6598de9a",
+            "checkedAt": "2026-10-02T19:34:48.342Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/foamrider/foamy-notifications",
