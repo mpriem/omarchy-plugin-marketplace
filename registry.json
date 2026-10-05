@@ -293448,6 +293448,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/alenNumberOneAI/omarchy-mouse-config-gui",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T04:18:05.529Z",
+      "listingValidatedCommit": "f33b92beeafd1b40cdd03906c96feb9ba67ac4f5",
+      "listingValidatedAt": "2026-10-05T04:18:05.529Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alennumberoneai/omarchy-mouse-config-gui",
+        "pluginIds": [
+          "io.github.alennumberoneai.mouse"
+        ],
+        "commit": "f33b92beeafd1b40cdd03906c96feb9ba67ac4f5",
+        "checkedAt": "2026-10-05T04:18:05.398Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.alennumberoneai.mouse": {
+          "category": "Hardware",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
