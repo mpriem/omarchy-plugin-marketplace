@@ -295177,6 +295177,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/tuxclaw/clip",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T09:21:39.319Z",
+      "listingValidatedCommit": "2274c711932c9c6f41c557a03cb5e6cf2996182d",
+      "listingValidatedAt": "2026-10-05T09:21:39.319Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tuxclaw/clip",
+        "pluginIds": [
+          "io.github.tuxclaw.clip"
+        ],
+        "commit": "2274c711932c9c6f41c557a03cb5e6cf2996182d",
+        "checkedAt": "2026-10-05T09:21:39.214Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tuxclaw/clip",
+        "pluginIds": [
+          "io.github.tuxclaw.clip"
+        ],
+        "commit": "2274c711932c9c6f41c557a03cb5e6cf2996182d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T09:21:39.214Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T09:13:38.492Z",
+        "requestEventId": 32493667843,
+        "requestedAt": "2026-10-05T09:21:08Z",
+        "reviewedAt": "2026-10-05T09:21:39.214Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.tuxclaw.clip": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
