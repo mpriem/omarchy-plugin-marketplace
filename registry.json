@@ -295922,6 +295922,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/original-david-knight/omarchy-arctis-headset",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T11:25:31.540Z",
+      "listingValidatedCommit": "923a0f4d0fbaa5e11705ecd9e8491e1d386224dd",
+      "listingValidatedAt": "2026-10-05T11:25:31.540Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "original-david-knight/omarchy-arctis-headset",
+        "pluginIds": [
+          "david.headset"
+        ],
+        "commit": "923a0f4d0fbaa5e11705ecd9e8491e1d386224dd",
+        "checkedAt": "2026-10-05T11:25:31.413Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "original-david-knight/omarchy-arctis-headset",
+        "pluginIds": [
+          "david.headset"
+        ],
+        "commit": "923a0f4d0fbaa5e11705ecd9e8491e1d386224dd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T11:25:31.413Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T11:22:15.658Z",
+        "requestEventId": 32502687768,
+        "requestedAt": "2026-10-05T11:25:04Z",
+        "reviewedAt": "2026-10-05T11:25:31.413Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "david.headset": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
