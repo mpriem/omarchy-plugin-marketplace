@@ -292778,6 +292778,42 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/mahardhitama/omarchy-dropbox-redux",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T02:48:28.132Z",
+      "listingValidatedCommit": "712b27d73f9ffc7e0237faf335ce7dcddf671fb6",
+      "listingValidatedAt": "2026-10-05T02:48:28.132Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mahardhitama/omarchy-dropbox-redux",
+        "pluginIds": [
+          "prasetya.dropbox-redux"
+        ],
+        "commit": "712b27d73f9ffc7e0237faf335ce7dcddf671fb6",
+        "checkedAt": "2026-10-05T02:48:28.004Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "prasetya.dropbox-redux": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
