@@ -293391,6 +293391,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/iainlennox/OmaAmp",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T04:15:14.604Z",
+      "listingValidatedCommit": "0b919b49032b24c1442b992d813660e8a11909e5",
+      "listingValidatedAt": "2026-10-05T04:15:14.604Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "iainlennox/omaamp",
+        "pluginIds": [
+          "iainlennox.omaamp"
+        ],
+        "commit": "0b919b49032b24c1442b992d813660e8a11909e5",
+        "checkedAt": "2026-10-05T04:15:14.531Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "iainlennox/omaamp",
+        "pluginIds": [
+          "iainlennox.omaamp"
+        ],
+        "commit": "0b919b49032b24c1442b992d813660e8a11909e5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T04:15:14.531Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T04:01:56.816Z",
+        "requestEventId": 32476400321,
+        "requestedAt": "2026-10-05T04:14:49Z",
+        "reviewedAt": "2026-10-05T04:15:14.532Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "iainlennox.omaamp": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
