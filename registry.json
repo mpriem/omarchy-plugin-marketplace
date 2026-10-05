@@ -295985,6 +295985,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Shazzedio/omarchy-touchdeck",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T11:49:13.073Z",
+      "listingValidatedCommit": "3e51591ed43ba87d8198f45460ed2d027a205401",
+      "listingValidatedAt": "2026-10-05T11:49:13.073Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "shazzedio/omarchy-touchdeck",
+        "pluginIds": [
+          "io.github.shazzedio.touchdeck"
+        ],
+        "commit": "3e51591ed43ba87d8198f45460ed2d027a205401",
+        "checkedAt": "2026-10-05T11:49:12.944Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.shazzedio.touchdeck": {
+          "category": "System",
+          "tags": [
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
