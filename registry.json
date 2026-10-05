@@ -297985,6 +297985,42 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/KarelDiaz/workspaces-setups",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T17:11:13.872Z",
+      "listingValidatedCommit": "6d8d7d5c17297d6ddcbf43ccccbc651f7ee2f43a",
+      "listingValidatedAt": "2026-10-05T17:11:13.872Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kareldiaz/workspaces-setups",
+        "pluginIds": [
+          "kareldiaz.workspace-setups"
+        ],
+        "commit": "6d8d7d5c17297d6ddcbf43ccccbc651f7ee2f43a",
+        "checkedAt": "2026-10-05T17:11:13.719Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "kareldiaz.workspace-setups": {
+          "category": "Widgets",
+          "tags": [
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
