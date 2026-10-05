@@ -296462,6 +296462,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/pmacdon15/anti-gravity-panel-omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T12:57:14.313Z",
+      "listingValidatedCommit": "084b00cbfd5fa2dc1fcea60fee63b3577ef9f79f",
+      "listingValidatedAt": "2026-10-05T12:57:14.313Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pmacdon15/anti-gravity-panel-omarchy",
+        "pluginIds": [
+          "anti-gravity-panel-omarchy"
+        ],
+        "commit": "084b00cbfd5fa2dc1fcea60fee63b3577ef9f79f",
+        "checkedAt": "2026-10-05T12:57:14.182Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "anti-gravity-panel-omarchy": {
+          "category": "Widgets",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
