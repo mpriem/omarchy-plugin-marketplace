@@ -297064,6 +297064,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/thelonetuga/omarchy-nextcloud-status",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T14:43:56.970Z",
+      "listingValidatedCommit": "0b065b8358e59db3b71669a3996bbe5ed3da26a8",
+      "listingValidatedAt": "2026-10-05T14:43:56.970Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "thelonetuga/omarchy-nextcloud-status",
+        "pluginIds": [
+          "io.github.thelonetuga.nextcloud-status"
+        ],
+        "commit": "0b065b8358e59db3b71669a3996bbe5ed3da26a8",
+        "checkedAt": "2026-10-05T14:43:56.845Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "thelonetuga/omarchy-nextcloud-status",
+        "pluginIds": [
+          "io.github.thelonetuga.nextcloud-status"
+        ],
+        "commit": "0b065b8358e59db3b71669a3996bbe5ed3da26a8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T14:43:56.845Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T14:39:38.093Z",
+        "requestEventId": 32518497427,
+        "requestedAt": "2026-10-05T14:43:26Z",
+        "reviewedAt": "2026-10-05T14:43:56.845Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.thelonetuga.nextcloud-status": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
