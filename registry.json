@@ -297858,6 +297858,44 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/gregorylara/oma.steelseries",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T16:40:25.531Z",
+      "listingValidatedCommit": "9a47ba0ca01b3f04c22d40ecc5f7e853e3838185",
+      "listingValidatedAt": "2026-10-05T16:40:25.531Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gregorylara/oma.steelseries",
+        "pluginIds": [
+          "oma.steelseries"
+        ],
+        "commit": "9a47ba0ca01b3f04c22d40ecc5f7e853e3838185",
+        "checkedAt": "2026-10-05T16:40:25.406Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "oma.steelseries": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "power-management"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
