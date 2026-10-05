@@ -293203,6 +293203,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/robertlindomar/omarchy-ptbr-clipboard",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T03:55:30.179Z",
+      "listingValidatedCommit": "f9dbfab532c2917e999af7609f9e2ef157ddc453",
+      "listingValidatedAt": "2026-10-05T03:55:30.179Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "robertlindomar/omarchy-ptbr-clipboard",
+        "pluginIds": [
+          "robertlindomar.omarchy-ptbr.clipboard"
+        ],
+        "commit": "f9dbfab532c2917e999af7609f9e2ef157ddc453",
+        "checkedAt": "2026-10-05T03:55:30.103Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "robertlindomar.omarchy-ptbr.clipboard": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
