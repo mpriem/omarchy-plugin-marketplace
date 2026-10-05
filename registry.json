@@ -292480,6 +292480,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/codeChap/grok-super-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T02:15:47.331Z",
+      "listingValidatedCommit": "2e4b7472e38f14742c8d5e3ed6c191686e5afadd",
+      "listingValidatedAt": "2026-10-05T02:15:47.331Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "codechap/grok-super-usage",
+        "pluginIds": [
+          "codechap.grok-super-usage"
+        ],
+        "commit": "2e4b7472e38f14742c8d5e3ed6c191686e5afadd",
+        "checkedAt": "2026-10-05T02:15:47.246Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "codechap/grok-super-usage",
+        "pluginIds": [
+          "codechap.grok-super-usage"
+        ],
+        "commit": "2e4b7472e38f14742c8d5e3ed6c191686e5afadd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T02:15:47.246Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T02:11:21.770Z",
+        "requestEventId": 32472024338,
+        "requestedAt": "2026-10-05T02:15:21Z",
+        "reviewedAt": "2026-10-05T02:15:47.246Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "codechap.grok-super-usage": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
