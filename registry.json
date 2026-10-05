@@ -294582,6 +294582,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/zimixin/omarchy-fingerprint",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T07:01:04.409Z",
+      "listingValidatedCommit": "deea74d5319198bf02875a15c6e249a2366b2a2e",
+      "listingValidatedAt": "2026-10-05T07:01:04.409Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zimixin/omarchy-fingerprint",
+        "pluginIds": [
+          "zimixin.fingerprint"
+        ],
+        "commit": "deea74d5319198bf02875a15c6e249a2366b2a2e",
+        "checkedAt": "2026-10-05T07:01:04.285Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "zimixin/omarchy-fingerprint",
+        "pluginIds": [
+          "zimixin.fingerprint"
+        ],
+        "commit": "deea74d5319198bf02875a15c6e249a2366b2a2e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T07:01:04.285Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T06:37:59.576Z",
+        "requestEventId": 32483435110,
+        "requestedAt": "2026-10-05T06:47:54Z",
+        "reviewedAt": "2026-10-05T07:01:04.285Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "zimixin.fingerprint": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "security"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
