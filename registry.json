@@ -297187,6 +297187,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ciprianotoor/omarchy-media-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T14:59:47.973Z",
+      "listingValidatedCommit": "76a7cecfd9174925c9f09502c512bd7540440bdd",
+      "listingValidatedAt": "2026-10-05T14:59:47.973Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ciprianotoor/omarchy-media-plugin",
+        "pluginIds": [
+          "io.github.ciprianotoor.omarchy-media"
+        ],
+        "commit": "76a7cecfd9174925c9f09502c512bd7540440bdd",
+        "checkedAt": "2026-10-05T14:59:47.838Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ciprianotoor/omarchy-media-plugin",
+        "pluginIds": [
+          "io.github.ciprianotoor.omarchy-media"
+        ],
+        "commit": "76a7cecfd9174925c9f09502c512bd7540440bdd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T14:59:47.838Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T14:45:41.915Z",
+        "requestEventId": 32519825837,
+        "requestedAt": "2026-10-05T14:59:02Z",
+        "reviewedAt": "2026-10-05T14:59:47.838Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.ciprianotoor.omarchy-media": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
