@@ -297722,6 +297722,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ForrestKnight/omarchy-key-promoter",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T16:10:14.429Z",
+      "listingValidatedCommit": "ecbfcc5c291bce1506f694d2d66b1ebffba1a5c9",
+      "listingValidatedAt": "2026-10-05T16:10:14.429Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "forrestknight/omarchy-key-promoter",
+        "pluginIds": [
+          "fkcodes.key-promoter"
+        ],
+        "commit": "ecbfcc5c291bce1506f694d2d66b1ebffba1a5c9",
+        "checkedAt": "2026-10-05T16:10:14.323Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "fkcodes.key-promoter": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
