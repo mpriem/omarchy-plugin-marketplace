@@ -296602,6 +296602,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/lucasvidela94/omarchy-cast",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T13:28:13.198Z",
+      "listingValidatedCommit": "fd2c479131b7699bce0597f85735d182a5995d5c",
+      "listingValidatedAt": "2026-10-05T13:28:13.198Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lucasvidela94/omarchy-cast",
+        "pluginIds": [
+          "io.github.lucasvidela94.cast"
+        ],
+        "commit": "fd2c479131b7699bce0597f85735d182a5995d5c",
+        "checkedAt": "2026-10-05T13:28:13.117Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lucasvidela94/omarchy-cast",
+        "pluginIds": [
+          "io.github.lucasvidela94.cast"
+        ],
+        "commit": "fd2c479131b7699bce0597f85735d182a5995d5c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T13:28:13.117Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T13:20:44.039Z",
+        "requestEventId": 32511690039,
+        "requestedAt": "2026-10-05T13:24:27Z",
+        "reviewedAt": "2026-10-05T13:28:13.117Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.lucasvidela94.cast": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
