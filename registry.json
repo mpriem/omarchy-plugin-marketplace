@@ -269052,8 +269052,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T15:18:02.020Z",
-      "listingValidatedCommit": "0d3d7e3380c4cf74f41344c44fc405d93148d4a4",
-      "listingValidatedAt": "2026-10-01T15:18:02.020Z",
+      "listingValidatedCommit": "03edb49f8526fcd452c475c49d40f5eb8f090a32",
+      "listingValidatedAt": "2026-10-05T11:57:38.883Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -269062,8 +269062,8 @@
         "pluginIds": [
           "thepixelgardener.omarchyform"
         ],
-        "commit": "0d3d7e3380c4cf74f41344c44fc405d93148d4a4",
-        "checkedAt": "2026-10-01T15:18:01.907Z",
+        "commit": "03edb49f8526fcd452c475c49d40f5eb8f090a32",
+        "checkedAt": "2026-10-05T11:57:38.883Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -269072,29 +269072,6 @@
           "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "thepixelgardener-create/omarchyform",
-        "pluginIds": [
-          "thepixelgardener.omarchyform"
-        ],
-        "commit": "0d3d7e3380c4cf74f41344c44fc405d93148d4a4",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T15:18:01.907Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-01T05:09:17.971Z",
-        "requestEventId": 32262023954,
-        "requestedAt": "2026-10-01T14:52:35Z",
-        "reviewedAt": "2026-10-01T15:18:01.907Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "thepixelgardener.omarchyform": {
@@ -269106,7 +269083,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "thepixelgardener-create/omarchyform",
+        "pluginIds": [
+          "thepixelgardener.omarchyform"
+        ],
+        "commit": "03edb49f8526fcd452c475c49d40f5eb8f090a32",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T11:57:38.883Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T10:05:21.825Z",
+        "requestEventId": 32504982142,
+        "requestedAt": "2026-10-05T11:57:09Z",
+        "reviewedAt": "2026-10-05T11:57:38.883Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0d3d7e3380c4cf74f41344c44fc405d93148d4a4",
+          "validatedAt": "2026-10-01T15:18:02.020Z",
+          "branch": "main",
+          "supersededAt": "2026-10-05T11:57:38.883Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "thepixelgardener-create/omarchyform",
+            "pluginIds": [
+              "thepixelgardener.omarchyform"
+            ],
+            "commit": "0d3d7e3380c4cf74f41344c44fc405d93148d4a4",
+            "checkedAt": "2026-10-01T15:18:01.907Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "thepixelgardener-create/omarchyform",
+            "pluginIds": [
+              "thepixelgardener.omarchyform"
+            ],
+            "commit": "0d3d7e3380c4cf74f41344c44fc405d93148d4a4",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T15:18:01.907Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T05:09:17.971Z",
+            "requestEventId": 32262023954,
+            "requestedAt": "2026-10-01T14:52:35Z",
+            "reviewedAt": "2026-10-01T15:18:01.907Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jhonoryza/omarchy-opencode-usage",
