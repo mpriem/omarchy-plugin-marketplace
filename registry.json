@@ -295548,6 +295548,42 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/yumenaka/comigo-omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T10:17:58.844Z",
+      "listingValidatedCommit": "a9d814e4f96c3e7c5aec9b851f4dcd70e9b1e7d7",
+      "listingValidatedAt": "2026-10-05T10:17:58.844Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yumenaka/comigo-omarchy",
+        "pluginIds": [
+          "yumenaka.comigo"
+        ],
+        "commit": "a9d814e4f96c3e7c5aec9b851f4dcd70e9b1e7d7",
+        "checkedAt": "2026-10-05T10:17:58.722Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "yumenaka.comigo": {
+          "category": "Other",
+          "tags": [
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
