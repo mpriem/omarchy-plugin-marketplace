@@ -293169,6 +293169,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/alexschexc/omarchy-pan-orthodox-daily",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T03:52:28.922Z",
+      "listingValidatedCommit": "46f62add8c6d91a9a86c4b0613dee73186964433",
+      "listingValidatedAt": "2026-10-05T03:52:28.922Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alexschexc/omarchy-pan-orthodox-daily",
+        "pluginIds": [
+          "io.gitlab.alexschex.pan-orthodox-daily"
+        ],
+        "commit": "46f62add8c6d91a9a86c4b0613dee73186964433",
+        "checkedAt": "2026-10-05T03:52:28.815Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.gitlab.alexschex.pan-orthodox-daily": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "education",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
