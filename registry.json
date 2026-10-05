@@ -294132,6 +294132,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/rkrdeano/omarchy-logitech",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T06:35:52.882Z",
+      "listingValidatedCommit": "10c7d7e35b5a83fa110d429da0519ecfc5d89b28",
+      "listingValidatedAt": "2026-10-05T06:35:52.882Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rkrdeano/omarchy-logitech",
+        "pluginIds": [
+          "io.github.rkrdeano.logitech"
+        ],
+        "commit": "10c7d7e35b5a83fa110d429da0519ecfc5d89b28",
+        "checkedAt": "2026-10-05T06:35:52.727Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rkrdeano/omarchy-logitech",
+        "pluginIds": [
+          "io.github.rkrdeano.logitech"
+        ],
+        "commit": "10c7d7e35b5a83fa110d429da0519ecfc5d89b28",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T06:35:52.727Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T06:22:09.130Z",
+        "requestEventId": 32482236272,
+        "requestedAt": "2026-10-05T06:26:17Z",
+        "reviewedAt": "2026-10-05T06:35:52.728Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.rkrdeano.logitech": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
