@@ -294756,6 +294756,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/goarstne/omarchy-agents",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T07:14:15.336Z",
+      "listingValidatedCommit": "66daad020a3f5a94c58dd59a9a1248fa67c25a02",
+      "listingValidatedAt": "2026-10-05T07:14:15.336Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "goarstne/omarchy-agents",
+        "pluginIds": [
+          "carsten.agents"
+        ],
+        "commit": "66daad020a3f5a94c58dd59a9a1248fa67c25a02",
+        "checkedAt": "2026-10-05T07:14:15.224Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "goarstne/omarchy-agents",
+        "pluginIds": [
+          "carsten.agents"
+        ],
+        "commit": "66daad020a3f5a94c58dd59a9a1248fa67c25a02",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T07:14:15.224Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T06:53:58.467Z",
+        "requestEventId": 32484949467,
+        "requestedAt": "2026-10-05T07:13:17Z",
+        "reviewedAt": "2026-10-05T07:14:15.224Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "carsten.agents": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
