@@ -292218,6 +292218,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/reysu/omarchy-tray-drawer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T01:29:05.489Z",
+      "listingValidatedCommit": "8f688a932ec8c4a10cd6b066084bc1d6ea351f2a",
+      "listingValidatedAt": "2026-10-05T01:29:05.489Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "reysu/omarchy-tray-drawer",
+        "pluginIds": [
+          "reysu.tray"
+        ],
+        "commit": "8f688a932ec8c4a10cd6b066084bc1d6ea351f2a",
+        "checkedAt": "2026-10-05T01:29:05.360Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "reysu.tray": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
