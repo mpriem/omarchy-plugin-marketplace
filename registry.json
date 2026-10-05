@@ -294075,6 +294075,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/missioncontrolceo/omacasts",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T06:30:52.996Z",
+      "listingValidatedCommit": "b6fc4406d1f0d12dd2aa27fc8583350cc6cb4016",
+      "listingValidatedAt": "2026-10-05T06:30:52.996Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "missioncontrolceo/omacasts",
+        "pluginIds": [
+          "missioncontrolceo.omacasts"
+        ],
+        "commit": "b6fc4406d1f0d12dd2aa27fc8583350cc6cb4016",
+        "checkedAt": "2026-10-05T06:30:52.864Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "missioncontrolceo/omacasts",
+        "pluginIds": [
+          "missioncontrolceo.omacasts"
+        ],
+        "commit": "b6fc4406d1f0d12dd2aa27fc8583350cc6cb4016",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T06:30:52.864Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T06:20:24.032Z",
+        "requestEventId": 32482127280,
+        "requestedAt": "2026-10-05T06:24:22Z",
+        "reviewedAt": "2026-10-05T06:30:52.864Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "missioncontrolceo.omacasts": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
