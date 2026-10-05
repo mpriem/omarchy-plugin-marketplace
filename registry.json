@@ -293604,6 +293604,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/LoamStudios/omarchy-contrast",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T04:37:12.053Z",
+      "listingValidatedCommit": "244ac0e6b41438e822453f9ef70ce4a90bd4a091",
+      "listingValidatedAt": "2026-10-05T04:37:12.053Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "loamstudios/omarchy-contrast",
+        "pluginIds": [
+          "loamstudios.contrast"
+        ],
+        "commit": "244ac0e6b41438e822453f9ef70ce4a90bd4a091",
+        "checkedAt": "2026-10-05T04:37:11.931Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "loamstudios.contrast": {
+          "category": "Developer Tools",
+          "tags": [
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
