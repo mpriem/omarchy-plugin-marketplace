@@ -296999,6 +296999,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nagualcode/omarchy-quickmail-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T14:32:20.694Z",
+      "listingValidatedCommit": "521329ac96ad1f2749585a9a4df7e680d1de23f4",
+      "listingValidatedAt": "2026-10-05T14:32:20.694Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nagualcode/omarchy-quickmail-plugin",
+        "pluginIds": [
+          "nagualcode.quickmail"
+        ],
+        "commit": "521329ac96ad1f2749585a9a4df7e680d1de23f4",
+        "checkedAt": "2026-10-05T14:32:20.563Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "package-manager",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nagualcode/omarchy-quickmail-plugin",
+        "pluginIds": [
+          "nagualcode.quickmail"
+        ],
+        "commit": "521329ac96ad1f2749585a9a4df7e680d1de23f4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T14:32:20.563Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "package-manager",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T14:20:01.781Z",
+        "requestEventId": 32517434869,
+        "requestedAt": "2026-10-05T14:31:07Z",
+        "reviewedAt": "2026-10-05T14:32:20.563Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "nagualcode.quickmail": {
+          "category": "Widgets",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
