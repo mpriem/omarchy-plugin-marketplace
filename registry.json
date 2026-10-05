@@ -292313,6 +292313,61 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Akira-80kv/omatris",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T01:40:38.474Z",
+      "listingValidatedCommit": "fa7199c110caba83d6e35cd8254429c275d0b14f",
+      "listingValidatedAt": "2026-10-05T01:40:38.474Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "akira-80kv/omatris",
+        "pluginIds": [
+          "com.80kv.omatris"
+        ],
+        "commit": "fa7199c110caba83d6e35cd8254429c275d0b14f",
+        "checkedAt": "2026-10-05T01:40:38.363Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "akira-80kv/omatris",
+        "pluginIds": [
+          "com.80kv.omatris"
+        ],
+        "commit": "fa7199c110caba83d6e35cd8254429c275d0b14f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T01:40:38.363Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T01:38:15.441Z",
+        "requestEventId": 32470726258,
+        "requestedAt": "2026-10-05T01:40:11Z",
+        "reviewedAt": "2026-10-05T01:40:38.363Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "com.80kv.omatris": {
+          "category": "Other",
+          "tags": [
+            "games"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
