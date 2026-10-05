@@ -278677,8 +278677,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T03:54:46.120Z",
-      "listingValidatedCommit": "f9d37f012b6b9ab687dd3f37c20111d88cec88d7",
-      "listingValidatedAt": "2026-10-04T19:28:18.894Z",
+      "listingValidatedCommit": "44fc18d12d7fbceca3d62a31abd1e05b65964827",
+      "listingValidatedAt": "2026-10-05T23:25:45.369Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -278687,8 +278687,8 @@
         "pluginIds": [
           "bramvanoploo.omarchy-t2-linux"
         ],
-        "commit": "f9d37f012b6b9ab687dd3f37c20111d88cec88d7",
-        "checkedAt": "2026-10-04T19:28:18.894Z",
+        "commit": "44fc18d12d7fbceca3d62a31abd1e05b65964827",
+        "checkedAt": "2026-10-05T23:25:45.369Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -278708,29 +278708,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "bramvanoploo/omarchy-t2-linux",
-        "pluginIds": [
-          "bramvanoploo.omarchy-t2-linux"
-        ],
-        "commit": "f9d37f012b6b9ab687dd3f37c20111d88cec88d7",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T19:28:18.894Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T19:09:22.954Z",
-        "requestEventId": 32458085562,
-        "requestedAt": "2026-10-04T19:27:55Z",
-        "reviewedAt": "2026-10-04T19:28:18.894Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -278779,8 +278756,78 @@
             "reviewedAt": "2026-10-02T03:54:46.000Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "f9d37f012b6b9ab687dd3f37c20111d88cec88d7",
+          "validatedAt": "2026-10-04T19:28:18.894Z",
+          "branch": "main",
+          "supersededAt": "2026-10-05T23:25:45.369Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bramvanoploo/omarchy-t2-linux",
+            "pluginIds": [
+              "bramvanoploo.omarchy-t2-linux"
+            ],
+            "commit": "f9d37f012b6b9ab687dd3f37c20111d88cec88d7",
+            "checkedAt": "2026-10-04T19:28:18.894Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "bramvanoploo/omarchy-t2-linux",
+            "pluginIds": [
+              "bramvanoploo.omarchy-t2-linux"
+            ],
+            "commit": "f9d37f012b6b9ab687dd3f37c20111d88cec88d7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T19:28:18.894Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T19:09:22.954Z",
+            "requestEventId": 32458085562,
+            "requestedAt": "2026-10-04T19:27:55Z",
+            "reviewedAt": "2026-10-04T19:28:18.894Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bramvanoploo/omarchy-t2-linux",
+        "pluginIds": [
+          "bramvanoploo.omarchy-t2-linux"
+        ],
+        "commit": "44fc18d12d7fbceca3d62a31abd1e05b65964827",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T23:25:45.369Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T21:30:18.873Z",
+        "requestEventId": 32553207280,
+        "requestedAt": "2026-10-05T23:25:04Z",
+        "reviewedAt": "2026-10-05T23:25:45.369Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/hanoixan/moush",
