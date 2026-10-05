@@ -291710,8 +291710,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T21:37:50.671Z",
-      "listingValidatedCommit": "cb5a328f9084aa652364edd6f957004343bb843b",
-      "listingValidatedAt": "2026-10-04T22:26:14.153Z",
+      "listingValidatedCommit": "87613fc88fa84aef7f6ae398e23881ace0e3d64b",
+      "listingValidatedAt": "2026-10-05T10:25:08.545Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -291720,8 +291720,8 @@
         "pluginIds": [
           "renan.wallpaper-cutter"
         ],
-        "commit": "cb5a328f9084aa652364edd6f957004343bb843b",
-        "checkedAt": "2026-10-04T22:26:14.153Z",
+        "commit": "87613fc88fa84aef7f6ae398e23881ace0e3d64b",
+        "checkedAt": "2026-10-05T10:25:08.545Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -291785,6 +291785,49 @@
             "reviewedAt": "2026-10-04T21:37:50.546Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "cb5a328f9084aa652364edd6f957004343bb843b",
+          "validatedAt": "2026-10-04T22:26:14.153Z",
+          "branch": "main",
+          "supersededAt": "2026-10-05T10:25:08.545Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "renanmt/omarchy-wallpaper-cutter",
+            "pluginIds": [
+              "renan.wallpaper-cutter"
+            ],
+            "commit": "cb5a328f9084aa652364edd6f957004343bb843b",
+            "checkedAt": "2026-10-04T22:26:14.153Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "renanmt/omarchy-wallpaper-cutter",
+            "pluginIds": [
+              "renan.wallpaper-cutter"
+            ],
+            "commit": "cb5a328f9084aa652364edd6f957004343bb843b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T22:26:14.153Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T22:21:28.497Z",
+            "requestEventId": 32464260029,
+            "requestedAt": "2026-10-04T22:25:46Z",
+            "reviewedAt": "2026-10-04T22:26:14.153Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -291793,19 +291836,19 @@
         "pluginIds": [
           "renan.wallpaper-cutter"
         ],
-        "commit": "cb5a328f9084aa652364edd6f957004343bb843b",
+        "commit": "87613fc88fa84aef7f6ae398e23881ace0e3d64b",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T22:26:14.153Z",
+        "baselineCheckedAt": "2026-10-05T10:25:08.545Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-04T22:21:28.497Z",
-        "requestEventId": 32464260029,
-        "requestedAt": "2026-10-04T22:25:46Z",
-        "reviewedAt": "2026-10-04T22:26:14.153Z",
+        "reviewedBaselineCheckedAt": "2026-10-05T00:40:14.566Z",
+        "requestEventId": 32498540394,
+        "requestedAt": "2026-10-05T10:24:40Z",
+        "reviewedAt": "2026-10-05T10:25:08.545Z",
         "reviewer": "HANCORE-linux"
       }
     },
