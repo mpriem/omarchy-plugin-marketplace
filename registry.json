@@ -297439,6 +297439,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/mohammadshakeralhusban-ctrl/omarchy-audio-player",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T15:21:35.656Z",
+      "listingValidatedCommit": "e47d2c77c6b5b5f3eb1c52a9817fc05c38c2b9cf",
+      "listingValidatedAt": "2026-10-05T15:21:35.656Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mohammadshakeralhusban-ctrl/omarchy-audio-player",
+        "pluginIds": [
+          "mohammad284284.caelestia-audio"
+        ],
+        "commit": "e47d2c77c6b5b5f3eb1c52a9817fc05c38c2b9cf",
+        "checkedAt": "2026-10-05T15:21:35.529Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "mohammad284284.caelestia-audio": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
