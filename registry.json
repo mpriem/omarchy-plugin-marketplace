@@ -292740,6 +292740,44 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nixfred/omarchy-local-intelligence",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T02:43:26.458Z",
+      "listingValidatedCommit": "77bc3d4fbf695bf1ea83c53fb5e676df458b68c8",
+      "listingValidatedAt": "2026-10-05T02:43:26.458Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nixfred/omarchy-local-intelligence",
+        "pluginIds": [
+          "io.github.nixfred.local-intelligence"
+        ],
+        "commit": "77bc3d4fbf695bf1ea83c53fb5e676df458b68c8",
+        "checkedAt": "2026-10-05T02:43:26.371Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.nixfred.local-intelligence": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
