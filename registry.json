@@ -299085,6 +299085,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/cgranier/omarchy-drop-shelf",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T21:58:43.241Z",
+      "listingValidatedCommit": "7a185b950bf483d5af79ded6215c951e32794314",
+      "listingValidatedAt": "2026-10-05T21:58:43.241Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cgranier/omarchy-drop-shelf",
+        "pluginIds": [
+          "cgranier.dropshelf"
+        ],
+        "commit": "7a185b950bf483d5af79ded6215c951e32794314",
+        "checkedAt": "2026-10-05T21:58:43.120Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "cgranier.dropshelf": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
