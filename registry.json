@@ -294525,6 +294525,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/joisephdev/omarchy-usage-notch",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T06:58:14.473Z",
+      "listingValidatedCommit": "1096716ea90cc3cea96a6f5a400af290da5752d8",
+      "listingValidatedAt": "2026-10-05T06:58:14.473Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "joisephdev/omarchy-usage-notch",
+        "pluginIds": [
+          "synapsync.usage-notch"
+        ],
+        "commit": "1096716ea90cc3cea96a6f5a400af290da5752d8",
+        "checkedAt": "2026-10-05T06:58:14.373Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "joisephdev/omarchy-usage-notch",
+        "pluginIds": [
+          "synapsync.usage-notch"
+        ],
+        "commit": "1096716ea90cc3cea96a6f5a400af290da5752d8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T06:58:14.373Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T06:38:02.153Z",
+        "requestEventId": 32483193190,
+        "requestedAt": "2026-10-05T06:43:38Z",
+        "reviewedAt": "2026-10-05T06:58:14.373Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "synapsync.usage-notch": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
