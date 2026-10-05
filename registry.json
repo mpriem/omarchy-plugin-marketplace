@@ -298850,6 +298850,44 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/DominikZajac/omarchy-appspace",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T21:42:50.158Z",
+      "listingValidatedCommit": "cef58f7dc5ad280e513a117a7c466bfdd2c4a473",
+      "listingValidatedAt": "2026-10-05T21:42:50.158Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dominikzajac/omarchy-appspace",
+        "pluginIds": [
+          "dominikzajac.appspace"
+        ],
+        "commit": "cef58f7dc5ad280e513a117a7c466bfdd2c4a473",
+        "checkedAt": "2026-10-05T21:42:50.078Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "dominikzajac.appspace": {
+          "category": "Desktop",
+          "tags": [
+            "workspaces",
+            "hyprland",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
