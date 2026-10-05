@@ -292877,6 +292877,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/gamisn/omarchy-plugin-manager",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T03:06:13.040Z",
+      "listingValidatedCommit": "2c87c61bdd40c073bb23d91f6808aecf8d69a3db",
+      "listingValidatedAt": "2026-10-05T03:06:13.040Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gamisn/omarchy-plugin-manager",
+        "pluginIds": [
+          "gamisn.plugin-manager"
+        ],
+        "commit": "2c87c61bdd40c073bb23d91f6808aecf8d69a3db",
+        "checkedAt": "2026-10-05T03:06:12.911Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "gamisn.plugin-manager": {
+          "category": "System",
+          "tags": [
+            "system",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
