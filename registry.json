@@ -293032,6 +293032,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/VisorDTE/FocusPlease",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T03:40:44.720Z",
+      "listingValidatedCommit": "084a69c5b8de0d4399989a05417a5cb8b6af25f4",
+      "listingValidatedAt": "2026-10-05T03:40:44.720Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "visordte/focusplease",
+        "pluginIds": [
+          "jose.focusplease"
+        ],
+        "commit": "084a69c5b8de0d4399989a05417a5cb8b6af25f4",
+        "checkedAt": "2026-10-05T03:40:44.633Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "jose.focusplease": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
