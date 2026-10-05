@@ -292969,6 +292969,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mahardhitama/omarchy-wireguard-redux",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T03:37:37.684Z",
+      "listingValidatedCommit": "af853fe02d7f2c253a1caff3960f2a6fed39922d",
+      "listingValidatedAt": "2026-10-05T03:37:37.684Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mahardhitama/omarchy-wireguard-redux",
+        "pluginIds": [
+          "prasetya.wireguard-redux"
+        ],
+        "commit": "af853fe02d7f2c253a1caff3960f2a6fed39922d",
+        "checkedAt": "2026-10-05T03:37:37.532Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mahardhitama/omarchy-wireguard-redux",
+        "pluginIds": [
+          "prasetya.wireguard-redux"
+        ],
+        "commit": "af853fe02d7f2c253a1caff3960f2a6fed39922d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T03:37:37.532Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T03:26:38.255Z",
+        "requestEventId": 32474996090,
+        "requestedAt": "2026-10-05T03:37:06Z",
+        "reviewedAt": "2026-10-05T03:37:37.532Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "prasetya.wireguard-redux": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "security",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
