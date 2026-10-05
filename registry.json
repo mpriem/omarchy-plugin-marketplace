@@ -298149,6 +298149,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/alcure/omansory",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T17:42:43.887Z",
+      "listingValidatedCommit": "7cd8bff10fa0c47e5025d10efa2605e44721a717",
+      "listingValidatedAt": "2026-10-05T17:42:43.887Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alcure/omansory",
+        "pluginIds": [
+          "alcure.omansory"
+        ],
+        "commit": "7cd8bff10fa0c47e5025d10efa2605e44721a717",
+        "checkedAt": "2026-10-05T17:42:43.726Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alcure/omansory",
+        "pluginIds": [
+          "alcure.omansory"
+        ],
+        "commit": "7cd8bff10fa0c47e5025d10efa2605e44721a717",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T17:42:43.726Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T17:38:30.280Z",
+        "requestEventId": 32532196623,
+        "requestedAt": "2026-10-05T17:42:11Z",
+        "reviewedAt": "2026-10-05T17:42:43.726Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "alcure.omansory": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
