@@ -295516,6 +295516,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/born2ngopi/prayertime",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T10:05:48.017Z",
+      "listingValidatedCommit": "e4d6da921b801fd9e9c68c1954abf22ff5c0e94c",
+      "listingValidatedAt": "2026-10-05T10:05:48.017Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "born2ngopi/prayertime",
+        "pluginIds": [
+          "born2ngopi.prayertime"
+        ],
+        "commit": "e4d6da921b801fd9e9c68c1954abf22ff5c0e94c",
+        "checkedAt": "2026-10-05T10:05:47.903Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "born2ngopi.prayertime": {
+          "category": "Widgets",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
