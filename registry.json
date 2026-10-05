@@ -292541,6 +292541,75 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Wizmo-inc/plasmarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T02:30:11.535Z",
+      "listingValidatedCommit": "811593fffa327e29c1a0b76d2196a097514bb836",
+      "listingValidatedAt": "2026-10-05T02:30:11.535Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "wizmo-inc/plasmarchy",
+        "pluginIds": [
+          "io.github.wizmoinc.plasmarchy"
+        ],
+        "commit": "811593fffa327e29c1a0b76d2196a097514bb836",
+        "checkedAt": "2026-10-05T02:30:11.415Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "service-management",
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "wizmo-inc/plasmarchy",
+        "pluginIds": [
+          "io.github.wizmoinc.plasmarchy"
+        ],
+        "commit": "811593fffa327e29c1a0b76d2196a097514bb836",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T02:30:11.415Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "service-management",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T02:26:45.155Z",
+        "requestEventId": 32472545207,
+        "requestedAt": "2026-10-05T02:29:46Z",
+        "reviewedAt": "2026-10-05T02:30:11.415Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.wizmoinc.plasmarchy": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
