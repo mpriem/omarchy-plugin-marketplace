@@ -297598,6 +297598,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mattash/omarchy-fastandpray",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T15:42:17.747Z",
+      "listingValidatedCommit": "e9f4f44267aa6a095116da4beb5373cb604b9c92",
+      "listingValidatedAt": "2026-10-05T15:42:17.747Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mattash/omarchy-fastandpray",
+        "pluginIds": [
+          "fastandpray.calendar"
+        ],
+        "commit": "e9f4f44267aa6a095116da4beb5373cb604b9c92",
+        "checkedAt": "2026-10-05T15:42:17.617Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "fastandpray.calendar": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "education"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
