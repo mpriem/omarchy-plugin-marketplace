@@ -299211,6 +299211,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/diegogardini/omarchy-rain-radar-denmark-widget",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T22:09:30.719Z",
+      "listingValidatedCommit": "ad86f8493f76435059466a85eeb387ff4dc3c8ae",
+      "listingValidatedAt": "2026-10-05T22:09:30.719Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "diegogardini/omarchy-rain-radar-denmark-widget",
+        "pluginIds": [
+          "io.github.diegogardini.omarchy-rain-radar-denmark-widget"
+        ],
+        "commit": "ad86f8493f76435059466a85eeb387ff4dc3c8ae",
+        "checkedAt": "2026-10-05T22:09:30.619Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "diegogardini/omarchy-rain-radar-denmark-widget",
+        "pluginIds": [
+          "io.github.diegogardini.omarchy-rain-radar-denmark-widget"
+        ],
+        "commit": "ad86f8493f76435059466a85eeb387ff4dc3c8ae",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T22:09:30.619Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T21:53:16.435Z",
+        "requestEventId": 32548615706,
+        "requestedAt": "2026-10-05T22:06:03Z",
+        "reviewedAt": "2026-10-05T22:09:30.619Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.diegogardini.omarchy-rain-radar-denmark-widget": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
