@@ -296494,6 +296494,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/johndrcombs-cmd/omarchy-insta360-link",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T13:03:46.261Z",
+      "listingValidatedCommit": "0d55a6f574c7b0c1bab404430c1069f20267a809",
+      "listingValidatedAt": "2026-10-05T13:03:46.261Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "johndrcombs-cmd/omarchy-insta360-link",
+        "pluginIds": [
+          "john.insta360-link"
+        ],
+        "commit": "0d55a6f574c7b0c1bab404430c1069f20267a809",
+        "checkedAt": "2026-10-05T13:03:46.129Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "johndrcombs-cmd/omarchy-insta360-link",
+        "pluginIds": [
+          "john.insta360-link"
+        ],
+        "commit": "0d55a6f574c7b0c1bab404430c1069f20267a809",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T13:03:46.129Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T12:58:04.860Z",
+        "requestEventId": 32509903572,
+        "requestedAt": "2026-10-05T13:03:20Z",
+        "reviewedAt": "2026-10-05T13:03:46.130Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "john.insta360-link": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
