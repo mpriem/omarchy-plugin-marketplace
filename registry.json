@@ -297631,6 +297631,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/rogersmitha51/omarchy-keylight",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T15:49:36.021Z",
+      "listingValidatedCommit": "20a99429833b3d77d4b78cefd962b5bf72f725e0",
+      "listingValidatedAt": "2026-10-05T15:49:36.021Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rogersmitha51/omarchy-keylight",
+        "pluginIds": [
+          "io.github.rogersmitha51.keylight"
+        ],
+        "commit": "20a99429833b3d77d4b78cefd962b5bf72f725e0",
+        "checkedAt": "2026-10-05T15:49:35.887Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.rogersmitha51.keylight": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "power-management",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
