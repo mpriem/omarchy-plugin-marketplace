@@ -284404,8 +284404,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T05:15:33.938Z",
-      "listingValidatedCommit": "2353a8a2cfdb0d93217d045ebcb67d6bf5aabd76",
-      "listingValidatedAt": "2026-10-03T05:15:33.938Z",
+      "listingValidatedCommit": "596bbe2691206d39025a08bde41790afa7ddf3ec",
+      "listingValidatedAt": "2026-10-05T10:56:46.632Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -284414,37 +284414,12 @@
         "pluginIds": [
           "io.github.mindows.mib-afterdark"
         ],
-        "commit": "2353a8a2cfdb0d93217d045ebcb67d6bf5aabd76",
-        "checkedAt": "2026-10-03T05:15:33.827Z",
-        "outcome": "review-required",
+        "commit": "596bbe2691206d39025a08bde41790afa7ddf3ec",
+        "checkedAt": "2026-10-05T10:56:46.632Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": [
-          "privilege",
-          "remote-build"
-        ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "mindows/mib-afterdark",
-        "pluginIds": [
-          "io.github.mindows.mib-afterdark"
-        ],
-        "commit": "2353a8a2cfdb0d93217d045ebcb67d6bf5aabd76",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-03T05:15:33.827Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-03T05:03:46.022Z",
-        "requestEventId": 32382832825,
-        "requestedAt": "2026-10-03T05:15:05Z",
-        "reviewedAt": "2026-10-03T05:15:33.827Z",
-        "reviewer": "HANCORE-linux"
+        "capabilities": []
       },
       "plugins": {
         "io.github.mindows.mib-afterdark": {
@@ -284455,7 +284430,54 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2353a8a2cfdb0d93217d045ebcb67d6bf5aabd76",
+          "validatedAt": "2026-10-03T05:15:33.938Z",
+          "branch": "main",
+          "supersededAt": "2026-10-05T10:56:46.632Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mindows/mib-afterdark",
+            "pluginIds": [
+              "io.github.mindows.mib-afterdark"
+            ],
+            "commit": "2353a8a2cfdb0d93217d045ebcb67d6bf5aabd76",
+            "checkedAt": "2026-10-03T05:15:33.827Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "mindows/mib-afterdark",
+            "pluginIds": [
+              "io.github.mindows.mib-afterdark"
+            ],
+            "commit": "2353a8a2cfdb0d93217d045ebcb67d6bf5aabd76",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-03T05:15:33.827Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-03T05:03:46.022Z",
+            "requestEventId": 32382832825,
+            "requestedAt": "2026-10-03T05:15:05Z",
+            "reviewedAt": "2026-10-03T05:15:33.827Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/tcballard/omarchy-plugin-workbench",
