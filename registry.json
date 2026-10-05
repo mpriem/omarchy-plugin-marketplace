@@ -296204,6 +296204,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/vidasleimonas-png/omarchy-cava-visualizer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T12:16:17.623Z",
+      "listingValidatedCommit": "5dde6dfa3b1a3e2edc4bd0026cc3926c090488f9",
+      "listingValidatedAt": "2026-10-05T12:16:17.623Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "vidasleimonas-png/omarchy-cava-visualizer",
+        "pluginIds": [
+          "io.github.vidasleimonas-png.cava-visualizer"
+        ],
+        "commit": "5dde6dfa3b1a3e2edc4bd0026cc3926c090488f9",
+        "checkedAt": "2026-10-05T12:16:17.505Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "vidasleimonas-png/omarchy-cava-visualizer",
+        "pluginIds": [
+          "io.github.vidasleimonas-png.cava-visualizer"
+        ],
+        "commit": "5dde6dfa3b1a3e2edc4bd0026cc3926c090488f9",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T12:16:17.505Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T12:06:29.164Z",
+        "requestEventId": 32506352364,
+        "requestedAt": "2026-10-05T12:15:45Z",
+        "reviewedAt": "2026-10-05T12:16:17.505Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.vidasleimonas-png.cava-visualizer": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
