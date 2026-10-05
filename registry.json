@@ -293512,6 +293512,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/robertlindomar/omarchy-ptbr-monitor",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T04:30:58.800Z",
+      "listingValidatedCommit": "073e0d972ffd481cb8e2fca0c56a75d48353c8dd",
+      "listingValidatedAt": "2026-10-05T04:30:58.800Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "robertlindomar/omarchy-ptbr-monitor",
+        "pluginIds": [
+          "robertlindomar.omarchy-ptbr.monitor"
+        ],
+        "commit": "073e0d972ffd481cb8e2fca0c56a75d48353c8dd",
+        "checkedAt": "2026-10-05T04:30:58.670Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "robertlindomar.omarchy-ptbr.monitor": {
+          "category": "Hardware",
+          "tags": [
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
