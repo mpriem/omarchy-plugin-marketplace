@@ -295388,6 +295388,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mrc04d/omarchy-opencode-go",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T09:50:04.588Z",
+      "listingValidatedCommit": "e43a17ea3ad82f09c514be869ed5fb5992708d1e",
+      "listingValidatedAt": "2026-10-05T09:50:04.588Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mrc04d/omarchy-opencode-go",
+        "pluginIds": [
+          "io.github.mrc04d.opencode-go"
+        ],
+        "commit": "e43a17ea3ad82f09c514be869ed5fb5992708d1e",
+        "checkedAt": "2026-10-05T09:50:04.490Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.mrc04d.opencode-go": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
