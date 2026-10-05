@@ -291995,6 +291995,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ivan-theaitradeoff/meshcore-atlas",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T00:26:20.938Z",
+      "listingValidatedCommit": "4ca2b2edd2ecdf977ea8faa7ae4ee888afbe38f1",
+      "listingValidatedAt": "2026-10-05T00:26:20.938Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ivan-theaitradeoff/meshcore-atlas",
+        "pluginIds": [
+          "meshcore.atlas"
+        ],
+        "commit": "4ca2b2edd2ecdf977ea8faa7ae4ee888afbe38f1",
+        "checkedAt": "2026-10-05T00:26:20.843Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management",
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ivan-theaitradeoff/meshcore-atlas",
+        "pluginIds": [
+          "meshcore.atlas"
+        ],
+        "commit": "4ca2b2edd2ecdf977ea8faa7ae4ee888afbe38f1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T00:26:20.843Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T00:24:39.756Z",
+        "requestEventId": 32468102334,
+        "requestedAt": "2026-10-05T00:25:54Z",
+        "reviewedAt": "2026-10-05T00:26:20.843Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "meshcore.atlas": {
+          "category": "Hardware",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
