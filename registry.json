@@ -298086,6 +298086,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ayandexyz/omarchy-android-mirror",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T17:36:41.889Z",
+      "listingValidatedCommit": "63306320d1297437117e9a593162b14ba8488ae7",
+      "listingValidatedAt": "2026-10-05T17:36:41.889Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ayandexyz/omarchy-android-mirror",
+        "pluginIds": [
+          "io.github.ayan-de.android-mirror"
+        ],
+        "commit": "63306320d1297437117e9a593162b14ba8488ae7",
+        "checkedAt": "2026-10-05T17:36:41.802Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ayandexyz/omarchy-android-mirror",
+        "pluginIds": [
+          "io.github.ayan-de.android-mirror"
+        ],
+        "commit": "63306320d1297437117e9a593162b14ba8488ae7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-05T17:36:41.802Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T17:27:09.665Z",
+        "requestEventId": 32531775495,
+        "requestedAt": "2026-10-05T17:36:10Z",
+        "reviewedAt": "2026-10-05T17:36:41.802Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.ayan-de.android-mirror": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "hyprland",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
