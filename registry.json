@@ -286414,8 +286414,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T13:56:48.501Z",
-      "listingValidatedCommit": "e1f057c5b3af06907ce368657e8fa222881612af",
-      "listingValidatedAt": "2026-10-04T17:04:37.813Z",
+      "listingValidatedCommit": "18a9e8329b9c7f6e8a1e6072dbf6ccc5d0bc14fd",
+      "listingValidatedAt": "2026-10-05T15:03:14.858Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -286424,8 +286424,8 @@
         "pluginIds": [
           "io.github.linuskelsey.omahub"
         ],
-        "commit": "e1f057c5b3af06907ce368657e8fa222881612af",
-        "checkedAt": "2026-10-04T17:04:37.813Z",
+        "commit": "18a9e8329b9c7f6e8a1e6072dbf6ccc5d0bc14fd",
+        "checkedAt": "2026-10-05T15:03:14.858Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -286530,6 +286530,49 @@
             "reviewedAt": "2026-10-03T21:59:08.400Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "e1f057c5b3af06907ce368657e8fa222881612af",
+          "validatedAt": "2026-10-04T17:04:37.813Z",
+          "branch": "main",
+          "supersededAt": "2026-10-05T15:03:14.858Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "linuskelsey/omahub",
+            "pluginIds": [
+              "io.github.linuskelsey.omahub"
+            ],
+            "commit": "e1f057c5b3af06907ce368657e8fa222881612af",
+            "checkedAt": "2026-10-04T17:04:37.813Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "linuskelsey/omahub",
+            "pluginIds": [
+              "io.github.linuskelsey.omahub"
+            ],
+            "commit": "e1f057c5b3af06907ce368657e8fa222881612af",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T17:04:37.813Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T16:55:56.433Z",
+            "requestEventId": 32453040109,
+            "requestedAt": "2026-10-04T17:04:08Z",
+            "reviewedAt": "2026-10-04T17:04:37.813Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -286538,19 +286581,19 @@
         "pluginIds": [
           "io.github.linuskelsey.omahub"
         ],
-        "commit": "e1f057c5b3af06907ce368657e8fa222881612af",
+        "commit": "18a9e8329b9c7f6e8a1e6072dbf6ccc5d0bc14fd",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T17:04:37.813Z",
+        "baselineCheckedAt": "2026-10-05T15:03:14.858Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-04T16:55:56.433Z",
-        "requestEventId": 32453040109,
-        "requestedAt": "2026-10-04T17:04:08Z",
-        "reviewedAt": "2026-10-04T17:04:37.813Z",
+        "reviewedBaselineCheckedAt": "2026-10-05T14:36:21.330Z",
+        "requestEventId": 32519850241,
+        "requestedAt": "2026-10-05T14:59:21Z",
+        "reviewedAt": "2026-10-05T15:03:14.858Z",
         "reviewer": "HANCORE-linux"
       }
     },
