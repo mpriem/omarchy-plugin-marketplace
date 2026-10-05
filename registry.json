@@ -293267,6 +293267,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/robertlindomar/omarchy-ptbr-speedtest",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T04:01:49.032Z",
+      "listingValidatedCommit": "bf441058f0d6f182938aba657a54e77e906d2af1",
+      "listingValidatedAt": "2026-10-05T04:01:49.032Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "robertlindomar/omarchy-ptbr-speedtest",
+        "pluginIds": [
+          "robertlindomar.omarchy-ptbr.speedtest"
+        ],
+        "commit": "bf441058f0d6f182938aba657a54e77e906d2af1",
+        "checkedAt": "2026-10-05T04:01:48.955Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "robertlindomar.omarchy-ptbr.speedtest": {
+          "category": "System",
+          "tags": [
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
