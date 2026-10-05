@@ -292706,6 +292706,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/itsdotdev/omarchy-dock",
+      "type": "plugin-source",
+      "addedAt": "2026-10-05",
+      "listedAt": "2026-10-05T02:40:24.115Z",
+      "listingValidatedCommit": "53f70c0a28f7830916ebffc553bcf28fc7c51ff9",
+      "listingValidatedAt": "2026-10-05T02:40:24.115Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "itsdotdev/omarchy-dock",
+        "pluginIds": [
+          "io.github.itsdotdev.dock"
+        ],
+        "commit": "53f70c0a28f7830916ebffc553bcf28fc7c51ff9",
+        "checkedAt": "2026-10-05T02:40:23.990Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.itsdotdev.dock": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
