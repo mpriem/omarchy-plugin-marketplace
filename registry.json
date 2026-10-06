@@ -276078,8 +276078,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T01:28:00.637Z",
-      "listingValidatedCommit": "486e6e8baa26ab599e1cd7e3d44989d0b6e1665b",
-      "listingValidatedAt": "2026-10-03T11:46:47.510Z",
+      "listingValidatedCommit": "e47e190f8287eb1d66d9a949489bae75cc9d8fe2",
+      "listingValidatedAt": "2026-10-06T01:12:07.139Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -276088,8 +276088,8 @@
         "pluginIds": [
           "tempest-chaoscreator.omaflow"
         ],
-        "commit": "486e6e8baa26ab599e1cd7e3d44989d0b6e1665b",
-        "checkedAt": "2026-10-03T11:46:47.510Z",
+        "commit": "e47e190f8287eb1d66d9a949489bae75cc9d8fe2",
+        "checkedAt": "2026-10-06T01:12:07.139Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -276115,31 +276115,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "tempest-chaoscreator/omaflow",
-        "pluginIds": [
-          "tempest-chaoscreator.omaflow"
-        ],
-        "commit": "486e6e8baa26ab599e1cd7e3d44989d0b6e1665b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-03T11:46:47.510Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "service-management",
-          "privilege",
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-03T11:18:02.011Z",
-        "requestEventId": 32395129444,
-        "requestedAt": "2026-10-03T11:45:59Z",
-        "reviewedAt": "2026-10-03T11:46:47.510Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -276190,8 +276165,84 @@
             "reviewedAt": "2026-10-02T01:28:00.509Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "486e6e8baa26ab599e1cd7e3d44989d0b6e1665b",
+          "validatedAt": "2026-10-03T11:46:47.510Z",
+          "branch": "master",
+          "supersededAt": "2026-10-06T01:12:07.139Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tempest-chaoscreator/omaflow",
+            "pluginIds": [
+              "tempest-chaoscreator.omaflow"
+            ],
+            "commit": "486e6e8baa26ab599e1cd7e3d44989d0b6e1665b",
+            "checkedAt": "2026-10-03T11:46:47.510Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "privilege",
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "tempest-chaoscreator/omaflow",
+            "pluginIds": [
+              "tempest-chaoscreator.omaflow"
+            ],
+            "commit": "486e6e8baa26ab599e1cd7e3d44989d0b6e1665b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-03T11:46:47.510Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "privilege",
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-03T11:18:02.011Z",
+            "requestEventId": 32395129444,
+            "requestedAt": "2026-10-03T11:45:59Z",
+            "reviewedAt": "2026-10-03T11:46:47.510Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tempest-chaoscreator/omaflow",
+        "pluginIds": [
+          "tempest-chaoscreator.omaflow"
+        ],
+        "commit": "e47e190f8287eb1d66d9a949489bae75cc9d8fe2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T01:12:07.139Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "privilege",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T00:03:14.085Z",
+        "requestEventId": 32558760665,
+        "requestedAt": "2026-10-06T01:11:40Z",
+        "reviewedAt": "2026-10-06T01:12:07.139Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/hshindys/omarchy-medkit",
