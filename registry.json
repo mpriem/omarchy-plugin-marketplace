@@ -219161,8 +219161,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T20:17:02.618Z",
-      "listingValidatedCommit": "9c8c1c115835d9a6857f25886020c81a5cdf6cea",
-      "listingValidatedAt": "2026-09-21T20:17:02.618Z",
+      "listingValidatedCommit": "e2daa102eb5043706bbaa0fa41dbcb62c68c879a",
+      "listingValidatedAt": "2026-10-06T06:22:00.807Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -219171,8 +219171,8 @@
         "pluginIds": [
           "io.github.leosilver.gap-resize"
         ],
-        "commit": "9c8c1c115835d9a6857f25886020c81a5cdf6cea",
-        "checkedAt": "2026-09-21T20:17:02.519Z",
+        "commit": "e2daa102eb5043706bbaa0fa41dbcb62c68c879a",
+        "checkedAt": "2026-10-06T06:22:00.807Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -219188,7 +219188,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "9c8c1c115835d9a6857f25886020c81a5cdf6cea",
+          "validatedAt": "2026-09-21T20:17:02.618Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T06:22:00.807Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "happylde/omarchy-gap-resize",
+            "pluginIds": [
+              "io.github.leosilver.gap-resize"
+            ],
+            "commit": "9c8c1c115835d9a6857f25886020c81a5cdf6cea",
+            "checkedAt": "2026-09-21T20:17:02.519Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/D3m0nZOnFire/clock-fr",
