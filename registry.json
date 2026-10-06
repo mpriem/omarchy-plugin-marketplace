@@ -301493,6 +301493,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/maximxmoroz/omarchy-windows-dock",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T10:48:28.241Z",
+      "listingValidatedCommit": "7357e54a0f2d5c40ea2d72f400d78da9a3f4eb60",
+      "listingValidatedAt": "2026-10-06T10:48:28.241Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "maximxmoroz/omarchy-windows-dock",
+        "pluginIds": [
+          "maximxmoroz.win11-dock"
+        ],
+        "commit": "7357e54a0f2d5c40ea2d72f400d78da9a3f4eb60",
+        "checkedAt": "2026-10-06T10:48:28.108Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "maximxmoroz/omarchy-windows-dock",
+        "pluginIds": [
+          "maximxmoroz.win11-dock"
+        ],
+        "commit": "7357e54a0f2d5c40ea2d72f400d78da9a3f4eb60",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T10:48:28.108Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T13:07:48.374Z",
+        "requestEventId": 32589348098,
+        "requestedAt": "2026-10-06T10:27:39Z",
+        "reviewedAt": "2026-10-06T10:48:28.108Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "maximxmoroz.win11-dock": {
+          "category": "Desktop",
+          "tags": [
+            "launcher",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
