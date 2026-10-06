@@ -300842,7 +300842,7 @@
           "dominikzajac.appspace"
         ],
         "commit": "b4bedf6edf94a8ff7689a6033b129f72e8797194",
-        "checkedAt": "2026-10-06T14:07:01.489Z",
+        "checkedAt": "2026-10-06T14:35:46.864Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -300856,11 +300856,7 @@
             "hyprland",
             "bar"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       },
       "listingValidationHistory": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T14:10:25.952Z",
+  "generatedAt": "2026-10-06T14:35:46.864Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -278043,14 +278043,14 @@
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
       "verificationCommit": "b4bedf6edf94a8ff7689a6033b129f72e8797194",
-      "verificationCheckedAt": "2026-10-06T14:07:01.489Z",
+      "verificationCheckedAt": "2026-10-06T14:35:46.864Z",
       "manifestPath": "manifest.json",
       "addedAt": "2026-10-05",
       "listedAt": "2026-10-05T21:42:50.158Z",
       "repositoryLayout": "root-plugin",
-      "installAvailable": false,
-      "installCommand": "",
-      "installNote": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions.",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/DominikZajac/omarchy-appspace.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
       "category": "Desktop",
       "tags": [
         "workspaces",
@@ -278088,7 +278088,7 @@
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "1140b496c02f043d2be31158cbdad1cf2b978569b4507d69c251b9fc8f866607",
       "versionUpdatedAt": "2026-10-06T11:01:35.936Z",
-      "status": "Manual setup"
+      "status": "Available"
     },
     {
       "id": "io.github.houtvongsak.herdr-sessions",
