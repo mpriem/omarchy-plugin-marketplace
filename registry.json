@@ -303598,6 +303598,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/dsecuma/omarchy-virustotal",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T14:10:25.448Z",
+      "listingValidatedCommit": "2a904319142c382d14b25976be762556af5029c4",
+      "listingValidatedAt": "2026-10-06T14:10:25.448Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dsecuma/omarchy-virustotal",
+        "pluginIds": [
+          "io.github.dsecuma.virustotal"
+        ],
+        "commit": "2a904319142c382d14b25976be762556af5029c4",
+        "checkedAt": "2026-10-06T14:10:25.357Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dsecuma/omarchy-virustotal",
+        "pluginIds": [
+          "io.github.dsecuma.virustotal"
+        ],
+        "commit": "2a904319142c382d14b25976be762556af5029c4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T14:10:25.357Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T14:01:32.805Z",
+        "requestEventId": 32605458579,
+        "requestedAt": "2026-10-06T14:04:31Z",
+        "reviewedAt": "2026-10-06T14:10:25.357Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.dsecuma.virustotal": {
+          "category": "System",
+          "tags": [
+            "security",
+            "ai",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
