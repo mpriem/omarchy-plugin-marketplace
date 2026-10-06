@@ -301017,6 +301017,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/antoniowav/omarchy-workspace-switcher",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T10:05:53.857Z",
+      "listingValidatedCommit": "92a5c7310548c11e3b2ff318b5d138ece71d582e",
+      "listingValidatedAt": "2026-10-06T10:05:53.857Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "antoniowav/omarchy-workspace-switcher",
+        "pluginIds": [
+          "io.github.antoniowav.workspace-switcher"
+        ],
+        "commit": "92a5c7310548c11e3b2ff318b5d138ece71d582e",
+        "checkedAt": "2026-10-06T10:05:53.731Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.antoniowav.workspace-switcher": {
+          "category": "Desktop",
+          "tags": [
+            "workspaces",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
