@@ -287261,8 +287261,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T11:23:57.755Z",
-      "listingValidatedCommit": "28fcf6ae5306b532ce8b0779162e265db8a40e96",
-      "listingValidatedAt": "2026-10-06T08:31:05.604Z",
+      "listingValidatedCommit": "09818a17814b1ace47a06176b5c9936b17d8e563",
+      "listingValidatedAt": "2026-10-06T13:43:04.988Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -287271,8 +287271,8 @@
         "pluginIds": [
           "gelu22.gateway"
         ],
-        "commit": "28fcf6ae5306b532ce8b0779162e265db8a40e96",
-        "checkedAt": "2026-10-06T08:31:05.604Z",
+        "commit": "09818a17814b1ace47a06176b5c9936b17d8e563",
+        "checkedAt": "2026-10-06T13:43:04.988Z",
         "outcome": "needs-fixes",
         "enforcementMode": "selective",
         "findings": [
@@ -287298,31 +287298,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "gelu22/x402-gateway-omarchy",
-        "pluginIds": [
-          "gelu22.gateway"
-        ],
-        "commit": "28fcf6ae5306b532ce8b0779162e265db8a40e96",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-06T08:31:05.604Z",
-        "baselineOutcome": "needs-fixes",
-        "findings": [
-          "curl-pipe-shell"
-        ],
-        "capabilities": [
-          "privilege",
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-06T07:58:04.349Z",
-        "requestEventId": 32580985454,
-        "requestedAt": "2026-10-06T08:30:27Z",
-        "reviewedAt": "2026-10-06T08:31:05.604Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -287375,8 +287350,84 @@
             "reviewedAt": "2026-10-03T11:23:57.650Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "28fcf6ae5306b532ce8b0779162e265db8a40e96",
+          "validatedAt": "2026-10-06T08:31:05.604Z",
+          "branch": "master",
+          "supersededAt": "2026-10-06T13:43:04.988Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gelu22/x402-gateway-omarchy",
+            "pluginIds": [
+              "gelu22.gateway"
+            ],
+            "commit": "28fcf6ae5306b532ce8b0779162e265db8a40e96",
+            "checkedAt": "2026-10-06T08:31:05.604Z",
+            "outcome": "needs-fixes",
+            "enforcementMode": "selective",
+            "findings": [
+              "curl-pipe-shell"
+            ],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gelu22/x402-gateway-omarchy",
+            "pluginIds": [
+              "gelu22.gateway"
+            ],
+            "commit": "28fcf6ae5306b532ce8b0779162e265db8a40e96",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-06T08:31:05.604Z",
+            "baselineOutcome": "needs-fixes",
+            "findings": [
+              "curl-pipe-shell"
+            ],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-06T07:58:04.349Z",
+            "requestEventId": 32580985454,
+            "requestedAt": "2026-10-06T08:30:27Z",
+            "reviewedAt": "2026-10-06T08:31:05.604Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gelu22/x402-gateway-omarchy",
+        "pluginIds": [
+          "gelu22.gateway"
+        ],
+        "commit": "09818a17814b1ace47a06176b5c9936b17d8e563",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T13:43:04.988Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T12:31:11.925Z",
+        "requestEventId": 32603353575,
+        "requestedAt": "2026-10-06T13:40:13Z",
+        "reviewedAt": "2026-10-06T13:43:04.988Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/saigkill/omarchy-bluesky",
