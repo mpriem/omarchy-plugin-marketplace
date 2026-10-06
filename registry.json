@@ -302298,8 +302298,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-06",
       "listedAt": "2026-10-06T11:57:29.927Z",
-      "listingValidatedCommit": "0cafb6360d14d36e20f24826ba1d7cdfd16d9ff7",
-      "listingValidatedAt": "2026-10-06T11:57:29.927Z",
+      "listingValidatedCommit": "cbd1e07beecf868cbb7000aa07cadd36e04c1dbc",
+      "listingValidatedAt": "2026-10-06T12:51:19.162Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -302308,37 +302308,14 @@
         "pluginIds": [
           "evcode.drawer"
         ],
-        "commit": "0cafb6360d14d36e20f24826ba1d7cdfd16d9ff7",
-        "checkedAt": "2026-10-06T11:57:29.832Z",
+        "commit": "cbd1e07beecf868cbb7000aa07cadd36e04c1dbc",
+        "checkedAt": "2026-10-06T12:51:19.162Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "carlosevcode/omarchy-drawer",
-        "pluginIds": [
-          "evcode.drawer"
-        ],
-        "commit": "0cafb6360d14d36e20f24826ba1d7cdfd16d9ff7",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-06T11:57:29.832Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-06T04:42:33.557Z",
-        "requestEventId": 32593318274,
-        "requestedAt": "2026-10-06T11:27:33Z",
-        "reviewedAt": "2026-10-06T11:57:29.832Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "evcode.drawer": {
@@ -302354,7 +302331,75 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "carlosevcode/omarchy-drawer",
+        "pluginIds": [
+          "evcode.drawer"
+        ],
+        "commit": "cbd1e07beecf868cbb7000aa07cadd36e04c1dbc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T12:51:19.162Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T12:16:37.508Z",
+        "requestEventId": 32599267299,
+        "requestedAt": "2026-10-06T12:50:25Z",
+        "reviewedAt": "2026-10-06T12:51:19.162Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0cafb6360d14d36e20f24826ba1d7cdfd16d9ff7",
+          "validatedAt": "2026-10-06T11:57:29.927Z",
+          "branch": "master",
+          "supersededAt": "2026-10-06T12:51:19.162Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "carlosevcode/omarchy-drawer",
+            "pluginIds": [
+              "evcode.drawer"
+            ],
+            "commit": "0cafb6360d14d36e20f24826ba1d7cdfd16d9ff7",
+            "checkedAt": "2026-10-06T11:57:29.832Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "carlosevcode/omarchy-drawer",
+            "pluginIds": [
+              "evcode.drawer"
+            ],
+            "commit": "0cafb6360d14d36e20f24826ba1d7cdfd16d9ff7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-06T11:57:29.832Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-06T04:42:33.557Z",
+            "requestEventId": 32593318274,
+            "requestedAt": "2026-10-06T11:27:33Z",
+            "reviewedAt": "2026-10-06T11:57:29.832Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/tjcelaya/omarchy-workspace-icons",
