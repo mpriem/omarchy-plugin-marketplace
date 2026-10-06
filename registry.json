@@ -301000,7 +301000,7 @@
           "io.github.diegogardini.omarchy-rain-radar-denmark-widget"
         ],
         "commit": "bcd026628be47ced1235535f53411c1fed93af28",
-        "checkedAt": "2026-10-06T10:25:32.223Z",
+        "checkedAt": "2026-10-06T12:06:30.916Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -301013,11 +301013,7 @@
             "bar",
             "quickshell"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       },
       "listingValidationHistory": [
