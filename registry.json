@@ -185870,8 +185870,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-14",
       "listedAt": "2026-09-14T23:27:40.731Z",
-      "listingValidatedCommit": "60d022fa34eb878c1c4f615a30f6314367052265",
-      "listingValidatedAt": "2026-09-14T23:27:40.731Z",
+      "listingValidatedCommit": "33bb3e51db6a8a2585566bdbbe97af2af183f48c",
+      "listingValidatedAt": "2026-10-06T16:02:35.730Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -185880,35 +185880,15 @@
         "pluginIds": [
           "ekollof.osk"
         ],
-        "commit": "60d022fa34eb878c1c4f615a30f6314367052265",
-        "checkedAt": "2026-09-14T23:27:40.667Z",
+        "commit": "33bb3e51db6a8a2585566bdbbe97af2af183f48c",
+        "checkedAt": "2026-10-06T16:02:35.730Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "installer"
+          "installer",
+          "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ekollof/omarchy-osk",
-        "pluginIds": [
-          "ekollof.osk"
-        ],
-        "commit": "60d022fa34eb878c1c4f615a30f6314367052265",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-14T23:27:40.667Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-12T19:43:53.102Z",
-        "requestEventId": 31136440627,
-        "requestedAt": "2026-09-14T23:26:28Z",
-        "reviewedAt": "2026-09-14T23:27:40.667Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "ekollof.osk": {
@@ -185924,7 +185904,74 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ekollof/omarchy-osk",
+        "pluginIds": [
+          "ekollof.osk"
+        ],
+        "commit": "33bb3e51db6a8a2585566bdbbe97af2af183f48c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T16:02:35.730Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T15:30:20.627Z",
+        "requestEventId": 32616141744,
+        "requestedAt": "2026-10-06T16:01:57Z",
+        "reviewedAt": "2026-10-06T16:02:35.730Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "60d022fa34eb878c1c4f615a30f6314367052265",
+          "validatedAt": "2026-09-14T23:27:40.731Z",
+          "branch": "master",
+          "supersededAt": "2026-10-06T16:02:35.730Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ekollof/omarchy-osk",
+            "pluginIds": [
+              "ekollof.osk"
+            ],
+            "commit": "60d022fa34eb878c1c4f615a30f6314367052265",
+            "checkedAt": "2026-09-14T23:27:40.667Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ekollof/omarchy-osk",
+            "pluginIds": [
+              "ekollof.osk"
+            ],
+            "commit": "60d022fa34eb878c1c4f615a30f6314367052265",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-14T23:27:40.667Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-12T19:43:53.102Z",
+            "requestEventId": 31136440627,
+            "requestedAt": "2026-09-14T23:26:28Z",
+            "reviewedAt": "2026-09-14T23:27:40.667Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/nodramaollama/omarchy-nitro-control",
