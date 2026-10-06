@@ -301436,6 +301436,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ltillegal/somafm-bar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T10:44:37.152Z",
+      "listingValidatedCommit": "b726257ee3d39be7458d7db873655f2919fd077c",
+      "listingValidatedAt": "2026-10-06T10:44:37.152Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ltillegal/somafm-bar",
+        "pluginIds": [
+          "io.github.ltillegal.somafm-bar"
+        ],
+        "commit": "b726257ee3d39be7458d7db873655f2919fd077c",
+        "checkedAt": "2026-10-06T10:44:37.027Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ltillegal/somafm-bar",
+        "pluginIds": [
+          "io.github.ltillegal.somafm-bar"
+        ],
+        "commit": "b726257ee3d39be7458d7db873655f2919fd077c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T10:44:37.027Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T12:50:25.267Z",
+        "requestEventId": 32589329710,
+        "requestedAt": "2026-10-06T10:27:23Z",
+        "reviewedAt": "2026-10-06T10:44:37.027Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.ltillegal.somafm-bar": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
