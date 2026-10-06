@@ -304217,8 +304217,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-06",
       "listedAt": "2026-10-06T14:50:11.959Z",
-      "listingValidatedCommit": "979a2981a90a646f287cd64dbead940374e186cf",
-      "listingValidatedAt": "2026-10-06T14:50:11.959Z",
+      "listingValidatedCommit": "13b75674ae55e9ecc9e513dab478c7783bb7f6dd",
+      "listingValidatedAt": "2026-10-06T17:12:35.335Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -304227,8 +304227,8 @@
         "pluginIds": [
           "io.github.n1c01a5.accent-hold"
         ],
-        "commit": "979a2981a90a646f287cd64dbead940374e186cf",
-        "checkedAt": "2026-10-06T14:50:11.876Z",
+        "commit": "13b75674ae55e9ecc9e513dab478c7783bb7f6dd",
+        "checkedAt": "2026-10-06T17:12:35.335Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -304243,7 +304243,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "979a2981a90a646f287cd64dbead940374e186cf",
+          "validatedAt": "2026-10-06T14:50:11.959Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T17:12:35.335Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "n1c01a5/omarchy-accent-hold",
+            "pluginIds": [
+              "io.github.n1c01a5.accent-hold"
+            ],
+            "commit": "979a2981a90a646f287cd64dbead940374e186cf",
+            "checkedAt": "2026-10-06T14:50:11.876Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     }
   ],
   "builtInSources": [
