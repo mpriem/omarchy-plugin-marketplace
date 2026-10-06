@@ -301832,6 +301832,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/AktOn1/omarchy-fullscreen-app-auto-workspace",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T11:14:00.452Z",
+      "listingValidatedCommit": "d58a778b17acab9deba168a6f0898b45524fb394",
+      "listingValidatedAt": "2026-10-06T11:14:00.452Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "akton1/omarchy-fullscreen-app-auto-workspace",
+        "pluginIds": [
+          "io.github.akton1.fullscreen-app-auto-workspace"
+        ],
+        "commit": "d58a778b17acab9deba168a6f0898b45524fb394",
+        "checkedAt": "2026-10-06T11:14:00.320Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.akton1.fullscreen-app-auto-workspace": {
+          "category": "Desktop",
+          "tags": [
+            "games",
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
