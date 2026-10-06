@@ -128358,8 +128358,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-02",
       "listedAt": "2026-09-02T16:28:36.912Z",
-      "listingValidatedCommit": "1e51d7eaa8143eb35f28265ca15a632802e42909",
-      "listingValidatedAt": "2026-09-17T06:37:22.146Z",
+      "listingValidatedCommit": "397f10625c2eb9bb33b1032ed6e0b626ea48ae99",
+      "listingValidatedAt": "2026-10-06T16:08:15.721Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -128368,12 +128368,14 @@
         "pluginIds": [
           "io.github.calebhat.workscape"
         ],
-        "commit": "1e51d7eaa8143eb35f28265ca15a632802e42909",
-        "checkedAt": "2026-09-17T06:37:22.146Z",
-        "outcome": "passed",
+        "commit": "397f10625c2eb9bb33b1032ed6e0b626ea48ae99",
+        "checkedAt": "2026-10-06T16:08:15.721Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "privilege"
+        ]
       },
       "plugins": {
         "io.github.calebhat.workscape": {
@@ -128410,8 +128412,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "1e51d7eaa8143eb35f28265ca15a632802e42909",
+          "validatedAt": "2026-09-17T06:37:22.146Z",
+          "branch": "master",
+          "supersededAt": "2026-10-06T16:08:15.721Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "calebhat/omarchy-workscape",
+            "pluginIds": [
+              "io.github.calebhat.workscape"
+            ],
+            "commit": "1e51d7eaa8143eb35f28265ca15a632802e42909",
+            "checkedAt": "2026-09-17T06:37:22.146Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "calebhat/omarchy-workscape",
+        "pluginIds": [
+          "io.github.calebhat.workscape"
+        ],
+        "commit": "397f10625c2eb9bb33b1032ed6e0b626ea48ae99",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T16:08:15.721Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T15:34:21.444Z",
+        "requestEventId": 32616604082,
+        "requestedAt": "2026-10-06T16:07:41Z",
+        "reviewedAt": "2026-10-06T16:08:15.721Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/monsonjeremy/omachess",
