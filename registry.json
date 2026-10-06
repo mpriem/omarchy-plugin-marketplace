@@ -289067,8 +289067,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T20:13:32.116Z",
-      "listingValidatedCommit": "cddcc958a6529b810f7f612d167eb22e08de9a90",
-      "listingValidatedAt": "2026-10-03T20:13:32.116Z",
+      "listingValidatedCommit": "194e27002007c1b0193e446a11c34ac801f0c26f",
+      "listingValidatedAt": "2026-10-06T02:50:29.010Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -289077,8 +289077,8 @@
         "pluginIds": [
           "io.github.nchudleigh.omac"
         ],
-        "commit": "cddcc958a6529b810f7f612d167eb22e08de9a90",
-        "checkedAt": "2026-10-03T20:13:31.990Z",
+        "commit": "194e27002007c1b0193e446a11c34ac801f0c26f",
+        "checkedAt": "2026-10-06T02:50:29.010Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -289089,30 +289089,6 @@
           "installer"
         ]
       },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "nchudleigh/omac",
-        "pluginIds": [
-          "io.github.nchudleigh.omac"
-        ],
-        "commit": "cddcc958a6529b810f7f612d167eb22e08de9a90",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-03T20:13:31.990Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-03T20:08:52.193Z",
-        "requestEventId": 32412865903,
-        "requestedAt": "2026-10-03T20:13:06Z",
-        "reviewedAt": "2026-10-03T20:13:31.990Z",
-        "reviewer": "HANCORE-linux"
-      },
       "plugins": {
         "io.github.nchudleigh.omac": {
           "category": "Desktop",
@@ -289122,7 +289098,82 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nchudleigh/omac",
+        "pluginIds": [
+          "io.github.nchudleigh.omac"
+        ],
+        "commit": "194e27002007c1b0193e446a11c34ac801f0c26f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T02:50:29.010Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T02:53:18.293Z",
+        "requestEventId": 32563148640,
+        "requestedAt": "2026-10-06T02:49:56Z",
+        "reviewedAt": "2026-10-06T02:50:29.010Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "cddcc958a6529b810f7f612d167eb22e08de9a90",
+          "validatedAt": "2026-10-03T20:13:32.116Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T02:50:29.010Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nchudleigh/omac",
+            "pluginIds": [
+              "io.github.nchudleigh.omac"
+            ],
+            "commit": "cddcc958a6529b810f7f612d167eb22e08de9a90",
+            "checkedAt": "2026-10-03T20:13:31.990Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "nchudleigh/omac",
+            "pluginIds": [
+              "io.github.nchudleigh.omac"
+            ],
+            "commit": "cddcc958a6529b810f7f612d167eb22e08de9a90",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-03T20:13:31.990Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-03T20:08:52.193Z",
+            "requestEventId": 32412865903,
+            "requestedAt": "2026-10-03T20:13:06Z",
+            "reviewedAt": "2026-10-03T20:13:31.990Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/fiifiofosu/omarchy-android-emulator",
