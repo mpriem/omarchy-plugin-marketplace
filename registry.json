@@ -284023,8 +284023,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T21:16:06.231Z",
-      "listingValidatedCommit": "e5cdca57ed22039f130b8135811615a69d0e3b08",
-      "listingValidatedAt": "2026-10-02T21:16:06.231Z",
+      "listingValidatedCommit": "bdf9dfe47b5601e628b15f47034b27a3985e7b62",
+      "listingValidatedAt": "2026-10-06T04:31:56.753Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -284033,35 +284033,14 @@
         "pluginIds": [
           "hverbruggen.omabisync"
         ],
-        "commit": "e5cdca57ed22039f130b8135811615a69d0e3b08",
-        "checkedAt": "2026-10-02T21:16:06.158Z",
+        "commit": "bdf9dfe47b5601e628b15f47034b27a3985e7b62",
+        "checkedAt": "2026-10-06T04:31:56.753Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "hverbruggen/omabisync",
-        "pluginIds": [
-          "hverbruggen.omabisync"
-        ],
-        "commit": "e5cdca57ed22039f130b8135811615a69d0e3b08",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T21:16:06.158Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T21:00:08.549Z",
-        "requestEventId": 32365436938,
-        "requestedAt": "2026-10-02T21:01:52Z",
-        "reviewedAt": "2026-10-02T21:16:06.158Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "hverbruggen.omabisync": {
@@ -284073,7 +284052,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hverbruggen/omabisync",
+        "pluginIds": [
+          "hverbruggen.omabisync"
+        ],
+        "commit": "bdf9dfe47b5601e628b15f47034b27a3985e7b62",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T04:31:56.753Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T10:02:21.689Z",
+        "requestEventId": 32567613813,
+        "requestedAt": "2026-10-06T04:31:28Z",
+        "reviewedAt": "2026-10-06T04:31:56.753Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e5cdca57ed22039f130b8135811615a69d0e3b08",
+          "validatedAt": "2026-10-02T21:16:06.231Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T04:31:56.753Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "hverbruggen/omabisync",
+            "pluginIds": [
+              "hverbruggen.omabisync"
+            ],
+            "commit": "e5cdca57ed22039f130b8135811615a69d0e3b08",
+            "checkedAt": "2026-10-02T21:16:06.158Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "hverbruggen/omabisync",
+            "pluginIds": [
+              "hverbruggen.omabisync"
+            ],
+            "commit": "e5cdca57ed22039f130b8135811615a69d0e3b08",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T21:16:06.158Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T21:00:08.549Z",
+            "requestEventId": 32365436938,
+            "requestedAt": "2026-10-02T21:01:52Z",
+            "reviewedAt": "2026-10-02T21:16:06.158Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/gameticharles/omnidisplay",
