@@ -302927,6 +302927,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Wartafak/omarchy-sysmon",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T12:56:39.570Z",
+      "listingValidatedCommit": "f5ac652b5e55c00f90c4f5938876ef57ef556a04",
+      "listingValidatedAt": "2026-10-06T12:56:39.570Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "wartafak/omarchy-sysmon",
+        "pluginIds": [
+          "wartafak.sysmon"
+        ],
+        "commit": "f5ac652b5e55c00f90c4f5938876ef57ef556a04",
+        "checkedAt": "2026-10-06T12:56:39.482Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "wartafak/omarchy-sysmon",
+        "pluginIds": [
+          "wartafak.sysmon"
+        ],
+        "commit": "f5ac652b5e55c00f90c4f5938876ef57ef556a04",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T12:56:39.482Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T12:51:17.069Z",
+        "requestEventId": 32599733170,
+        "requestedAt": "2026-10-06T12:56:11Z",
+        "reviewedAt": "2026-10-06T12:56:39.482Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "wartafak.sysmon": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
