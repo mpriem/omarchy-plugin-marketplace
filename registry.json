@@ -167391,8 +167391,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-09",
       "listedAt": "2026-09-09T00:48:39.984Z",
-      "listingValidatedCommit": "387d1481e0f376050ce3376b62066bddc452bd7d",
-      "listingValidatedAt": "2026-10-01T06:39:18.333Z",
+      "listingValidatedCommit": "b5525c03b704a714fe52bfbc27bdc59ec29c2c6b",
+      "listingValidatedAt": "2026-10-06T06:12:14.601Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -167401,8 +167401,8 @@
         "pluginIds": [
           "oliwier.agent-skills-manager"
         ],
-        "commit": "387d1481e0f376050ce3376b62066bddc452bd7d",
-        "checkedAt": "2026-10-01T06:39:18.333Z",
+        "commit": "b5525c03b704a714fe52bfbc27bdc59ec29c2c6b",
+        "checkedAt": "2026-10-06T06:12:14.601Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -167474,6 +167474,26 @@
             ],
             "commit": "953df2c1e819191b81d5b45872fc228e0d680dec",
             "checkedAt": "2026-09-17T13:22:01.388Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "387d1481e0f376050ce3376b62066bddc452bd7d",
+          "validatedAt": "2026-10-01T06:39:18.333Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T06:12:14.601Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "oliwier-xiao/agent-skills-manager",
+            "pluginIds": [
+              "oliwier.agent-skills-manager"
+            ],
+            "commit": "387d1481e0f376050ce3376b62066bddc452bd7d",
+            "checkedAt": "2026-10-01T06:39:18.333Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
