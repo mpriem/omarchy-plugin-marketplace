@@ -265686,8 +265686,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-29",
       "listedAt": "2026-09-29T20:00:40.116Z",
-      "listingValidatedCommit": "5ee554af36a0db8eb12da025b79a6ea3ccd424bf",
-      "listingValidatedAt": "2026-09-29T20:00:40.116Z",
+      "listingValidatedCommit": "c26c7ec823fdd9f645ffda2a48fc6836fdf0f112",
+      "listingValidatedAt": "2026-10-06T12:08:29.780Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -265696,35 +265696,14 @@
         "pluginIds": [
           "petrzpav.wallswap"
         ],
-        "commit": "5ee554af36a0db8eb12da025b79a6ea3ccd424bf",
-        "checkedAt": "2026-09-29T20:00:39.996Z",
+        "commit": "c26c7ec823fdd9f645ffda2a48fc6836fdf0f112",
+        "checkedAt": "2026-10-06T12:08:29.780Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "petrzpav/omarchy-wallswap",
-        "pluginIds": [
-          "petrzpav.wallswap"
-        ],
-        "commit": "5ee554af36a0db8eb12da025b79a6ea3ccd424bf",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-29T20:00:39.996Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-29T15:56:40.143Z",
-        "requestEventId": 32094329484,
-        "requestedAt": "2026-09-29T15:58:50Z",
-        "reviewedAt": "2026-09-29T20:00:39.996Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "petrzpav.wallswap": {
@@ -265735,7 +265714,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "petrzpav/omarchy-wallswap",
+        "pluginIds": [
+          "petrzpav.wallswap"
+        ],
+        "commit": "c26c7ec823fdd9f645ffda2a48fc6836fdf0f112",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T12:08:29.780Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T11:10:29.321Z",
+        "requestEventId": 32594134851,
+        "requestedAt": "2026-10-06T11:40:13Z",
+        "reviewedAt": "2026-10-06T12:08:29.780Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5ee554af36a0db8eb12da025b79a6ea3ccd424bf",
+          "validatedAt": "2026-09-29T20:00:40.116Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T12:08:29.780Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "petrzpav/omarchy-wallswap",
+            "pluginIds": [
+              "petrzpav.wallswap"
+            ],
+            "commit": "5ee554af36a0db8eb12da025b79a6ea3ccd424bf",
+            "checkedAt": "2026-09-29T20:00:39.996Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "petrzpav/omarchy-wallswap",
+            "pluginIds": [
+              "petrzpav.wallswap"
+            ],
+            "commit": "5ee554af36a0db8eb12da025b79a6ea3ccd424bf",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-29T20:00:39.996Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-29T15:56:40.143Z",
+            "requestEventId": 32094329484,
+            "requestedAt": "2026-09-29T15:58:50Z",
+            "reviewedAt": "2026-09-29T20:00:39.996Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/yeet-src/omarchy-proctop",
