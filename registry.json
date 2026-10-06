@@ -302558,6 +302558,75 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Azteriisk/omarchy-wallpaper-engine",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T12:26:17.689Z",
+      "listingValidatedCommit": "e496cd11d4b3177e676c7dfc4ed91c6aab2fb857",
+      "listingValidatedAt": "2026-10-06T12:26:17.689Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "azteriisk/omarchy-wallpaper-engine",
+        "pluginIds": [
+          "azterisk.wallpaper-engine"
+        ],
+        "commit": "e496cd11d4b3177e676c7dfc4ed91c6aab2fb857",
+        "checkedAt": "2026-10-06T12:26:17.576Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "remote-build",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "azteriisk/omarchy-wallpaper-engine",
+        "pluginIds": [
+          "azterisk.wallpaper-engine"
+        ],
+        "commit": "e496cd11d4b3177e676c7dfc4ed91c6aab2fb857",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T12:26:17.576Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "remote-build",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T12:09:21.194Z",
+        "requestEventId": 32597280161,
+        "requestedAt": "2026-10-06T12:25:50Z",
+        "reviewedAt": "2026-10-06T12:26:17.576Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "azterisk.wallpaper-engine": {
+          "category": "Appearance",
+          "tags": [
+            "media",
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
