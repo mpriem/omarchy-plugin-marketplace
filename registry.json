@@ -287953,8 +287953,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T16:09:35.127Z",
-      "listingValidatedCommit": "c66baeddb10cd7858a8164fcfe102d2332355d70",
-      "listingValidatedAt": "2026-10-04T21:50:31.390Z",
+      "listingValidatedCommit": "51dee6e47e955d7c99feb378656ae6e5c4aba9f1",
+      "listingValidatedAt": "2026-10-06T01:48:52.936Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -287963,8 +287963,8 @@
         "pluginIds": [
           "io.github.disy-mk.omeetingbar"
         ],
-        "commit": "c66baeddb10cd7858a8164fcfe102d2332355d70",
-        "checkedAt": "2026-10-04T21:50:31.390Z",
+        "commit": "51dee6e47e955d7c99feb378656ae6e5c4aba9f1",
+        "checkedAt": "2026-10-06T01:48:52.936Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -287988,30 +287988,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "disy-mk/omeetingbar",
-        "pluginIds": [
-          "io.github.disy-mk.omeetingbar"
-        ],
-        "commit": "c66baeddb10cd7858a8164fcfe102d2332355d70",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T21:50:31.390Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T21:33:38.372Z",
-        "requestEventId": 32463120057,
-        "requestedAt": "2026-10-04T21:49:59Z",
-        "reviewedAt": "2026-10-04T21:50:31.390Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -288062,8 +288038,81 @@
             "reviewedAt": "2026-10-03T16:09:35.003Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "c66baeddb10cd7858a8164fcfe102d2332355d70",
+          "validatedAt": "2026-10-04T21:50:31.390Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T01:48:52.936Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "disy-mk/omeetingbar",
+            "pluginIds": [
+              "io.github.disy-mk.omeetingbar"
+            ],
+            "commit": "c66baeddb10cd7858a8164fcfe102d2332355d70",
+            "checkedAt": "2026-10-04T21:50:31.390Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "disy-mk/omeetingbar",
+            "pluginIds": [
+              "io.github.disy-mk.omeetingbar"
+            ],
+            "commit": "c66baeddb10cd7858a8164fcfe102d2332355d70",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T21:50:31.390Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T21:33:38.372Z",
+            "requestEventId": 32463120057,
+            "requestedAt": "2026-10-04T21:49:59Z",
+            "reviewedAt": "2026-10-04T21:50:31.390Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "disy-mk/omeetingbar",
+        "pluginIds": [
+          "io.github.disy-mk.omeetingbar"
+        ],
+        "commit": "51dee6e47e955d7c99feb378656ae6e5c4aba9f1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T01:48:52.936Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T17:09:57.418Z",
+        "requestEventId": 32560393806,
+        "requestedAt": "2026-10-06T01:48:30Z",
+        "reviewedAt": "2026-10-06T01:48:52.936Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/jellespijker/omarchy-sift",
