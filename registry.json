@@ -302458,6 +302458,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/s3pp3ku/omarchy-mlb",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T12:15:18.482Z",
+      "listingValidatedCommit": "85c794266ed98b3aa0e698730eb079b7e591c167",
+      "listingValidatedAt": "2026-10-06T12:15:18.482Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "s3pp3ku/omarchy-mlb",
+        "pluginIds": [
+          "s3pp3ku.mlb"
+        ],
+        "commit": "85c794266ed98b3aa0e698730eb079b7e591c167",
+        "checkedAt": "2026-10-06T12:15:18.353Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "s3pp3ku.mlb": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "games",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
