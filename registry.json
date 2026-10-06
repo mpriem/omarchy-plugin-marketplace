@@ -214941,8 +214941,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-20",
       "listedAt": "2026-09-20T20:36:09.541Z",
-      "listingValidatedCommit": "13998980635d13963e23211d422d2ce22dcf7cb7",
-      "listingValidatedAt": "2026-09-20T20:36:09.541Z",
+      "listingValidatedCommit": "ccb6ab93f7faab1885f8dc2b63601020c9ab11d5",
+      "listingValidatedAt": "2026-10-06T00:59:40.768Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -214951,8 +214951,8 @@
         "pluginIds": [
           "io.github.vichong.eliza"
         ],
-        "commit": "13998980635d13963e23211d422d2ce22dcf7cb7",
-        "checkedAt": "2026-09-20T20:36:09.454Z",
+        "commit": "ccb6ab93f7faab1885f8dc2b63601020c9ab11d5",
+        "checkedAt": "2026-10-06T00:59:40.768Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -214968,7 +214968,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "13998980635d13963e23211d422d2ce22dcf7cb7",
+          "validatedAt": "2026-09-20T20:36:09.541Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T00:59:40.768Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "vichong/omarchy-eliza",
+            "pluginIds": [
+              "io.github.vichong.eliza"
+            ],
+            "commit": "13998980635d13963e23211d422d2ce22dcf7cb7",
+            "checkedAt": "2026-09-20T20:36:09.454Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/justarieldotcom/omarchy-hotkey-hints",
