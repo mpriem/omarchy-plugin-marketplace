@@ -301963,6 +301963,68 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/igorbnp/ram-keeper",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T11:23:23.572Z",
+      "listingValidatedCommit": "4cbf336a9e99c96bfe3232b00839df5791eea52c",
+      "listingValidatedAt": "2026-10-06T11:23:23.572Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "igorbnp/ram-keeper",
+        "pluginIds": [
+          "io.github.igorbnp.ram-keeper"
+        ],
+        "commit": "4cbf336a9e99c96bfe3232b00839df5791eea52c",
+        "checkedAt": "2026-10-06T11:23:23.440Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "igorbnp/ram-keeper",
+        "pluginIds": [
+          "io.github.igorbnp.ram-keeper"
+        ],
+        "commit": "4cbf336a9e99c96bfe3232b00839df5791eea52c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T11:23:23.440Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T03:16:15.730Z",
+        "requestEventId": 32591702133,
+        "requestedAt": "2026-10-06T11:03:02Z",
+        "reviewedAt": "2026-10-06T11:23:23.440Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.igorbnp.ram-keeper": {
+          "category": "System",
+          "tags": [
+            "power-management",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
