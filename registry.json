@@ -302118,6 +302118,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/tamaker/omarchy-floating-player",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T11:50:48.413Z",
+      "listingValidatedCommit": "fdb9564262c5ed5fd66747b7e0030b0ef6c46167",
+      "listingValidatedAt": "2026-10-06T11:50:48.413Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tamaker/omarchy-floating-player",
+        "pluginIds": [
+          "tamaker.floating-player"
+        ],
+        "commit": "fdb9564262c5ed5fd66747b7e0030b0ef6c46167",
+        "checkedAt": "2026-10-06T11:50:48.285Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "tamaker.floating-player": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
