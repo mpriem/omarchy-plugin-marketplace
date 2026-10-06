@@ -47190,8 +47190,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-21",
       "listedAt": "2026-08-21T23:35:39.630Z",
-      "listingValidatedCommit": "66d97e4b2dffda4e89a187d420a33e58fae72a24",
-      "listingValidatedAt": "2026-09-03T23:57:05.126Z",
+      "listingValidatedCommit": "ffc4c59093312bbee2e20f53070cf7b3993b4c4c",
+      "listingValidatedAt": "2026-10-06T19:40:18.759Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -47200,8 +47200,8 @@
         "pluginIds": [
           "melonamin.apple-music"
         ],
-        "commit": "66d97e4b2dffda4e89a187d420a33e58fae72a24",
-        "checkedAt": "2026-09-03T23:57:05.126Z",
+        "commit": "ffc4c59093312bbee2e20f53070cf7b3993b4c4c",
+        "checkedAt": "2026-10-06T19:40:18.759Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -47219,27 +47219,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "melonamin/omarchy-apple-music",
-        "pluginIds": [
-          "melonamin.apple-music"
-        ],
-        "commit": "66d97e4b2dffda4e89a187d420a33e58fae72a24",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-03T23:57:05.126Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-03T12:28:44.634Z",
-        "requestEventId": 30518195720,
-        "requestedAt": "2026-09-03T21:45:05Z",
-        "reviewedAt": "2026-09-03T23:57:05.126Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -47284,8 +47263,72 @@
             "reviewedAt": "2026-08-21T23:35:39.604Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "66d97e4b2dffda4e89a187d420a33e58fae72a24",
+          "validatedAt": "2026-09-03T23:57:05.126Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T19:40:18.759Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "melonamin/omarchy-apple-music",
+            "pluginIds": [
+              "melonamin.apple-music"
+            ],
+            "commit": "66d97e4b2dffda4e89a187d420a33e58fae72a24",
+            "checkedAt": "2026-09-03T23:57:05.126Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "melonamin/omarchy-apple-music",
+            "pluginIds": [
+              "melonamin.apple-music"
+            ],
+            "commit": "66d97e4b2dffda4e89a187d420a33e58fae72a24",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-03T23:57:05.126Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-03T12:28:44.634Z",
+            "requestEventId": 30518195720,
+            "requestedAt": "2026-09-03T21:45:05Z",
+            "reviewedAt": "2026-09-03T23:57:05.126Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "melonamin/omarchy-apple-music",
+        "pluginIds": [
+          "melonamin.apple-music"
+        ],
+        "commit": "ffc4c59093312bbee2e20f53070cf7b3993b4c4c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T19:40:18.759Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T19:17:16.709Z",
+        "requestEventId": 32631885424,
+        "requestedAt": "2026-10-06T19:39:46Z",
+        "reviewedAt": "2026-10-06T19:40:18.759Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/atagulalan/omapanel",
