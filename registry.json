@@ -210407,8 +210407,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-19",
       "listedAt": "2026-09-19T13:19:24.167Z",
-      "listingValidatedCommit": "d6e25a4aedf43ab91bcdc2f5ae0a4487b03933af",
-      "listingValidatedAt": "2026-09-19T13:19:24.167Z",
+      "listingValidatedCommit": "763ad520df2da8cc8ba47849ce4aeb23baf2b156",
+      "listingValidatedAt": "2026-10-06T01:59:16.017Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -210417,35 +210417,14 @@
         "pluginIds": [
           "cabral.commnav"
         ],
-        "commit": "d6e25a4aedf43ab91bcdc2f5ae0a4487b03933af",
-        "checkedAt": "2026-09-19T13:19:24.072Z",
+        "commit": "763ad520df2da8cc8ba47849ce4aeb23baf2b156",
+        "checkedAt": "2026-10-06T01:59:16.017Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "cabral/omarchy-commnav",
-        "pluginIds": [
-          "cabral.commnav"
-        ],
-        "commit": "d6e25a4aedf43ab91bcdc2f5ae0a4487b03933af",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-19T13:19:24.072Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-18T20:12:11.507Z",
-        "requestEventId": 31445390143,
-        "requestedAt": "2026-09-19T13:11:35Z",
-        "reviewedAt": "2026-09-19T13:19:24.072Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "cabral.commnav": {
@@ -210455,7 +210434,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cabral/omarchy-commnav",
+        "pluginIds": [
+          "cabral.commnav"
+        ],
+        "commit": "763ad520df2da8cc8ba47849ce4aeb23baf2b156",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T01:59:16.017Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T21:26:14.138Z",
+        "requestEventId": 32560826569,
+        "requestedAt": "2026-10-06T01:58:46Z",
+        "reviewedAt": "2026-10-06T01:59:16.017Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "d6e25a4aedf43ab91bcdc2f5ae0a4487b03933af",
+          "validatedAt": "2026-09-19T13:19:24.167Z",
+          "branch": "master",
+          "supersededAt": "2026-10-06T01:59:16.017Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "cabral/omarchy-commnav",
+            "pluginIds": [
+              "cabral.commnav"
+            ],
+            "commit": "d6e25a4aedf43ab91bcdc2f5ae0a4487b03933af",
+            "checkedAt": "2026-09-19T13:19:24.072Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "cabral/omarchy-commnav",
+            "pluginIds": [
+              "cabral.commnav"
+            ],
+            "commit": "d6e25a4aedf43ab91bcdc2f5ae0a4487b03933af",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-19T13:19:24.072Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-18T20:12:11.507Z",
+            "requestEventId": 31445390143,
+            "requestedAt": "2026-09-19T13:11:35Z",
+            "reviewedAt": "2026-09-19T13:19:24.072Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/cgranier/omarchy-crash-desk",
