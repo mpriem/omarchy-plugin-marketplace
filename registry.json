@@ -102491,8 +102491,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-29",
       "listedAt": "2026-08-29T19:51:36.710Z",
-      "listingValidatedCommit": "4ee591c617bcfee0bd1420a5ddcb0c53663f6758",
-      "listingValidatedAt": "2026-08-29T19:51:36.710Z",
+      "listingValidatedCommit": "1ed4938a2382a6121255d6bfb9c3d0fdeb5ce9ff",
+      "listingValidatedAt": "2026-10-06T18:32:25.622Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -102501,8 +102501,8 @@
         "pluginIds": [
           "moorgrove.overview"
         ],
-        "commit": "4ee591c617bcfee0bd1420a5ddcb0c53663f6758",
-        "checkedAt": "2026-08-29T19:51:36.667Z",
+        "commit": "1ed4938a2382a6121255d6bfb9c3d0fdeb5ce9ff",
+        "checkedAt": "2026-10-06T18:32:25.622Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -102516,7 +102516,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "4ee591c617bcfee0bd1420a5ddcb0c53663f6758",
+          "validatedAt": "2026-08-29T19:51:36.710Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T18:32:25.622Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "itsmoorgrove/omarchy-overview",
+            "pluginIds": [
+              "moorgrove.overview"
+            ],
+            "commit": "4ee591c617bcfee0bd1420a5ddcb0c53663f6758",
+            "checkedAt": "2026-08-29T19:51:36.667Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jeremylongshore/omarchy-flow-boundary-entry",
