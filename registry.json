@@ -293809,8 +293809,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T20:07:50.516Z",
-      "listingValidatedCommit": "bf8fa142f26f63fa735cb087ae6ccb55ec1651c6",
-      "listingValidatedAt": "2026-10-04T20:07:50.516Z",
+      "listingValidatedCommit": "711bb948a9a73a801bf84af9a45b520d3a35c92f",
+      "listingValidatedAt": "2026-10-06T13:49:48.490Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -293819,8 +293819,8 @@
         "pluginIds": [
           "io.github.smorshenniygus.omaconvert"
         ],
-        "commit": "bf8fa142f26f63fa735cb087ae6ccb55ec1651c6",
-        "checkedAt": "2026-10-04T20:07:50.413Z",
+        "commit": "711bb948a9a73a801bf84af9a45b520d3a35c92f",
+        "checkedAt": "2026-10-06T13:49:48.490Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -293835,7 +293835,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "bf8fa142f26f63fa735cb087ae6ccb55ec1651c6",
+          "validatedAt": "2026-10-04T20:07:50.516Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T13:49:48.490Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "smorshenniygus/omaconvert",
+            "pluginIds": [
+              "io.github.smorshenniygus.omaconvert"
+            ],
+            "commit": "bf8fa142f26f63fa735cb087ae6ccb55ec1651c6",
+            "checkedAt": "2026-10-04T20:07:50.413Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Charlie0113-T/omarchy_labs",
