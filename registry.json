@@ -292489,8 +292489,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T15:08:33.873Z",
-      "listingValidatedCommit": "60e7b126450c09a6d1e042c7a927790f65b9dcf9",
-      "listingValidatedAt": "2026-10-04T15:08:33.873Z",
+      "listingValidatedCommit": "fe1f829523d65f864627359f216a33f814a6f474",
+      "listingValidatedAt": "2026-10-06T13:26:44.117Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -292499,35 +292499,14 @@
         "pluginIds": [
           "io.github.ayandexyz.hommies"
         ],
-        "commit": "60e7b126450c09a6d1e042c7a927790f65b9dcf9",
-        "checkedAt": "2026-10-04T15:08:33.761Z",
+        "commit": "fe1f829523d65f864627359f216a33f814a6f474",
+        "checkedAt": "2026-10-06T13:26:44.117Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ayandexyz/hommies-plugin",
-        "pluginIds": [
-          "io.github.ayandexyz.hommies"
-        ],
-        "commit": "60e7b126450c09a6d1e042c7a927790f65b9dcf9",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T15:08:33.761Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T14:54:46.995Z",
-        "requestEventId": 32448646949,
-        "requestedAt": "2026-10-04T15:04:46Z",
-        "reviewedAt": "2026-10-04T15:08:33.761Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.ayandexyz.hommies": {
@@ -292543,7 +292522,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ayandexyz/hommies-plugin",
+        "pluginIds": [
+          "io.github.ayandexyz.hommies"
+        ],
+        "commit": "fe1f829523d65f864627359f216a33f814a6f474",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T13:26:44.117Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T13:12:14.810Z",
+        "requestEventId": 32602193764,
+        "requestedAt": "2026-10-06T13:26:12Z",
+        "reviewedAt": "2026-10-06T13:26:44.117Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "60e7b126450c09a6d1e042c7a927790f65b9dcf9",
+          "validatedAt": "2026-10-04T15:08:33.873Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T13:26:44.117Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ayandexyz/hommies-plugin",
+            "pluginIds": [
+              "io.github.ayandexyz.hommies"
+            ],
+            "commit": "60e7b126450c09a6d1e042c7a927790f65b9dcf9",
+            "checkedAt": "2026-10-04T15:08:33.761Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ayandexyz/hommies-plugin",
+            "pluginIds": [
+              "io.github.ayandexyz.hommies"
+            ],
+            "commit": "60e7b126450c09a6d1e042c7a927790f65b9dcf9",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T15:08:33.761Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T14:54:46.995Z",
+            "requestEventId": 32448646949,
+            "requestedAt": "2026-10-04T15:04:46Z",
+            "reviewedAt": "2026-10-04T15:08:33.761Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/sash-rift/omarchy-junction",
