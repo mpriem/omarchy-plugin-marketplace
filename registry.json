@@ -260858,8 +260858,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T14:37:59.890Z",
-      "listingValidatedCommit": "5e87d068461ac03b18233b602e05dd4fd12c03ac",
-      "listingValidatedAt": "2026-09-29T16:56:58.299Z",
+      "listingValidatedCommit": "cf26a43f9b3c0111abc067bdbd33dc81b3ed4cc1",
+      "listingValidatedAt": "2026-10-06T16:46:02.401Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -260868,8 +260868,8 @@
         "pluginIds": [
           "io.github.eatemall.toggl"
         ],
-        "commit": "5e87d068461ac03b18233b602e05dd4fd12c03ac",
-        "checkedAt": "2026-09-29T16:56:58.299Z",
+        "commit": "cf26a43f9b3c0111abc067bdbd33dc81b3ed4cc1",
+        "checkedAt": "2026-10-06T16:46:02.401Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -260888,28 +260888,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "eatemall/omarchy-toggl",
-        "pluginIds": [
-          "io.github.eatemall.toggl"
-        ],
-        "commit": "5e87d068461ac03b18233b602e05dd4fd12c03ac",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-29T16:56:58.299Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-28T16:01:42.874Z",
-        "requestEventId": 32091120385,
-        "requestedAt": "2026-09-29T15:14:57Z",
-        "reviewedAt": "2026-09-29T16:56:58.299Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -260956,8 +260934,75 @@
             "reviewedAt": "2026-09-28T14:37:59.784Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "5e87d068461ac03b18233b602e05dd4fd12c03ac",
+          "validatedAt": "2026-09-29T16:56:58.299Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T16:46:02.401Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "eatemall/omarchy-toggl",
+            "pluginIds": [
+              "io.github.eatemall.toggl"
+            ],
+            "commit": "5e87d068461ac03b18233b602e05dd4fd12c03ac",
+            "checkedAt": "2026-09-29T16:56:58.299Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "eatemall/omarchy-toggl",
+            "pluginIds": [
+              "io.github.eatemall.toggl"
+            ],
+            "commit": "5e87d068461ac03b18233b602e05dd4fd12c03ac",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-29T16:56:58.299Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-28T16:01:42.874Z",
+            "requestEventId": 32091120385,
+            "requestedAt": "2026-09-29T15:14:57Z",
+            "reviewedAt": "2026-09-29T16:56:58.299Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "eatemall/omarchy-toggl",
+        "pluginIds": [
+          "io.github.eatemall.toggl"
+        ],
+        "commit": "cf26a43f9b3c0111abc067bdbd33dc81b3ed4cc1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T16:46:02.401Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T15:28:56.098Z",
+        "requestEventId": 32619393677,
+        "requestedAt": "2026-10-06T16:45:33Z",
+        "reviewedAt": "2026-10-06T16:46:02.401Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/nicolasfalesy/omarchy-youtube-music",
