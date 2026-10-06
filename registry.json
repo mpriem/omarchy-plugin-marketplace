@@ -303760,8 +303760,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-06",
       "listedAt": "2026-10-06T13:05:54.838Z",
-      "listingValidatedCommit": "5209c7a3bdf9fbc4c9b3b493a2bc2e083c748e0f",
-      "listingValidatedAt": "2026-10-06T13:05:54.838Z",
+      "listingValidatedCommit": "e5a3087208387ba46d2dbe2ba7128d917aa2f397",
+      "listingValidatedAt": "2026-10-06T17:58:27.524Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -303770,41 +303770,14 @@
         "pluginIds": [
           "io.github.dragosol.pear-messages"
         ],
-        "commit": "5209c7a3bdf9fbc4c9b3b493a2bc2e083c748e0f",
-        "checkedAt": "2026-10-06T13:05:54.739Z",
+        "commit": "e5a3087208387ba46d2dbe2ba7128d917aa2f397",
+        "checkedAt": "2026-10-06T17:58:27.524Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "dragosol/omarchy-pear-messages",
-        "pluginIds": [
-          "io.github.dragosol.pear-messages"
-        ],
-        "commit": "5209c7a3bdf9fbc4c9b3b493a2bc2e083c748e0f",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-06T13:05:54.739Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-06T03:01:48.266Z",
-        "requestEventId": 32600302355,
-        "requestedAt": "2026-10-06T13:03:22Z",
-        "reviewedAt": "2026-10-06T13:05:54.740Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.dragosol.pear-messages": {
@@ -303819,7 +303792,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dragosol/omarchy-pear-messages",
+        "pluginIds": [
+          "io.github.dragosol.pear-messages"
+        ],
+        "commit": "e5a3087208387ba46d2dbe2ba7128d917aa2f397",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T17:58:27.524Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T17:49:02.405Z",
+        "requestEventId": 32624595173,
+        "requestedAt": "2026-10-06T17:57:56Z",
+        "reviewedAt": "2026-10-06T17:58:27.524Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5209c7a3bdf9fbc4c9b3b493a2bc2e083c748e0f",
+          "validatedAt": "2026-10-06T13:05:54.838Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T17:58:27.524Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dragosol/omarchy-pear-messages",
+            "pluginIds": [
+              "io.github.dragosol.pear-messages"
+            ],
+            "commit": "5209c7a3bdf9fbc4c9b3b493a2bc2e083c748e0f",
+            "checkedAt": "2026-10-06T13:05:54.739Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "dragosol/omarchy-pear-messages",
+            "pluginIds": [
+              "io.github.dragosol.pear-messages"
+            ],
+            "commit": "5209c7a3bdf9fbc4c9b3b493a2bc2e083c748e0f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-06T13:05:54.739Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-06T03:01:48.266Z",
+            "requestEventId": 32600302355,
+            "requestedAt": "2026-10-06T13:03:22Z",
+            "reviewedAt": "2026-10-06T13:05:54.740Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/leomoon-studios/omarchy-parsinegar-express",
