@@ -282997,8 +282997,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T16:20:16.830Z",
-      "listingValidatedCommit": "02883392178389e6ba90f06a075f5ab86f6da490",
-      "listingValidatedAt": "2026-10-02T16:20:16.830Z",
+      "listingValidatedCommit": "15eac2683793ca3d8b7a4b70c72970217348d3c1",
+      "listingValidatedAt": "2026-10-06T13:01:44.022Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -283007,8 +283007,8 @@
         "pluginIds": [
           "petrzpav.trello"
         ],
-        "commit": "02883392178389e6ba90f06a075f5ab86f6da490",
-        "checkedAt": "2026-10-02T16:20:16.754Z",
+        "commit": "15eac2683793ca3d8b7a4b70c72970217348d3c1",
+        "checkedAt": "2026-10-06T13:01:44.022Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -283016,28 +283016,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "petrzpav/omarchy-trello",
-        "pluginIds": [
-          "petrzpav.trello"
-        ],
-        "commit": "02883392178389e6ba90f06a075f5ab86f6da490",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T16:20:16.754Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T16:08:16.710Z",
-        "requestEventId": 32348152312,
-        "requestedAt": "2026-10-02T16:10:41Z",
-        "reviewedAt": "2026-10-02T16:20:16.754Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "petrzpav.trello": {
@@ -283047,7 +283025,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "petrzpav/omarchy-trello",
+        "pluginIds": [
+          "petrzpav.trello"
+        ],
+        "commit": "15eac2683793ca3d8b7a4b70c72970217348d3c1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T13:01:44.022Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T12:27:49.255Z",
+        "requestEventId": 32600030733,
+        "requestedAt": "2026-10-06T13:00:07Z",
+        "reviewedAt": "2026-10-06T13:01:44.022Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "02883392178389e6ba90f06a075f5ab86f6da490",
+          "validatedAt": "2026-10-02T16:20:16.830Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T13:01:44.022Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "petrzpav/omarchy-trello",
+            "pluginIds": [
+              "petrzpav.trello"
+            ],
+            "commit": "02883392178389e6ba90f06a075f5ab86f6da490",
+            "checkedAt": "2026-10-02T16:20:16.754Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "petrzpav/omarchy-trello",
+            "pluginIds": [
+              "petrzpav.trello"
+            ],
+            "commit": "02883392178389e6ba90f06a075f5ab86f6da490",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T16:20:16.754Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T16:08:16.710Z",
+            "requestEventId": 32348152312,
+            "requestedAt": "2026-10-02T16:10:41Z",
+            "reviewedAt": "2026-10-02T16:20:16.754Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/sjwasko/omafishin",
