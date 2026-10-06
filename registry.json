@@ -303476,6 +303476,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/paudelsamir/wayfarer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T13:58:31.311Z",
+      "listingValidatedCommit": "93b9e38caa458938798705eed7e66aa456a71b48",
+      "listingValidatedAt": "2026-10-06T13:58:31.311Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "paudelsamir/wayfarer",
+        "pluginIds": [
+          "paudelsamir.wayfarer"
+        ],
+        "commit": "93b9e38caa458938798705eed7e66aa456a71b48",
+        "checkedAt": "2026-10-06T13:58:31.239Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "paudelsamir.wayfarer": {
+          "category": "Other",
+          "tags": [
+            "games",
+            "education"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
