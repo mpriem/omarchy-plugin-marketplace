@@ -300960,6 +300960,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/pietrovos/omarchy-subspace",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T10:02:08.811Z",
+      "listingValidatedCommit": "6f5fff0623cb99229dbf342d9ea9737afb4daa0b",
+      "listingValidatedAt": "2026-10-06T10:02:08.811Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pietrovos/omarchy-subspace",
+        "pluginIds": [
+          "pietrovos.subspace"
+        ],
+        "commit": "6f5fff0623cb99229dbf342d9ea9737afb4daa0b",
+        "checkedAt": "2026-10-06T10:02:08.685Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pietrovos/omarchy-subspace",
+        "pluginIds": [
+          "pietrovos.subspace"
+        ],
+        "commit": "6f5fff0623cb99229dbf342d9ea9737afb4daa0b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T10:02:08.685Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T10:00:15.921Z",
+        "requestEventId": 32587450923,
+        "requestedAt": "2026-10-06T10:01:35Z",
+        "reviewedAt": "2026-10-06T10:02:08.685Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "pietrovos.subspace": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
