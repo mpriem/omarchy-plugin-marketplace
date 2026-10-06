@@ -114686,8 +114686,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-31",
       "listedAt": "2026-08-31T09:36:48.733Z",
-      "listingValidatedCommit": "0b0d4972a6aa6115a09496111bef2c08f72d32e3",
-      "listingValidatedAt": "2026-10-02T12:42:00.211Z",
+      "listingValidatedCommit": "66d425cc38c929d4b15646341e8c394608c3e922",
+      "listingValidatedAt": "2026-10-06T00:44:09.337Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -114696,8 +114696,8 @@
         "pluginIds": [
           "dev.bvisagie.quadrant"
         ],
-        "commit": "0b0d4972a6aa6115a09496111bef2c08f72d32e3",
-        "checkedAt": "2026-10-02T12:42:00.211Z",
+        "commit": "66d425cc38c929d4b15646341e8c394608c3e922",
+        "checkedAt": "2026-10-06T00:44:09.337Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -114749,6 +114749,26 @@
             ],
             "commit": "3e856ae4377557970355ecd19665f72ebfc977dc",
             "checkedAt": "2026-09-17T07:09:59.836Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "0b0d4972a6aa6115a09496111bef2c08f72d32e3",
+          "validatedAt": "2026-10-02T12:42:00.211Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T00:44:09.337Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bvisagie/omarchy-quadrant",
+            "pluginIds": [
+              "dev.bvisagie.quadrant"
+            ],
+            "commit": "0b0d4972a6aa6115a09496111bef2c08f72d32e3",
+            "checkedAt": "2026-10-02T12:42:00.211Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
