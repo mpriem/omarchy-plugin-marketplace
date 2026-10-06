@@ -91150,8 +91150,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-27",
       "listedAt": "2026-08-27T23:57:15.863Z",
-      "listingValidatedCommit": "f9817e44e8c9dc3587a523f5e527c7baff6e796e",
-      "listingValidatedAt": "2026-10-02T13:04:19.026Z",
+      "listingValidatedCommit": "36b5f04bdb027335662f02f869f5f929a941e0d3",
+      "listingValidatedAt": "2026-10-06T05:06:30.414Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -91160,8 +91160,8 @@
         "pluginIds": [
           "oliwier.network-usage"
         ],
-        "commit": "f9817e44e8c9dc3587a523f5e527c7baff6e796e",
-        "checkedAt": "2026-10-02T13:04:19.026Z",
+        "commit": "36b5f04bdb027335662f02f869f5f929a941e0d3",
+        "checkedAt": "2026-10-06T05:06:30.414Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -91183,27 +91183,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "oliwier-xiao/omarchy-network-usage",
-        "pluginIds": [
-          "oliwier.network-usage"
-        ],
-        "commit": "f9817e44e8c9dc3587a523f5e527c7baff6e796e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T13:04:19.026Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-30T18:37:47.690Z",
-        "requestEventId": 32333047265,
-        "requestedAt": "2026-10-02T12:25:18Z",
-        "reviewedAt": "2026-10-02T13:04:19.026Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -91248,8 +91227,72 @@
             "reviewedAt": "2026-08-27T23:57:15.820Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "f9817e44e8c9dc3587a523f5e527c7baff6e796e",
+          "validatedAt": "2026-10-02T13:04:19.026Z",
+          "branch": "main",
+          "supersededAt": "2026-10-06T05:06:30.414Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "oliwier-xiao/omarchy-network-usage",
+            "pluginIds": [
+              "oliwier.network-usage"
+            ],
+            "commit": "f9817e44e8c9dc3587a523f5e527c7baff6e796e",
+            "checkedAt": "2026-10-02T13:04:19.026Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "oliwier-xiao/omarchy-network-usage",
+            "pluginIds": [
+              "oliwier.network-usage"
+            ],
+            "commit": "f9817e44e8c9dc3587a523f5e527c7baff6e796e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T13:04:19.026Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-30T18:37:47.690Z",
+            "requestEventId": 32333047265,
+            "requestedAt": "2026-10-02T12:25:18Z",
+            "reviewedAt": "2026-10-02T13:04:19.026Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "oliwier-xiao/omarchy-network-usage",
+        "pluginIds": [
+          "oliwier.network-usage"
+        ],
+        "commit": "36b5f04bdb027335662f02f869f5f929a941e0d3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-06T05:06:30.414Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-05T15:35:26.145Z",
+        "requestEventId": 32569101677,
+        "requestedAt": "2026-10-06T05:06:05Z",
+        "reviewedAt": "2026-10-06T05:06:30.414Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/maiosx/X-Composer",
