@@ -301085,6 +301085,44 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/second-state/omarchy-remote-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T10:11:57.388Z",
+      "listingValidatedCommit": "3d84968f38dfd840c2cae1a1f90fa7ea237528e9",
+      "listingValidatedAt": "2026-10-06T10:11:57.388Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "second-state/omarchy-remote-plugin",
+        "pluginIds": [
+          "io.github.second-state.omarchy-remote"
+        ],
+        "commit": "3d84968f38dfd840c2cae1a1f90fa7ea237528e9",
+        "checkedAt": "2026-10-06T10:11:57.262Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.second-state.omarchy-remote": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "vpn",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
