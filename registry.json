@@ -40317,8 +40317,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-21",
       "listedAt": "2026-08-21T08:13:50.360Z",
-      "listingValidatedCommit": "83a3f122f67b136173b71842d3719078bd0a9fab",
-      "listingValidatedAt": "2026-10-06T17:49:05.063Z",
+      "listingValidatedCommit": "75babe25f2ea2363fe1f139a090605a600ebafa6",
+      "listingValidatedAt": "2026-10-06T18:20:57.841Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -40327,8 +40327,8 @@
         "pluginIds": [
           "io.github.juancasanueva.plugin-manager"
         ],
-        "commit": "83a3f122f67b136173b71842d3719078bd0a9fab",
-        "checkedAt": "2026-10-06T17:49:05.063Z",
+        "commit": "75babe25f2ea2363fe1f139a090605a600ebafa6",
+        "checkedAt": "2026-10-06T18:20:57.841Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -40753,6 +40753,51 @@
             "reviewedAt": "2026-10-03T07:47:43.652Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "83a3f122f67b136173b71842d3719078bd0a9fab",
+          "validatedAt": "2026-10-06T17:49:05.063Z",
+          "branch": "master",
+          "supersededAt": "2026-10-06T18:20:57.841Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "juancasanueva/omarchy-plugin-manager",
+            "pluginIds": [
+              "io.github.juancasanueva.plugin-manager"
+            ],
+            "commit": "83a3f122f67b136173b71842d3719078bd0a9fab",
+            "checkedAt": "2026-10-06T17:49:05.063Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "juancasanueva/omarchy-plugin-manager",
+            "pluginIds": [
+              "io.github.juancasanueva.plugin-manager"
+            ],
+            "commit": "83a3f122f67b136173b71842d3719078bd0a9fab",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-06T17:49:05.063Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-06T17:40:32.539Z",
+            "requestEventId": 32623908929,
+            "requestedAt": "2026-10-06T17:48:33Z",
+            "reviewedAt": "2026-10-06T17:49:05.063Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -40761,20 +40806,20 @@
         "pluginIds": [
           "io.github.juancasanueva.plugin-manager"
         ],
-        "commit": "83a3f122f67b136173b71842d3719078bd0a9fab",
+        "commit": "75babe25f2ea2363fe1f139a090605a600ebafa6",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-06T17:49:05.063Z",
+        "baselineCheckedAt": "2026-10-06T18:20:57.841Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "privilege",
           "package-manager"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-06T17:40:32.539Z",
-        "requestEventId": 32623908929,
-        "requestedAt": "2026-10-06T17:48:33Z",
-        "reviewedAt": "2026-10-06T17:49:05.063Z",
+        "reviewedBaselineCheckedAt": "2026-10-06T18:10:53.815Z",
+        "requestEventId": 32626237147,
+        "requestedAt": "2026-10-06T18:20:30Z",
+        "reviewedAt": "2026-10-06T18:20:57.841Z",
         "reviewer": "HANCORE-linux"
       }
     },
