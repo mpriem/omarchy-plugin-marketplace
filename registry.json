@@ -302526,6 +302526,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/saigkill/omarchy-tea-timer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-06",
+      "listedAt": "2026-10-06T12:22:04.633Z",
+      "listingValidatedCommit": "26d1aa751c103ff0df68ca891f3fb28fc56a0fb7",
+      "listingValidatedAt": "2026-10-06T12:22:04.633Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "saigkill/omarchy-tea-timer",
+        "pluginIds": [
+          "saigkill.tea-timer"
+        ],
+        "commit": "26d1aa751c103ff0df68ca891f3fb28fc56a0fb7",
+        "checkedAt": "2026-10-06T12:22:04.508Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "saigkill.tea-timer": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
