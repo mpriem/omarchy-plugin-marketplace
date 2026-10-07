@@ -304821,6 +304821,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tkreek/omarchy-unsplash",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T02:55:35.338Z",
+      "listingValidatedCommit": "91b482306394f829e4259566802d0a501a671a61",
+      "listingValidatedAt": "2026-10-07T02:55:35.338Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tkreek/omarchy-unsplash",
+        "pluginIds": [
+          "tkreek.unsplash"
+        ],
+        "commit": "91b482306394f829e4259566802d0a501a671a61",
+        "checkedAt": "2026-10-07T02:55:35.234Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "tkreek.unsplash": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
