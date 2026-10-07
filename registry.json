@@ -308411,6 +308411,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/rk4500/omarchy-crossfade-lock",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T14:10:25.988Z",
+      "listingValidatedCommit": "aa7be2615d2a910592de40475e0260d84366d021",
+      "listingValidatedAt": "2026-10-07T14:10:25.988Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rk4500/omarchy-crossfade-lock",
+        "pluginIds": [
+          "io.github.rk4500.crossfade-lock"
+        ],
+        "commit": "aa7be2615d2a910592de40475e0260d84366d021",
+        "checkedAt": "2026-10-07T14:10:25.887Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rk4500/omarchy-crossfade-lock",
+        "pluginIds": [
+          "io.github.rk4500.crossfade-lock"
+        ],
+        "commit": "aa7be2615d2a910592de40475e0260d84366d021",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T14:10:25.887Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T14:01:43.499Z",
+        "requestEventId": 32696928253,
+        "requestedAt": "2026-10-07T14:09:52Z",
+        "reviewedAt": "2026-10-07T14:10:25.887Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.rk4500.crossfade-lock": {
+          "category": "System",
+          "tags": [
+            "security",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
