@@ -306074,8 +306074,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T04:32:18.679Z",
-      "listingValidatedCommit": "34f6f81973d83e8ff6bb919a47b093a4d1aac01c",
-      "listingValidatedAt": "2026-10-07T04:32:18.679Z",
+      "listingValidatedCommit": "f201259505ecc102db758d697587ac347bda1b23",
+      "listingValidatedAt": "2026-10-07T05:25:09.684Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -306084,8 +306084,8 @@
         "pluginIds": [
           "grivera.kartchaos"
         ],
-        "commit": "34f6f81973d83e8ff6bb919a47b093a4d1aac01c",
-        "checkedAt": "2026-10-07T04:32:18.589Z",
+        "commit": "f201259505ecc102db758d697587ac347bda1b23",
+        "checkedAt": "2026-10-07T05:25:09.684Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -306100,7 +306100,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "34f6f81973d83e8ff6bb919a47b093a4d1aac01c",
+          "validatedAt": "2026-10-07T04:32:18.679Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T05:25:09.684Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "grivera82/omarchy-kartchaos",
+            "pluginIds": [
+              "grivera.kartchaos"
+            ],
+            "commit": "34f6f81973d83e8ff6bb919a47b093a4d1aac01c",
+            "checkedAt": "2026-10-07T04:32:18.589Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/grivera82/omapier",
