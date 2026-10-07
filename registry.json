@@ -308771,6 +308771,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Tablerase/omarchy-ardoise",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T14:43:14.040Z",
+      "listingValidatedCommit": "68156ce763bac8afad9ee6d1fb146ccfe856d691",
+      "listingValidatedAt": "2026-10-07T14:43:14.040Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tablerase/omarchy-ardoise",
+        "pluginIds": [
+          "tablerase.ardoise"
+        ],
+        "commit": "68156ce763bac8afad9ee6d1fb146ccfe856d691",
+        "checkedAt": "2026-10-07T14:43:13.916Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tablerase/omarchy-ardoise",
+        "pluginIds": [
+          "tablerase.ardoise"
+        ],
+        "commit": "68156ce763bac8afad9ee6d1fb146ccfe856d691",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T14:43:13.916Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T14:31:01.480Z",
+        "requestEventId": 32698854933,
+        "requestedAt": "2026-10-07T14:33:02Z",
+        "reviewedAt": "2026-10-07T14:43:13.916Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "tablerase.ardoise": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
