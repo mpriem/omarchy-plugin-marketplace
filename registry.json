@@ -309373,6 +309373,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/cotopena/omapeek",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T15:53:17.958Z",
+      "listingValidatedCommit": "8855194e494b3954bdb0e307c8fe6ecbda48b57e",
+      "listingValidatedAt": "2026-10-07T15:53:17.958Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cotopena/omapeek",
+        "pluginIds": [
+          "io.github.cotopena.omapeek"
+        ],
+        "commit": "8855194e494b3954bdb0e307c8fe6ecbda48b57e",
+        "checkedAt": "2026-10-07T15:53:17.835Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cotopena/omapeek",
+        "pluginIds": [
+          "io.github.cotopena.omapeek"
+        ],
+        "commit": "8855194e494b3954bdb0e307c8fe6ecbda48b57e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T15:53:17.835Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T15:40:58.690Z",
+        "requestEventId": 32704383062,
+        "requestedAt": "2026-10-07T15:48:30Z",
+        "reviewedAt": "2026-10-07T15:53:17.835Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.cotopena.omapeek": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "hyprland",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
