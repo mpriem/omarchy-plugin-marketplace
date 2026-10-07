@@ -305378,8 +305378,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T03:10:57.332Z",
-      "listingValidatedCommit": "338f0a6993c1c0eb87ee341266a198911c27a54c",
-      "listingValidatedAt": "2026-10-07T03:10:57.332Z",
+      "listingValidatedCommit": "bd2f8c2cdc03e7e81354f6e00d74bd972fbcd8eb",
+      "listingValidatedAt": "2026-10-07T05:34:31.378Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -305388,8 +305388,8 @@
         "pluginIds": [
           "dev.reuk.sysstats"
         ],
-        "commit": "338f0a6993c1c0eb87ee341266a198911c27a54c",
-        "checkedAt": "2026-10-07T03:10:57.203Z",
+        "commit": "bd2f8c2cdc03e7e81354f6e00d74bd972fbcd8eb",
+        "checkedAt": "2026-10-07T05:34:31.378Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -305405,7 +305405,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "338f0a6993c1c0eb87ee341266a198911c27a54c",
+          "validatedAt": "2026-10-07T03:10:57.332Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T05:34:31.378Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rohitkaushal7/omarchy-sysstats",
+            "pluginIds": [
+              "dev.reuk.sysstats"
+            ],
+            "commit": "338f0a6993c1c0eb87ee341266a198911c27a54c",
+            "checkedAt": "2026-10-07T03:10:57.203Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/danielmrdev/omarchy-sysinfo",
