@@ -305982,6 +305982,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/grivera82/omarchy-kartchaos",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T04:32:18.679Z",
+      "listingValidatedCommit": "34f6f81973d83e8ff6bb919a47b093a4d1aac01c",
+      "listingValidatedAt": "2026-10-07T04:32:18.679Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "grivera82/omarchy-kartchaos",
+        "pluginIds": [
+          "grivera.kartchaos"
+        ],
+        "commit": "34f6f81973d83e8ff6bb919a47b093a4d1aac01c",
+        "checkedAt": "2026-10-07T04:32:18.589Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "grivera.kartchaos": {
+          "category": "Widgets",
+          "tags": [
+            "games",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
