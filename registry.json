@@ -307845,6 +307845,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Dqckey/omarchy-ytmusic-player",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T12:52:20.438Z",
+      "listingValidatedCommit": "4ea1b072a8ed9918d0638fcb2a137c49c46927ea",
+      "listingValidatedAt": "2026-10-07T12:52:20.438Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dqckey/omarchy-ytmusic-player",
+        "pluginIds": [
+          "dqckey.ytmusic-player"
+        ],
+        "commit": "4ea1b072a8ed9918d0638fcb2a137c49c46927ea",
+        "checkedAt": "2026-10-07T12:52:20.309Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dqckey/omarchy-ytmusic-player",
+        "pluginIds": [
+          "dqckey.ytmusic-player"
+        ],
+        "commit": "4ea1b072a8ed9918d0638fcb2a137c49c46927ea",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T12:52:20.309Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T12:50:00.008Z",
+        "requestEventId": 32690526908,
+        "requestedAt": "2026-10-07T12:51:41Z",
+        "reviewedAt": "2026-10-07T12:52:20.309Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "dqckey.ytmusic-player": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
