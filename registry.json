@@ -250292,8 +250292,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T08:25:50.591Z",
-      "listingValidatedCommit": "593fb8ba009a0c0dc39fe742c78b0b99ec0a88c1",
-      "listingValidatedAt": "2026-09-27T08:25:50.591Z",
+      "listingValidatedCommit": "9d9bc503398478ea378446ca419db261e4989d4f",
+      "listingValidatedAt": "2026-10-07T16:18:52.745Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -250302,8 +250302,8 @@
         "pluginIds": [
           "io.github.nobledoodle.omission"
         ],
-        "commit": "593fb8ba009a0c0dc39fe742c78b0b99ec0a88c1",
-        "checkedAt": "2026-09-27T08:25:50.483Z",
+        "commit": "9d9bc503398478ea378446ca419db261e4989d4f",
+        "checkedAt": "2026-10-07T16:18:52.745Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -250319,7 +250319,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "593fb8ba009a0c0dc39fe742c78b0b99ec0a88c1",
+          "validatedAt": "2026-09-27T08:25:50.591Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T16:18:52.745Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nobledoodle/omission",
+            "pluginIds": [
+              "io.github.nobledoodle.omission"
+            ],
+            "commit": "593fb8ba009a0c0dc39fe742c78b0b99ec0a88c1",
+            "checkedAt": "2026-09-27T08:25:50.483Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/thenitai/omabuffer",
