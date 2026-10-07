@@ -305518,6 +305518,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/h4r0n1/omascrabble",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T03:59:53.123Z",
+      "listingValidatedCommit": "b3f98c90f37b707a828acdc4d00481d12330b299",
+      "listingValidatedAt": "2026-10-07T03:59:53.123Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "h4r0n1/omascrabble",
+        "pluginIds": [
+          "omascrabble"
+        ],
+        "commit": "b3f98c90f37b707a828acdc4d00481d12330b299",
+        "checkedAt": "2026-10-07T03:59:52.997Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "h4r0n1/omascrabble",
+        "pluginIds": [
+          "omascrabble"
+        ],
+        "commit": "b3f98c90f37b707a828acdc4d00481d12330b299",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T03:59:52.997Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T00:28:18.434Z",
+        "requestEventId": 32656904772,
+        "requestedAt": "2026-10-07T03:46:11Z",
+        "reviewedAt": "2026-10-07T03:59:52.998Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omascrabble": {
+          "category": "Other",
+          "tags": [
+            "games",
+            "quickshell",
+            "education"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
