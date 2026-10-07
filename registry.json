@@ -243797,8 +243797,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-25",
       "listedAt": "2026-09-25T09:42:48.609Z",
-      "listingValidatedCommit": "ec1ae0686f165af98f4a17d51fdf50e84cd3c66b",
-      "listingValidatedAt": "2026-10-02T08:00:48.782Z",
+      "listingValidatedCommit": "04be013cd15d05cf3d3faad838fb879faf619c59",
+      "listingValidatedAt": "2026-10-07T03:07:40.937Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -243807,8 +243807,8 @@
         "pluginIds": [
           "gregl83.plancks"
         ],
-        "commit": "ec1ae0686f165af98f4a17d51fdf50e84cd3c66b",
-        "checkedAt": "2026-10-02T08:00:48.782Z",
+        "commit": "04be013cd15d05cf3d3faad838fb879faf619c59",
+        "checkedAt": "2026-10-07T03:07:40.937Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -243825,27 +243825,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "gregl83/omarchy-plancks",
-        "pluginIds": [
-          "gregl83.plancks"
-        ],
-        "commit": "ec1ae0686f165af98f4a17d51fdf50e84cd3c66b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T08:00:48.782Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T00:55:37.249Z",
-        "requestEventId": 32316880970,
-        "requestedAt": "2026-10-02T07:33:52Z",
-        "reviewedAt": "2026-10-02T08:00:48.782Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -243890,8 +243869,72 @@
             "reviewedAt": "2026-09-25T09:42:48.492Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "ec1ae0686f165af98f4a17d51fdf50e84cd3c66b",
+          "validatedAt": "2026-10-02T08:00:48.782Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T03:07:40.937Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gregl83/omarchy-plancks",
+            "pluginIds": [
+              "gregl83.plancks"
+            ],
+            "commit": "ec1ae0686f165af98f4a17d51fdf50e84cd3c66b",
+            "checkedAt": "2026-10-02T08:00:48.782Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gregl83/omarchy-plancks",
+            "pluginIds": [
+              "gregl83.plancks"
+            ],
+            "commit": "ec1ae0686f165af98f4a17d51fdf50e84cd3c66b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T08:00:48.782Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T00:55:37.249Z",
+            "requestEventId": 32316880970,
+            "requestedAt": "2026-10-02T07:33:52Z",
+            "reviewedAt": "2026-10-02T08:00:48.782Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gregl83/omarchy-plancks",
+        "pluginIds": [
+          "gregl83.plancks"
+        ],
+        "commit": "04be013cd15d05cf3d3faad838fb879faf619c59",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T03:07:40.937Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T19:53:08.870Z",
+        "requestEventId": 32633730424,
+        "requestedAt": "2026-10-06T20:07:57Z",
+        "reviewedAt": "2026-10-07T03:07:40.937Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/KaykyM2411/omarchy-workspace-switcher",
