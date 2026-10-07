@@ -305067,6 +305067,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/RohitKaushal7/omarchy-controller",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T03:17:22.059Z",
+      "listingValidatedCommit": "dba9462944bac2abad44f2735b5a718764d7b9e5",
+      "listingValidatedAt": "2026-10-07T03:17:22.059Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rohitkaushal7/omarchy-controller",
+        "pluginIds": [
+          "dev.reuk.controller"
+        ],
+        "commit": "dba9462944bac2abad44f2735b5a718764d7b9e5",
+        "checkedAt": "2026-10-07T03:17:21.917Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "dev.reuk.controller": {
+          "category": "Hardware",
+          "tags": [
+            "games",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
