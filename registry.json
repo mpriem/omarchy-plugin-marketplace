@@ -307788,6 +307788,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/neilofneils404/omarchy-yautja",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T12:38:54.603Z",
+      "listingValidatedCommit": "20afa99a68bfba2b5ea4a89f6d07d8d6d88278b2",
+      "listingValidatedAt": "2026-10-07T12:38:54.603Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "neilofneils404/omarchy-yautja",
+        "pluginIds": [
+          "neil.yautja"
+        ],
+        "commit": "20afa99a68bfba2b5ea4a89f6d07d8d6d88278b2",
+        "checkedAt": "2026-10-07T12:38:54.474Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "neilofneils404/omarchy-yautja",
+        "pluginIds": [
+          "neil.yautja"
+        ],
+        "commit": "20afa99a68bfba2b5ea4a89f6d07d8d6d88278b2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T12:38:54.474Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T12:36:37.822Z",
+        "requestEventId": 32689519072,
+        "requestedAt": "2026-10-07T12:38:21Z",
+        "reviewedAt": "2026-10-07T12:38:54.474Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "neil.yautja": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
