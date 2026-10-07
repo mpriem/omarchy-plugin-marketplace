@@ -228816,8 +228816,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T12:01:52.307Z",
-      "listingValidatedCommit": "cb413f929f41e81a5e8207046730185184141119",
-      "listingValidatedAt": "2026-10-04T11:22:10.671Z",
+      "listingValidatedCommit": "e1ae815e603d7ddb1d8a5c1aa67a88e9478b787e",
+      "listingValidatedAt": "2026-10-07T13:48:15.139Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -228826,8 +228826,8 @@
         "pluginIds": [
           "io.github.manateelazycat.window-switcher"
         ],
-        "commit": "cb413f929f41e81a5e8207046730185184141119",
-        "checkedAt": "2026-10-04T11:22:10.671Z",
+        "commit": "e1ae815e603d7ddb1d8a5c1aa67a88e9478b787e",
+        "checkedAt": "2026-10-07T13:48:15.139Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -228919,6 +228919,26 @@
             ],
             "commit": "ce8cf8328b37a95087a17ac0454e9a195655153f",
             "checkedAt": "2026-09-29T20:32:47.967Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "cb413f929f41e81a5e8207046730185184141119",
+          "validatedAt": "2026-10-04T11:22:10.671Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T13:48:15.139Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-window-switcher",
+            "pluginIds": [
+              "io.github.manateelazycat.window-switcher"
+            ],
+            "commit": "cb413f929f41e81a5e8207046730185184141119",
+            "checkedAt": "2026-10-04T11:22:10.671Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
