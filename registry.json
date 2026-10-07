@@ -305101,6 +305101,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/hpolthof/omarchy-promptic",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T03:20:32.233Z",
+      "listingValidatedCommit": "44c76b31952b5dd00f619b500217ac0e298b964c",
+      "listingValidatedAt": "2026-10-07T03:20:32.233Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hpolthof/omarchy-promptic",
+        "pluginIds": [
+          "io.github.hpolthof.promptic"
+        ],
+        "commit": "44c76b31952b5dd00f619b500217ac0e298b964c",
+        "checkedAt": "2026-10-07T03:20:32.106Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.hpolthof.promptic": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
