@@ -308243,6 +308243,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/eastbluewizard-official/omarchy-stickies",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T13:43:38.999Z",
+      "listingValidatedCommit": "cb9cb869cb6a2d56462e1a31c1484f643a4d2da8",
+      "listingValidatedAt": "2026-10-07T13:43:38.999Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "eastbluewizard-official/omarchy-stickies",
+        "pluginIds": [
+          "eastbluewizard.stickies"
+        ],
+        "commit": "cb9cb869cb6a2d56462e1a31c1484f643a4d2da8",
+        "checkedAt": "2026-10-07T13:43:38.874Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "eastbluewizard-official/omarchy-stickies",
+        "pluginIds": [
+          "eastbluewizard.stickies"
+        ],
+        "commit": "cb9cb869cb6a2d56462e1a31c1484f643a4d2da8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T13:43:38.874Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T13:37:35.655Z",
+        "requestEventId": 32694670217,
+        "requestedAt": "2026-10-07T13:43:03Z",
+        "reviewedAt": "2026-10-07T13:43:38.874Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "eastbluewizard.stickies": {
+          "category": "Productivity",
+          "tags": [
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
