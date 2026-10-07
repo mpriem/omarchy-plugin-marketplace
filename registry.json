@@ -309789,6 +309789,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ofa14-prog/omarchy-theme-studio",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T17:58:23.994Z",
+      "listingValidatedCommit": "ddf93631e2d32dfeaf7011905803e7d41088cd9e",
+      "listingValidatedAt": "2026-10-07T17:58:23.994Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ofa14-prog/omarchy-theme-studio",
+        "pluginIds": [
+          "io.github.ofa14-prog.theme-studio"
+        ],
+        "commit": "ddf93631e2d32dfeaf7011905803e7d41088cd9e",
+        "checkedAt": "2026-10-07T17:58:23.881Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.ofa14-prog.theme-studio": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
