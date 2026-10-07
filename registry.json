@@ -292366,8 +292366,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T21:22:30.486Z",
-      "listingValidatedCommit": "ae20138d4ae8fba91d89f479a8988dd8dfa11c1c",
-      "listingValidatedAt": "2026-10-03T21:22:30.486Z",
+      "listingValidatedCommit": "a0b0b2a729d15727528d1ffe10d714e114d367e2",
+      "listingValidatedAt": "2026-10-07T23:02:56.131Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -292376,8 +292376,8 @@
         "pluginIds": [
           "io.github.qempexe.omatravel"
         ],
-        "commit": "ae20138d4ae8fba91d89f479a8988dd8dfa11c1c",
-        "checkedAt": "2026-10-03T21:22:30.367Z",
+        "commit": "a0b0b2a729d15727528d1ffe10d714e114d367e2",
+        "checkedAt": "2026-10-07T23:02:56.131Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -292392,7 +292392,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ae20138d4ae8fba91d89f479a8988dd8dfa11c1c",
+          "validatedAt": "2026-10-03T21:22:30.486Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T23:02:56.131Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "qempexe/omarchy-omatravel",
+            "pluginIds": [
+              "io.github.qempexe.omatravel"
+            ],
+            "commit": "ae20138d4ae8fba91d89f479a8988dd8dfa11c1c",
+            "checkedAt": "2026-10-03T21:22:30.367Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jchisholm59/omarchy-ollama-chat",
