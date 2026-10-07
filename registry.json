@@ -307351,8 +307351,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T08:44:35.869Z",
-      "listingValidatedCommit": "8aa33e78a7a0a6d9e095f9b0da685ccccca24c0e",
-      "listingValidatedAt": "2026-10-07T14:34:02.225Z",
+      "listingValidatedCommit": "438fa2fe9d5e33d970e1efa952087a46e3be5c12",
+      "listingValidatedAt": "2026-10-07T15:28:09.961Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -307361,8 +307361,8 @@
         "pluginIds": [
           "maftuuh.boxtop"
         ],
-        "commit": "8aa33e78a7a0a6d9e095f9b0da685ccccca24c0e",
-        "checkedAt": "2026-10-07T14:34:02.225Z",
+        "commit": "438fa2fe9d5e33d970e1efa952087a46e3be5c12",
+        "checkedAt": "2026-10-07T15:28:09.961Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -307394,6 +307394,26 @@
             ],
             "commit": "79383ef3f15130f5ba0d9b94f94a23382bbb1ed4",
             "checkedAt": "2026-10-07T08:44:35.743Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "8aa33e78a7a0a6d9e095f9b0da685ccccca24c0e",
+          "validatedAt": "2026-10-07T14:34:02.225Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T15:28:09.961Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "maftuuh1922/omarchy-boxtop",
+            "pluginIds": [
+              "maftuuh.boxtop"
+            ],
+            "commit": "8aa33e78a7a0a6d9e095f9b0da685ccccca24c0e",
+            "checkedAt": "2026-10-07T14:34:02.225Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
