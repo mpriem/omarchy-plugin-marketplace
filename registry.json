@@ -309673,6 +309673,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mrjohnnycake/omarchy-network-plus",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T17:26:07.081Z",
+      "listingValidatedCommit": "7463e994d736ec665ee417cd084286be0cad6c71",
+      "listingValidatedAt": "2026-10-07T17:26:07.081Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mrjohnnycake/omarchy-network-plus",
+        "pluginIds": [
+          "mrjohnnycake.network-plus"
+        ],
+        "commit": "7463e994d736ec665ee417cd084286be0cad6c71",
+        "checkedAt": "2026-10-07T17:26:06.974Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mrjohnnycake/omarchy-network-plus",
+        "pluginIds": [
+          "mrjohnnycake.network-plus"
+        ],
+        "commit": "7463e994d736ec665ee417cd084286be0cad6c71",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T17:26:06.974Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T17:16:36.043Z",
+        "requestEventId": 32711246230,
+        "requestedAt": "2026-10-07T17:25:27Z",
+        "reviewedAt": "2026-10-07T17:26:06.974Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "mrjohnnycake.network-plus": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
