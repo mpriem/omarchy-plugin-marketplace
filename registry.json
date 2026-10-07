@@ -309432,6 +309432,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/grivera82/omarchy-spacex",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T15:56:35.441Z",
+      "listingValidatedCommit": "a6424351b4e6b0b3ff7148647e18fa331debeaf7",
+      "listingValidatedAt": "2026-10-07T15:56:35.441Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "grivera82/omarchy-spacex",
+        "pluginIds": [
+          "grivera.spacex"
+        ],
+        "commit": "a6424351b4e6b0b3ff7148647e18fa331debeaf7",
+        "checkedAt": "2026-10-07T15:56:35.302Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "grivera.spacex": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
