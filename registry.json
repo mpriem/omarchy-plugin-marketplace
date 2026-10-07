@@ -278589,8 +278589,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T02:05:24.795Z",
-      "listingValidatedCommit": "89a484cb22b0acd5bc42d01dc3867a0268573761",
-      "listingValidatedAt": "2026-10-02T02:05:24.795Z",
+      "listingValidatedCommit": "ccdd0605b1fff88280c9325b5ffd292204bc7bc1",
+      "listingValidatedAt": "2026-10-07T06:03:12.187Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -278599,8 +278599,8 @@
         "pluginIds": [
           "petrzpav.mail"
         ],
-        "commit": "89a484cb22b0acd5bc42d01dc3867a0268573761",
-        "checkedAt": "2026-10-02T02:05:24.691Z",
+        "commit": "ccdd0605b1fff88280c9325b5ffd292204bc7bc1",
+        "checkedAt": "2026-10-07T06:03:12.187Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -278610,30 +278610,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "petrzpav/omarchy-mail",
-        "pluginIds": [
-          "petrzpav.mail"
-        ],
-        "commit": "89a484cb22b0acd5bc42d01dc3867a0268573761",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T02:05:24.691Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T01:34:35.161Z",
-        "requestEventId": 32302109112,
-        "requestedAt": "2026-10-02T01:37:12Z",
-        "reviewedAt": "2026-10-02T02:05:24.691Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "petrzpav.mail": {
@@ -278648,7 +278624,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "petrzpav/omarchy-mail",
+        "pluginIds": [
+          "petrzpav.mail"
+        ],
+        "commit": "ccdd0605b1fff88280c9325b5ffd292204bc7bc1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T06:03:12.187Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T05:52:08.618Z",
+        "requestEventId": 32663262469,
+        "requestedAt": "2026-10-07T06:02:45Z",
+        "reviewedAt": "2026-10-07T06:03:12.187Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "89a484cb22b0acd5bc42d01dc3867a0268573761",
+          "validatedAt": "2026-10-02T02:05:24.795Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T06:03:12.187Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "petrzpav/omarchy-mail",
+            "pluginIds": [
+              "petrzpav.mail"
+            ],
+            "commit": "89a484cb22b0acd5bc42d01dc3867a0268573761",
+            "checkedAt": "2026-10-02T02:05:24.691Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "petrzpav/omarchy-mail",
+            "pluginIds": [
+              "petrzpav.mail"
+            ],
+            "commit": "89a484cb22b0acd5bc42d01dc3867a0268573761",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T02:05:24.691Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T01:34:35.161Z",
+            "requestEventId": 32302109112,
+            "requestedAt": "2026-10-02T01:37:12Z",
+            "reviewedAt": "2026-10-02T02:05:24.691Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/t1nk333r/t1nk33r.nothing-glass",
