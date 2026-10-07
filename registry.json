@@ -305476,8 +305476,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-06",
       "listedAt": "2026-10-06T14:38:17.252Z",
-      "listingValidatedCommit": "592f1f4b3364ced7848acd2b66360787976fc415",
-      "listingValidatedAt": "2026-10-06T14:38:17.252Z",
+      "listingValidatedCommit": "7c279700073198b05ab8e09b77ccf1c9c7b83c52",
+      "listingValidatedAt": "2026-10-07T13:01:52.250Z",
       "listingValidatedBranch": "dist",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -305486,8 +305486,8 @@
         "pluginIds": [
           "io.github.bavanchun.nookisle"
         ],
-        "commit": "592f1f4b3364ced7848acd2b66360787976fc415",
-        "checkedAt": "2026-10-06T14:38:17.146Z",
+        "commit": "7c279700073198b05ab8e09b77ccf1c9c7b83c52",
+        "checkedAt": "2026-10-07T13:01:52.250Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -305495,28 +305495,6 @@
           "bundled-executable-binary",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "bavanchun/nookisle",
-        "pluginIds": [
-          "io.github.bavanchun.nookisle"
-        ],
-        "commit": "592f1f4b3364ced7848acd2b66360787976fc415",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-06T14:38:17.146Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "bundled-executable-binary",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-06T08:47:31.369Z",
-        "requestEventId": 32608327804,
-        "requestedAt": "2026-10-06T14:36:17Z",
-        "reviewedAt": "2026-10-06T14:38:17.146Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.bavanchun.nookisle": {
@@ -305528,7 +305506,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bavanchun/nookisle",
+        "pluginIds": [
+          "io.github.bavanchun.nookisle"
+        ],
+        "commit": "7c279700073198b05ab8e09b77ccf1c9c7b83c52",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T13:01:52.250Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T12:03:41.705Z",
+        "requestEventId": 32691049960,
+        "requestedAt": "2026-10-07T12:58:37Z",
+        "reviewedAt": "2026-10-07T13:01:52.250Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "592f1f4b3364ced7848acd2b66360787976fc415",
+          "validatedAt": "2026-10-06T14:38:17.252Z",
+          "branch": "dist",
+          "supersededAt": "2026-10-07T13:01:52.250Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bavanchun/nookisle",
+            "pluginIds": [
+              "io.github.bavanchun.nookisle"
+            ],
+            "commit": "592f1f4b3364ced7848acd2b66360787976fc415",
+            "checkedAt": "2026-10-06T14:38:17.146Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "bavanchun/nookisle",
+            "pluginIds": [
+              "io.github.bavanchun.nookisle"
+            ],
+            "commit": "592f1f4b3364ced7848acd2b66360787976fc415",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-06T14:38:17.146Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-06T08:47:31.369Z",
+            "requestEventId": 32608327804,
+            "requestedAt": "2026-10-06T14:36:17Z",
+            "reviewedAt": "2026-10-06T14:38:17.146Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/pxllbt/better-bar",
