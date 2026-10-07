@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T21:27:23.948Z",
+  "generatedAt": "2026-10-07T21:30:43.743Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -242504,14 +242504,14 @@
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
       "verificationCommit": "60872080e1cfd2241af222ce8a0ae04e2fa14099",
-      "verificationCheckedAt": "2026-10-07T20:41:46.308Z",
+      "verificationCheckedAt": "2026-10-07T21:30:43.743Z",
       "manifestPath": "manifest.json",
       "addedAt": "2026-09-29",
       "listedAt": "2026-09-29T01:58:27.393Z",
       "repositoryLayout": "root-plugin",
-      "installAvailable": false,
-      "installCommand": "",
-      "installNote": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions.",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/heinsk/omarchy-devops-monitor.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
       "category": "Developer Tools",
       "tags": [
         "bar"
@@ -242547,7 +242547,7 @@
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "f60b9c9428af8a68e66f16ae2072d5d76634151a634539db60efbb7b5fb34a6a",
       "versionUpdatedAt": "2026-10-07T20:41:46.864Z",
-      "status": "Manual setup"
+      "status": "Available"
     },
     {
       "id": "a-weather-app.weather",

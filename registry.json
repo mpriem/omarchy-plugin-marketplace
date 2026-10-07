@@ -264324,7 +264324,7 @@
           "io.github.heinsk.devops-monitor"
         ],
         "commit": "60872080e1cfd2241af222ce8a0ae04e2fa14099",
-        "checkedAt": "2026-10-07T20:41:46.308Z",
+        "checkedAt": "2026-10-07T21:30:43.743Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -264336,11 +264336,7 @@
           "tags": [
             "bar"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       },
       "listingValidationHistory": [
