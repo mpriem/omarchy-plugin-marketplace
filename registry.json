@@ -306167,6 +306167,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/saigkill/omarchy-medical",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T04:54:16.641Z",
+      "listingValidatedCommit": "0cb0cd436e9813fe830d0bacb8dc1340d01e6f72",
+      "listingValidatedAt": "2026-10-07T04:54:16.641Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "saigkill/omarchy-medical",
+        "pluginIds": [
+          "saigkill.meds"
+        ],
+        "commit": "0cb0cd436e9813fe830d0bacb8dc1340d01e6f72",
+        "checkedAt": "2026-10-07T04:54:16.507Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "saigkill/omarchy-medical",
+        "pluginIds": [
+          "saigkill.meds"
+        ],
+        "commit": "0cb0cd436e9813fe830d0bacb8dc1340d01e6f72",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T04:54:16.507Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T04:04:00.993Z",
+        "requestEventId": 32658367694,
+        "requestedAt": "2026-10-07T04:20:03Z",
+        "reviewedAt": "2026-10-07T04:54:16.507Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "saigkill.meds": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
