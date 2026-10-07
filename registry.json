@@ -308654,6 +308654,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nathanmeira/omarchy-ring",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T14:29:55.155Z",
+      "listingValidatedCommit": "936fccad35b621da6a76efd493e4d3f4556b795c",
+      "listingValidatedAt": "2026-10-07T14:29:55.155Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nathanmeira/omarchy-ring",
+        "pluginIds": [
+          "nnathan.ring"
+        ],
+        "commit": "936fccad35b621da6a76efd493e4d3f4556b795c",
+        "checkedAt": "2026-10-07T14:29:55.027Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nathanmeira/omarchy-ring",
+        "pluginIds": [
+          "nnathan.ring"
+        ],
+        "commit": "936fccad35b621da6a76efd493e4d3f4556b795c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T14:29:55.027Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T14:24:25.286Z",
+        "requestEventId": 32698352119,
+        "requestedAt": "2026-10-07T14:27:01Z",
+        "reviewedAt": "2026-10-07T14:29:55.028Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "nnathan.ring": {
+          "category": "Widgets",
+          "tags": [
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
