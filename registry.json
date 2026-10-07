@@ -305914,6 +305914,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ignotas/omarchy-mouse-sacrifice",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T04:25:23.815Z",
+      "listingValidatedCommit": "7d79506e00759415b768ccb10fcbbf8668d8483d",
+      "listingValidatedAt": "2026-10-07T04:25:23.815Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ignotas/omarchy-mouse-sacrifice",
+        "pluginIds": [
+          "ignotas.mouse-sacrifice"
+        ],
+        "commit": "7d79506e00759415b768ccb10fcbbf8668d8483d",
+        "checkedAt": "2026-10-07T04:25:23.684Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ignotas.mouse-sacrifice": {
+          "category": "Desktop",
+          "tags": [
+            "ai",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
