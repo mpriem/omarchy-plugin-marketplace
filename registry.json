@@ -304888,6 +304888,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/AlexMedela/simple-updates",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T03:01:19.170Z",
+      "listingValidatedCommit": "5ccf7ab230ff49fa3f739c128b7b38342970c67c",
+      "listingValidatedAt": "2026-10-07T03:01:19.170Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alexmedela/simple-updates",
+        "pluginIds": [
+          "amedela.simple-updates"
+        ],
+        "commit": "5ccf7ab230ff49fa3f739c128b7b38342970c67c",
+        "checkedAt": "2026-10-07T03:01:19.041Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "amedela.simple-updates": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
