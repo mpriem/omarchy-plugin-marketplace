@@ -310416,6 +310416,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/SalimRK/godark",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T21:43:07.694Z",
+      "listingValidatedCommit": "974546b39497b2e13b2cdf66e89aed48a09e52ee",
+      "listingValidatedAt": "2026-10-07T21:43:07.694Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "salimrk/godark",
+        "pluginIds": [
+          "oniomarchy.godark"
+        ],
+        "commit": "974546b39497b2e13b2cdf66e89aed48a09e52ee",
+        "checkedAt": "2026-10-07T21:43:07.567Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "salimrk/godark",
+        "pluginIds": [
+          "oniomarchy.godark"
+        ],
+        "commit": "974546b39497b2e13b2cdf66e89aed48a09e52ee",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T21:43:07.567Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T21:38:04.641Z",
+        "requestEventId": 32728783769,
+        "requestedAt": "2026-10-07T21:42:42Z",
+        "reviewedAt": "2026-10-07T21:43:07.568Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "oniomarchy.godark": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "security",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
