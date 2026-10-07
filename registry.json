@@ -305948,6 +305948,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/SilverStoneSecure/Wpal",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T04:28:47.820Z",
+      "listingValidatedCommit": "5bc355fecc294a8b6ea60083dfd7ddbda8477d70",
+      "listingValidatedAt": "2026-10-07T04:28:47.820Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "silverstonesecure/wpal",
+        "pluginIds": [
+          "io.github.silverstone.wpal"
+        ],
+        "commit": "5bc355fecc294a8b6ea60083dfd7ddbda8477d70",
+        "checkedAt": "2026-10-07T04:28:47.696Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.silverstone.wpal": {
+          "category": "Desktop",
+          "tags": [
+            "workspaces",
+            "bar",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
