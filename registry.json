@@ -305539,8 +305539,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T03:17:22.059Z",
-      "listingValidatedCommit": "dba9462944bac2abad44f2735b5a718764d7b9e5",
-      "listingValidatedAt": "2026-10-07T03:17:22.059Z",
+      "listingValidatedCommit": "6bc4bfa7c8c8bbbd8e6ac19df85d6b0a9542c1e5",
+      "listingValidatedAt": "2026-10-07T09:01:33.598Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -305549,8 +305549,8 @@
         "pluginIds": [
           "dev.reuk.controller"
         ],
-        "commit": "dba9462944bac2abad44f2735b5a718764d7b9e5",
-        "checkedAt": "2026-10-07T03:17:21.917Z",
+        "commit": "6bc4bfa7c8c8bbbd8e6ac19df85d6b0a9542c1e5",
+        "checkedAt": "2026-10-07T09:01:33.598Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -305566,7 +305566,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "dba9462944bac2abad44f2735b5a718764d7b9e5",
+          "validatedAt": "2026-10-07T03:17:22.059Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T09:01:33.598Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rohitkaushal7/omarchy-controller",
+            "pluginIds": [
+              "dev.reuk.controller"
+            ],
+            "commit": "dba9462944bac2abad44f2735b5a718764d7b9e5",
+            "checkedAt": "2026-10-07T03:17:21.917Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/hpolthof/omarchy-promptic",
