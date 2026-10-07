@@ -305979,8 +305979,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T04:19:06.248Z",
-      "listingValidatedCommit": "09af2e22b833eee6759fbbb040eb52870341786e",
-      "listingValidatedAt": "2026-10-07T04:19:06.248Z",
+      "listingValidatedCommit": "113febcb1022d1e2cb0f4aebe0c450212c2606d2",
+      "listingValidatedAt": "2026-10-07T08:54:24.836Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -305989,8 +305989,8 @@
         "pluginIds": [
           "local.cpu-mode"
         ],
-        "commit": "09af2e22b833eee6759fbbb040eb52870341786e",
-        "checkedAt": "2026-10-07T04:19:06.163Z",
+        "commit": "113febcb1022d1e2cb0f4aebe0c450212c2606d2",
+        "checkedAt": "2026-10-07T08:54:24.836Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -305999,29 +305999,6 @@
           "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "alexpomsft/omarchy-cpu-mode",
-        "pluginIds": [
-          "local.cpu-mode"
-        ],
-        "commit": "09af2e22b833eee6759fbbb040eb52870341786e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-07T04:19:06.163Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-06T22:10:44.581Z",
-        "requestEventId": 32656928993,
-        "requestedAt": "2026-10-07T03:46:46Z",
-        "reviewedAt": "2026-10-07T04:19:06.163Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "local.cpu-mode": {
@@ -306037,7 +306014,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alexpomsft/omarchy-cpu-mode",
+        "pluginIds": [
+          "local.cpu-mode"
+        ],
+        "commit": "113febcb1022d1e2cb0f4aebe0c450212c2606d2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T08:54:24.836Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T08:10:02.787Z",
+        "requestEventId": 32673588729,
+        "requestedAt": "2026-10-07T08:47:20Z",
+        "reviewedAt": "2026-10-07T08:54:24.836Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "09af2e22b833eee6759fbbb040eb52870341786e",
+          "validatedAt": "2026-10-07T04:19:06.248Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T08:54:24.836Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "alexpomsft/omarchy-cpu-mode",
+            "pluginIds": [
+              "local.cpu-mode"
+            ],
+            "commit": "09af2e22b833eee6759fbbb040eb52870341786e",
+            "checkedAt": "2026-10-07T04:19:06.163Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "alexpomsft/omarchy-cpu-mode",
+            "pluginIds": [
+              "local.cpu-mode"
+            ],
+            "commit": "09af2e22b833eee6759fbbb040eb52870341786e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-07T04:19:06.163Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-06T22:10:44.581Z",
+            "requestEventId": 32656928993,
+            "requestedAt": "2026-10-07T03:46:46Z",
+            "reviewedAt": "2026-10-07T04:19:06.163Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/vinicgobbi/omarchy-plugin-nowbar",
