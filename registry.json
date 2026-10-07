@@ -310251,8 +310251,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T19:12:15.054Z",
-      "listingValidatedCommit": "ef4ecba989371143048f46471119028cdaa4f365",
-      "listingValidatedAt": "2026-10-07T19:12:15.054Z",
+      "listingValidatedCommit": "f729095d127e7a90c0b70c717dbae1c1cb50cb0e",
+      "listingValidatedAt": "2026-10-07T21:27:23.477Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -310261,12 +310261,15 @@
         "pluginIds": [
           "io.github.arikisonfire.sbx-enclave"
         ],
-        "commit": "ef4ecba989371143048f46471119028cdaa4f365",
-        "checkedAt": "2026-10-07T19:12:14.917Z",
-        "outcome": "passed",
+        "commit": "f729095d127e7a90c0b70c717dbae1c1cb50cb0e",
+        "checkedAt": "2026-10-07T21:27:23.476Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ]
       },
       "plugins": {
         "io.github.arikisonfire.sbx-enclave": {
@@ -310282,7 +310285,51 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "arikisonfire/omarchy-sbx-enclave",
+        "pluginIds": [
+          "io.github.arikisonfire.sbx-enclave"
+        ],
+        "commit": "f729095d127e7a90c0b70c717dbae1c1cb50cb0e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T21:27:23.476Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T19:28:21.128Z",
+        "requestEventId": 32727687661,
+        "requestedAt": "2026-10-07T21:24:32Z",
+        "reviewedAt": "2026-10-07T21:27:23.477Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ef4ecba989371143048f46471119028cdaa4f365",
+          "validatedAt": "2026-10-07T19:12:15.054Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T21:27:23.477Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "arikisonfire/omarchy-sbx-enclave",
+            "pluginIds": [
+              "io.github.arikisonfire.sbx-enclave"
+            ],
+            "commit": "ef4ecba989371143048f46471119028cdaa4f365",
+            "checkedAt": "2026-10-07T19:12:14.917Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/GlacierHubAB/omarchy-super-hints",
