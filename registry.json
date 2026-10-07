@@ -263653,8 +263653,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-29",
       "listedAt": "2026-09-29T01:58:27.393Z",
-      "listingValidatedCommit": "2c45cecb884e167e937f1a1a428f32367850fff7",
-      "listingValidatedAt": "2026-10-02T22:22:52.137Z",
+      "listingValidatedCommit": "c4501c52059f9845a0150084ecfbc891a901a403",
+      "listingValidatedAt": "2026-10-07T03:33:34.375Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -263663,8 +263663,8 @@
         "pluginIds": [
           "io.github.heinsk.devops-monitor"
         ],
-        "commit": "2c45cecb884e167e937f1a1a428f32367850fff7",
-        "checkedAt": "2026-10-02T22:22:52.137Z",
+        "commit": "c4501c52059f9845a0150084ecfbc891a901a403",
+        "checkedAt": "2026-10-07T03:33:34.375Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -263771,6 +263771,49 @@
             "reviewedAt": "2026-10-02T09:06:13.982Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "2c45cecb884e167e937f1a1a428f32367850fff7",
+          "validatedAt": "2026-10-02T22:22:52.137Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T03:33:34.375Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "heinsk/omarchy-devops-monitor",
+            "pluginIds": [
+              "io.github.heinsk.devops-monitor"
+            ],
+            "commit": "2c45cecb884e167e937f1a1a428f32367850fff7",
+            "checkedAt": "2026-10-02T22:22:52.137Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "heinsk/omarchy-devops-monitor",
+            "pluginIds": [
+              "io.github.heinsk.devops-monitor"
+            ],
+            "commit": "2c45cecb884e167e937f1a1a428f32367850fff7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T22:22:52.137Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T22:01:08.989Z",
+            "requestEventId": 32368963681,
+            "requestedAt": "2026-10-02T22:13:03Z",
+            "reviewedAt": "2026-10-02T22:22:52.137Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -263779,19 +263822,19 @@
         "pluginIds": [
           "io.github.heinsk.devops-monitor"
         ],
-        "commit": "2c45cecb884e167e937f1a1a428f32367850fff7",
+        "commit": "c4501c52059f9845a0150084ecfbc891a901a403",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T22:22:52.137Z",
+        "baselineCheckedAt": "2026-10-07T03:33:34.375Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "package-manager"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-02T22:01:08.989Z",
-        "requestEventId": 32368963681,
-        "requestedAt": "2026-10-02T22:13:03Z",
-        "reviewedAt": "2026-10-02T22:22:52.137Z",
+        "reviewedBaselineCheckedAt": "2026-10-06T21:30:18.582Z",
+        "requestEventId": 32639861393,
+        "requestedAt": "2026-10-06T21:44:29Z",
+        "reviewedAt": "2026-10-07T03:33:34.375Z",
         "reviewer": "HANCORE-linux"
       }
     },
