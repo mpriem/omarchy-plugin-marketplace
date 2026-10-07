@@ -308069,6 +308069,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/drewdunne/omarchy-herdr-dot",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T13:21:07.423Z",
+      "listingValidatedCommit": "53ec0e63705d5b2a61603867306aa718338f64c2",
+      "listingValidatedAt": "2026-10-07T13:21:07.423Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "drewdunne/omarchy-herdr-dot",
+        "pluginIds": [
+          "gg.arkship.herdr-dot"
+        ],
+        "commit": "53ec0e63705d5b2a61603867306aa718338f64c2",
+        "checkedAt": "2026-10-07T13:21:07.294Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "drewdunne/omarchy-herdr-dot",
+        "pluginIds": [
+          "gg.arkship.herdr-dot"
+        ],
+        "commit": "53ec0e63705d5b2a61603867306aa718338f64c2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T13:21:07.294Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T13:09:00.333Z",
+        "requestEventId": 32692815814,
+        "requestedAt": "2026-10-07T13:20:24Z",
+        "reviewedAt": "2026-10-07T13:21:07.294Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "gg.arkship.herdr-dot": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
