@@ -254364,8 +254364,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T16:16:22.122Z",
-      "listingValidatedCommit": "2b90f4081329319dce6ce27ab71d44196f2f4c32",
-      "listingValidatedAt": "2026-10-01T10:25:38.650Z",
+      "listingValidatedCommit": "9a17c5385bd4db50bbceebe1b4e0f7c218fdf6ed",
+      "listingValidatedAt": "2026-10-07T22:27:52.277Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -254374,8 +254374,8 @@
         "pluginIds": [
           "io.github.vladkarok.oskar"
         ],
-        "commit": "2b90f4081329319dce6ce27ab71d44196f2f4c32",
-        "checkedAt": "2026-10-01T10:25:38.650Z",
+        "commit": "9a17c5385bd4db50bbceebe1b4e0f7c218fdf6ed",
+        "checkedAt": "2026-10-07T22:27:52.277Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -254383,8 +254383,8 @@
           "service-management",
           "package-manager",
           "remote-build",
-          "installer",
-          "privilege"
+          "privilege",
+          "installer"
         ]
       },
       "plugins": {
@@ -254401,31 +254401,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "vladkarok/oskar",
-        "pluginIds": [
-          "io.github.vladkarok.oskar"
-        ],
-        "commit": "2b90f4081329319dce6ce27ab71d44196f2f4c32",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T10:25:38.650Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "package-manager",
-          "remote-build",
-          "installer",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-30T11:21:08.180Z",
-        "requestEventId": 32242466800,
-        "requestedAt": "2026-10-01T10:25:01Z",
-        "reviewedAt": "2026-10-01T10:25:38.650Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -254478,8 +254453,84 @@
             "reviewedAt": "2026-09-27T16:16:22.019Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "2b90f4081329319dce6ce27ab71d44196f2f4c32",
+          "validatedAt": "2026-10-01T10:25:38.650Z",
+          "branch": "master",
+          "supersededAt": "2026-10-07T22:27:52.277Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "vladkarok/oskar",
+            "pluginIds": [
+              "io.github.vladkarok.oskar"
+            ],
+            "commit": "2b90f4081329319dce6ce27ab71d44196f2f4c32",
+            "checkedAt": "2026-10-01T10:25:38.650Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager",
+              "remote-build",
+              "installer",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "vladkarok/oskar",
+            "pluginIds": [
+              "io.github.vladkarok.oskar"
+            ],
+            "commit": "2b90f4081329319dce6ce27ab71d44196f2f4c32",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T10:25:38.650Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager",
+              "remote-build",
+              "installer",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-30T11:21:08.180Z",
+            "requestEventId": 32242466800,
+            "requestedAt": "2026-10-01T10:25:01Z",
+            "reviewedAt": "2026-10-01T10:25:38.650Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "vladkarok/oskar",
+        "pluginIds": [
+          "io.github.vladkarok.oskar"
+        ],
+        "commit": "9a17c5385bd4db50bbceebe1b4e0f7c218fdf6ed",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T22:27:52.277Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "remote-build",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T19:10:07.095Z",
+        "requestEventId": 32731286736,
+        "requestedAt": "2026-10-07T22:27:21Z",
+        "reviewedAt": "2026-10-07T22:27:52.277Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Mgldvd/gona-launcher",
