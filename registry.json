@@ -304854,6 +304854,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/AlexMedela/simple-sysstats",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T02:58:34.602Z",
+      "listingValidatedCommit": "69fb0cf3dc980f2aca37bcfc2664228beb1da7de",
+      "listingValidatedAt": "2026-10-07T02:58:34.602Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alexmedela/simple-sysstats",
+        "pluginIds": [
+          "amedela.simple-sysstats"
+        ],
+        "commit": "69fb0cf3dc980f2aca37bcfc2664228beb1da7de",
+        "checkedAt": "2026-10-07T02:58:34.528Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "amedela.simple-sysstats": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
