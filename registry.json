@@ -307707,6 +307707,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/HcDuller/omarchy-vpn",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T12:11:12.417Z",
+      "listingValidatedCommit": "92c68ce410dc69dd95b64bf706a53542c30d6d30",
+      "listingValidatedAt": "2026-10-07T12:11:12.417Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hcduller/omarchy-vpn",
+        "pluginIds": [
+          "io.github.hcduller.vpn"
+        ],
+        "commit": "92c68ce410dc69dd95b64bf706a53542c30d6d30",
+        "checkedAt": "2026-10-07T12:11:12.280Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hcduller/omarchy-vpn",
+        "pluginIds": [
+          "io.github.hcduller.vpn"
+        ],
+        "commit": "92c68ce410dc69dd95b64bf706a53542c30d6d30",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T12:11:12.280Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T12:08:17.147Z",
+        "requestEventId": 32687472997,
+        "requestedAt": "2026-10-07T12:10:37Z",
+        "reviewedAt": "2026-10-07T12:11:12.281Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.hcduller.vpn": {
+          "category": "System",
+          "tags": [
+            "vpn"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
