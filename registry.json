@@ -307438,6 +307438,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/qempexe/omarchy-omanager",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T10:56:28.575Z",
+      "listingValidatedCommit": "b1fecc5f634a7e4797a6ffcf306b46412e0a3d19",
+      "listingValidatedAt": "2026-10-07T10:56:28.575Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "qempexe/omarchy-omanager",
+        "pluginIds": [
+          "io.github.qempexe.omanager"
+        ],
+        "commit": "b1fecc5f634a7e4797a6ffcf306b46412e0a3d19",
+        "checkedAt": "2026-10-07T10:56:28.457Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.qempexe.omanager": {
+          "category": "System",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
