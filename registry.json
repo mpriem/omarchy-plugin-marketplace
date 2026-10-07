@@ -296207,8 +296207,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T23:13:50.491Z",
-      "listingValidatedCommit": "4c004c9b0ec24e58d71c30a12288d6a76a03ee04",
-      "listingValidatedAt": "2026-10-04T23:13:50.491Z",
+      "listingValidatedCommit": "0212c2088efc5e0f59d939be7dd953b8dcb1b699",
+      "listingValidatedAt": "2026-10-07T19:54:39.659Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -296217,8 +296217,8 @@
         "pluginIds": [
           "io.github.qempexe.dev-stats"
         ],
-        "commit": "4c004c9b0ec24e58d71c30a12288d6a76a03ee04",
-        "checkedAt": "2026-10-04T23:13:50.364Z",
+        "commit": "0212c2088efc5e0f59d939be7dd953b8dcb1b699",
+        "checkedAt": "2026-10-07T19:54:39.659Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -296234,7 +296234,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "4c004c9b0ec24e58d71c30a12288d6a76a03ee04",
+          "validatedAt": "2026-10-04T23:13:50.491Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T19:54:39.659Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "qempexe/omarchy-dev-stats",
+            "pluginIds": [
+              "io.github.qempexe.dev-stats"
+            ],
+            "commit": "4c004c9b0ec24e58d71c30a12288d6a76a03ee04",
+            "checkedAt": "2026-10-04T23:13:50.364Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/alertxsto/omarchy-touch-mode",
