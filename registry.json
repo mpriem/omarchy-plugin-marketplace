@@ -306266,6 +306266,64 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/HANCORE-linux/GitHub-Traffic-Board",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T05:41:57.091Z",
+      "listingValidatedCommit": "17e82b043a6e4f345dd2075097a9df16785911ce",
+      "listingValidatedAt": "2026-10-07T05:41:57.091Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hancore-linux/github-traffic-board",
+        "pluginIds": [
+          "io.github.hancore-linux.traffic-board"
+        ],
+        "commit": "17e82b043a6e4f345dd2075097a9df16785911ce",
+        "checkedAt": "2026-10-07T05:41:56.992Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hancore-linux/github-traffic-board",
+        "pluginIds": [
+          "io.github.hancore-linux.traffic-board"
+        ],
+        "commit": "17e82b043a6e4f345dd2075097a9df16785911ce",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T05:41:56.992Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T05:26:57.909Z",
+        "requestEventId": 32662168193,
+        "requestedAt": "2026-10-07T05:41:28Z",
+        "reviewedAt": "2026-10-07T05:41:56.992Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.hancore-linux.traffic-board": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
