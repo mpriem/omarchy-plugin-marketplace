@@ -306120,8 +306120,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-06",
       "listedAt": "2026-10-06T13:30:04.520Z",
-      "listingValidatedCommit": "34471012421ab4467cb5fc62b8d78e96c768f411",
-      "listingValidatedAt": "2026-10-06T13:30:04.520Z",
+      "listingValidatedCommit": "a554516a9a2e834f223eb6d6e5e18da24761cba0",
+      "listingValidatedAt": "2026-10-07T22:51:46.339Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -306130,8 +306130,8 @@
         "pluginIds": [
           "io.github.pedroolivy.flightline"
         ],
-        "commit": "34471012421ab4467cb5fc62b8d78e96c768f411",
-        "checkedAt": "2026-10-06T13:30:04.397Z",
+        "commit": "a554516a9a2e834f223eb6d6e5e18da24761cba0",
+        "checkedAt": "2026-10-07T22:51:46.339Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -306146,7 +306146,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "34471012421ab4467cb5fc62b8d78e96c768f411",
+          "validatedAt": "2026-10-06T13:30:04.520Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T22:51:46.339Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "pedroolivy/omarchy-flightline",
+            "pluginIds": [
+              "io.github.pedroolivy.flightline"
+            ],
+            "commit": "34471012421ab4467cb5fc62b8d78e96c768f411",
+            "checkedAt": "2026-10-06T13:30:04.397Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/juanmanueldaza/omarchy-yoga260-fold",
