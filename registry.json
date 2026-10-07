@@ -160121,8 +160121,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T13:38:43.455Z",
-      "listingValidatedCommit": "ea231e3a25f3fb8d977aaebe8ff62e5ae5913c05",
-      "listingValidatedAt": "2026-10-03T11:43:39.601Z",
+      "listingValidatedCommit": "dbfc9fc1c71fc52f2c7818ae751f66a317ba5e16",
+      "listingValidatedAt": "2026-10-07T14:19:49.128Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -160131,8 +160131,8 @@
         "pluginIds": [
           "sero.local-ai"
         ],
-        "commit": "ea231e3a25f3fb8d977aaebe8ff62e5ae5913c05",
-        "checkedAt": "2026-10-03T11:43:39.601Z",
+        "commit": "dbfc9fc1c71fc52f2c7818ae751f66a317ba5e16",
+        "checkedAt": "2026-10-07T14:19:49.128Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -160219,6 +160219,51 @@
             "reviewedAt": "2026-10-02T22:16:38.348Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "ea231e3a25f3fb8d977aaebe8ff62e5ae5913c05",
+          "validatedAt": "2026-10-03T11:43:39.601Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T14:19:49.128Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "0xsero/omarchy-local-ai",
+            "pluginIds": [
+              "sero.local-ai"
+            ],
+            "commit": "ea231e3a25f3fb8d977aaebe8ff62e5ae5913c05",
+            "checkedAt": "2026-10-03T11:43:39.601Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "0xsero/omarchy-local-ai",
+            "pluginIds": [
+              "sero.local-ai"
+            ],
+            "commit": "ea231e3a25f3fb8d977aaebe8ff62e5ae5913c05",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-03T11:43:39.601Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-03T11:19:15.247Z",
+            "requestEventId": 32395038868,
+            "requestedAt": "2026-10-03T11:43:10Z",
+            "reviewedAt": "2026-10-03T11:43:39.601Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -160227,20 +160272,20 @@
         "pluginIds": [
           "sero.local-ai"
         ],
-        "commit": "ea231e3a25f3fb8d977aaebe8ff62e5ae5913c05",
+        "commit": "dbfc9fc1c71fc52f2c7818ae751f66a317ba5e16",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-03T11:43:39.601Z",
+        "baselineCheckedAt": "2026-10-07T14:19:49.128Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "installer",
           "package-manager"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-03T11:19:15.247Z",
-        "requestEventId": 32395038868,
-        "requestedAt": "2026-10-03T11:43:10Z",
-        "reviewedAt": "2026-10-03T11:43:39.601Z",
+        "reviewedBaselineCheckedAt": "2026-10-07T13:31:58.468Z",
+        "requestEventId": 32697569179,
+        "requestedAt": "2026-10-07T14:17:39Z",
+        "reviewedAt": "2026-10-07T14:19:49.128Z",
         "reviewer": "HANCORE-linux"
       }
     },
