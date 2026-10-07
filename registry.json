@@ -306743,8 +306743,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T08:51:19.684Z",
-      "listingValidatedCommit": "e201552b7f9dbd6cafbb1fad29d1f9a5244088fc",
-      "listingValidatedAt": "2026-10-07T08:51:19.684Z",
+      "listingValidatedCommit": "f9580fb23a3b8d944d8fe39f5ddf230f30d3dcfc",
+      "listingValidatedAt": "2026-10-07T09:23:10.557Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -306753,8 +306753,8 @@
         "pluginIds": [
           "io.github.seunghan91.ainote-clock"
         ],
-        "commit": "e201552b7f9dbd6cafbb1fad29d1f9a5244088fc",
-        "checkedAt": "2026-10-07T08:51:19.558Z",
+        "commit": "f9580fb23a3b8d944d8fe39f5ddf230f30d3dcfc",
+        "checkedAt": "2026-10-07T09:23:10.557Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -306762,28 +306762,6 @@
           "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "seunghan91/omarchy-ainote-clock",
-        "pluginIds": [
-          "io.github.seunghan91.ainote-clock"
-        ],
-        "commit": "e201552b7f9dbd6cafbb1fad29d1f9a5244088fc",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-07T08:51:19.558Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-07T08:31:47.061Z",
-        "requestEventId": 32673263168,
-        "requestedAt": "2026-10-07T08:42:33Z",
-        "reviewedAt": "2026-10-07T08:51:19.558Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.seunghan91.ainote-clock": {
@@ -306794,7 +306772,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "seunghan91/omarchy-ainote-clock",
+        "pluginIds": [
+          "io.github.seunghan91.ainote-clock"
+        ],
+        "commit": "f9580fb23a3b8d944d8fe39f5ddf230f30d3dcfc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T09:23:10.557Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T09:15:45.705Z",
+        "requestEventId": 32676162695,
+        "requestedAt": "2026-10-07T09:22:39Z",
+        "reviewedAt": "2026-10-07T09:23:10.557Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e201552b7f9dbd6cafbb1fad29d1f9a5244088fc",
+          "validatedAt": "2026-10-07T08:51:19.684Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T09:23:10.557Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "seunghan91/omarchy-ainote-clock",
+            "pluginIds": [
+              "io.github.seunghan91.ainote-clock"
+            ],
+            "commit": "e201552b7f9dbd6cafbb1fad29d1f9a5244088fc",
+            "checkedAt": "2026-10-07T08:51:19.558Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "seunghan91/omarchy-ainote-clock",
+            "pluginIds": [
+              "io.github.seunghan91.ainote-clock"
+            ],
+            "commit": "e201552b7f9dbd6cafbb1fad29d1f9a5244088fc",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-07T08:51:19.558Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-07T08:31:47.061Z",
+            "requestEventId": 32673263168,
+            "requestedAt": "2026-10-07T08:42:33Z",
+            "reviewedAt": "2026-10-07T08:51:19.558Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dexterhere/omallama",
