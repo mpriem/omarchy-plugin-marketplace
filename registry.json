@@ -269660,8 +269660,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T02:54:00.799Z",
-      "listingValidatedCommit": "331833020281c97a6226004bc8b1512e48017edf",
-      "listingValidatedAt": "2026-10-06T17:25:50.285Z",
+      "listingValidatedCommit": "158887ea5f4cc5e338f8f30fb7384755aae6842d",
+      "listingValidatedAt": "2026-10-07T03:46:59.447Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -269670,8 +269670,8 @@
         "pluginIds": [
           "conree.ee-calc"
         ],
-        "commit": "331833020281c97a6226004bc8b1512e48017edf",
-        "checkedAt": "2026-10-06T17:25:50.285Z",
+        "commit": "158887ea5f4cc5e338f8f30fb7384755aae6842d",
+        "checkedAt": "2026-10-07T03:46:59.447Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -269842,6 +269842,49 @@
             "reviewedAt": "2026-10-06T01:18:18.099Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "331833020281c97a6226004bc8b1512e48017edf",
+          "validatedAt": "2026-10-06T17:25:50.285Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T03:46:59.447Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "conree/omarchy-ee-calc",
+            "pluginIds": [
+              "conree.ee-calc"
+            ],
+            "commit": "331833020281c97a6226004bc8b1512e48017edf",
+            "checkedAt": "2026-10-06T17:25:50.285Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "conree/omarchy-ee-calc",
+            "pluginIds": [
+              "conree.ee-calc"
+            ],
+            "commit": "331833020281c97a6226004bc8b1512e48017edf",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-06T17:25:50.285Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-06T16:24:53.256Z",
+            "requestEventId": 32622158137,
+            "requestedAt": "2026-10-06T17:24:20Z",
+            "reviewedAt": "2026-10-06T17:25:50.285Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -269850,19 +269893,19 @@
         "pluginIds": [
           "conree.ee-calc"
         ],
-        "commit": "331833020281c97a6226004bc8b1512e48017edf",
+        "commit": "158887ea5f4cc5e338f8f30fb7384755aae6842d",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-06T17:25:50.285Z",
+        "baselineCheckedAt": "2026-10-07T03:46:59.447Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "bundled-executable-binary"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-06T16:24:53.256Z",
-        "requestEventId": 32622158137,
-        "requestedAt": "2026-10-06T17:24:20Z",
-        "reviewedAt": "2026-10-06T17:25:50.285Z",
+        "reviewedBaselineCheckedAt": "2026-10-06T22:21:43.815Z",
+        "requestEventId": 32655331672,
+        "requestedAt": "2026-10-07T03:09:01Z",
+        "reviewedAt": "2026-10-07T03:46:59.447Z",
         "reviewer": "HANCORE-linux"
       }
     },
