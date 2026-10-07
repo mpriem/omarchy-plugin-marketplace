@@ -131496,8 +131496,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-04",
       "listedAt": "2026-09-04T01:12:19.598Z",
-      "listingValidatedCommit": "2d17331be23a762ff28e5334f943dbf8b9009fd4",
-      "listingValidatedAt": "2026-10-02T12:00:43.147Z",
+      "listingValidatedCommit": "329a50fb297f56e25aed459f4fdbc1d56a48968f",
+      "listingValidatedAt": "2026-10-07T20:14:17.627Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -131506,8 +131506,8 @@
         "pluginIds": [
           "io.github.ejuro.blow-off-some-steam"
         ],
-        "commit": "2d17331be23a762ff28e5334f943dbf8b9009fd4",
-        "checkedAt": "2026-10-02T12:00:43.147Z",
+        "commit": "329a50fb297f56e25aed459f4fdbc1d56a48968f",
+        "checkedAt": "2026-10-07T20:14:17.627Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -131558,6 +131558,26 @@
             ],
             "commit": "f6220c29bde639e69d1f792c75711d4e33aabaf6",
             "checkedAt": "2026-09-10T20:43:23.052Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "2d17331be23a762ff28e5334f943dbf8b9009fd4",
+          "validatedAt": "2026-10-02T12:00:43.147Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T20:14:17.627Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ejuro/blow-off-some-steam",
+            "pluginIds": [
+              "io.github.ejuro.blow-off-some-steam"
+            ],
+            "commit": "2d17331be23a762ff28e5334f943dbf8b9009fd4",
+            "checkedAt": "2026-10-02T12:00:43.147Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
