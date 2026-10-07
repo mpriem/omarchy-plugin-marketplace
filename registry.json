@@ -162026,8 +162026,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T15:58:52.253Z",
-      "listingValidatedCommit": "e1660c656aa7b3f8fcf9f7ce4a451f78a1c6c608",
-      "listingValidatedAt": "2026-10-06T04:58:28.523Z",
+      "listingValidatedCommit": "6adaec697e0f43f29592b877e576e1f89bd22a28",
+      "listingValidatedAt": "2026-10-07T17:05:50.744Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -162036,8 +162036,8 @@
         "pluginIds": [
           "praefectus.opencode"
         ],
-        "commit": "e1660c656aa7b3f8fcf9f7ce4a451f78a1c6c608",
-        "checkedAt": "2026-10-06T04:58:28.523Z",
+        "commit": "6adaec697e0f43f29592b877e576e1f89bd22a28",
+        "checkedAt": "2026-10-07T17:05:50.744Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -162088,6 +162088,26 @@
             ],
             "commit": "6a5480a6ff0b5225b759d0c7f2791107869103a0",
             "checkedAt": "2026-10-02T18:12:22.087Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "e1660c656aa7b3f8fcf9f7ce4a451f78a1c6c608",
+          "validatedAt": "2026-10-06T04:58:28.523Z",
+          "branch": "master",
+          "supersededAt": "2026-10-07T17:05:50.744Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jcergolj/praefectus-opencode",
+            "pluginIds": [
+              "praefectus.opencode"
+            ],
+            "commit": "e1660c656aa7b3f8fcf9f7ce4a451f78a1c6c608",
+            "checkedAt": "2026-10-06T04:58:28.523Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
