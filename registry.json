@@ -307288,6 +307288,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Nejcc/omarchy-what-changed",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T10:36:44.526Z",
+      "listingValidatedCommit": "7c7150aa11f05de132b6325be9dacbe7113b6709",
+      "listingValidatedAt": "2026-10-07T10:36:44.526Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nejcc/omarchy-what-changed",
+        "pluginIds": [
+          "nejcc.what-changed"
+        ],
+        "commit": "7c7150aa11f05de132b6325be9dacbe7113b6709",
+        "checkedAt": "2026-10-07T10:36:44.435Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "nejcc.what-changed": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
