@@ -309540,6 +309540,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mrjohnnycake/omarchy-bluetooth-plus",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T16:44:38.303Z",
+      "listingValidatedCommit": "81403260f74397900a721aac95ae8d6fec473e0f",
+      "listingValidatedAt": "2026-10-07T16:44:38.303Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mrjohnnycake/omarchy-bluetooth-plus",
+        "pluginIds": [
+          "mrjohnnycake.bluetooth-plus"
+        ],
+        "commit": "81403260f74397900a721aac95ae8d6fec473e0f",
+        "checkedAt": "2026-10-07T16:44:38.173Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mrjohnnycake/omarchy-bluetooth-plus",
+        "pluginIds": [
+          "mrjohnnycake.bluetooth-plus"
+        ],
+        "commit": "81403260f74397900a721aac95ae8d6fec473e0f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T16:44:38.173Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T16:37:42.746Z",
+        "requestEventId": 32708610121,
+        "requestedAt": "2026-10-07T16:44:10Z",
+        "reviewedAt": "2026-10-07T16:44:38.173Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "mrjohnnycake.bluetooth-plus": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
