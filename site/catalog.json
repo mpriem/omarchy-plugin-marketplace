@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T10:44:17.432Z",
+  "generatedAt": "2026-10-07T10:49:04.403Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -235087,8 +235087,8 @@
       "verificationSnapshotStatus": "verified",
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
-      "verificationCommit": "8baee227bba65ac75312b6172218bfc101df4a5e",
-      "verificationCheckedAt": "2026-10-05T18:10:50.318Z",
+      "verificationCommit": "a692676d80940d74c9caf1fdb8df326d4c83d1ce",
+      "verificationCheckedAt": "2026-10-07T10:49:03.824Z",
       "manifestPath": "manifest.json",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T18:46:24.176Z",
@@ -235102,11 +235102,11 @@
       ],
       "license": "MIT",
       "stars": 0,
-      "repositoryUpdatedAt": "2026-10-05T17:17:17Z",
+      "repositoryUpdatedAt": "2026-10-07T10:32:33Z",
       "repositoryRelease": {
-        "tag": "v1.0.4",
-        "url": "https://github.com/anavarre/omarchy-miniflux/releases/tag/v1.0.4",
-        "publishedAt": "2026-10-05T17:17:17Z"
+        "tag": "v1.0.5",
+        "url": "https://github.com/anavarre/omarchy-miniflux/releases/tag/v1.0.5",
+        "publishedAt": "2026-10-06T18:22:21Z"
       },
       "accent": "lime",
       "initials": "M",
@@ -235119,17 +235119,17 @@
       "previewThumbnailHeight": 720,
       "previewSourceWidth": 744,
       "previewSourceHeight": 1070,
-      "listingValidatedCommit": "8baee227bba65ac75312b6172218bfc101df4a5e",
-      "listingValidatedAt": "2026-10-05T18:10:50.318Z",
+      "listingValidatedCommit": "a692676d80940d74c9caf1fdb8df326d4c83d1ce",
+      "listingValidatedAt": "2026-10-07T10:49:03.824Z",
       "listingValidatedBranch": "main",
-      "upstreamObservedCommit": "8baee227bba65ac75312b6172218bfc101df4a5e",
+      "upstreamObservedCommit": "a692676d80940d74c9caf1fdb8df326d4c83d1ce",
       "upstreamObservedBranch": "main",
-      "upstreamCheckedAt": "2026-10-06T11:26:36.345Z",
+      "upstreamCheckedAt": "2026-10-07T10:49:04.403Z",
       "upstreamCheckStatus": "passed",
-      "upstreamValidatedCommit": "8baee227bba65ac75312b6172218bfc101df4a5e",
-      "upstreamValidatedAt": "2026-10-05T18:10:50.849Z",
+      "upstreamValidatedCommit": "a692676d80940d74c9caf1fdb8df326d4c83d1ce",
+      "upstreamValidatedAt": "2026-10-07T10:49:04.403Z",
       "upstreamValidationVersion": 1,
-      "upstreamSourceFingerprint": "37d8c41318aa399c67dde98cb1e3fc886151c76ec71036f2cdb4031136c19409",
+      "upstreamSourceFingerprint": "e45b485a4a1981935bd18553ff89d74fc175fe6c57fc5e0745fefbb9a6b18db8",
       "status": "Available"
     },
     {
