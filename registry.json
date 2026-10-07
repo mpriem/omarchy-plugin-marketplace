@@ -305859,6 +305859,61 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/vinicgobbi/omarchy-plugin-nowbar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T04:22:04.087Z",
+      "listingValidatedCommit": "a99077bb712bf3887dae7461e1ec9437721b793b",
+      "listingValidatedAt": "2026-10-07T04:22:04.087Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "vinicgobbi/omarchy-plugin-nowbar",
+        "pluginIds": [
+          "vinicgobbi.nowbar"
+        ],
+        "commit": "a99077bb712bf3887dae7461e1ec9437721b793b",
+        "checkedAt": "2026-10-07T04:22:03.957Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "vinicgobbi/omarchy-plugin-nowbar",
+        "pluginIds": [
+          "vinicgobbi.nowbar"
+        ],
+        "commit": "a99077bb712bf3887dae7461e1ec9437721b793b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T04:22:03.957Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-06T23:03:01.346Z",
+        "requestEventId": 32656932918,
+        "requestedAt": "2026-10-07T03:46:52Z",
+        "reviewedAt": "2026-10-07T04:22:03.957Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "vinicgobbi.nowbar": {
+          "category": "Productivity",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
