@@ -3541,8 +3541,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-12",
       "listedAt": "2026-08-12T13:13:51.439Z",
-      "listingValidatedCommit": "bfe58e5546d6a315f870a022473ce07fca300cf0",
-      "listingValidatedAt": "2026-09-07T22:58:55.644Z",
+      "listingValidatedCommit": "4270da9d94c0304fa62625a83d162aa6122b7050",
+      "listingValidatedAt": "2026-10-07T23:48:03.552Z",
       "listingValidatedBranch": "main",
       "plugins": {
         "ilyazar.btop": {
@@ -3561,15 +3561,12 @@
         "pluginIds": [
           "ilyazar.btop"
         ],
-        "commit": "bfe58e5546d6a315f870a022473ce07fca300cf0",
-        "checkedAt": "2026-09-07T22:58:55.644Z",
-        "outcome": "review-required",
+        "commit": "4270da9d94c0304fa62625a83d162aa6122b7050",
+        "checkedAt": "2026-10-07T23:48:03.552Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager"
-        ]
+        "capabilities": []
       },
       "listingValidationHistory": [
         {
@@ -3624,30 +3621,53 @@
             "reviewedAt": "2026-08-21T21:33:58.094Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "bfe58e5546d6a315f870a022473ce07fca300cf0",
+          "validatedAt": "2026-09-07T22:58:55.644Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T23:48:03.552Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "omarchy-qol/omarchy-btop-activity",
+            "pluginIds": [
+              "ilyazar.btop"
+            ],
+            "commit": "bfe58e5546d6a315f870a022473ce07fca300cf0",
+            "checkedAt": "2026-09-07T22:58:55.644Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "omarchy-qol/omarchy-btop-activity",
+            "pluginIds": [
+              "ilyazar.btop"
+            ],
+            "commit": "bfe58e5546d6a315f870a022473ce07fca300cf0",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-07T22:58:55.644Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-05T03:34:54.504Z",
+            "requestEventId": 30717144732,
+            "requestedAt": "2026-09-07T22:46:42Z",
+            "reviewedAt": "2026-09-07T22:58:55.644Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ],
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "omarchy-qol/omarchy-btop-activity",
-        "pluginIds": [
-          "ilyazar.btop"
-        ],
-        "commit": "bfe58e5546d6a315f870a022473ce07fca300cf0",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-07T22:58:55.644Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-05T03:34:54.504Z",
-        "requestEventId": 30717144732,
-        "requestedAt": "2026-09-07T22:46:42Z",
-        "reviewedAt": "2026-09-07T22:58:55.644Z",
-        "reviewer": "HANCORE-linux"
-      }
+      ]
     },
     {
       "repo": "https://github.com/SaifOmar/WorkspaceIcons",
