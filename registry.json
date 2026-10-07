@@ -307230,6 +307230,64 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Nejcc/omarchy-disk-reclaim",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T10:33:25.666Z",
+      "listingValidatedCommit": "8ca5c4c6dcdecb78179ae44141c5eb0e273d2768",
+      "listingValidatedAt": "2026-10-07T10:33:25.666Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nejcc/omarchy-disk-reclaim",
+        "pluginIds": [
+          "nejcc.disk-reclaim"
+        ],
+        "commit": "8ca5c4c6dcdecb78179ae44141c5eb0e273d2768",
+        "checkedAt": "2026-10-07T10:33:25.533Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nejcc/omarchy-disk-reclaim",
+        "pluginIds": [
+          "nejcc.disk-reclaim"
+        ],
+        "commit": "8ca5c4c6dcdecb78179ae44141c5eb0e273d2768",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T10:33:25.533Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T10:06:39.137Z",
+        "requestEventId": 32679876891,
+        "requestedAt": "2026-10-07T10:16:38Z",
+        "reviewedAt": "2026-10-07T10:33:25.533Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "nejcc.disk-reclaim": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
