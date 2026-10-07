@@ -306015,6 +306015,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/grivera82/omapier",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T04:35:10.899Z",
+      "listingValidatedCommit": "2ebc567314c2d207f09dd2d87d71e5d3e1bc454c",
+      "listingValidatedAt": "2026-10-07T04:35:10.899Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "grivera82/omapier",
+        "pluginIds": [
+          "grivera.omapier"
+        ],
+        "commit": "2ebc567314c2d207f09dd2d87d71e5d3e1bc454c",
+        "checkedAt": "2026-10-07T04:35:10.796Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "grivera.omapier": {
+          "category": "Desktop",
+          "tags": [
+            "launcher",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
