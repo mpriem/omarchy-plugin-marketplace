@@ -310673,6 +310673,43 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Tuland/ominous",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T22:34:47.260Z",
+      "listingValidatedCommit": "33e3a2bfb7e614680f57d9cde6d7793c3bf157c6",
+      "listingValidatedAt": "2026-10-07T22:34:47.260Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tuland/ominous",
+        "pluginIds": [
+          "io.github.tuland.ominous"
+        ],
+        "commit": "33e3a2bfb7e614680f57d9cde6d7793c3bf157c6",
+        "checkedAt": "2026-10-07T22:34:47.141Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.tuland.ominous": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
