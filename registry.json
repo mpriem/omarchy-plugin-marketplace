@@ -309729,6 +309729,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Pro-Termux-arch/systemd-ease",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T17:30:35.468Z",
+      "listingValidatedCommit": "a36898691f50a527c228a6118e391bee09ce4596",
+      "listingValidatedAt": "2026-10-07T17:30:35.468Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pro-termux-arch/systemd-ease",
+        "pluginIds": [
+          "io.github.pro-termux-arch.systemd-ease"
+        ],
+        "commit": "a36898691f50a527c228a6118e391bee09ce4596",
+        "checkedAt": "2026-10-07T17:30:35.376Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pro-termux-arch/systemd-ease",
+        "pluginIds": [
+          "io.github.pro-termux-arch.systemd-ease"
+        ],
+        "commit": "a36898691f50a527c228a6118e391bee09ce4596",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-07T17:30:35.376Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-07T17:28:30.426Z",
+        "requestEventId": 32711602955,
+        "requestedAt": "2026-10-07T17:30:05Z",
+        "reviewedAt": "2026-10-07T17:30:35.376Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.pro-termux-arch.systemd-ease": {
+          "category": "System",
+          "tags": [
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
