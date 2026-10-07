@@ -266494,8 +266494,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-29",
       "listedAt": "2026-09-29T12:07:48.513Z",
-      "listingValidatedCommit": "ff95ddfa61ce83db202c7cfb2331f4cb32cf7383",
-      "listingValidatedAt": "2026-09-29T12:07:48.513Z",
+      "listingValidatedCommit": "41e10bac799488dc9813c203e1500b987dfeacd7",
+      "listingValidatedAt": "2026-10-07T23:17:59.621Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -266504,8 +266504,8 @@
         "pluginIds": [
           "halmylyseas.mullvad-vpn"
         ],
-        "commit": "ff95ddfa61ce83db202c7cfb2331f4cb32cf7383",
-        "checkedAt": "2026-09-29T12:07:48.405Z",
+        "commit": "41e10bac799488dc9813c203e1500b987dfeacd7",
+        "checkedAt": "2026-10-07T23:17:59.621Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -266525,7 +266525,29 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ff95ddfa61ce83db202c7cfb2331f4cb32cf7383",
+          "validatedAt": "2026-09-29T12:07:48.513Z",
+          "branch": "main",
+          "supersededAt": "2026-10-07T23:17:59.621Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "halmylyseas/omarchy-mullvad-vpn",
+            "pluginIds": [
+              "halmylyseas.mullvad-vpn"
+            ],
+            "commit": "ff95ddfa61ce83db202c7cfb2331f4cb32cf7383",
+            "checkedAt": "2026-09-29T12:07:48.405Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/claudiuIosif/omarchy-desktop-keybinds",
