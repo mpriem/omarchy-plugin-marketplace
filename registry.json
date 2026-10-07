@@ -306375,6 +306375,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/boundsj/RAMen",
+      "type": "plugin-source",
+      "addedAt": "2026-10-07",
+      "listedAt": "2026-10-07T07:22:49.911Z",
+      "listingValidatedCommit": "02378e963041dcf9d12322b5e33ab392e9ae8e8b",
+      "listingValidatedAt": "2026-10-07T07:22:49.911Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "boundsj/ramen",
+        "pluginIds": [
+          "boundsj.raman"
+        ],
+        "commit": "02378e963041dcf9d12322b5e33ab392e9ae8e8b",
+        "checkedAt": "2026-10-07T07:22:49.820Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "boundsj.raman": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
