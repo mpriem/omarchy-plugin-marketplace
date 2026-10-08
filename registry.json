@@ -285726,8 +285726,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T17:30:07.095Z",
-      "listingValidatedCommit": "90938d1ee88285f51806f3c14e010890cd48ce0e",
-      "listingValidatedAt": "2026-10-02T17:30:07.095Z",
+      "listingValidatedCommit": "9a3f65f1f71747f08b73bc9d8e1c84d73a802555",
+      "listingValidatedAt": "2026-10-08T18:22:57.190Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -285736,35 +285736,14 @@
         "pluginIds": [
           "io.github.excalimbito.ominder"
         ],
-        "commit": "90938d1ee88285f51806f3c14e010890cd48ce0e",
-        "checkedAt": "2026-10-02T17:30:06.969Z",
+        "commit": "9a3f65f1f71747f08b73bc9d8e1c84d73a802555",
+        "checkedAt": "2026-10-08T18:22:57.190Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "excalimbito/ominder",
-        "pluginIds": [
-          "io.github.excalimbito.ominder"
-        ],
-        "commit": "90938d1ee88285f51806f3c14e010890cd48ce0e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T17:30:06.969Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T14:04:31.065Z",
-        "requestEventId": 32350993254,
-        "requestedAt": "2026-10-02T16:56:58Z",
-        "reviewedAt": "2026-10-02T17:30:06.969Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.excalimbito.ominder": {
@@ -285776,7 +285755,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "excalimbito/ominder",
+        "pluginIds": [
+          "io.github.excalimbito.ominder"
+        ],
+        "commit": "9a3f65f1f71747f08b73bc9d8e1c84d73a802555",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T18:22:57.190Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T13:11:45.379Z",
+        "requestEventId": 32814637566,
+        "requestedAt": "2026-10-08T18:22:25Z",
+        "reviewedAt": "2026-10-08T18:22:57.190Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "90938d1ee88285f51806f3c14e010890cd48ce0e",
+          "validatedAt": "2026-10-02T17:30:07.095Z",
+          "branch": "main",
+          "supersededAt": "2026-10-08T18:22:57.190Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "excalimbito/ominder",
+            "pluginIds": [
+              "io.github.excalimbito.ominder"
+            ],
+            "commit": "90938d1ee88285f51806f3c14e010890cd48ce0e",
+            "checkedAt": "2026-10-02T17:30:06.969Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "excalimbito/ominder",
+            "pluginIds": [
+              "io.github.excalimbito.ominder"
+            ],
+            "commit": "90938d1ee88285f51806f3c14e010890cd48ce0e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T17:30:06.969Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T14:04:31.065Z",
+            "requestEventId": 32350993254,
+            "requestedAt": "2026-10-02T16:56:58Z",
+            "reviewedAt": "2026-10-02T17:30:06.969Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/RobertStevenson/omaovercast",
