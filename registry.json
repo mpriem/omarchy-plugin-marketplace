@@ -312089,6 +312089,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/RibatTRW/pocket-pair",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T12:24:51.447Z",
+      "listingValidatedCommit": "44eb541944dd3330a6646f291ee50add98b344be",
+      "listingValidatedAt": "2026-10-08T12:24:51.447Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ribattrw/pocket-pair",
+        "pluginIds": [
+          "ribattrw.pocket-pair"
+        ],
+        "commit": "44eb541944dd3330a6646f291ee50add98b344be",
+        "checkedAt": "2026-10-08T12:24:51.335Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ribattrw/pocket-pair",
+        "pluginIds": [
+          "ribattrw.pocket-pair"
+        ],
+        "commit": "44eb541944dd3330a6646f291ee50add98b344be",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T12:24:51.335Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T12:21:44.582Z",
+        "requestEventId": 32786405838,
+        "requestedAt": "2026-10-08T12:24:19Z",
+        "reviewedAt": "2026-10-08T12:24:51.335Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ribattrw.pocket-pair": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
