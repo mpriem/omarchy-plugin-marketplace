@@ -313666,6 +313666,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/dragosol/omarchy-psywall",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T20:46:06.335Z",
+      "listingValidatedCommit": "48468a524dbf81be37368079b66b2f4102656114",
+      "listingValidatedAt": "2026-10-08T20:46:06.335Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dragosol/omarchy-psywall",
+        "pluginIds": [
+          "io.github.dragosol.psywall"
+        ],
+        "commit": "48468a524dbf81be37368079b66b2f4102656114",
+        "checkedAt": "2026-10-08T20:46:06.208Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dragosol/omarchy-psywall",
+        "pluginIds": [
+          "io.github.dragosol.psywall"
+        ],
+        "commit": "48468a524dbf81be37368079b66b2f4102656114",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T20:46:06.208Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T20:24:01.126Z",
+        "requestEventId": 32824338354,
+        "requestedAt": "2026-10-08T20:45:36Z",
+        "reviewedAt": "2026-10-08T20:46:06.209Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.dragosol.psywall": {
+          "category": "Appearance",
+          "tags": [
+            "media",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
