@@ -312671,6 +312671,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/grivera82/omarchy-jarvis",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T16:40:17.375Z",
+      "listingValidatedCommit": "97f4c28f99d1bbf9adf3fda5468980941786c535",
+      "listingValidatedAt": "2026-10-08T16:40:17.375Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "grivera82/omarchy-jarvis",
+        "pluginIds": [
+          "grivera.jarvis"
+        ],
+        "commit": "97f4c28f99d1bbf9adf3fda5468980941786c535",
+        "checkedAt": "2026-10-08T16:40:17.272Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "grivera82/omarchy-jarvis",
+        "pluginIds": [
+          "grivera.jarvis"
+        ],
+        "commit": "97f4c28f99d1bbf9adf3fda5468980941786c535",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T16:40:17.272Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T16:27:54.449Z",
+        "requestEventId": 32807280149,
+        "requestedAt": "2026-10-08T16:39:40Z",
+        "reviewedAt": "2026-10-08T16:40:17.272Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "grivera.jarvis": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "hyprland",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
