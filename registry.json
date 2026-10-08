@@ -257803,8 +257803,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T23:30:10.146Z",
-      "listingValidatedCommit": "3db6269ba775104457af776e20d21693f219df1e",
-      "listingValidatedAt": "2026-09-27T23:30:10.146Z",
+      "listingValidatedCommit": "1c363d374273309d51987c9a219f22f6e497c4ef",
+      "listingValidatedAt": "2026-10-08T23:39:40.500Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -257813,8 +257813,8 @@
         "pluginIds": [
           "lessunderrated.geoguess"
         ],
-        "commit": "3db6269ba775104457af776e20d21693f219df1e",
-        "checkedAt": "2026-09-27T23:30:10.046Z",
+        "commit": "1c363d374273309d51987c9a219f22f6e497c4ef",
+        "checkedAt": "2026-10-08T23:39:40.500Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -257822,28 +257822,6 @@
           "installer",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "lessunderrated/geoguess",
-        "pluginIds": [
-          "lessunderrated.geoguess"
-        ],
-        "commit": "3db6269ba775104457af776e20d21693f219df1e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T23:30:10.046Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-27T22:51:12.794Z",
-        "requestEventId": 31951854382,
-        "requestedAt": "2026-09-27T23:16:17Z",
-        "reviewedAt": "2026-09-27T23:30:10.046Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "lessunderrated.geoguess": {
@@ -257855,7 +257833,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lessunderrated/geoguess",
+        "pluginIds": [
+          "lessunderrated.geoguess"
+        ],
+        "commit": "1c363d374273309d51987c9a219f22f6e497c4ef",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T23:39:40.500Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T21:33:40.728Z",
+        "requestEventId": 32833732124,
+        "requestedAt": "2026-10-08T23:39:03Z",
+        "reviewedAt": "2026-10-08T23:39:40.500Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3db6269ba775104457af776e20d21693f219df1e",
+          "validatedAt": "2026-09-27T23:30:10.146Z",
+          "branch": "main",
+          "supersededAt": "2026-10-08T23:39:40.500Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lessunderrated/geoguess",
+            "pluginIds": [
+              "lessunderrated.geoguess"
+            ],
+            "commit": "3db6269ba775104457af776e20d21693f219df1e",
+            "checkedAt": "2026-09-27T23:30:10.046Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "lessunderrated/geoguess",
+            "pluginIds": [
+              "lessunderrated.geoguess"
+            ],
+            "commit": "3db6269ba775104457af776e20d21693f219df1e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T23:30:10.046Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-27T22:51:12.794Z",
+            "requestEventId": 31951854382,
+            "requestedAt": "2026-09-27T23:16:17Z",
+            "reviewedAt": "2026-09-27T23:30:10.046Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/trinity-bytes/omarchy-lock-keys-osd",
