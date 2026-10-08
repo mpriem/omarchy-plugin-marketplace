@@ -313169,6 +313169,43 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ayandexyz/close-guard",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T18:52:44.133Z",
+      "listingValidatedCommit": "f288507c97d6b471f6808c1b1926c25300349cd5",
+      "listingValidatedAt": "2026-10-08T18:52:44.133Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ayandexyz/close-guard",
+        "pluginIds": [
+          "io.github.ayandexyz.close-guard"
+        ],
+        "commit": "f288507c97d6b471f6808c1b1926c25300349cd5",
+        "checkedAt": "2026-10-08T18:52:44.050Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.ayandexyz.close-guard": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
