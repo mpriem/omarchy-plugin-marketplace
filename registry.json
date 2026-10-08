@@ -310796,6 +310796,68 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ramselvaraj/omarchy-caps-indicator",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T00:24:45.140Z",
+      "listingValidatedCommit": "a8675c4bbcc37db22d3f7f356e682e2a050700fd",
+      "listingValidatedAt": "2026-10-08T00:24:45.140Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ramselvaraj/omarchy-caps-indicator",
+        "pluginIds": [
+          "ramselvaraj.caps-indicator"
+        ],
+        "commit": "a8675c4bbcc37db22d3f7f356e682e2a050700fd",
+        "checkedAt": "2026-10-08T00:24:45.011Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ramselvaraj/omarchy-caps-indicator",
+        "pluginIds": [
+          "ramselvaraj.caps-indicator"
+        ],
+        "commit": "a8675c4bbcc37db22d3f7f356e682e2a050700fd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T00:24:45.011Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T00:13:42.421Z",
+        "requestEventId": 32736804047,
+        "requestedAt": "2026-10-08T00:24:08Z",
+        "reviewedAt": "2026-10-08T00:24:45.011Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ramselvaraj.caps-indicator": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
