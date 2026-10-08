@@ -312752,8 +312752,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T13:32:40.878Z",
-      "listingValidatedCommit": "bf0305ecc55d04f6160b14d1686529891ef188aa",
-      "listingValidatedAt": "2026-10-08T13:32:40.878Z",
+      "listingValidatedCommit": "c5efa30a6eb1aeb0230e48da3fe55f6b9e059405",
+      "listingValidatedAt": "2026-10-08T18:56:07.133Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -312762,35 +312762,14 @@
         "pluginIds": [
           "io.github.richfeather-cpu.omarchy-owww"
         ],
-        "commit": "bf0305ecc55d04f6160b14d1686529891ef188aa",
-        "checkedAt": "2026-10-08T13:32:40.743Z",
+        "commit": "c5efa30a6eb1aeb0230e48da3fe55f6b9e059405",
+        "checkedAt": "2026-10-08T18:56:07.133Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "richfeather-cpu/omarchy-charger-owwww",
-        "pluginIds": [
-          "io.github.richfeather-cpu.omarchy-owww"
-        ],
-        "commit": "bf0305ecc55d04f6160b14d1686529891ef188aa",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-08T13:32:40.743Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-08T13:26:54.625Z",
-        "requestEventId": 32791802971,
-        "requestedAt": "2026-10-08T13:32:04Z",
-        "reviewedAt": "2026-10-08T13:32:40.743Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.richfeather-cpu.omarchy-owww": {
@@ -312802,7 +312781,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "richfeather-cpu/omarchy-charger-owwww",
+        "pluginIds": [
+          "io.github.richfeather-cpu.omarchy-owww"
+        ],
+        "commit": "c5efa30a6eb1aeb0230e48da3fe55f6b9e059405",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T18:56:07.133Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T14:58:16.684Z",
+        "requestEventId": 32816950519,
+        "requestedAt": "2026-10-08T18:55:40Z",
+        "reviewedAt": "2026-10-08T18:56:07.133Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "bf0305ecc55d04f6160b14d1686529891ef188aa",
+          "validatedAt": "2026-10-08T13:32:40.878Z",
+          "branch": "main",
+          "supersededAt": "2026-10-08T18:56:07.133Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "richfeather-cpu/omarchy-charger-owwww",
+            "pluginIds": [
+              "io.github.richfeather-cpu.omarchy-owww"
+            ],
+            "commit": "bf0305ecc55d04f6160b14d1686529891ef188aa",
+            "checkedAt": "2026-10-08T13:32:40.743Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "richfeather-cpu/omarchy-charger-owwww",
+            "pluginIds": [
+              "io.github.richfeather-cpu.omarchy-owww"
+            ],
+            "commit": "bf0305ecc55d04f6160b14d1686529891ef188aa",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-08T13:32:40.743Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-08T13:26:54.625Z",
+            "requestEventId": 32791802971,
+            "requestedAt": "2026-10-08T13:32:04Z",
+            "reviewedAt": "2026-10-08T13:32:40.743Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/alexwest1981/sling",
