@@ -311072,6 +311072,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/AktOn1/omarchy-akton1-plugin-hub",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T03:54:48.475Z",
+      "listingValidatedCommit": "c2cd009d4c821621d895fb07e9d12724ffeab68d",
+      "listingValidatedAt": "2026-10-08T03:54:48.475Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "akton1/omarchy-akton1-plugin-hub",
+        "pluginIds": [
+          "io.github.akton1.hub"
+        ],
+        "commit": "c2cd009d4c821621d895fb07e9d12724ffeab68d",
+        "checkedAt": "2026-10-08T03:54:48.397Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.akton1.hub": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
