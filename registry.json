@@ -241430,8 +241430,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-24",
       "listedAt": "2026-09-24T17:21:38.778Z",
-      "listingValidatedCommit": "6a80ec6caaf8b7c3a67511a9290ce6377dd9eedb",
-      "listingValidatedAt": "2026-10-04T12:18:40.491Z",
+      "listingValidatedCommit": "665ce05154f1f7ed1120fb58e2ff639a31b6b0ad",
+      "listingValidatedAt": "2026-10-08T17:24:28.989Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -241440,8 +241440,8 @@
         "pluginIds": [
           "io.github.saikomantisu.commandbar"
         ],
-        "commit": "6a80ec6caaf8b7c3a67511a9290ce6377dd9eedb",
-        "checkedAt": "2026-10-04T12:18:40.491Z",
+        "commit": "665ce05154f1f7ed1120fb58e2ff639a31b6b0ad",
+        "checkedAt": "2026-10-08T17:24:28.989Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -241493,6 +241493,26 @@
             ],
             "commit": "3e5885134b8216dcdc07cf5386ef2693698099b5",
             "checkedAt": "2026-10-01T09:08:08.445Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "6a80ec6caaf8b7c3a67511a9290ce6377dd9eedb",
+          "validatedAt": "2026-10-04T12:18:40.491Z",
+          "branch": "main",
+          "supersededAt": "2026-10-08T17:24:28.989Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "saikomantisu/omarchy-commandbar",
+            "pluginIds": [
+              "io.github.saikomantisu.commandbar"
+            ],
+            "commit": "6a80ec6caaf8b7c3a67511a9290ce6377dd9eedb",
+            "checkedAt": "2026-10-04T12:18:40.491Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
