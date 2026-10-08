@@ -268201,8 +268201,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-30",
       "listedAt": "2026-09-30T19:47:22.770Z",
-      "listingValidatedCommit": "b3fe23b4e67f7456fed4812f86203fa3ea36bb75",
-      "listingValidatedAt": "2026-10-02T17:26:27.025Z",
+      "listingValidatedCommit": "5b08cfc5ef2375a1a722c811a2a44db8a7032e9d",
+      "listingValidatedAt": "2026-10-08T10:42:58.810Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -268211,8 +268211,8 @@
         "pluginIds": [
           "navjottomer.printer"
         ],
-        "commit": "b3fe23b4e67f7456fed4812f86203fa3ea36bb75",
-        "checkedAt": "2026-10-02T17:26:27.025Z",
+        "commit": "5b08cfc5ef2375a1a722c811a2a44db8a7032e9d",
+        "checkedAt": "2026-10-08T10:42:58.810Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -268232,29 +268232,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "navjottomer/omarchy-printer",
-        "pluginIds": [
-          "navjottomer.printer"
-        ],
-        "commit": "b3fe23b4e67f7456fed4812f86203fa3ea36bb75",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T17:26:27.025Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T14:58:40.259Z",
-        "requestEventId": 32350816476,
-        "requestedAt": "2026-10-02T16:54:01Z",
-        "reviewedAt": "2026-10-02T17:26:27.025Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -268303,8 +268280,78 @@
             "reviewedAt": "2026-09-30T19:47:22.676Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "b3fe23b4e67f7456fed4812f86203fa3ea36bb75",
+          "validatedAt": "2026-10-02T17:26:27.025Z",
+          "branch": "main",
+          "supersededAt": "2026-10-08T10:42:58.810Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "navjottomer/omarchy-printer",
+            "pluginIds": [
+              "navjottomer.printer"
+            ],
+            "commit": "b3fe23b4e67f7456fed4812f86203fa3ea36bb75",
+            "checkedAt": "2026-10-02T17:26:27.025Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "navjottomer/omarchy-printer",
+            "pluginIds": [
+              "navjottomer.printer"
+            ],
+            "commit": "b3fe23b4e67f7456fed4812f86203fa3ea36bb75",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T17:26:27.025Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T14:58:40.259Z",
+            "requestEventId": 32350816476,
+            "requestedAt": "2026-10-02T16:54:01Z",
+            "reviewedAt": "2026-10-02T17:26:27.025Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "navjottomer/omarchy-printer",
+        "pluginIds": [
+          "navjottomer.printer"
+        ],
+        "commit": "5b08cfc5ef2375a1a722c811a2a44db8a7032e9d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T10:42:58.810Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T02:39:32.913Z",
+        "requestEventId": 32775962040,
+        "requestedAt": "2026-10-08T10:38:50Z",
+        "reviewedAt": "2026-10-08T10:42:58.810Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/juan-LARRAYA/omarchy-power-saver",
