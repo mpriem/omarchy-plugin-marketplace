@@ -313568,6 +313568,72 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/artile/omarchy-ascii-screensaver",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T20:26:45.819Z",
+      "listingValidatedCommit": "cd6312a86eeeb58f754cc0336113648f5cb87f16",
+      "listingValidatedAt": "2026-10-08T20:26:45.819Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "artile/omarchy-ascii-screensaver",
+        "pluginIds": [
+          "io.github.artile.ascii-screensaver"
+        ],
+        "commit": "cd6312a86eeeb58f754cc0336113648f5cb87f16",
+        "checkedAt": "2026-10-08T20:26:45.683Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "artile/omarchy-ascii-screensaver",
+        "pluginIds": [
+          "io.github.artile.ascii-screensaver"
+        ],
+        "commit": "cd6312a86eeeb58f754cc0336113648f5cb87f16",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T20:26:45.683Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T20:02:20.313Z",
+        "requestEventId": 32823061721,
+        "requestedAt": "2026-10-08T20:26:12Z",
+        "reviewedAt": "2026-10-08T20:26:45.683Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.artile.ascii-screensaver": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
