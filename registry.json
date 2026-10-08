@@ -311567,6 +311567,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/meviusisback/omarchy-ente-auth-dropdown",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T10:03:27.501Z",
+      "listingValidatedCommit": "59bc40d8c685d7babd5a3a2e9cd60e5e8b5aab09",
+      "listingValidatedAt": "2026-10-08T10:03:27.501Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "meviusisback/omarchy-ente-auth-dropdown",
+        "pluginIds": [
+          "meviusisback.ente-auth"
+        ],
+        "commit": "59bc40d8c685d7babd5a3a2e9cd60e5e8b5aab09",
+        "checkedAt": "2026-10-08T10:03:27.353Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "meviusisback/omarchy-ente-auth-dropdown",
+        "pluginIds": [
+          "meviusisback.ente-auth"
+        ],
+        "commit": "59bc40d8c685d7babd5a3a2e9cd60e5e8b5aab09",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T10:03:27.353Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T09:52:09.584Z",
+        "requestEventId": 32772541391,
+        "requestedAt": "2026-10-08T10:02:49Z",
+        "reviewedAt": "2026-10-08T10:03:27.353Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "meviusisback.ente-auth": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "security"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
