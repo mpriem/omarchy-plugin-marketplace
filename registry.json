@@ -312214,6 +312214,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/heast13/omarchy-downtime",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T12:59:46.421Z",
+      "listingValidatedCommit": "8b74e084fd6b02bab79700f1bec60632996b2191",
+      "listingValidatedAt": "2026-10-08T12:59:46.421Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "heast13/omarchy-downtime",
+        "pluginIds": [
+          "heast13.downtime"
+        ],
+        "commit": "8b74e084fd6b02bab79700f1bec60632996b2191",
+        "checkedAt": "2026-10-08T12:59:46.314Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "heast13/omarchy-downtime",
+        "pluginIds": [
+          "heast13.downtime"
+        ],
+        "commit": "8b74e084fd6b02bab79700f1bec60632996b2191",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T12:59:46.314Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T12:50:59.970Z",
+        "requestEventId": 32789014531,
+        "requestedAt": "2026-10-08T12:57:40Z",
+        "reviewedAt": "2026-10-08T12:59:46.314Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "heast13.downtime": {
+          "category": "System",
+          "tags": [
+            "power-management",
+            "hyprland",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
