@@ -265151,8 +265151,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-29",
       "listedAt": "2026-09-29T05:43:26.315Z",
-      "listingValidatedCommit": "992ec27ca8e6c4bab3c3e311c63c0b72ad639549",
-      "listingValidatedAt": "2026-09-29T05:43:26.315Z",
+      "listingValidatedCommit": "a3f9368ba716c406155a852473fcb1c5b6261e99",
+      "listingValidatedAt": "2026-10-08T11:19:30.173Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -265161,8 +265161,8 @@
         "pluginIds": [
           "io.github.lexeko.tilelane"
         ],
-        "commit": "992ec27ca8e6c4bab3c3e311c63c0b72ad639549",
-        "checkedAt": "2026-09-29T05:43:26.249Z",
+        "commit": "a3f9368ba716c406155a852473fcb1c5b6261e99",
+        "checkedAt": "2026-10-08T11:19:30.173Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -265178,7 +265178,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "992ec27ca8e6c4bab3c3e311c63c0b72ad639549",
+          "validatedAt": "2026-09-29T05:43:26.315Z",
+          "branch": "main",
+          "supersededAt": "2026-10-08T11:19:30.173Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lexeko/tilelane",
+            "pluginIds": [
+              "io.github.lexeko.tilelane"
+            ],
+            "commit": "992ec27ca8e6c4bab3c3e311c63c0b72ad639549",
+            "checkedAt": "2026-09-29T05:43:26.249Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/AbdulazizAlwabel/omarchy-hyprforge",
