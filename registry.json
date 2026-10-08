@@ -313457,8 +313457,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T19:20:13.954Z",
-      "listingValidatedCommit": "7e55d7a39d9ba249fe37a774f8bc7b3330744ef0",
-      "listingValidatedAt": "2026-10-08T19:20:13.954Z",
+      "listingValidatedCommit": "a52ef0c35e48f53e4ed8d92aaf2cffd435fa6efa",
+      "listingValidatedAt": "2026-10-08T23:06:41.554Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -313467,35 +313467,12 @@
         "pluginIds": [
           "io.github.dragosol.spectrum"
         ],
-        "commit": "7e55d7a39d9ba249fe37a774f8bc7b3330744ef0",
-        "checkedAt": "2026-10-08T19:20:13.813Z",
-        "outcome": "review-required",
+        "commit": "a52ef0c35e48f53e4ed8d92aaf2cffd435fa6efa",
+        "checkedAt": "2026-10-08T23:06:41.554Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": [
-          "package-manager"
-        ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "dragosol/omarchy-spectrum",
-        "pluginIds": [
-          "io.github.dragosol.spectrum"
-        ],
-        "commit": "7e55d7a39d9ba249fe37a774f8bc7b3330744ef0",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-08T19:20:13.813Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-08T19:05:39.885Z",
-        "requestEventId": 32818582633,
-        "requestedAt": "2026-10-08T19:19:31Z",
-        "reviewedAt": "2026-10-08T19:20:13.813Z",
-        "reviewer": "HANCORE-linux"
+        "capabilities": []
       },
       "plugins": {
         "io.github.dragosol.spectrum": {
@@ -313511,7 +313488,52 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "7e55d7a39d9ba249fe37a774f8bc7b3330744ef0",
+          "validatedAt": "2026-10-08T19:20:13.954Z",
+          "branch": "main",
+          "supersededAt": "2026-10-08T23:06:41.554Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dragosol/omarchy-spectrum",
+            "pluginIds": [
+              "io.github.dragosol.spectrum"
+            ],
+            "commit": "7e55d7a39d9ba249fe37a774f8bc7b3330744ef0",
+            "checkedAt": "2026-10-08T19:20:13.813Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "dragosol/omarchy-spectrum",
+            "pluginIds": [
+              "io.github.dragosol.spectrum"
+            ],
+            "commit": "7e55d7a39d9ba249fe37a774f8bc7b3330744ef0",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-08T19:20:13.813Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-08T19:05:39.885Z",
+            "requestEventId": 32818582633,
+            "requestedAt": "2026-10-08T19:19:31Z",
+            "reviewedAt": "2026-10-08T19:20:13.813Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/renanmt/switch-magic",
