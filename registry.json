@@ -307130,8 +307130,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-06",
       "listedAt": "2026-10-06T13:39:27.312Z",
-      "listingValidatedCommit": "21d9e7474d042544675f31f4bc30b0b3db1a9b6f",
-      "listingValidatedAt": "2026-10-06T13:39:27.312Z",
+      "listingValidatedCommit": "6bd679581ebe4edb3c1f2d09ac63897987c63901",
+      "listingValidatedAt": "2026-10-08T23:43:30.259Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -307140,8 +307140,8 @@
         "pluginIds": [
           "juanmanueldaza.yoga260-fold"
         ],
-        "commit": "21d9e7474d042544675f31f4bc30b0b3db1a9b6f",
-        "checkedAt": "2026-10-06T13:39:27.246Z",
+        "commit": "6bd679581ebe4edb3c1f2d09ac63897987c63901",
+        "checkedAt": "2026-10-08T23:43:30.259Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -307149,28 +307149,6 @@
           "privilege",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "juanmanueldaza/omarchy-yoga260-fold",
-        "pluginIds": [
-          "juanmanueldaza.yoga260-fold"
-        ],
-        "commit": "21d9e7474d042544675f31f4bc30b0b3db1a9b6f",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-06T13:39:27.246Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-06T13:36:58.708Z",
-        "requestEventId": 32603249987,
-        "requestedAt": "2026-10-06T13:38:56Z",
-        "reviewedAt": "2026-10-06T13:39:27.246Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "juanmanueldaza.yoga260-fold": {
@@ -307182,7 +307160,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "juanmanueldaza/omarchy-yoga260-fold",
+        "pluginIds": [
+          "juanmanueldaza.yoga260-fold"
+        ],
+        "commit": "6bd679581ebe4edb3c1f2d09ac63897987c63901",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T23:43:30.259Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T23:12:27.165Z",
+        "requestEventId": 32833905200,
+        "requestedAt": "2026-10-08T23:43:03Z",
+        "reviewedAt": "2026-10-08T23:43:30.259Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "21d9e7474d042544675f31f4bc30b0b3db1a9b6f",
+          "validatedAt": "2026-10-06T13:39:27.312Z",
+          "branch": "main",
+          "supersededAt": "2026-10-08T23:43:30.259Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "juanmanueldaza/omarchy-yoga260-fold",
+            "pluginIds": [
+              "juanmanueldaza.yoga260-fold"
+            ],
+            "commit": "21d9e7474d042544675f31f4bc30b0b3db1a9b6f",
+            "checkedAt": "2026-10-06T13:39:27.246Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "juanmanueldaza/omarchy-yoga260-fold",
+            "pluginIds": [
+              "juanmanueldaza.yoga260-fold"
+            ],
+            "commit": "21d9e7474d042544675f31f4bc30b0b3db1a9b6f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-06T13:39:27.246Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-06T13:36:58.708Z",
+            "requestEventId": 32603249987,
+            "requestedAt": "2026-10-06T13:38:56Z",
+            "reviewedAt": "2026-10-06T13:39:27.246Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/freber/omarchy-sonos",
