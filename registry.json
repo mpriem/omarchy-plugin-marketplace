@@ -313785,6 +313785,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/dfrost90/omarchy-key-rain",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T21:13:31.876Z",
+      "listingValidatedCommit": "45462b2997ab915e4dc4a05a935aa9cc037631a5",
+      "listingValidatedAt": "2026-10-08T21:13:31.876Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dfrost90/omarchy-key-rain",
+        "pluginIds": [
+          "io.github.dfrost90.key-rain"
+        ],
+        "commit": "45462b2997ab915e4dc4a05a935aa9cc037631a5",
+        "checkedAt": "2026-10-08T21:13:31.790Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dfrost90/omarchy-key-rain",
+        "pluginIds": [
+          "io.github.dfrost90.key-rain"
+        ],
+        "commit": "45462b2997ab915e4dc4a05a935aa9cc037631a5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T21:13:31.790Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T21:10:54.745Z",
+        "requestEventId": 32826103691,
+        "requestedAt": "2026-10-08T21:13:03Z",
+        "reviewedAt": "2026-10-08T21:13:31.790Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.dfrost90.key-rain": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
