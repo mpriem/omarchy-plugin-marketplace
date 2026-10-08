@@ -313426,6 +313426,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/renanmt/switch-magic",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T19:43:54.463Z",
+      "listingValidatedCommit": "252db07479c6a40af17b4a46a8937644726a731b",
+      "listingValidatedAt": "2026-10-08T19:43:54.463Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "renanmt/switch-magic",
+        "pluginIds": [
+          "renanmt.switch-magic"
+        ],
+        "commit": "252db07479c6a40af17b4a46a8937644726a731b",
+        "checkedAt": "2026-10-08T19:43:54.351Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "renanmt/switch-magic",
+        "pluginIds": [
+          "renanmt.switch-magic"
+        ],
+        "commit": "252db07479c6a40af17b4a46a8937644726a731b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T19:43:54.351Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T19:35:28.434Z",
+        "requestEventId": 32820194439,
+        "requestedAt": "2026-10-08T19:43:18Z",
+        "reviewedAt": "2026-10-08T19:43:54.351Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "renanmt.switch-magic": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
