@@ -311534,6 +311534,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/GnussonNet/omarchy-canvas",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T09:34:22.310Z",
+      "listingValidatedCommit": "10caefb45db48b083e97dfe7e277639e567d0b32",
+      "listingValidatedAt": "2026-10-08T09:34:22.310Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gnussonnet/omarchy-canvas",
+        "pluginIds": [
+          "gnussonnet.omarchy-canvas"
+        ],
+        "commit": "10caefb45db48b083e97dfe7e277639e567d0b32",
+        "checkedAt": "2026-10-08T09:34:22.204Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "gnussonnet.omarchy-canvas": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "education"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
