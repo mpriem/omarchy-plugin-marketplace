@@ -280303,8 +280303,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T02:48:46.542Z",
-      "listingValidatedCommit": "ed373c0352178ac918e2c1a9835ccaf833ff7356",
-      "listingValidatedAt": "2026-10-02T02:48:46.542Z",
+      "listingValidatedCommit": "447dbdbda902e45d1eb14416bbfdf6135a1d4439",
+      "listingValidatedAt": "2026-10-08T10:24:00.908Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -280313,35 +280313,14 @@
         "pluginIds": [
           "sing-box-dashboard"
         ],
-        "commit": "ed373c0352178ac918e2c1a9835ccaf833ff7356",
-        "checkedAt": "2026-10-02T02:48:46.430Z",
+        "commit": "447dbdbda902e45d1eb14416bbfdf6135a1d4439",
+        "checkedAt": "2026-10-08T10:24:00.908Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "xi4oh4o/omarchy-plugin-sing-box-dashboard",
-        "pluginIds": [
-          "sing-box-dashboard"
-        ],
-        "commit": "ed373c0352178ac918e2c1a9835ccaf833ff7356",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T02:48:46.430Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T02:18:35.042Z",
-        "requestEventId": 32304029041,
-        "requestedAt": "2026-10-02T02:20:27Z",
-        "reviewedAt": "2026-10-02T02:48:46.430Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "sing-box-dashboard": {
@@ -280353,7 +280332,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "xi4oh4o/omarchy-plugin-sing-box-dashboard",
+        "pluginIds": [
+          "sing-box-dashboard"
+        ],
+        "commit": "447dbdbda902e45d1eb14416bbfdf6135a1d4439",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T10:24:00.908Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T02:32:07.666Z",
+        "requestEventId": 32774149233,
+        "requestedAt": "2026-10-08T10:23:34Z",
+        "reviewedAt": "2026-10-08T10:24:00.908Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ed373c0352178ac918e2c1a9835ccaf833ff7356",
+          "validatedAt": "2026-10-02T02:48:46.542Z",
+          "branch": "main",
+          "supersededAt": "2026-10-08T10:24:00.908Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "xi4oh4o/omarchy-plugin-sing-box-dashboard",
+            "pluginIds": [
+              "sing-box-dashboard"
+            ],
+            "commit": "ed373c0352178ac918e2c1a9835ccaf833ff7356",
+            "checkedAt": "2026-10-02T02:48:46.430Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "xi4oh4o/omarchy-plugin-sing-box-dashboard",
+            "pluginIds": [
+              "sing-box-dashboard"
+            ],
+            "commit": "ed373c0352178ac918e2c1a9835ccaf833ff7356",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T02:48:46.430Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T02:18:35.042Z",
+            "requestEventId": 32304029041,
+            "requestedAt": "2026-10-02T02:20:27Z",
+            "reviewedAt": "2026-10-02T02:48:46.430Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/yashyadurai/omacam",
