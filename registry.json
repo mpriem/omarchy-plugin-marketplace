@@ -308047,8 +308047,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T05:41:57.091Z",
-      "listingValidatedCommit": "17e82b043a6e4f345dd2075097a9df16785911ce",
-      "listingValidatedAt": "2026-10-07T05:41:57.091Z",
+      "listingValidatedCommit": "0ee98296825b7d8f4629903a32e85249a2523c87",
+      "listingValidatedAt": "2026-10-08T10:49:51.397Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -308057,8 +308057,8 @@
         "pluginIds": [
           "io.github.hancore-linux.traffic-board"
         ],
-        "commit": "17e82b043a6e4f345dd2075097a9df16785911ce",
-        "checkedAt": "2026-10-07T05:41:56.992Z",
+        "commit": "0ee98296825b7d8f4629903a32e85249a2523c87",
+        "checkedAt": "2026-10-08T10:49:51.397Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -308066,28 +308066,6 @@
           "remote-build",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "hancore-linux/github-traffic-board",
-        "pluginIds": [
-          "io.github.hancore-linux.traffic-board"
-        ],
-        "commit": "17e82b043a6e4f345dd2075097a9df16785911ce",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-07T05:41:56.992Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-07T05:26:57.909Z",
-        "requestEventId": 32662168193,
-        "requestedAt": "2026-10-07T05:41:28Z",
-        "reviewedAt": "2026-10-07T05:41:56.992Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.hancore-linux.traffic-board": {
@@ -308098,7 +308076,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hancore-linux/github-traffic-board",
+        "pluginIds": [
+          "io.github.hancore-linux.traffic-board"
+        ],
+        "commit": "0ee98296825b7d8f4629903a32e85249a2523c87",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T10:49:51.397Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T09:57:54.339Z",
+        "requestEventId": 32776965915,
+        "requestedAt": "2026-10-08T10:49:20Z",
+        "reviewedAt": "2026-10-08T10:49:51.397Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "17e82b043a6e4f345dd2075097a9df16785911ce",
+          "validatedAt": "2026-10-07T05:41:57.091Z",
+          "branch": "main",
+          "supersededAt": "2026-10-08T10:49:51.397Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "hancore-linux/github-traffic-board",
+            "pluginIds": [
+              "io.github.hancore-linux.traffic-board"
+            ],
+            "commit": "17e82b043a6e4f345dd2075097a9df16785911ce",
+            "checkedAt": "2026-10-07T05:41:56.992Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "hancore-linux/github-traffic-board",
+            "pluginIds": [
+              "io.github.hancore-linux.traffic-board"
+            ],
+            "commit": "17e82b043a6e4f345dd2075097a9df16785911ce",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-07T05:41:56.992Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-07T05:26:57.909Z",
+            "requestEventId": 32662168193,
+            "requestedAt": "2026-10-07T05:41:28Z",
+            "reviewedAt": "2026-10-07T05:41:56.992Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/boundsj/RAMen",
