@@ -97454,8 +97454,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-28",
       "listedAt": "2026-08-28T15:39:55.994Z",
-      "listingValidatedCommit": "aa946c921f4e691c264ac1ca1888f89b7d9fd565",
-      "listingValidatedAt": "2026-10-01T06:45:43.713Z",
+      "listingValidatedCommit": "8b0865a826c39a96d9eb726b42cf23af2b2a069b",
+      "listingValidatedAt": "2026-10-08T20:20:33.499Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -97464,8 +97464,8 @@
         "pluginIds": [
           "takitani.sysmetrics"
         ],
-        "commit": "aa946c921f4e691c264ac1ca1888f89b7d9fd565",
-        "checkedAt": "2026-10-01T06:45:43.713Z",
+        "commit": "8b0865a826c39a96d9eb726b42cf23af2b2a069b",
+        "checkedAt": "2026-10-08T20:20:33.499Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -97483,27 +97483,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "alextakitani/omarchy-sysmetrics",
-        "pluginIds": [
-          "takitani.sysmetrics"
-        ],
-        "commit": "aa946c921f4e691c264ac1ca1888f89b7d9fd565",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T06:45:43.713Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-24T20:36:48.624Z",
-        "requestEventId": 32228356354,
-        "requestedAt": "2026-10-01T06:45:03Z",
-        "reviewedAt": "2026-10-01T06:45:43.713Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -97525,8 +97504,72 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "aa946c921f4e691c264ac1ca1888f89b7d9fd565",
+          "validatedAt": "2026-10-01T06:45:43.713Z",
+          "branch": "main",
+          "supersededAt": "2026-10-08T20:20:33.499Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "alextakitani/omarchy-sysmetrics",
+            "pluginIds": [
+              "takitani.sysmetrics"
+            ],
+            "commit": "aa946c921f4e691c264ac1ca1888f89b7d9fd565",
+            "checkedAt": "2026-10-01T06:45:43.713Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "alextakitani/omarchy-sysmetrics",
+            "pluginIds": [
+              "takitani.sysmetrics"
+            ],
+            "commit": "aa946c921f4e691c264ac1ca1888f89b7d9fd565",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T06:45:43.713Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-24T20:36:48.624Z",
+            "requestEventId": 32228356354,
+            "requestedAt": "2026-10-01T06:45:03Z",
+            "reviewedAt": "2026-10-01T06:45:43.713Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alextakitani/omarchy-sysmetrics",
+        "pluginIds": [
+          "takitani.sysmetrics"
+        ],
+        "commit": "8b0865a826c39a96d9eb726b42cf23af2b2a069b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T20:20:33.499Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T19:43:49.112Z",
+        "requestEventId": 32822632584,
+        "requestedAt": "2026-10-08T20:19:53Z",
+        "reviewedAt": "2026-10-08T20:20:33.499Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/xadacka/omarchy-window-switcher",
