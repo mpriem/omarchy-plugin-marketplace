@@ -311139,6 +311139,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/e2goon/omasweep",
+      "type": "plugin-source",
+      "addedAt": "2026-10-08",
+      "listedAt": "2026-10-08T05:48:25.768Z",
+      "listingValidatedCommit": "4b0c2d52dc056effd010cc0fab88dcb3327325df",
+      "listingValidatedAt": "2026-10-08T05:48:25.768Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "e2goon/omasweep",
+        "pluginIds": [
+          "io.github.e2goon.omasweep"
+        ],
+        "commit": "4b0c2d52dc056effd010cc0fab88dcb3327325df",
+        "checkedAt": "2026-10-08T05:48:25.639Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "e2goon/omasweep",
+        "pluginIds": [
+          "io.github.e2goon.omasweep"
+        ],
+        "commit": "4b0c2d52dc056effd010cc0fab88dcb3327325df",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T05:48:25.639Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T05:36:34.910Z",
+        "requestEventId": 32752718193,
+        "requestedAt": "2026-10-08T05:47:44Z",
+        "reviewedAt": "2026-10-08T05:48:25.639Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.e2goon.omasweep": {
+          "category": "System",
+          "tags": [
+            "system",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
