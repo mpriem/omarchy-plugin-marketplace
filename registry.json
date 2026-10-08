@@ -312757,8 +312757,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T13:52:36.008Z",
-      "listingValidatedCommit": "af9d3b3edeff06c362b9c4dc9bf59773b62942fd",
-      "listingValidatedAt": "2026-10-08T13:52:36.008Z",
+      "listingValidatedCommit": "3e32b5966d05876f58fdf5d68d8c98d355d770ec",
+      "listingValidatedAt": "2026-10-08T17:57:21.726Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -312767,8 +312767,8 @@
         "pluginIds": [
           "io.github.qempexe.omatune"
         ],
-        "commit": "af9d3b3edeff06c362b9c4dc9bf59773b62942fd",
-        "checkedAt": "2026-10-08T13:52:35.859Z",
+        "commit": "3e32b5966d05876f58fdf5d68d8c98d355d770ec",
+        "checkedAt": "2026-10-08T17:57:21.726Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -312788,7 +312788,29 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "af9d3b3edeff06c362b9c4dc9bf59773b62942fd",
+          "validatedAt": "2026-10-08T13:52:36.008Z",
+          "branch": "master",
+          "supersededAt": "2026-10-08T17:57:21.726Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "qempexe/omarchy-omatune",
+            "pluginIds": [
+              "io.github.qempexe.omatune"
+            ],
+            "commit": "af9d3b3edeff06c362b9c4dc9bf59773b62942fd",
+            "checkedAt": "2026-10-08T13:52:35.859Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/AktOn1/omarchy-background-worker-talk-to-me",
