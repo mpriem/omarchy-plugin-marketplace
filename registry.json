@@ -253162,8 +253162,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T14:21:07.030Z",
-      "listingValidatedCommit": "8d4775c844c672dceaa56ec0c4f8205e3145a653",
-      "listingValidatedAt": "2026-09-27T14:21:07.030Z",
+      "listingValidatedCommit": "d33b0455a57b7a74049697299b68a662c0890ec9",
+      "listingValidatedAt": "2026-10-09T10:10:18.385Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -253172,35 +253172,14 @@
         "pluginIds": [
           "foamy.audio"
         ],
-        "commit": "8d4775c844c672dceaa56ec0c4f8205e3145a653",
-        "checkedAt": "2026-09-27T14:21:06.926Z",
+        "commit": "d33b0455a57b7a74049697299b68a662c0890ec9",
+        "checkedAt": "2026-10-09T10:10:18.385Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "foamrider/foamy-audio",
-        "pluginIds": [
-          "foamy.audio"
-        ],
-        "commit": "8d4775c844c672dceaa56ec0c4f8205e3145a653",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-27T14:21:06.926Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-27T12:50:03.866Z",
-        "requestEventId": 31932173596,
-        "requestedAt": "2026-09-27T13:23:27Z",
-        "reviewedAt": "2026-09-27T14:21:06.926Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "foamy.audio": {
@@ -253212,7 +253191,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "foamrider/foamy-audio",
+        "pluginIds": [
+          "foamy.audio"
+        ],
+        "commit": "d33b0455a57b7a74049697299b68a662c0890ec9",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T10:10:18.385Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T09:12:56.406Z",
+        "requestEventId": 32865477896,
+        "requestedAt": "2026-10-09T10:09:46Z",
+        "reviewedAt": "2026-10-09T10:10:18.385Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "8d4775c844c672dceaa56ec0c4f8205e3145a653",
+          "validatedAt": "2026-09-27T14:21:07.030Z",
+          "branch": "main",
+          "supersededAt": "2026-10-09T10:10:18.385Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "foamrider/foamy-audio",
+            "pluginIds": [
+              "foamy.audio"
+            ],
+            "commit": "8d4775c844c672dceaa56ec0c4f8205e3145a653",
+            "checkedAt": "2026-09-27T14:21:06.926Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "foamrider/foamy-audio",
+            "pluginIds": [
+              "foamy.audio"
+            ],
+            "commit": "8d4775c844c672dceaa56ec0c4f8205e3145a653",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-27T14:21:06.926Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-27T12:50:03.866Z",
+            "requestEventId": 31932173596,
+            "requestedAt": "2026-09-27T13:23:27Z",
+            "reviewedAt": "2026-09-27T14:21:06.926Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/foamrider/foamy-monitor",
