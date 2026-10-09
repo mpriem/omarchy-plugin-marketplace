@@ -316266,6 +316266,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/gosumarchy/omarchy-guardian-widget",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T10:19:39.475Z",
+      "listingValidatedCommit": "ee195207fd68f3ba7ce3fbd5b4869c59c45d17ae",
+      "listingValidatedAt": "2026-10-09T10:19:39.475Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gosumarchy/omarchy-guardian-widget",
+        "pluginIds": [
+          "io.github.gosumarchy.guardian"
+        ],
+        "commit": "ee195207fd68f3ba7ce3fbd5b4869c59c45d17ae",
+        "checkedAt": "2026-10-09T10:19:39.343Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gosumarchy/omarchy-guardian-widget",
+        "pluginIds": [
+          "io.github.gosumarchy.guardian"
+        ],
+        "commit": "ee195207fd68f3ba7ce3fbd5b4869c59c45d17ae",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T10:19:39.343Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T10:09:46.692Z",
+        "requestEventId": 32866068039,
+        "requestedAt": "2026-10-09T10:19:09Z",
+        "reviewedAt": "2026-10-09T10:19:39.343Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.gosumarchy.guardian": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "security",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
