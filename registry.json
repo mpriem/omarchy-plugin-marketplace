@@ -162156,8 +162156,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T15:53:38.679Z",
-      "listingValidatedCommit": "2d0846479e7b8c45bd32596f4c094f94e08d6de9",
-      "listingValidatedAt": "2026-09-08T15:53:38.679Z",
+      "listingValidatedCommit": "8935faf1e78a17488426b5f8b5311f57d7cac0d6",
+      "listingValidatedAt": "2026-10-09T09:21:27.281Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -162166,8 +162166,8 @@
         "pluginIds": [
           "io.github.bekkenes.football-tracker"
         ],
-        "commit": "2d0846479e7b8c45bd32596f4c094f94e08d6de9",
-        "checkedAt": "2026-09-08T15:53:38.604Z",
+        "commit": "8935faf1e78a17488426b5f8b5311f57d7cac0d6",
+        "checkedAt": "2026-10-09T09:21:27.281Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -162178,30 +162178,6 @@
           "package-manager"
         ]
       },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "bekkenes/omarchy-football-tracker",
-        "pluginIds": [
-          "io.github.bekkenes.football-tracker"
-        ],
-        "commit": "2d0846479e7b8c45bd32596f4c094f94e08d6de9",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-08T15:53:38.604Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "service-management",
-          "installer",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-08T15:10:15.460Z",
-        "requestEventId": 30767855602,
-        "requestedAt": "2026-09-08T15:52:02Z",
-        "reviewedAt": "2026-09-08T15:53:38.604Z",
-        "reviewer": "HANCORE-linux"
-      },
       "plugins": {
         "io.github.bekkenes.football-tracker": {
           "category": "Widgets",
@@ -162211,7 +162187,82 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bekkenes/omarchy-football-tracker",
+        "pluginIds": [
+          "io.github.bekkenes.football-tracker"
+        ],
+        "commit": "8935faf1e78a17488426b5f8b5311f57d7cac0d6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T09:21:27.281Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T08:37:15.914Z",
+        "requestEventId": 32862353516,
+        "requestedAt": "2026-10-09T09:20:54Z",
+        "reviewedAt": "2026-10-09T09:21:27.281Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2d0846479e7b8c45bd32596f4c094f94e08d6de9",
+          "validatedAt": "2026-09-08T15:53:38.679Z",
+          "branch": "main",
+          "supersededAt": "2026-10-09T09:21:27.281Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bekkenes/omarchy-football-tracker",
+            "pluginIds": [
+              "io.github.bekkenes.football-tracker"
+            ],
+            "commit": "2d0846479e7b8c45bd32596f4c094f94e08d6de9",
+            "checkedAt": "2026-09-08T15:53:38.604Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management",
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "bekkenes/omarchy-football-tracker",
+            "pluginIds": [
+              "io.github.bekkenes.football-tracker"
+            ],
+            "commit": "2d0846479e7b8c45bd32596f4c094f94e08d6de9",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-08T15:53:38.604Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management",
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-08T15:10:15.460Z",
+            "requestEventId": 30767855602,
+            "requestedAt": "2026-09-08T15:52:02Z",
+            "reviewedAt": "2026-09-08T15:53:38.604Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jcergolj/praefectus-opencode",
