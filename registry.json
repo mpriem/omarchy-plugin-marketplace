@@ -255215,8 +255215,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T16:07:24.250Z",
-      "listingValidatedCommit": "578e3761ef012967a2f4d3ce98df3ed74cfa015b",
-      "listingValidatedAt": "2026-09-27T16:07:24.250Z",
+      "listingValidatedCommit": "dd81ed64f1ead699c20561f52cfb61b5e85c2a37",
+      "listingValidatedAt": "2026-10-09T10:37:27.406Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -255225,8 +255225,8 @@
         "pluginIds": [
           "foamy.clock"
         ],
-        "commit": "578e3761ef012967a2f4d3ce98df3ed74cfa015b",
-        "checkedAt": "2026-09-27T16:07:24.150Z",
+        "commit": "dd81ed64f1ead699c20561f52cfb61b5e85c2a37",
+        "checkedAt": "2026-10-09T10:37:27.406Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -255241,7 +255241,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "578e3761ef012967a2f4d3ce98df3ed74cfa015b",
+          "validatedAt": "2026-09-27T16:07:24.250Z",
+          "branch": "main",
+          "supersededAt": "2026-10-09T10:37:27.406Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "foamrider/foamy-clock",
+            "pluginIds": [
+              "foamy.clock"
+            ],
+            "commit": "578e3761ef012967a2f4d3ce98df3ed74cfa015b",
+            "checkedAt": "2026-09-27T16:07:24.150Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Guilhermerisu/island",
