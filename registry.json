@@ -312323,8 +312323,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T03:58:01.489Z",
-      "listingValidatedCommit": "4f1ec57ba9096223acc54ec92ef3ee9e92a4bbab",
-      "listingValidatedAt": "2026-10-08T03:58:01.489Z",
+      "listingValidatedCommit": "425b3beaea6e7b440218966d4f6e6f18e756f018",
+      "listingValidatedAt": "2026-10-09T00:28:33.602Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -312333,8 +312333,8 @@
         "pluginIds": [
           "jamesforan.whereabouts"
         ],
-        "commit": "4f1ec57ba9096223acc54ec92ef3ee9e92a4bbab",
-        "checkedAt": "2026-10-08T03:58:01.353Z",
+        "commit": "425b3beaea6e7b440218966d4f6e6f18e756f018",
+        "checkedAt": "2026-10-09T00:28:33.602Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -312350,7 +312350,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "4f1ec57ba9096223acc54ec92ef3ee9e92a4bbab",
+          "validatedAt": "2026-10-08T03:58:01.489Z",
+          "branch": "main",
+          "supersededAt": "2026-10-09T00:28:33.602Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jamesforan/whereabouts",
+            "pluginIds": [
+              "jamesforan.whereabouts"
+            ],
+            "commit": "4f1ec57ba9096223acc54ec92ef3ee9e92a4bbab",
+            "checkedAt": "2026-10-08T03:58:01.353Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/e2goon/omasweep",
