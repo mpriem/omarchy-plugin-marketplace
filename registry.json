@@ -253214,8 +253214,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T14:16:58.823Z",
-      "listingValidatedCommit": "f516ea9a1b9c3029d379a9a58ddac6fd923eb2f5",
-      "listingValidatedAt": "2026-09-27T14:16:58.823Z",
+      "listingValidatedCommit": "647213262a1d40ab029c720b78ae02081584a2f9",
+      "listingValidatedAt": "2026-10-09T11:35:25.037Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -253224,8 +253224,8 @@
         "pluginIds": [
           "foamy.media"
         ],
-        "commit": "f516ea9a1b9c3029d379a9a58ddac6fd923eb2f5",
-        "checkedAt": "2026-09-27T14:16:58.694Z",
+        "commit": "647213262a1d40ab029c720b78ae02081584a2f9",
+        "checkedAt": "2026-10-09T11:35:25.037Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -253241,7 +253241,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f516ea9a1b9c3029d379a9a58ddac6fd923eb2f5",
+          "validatedAt": "2026-09-27T14:16:58.823Z",
+          "branch": "main",
+          "supersededAt": "2026-10-09T11:35:25.037Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "foamrider/foamy-media",
+            "pluginIds": [
+              "foamy.media"
+            ],
+            "commit": "f516ea9a1b9c3029d379a9a58ddac6fd923eb2f5",
+            "checkedAt": "2026-09-27T14:16:58.694Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/foamrider/foamy-audio",
