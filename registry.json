@@ -316985,6 +316985,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/BirendraKSharma/eren.keyboard-layout",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T13:40:52.141Z",
+      "listingValidatedCommit": "11d54d5bc0d030978efb0cfdca8ed2f9e3f38f26",
+      "listingValidatedAt": "2026-10-09T13:40:52.141Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "birendraksharma/eren.keyboard-layout",
+        "pluginIds": [
+          "eren.keyboard-layout"
+        ],
+        "commit": "11d54d5bc0d030978efb0cfdca8ed2f9e3f38f26",
+        "checkedAt": "2026-10-09T13:40:51.988Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "eren.keyboard-layout": {
+          "category": "System",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
