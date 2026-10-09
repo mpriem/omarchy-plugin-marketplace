@@ -314816,6 +314816,72 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/nathankramm/omarchy-monarch-money",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T02:16:58.283Z",
+      "listingValidatedCommit": "e8bba05eb8400a1eba44f12d01ae4b1a4199f220",
+      "listingValidatedAt": "2026-10-09T02:16:58.283Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nathankramm/omarchy-monarch-money",
+        "pluginIds": [
+          "io.github.nathankramm.pupa"
+        ],
+        "commit": "e8bba05eb8400a1eba44f12d01ae4b1a4199f220",
+        "checkedAt": "2026-10-09T02:16:58.186Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nathankramm/omarchy-monarch-money",
+        "pluginIds": [
+          "io.github.nathankramm.pupa"
+        ],
+        "commit": "e8bba05eb8400a1eba44f12d01ae4b1a4199f220",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T02:16:58.186Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T01:53:14.801Z",
+        "requestEventId": 32840367902,
+        "requestedAt": "2026-10-09T02:16:13Z",
+        "reviewedAt": "2026-10-09T02:16:58.187Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.nathankramm.pupa": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
