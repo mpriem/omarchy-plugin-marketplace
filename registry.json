@@ -316797,6 +316797,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/RFdeGroot/omarchy-omaremote",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T12:49:37.876Z",
+      "listingValidatedCommit": "fa87484f055d3f082d326ff981ba1935cf2edb4f",
+      "listingValidatedAt": "2026-10-09T12:49:37.876Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rfdegroot/omarchy-omaremote",
+        "pluginIds": [
+          "rfdegroot.omaremote"
+        ],
+        "commit": "fa87484f055d3f082d326ff981ba1935cf2edb4f",
+        "checkedAt": "2026-10-09T12:49:37.737Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rfdegroot/omarchy-omaremote",
+        "pluginIds": [
+          "rfdegroot.omaremote"
+        ],
+        "commit": "fa87484f055d3f082d326ff981ba1935cf2edb4f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T12:49:37.737Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T12:44:31.963Z",
+        "requestEventId": 32875725149,
+        "requestedAt": "2026-10-09T12:49:11Z",
+        "reviewedAt": "2026-10-09T12:49:37.737Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "rfdegroot.omaremote": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
