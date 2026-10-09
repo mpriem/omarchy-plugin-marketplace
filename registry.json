@@ -316166,6 +316166,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/andreiyurik/omarchy-colorful-terminals",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T09:57:09.269Z",
+      "listingValidatedCommit": "d84366048a13c9b4ecbd4489b697f4a2bca682f7",
+      "listingValidatedAt": "2026-10-09T09:57:09.269Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "andreiyurik/omarchy-colorful-terminals",
+        "pluginIds": [
+          "andreiyurik.colorful-terminals"
+        ],
+        "commit": "d84366048a13c9b4ecbd4489b697f4a2bca682f7",
+        "checkedAt": "2026-10-09T09:57:09.128Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "andreiyurik.colorful-terminals": {
+          "category": "Developer Tools",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
