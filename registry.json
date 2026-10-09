@@ -315183,6 +315183,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mvalkier/omarchy-mailflow-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T05:09:13.456Z",
+      "listingValidatedCommit": "57c5a20a09ee74f29e12036eae8c40c8bd6aa61c",
+      "listingValidatedAt": "2026-10-09T05:09:13.456Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mvalkier/omarchy-mailflow-plugin",
+        "pluginIds": [
+          "melkweg.mailflow"
+        ],
+        "commit": "57c5a20a09ee74f29e12036eae8c40c8bd6aa61c",
+        "checkedAt": "2026-10-09T05:09:13.323Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mvalkier/omarchy-mailflow-plugin",
+        "pluginIds": [
+          "melkweg.mailflow"
+        ],
+        "commit": "57c5a20a09ee74f29e12036eae8c40c8bd6aa61c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T05:09:13.323Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T05:06:44.071Z",
+        "requestEventId": 32847633526,
+        "requestedAt": "2026-10-09T05:08:46Z",
+        "reviewedAt": "2026-10-09T05:09:13.323Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "melkweg.mailflow": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
