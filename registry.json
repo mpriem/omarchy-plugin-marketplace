@@ -315239,6 +315239,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mvalkier/omarchy-yubikey-otp",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T05:12:23.759Z",
+      "listingValidatedCommit": "219fa72e7c6635237947f2cef083e033c24b1ac3",
+      "listingValidatedAt": "2026-10-09T05:12:23.759Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mvalkier/omarchy-yubikey-otp",
+        "pluginIds": [
+          "melkweg.yubikey-otp"
+        ],
+        "commit": "219fa72e7c6635237947f2cef083e033c24b1ac3",
+        "checkedAt": "2026-10-09T05:12:23.622Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mvalkier/omarchy-yubikey-otp",
+        "pluginIds": [
+          "melkweg.yubikey-otp"
+        ],
+        "commit": "219fa72e7c6635237947f2cef083e033c24b1ac3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T05:12:23.622Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T05:06:52.620Z",
+        "requestEventId": 32847640538,
+        "requestedAt": "2026-10-09T05:08:55Z",
+        "reviewedAt": "2026-10-09T05:12:23.622Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "melkweg.yubikey-otp": {
+          "category": "Hardware",
+          "tags": [
+            "security",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
