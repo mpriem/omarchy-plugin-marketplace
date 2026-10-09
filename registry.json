@@ -316511,6 +316511,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/BennetMC2/omarchy-focus",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T11:38:44.088Z",
+      "listingValidatedCommit": "70f79ba28fb0b5f82b3a9b8800e21a6629ce6c2e",
+      "listingValidatedAt": "2026-10-09T11:38:44.088Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "bennetmc2/omarchy-focus",
+        "pluginIds": [
+          "local.focus"
+        ],
+        "commit": "70f79ba28fb0b5f82b3a9b8800e21a6629ce6c2e",
+        "checkedAt": "2026-10-09T11:38:43.967Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bennetmc2/omarchy-focus",
+        "pluginIds": [
+          "local.focus"
+        ],
+        "commit": "70f79ba28fb0b5f82b3a9b8800e21a6629ce6c2e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T11:38:43.967Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T11:32:54.434Z",
+        "requestEventId": 32870837365,
+        "requestedAt": "2026-10-09T11:35:21Z",
+        "reviewedAt": "2026-10-09T11:38:43.967Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "local.focus": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
