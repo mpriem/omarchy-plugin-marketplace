@@ -290423,8 +290423,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T11:23:57.755Z",
-      "listingValidatedCommit": "09818a17814b1ace47a06176b5c9936b17d8e563",
-      "listingValidatedAt": "2026-10-06T13:43:04.988Z",
+      "listingValidatedCommit": "596de381c8bd6fb26dfc2086ef53a88ff34260d6",
+      "listingValidatedAt": "2026-10-09T05:40:17.422Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -290433,8 +290433,8 @@
         "pluginIds": [
           "gelu22.gateway"
         ],
-        "commit": "09818a17814b1ace47a06176b5c9936b17d8e563",
-        "checkedAt": "2026-10-06T13:43:04.988Z",
+        "commit": "596de381c8bd6fb26dfc2086ef53a88ff34260d6",
+        "checkedAt": "2026-10-09T05:40:17.422Z",
         "outcome": "needs-fixes",
         "enforcementMode": "selective",
         "findings": [
@@ -290442,7 +290442,6 @@
         ],
         "capabilities": [
           "privilege",
-          "remote-build",
           "installer"
         ]
       },
@@ -290563,6 +290562,57 @@
             "reviewedAt": "2026-10-06T08:31:05.604Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "09818a17814b1ace47a06176b5c9936b17d8e563",
+          "validatedAt": "2026-10-06T13:43:04.988Z",
+          "branch": "master",
+          "supersededAt": "2026-10-09T05:40:17.422Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gelu22/x402-gateway-omarchy",
+            "pluginIds": [
+              "gelu22.gateway"
+            ],
+            "commit": "09818a17814b1ace47a06176b5c9936b17d8e563",
+            "checkedAt": "2026-10-06T13:43:04.988Z",
+            "outcome": "needs-fixes",
+            "enforcementMode": "selective",
+            "findings": [
+              "curl-pipe-shell"
+            ],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gelu22/x402-gateway-omarchy",
+            "pluginIds": [
+              "gelu22.gateway"
+            ],
+            "commit": "09818a17814b1ace47a06176b5c9936b17d8e563",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-06T13:43:04.988Z",
+            "baselineOutcome": "needs-fixes",
+            "findings": [
+              "curl-pipe-shell"
+            ],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-06T12:31:11.925Z",
+            "requestEventId": 32603353575,
+            "requestedAt": "2026-10-06T13:40:13Z",
+            "reviewedAt": "2026-10-06T13:43:04.988Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -290571,23 +290621,22 @@
         "pluginIds": [
           "gelu22.gateway"
         ],
-        "commit": "09818a17814b1ace47a06176b5c9936b17d8e563",
+        "commit": "596de381c8bd6fb26dfc2086ef53a88ff34260d6",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-06T13:43:04.988Z",
+        "baselineCheckedAt": "2026-10-09T05:40:17.422Z",
         "baselineOutcome": "needs-fixes",
         "findings": [
           "curl-pipe-shell"
         ],
         "capabilities": [
           "privilege",
-          "remote-build",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-06T12:31:11.925Z",
-        "requestEventId": 32603353575,
-        "requestedAt": "2026-10-06T13:40:13Z",
-        "reviewedAt": "2026-10-06T13:43:04.988Z",
+        "reviewedBaselineCheckedAt": "2026-10-09T04:55:18.042Z",
+        "requestEventId": 32849071196,
+        "requestedAt": "2026-10-09T05:39:43Z",
+        "reviewedAt": "2026-10-09T05:40:17.422Z",
         "reviewer": "HANCORE-linux"
       }
     },
