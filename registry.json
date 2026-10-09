@@ -314550,6 +314550,73 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/rikalonikola/omarchy-plugin-dell-g16-awcc-oma",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T00:38:35.139Z",
+      "listingValidatedCommit": "0414e3a32aa4f8a66c3e49832b67327c73eaf376",
+      "listingValidatedAt": "2026-10-09T00:38:35.139Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rikalonikola/omarchy-plugin-dell-g16-awcc-oma",
+        "pluginIds": [
+          "io.github.rikalonikola.dell-g16-awcc-oma"
+        ],
+        "commit": "0414e3a32aa4f8a66c3e49832b67327c73eaf376",
+        "checkedAt": "2026-10-09T00:38:35.008Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rikalonikola/omarchy-plugin-dell-g16-awcc-oma",
+        "pluginIds": [
+          "io.github.rikalonikola.dell-g16-awcc-oma"
+        ],
+        "commit": "0414e3a32aa4f8a66c3e49832b67327c73eaf376",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T00:38:35.008Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T00:31:36.753Z",
+        "requestEventId": 32836188911,
+        "requestedAt": "2026-10-09T00:34:41Z",
+        "reviewedAt": "2026-10-09T00:38:35.008Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.rikalonikola.dell-g16-awcc-oma": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "power-management",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
