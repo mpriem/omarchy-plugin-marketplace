@@ -313825,8 +313825,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T08:18:50.154Z",
-      "listingValidatedCommit": "2057bddb925f3b072afad15e0417ad6b6a6e4b63",
-      "listingValidatedAt": "2026-10-08T08:18:50.154Z",
+      "listingValidatedCommit": "d374ac4fa8254549292f7cdd57c555104a59a881",
+      "listingValidatedAt": "2026-10-09T14:47:57.311Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -313835,35 +313835,14 @@
         "pluginIds": [
           "chthollyphile.agent-pet"
         ],
-        "commit": "2057bddb925f3b072afad15e0417ad6b6a6e4b63",
-        "checkedAt": "2026-10-08T08:18:50.036Z",
+        "commit": "d374ac4fa8254549292f7cdd57c555104a59a881",
+        "checkedAt": "2026-10-09T14:47:57.311Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "chthollyphile/omarchy-agent-pet",
-        "pluginIds": [
-          "chthollyphile.agent-pet"
-        ],
-        "commit": "2057bddb925f3b072afad15e0417ad6b6a6e4b63",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-08T08:18:50.036Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-07T20:24:12.047Z",
-        "requestEventId": 32764620891,
-        "requestedAt": "2026-10-08T08:18:16Z",
-        "reviewedAt": "2026-10-08T08:18:50.036Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "chthollyphile.agent-pet": {
@@ -313875,7 +313854,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "chthollyphile/omarchy-agent-pet",
+        "pluginIds": [
+          "chthollyphile.agent-pet"
+        ],
+        "commit": "d374ac4fa8254549292f7cdd57c555104a59a881",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T14:47:57.311Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T13:10:25.640Z",
+        "requestEventId": 32884718253,
+        "requestedAt": "2026-10-09T14:46:40Z",
+        "reviewedAt": "2026-10-09T14:47:57.311Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2057bddb925f3b072afad15e0417ad6b6a6e4b63",
+          "validatedAt": "2026-10-08T08:18:50.154Z",
+          "branch": "main",
+          "supersededAt": "2026-10-09T14:47:57.311Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "chthollyphile/omarchy-agent-pet",
+            "pluginIds": [
+              "chthollyphile.agent-pet"
+            ],
+            "commit": "2057bddb925f3b072afad15e0417ad6b6a6e4b63",
+            "checkedAt": "2026-10-08T08:18:50.036Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "chthollyphile/omarchy-agent-pet",
+            "pluginIds": [
+              "chthollyphile.agent-pet"
+            ],
+            "commit": "2057bddb925f3b072afad15e0417ad6b6a6e4b63",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-08T08:18:50.036Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-07T20:24:12.047Z",
+            "requestEventId": 32764620891,
+            "requestedAt": "2026-10-08T08:18:16Z",
+            "reviewedAt": "2026-10-08T08:18:50.036Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/alexwest1981/keyglow",
