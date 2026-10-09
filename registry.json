@@ -34137,8 +34137,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-20",
       "listedAt": "2026-08-20T19:35:21.632Z",
-      "listingValidatedCommit": "8fe09203417c9047855b353f7bea95a9c8443095",
-      "listingValidatedAt": "2026-08-23T22:04:58.581Z",
+      "listingValidatedCommit": "f69bf748ed6129ce23757e2516cd588538a8693b",
+      "listingValidatedAt": "2026-10-09T06:10:01.871Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -34147,8 +34147,8 @@
         "pluginIds": [
           "limon.todo"
         ],
-        "commit": "8fe09203417c9047855b353f7bea95a9c8443095",
-        "checkedAt": "2026-08-23T22:04:58.581Z",
+        "commit": "f69bf748ed6129ce23757e2516cd588538a8693b",
+        "checkedAt": "2026-10-09T06:10:01.871Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -34238,6 +34238,26 @@
             ],
             "commit": "776db2d4a11383da6657e032227667d8d0a45882",
             "checkedAt": "2026-08-22T21:10:03.515Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "8fe09203417c9047855b353f7bea95a9c8443095",
+          "validatedAt": "2026-08-23T22:04:58.581Z",
+          "branch": "main",
+          "supersededAt": "2026-10-09T06:10:01.871Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "sheikhlimon/omarchy-todo",
+            "pluginIds": [
+              "limon.todo"
+            ],
+            "commit": "8fe09203417c9047855b353f7bea95a9c8443095",
+            "checkedAt": "2026-08-23T22:04:58.581Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
