@@ -315389,6 +315389,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/niedch/omarchy-numr-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T05:45:13.145Z",
+      "listingValidatedCommit": "58e16e496e3362f446a0129a8b444c02428c1ce0",
+      "listingValidatedAt": "2026-10-09T05:45:13.145Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "niedch/omarchy-numr-plugin",
+        "pluginIds": [
+          "nic.numr"
+        ],
+        "commit": "58e16e496e3362f446a0129a8b444c02428c1ce0",
+        "checkedAt": "2026-10-09T05:45:13.037Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "niedch/omarchy-numr-plugin",
+        "pluginIds": [
+          "nic.numr"
+        ],
+        "commit": "58e16e496e3362f446a0129a8b444c02428c1ce0",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T05:45:13.037Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T05:43:16.034Z",
+        "requestEventId": 32849301455,
+        "requestedAt": "2026-10-09T05:44:46Z",
+        "reviewedAt": "2026-10-09T05:45:13.037Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "nic.numr": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
