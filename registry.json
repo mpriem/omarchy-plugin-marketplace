@@ -314484,8 +314484,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T21:05:56.896Z",
-      "listingValidatedCommit": "1832e6026a7927d1472721ddf83ca10a50601ade",
-      "listingValidatedAt": "2026-10-08T21:05:56.896Z",
+      "listingValidatedCommit": "ac22c7b60b55275aa422640ecd1d98310ad0982c",
+      "listingValidatedAt": "2026-10-09T02:03:09.085Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -314494,8 +314494,8 @@
         "pluginIds": [
           "io.github.cesarfilho.omakeylog"
         ],
-        "commit": "1832e6026a7927d1472721ddf83ca10a50601ade",
-        "checkedAt": "2026-10-08T21:05:56.774Z",
+        "commit": "ac22c7b60b55275aa422640ecd1d98310ad0982c",
+        "checkedAt": "2026-10-09T02:03:09.085Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -314503,28 +314503,6 @@
           "privilege",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "cesarfilho/omakeylog",
-        "pluginIds": [
-          "io.github.cesarfilho.omakeylog"
-        ],
-        "commit": "1832e6026a7927d1472721ddf83ca10a50601ade",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-08T21:05:56.774Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-08T20:43:47.860Z",
-        "requestEventId": 32825623771,
-        "requestedAt": "2026-10-08T21:05:28Z",
-        "reviewedAt": "2026-10-08T21:05:56.774Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.cesarfilho.omakeylog": {
@@ -314539,7 +314517,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cesarfilho/omakeylog",
+        "pluginIds": [
+          "io.github.cesarfilho.omakeylog"
+        ],
+        "commit": "ac22c7b60b55275aa422640ecd1d98310ad0982c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T02:03:09.085Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T01:25:31.437Z",
+        "requestEventId": 32839812755,
+        "requestedAt": "2026-10-09T02:02:43Z",
+        "reviewedAt": "2026-10-09T02:03:09.085Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1832e6026a7927d1472721ddf83ca10a50601ade",
+          "validatedAt": "2026-10-08T21:05:56.896Z",
+          "branch": "main",
+          "supersededAt": "2026-10-09T02:03:09.085Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "cesarfilho/omakeylog",
+            "pluginIds": [
+              "io.github.cesarfilho.omakeylog"
+            ],
+            "commit": "1832e6026a7927d1472721ddf83ca10a50601ade",
+            "checkedAt": "2026-10-08T21:05:56.774Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "cesarfilho/omakeylog",
+            "pluginIds": [
+              "io.github.cesarfilho.omakeylog"
+            ],
+            "commit": "1832e6026a7927d1472721ddf83ca10a50601ade",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-08T21:05:56.774Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-08T20:43:47.860Z",
+            "requestEventId": 32825623771,
+            "requestedAt": "2026-10-08T21:05:28Z",
+            "reviewedAt": "2026-10-08T21:05:56.774Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dfrost90/omarchy-key-rain",
