@@ -307923,8 +307923,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T03:04:33.879Z",
-      "listingValidatedCommit": "04fa93fc60426d3bb71f6e45e3f9bcc4e9af217f",
-      "listingValidatedAt": "2026-10-08T10:07:53.695Z",
+      "listingValidatedCommit": "5c676d006f1d8a315739a8bff8e93eb75d82d41e",
+      "listingValidatedAt": "2026-10-09T00:31:40.256Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -307933,8 +307933,8 @@
         "pluginIds": [
           "wartafak.windowswitcher"
         ],
-        "commit": "04fa93fc60426d3bb71f6e45e3f9bcc4e9af217f",
-        "checkedAt": "2026-10-08T10:07:53.695Z",
+        "commit": "5c676d006f1d8a315739a8bff8e93eb75d82d41e",
+        "checkedAt": "2026-10-09T00:31:40.256Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -307986,6 +307986,26 @@
             ],
             "commit": "bf84db67c9b83733dbdbdf672a523ade1831ad9b",
             "checkedAt": "2026-10-07T19:22:03.454Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "04fa93fc60426d3bb71f6e45e3f9bcc4e9af217f",
+          "validatedAt": "2026-10-08T10:07:53.695Z",
+          "branch": "main",
+          "supersededAt": "2026-10-09T00:31:40.256Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "wartafak/omarchy-windowswitcher",
+            "pluginIds": [
+              "wartafak.windowswitcher"
+            ],
+            "commit": "04fa93fc60426d3bb71f6e45e3f9bcc4e9af217f",
+            "checkedAt": "2026-10-08T10:07:53.695Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
