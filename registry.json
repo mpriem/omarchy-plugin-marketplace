@@ -306699,8 +306699,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-06",
       "listedAt": "2026-10-06T12:56:39.570Z",
-      "listingValidatedCommit": "bcb7d54b28ffc413f9fcb2acfe9e62c072e68534",
-      "listingValidatedAt": "2026-10-07T15:24:47.907Z",
+      "listingValidatedCommit": "b3c80d5dd79bb66110baca0102ee6eefc2e32c1e",
+      "listingValidatedAt": "2026-10-09T00:35:24.212Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -306709,8 +306709,8 @@
         "pluginIds": [
           "wartafak.sysmon"
         ],
-        "commit": "bcb7d54b28ffc413f9fcb2acfe9e62c072e68534",
-        "checkedAt": "2026-10-07T15:24:47.907Z",
+        "commit": "b3c80d5dd79bb66110baca0102ee6eefc2e32c1e",
+        "checkedAt": "2026-10-09T00:35:24.212Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -306728,27 +306728,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "wartafak/omarchy-sysmon",
-        "pluginIds": [
-          "wartafak.sysmon"
-        ],
-        "commit": "bcb7d54b28ffc413f9fcb2acfe9e62c072e68534",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-07T15:24:47.907Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-07T15:05:22.110Z",
-        "requestEventId": 32702435116,
-        "requestedAt": "2026-10-07T15:24:11Z",
-        "reviewedAt": "2026-10-07T15:24:47.907Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -306793,8 +306772,72 @@
             "reviewedAt": "2026-10-06T12:56:39.482Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "bcb7d54b28ffc413f9fcb2acfe9e62c072e68534",
+          "validatedAt": "2026-10-07T15:24:47.907Z",
+          "branch": "master",
+          "supersededAt": "2026-10-09T00:35:24.212Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "wartafak/omarchy-sysmon",
+            "pluginIds": [
+              "wartafak.sysmon"
+            ],
+            "commit": "bcb7d54b28ffc413f9fcb2acfe9e62c072e68534",
+            "checkedAt": "2026-10-07T15:24:47.907Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "wartafak/omarchy-sysmon",
+            "pluginIds": [
+              "wartafak.sysmon"
+            ],
+            "commit": "bcb7d54b28ffc413f9fcb2acfe9e62c072e68534",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-07T15:24:47.907Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-07T15:05:22.110Z",
+            "requestEventId": 32702435116,
+            "requestedAt": "2026-10-07T15:24:11Z",
+            "reviewedAt": "2026-10-07T15:24:47.907Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "wartafak/omarchy-sysmon",
+        "pluginIds": [
+          "wartafak.sysmon"
+        ],
+        "commit": "b3c80d5dd79bb66110baca0102ee6eefc2e32c1e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T00:35:24.212Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T00:15:46.676Z",
+        "requestEventId": 32836151122,
+        "requestedAt": "2026-10-09T00:33:49Z",
+        "reviewedAt": "2026-10-09T00:35:24.212Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/dragosol/omarchy-pear-messages",
