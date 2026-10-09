@@ -313908,33 +313908,8 @@
             "quickshell",
             "workspaces"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "renanmt/switch-magic",
-        "pluginIds": [
-          "renanmt.switch-magic"
-        ],
-        "commit": "9cc51adf59bd4f3a2bd27e11825a65c55455c320",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-08T23:58:26.131Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-08T23:35:41.832Z",
-        "requestEventId": 32834580451,
-        "requestedAt": "2026-10-08T23:57:56Z",
-        "reviewedAt": "2026-10-08T23:58:26.131Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -313984,7 +313959,28 @@
             "reviewer": "HANCORE-linux"
           }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "renanmt/switch-magic",
+        "pluginIds": [
+          "renanmt.switch-magic"
+        ],
+        "commit": "9cc51adf59bd4f3a2bd27e11825a65c55455c320",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T23:58:26.131Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T23:35:41.832Z",
+        "requestEventId": 32834580451,
+        "requestedAt": "2026-10-08T23:57:56Z",
+        "reviewedAt": "2026-10-08T23:58:26.131Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/MaNi4/omarchy-search-menu-items",

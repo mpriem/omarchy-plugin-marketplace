@@ -287718,9 +287718,9 @@
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T19:43:54.463Z",
       "repositoryLayout": "root-plugin",
-      "installAvailable": false,
-      "installCommand": "",
-      "installNote": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions.",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/renanmt/switch-magic.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
       "category": "Productivity",
       "tags": [
         "hyprland",
@@ -287758,7 +287758,7 @@
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "c57f063f40c14ac51ee51b72a8b5f4cc1e3d51d3523e289e829f86bfb8cce802",
       "versionUpdatedAt": "2026-10-08T23:58:26.542Z",
-      "status": "Manual setup"
+      "status": "Available"
     },
     {
       "id": "mani4.search-menu-items",
