@@ -7012,13 +7012,18 @@
       "type": "plugin-source",
       "addedAt": "2026-08-14",
       "listedAt": "2026-08-14T18:29:10.599Z",
-      "listingValidatedCommit": "8b2fa7a9b263993f8a77ce8c0b0ebe095e0d9e51",
-      "listingValidatedAt": "2026-08-14T18:29:10.599Z",
+      "listingValidatedCommit": "773fe1dea1fb55724b1e50983fc1fa29b4264866",
+      "listingValidatedAt": "2026-10-09T14:56:20.922Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
+        "schemaVersion": 1,
         "version": "3",
-        "commit": "8b2fa7a9b263993f8a77ce8c0b0ebe095e0d9e51",
-        "checkedAt": "2026-08-14T18:27:57.446Z",
+        "repository": "tmn73/omarchy-jira",
+        "pluginIds": [
+          "tmn73.jira"
+        ],
+        "commit": "773fe1dea1fb55724b1e50983fc1fa29b4264866",
+        "checkedAt": "2026-10-09T14:56:20.921Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -7032,7 +7037,24 @@
             "quickshell"
           ]
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "8b2fa7a9b263993f8a77ce8c0b0ebe095e0d9e51",
+          "validatedAt": "2026-08-14T18:29:10.599Z",
+          "branch": "main",
+          "supersededAt": "2026-10-09T14:56:20.922Z",
+          "automatedSecurityBaseline": {
+            "version": "3",
+            "commit": "8b2fa7a9b263993f8a77ce8c0b0ebe095e0d9e51",
+            "checkedAt": "2026-08-14T18:27:57.446Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/EmiiFont/omarchy-github-search",
