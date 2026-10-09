@@ -314117,7 +314117,7 @@
           "io.github.dragosol.spectrum"
         ],
         "commit": "a52ef0c35e48f53e4ed8d92aaf2cffd435fa6efa",
-        "checkedAt": "2026-10-08T23:06:41.554Z",
+        "checkedAt": "2026-10-09T02:41:38.439Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -314131,11 +314131,7 @@
             "media",
             "quickshell"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       },
       "listingValidationHistory": [

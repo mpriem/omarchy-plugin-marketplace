@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T02:22:03.058Z",
+  "generatedAt": "2026-10-09T02:41:38.439Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -287662,14 +287662,14 @@
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
       "verificationCommit": "a52ef0c35e48f53e4ed8d92aaf2cffd435fa6efa",
-      "verificationCheckedAt": "2026-10-08T23:06:41.554Z",
+      "verificationCheckedAt": "2026-10-09T02:41:38.439Z",
       "manifestPath": "manifest.json",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T19:20:13.954Z",
       "repositoryLayout": "root-plugin",
-      "installAvailable": false,
-      "installCommand": "",
-      "installNote": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions.",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/dragosol/omarchy-spectrum.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
       "category": "Widgets",
       "tags": [
         "bar",
@@ -287702,7 +287702,7 @@
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "afcb267c10e2ae8e130734623f749be520dc69fa557144580baef67dc47c09b3",
       "versionUpdatedAt": "2026-10-08T23:06:42.042Z",
-      "status": "Manual setup"
+      "status": "Available"
     },
     {
       "id": "renanmt.switch-magic",
