@@ -317017,6 +317017,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/songlairui/omarchy-grokbot-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T13:47:13.069Z",
+      "listingValidatedCommit": "1ba861f55baf4d9e2b7ba8c717cce38dcedc1cb6",
+      "listingValidatedAt": "2026-10-09T13:47:13.069Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "songlairui/omarchy-grokbot-usage",
+        "pluginIds": [
+          "songlairui.grokbot-usage"
+        ],
+        "commit": "1ba861f55baf4d9e2b7ba8c717cce38dcedc1cb6",
+        "checkedAt": "2026-10-09T13:47:12.929Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "songlairui.grokbot-usage": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
