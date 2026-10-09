@@ -290543,8 +290543,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T11:23:57.755Z",
-      "listingValidatedCommit": "596de381c8bd6fb26dfc2086ef53a88ff34260d6",
-      "listingValidatedAt": "2026-10-09T05:40:17.422Z",
+      "listingValidatedCommit": "b4e2d3054379ee32ac19bb858bf4e2231894ad23",
+      "listingValidatedAt": "2026-10-09T08:44:40.424Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -290553,8 +290553,8 @@
         "pluginIds": [
           "gelu22.gateway"
         ],
-        "commit": "596de381c8bd6fb26dfc2086ef53a88ff34260d6",
-        "checkedAt": "2026-10-09T05:40:17.422Z",
+        "commit": "b4e2d3054379ee32ac19bb858bf4e2231894ad23",
+        "checkedAt": "2026-10-09T08:44:40.424Z",
         "outcome": "needs-fixes",
         "enforcementMode": "selective",
         "findings": [
@@ -290733,6 +290733,55 @@
             "reviewedAt": "2026-10-06T13:43:04.988Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "596de381c8bd6fb26dfc2086ef53a88ff34260d6",
+          "validatedAt": "2026-10-09T05:40:17.422Z",
+          "branch": "master",
+          "supersededAt": "2026-10-09T08:44:40.424Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gelu22/x402-gateway-omarchy",
+            "pluginIds": [
+              "gelu22.gateway"
+            ],
+            "commit": "596de381c8bd6fb26dfc2086ef53a88ff34260d6",
+            "checkedAt": "2026-10-09T05:40:17.422Z",
+            "outcome": "needs-fixes",
+            "enforcementMode": "selective",
+            "findings": [
+              "curl-pipe-shell"
+            ],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gelu22/x402-gateway-omarchy",
+            "pluginIds": [
+              "gelu22.gateway"
+            ],
+            "commit": "596de381c8bd6fb26dfc2086ef53a88ff34260d6",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-09T05:40:17.422Z",
+            "baselineOutcome": "needs-fixes",
+            "findings": [
+              "curl-pipe-shell"
+            ],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-09T04:55:18.042Z",
+            "requestEventId": 32849071196,
+            "requestedAt": "2026-10-09T05:39:43Z",
+            "reviewedAt": "2026-10-09T05:40:17.422Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -290741,10 +290790,10 @@
         "pluginIds": [
           "gelu22.gateway"
         ],
-        "commit": "596de381c8bd6fb26dfc2086ef53a88ff34260d6",
+        "commit": "b4e2d3054379ee32ac19bb858bf4e2231894ad23",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-09T05:40:17.422Z",
+        "baselineCheckedAt": "2026-10-09T08:44:40.424Z",
         "baselineOutcome": "needs-fixes",
         "findings": [
           "curl-pipe-shell"
@@ -290753,10 +290802,10 @@
           "privilege",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-09T04:55:18.042Z",
-        "requestEventId": 32849071196,
-        "requestedAt": "2026-10-09T05:39:43Z",
-        "reviewedAt": "2026-10-09T05:40:17.422Z",
+        "reviewedBaselineCheckedAt": "2026-10-09T07:47:36.563Z",
+        "requestEventId": 32859995243,
+        "requestedAt": "2026-10-09T08:44:10Z",
+        "reviewedAt": "2026-10-09T08:44:40.424Z",
         "reviewer": "HANCORE-linux"
       }
     },
