@@ -311053,8 +311053,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T12:11:12.417Z",
-      "listingValidatedCommit": "92c68ce410dc69dd95b64bf706a53542c30d6d30",
-      "listingValidatedAt": "2026-10-07T12:11:12.417Z",
+      "listingValidatedCommit": "6b51202867468df98b8f72d61256cc27e3c3b46f",
+      "listingValidatedAt": "2026-10-09T12:10:35.639Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -311063,35 +311063,14 @@
         "pluginIds": [
           "io.github.hcduller.vpn"
         ],
-        "commit": "92c68ce410dc69dd95b64bf706a53542c30d6d30",
-        "checkedAt": "2026-10-07T12:11:12.280Z",
+        "commit": "6b51202867468df98b8f72d61256cc27e3c3b46f",
+        "checkedAt": "2026-10-09T12:10:35.639Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "hcduller/omarchy-vpn",
-        "pluginIds": [
-          "io.github.hcduller.vpn"
-        ],
-        "commit": "92c68ce410dc69dd95b64bf706a53542c30d6d30",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-07T12:11:12.280Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-07T12:08:17.147Z",
-        "requestEventId": 32687472997,
-        "requestedAt": "2026-10-07T12:10:37Z",
-        "reviewedAt": "2026-10-07T12:11:12.281Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.hcduller.vpn": {
@@ -311105,7 +311084,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hcduller/omarchy-vpn",
+        "pluginIds": [
+          "io.github.hcduller.vpn"
+        ],
+        "commit": "6b51202867468df98b8f72d61256cc27e3c3b46f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T12:10:35.639Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T11:38:22.570Z",
+        "requestEventId": 32873103456,
+        "requestedAt": "2026-10-09T12:10:03Z",
+        "reviewedAt": "2026-10-09T12:10:35.639Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "92c68ce410dc69dd95b64bf706a53542c30d6d30",
+          "validatedAt": "2026-10-07T12:11:12.417Z",
+          "branch": "master",
+          "supersededAt": "2026-10-09T12:10:35.639Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "hcduller/omarchy-vpn",
+            "pluginIds": [
+              "io.github.hcduller.vpn"
+            ],
+            "commit": "92c68ce410dc69dd95b64bf706a53542c30d6d30",
+            "checkedAt": "2026-10-07T12:11:12.280Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "hcduller/omarchy-vpn",
+            "pluginIds": [
+              "io.github.hcduller.vpn"
+            ],
+            "commit": "92c68ce410dc69dd95b64bf706a53542c30d6d30",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-07T12:11:12.280Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-07T12:08:17.147Z",
+            "requestEventId": 32687472997,
+            "requestedAt": "2026-10-07T12:10:37Z",
+            "reviewedAt": "2026-10-07T12:11:12.281Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/neilofneils404/omarchy-yautja",
