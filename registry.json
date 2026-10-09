@@ -317071,6 +317071,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/geoweir/zabbix-bar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T14:44:58.261Z",
+      "listingValidatedCommit": "04214531ab680937632fbe6b063293b845896c0f",
+      "listingValidatedAt": "2026-10-09T14:44:58.261Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "geoweir/zabbix-bar",
+        "pluginIds": [
+          "geoweir.zabbix-problems"
+        ],
+        "commit": "04214531ab680937632fbe6b063293b845896c0f",
+        "checkedAt": "2026-10-09T14:44:58.172Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "geoweir.zabbix-problems": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
