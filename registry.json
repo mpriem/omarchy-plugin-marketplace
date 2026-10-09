@@ -316859,6 +316859,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/mtesseract/omarchy-hebrew-keyboard-overlay",
+      "type": "plugin-source",
+      "addedAt": "2026-10-09",
+      "listedAt": "2026-10-09T12:54:12.095Z",
+      "listingValidatedCommit": "7a41a18176df7f65b8528e47a46aade6cfc110f3",
+      "listingValidatedAt": "2026-10-09T12:54:12.095Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mtesseract/omarchy-hebrew-keyboard-overlay",
+        "pluginIds": [
+          "silverratio.hebrew-keyboard-overlay"
+        ],
+        "commit": "7a41a18176df7f65b8528e47a46aade6cfc110f3",
+        "checkedAt": "2026-10-09T12:54:11.985Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mtesseract/omarchy-hebrew-keyboard-overlay",
+        "pluginIds": [
+          "silverratio.hebrew-keyboard-overlay"
+        ],
+        "commit": "7a41a18176df7f65b8528e47a46aade6cfc110f3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T12:54:11.985Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T12:46:29.567Z",
+        "requestEventId": 32876045284,
+        "requestedAt": "2026-10-09T12:53:45Z",
+        "reviewedAt": "2026-10-09T12:54:11.985Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "silverratio.hebrew-keyboard-overlay": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "education"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
