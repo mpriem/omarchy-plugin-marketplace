@@ -184236,8 +184236,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-13",
       "listedAt": "2026-09-13T21:35:15.736Z",
-      "listingValidatedCommit": "d2039219b8cbed8516ba0ed6ba487641a124dd51",
-      "listingValidatedAt": "2026-10-07T20:48:48.649Z",
+      "listingValidatedCommit": "3175a26a293a4ef186500950dc59fe72ba557893",
+      "listingValidatedAt": "2026-10-09T02:48:41.546Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -184246,8 +184246,8 @@
         "pluginIds": [
           "jmthomas00.linecast"
         ],
-        "commit": "d2039219b8cbed8516ba0ed6ba487641a124dd51",
-        "checkedAt": "2026-10-07T20:48:48.649Z",
+        "commit": "3175a26a293a4ef186500950dc59fe72ba557893",
+        "checkedAt": "2026-10-09T02:48:41.546Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -184269,28 +184269,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "jmthomas00/omarchy-linecast",
-        "pluginIds": [
-          "jmthomas00.linecast"
-        ],
-        "commit": "d2039219b8cbed8516ba0ed6ba487641a124dd51",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-07T20:48:48.649Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-07T18:36:44.514Z",
-        "requestEventId": 32725361082,
-        "requestedAt": "2026-10-07T20:48:22Z",
-        "reviewedAt": "2026-10-07T20:48:48.649Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -184337,8 +184315,75 @@
             "reviewedAt": "2026-09-13T21:35:15.658Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "d2039219b8cbed8516ba0ed6ba487641a124dd51",
+          "validatedAt": "2026-10-07T20:48:48.649Z",
+          "branch": "main",
+          "supersededAt": "2026-10-09T02:48:41.546Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jmthomas00/omarchy-linecast",
+            "pluginIds": [
+              "jmthomas00.linecast"
+            ],
+            "commit": "d2039219b8cbed8516ba0ed6ba487641a124dd51",
+            "checkedAt": "2026-10-07T20:48:48.649Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "jmthomas00/omarchy-linecast",
+            "pluginIds": [
+              "jmthomas00.linecast"
+            ],
+            "commit": "d2039219b8cbed8516ba0ed6ba487641a124dd51",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-07T20:48:48.649Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-07T18:36:44.514Z",
+            "requestEventId": 32725361082,
+            "requestedAt": "2026-10-07T20:48:22Z",
+            "reviewedAt": "2026-10-07T20:48:48.649Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jmthomas00/omarchy-linecast",
+        "pluginIds": [
+          "jmthomas00.linecast"
+        ],
+        "commit": "3175a26a293a4ef186500950dc59fe72ba557893",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T02:48:41.546Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T16:49:44.766Z",
+        "requestEventId": 32841699667,
+        "requestedAt": "2026-10-09T02:48:10Z",
+        "reviewedAt": "2026-10-09T02:48:41.546Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/badspelr/omarchy-workspace-map",
