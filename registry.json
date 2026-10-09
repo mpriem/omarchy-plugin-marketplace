@@ -313881,8 +313881,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T19:43:54.463Z",
-      "listingValidatedCommit": "252db07479c6a40af17b4a46a8937644726a731b",
-      "listingValidatedAt": "2026-10-08T19:43:54.463Z",
+      "listingValidatedCommit": "9cc51adf59bd4f3a2bd27e11825a65c55455c320",
+      "listingValidatedAt": "2026-10-08T23:58:26.131Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -313891,39 +313891,14 @@
         "pluginIds": [
           "renanmt.switch-magic"
         ],
-        "commit": "252db07479c6a40af17b4a46a8937644726a731b",
-        "checkedAt": "2026-10-08T19:43:54.351Z",
+        "commit": "9cc51adf59bd4f3a2bd27e11825a65c55455c320",
+        "checkedAt": "2026-10-08T23:58:26.131Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "remote-build",
-          "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "renanmt/switch-magic",
-        "pluginIds": [
-          "renanmt.switch-magic"
-        ],
-        "commit": "252db07479c6a40af17b4a46a8937644726a731b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-08T19:43:54.351Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-08T19:35:28.434Z",
-        "requestEventId": 32820194439,
-        "requestedAt": "2026-10-08T19:43:18Z",
-        "reviewedAt": "2026-10-08T19:43:54.351Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "renanmt.switch-magic": {
@@ -313939,7 +313914,77 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "renanmt/switch-magic",
+        "pluginIds": [
+          "renanmt.switch-magic"
+        ],
+        "commit": "9cc51adf59bd4f3a2bd27e11825a65c55455c320",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-08T23:58:26.131Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-08T23:35:41.832Z",
+        "requestEventId": 32834580451,
+        "requestedAt": "2026-10-08T23:57:56Z",
+        "reviewedAt": "2026-10-08T23:58:26.131Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "252db07479c6a40af17b4a46a8937644726a731b",
+          "validatedAt": "2026-10-08T19:43:54.463Z",
+          "branch": "main",
+          "supersededAt": "2026-10-08T23:58:26.131Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "renanmt/switch-magic",
+            "pluginIds": [
+              "renanmt.switch-magic"
+            ],
+            "commit": "252db07479c6a40af17b4a46a8937644726a731b",
+            "checkedAt": "2026-10-08T19:43:54.351Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "renanmt/switch-magic",
+            "pluginIds": [
+              "renanmt.switch-magic"
+            ],
+            "commit": "252db07479c6a40af17b4a46a8937644726a731b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-08T19:43:54.351Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-08T19:35:28.434Z",
+            "requestEventId": 32820194439,
+            "requestedAt": "2026-10-08T19:43:18Z",
+            "reviewedAt": "2026-10-08T19:43:54.351Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/MaNi4/omarchy-search-menu-items",
