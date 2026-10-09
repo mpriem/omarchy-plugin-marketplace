@@ -226324,8 +226324,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T07:24:46.788Z",
-      "listingValidatedCommit": "5525f26bf54971e7320a708a8604e641afe1b41d",
-      "listingValidatedAt": "2026-09-22T07:24:46.788Z",
+      "listingValidatedCommit": "83c9a401ee99b5d6cdd06f7cdfb5fe098cda8250",
+      "listingValidatedAt": "2026-10-09T01:24:08.294Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -226334,35 +226334,14 @@
         "pluginIds": [
           "io.github.jfdnet.auto-power"
         ],
-        "commit": "5525f26bf54971e7320a708a8604e641afe1b41d",
-        "checkedAt": "2026-09-22T07:24:46.686Z",
+        "commit": "83c9a401ee99b5d6cdd06f7cdfb5fe098cda8250",
+        "checkedAt": "2026-10-09T01:24:08.294Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "jfdnet/omarchy-auto-power",
-        "pluginIds": [
-          "io.github.jfdnet.auto-power"
-        ],
-        "commit": "5525f26bf54971e7320a708a8604e641afe1b41d",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-22T07:24:46.686Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-22T05:52:47.384Z",
-        "requestEventId": 31581820109,
-        "requestedAt": "2026-09-22T07:21:28Z",
-        "reviewedAt": "2026-09-22T07:24:46.686Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.jfdnet.auto-power": {
@@ -226374,7 +226353,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jfdnet/omarchy-auto-power",
+        "pluginIds": [
+          "io.github.jfdnet.auto-power"
+        ],
+        "commit": "83c9a401ee99b5d6cdd06f7cdfb5fe098cda8250",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-09T01:24:08.294Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T01:04:33.795Z",
+        "requestEventId": 32838235742,
+        "requestedAt": "2026-10-09T01:23:38Z",
+        "reviewedAt": "2026-10-09T01:24:08.294Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5525f26bf54971e7320a708a8604e641afe1b41d",
+          "validatedAt": "2026-09-22T07:24:46.788Z",
+          "branch": "main",
+          "supersededAt": "2026-10-09T01:24:08.294Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jfdnet/omarchy-auto-power",
+            "pluginIds": [
+              "io.github.jfdnet.auto-power"
+            ],
+            "commit": "5525f26bf54971e7320a708a8604e641afe1b41d",
+            "checkedAt": "2026-09-22T07:24:46.686Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "jfdnet/omarchy-auto-power",
+            "pluginIds": [
+              "io.github.jfdnet.auto-power"
+            ],
+            "commit": "5525f26bf54971e7320a708a8604e641afe1b41d",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-22T07:24:46.686Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-22T05:52:47.384Z",
+            "requestEventId": 31581820109,
+            "requestedAt": "2026-09-22T07:21:28Z",
+            "reviewedAt": "2026-09-22T07:24:46.686Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jfdnet/omarchy-cn-indicator",
